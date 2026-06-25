@@ -1,0 +1,55 @@
+{
+    "title": "Humantay Lagoon",
+    "short_description": "A must-do tour to discover one of Cusco's most famous natural wonders.",
+    "long_description": "<b>START 04:00AM - END 05:00PM</b><br>Embark on an adventure to the stunning Humantay Lagoon, a hidden natural gem in the mountains of Cusco. Experience the magic of the turquoise waters surrounded by majestic Andean peaks!",
+    "duration": "1 Day",
+    "image_cover": "../tours/laguna-humantay-card.jpg",
+    "gallery": ["montana1.jpg", "montana2.jpg"],
+    "price": "90",
+    "price_note": "Includes transportation, entrance tickets, and professional guide.",
+
+    "seo_title": "Humantay Lagoon and Rainbow Mountain Tour - Cusco | GT Peru Travel",
+    "seo_description": "Enjoy a 1-day tour to Humantay Lagoon and Rainbow Mountain. Includes transport, professional guide, and an unforgettable experience in Cusco's Andean landscapes.",
+    "seo_keywords": "humantay lagoon, rainbow mountain, vinicunca, cusco 1 day tour, humantay excursion, peru travel, gt peru travel",
+
+    "days": [{
+        "title": "Day 1",
+        "text": "We depart early from Cusco to the village of Soraypampa, the starting point of the hike. The ascent, approximately 1.5 hours, takes you through spectacular Andean landscapes until reaching Humantay Lagoon, famous for its intense turquoise color and mystical energy. Enjoy panoramic views, connect with nature, and take unforgettable photos before returning. A perfect day for those seeking a natural, energetic, and beautiful Andean experience."
+    }],
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "HUMANTAY LAGOON TOUR - BASIC",
+            "precio": "90",
+            "descripcion": "Classic option with standard transportation.",
+            "nota": "Includes transfers and professional guide",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "HUMANTAY LAGOON TOUR - COMFORT",
+            "precio": "130",
+            "descripcion": "Includes superior transportation and buffet lunch.",
+            "nota": "Includes transfers, 2 ★★ service, and guided tours",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "HUMANTAY LAGOON TOUR - PREMIUM",
+            "precio": "150",
+            "descripcion": "Includes superior transportation and buffet lunch.",
+            "nota": "Includes transfers, 3 ★★★ service, and guided tours",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "HUMANTAY LAGOON TOUR - ELITE",
+            "precio": "180",
+            "descripcion": "Includes superior transportation and buffet lunch.",
+            "nota": "Includes transfers, 4 ★★★★ service, and guided tours",
+            "descuento": 0
+        }
+    }
+
+}

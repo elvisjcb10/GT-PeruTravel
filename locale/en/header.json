@@ -1,0 +1,99 @@
+{
+    "banner_social": {
+        "horario": "Mon-Sat 9am-6pm (PET)",
+        "telefono": "+51 982 770 013",
+         "extra_links": {
+            "blog": "Blog",
+            "testimonios": "Testimonials",
+            "nosotros": "About us",
+            "impacto": "Plan Your Trip"
+        }
+    },
+    "menu": {
+        "destinos": "Destinations",
+        "tour_cusco": "Cusco Tours",
+        "machupicchu": "Machu Picchu",
+        "glaciares_cusco": "Cusco Glaciers",
+        "experiencia_unica": "Unique Experiences",
+        "paquete_peru": "Peru Packages"
+    },
+
+    "mega_menu": {
+        "destinos":{
+            "lima":{
+                "nombre":"Lima",
+                "img":""
+            },
+            "manu_tambopata":{
+                "nombre":"Manu Tambopata",
+                "img":""
+            },
+            "puno":{
+                "nombre":"Puno",
+                "img":""
+            },
+            "arequipa":{
+                "nombre":"Arequipa",
+                "img":""
+            },
+            "huaraz":{
+                "nombre":"Huaraz",
+                "img":""
+            }
+        },
+        "paquetes_turisticos": {
+            "col1_title": "Classic Packages",
+            "col2_title": "Adventure Packages",
+            "col3_title": "Premium Packages",
+            "ver_todos": "View all packages →",
+
+            "links": {
+                "machupicchu_valle": "Machu Picchu + Sacred Valley",
+                "camino_inca_corto": "Short Inca Trail",
+                "peru_magico": "Magical Peru",
+                "peru_prime": "Peru Prime",
+                "cusco_magico": "Magical Cusco",
+                "peru_premium": "Peru Premium",
+                "peru_mistico": "Mystical Peru"
+            }
+        },
+
+        "paquetes_machupicchu": {
+            "col1_title": "Classic Machu Picchu",
+            "col2_title": "With Mountains",
+            "col3_title": "Special Experiences",
+            "ver_todos": "View all Machu Picchu tours →",
+
+            "links": {
+                "mp_1_dia": "Machu Picchu 1 Day",
+                "mp_2d_1n": "Machu Picchu 2D / 1N",
+                "tren_panoramico": "Panoramic Train + Tour",
+                "huayna_picchu": "Machu Picchu + Huayna Picchu",
+                "montana_mp": "Machu Picchu + Machu Picchu Mountain",
+                "huchuy_picchu": "Machu Picchu + Huchuy Picchu",
+                "mp_valle": "Machu Picchu + Sacred Valley",
+                "tren_lujo": "Luxury Train to Machu Picchu",
+                "mp_premium": "Machu Picchu Full Day Premium"
+            }
+        },
+
+        "tours": {
+            "col1_title": "Cusco Tours",
+            "col2_title": "Machu Picchu Tours",
+            "col3_title": "Alternative Tours",
+            "ver_todos": "View all tours →",
+
+            "links": {
+                "machupicchu": "Machu Picchu",
+                "humantay": "Humantay Lake",
+                "rainbow": "Rainbow Mountain",
+                "quelccaya": "Quelccaya Glacier",
+                "qeswachaka": "Q’eswachaka Bridge",
+                "waqrapukara": "Waqrapukara",
+                "mp_full_day": "Machu Picchu Full Day",
+                "mp_montana": "Machu Picchu + Mountain",
+                "mp_huayna": "Short Inca Trail"
+            }
+        }
+    }
+}

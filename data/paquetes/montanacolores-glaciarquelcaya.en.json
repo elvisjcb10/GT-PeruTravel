@@ -1,0 +1,63 @@
+{
+    "title": "Rainbow Mountain + Quelccaya Glacier",
+    "long_description": "Enjoy a complete Andean experience by combining two of Cusco’s most impressive natural landscapes: Rainbow Mountain (Vinicunca) and the Quelccaya Glacier, the largest tropical glacier in the world. A tour designed for travelers seeking adventure, nature, and unique scenery far from the conventional routes.",
+    "short_description": "Rainbow Mountain + Quelccaya Glacier.",
+    "duration": "2 Days / 1 Night",
+    "image_cover": "montana-colores-cusco-peru.jpg",
+    "gallery": ["vinicunca1.jpg", "quelccaya1.jpg"],
+    "price": "145",
+    "price_note": "Includes transportation, entrance tickets, and professional guide.",
+
+    "seo_title": "Rainbow Mountain and Quelccaya Glacier | 2-Day Tour from Cusco",
+    "seo_description": "Discover Rainbow Mountain Vinicunca and the Quelccaya Glacier on a 2-day tour from Cusco. Adventure, nature, and breathtaking landscapes in the Peruvian Andes.",
+    "seo_keywords": "rainbow mountain, vinicunca, quelccaya glacier, quelccaya tour, vinicunca tour, cusco trekking, adventure tours cusco, nature tours cusco",
+
+    "days": [{
+            "title": "Day 1 – Rainbow Mountain",
+            "text": "We depart very early from Cusco heading south, passing through high-Andean communities and landscapes of the Vilcanota mountain range. After breakfast, we begin a gradual hike surrounded by alpacas and sacred mountains until reaching the summit of Rainbow Mountain, where the intense natural colors create an unforgettable view. After free time for photos, we continue our journey toward the Quelccaya area to spend the night."
+        },
+        {
+            "title": "Day 2 – Quelccaya Glacier",
+            "text": "After breakfast, we head to the starting point of the hike to the glacier. Along the way, we will observe lagoons, snow-capped peaks, and Andean wildlife until reaching the impressive glacier front of Quelccaya. The guide will explain the natural and cultural importance of this unique place. After the visit, we begin our return to Cusco."
+        }
+    ],
+
+    "technical_sheet": "QUELCCAYA GLACIER AND RAINBOW MOUNTAIN TOUR <br>• Destination: Quelccaya Glacier and Rainbow Mountain <br>• Duration: 2 days / 1 night <br>• Maximum altitude: 4,800 – 5,100 m a.s.l. <br>• Difficulty level: Moderate – High <br>• Tour type: Nature / Adventure / Glaciers <br>• Hiking time: 1 to 2 hours (approx.) <br>• Climate: Andean cold <br>• Recommended for: Acclimatized travelers in good physical condition <br>• Not recommended for: People with heart or respiratory conditions",
+    "includes": "• Tourist transportation.<br>• Professional guide.<br>• 2 breakfasts.<br>• 2 lunches.<br>• 1 dinner.<br>• 1 night rural accommodation.<br>• Trekking poles.<br>• Thermal blankets.<br>• Oxygen and first-aid kit.",
+    "not_includes": "• Sleeping bag (recommended for travelers from warm climates)<br>• Snacks.<br>• Tips.",
+
+    "brochure": "",
+    "map": "mapa-montanacolores-glaciarquelcaya-en.jpg",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "QUELCCAYA + RAINBOW MOUNTAIN TOUR – BASIC",
+            "precio": "145",
+            "descripcion": "Service option based on comfort level and tour experience.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "QUELCCAYA + RAINBOW MOUNTAIN TOUR – COMFORT",
+            "precio": "145",
+            "descripcion": "Service option based on comfort level and tour experience.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "QUELCCAYA + RAINBOW MOUNTAIN TOUR – PREMIUM",
+            "precio": "145",
+            "descripcion": "Service option based on comfort level and tour experience.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "QUELCCAYA + RAINBOW MOUNTAIN TOUR – ELITE",
+            "precio": "145",
+            "descripcion": "Service option based on comfort level and tour experience.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        }
+    }
+}

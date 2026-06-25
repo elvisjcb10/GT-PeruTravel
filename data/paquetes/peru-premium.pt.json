@@ -1,0 +1,111 @@
+{
+    "title": "Peru Premium",
+    "short_description": "Uma viagem completa pelo Peru: Lima, Paracas, Ica, Nazca, Cusco, Machu Picchu, Puno e Arequipa",
+    "long_description": "Explore o melhor do Peru em um programa de 15 dias que combina história, natureza e cultura viva. De Lima e da Costa Sul aos Andes e ao majestoso Machu Picchu, viva uma experiência inesquecível projetada para viajantes que buscam um roteiro Premium pelos destinos mais emblemáticos do país.",
+    "duration": "15 Dias / 14 Noites",
+    "image_cover": "peru-premium.jpg",
+    "gallery": ["machu1.jpg", "machu2.jpg"],
+    "price": "1359",
+    "price_note": "Inclui transporte, ingressos e guia profissional.",
+
+    "seo_title": "Peru Premium 15 Dias / 14 Noites – Lima, Cusco, Machu Picchu, Puno e Arequipa | GT Peru Travel",
+    "seo_description": "Pacote Peru Premium 15 Dias / 14 Noites: Lima, Paracas, Ica, Cusco, Machu Picchu, Puno, Arequipa e Nazca. Inclui ingressos, transporte, tours guiados e experiências culturais.",
+    "seo_keywords": "peru premium, tour peru 15 dias, machu picchu pacote, viagem peru completa, cusco puno arequipa tour, linhas de nazca tour, gt peru travel",
+    "days": [{
+            "title": "Dia 1 – Lima",
+            "text": "Chegada a Lima, recepção e traslado ao hotel. City tour opcional para conhecer a história, a gastronomia e as paisagens urbanas da capital, caso chegue cedo."
+        },
+        {
+            "title": "Dia 2 – Lima / Paracas / Ica – Huacachina / Nazca",
+            "text": "Viagem a Paracas, passeio de barco às Ilhas Ballestas e aventura no oásis de Huacachina com buggies e sandboard. Traslado a Nazca e pernoite."
+        },
+        {
+            "title": "Dia 3 – Linhas de Nazca / Sobrevoo – Lima",
+            "text": "Emocionante sobrevoo às Linhas de Nazca para descobrir seus mistérios ancestrais vistos do ar. Retorno confortável a Lima em ônibus."
+        },
+        {
+            "title": "Dia 4 – Lima / Cusco",
+            "text": "Voo de Lima a Cusco. Dia livre para aclimatação, passeio tranquilo pela cidade imperial e adaptação à altitude andina."
+        },
+        {
+            "title": "Dia 5 – Cusco / City Tour",
+            "text": "City tour por Cusco visitando o Coricancha, Sacsayhuamán e um santuário de camelídeos, explorando a história inca e a arquitetura colonial."
+        },
+        {
+            "title": "Dia 6 – Vale Sagrado / Águas Calientes",
+            "text": "Visita a Chinchero, Maras, Moray e Ollantaytambo, apreciando as paisagens andinas antes de seguir viagem a Águas Calientes."
+        },
+        {
+            "title": "Dia 7 – Machu Picchu / Cusco",
+            "text": "Visita guiada a Machu Picchu, uma das Sete Maravilhas do Mundo, com tempo para fotos inesquecíveis e retorno a Cusco."
+        },
+        {
+            "title": "Dia 8 – Cusco / Lagoa Humantay",
+            "text": "Caminhada até a espetacular Lagoa Humantay, cercada por montanhas nevadas e vistas impressionantes. Retorno a Cusco à tarde."
+        },
+        {
+            "title": "Dia 9 – Cusco / Montanha Colorida",
+            "text": "Excursão a Vinicunca, a famosa Montanha das Sete Cores, com trekking moderado e panoramas únicos dos Andes."
+        },
+        {
+            "title": "Dia 10 – Cusco / Puno – Rota do Sol",
+            "text": "Viagem cênica pela Rota do Sol em direção a Puno, visitando templos, museus e paisagens andinas."
+        },
+        {
+            "title": "Dia 11 – Puno / Uros – Amantaní",
+            "text": "Navegação pelo Lago Titicaca visitando as ilhas flutuantes de Uros e experiência cultural com uma família local em Amantaní."
+        },
+        {
+            "title": "Dia 12 – Amantaní / Taquile – Puno / Arequipa",
+            "text": "Visita à ilha de Taquile, famosa por sua cultura ancestral. Retorno a Puno e viagem noturna de ônibus até Arequipa."
+        },
+        {
+            "title": "Dia 13 – Arequipa / City Tour",
+            "text": "City tour por Arequipa visitando Yanahuara, Carmen Alto, o Mosteiro de Santa Catalina e seu elegante Centro Histórico."
+        },
+        {
+            "title": "Dia 14 – Arequipa / Cânion do Colca",
+            "text": "Excursão ao Cânion do Colca, observando condores, mirantes naturais e desfrutando de relaxantes banhos termais."
+        },
+        {
+            "title": "Dia 15 – Arequipa / Lima",
+            "text": "Traslado ao aeroporto e voo de retorno a Lima, encerrando uma experiência inesquecível pelo melhor do Peru."
+        }
+    ],
+
+
+    "brochure": "",
+    "map": "mapa-paquete-peru-premium-15d-14n-pt.jpg",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "TOUR MACHUPICCHU - BÁSICO",
+            "precio": "1359",
+            "descripcion": "Serviço clássico com trem Expedition.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "TOUR MACHUPICCHU - CONFORTO",
+            "precio": "1359",
+            "descripcion": "Inclui trem Vistadome e almoço buffet.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "TOUR MACHUPICCHU - PREMIUM",
+            "precio": "1359",
+            "descripcion": "Trem Vistadome + maior conforto.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "TOUR MACHUPICCHU - ELITE",
+            "precio": "1359",
+            "descripcion": "Experiência completa com máximo conforto.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "title": "Montanha Colorida + 7 Lagoas de Ausangate",
+    "long_description": "Viva uma das experiências mais completas e espetaculares do sul do Peru. Este tour combina a famosa Montanha Colorida (Vinicunca) com o impressionante circuito das 7 Lagoas de Ausangate, em uma viagem pensada para viajantes que buscam aventura, paisagens únicas e um contato autêntico com os Andes.",
+    "short_description": "Montanha Colorida + 7 Lagoas de Ausangate.",
+    "duration": "2 Dias / 1 Noite",
+    "image_cover": "montanacolores-7lagunas.jpg",
+    "gallery": ["vinicunca1.jpg", "7lagunas1.jpg"],
+    "price": "125",
+    "price_note": "Inclui transporte, ingressos de entrada e guia profissional.",
+
+    "seo_title": "Montanha Colorida e 7 Lagoas de Ausangate | Tour de 2 Dias desde Cusco",
+    "seo_description": "Descubra a Montanha Colorida Vinicunca e o circuito das 7 Lagoas de Ausangate em um tour de 2 dias desde Cusco. Aventura, natureza e paisagens únicas dos Andes.",
+    "seo_keywords": "montanha colorida, vinicunca, 7 lagoas ausangate, tour ausangate, trekking cusco, tours de aventura cusco, natureza em cusco",
+
+    "days": [{
+            "title": "Dia 1 - Cusco – Montanha Colorida – Comunidade Andina",
+            "text": "Saída bem cedo de Cusco (aprox. 4:00 da manhã) em direção ao sul do Vale de Ausangate. No caminho, faremos uma parada para o café da manhã. Em seguida, continuamos até o ponto inicial da caminhada até a Montanha Colorida (Vinicunca), realizando uma trilha gradual de aproximadamente 1,5 a 2 horas até chegar ao mirante principal, onde apreciaremos a impressionante paisagem multicolorida dos Andes, localizada a 5.036 m acima do nível do mar. Tempo livre para fotos e explicação do guia. Após a descida, seguimos para o almoço buffet e depois partimos rumo a Pacchanta, onde passaremos a noite. Jantar e pernoite em hospedagem rural, cercados por montanhas e um céu estrelado único."
+        },
+        {
+            "title": "Dia 2 - 7 Lagoas de Ausangate – Cusco",
+            "text": "Café da manhã cedo e saída para o circuito das 7 Lagoas de Ausangate, uma caminhada cênica de aproximadamente 5 a 6 horas no total, visitando lagoas localizadas entre 4.200 e 4.800 metros acima do nível do mar, com intensas cores turquesa, azul e verde, e vistas privilegiadas do Nevado Ausangate. Há a opção de desfrutar de banhos termais (opcional). Em seguida, retornamos à comunidade para o almoço e finalmente iniciamos a viagem de volta à cidade de Cusco, chegando aproximadamente entre 17:00 e 18:00 horas."
+        }
+    ],
+
+    "technical_sheet": "TOUR MONTANHA COLORIDA + 7 LAGOAS DE AUSANGATE <br>• Destino: Montanha Colorida e as 7 Lagoas de Ausangate.<br>• Duração: 2 dias / 1 noite.<br>• Altitude máxima: 4.200 – 5.036 m acima do nível do mar.<br>• Nível de exigência: Moderado – Alto.<br>• Tipo de tour: Natureza / Aventura / Trekking.<br>• Clima: Frio andino.<br>• Recomendado para: Pessoas aclimatadas e com boa condição física.<br>• Não recomendado para: Pessoas com problemas cardíacos ou respiratórios.",
+
+    "includes": "• Transporte turístico.<br>• Guia profissional.<br>• 2 cafés da manhã.<br>• 2 almoços.<br>• 1 jantar.<br>• 1 noite de hospedagem rural.<br>• Bastões de trekking.<br>• Mantas térmicas.<br>• Oxigênio e kit de primeiros socorros.",
+
+    "not_includes": "• Saco de dormir (recomendado para pessoas de climas quentes).<br>• Lanches.<br>• Gorjetas.",
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "TOUR MONTANHA COLORIDA + 7 LAGOAS – BÁSICO",
+            "precio": "125",
+            "descripcion": "Opção de serviço conforme o nível de conforto e experiência durante o tour.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "TOUR MONTANHA COLORIDA + 7 LAGOAS – CONFORTO",
+            "precio": "125",
+            "descripcion": "Opção de serviço conforme o nível de conforto e experiência durante o tour.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "TOUR MONTANHA COLORIDA + 7 LAGOAS – PREMIUM",
+            "precio": "125",
+            "descripcion": "Opção de serviço conforme o nível de conforto e experiência durante o tour.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "TOUR MONTANHA COLORIDA + 7 LAGOAS – ELITE",
+            "precio": "125",
+            "descripcion": "Opção de serviço conforme o nível de conforto e experiência durante o tour.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        }
+    }
+}

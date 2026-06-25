@@ -1,0 +1,54 @@
+{
+    "title": "Fortaleza Waqrapukara",
+    "short_description": "Um tour imperdível para descobrir uma das maravilhas naturais e arqueológicas mais impressionantes de Cusco.",
+    "long_description": "<b>HORÁRIO ÚNICO: 04:00 AM – 18:00 PM APROX</b><br> Atravesse as alturas do cânion do Apurímac e descubra Waqrapukara, a fortaleza inca em forma de chifre. Uma aventura cheia de energia, história e paisagens inesquecíveis.",
+    "duration": "1 Dia",
+    "image_cover": "../tours/waqrapukara-card.jpg",
+    "gallery": ["montana1.jpg", "montana2.jpg"],
+    "price": "90",
+    "price_note": "Inclui transporte, ingressos e guia profissional.",
+
+    "seo_title": "Tour Fortaleza Waqrapukara - Full Day saindo de Cusco | GT Peru Travel",
+    "seo_description": "Explore Waqrapukara, a impressionante fortaleza inca no alto do cânion do Apurímac. Tour full day saindo de Cusco com transporte, ingressos e guia profissional.",
+    "seo_keywords": "waqrapukara, fortaleza waqrapukara, tour waqrapukara full day, fortaleza inca cusco, cânion apurímac, trilha waqrapukara, turismo cusco, gt peru travel",
+
+    "days": [{
+        "title": "Dia 1",
+        "text": "Saímos cedo de Cusco em direção ao sul, apreciando paisagens andinas, comunidades locais e um ambiente cheio de mistério. Após uma caminhada cercada por montanhas e formações rochosas, chegamos ao impressionante santuário inca conhecido como “a fortaleza dos chifres”, símbolo do poder espiritual e militar dos antigos peruanos. Do topo, a 4100 msnm, as vistas do cânion do Apurímac são simplesmente inesquecíveis."
+    }],
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "WAQRAPUKARA FORTALEZA - BÁSICO",
+            "precio": "90",
+            "descripcion": "Opção clássica com transporte padrão.",
+            "nota": "Inclui traslados e guia profissional",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "WAQRAPUKARA FORTALEZA - CONFORTO",
+            "precio": "130",
+            "descripcion": "Inclui transporte superior e almoço buffet.",
+            "nota": "Inclui traslados, serviço 2 ★★ e visitas guiadas",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "WAQRAPUKARA FORTALEZA - PREMIUM",
+            "precio": "150",
+            "descripcion": "Inclui transporte superior e almoço buffet.",
+            "nota": "Inclui traslados, serviço 3 ★★★ e visitas guiadas",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "WAQRAPUKARA FORTALEZA - ELITE",
+            "precio": "180",
+            "descripcion": "Inclui transporte superior e almoço buffet.",
+            "nota": "Inclui traslados, serviço 4 ★★★★ e visitas guiadas",
+            "descuento": 0
+        }
+    }
+}

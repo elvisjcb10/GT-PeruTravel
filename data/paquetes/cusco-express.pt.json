@@ -1,0 +1,65 @@
+{
+    "title": "Cusco Express",
+    "short_description": "Cusco – Vale Sagrado – Ollantaytambo – Machu Picchu",
+    "long_description": "Viva uma experiência intensa em Cusco, a histórica capital do Império Inca. Em apenas 3 dias você visitará os principais atrativos, incluindo a cidade, o Vale Sagrado e a impressionante Machu Picchu.",
+    "duration": "3 Dias / 2 Noites",
+
+    "image_cover": "cusco-express.jpg",
+    "gallery": ["machu1.jpg", "machu2.jpg"],
+
+    "price": "345",
+    "price_note": "Inclui transporte, ingressos e guia profissional.",
+
+    "seo_title": "Cusco Express 3D/2N – Machu Picchu e Vale Sagrado | GT Peru Travel",
+    "seo_description": "Tour Cusco Express 3 dias: Cusco, Vale Sagrado e Machu Picchu. Pacote ideal para viagens rápidas com ingressos, transporte e guia profissional.",
+    "seo_keywords": "cusco express, tour cusco 3 dias, machu picchu express, vale sagrado peru, pacote cusco rapido, viagem cusco, gt peru travel",
+
+    "days": [{
+            "title": "Dia 1: Chegada a Cusco e Aclimatação",
+            "text": "Recepção no aeroporto e traslado ao hotel. Tarde livre para aclimatação. Opcional visitar o Centro Qosqo de Arte Nativa para apreciar danças típicas."
+        },
+        {
+            "title": "Dia 2: Machu Picchu",
+            "text": "Saída cedo para Ollantaytambo e embarque no trem panorâmico rumo a Aguas Calientes. Subida de ônibus até Machu Picchu para visita guiada pelos pontos mais importantes. Tempo livre e retorno a Cusco à tarde."
+        },
+        {
+            "title": "Dia 3: Traslado ao Aeroporto",
+            "text": "Café da manhã no hotel. No horário programado, traslado ao aeroporto para seu voo de saída. Fim dos serviços."
+        }
+    ],
+
+    "brochure": "",
+    "map": "mapa-paquete-cusco-express-3d-2n-pt.jpg",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "TOUR MACHU PICCHU – STANDARD",
+            "precio": "345",
+            "descripcion": "Opção clássica com trem Expedition.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "TOUR MACHU PICCHU – CONFORTO",
+            "precio": "345",
+            "descripcion": "Inclui trem Vistadome e almoço buffet.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "TOUR MACHU PICCHU – PREMIUM",
+            "precio": "345",
+            "descripcion": "Trem Vistadome + experiências adicionais.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "TOUR MACHU PICCHU – ELITE",
+            "precio": "345",
+            "descripcion": "Experiência completa com máximo conforto.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "title": "Rainbow Mountain",
+    "short_description": "A must-see tour to discover one of Cusco's most famous natural wonders.",
+    "long_description": "<b>MORNING: 04:30 AM - 18:00 PM</b><br>Embark on a magical journey to one of Peru’s most stunning landscapes. In one day you will explore the sacred Ausangate area and visit the impressive Rainbow Mountain Vinicunca with its vibrant natural colors.",
+    "duration": "1 Day",
+    "image_cover": "../tours/montana-de-7-colores-card.jpg",
+    "gallery": ["montana1.jpg", "montana2.jpg"],
+    "price": "90",
+    "price_note": "Includes transportation, entrance tickets, and professional guide.",
+
+    "seo_title": "Rainbow Mountain Vinicunca Tour - Full Day from Cusco | GT Peru Travel",
+    "seo_description": "Experience Rainbow Mountain Vinicunca on a full-day tour from Cusco. Includes transportation, entrance fees, and a professional guide.",
+    "seo_keywords": "rainbow mountain, vinicunca peru, rainbow mountain tour cusco, vinicunca full day, cusco day tours, peru travel, gt peru travel",
+
+    "days": [{
+        "title": "Day 1",
+        "text": "We depart early toward Vinicunca, the famous Rainbow Mountain, where we will hike up to its natural viewpoint to admire its unique colors and the majestic Ausangate glacier. Then we continue to the Pacchanta area, where you may relax in the local hot springs before returning to Cusco. A perfect experience to enjoy breathtaking landscapes and pure Andean nature."
+    }],
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "RAINBOW MOUNTAIN TOUR – BASIC",
+            "precio": "90",
+            "descripcion": "Classic option with standard transportation.",
+            "nota": "Includes transfers and professional guide",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "RAINBOW MOUNTAIN TOUR – COMFORT",
+            "precio": "130",
+            "descripcion": "Includes superior transportation and buffet lunch.",
+            "nota": "Includes transfers, 2 ★★ service and guided visits",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "RAINBOW MOUNTAIN TOUR – PREMIUM",
+            "precio": "150",
+            "descripcion": "Includes superior transportation and buffet lunch.",
+            "nota": "Includes transfers, 3 ★★★ service and guided visits",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "RAINBOW MOUNTAIN TOUR – ELITE",
+            "precio": "180",
+            "descripcion": "Includes superior transportation and buffet lunch.",
+            "nota": "Includes transfers, 4 ★★★★ service and guided visits",
+            "descuento": 0
+        }
+    }
+}

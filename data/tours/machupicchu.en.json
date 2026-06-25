@@ -1,0 +1,54 @@
+{
+    "title": "Machu Picchu Tour",
+    "long_description": "<b>AVAILABLE HOURS 05:30AM - 09:00PM</b><br> Embark on an unforgettable adventure and discover the majestic Inca city of Machu Picchu, one of the 7 wonders of the modern world. Experience the magic and energy of this sacred place in just one day!",
+    "short_description": "Enjoy a full-day tour packed with culture, history, and stunning landscapes in Peru, ideal for travelers with limited time.",
+    "duration": "1 Day",
+    "image_cover": "../tours/machupicchu-card.jpg",
+    "gallery": ["machu1.jpg", "machu2.jpg"],
+    "price": "300",
+    "price_note": "Includes transportation, entrance tickets, and professional guide.",
+
+    "seo_title": "1-Day Machu Picchu Tour – Complete Excursion | GT Peru Travel",
+    "seo_description": "Experience a 1-day Machu Picchu tour from Cusco. Includes transport, entrance tickets, professional guide, and all comforts to explore the Inca citadel in a single day.",
+    "seo_keywords": "machu picchu tour 1 day, machu picchu excursion, cusco 1 day tour, peru trips, machu picchu tourism, gt peru travel",
+
+    "days": [{
+        "title": "Day 1",
+        "text": "We will depart early to the town of Ollantaytambo/Poroy, where we board the train to Aguas Calientes, enjoying stunning Andean scenery along the way. Upon arrival, we take the bus up to the Inca citadel of Machu Picchu, where a specialized guide will reveal the secrets, history, and mysticism of this incredible archaeological site. You will have free time to explore and admire the most iconic views before returning to Cusco by train and tour transport."
+    }],
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "MACHU PICCHU TOUR - STANDARD",
+            "precio": "300",
+            "descripcion": "Classic option with Expedition train.",
+            "nota": "Includes transport, tourist guide, entrance tickets, and guided visits",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "MACHU PICCHU TOUR - COMFORT",
+            "precio": "350",
+            "descripcion": "Includes Vistadome train and buffet lunch.",
+            "nota": "Includes transfers, 2 ★★ service, and guided visits",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "MACHU PICCHU TOUR - PREMIUM",
+            "precio": "400",
+            "descripcion": "Includes Vistadome train and buffet lunch.",
+            "nota": "Includes transfers, 3 ★★★ service, and guided visits",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "MACHU PICCHU TOUR - ELITE",
+            "precio": "450",
+            "descripcion": "Includes Vistadome train and buffet lunch.",
+            "nota": "Includes transfers, 4 ★★★★ service, and guided visits",
+            "descuento": 0
+        }
+    }
+}

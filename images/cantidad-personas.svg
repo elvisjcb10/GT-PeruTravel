@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="icono" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2999.71 2827.53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff6000;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #ff6000;
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <g id="icono_de_persona" data-name="icono de persona">
+    <circle id="_4" data-name="4" class="cls-1" cx="1197.06" cy="562.98" r="562.98"/>
+    <g id="_3" data-name="3">
+      <path class="cls-1" d="M1884.36,1292.96c-73.31-24.64-151.59-39.32-232.93-39.32h-908.75C337.58,1253.65,0,1587.32,0,1992.42v734.52h1598.4c-141.75-171.89-227.82-374.32-227.82-606.71,0-362.77,209.37-676.39,513.79-827.27Z"/>
+    </g>
+    <circle id="_2" data-name="2" class="cls-2" cx="2293.64" cy="2121.46" r="702.07"/>
+    <g id="_1" data-name="1">
+      <rect class="cls-1" x="2164.32" y="1659.57" width="221.71" height="923.77"/>
+      <rect class="cls-1" x="2164.32" y="1659.57" width="221.71" height="923.77" transform="translate(4396.63 -153.71) rotate(90)"/>
+    </g>
+  </g>
+</svg>

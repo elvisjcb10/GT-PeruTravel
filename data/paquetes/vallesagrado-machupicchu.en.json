@@ -1,0 +1,63 @@
+{
+    "title": "Sacred Valley + Machu Picchu",
+    "long_description": "Enjoy two magical days exploring the Sacred Valley of the Incas, one of the most fertile and spiritual regions of the Inca Empire, and finish with a visit to the majestic Historic Sanctuary of Machu Picchu, one of the 7 Wonders of the Modern World.",
+    "short_description": "Sacred Valley + Machu Picchu",
+    "duration": "2 Days / 1 Night",
+    "image_cover": "valle-sagrado-machupicchu.jpg",
+    "gallery": ["pisac.jpg", "ollantaytambo.jpg", "machupicchu.jpg"],
+    "price": "389",
+    "price_note": "Includes transportation, entrance tickets, and professional guide.",
+
+    "seo_title": "Sacred Valley and Machu Picchu | 2-Day Tour from Cusco",
+    "seo_description": "Explore the Sacred Valley of the Incas and visit Machu Picchu on a 2-day tour from Cusco. Culture, history, and breathtaking landscapes.",
+    "seo_keywords": "sacred valley, machu picchu, machu picchu 2 day tour, sacred valley cusco, cusco tours",
+
+    "days": [{
+            "title": "Day 1 - Cusco - Sacred Valley - Aguas Calientes",
+            "text": "We begin our journey to the Sacred Valley, visiting Pisac and its impressive archaeological complex, as well as its traditional handicraft market. We then continue to Urubamba, where we enjoy a buffet lunch. In the afternoon, we explore the fortress of Ollantaytambo, an architectural jewel of the Inca civilization. Later, we board the train to Aguas Calientes, traveling alongside the river with spectacular and unique views, arriving at the town of Aguas Calientes where we spend the night."
+        },
+        {
+            "title": "Day 2 - Machu Picchu - Cusco",
+            "text": "The most anticipated day. Our guide will pick you up at your hotel to begin this magical adventure to the wonder of Machu Picchu. From the first sunrise in the Andes to the moment Machu Picchu appears before your eyes, you will feel time stand still. Walking along its stone paths, touching its ancient walls, and breathing the energy of the sacred city is an experience that cannot be explained—it must be felt. Machu Picchu holds ancient silence, ancestral wisdom, and landscapes that remain forever in your memory. Each step is a connection with the Inca legacy, and every view is a perfect postcard. Later, we descend to the town, enjoy free time for lunch, and then board the train back to Cusco. Because there are trips you remember… and others that change you forever. Machu Picchu is one of them."
+        }
+    ],
+
+    "technical_sheet": "SACRED VALLEY + MACHU PICCHU <br>• Destination: Sacred Valley of the Incas and Machu Picchu.<br>• Duration: 2 days / 1 night.<br>• Maximum altitude: 3,399 m a.s.l. (Machu Picchu).<br>• Difficulty level: Moderate.<br>• Tour type: Cultural / Historical / Nature.<br>• Climate: Mild, cold at night.<br>• Recommended for: All travelers in good health.<br>• Not recommended for: People with reduced mobility without assistance.",
+    "includes": "• Tourist transportation Cusco – Sacred Valley.<br>• Tourist ticket for the Sacred Valley.<br>• Professional guide.<br>• Buffet lunch in the Sacred Valley.<br>• Tourist train (round trip Expedition or Voyager).<br>• 01 night in a 3-star hotel.<br>• 01 breakfast (Day 2).<br>• Entrance ticket to Machu Picchu.<br>• Bus up and down to Machu Picchu (Consetur).<br>• Guided tour in Machu Picchu.<br>• Transfer from Ollantaytambo / Poroy to Cusco.",
+    "not_includes": "• Meals not specified<br>• Personal expenses.<br>• Services not mentioned.",
+
+    "brochure": "",
+    "map": "mapa-paquete-valle-sagrado-y-machupicchu-2d-1n-en.jpg",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "SACRED VALLEY + MACHU PICCHU – BASIC",
+            "precio": "389",
+            "descripcion": "Service option according to comfort level and tour experience.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "SACRED VALLEY + MACHU PICCHU – COMFORT",
+            "precio": "389",
+            "descripcion": "Service option according to comfort level and tour experience.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "SACRED VALLEY + MACHU PICCHU – PREMIUM",
+            "precio": "389",
+            "descripcion": "Service option according to comfort level and tour experience.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "SACRED VALLEY + MACHU PICCHU – ELITE",
+            "precio": "389",
+            "descripcion": "Service option according to comfort level and tour experience.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        }
+    }
+}

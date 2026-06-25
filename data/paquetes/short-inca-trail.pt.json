@@ -1,0 +1,65 @@
+{
+    "title": "Caminho Inca Curto",
+    "long_description": "O Caminho Inca Curto 2D/1N é a forma perfeita de vivenciar a mística do antigo caminho inca em pouco tempo. Uma experiência que combina natureza, arqueologia e emoção, culminando com a chegada a Machu Picchu, um dos destinos mais sagrados do mundo.",
+    "short_description": "Caminho Inca Curto 2 Dias / 1 Noite",
+    "duration": "2 Dias / 1 Noite",
+    "image_cover": "camino-inca-corto.jpg",
+    "gallery": ["km-104.jpg", "winay-wayna.jpg", "inti-punku.jpg", "machu-picchu.jpg"],
+    "price": "449",
+    "price_note": "Inclui transporte, ingressos de entrada e guia profissional.",
+
+    "seo_title": "Caminho Inca Curto 2 Dias | Tour Oficial a Machu Picchu desde Cusco",
+    "seo_description": "Viva o Caminho Inca Curto de 2 dias saindo de Cusco, com permissão oficial, Wiñay Wayna, Inti Punku e Machu Picchu. Uma experiência única e histórica.",
+    "seo_keywords": "caminho inca curto, trilha inca 2 dias, km 104 caminho inca, tour caminho inca curto, trekking machu picchu",
+
+    "days": [{
+            "title": "Dia 1 - Cusco – Km 104 – Wiñay Wayna – Aguas Calientes",
+            "text": "Bem cedo partimos de Cusco em direção ao Km 104, ponto inicial da caminhada. A partir daí, iniciamos o percurso pelo antigo Caminho Inca, atravessando paisagens andinas e subtropicais até chegar ao impressionante complexo arqueológico de Wiñay Wayna. Continuamos a trilha até Inti Punku (Porta do Sol), onde você terá o seu primeiro e emocionante encontro com Machu Picchu. Em seguida, descemos e seguimos para Aguas Calientes, onde passaremos a noite em hotel."
+        },
+        {
+            "title": "Dia 2 - Machu Picchu – Cusco",
+            "text": "Após o café da manhã, subimos a Machu Picchu para uma visita guiada completa, explorando templos, praças e recintos sagrados. Tempo livre para fotos e contemplação. À tarde, retorno de trem e traslado até Cusco."
+        }
+    ],
+
+    "technical_sheet": "CAMINHO INCA CURTO <br>• Destino: Vale Sagrado dos Incas e Machu Picchu.<br>• Duração: 2 dias / 1 noite.<br>• Altitude máxima: 3.399 m s.n.m. (Machu Picchu).<br>• Nível de dificuldade: Moderado.<br>• Tipo de tour: Cultural / Histórico / Natureza.<br>• Clima: Ameno – frio à noite.<br>• Recomendado para: Pessoas em bom estado de saúde.<br>• Não recomendado: Pessoas com mobilidade reduzida sem assistência.",
+
+    "includes": "• Traslados Cusco – estação de trem – Cusco.<br>• Trem turístico ida e volta (Expedition ou Voyager).<br>• Permissão oficial do Caminho Inca (Km 104 – Chachabamba).<br>• Entrada para o Caminho Inca e Machu Picchu.<br>• Guia profissional especializado.<br>• 01 almoço box lunch.<br>• 01 noite de hotel em Aguas Calientes.<br>• Café da manhã (Dia 2).<br>• Kit de primeiros socorros.",
+
+    "not_includes": "• Alimentação não especificada.<br>• Carregador (opcional).<br>• Bastões de trekking (aluguel opcional).<br>• Despesas pessoais.",
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "CAMINHO INCA CURTO – BÁSICO",
+            "precio": "449",
+            "descripcion": "Opção de serviço conforme o nível de conforto e a experiência do tour.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "CAMINHO INCA CURTO – CONFORTO",
+            "precio": "449",
+            "descripcion": "Opção de serviço conforme o nível de conforto e a experiência do tour.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "CAMINHO INCA CURTO – PREMIUM",
+            "precio": "449",
+            "descripcion": "Opção de serviço conforme o nível de conforto e a experiência do tour.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "CAMINHO INCA CURTO – ELITE",
+            "precio": "449",
+            "descripcion": "Opção de serviço conforme o nível de conforto e a experiência do tour.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "title": "Montaña de 7 Colores",
+    "short_description": "Un tour imprescindible para descubrir una de las maravillas naturales más famosas de Cusco.",
+    "long_description": "<b>MAÑANA: 04:30 AM - 18:00PM</b><br> Embárcate en un viaje mágico hacia uno de los paisajes más impresionantes del Perú. Durante dos días recorrerás la zona sagrada del Ausangate, conocerás la sorprendente Montaña de Colores Vinincunca y explorarás las místicas 7 Lagunas, cada una con tonalidades únicas que contrastan con los glaciares.",
+    "duration": "1 Día",
+    "image_cover": "../tours/montana-de-7-colores-card.jpg",
+    "gallery": ["montana1.jpg", "montana2.jpg"],
+    "price": "90",
+    "price_note": "Incluye transporte, tickets de ingreso y guía profesional.",
+
+    "seo_title": "Tour Montaña de 7 Colores Vinicunca - Full Day en Cusco | GT Peru Travel",
+    "seo_description": "Explora la Montaña de 7 Colores Vinicunca en un tour full day desde Cusco. Incluye transporte, entradas y guía profesional para vivir una experiencia inolvidable en los Andes.",
+    "seo_keywords": "montaña de 7 colores, vinicunca, rainbow mountain peru, tour vinicunca full day, tour montaña de colores cusco, viaje a cusco, gt peru travel",
+
+    "days": [{
+        "title": "Día 1",
+        "text": "Comenzaremos muy temprano rumbo a Vinincunca, la famosa Montaña de Colores, donde realizaremos una caminata hasta su mirador natural para apreciar sus tonalidades únicas y el imponente nevado Ausangate. Luego continuaremos hacia la zona de Pacchanta, si deseas, relajarte en los baños termales locales, descansamos para la mañana siguiente iniciar la caminata hacia las 7 Lagunas del Ausangate, cada una con diferentes colores, formas y paisajes rodeados de glaciares. Aquí podrás disfrutar vistas impresionantes, naturaleza pura."
+    }],
+
+    "brochure": "",
+    "map": "mapa-montanade7colores-es.jpg",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "TOUR MONTAÑA DE 7 COLORES - BÁSICO",
+            "precio": "90",
+            "descripcion": "Opción clásica con transporte estándar.",
+            "nota": "Incluye traslados y guía profesional",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "TOUR MONTAÑA DE 7 COLORES - CONFORT",
+            "precio": "130",
+            "descripcion": "Incluye transporte superior y almuerzo buffet.",
+            "nota": "Incluye traslados, Servicio 2 ★★ y visitas guiadas",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "TOUR MONTAÑA DE 7 COLORES - PREMIUM",
+            "precio": "150",
+            "descripcion": "Incluye transporte superior y almuerzo buffet.",
+            "nota": "Incluye traslados, Servicio 3 ★★★ y visitas guiadas",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "TOUR MONTAÑA DE 7 COLORES - ELITE",
+            "precio": "180",
+            "descripcion": "Incluye transporte superior y almuerzo buffet.",
+            "nota": "Incluye traslados, Servicio 4 ★★★★ y visitas guiadas",
+            "descuento": 0
+        }
+    }
+}

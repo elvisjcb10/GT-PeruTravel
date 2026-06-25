@@ -1,0 +1,65 @@
+{
+    "title": "Short Inca Trail",
+    "long_description": "The Short Inca Trail 2D/1N is the perfect way to experience the mysticism of the ancient Inca path in a short time. An adventure that combines nature, archaeology, and excitement, culminating with the arrival at Machu Picchu, one of the most sacred destinations in the world.",
+    "short_description": "Short Inca Trail 2 Days / 1 Night",
+    "duration": "2 Days / 1 Night",
+    "image_cover": "camino-inca-corto.jpg",
+    "gallery": ["km-104.jpg", "winay-wayna.jpg", "inti-punku.jpg", "machu-picchu.jpg"],
+    "price": "449",
+    "price_note": "Includes transportation, entrance tickets, and a professional guide.",
+
+    "seo_title": "Short Inca Trail 2 Days | Official Tour to Machu Picchu from Cusco",
+    "seo_description": "Experience the 2-day Short Inca Trail from Cusco with official permits, Wiñay Wayna, Inti Punku, and Machu Picchu. A unique and historic adventure.",
+    "seo_keywords": "short inca trail, inca trail 2 days, km 104 inca trail, short inca trail tour, machu picchu trekking",
+
+    "days": [{
+            "title": "Day 1 - Cusco – Km 104 – Wiñay Wayna – Aguas Calientes",
+            "text": "Very early in the morning, we depart from Cusco to Km 104, the starting point of the hike. From here, we begin our journey along the ancient Inca Trail, crossing Andean and subtropical landscapes until reaching the impressive archaeological complex of Wiñay Wayna. We then continue hiking to Inti Punku (Sun Gate), where you will have your first unforgettable encounter with Machu Picchu. After descending, we transfer to Aguas Calientes, where we spend the night at a hotel."
+        },
+        {
+            "title": "Day 2 - Machu Picchu – Cusco",
+            "text": "After breakfast, we ascend to Machu Picchu for a complete guided tour, visiting temples, plazas, and sacred enclosures. Free time for photos and exploration. In the afternoon, we return by train and transfer back to Cusco."
+        }
+    ],
+
+    "technical_sheet": "SHORT INCA TRAIL <br>• Destination: Sacred Valley of the Incas and Machu Picchu.<br>• Duration: 2 days / 1 night.<br>• Maximum altitude: 3,399 m.a.s.l. (Machu Picchu).<br>• Difficulty level: Moderate.<br>• Tour type: Cultural / Historical / Nature.<br>• Climate: Mild – cold at night.<br>• Recommended for: All travelers in good physical condition.<br>• Not recommended: People with reduced mobility without assistance.",
+
+    "includes": "• Transfers Cusco – train station – Cusco.<br>• Tourist train round trip (Expedition or Voyager).<br>• Official Inca Trail permit (Km 104 – Chachabamba).<br>• Entrance to the Inca Trail and Machu Picchu.<br>• Professional specialized guide.<br>• 01 box lunch.<br>• 01 hotel night in Aguas Calientes.<br>• Breakfast (Day 2).<br>• First aid kit.",
+
+    "not_includes": "• Meals not specified.<br>• Porter (optional).<br>• Trekking poles (optional rental).<br>• Personal expenses.",
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "SHORT INCA TRAIL – BASIC",
+            "precio": "449",
+            "descripcion": "Service option according to comfort level and overall tour experience.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "SHORT INCA TRAIL – COMFORT",
+            "precio": "449",
+            "descripcion": "Service option according to comfort level and overall tour experience.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "SHORT INCA TRAIL – PREMIUM",
+            "precio": "449",
+            "descripcion": "Service option according to comfort level and overall tour experience.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "SHORT INCA TRAIL – ELITE",
+            "precio": "449",
+            "descripcion": "Service option according to comfort level and overall tour experience.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        }
+    }
+}

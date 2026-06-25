@@ -1,0 +1,69 @@
+{
+    "title": "AÑO NUEVO EN CUSCO 2025",
+    "short_description": "Celebra el Año Nuevo en Cusco con un viaje lleno de cultura, historia y fiesta. Incluye Machupicchu, city tour y cena especial de fin de año.",
+    "long_description": "Vive un Año Nuevo inolvidable en la capital histórica del Perú. Este paquete combina tradición andina, arqueología, gastronomía y las celebraciones más energéticas del año en la Plaza de Armas de Cusco. Incluye visita a Machupicchu, City Tour, Valle Sagrado y una cena especial de fin de año.",
+    "duration": "4 Días / 3 Noches",
+
+    "image_cover": "ano-nuevo-cusco-cover.jpg",
+    "gallery": ["cusco-new-year-1.jpg", "cusco-new-year-2.jpg", "machu1.jpg"],
+
+    "price": "650",
+    "price_note": "Incluye alojamiento, traslados, ingresos y cena especial de Año Nuevo.",
+
+    "seo_title": "Año Nuevo en Cusco 2025 - Tour 4D/3N - Machupicchu | GT Peru Travel",
+    "seo_description": "Paquete Año Nuevo en Cusco 2025: Machupicchu, City Tour, Valle Sagrado y cena especial de fin de año. Reserva ya con GT Peru Travel.",
+    "seo_keywords": "año nuevo cusco, paquete año nuevo peru, tours fin de año cusco, machupicchu año nuevo, GT Peru Travel",
+
+    "days": [{
+            "title": "Día 1: Bienvenida + City Tour Cusco",
+            "text": "Te recogemos en el aeropuerto y te llevamos al hotel. Por la tarde realizamos el City Tour visitando Qorikancha, Sacsayhuamán, Qenqo, Puca Pucara y Tambomachay. Noche libre para aclimatar."
+        },
+        {
+            "title": "Día 2: Valle Sagrado + Cena Especial de Año Nuevo",
+            "text": "Visitaremos Pisac, mercado artesanal, Ollantaytambo y Chinchero. Por la noche disfrutarás de una cena especial de fin de año en Cusco. Opcional: celebración en la Plaza de Armas para recibir el Año Nuevo."
+        },
+        {
+            "title": "Día 3: Machupicchu - El gran día",
+            "text": "Muy temprano abordaremos el tren hacia Aguas Calientes y luego el bus que asciende a Machupicchu. Recorrido guiado de 2 horas y media. Tiempo libre para fotos y exploración. Retorno a Cusco por la tarde/noche."
+        },
+        {
+            "title": "Día 4: Despedida",
+            "text": "Mañana libre para compras o paseos. Traslado al aeropuerto u terminal terrestre según tu itinerario."
+        }
+    ],
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "PAQUETE AÑO NUEVO - ESTÁNDAR",
+            "precio": "650",
+            "descripcion": "Hoteles 2★, traslados, ingresos y cena especial.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "PAQUETE AÑO NUEVO - CONFORT",
+            "precio": "750",
+            "descripcion": "Hoteles 3★ + tren Vistadome.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "PAQUETE AÑO NUEVO - PREMIUM",
+            "precio": "850",
+            "descripcion": "Hoteles 4★ + Cena show + tren Vistadome.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "PAQUETE AÑO NUEVO - ELITE",
+            "precio": "1150",
+            "descripcion": "Hoteles 5★ (JW Marriott / Palacio del Inka).",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 0
+        }
+    }
+}

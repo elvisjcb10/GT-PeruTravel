@@ -1,0 +1,12 @@
+{
+    "descripcion": "DESCRIPTION",
+    "itinerario": "ITINERARY",
+    "desde": "From:",
+    "reserva_titulo": "Reserve your spot",
+    "boton_reservar": "Book Now",
+    "ficha_tecnica": "Technical Sheet",
+    "incluye": "Includes",
+    "no_incluye": "Does Not Include",
+    "ver_mapa": "🔍 View map in full size",
+    "ver_mas_dias": "View more days"
+}

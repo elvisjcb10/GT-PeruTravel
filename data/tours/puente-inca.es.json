@@ -1,0 +1,54 @@
+{
+    "title": "Puente Inca Qeswachaka",
+    "short_description": "Un tour imprescindible para descubrir una de las maravillas naturales más famosas de Cusco.",
+    "long_description": "<b>MAÑANA: 04:30 AM – FINALIZA 18:00PM</b><br>Descubre el último puente colgante inca aún tejido a mano: Q’eswachaka. Una experiencia cultural única que conecta tradición, historia viva y paisajes impresionantes del sur del Cusco.",
+    "duration": "1 Día",
+    "image_cover": "../tours/puente-inca-qeswachaka-card.jpg",
+    "gallery": ["montana1.jpg", "montana2.jpg"],
+    "price": "90",
+    "price_note": "Incluye transporte, tickets de ingreso y guía profesional.",
+
+    "seo_title": "Tour Puente Inca Q’eswachaka - Full Day en Cusco | GT Peru Travel",
+    "seo_description": "Descubre el Puente Inca Q’eswachaka, el último puente colgante inca aún tejido a mano. Tour full day desde Cusco con transporte, entradas y guía profesional.",
+    "seo_keywords": "puente inca qeswachaka, qeswachaca, tour qeswachaka full day, puente inca cusco, puente colgante inca, cultura viva andina, turismo cusco, gt peru travel",
+
+    "days": [{
+        "title": "Día 1",
+        "text": "Partiremos temprano desde Cusco rumbo a la provincia de Canas, recorriendo hermosos paisajes andinos, lagunas altoandinas y pequeños pueblos tradicionales. Al llegar a Q’eswachaka, podrás admirar el puente colgante de más de 28 metros de largo suspendido sobre el río Apurímac, un lugar cargado de historia, simbolismo y energía. Durante la visita tendrás tiempo para caminar por los alrededores, tomar fotografías inolvidables y conocer más sobre la cosmovisión andina y el valor cultural de este patrimonio. Un viaje ideal para quienes desean conectar con la tradición viva de los Andes y descubrir un legado inca que aún perdura en el tiempo."
+    }],
+
+    "brochure": "",
+    "map": "mapa-qeswachaka-es.jpg",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "PUENTE INCA QESWACHAKA - BÁSICO",
+            "precio": "90",
+            "descripcion": "Opción clásica con transporte estándar.",
+            "nota": "Incluye traslados y guía profesional",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "PUENTE INCA QESWACHAKA - CONFORT",
+            "precio": "130",
+            "descripcion": "Incluye transporte superior y almuerzo buffet.",
+            "nota": "Incluye traslados, Servicio 2 ★★ y visitas guiadas",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "PUENTE INCA QESWACHAKA - PREMIUM",
+            "precio": "150",
+            "descripcion": "Incluye transporte superior y almuerzo buffet.",
+            "nota": "Incluye traslados, Servicio 3 ★★★ y visitas guiadas",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "PUENTE INCA QESWACHAKA - ELITE",
+            "precio": "180",
+            "descripcion": "Incluye transporte superior y almuerzo buffet.",
+            "nota": "Incluye traslados, Servicio 4 ★★★★ y visitas guiadas",
+            "descuento": 0
+        }
+    }
+}

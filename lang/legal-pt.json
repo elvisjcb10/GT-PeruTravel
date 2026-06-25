@@ -1,0 +1,233 @@
+{
+    "contacto": {
+        "title": "Contate-nos",
+        "desc": "Informações para entrar em contato com a GT Peru Travel.",
+        "keywords": "contato, suporte, atendimento ao cliente, gt peru travel, agência de viagens",
+
+        "contacto": {
+            "telefono": "(+51) 982 770 013 (Vendas 24/7) / (+51) 984 210 921 (Emergências)",
+            "email": "info@gtperutravel.com",
+            "whatsapp": "+51 984 123 456",
+            "direccion": "Av. Asociación D-9, Huancaro, Cusco. Escritório 402 - 4º andar, Cusco, Peru",
+            "horarios": "Seg-Sáb 9h-18h (Pet)",
+            "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.3757292796286!2d-71.9736676!3d-13.5310486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd5e01d134e95%3A0x87083a9784e7cfea!2sGT%20Peru%20Travel!5e1!3m2!1ses-419!2spe!4v1764945277368!5m2!1ses-419!2spe"
+        },
+
+        "social": [{
+                "name": "Facebook",
+                "url": "https://facebook.com/gtperutravel"
+            },
+            {
+                "name": "Instagram",
+                "url": "https://instagram.com/gtperutravel"
+            },
+            {
+                "name": "WhatsApp",
+                "url": "https://wa.me/51984123456"
+            }
+        ],
+
+        "content": "<p>Planeje sua próxima aventura conosco. Se você tiver perguntas sobre tours, reservas ou disponibilidade, escreva para nós e responderemos o mais rápido possível.</p>"
+
+    },
+
+
+    "quienes_somos": {
+        "title": "Quem somos",
+        "desc": "História, missão e visão da GT Peru Travel.",
+        "keywords": "quem somos, gt peru travel, agência de viagens",
+
+        "intro": "Somos a GT Peru Travel, acreditamos que cada viagem deve ser uma experiência transformadora. Desde caminhadas por paisagens impressionantes até imersões na cultura local, cada aventura conosco é inesquecível. <br><br>Missão<br>Inspirar viajantes a descobrir a riqueza cultural, histórica e natural do Peru, oferecendo tours personalizados e serviços de alta qualidade, sempre com foco sustentável e responsável com o meio ambiente.<br><br>Visão<br>Ser a empresa de turismo líder em Cusco, reconhecida por nossa excelência no serviço, inovação em experiências de viagem e compromisso com o desenvolvimento local.",
+
+        "content": "<p>Aqui vai o conteúdo sobre nós.</p>",
+
+        "certificaciones": [{
+                "titulo": "Certificado Gercetur",
+                "desc": "Serviços Turísticos GT PERU TRAVEL S.A.C",
+                "img": "images/certificaciones/licencia-constancia-gercetur.jpg"
+            },
+            {
+                "titulo": "Defesa Civil",
+                "desc": "Serviços Turísticos GT PERU TRAVEL S.A.C",
+                "img": "images/certificaciones/licencia-defensa-civil.jpg"
+            },
+            {
+                "titulo": "Licença de Funcionamento",
+                "desc": "Município de Anta - Serviços Turísticos GT PERU TRAVEL S.A.C",
+                "img": "images/certificaciones/licencia-funcionamiento.jpg"
+            },
+            {
+                "titulo": "Sunat",
+                "desc": "Serviços Turísticos GT PERU TRAVEL S.A.C",
+                "img": "images/certificaciones/consulta-ruc.jpg"
+            }
+        ]
+    },
+
+
+    "terminos_y_condiciones": {
+        "title": "Termos e Condições",
+        "desc": "Condições gerais de uso e reservas.",
+        "keywords": "termos, condições, políticas, reservas, pagamentos",
+        "intro": "Por favor, leia atentamente estes Termos e Condições antes de utilizar nossos serviços ou realizar uma reserva.",
+        "content": "<p><b>1. Aceitação dos Termos</b><br>Ao acessar nosso site ou reservar um serviço com a GT Peru Travel, você confirma que leu, entendeu e aceitou estes Termos e Condições. Se não concordar com alguma parte, recomendamos não utilizar nossos serviços.</p><p><br><b>2. Reservas e Pagamentos</b><br>Uma reserva é considerada confirmada somente após a realização do pagamento correspondente e após o recebimento de um e-mail de confirmação. Modificações ou cancelamentos estão sujeitos às nossas políticas específicas, dependendo do tipo de serviço reservado.</p><p><br><b>3. Uso Permitido do Site</b><br>Todo o conteúdo do site (textos, imagens, vídeos e gráficos) é propriedade da GT Peru Travel. É estritamente proibida sua reprodução total ou parcial sem autorização por escrito. Além disso, você se compromete a não utilizar o site para atividades ilegais, não autorizadas ou que afetem seu funcionamento.</p><p><br><b>4. Responsabilidade</b><br>Não somos responsáveis por atrasos, reagendamentos ou inconvenientes causados por fatores externos fora do nosso controle, como condições climáticas, bloqueios, greves ou situações imprevistas. Recomendamos chegar com antecedência a todas as atividades programadas.</p><p><br><b>5. Proteção de Dados</b><br>Seus dados pessoais são tratados conforme nossa Política de Privacidade. Garantimos a confidencialidade e segurança das suas informações, que serão utilizadas apenas para fins operacionais e administrativos.</p><p><br><b>6. Modificações dos Termos</b><br>A GT Peru Travel se reserva o direito de atualizar ou modificar estes Termos e Condições quando necessário. Qualquer mudança será publicada nesta página e entrará em vigor imediatamente após sua divulgação.</p><p><br><b>Ao utilizar nossos serviços, você aceita plenamente estes Termos e Condições.</b></p>"
+    },
+
+
+    "politica_de_privacidad": {
+        "title": "Política de Privacidade",
+        "desc": "Como protegemos, gerenciamos e utilizamos seus dados pessoais.",
+        "keywords": "política de privacidade, dados pessoais, segurança, proteção de dados, cookies",
+        "intro": "Sua privacidade é fundamental para nós. Por favor, revise nossa Política de Privacidade para compreender como coletamos, utilizamos e protegemos suas informações.",
+        "content": "<p><b>1. Informações que Coletamos</b><br>Coletamos apenas os dados necessários para oferecer um serviço seguro e eficiente.<br><b>Dados pessoais:</b> Nome, e-mail, número de telefone e outras informações relevantes para gerenciar reservas e consultas.<br><b>Informações de navegação:</b> Uso de cookies e dados técnicos do dispositivo para melhorar sua experiência.<br><b>Dados de pagamento:</b> Informações utilizadas exclusivamente para processar transações de forma segura por meio de plataformas autorizadas.</p><p><br><b>2. Como Utilizamos suas Informações</b><br><b>Gestão de reservas:</b> Confirmar, organizar e administrar os serviços solicitados.<br><b>Melhoria da experiência:</b> Analisar preferências para otimizar nossos serviços e o funcionamento do site.<br><b>Comunicações:</b> Enviar informações relevantes, promoções e avisos importantes, sempre com seu consentimento voluntário.</p><p><br><b>3. Proteção dos Dados</b><br>Aplicamos medidas de segurança avançadas, como criptografia SSL, controles de acesso e práticas de proteção digital para evitar acessos não autorizados. Seus dados não serão compartilhados com terceiros, exceto quando indispensável para completar reservas ou trâmites vinculados ao serviço contratado.</p><p><br><b>4. Uso de Cookies</b><br>Utilizamos cookies para melhorar a navegação, analisar o comportamento do usuário e apresentar conteúdo relacionado. Você pode desativar os cookies nas configurações do seu navegador a qualquer momento.</p><p><br><b>5. Seus Direitos</b><br>Você tem direito de solicitar acesso, correção ou exclusão de seus dados pessoais. Também pode optar por não receber comunicações comerciais através do link de cancelamento incluído em cada mensagem.</p><p><br><b>6. Atualizações da Política</b><br>A GT Peru Travel se reserva o direito de modificar esta Política de Privacidade quando necessário. As mudanças serão publicadas nesta mesma página e entrarão em vigor imediatamente.</p><p><br><b>Ao utilizar nossos serviços, você aceita os termos desta Política de Privacidade.</b></p>"
+    },
+    "proteccion_de_datos": {
+        "title": "Proteção de Dados Pessoais",
+        "desc": "Tratamento de dados pessoais conforme a legislação peruana.",
+        "keywords": "proteção de dados, privacidade, segurança, lei peruana, dados pessoais",
+        "intro": "Cumprimos a Lei de Proteção de Dados Pessoais do Peru e garantimos que suas informações sejam tratadas com confidencialidade e responsabilidade.",
+        "content": "<p><b>1. Informações que Coletamos</b><br>Coletamos apenas os dados necessários para oferecer um serviço seguro e eficiente.<br><b>Dados pessoais:</b> Nome, e-mail, número de telefone e informações indispensáveis para gerenciar reservas ou consultas.<br><b>Informações financeiras:</b> Dados de pagamento processados por meio de plataformas seguras para concluir transações.<br><b>Dados de navegação:</b> Cookies e tecnologias similares utilizadas para melhorar sua experiência e o funcionamento do site.</p><p><br><b>2. Uso das Informações</b><br><b>Gestão de reservas:</b> Processar solicitações, organizar serviços e confirmar pagamentos.<br><b>Melhorias e personalização:</b> Adaptar conteúdos, serviços e ofertas de acordo com seus interesses.<br><b>Comunicações:</b> Enviar confirmações, avisos importantes, promoções ou informações relevantes mediante autorização prévia do usuário.</p><p><br><b>3. Proteção e Segurança dos Dados</b><br>Avaliamos medidas avançadas de segurança como criptografia SSL, protocolos de autenticação e controles de acesso para evitar usos indevidos, perdas ou acessos não autorizados. Suas informações não serão compartilhadas com terceiros, exceto mediante autorização expressa ou quando estritamente necessário para a operação do serviço contratado.</p><p><br><b>4. Seus Direitos como Usuário</b><br>Você tem o direito de solicitar acesso, atualização, retificação ou exclusão dos seus dados pessoais a qualquer momento. Também pode cancelar o recebimento de comunicações promocionais através dos links correspondentes.</p><p><br><b>Ao utilizar nossos serviços, você aceita os termos desta Política de Proteção de Dados Pessoais.</b></p>"
+    },
+
+    "autorizaciones": {
+        "title": "Autorizações",
+        "desc": "Permissões concedidas à GT Peru Travel ao realizar uma reserva.",
+        "keywords": "autorizações, permissões, coordenação de serviços, gestão de tours",
+        "intro": "Ao reservar conosco, você concede certas autorizações necessárias para a correta gestão e operação do seu serviço.",
+        "content": "<p><b>1. Coordenação de Serviços em seu Nome</b><br>Você autoriza a GT Peru Travel a gerenciar e coordenar serviços essenciais como guias oficiais, transporte turístico, ingressos, bilhetes de trem e outros requisitos operacionais relacionados à sua reserva.</p><p><br><b>2. Uso de Dados para Gestão Operacional</b><br>Você permite que suas informações pessoais (nome, documento, contato) sejam utilizadas exclusivamente para tramitar permissões, tickets, reservas internas ou qualquer procedimento necessário para o desenvolvimento adequado do tour.</p><p><br><b>3. Comunicação com Fornecedores</b><br>Você nos autoriza a contatar, em seu nome, fornecedores externos — como operadores, hotéis ou empresas de transporte — para confirmar disponibilidade, coordenar horários e garantir uma experiência organizada e completa.</p><p><br><b>Essas autorizações são necessárias para assegurar a correta prestação dos serviços contratados.</b></p>"
+    },
+
+    "metodos_de_pago": {
+        "title": "Métodos de Pagamento",
+        "desc": "Formas de pagamento aceitas pela GT Peru Travel.",
+        "keywords": "pagamentos, cartões, transferências, depósitos, adiantamentos",
+        "intro": "Oferecemos diversos métodos de pagamento seguros e certificados para processar suas reservas.",
+        "content": "<p><b>1. Cartões e Pagamentos Digitais</b><br>Aceitamos pagamentos com cartões de crédito e débito (Visa, Mastercard e outros compatíveis), além de plataformas eletrônicas autorizadas. Todos os processos são realizados por meio de gateways seguros.</p><p><br><b>2. Transferências e Depósitos Bancários</b><br>Você pode realizar pagamentos através de transferência bancária ou depósito direto em nossas contas oficiais. Após o pagamento, é necessário enviar o comprovante para confirmar a reserva.</p><p><br><b>3. Adiantamentos e Políticas dos Fornecedores</b><br>Alguns serviços turísticos, como trens ou ingressos oficiais, exigem adiantamentos não reembolsáveis definidos pelos fornecedores. Esses pagamentos são necessários para garantir disponibilidade e concluir a reserva.</p>"
+    },
+
+    "politica_de_cancelacion": {
+        "title": "Política de Cancelamento",
+        "desc": "Alterações, remarcações e reembolsos.",
+        "keywords": "cancelamentos, reembolsos, remarcações, no show",
+        "intro": "Nossa política de cancelamento busca oferecer clareza e transparência ao modificar ou cancelar um serviço.",
+        "content": "<p><b>1. Serviços Não Reembolsáveis</b><br>Alguns serviços, como ingressos para Machu Picchu, bilhetes de trem e permissões especiais, não permitem cancelamentos ou reembolsos devido às regras dos fornecedores.</p><p><br><b>2. Cancelamentos Antecipados</b><br>Tours padrão e serviços regulares podem ser cancelados ou remarcados conforme o prazo indicado em nossas políticas. Em alguns casos, aplicam-se taxas administrativas.</p><p><br><b>3. No Show (Ausência do Usuário)</b><br>Se o passageiro não comparecer no dia do serviço sem aviso prévio, o valor pago não será reembolsado. Isso se deve aos custos operacionais e bloqueios gerados pela reserva.</p>"
+    },
+
+    "facturacion": {
+        "title": "Comprovantes e Faturamento",
+        "desc": "Informações sobre recibos e faturas.",
+        "keywords": "faturas, recibos, comprovantes",
+        "intro": "",
+        "content": "<p><strong>1. Tipos de comprovantes:</strong> Emitimos recibos ou faturas eletrônicas conforme a legislação peruana.</p><p><strong>2. Envio de dados:</strong> Os dados para faturamento devem ser enviados antes da realização do pagamento. Sem informações completas não é possível emitir fatura.</p><p><strong>3. Documento final:</strong> Após emitido, o comprovante não pode ser modificado, anulado ou reemitido.</p>"
+    },
+
+    "soporte_cliente": {
+        "title": "Atendimento ao Cliente",
+        "desc": "Suporte ao cliente da GT Peru Travel.",
+        "keywords": "suporte, ajuda, clientes, atendimento",
+        "intro": "",
+        "content": "<p><strong>1. Disponibilidade:</strong> Oferecemos assistência antes, durante e após seu tour para resolver dúvidas ou imprevistos.</p><p><strong>2. Canais de contato:</strong> Você pode nos contatar por WhatsApp, e-mail ou chamadas diretas para atendimento imediato.</p><p><strong>3. Resolução rápida:</strong> Nossa equipe gerencia alterações, emergências e solicitações no menor tempo possível.</p>"
+    },
+
+    "compromiso_calidad": {
+        "title": "Compromisso com a Qualidade",
+        "desc": "Nosso compromisso com a satisfação do cliente.",
+        "keywords": "qualidade, confiança, serviço",
+        "intro": "",
+        "content": "<p><strong>1. Altos padrões:</strong> Operamos com protocolos de segurança, organização e profissionalismo para garantir uma experiência confiável.</p><p><strong>2. Fornecedores verificados:</strong> Trabalhamos apenas com guias, transportes e operadores autorizados e avaliados periodicamente.</p><p><strong>3. Melhoria contínua:</strong> Monitoramos cada serviço e coletamos feedback para aperfeiçoar rotas, atendimento e qualidade geral.</p>"
+    },
+
+    "prom_peru": {
+        "title": "PromPerú",
+        "desc": "Relação com PromPerú e links oficiais para turistas.",
+        "keywords": "promperu, turismo, normas, peru",
+        "intro": "",
+        "content": "<p>A GT Peru Travel opera seguindo as recomendações oficiais da PromPerú e entidades governamentais para garantir um turismo responsável, seguro e formal.</p><p><strong>Links oficiais para turistas:</strong></p><ul><li><a href=\"https://www.peru.travel\" target=\"_blank\">Portal Oficial de Turismo do Peru (PromPerú)</a></li><li><a href=\"https://www.gob.pe/promperu\" target=\"_blank\">PromPerú – Informações institucionais</a></li><li><a href=\"https://www.gob.pe/ministerio-de-comercio-exterior-y-turismo\" target=\"_blank\">MINCETUR – Informações turísticas e normativas</a></li><li><a href=\"https://www.gob.pe/migraciones\" target=\"_blank\">Migrações Peru – Informações de entrada no país</a></li></ul><p>Recomendamos que todos os visitantes utilizem apenas fontes oficiais para obter informações atualizadas e confiáveis.</p>"
+    },
+
+    "aviso_legal": {
+        "title": "Aviso Legal",
+        "desc": "Condições legais de uso do site.",
+        "keywords": "aviso legal, direitos, condições, propriedade intelectual",
+        "intro": "",
+        "content": "<p>O uso deste site está sujeito às condições legais estabelecidas pela GT Peru Travel. Ao acessar, você aceita estes termos.</p><p><strong>3 pontos principais:</strong></p><ul><li><strong>Propriedade intelectual:</strong> Todos os textos, imagens, designs e conteúdos pertencem à GT Peru Travel. Sua reprodução total ou parcial sem autorização é proibida.</li><li><strong>Uso permitido do site:</strong> O usuário compromete-se a utilizar o site apenas para fins legais e a não realizar ações que afetem seu funcionamento ou segurança.</li><li><strong>Limitação de responsabilidade:</strong> A GT Peru Travel não se responsabiliza por danos resultantes do uso incorreto do site ou por informações desatualizadas provenientes de terceiros.</li></ul><p>Ao continuar navegando, você declara ter lido e aceito este Aviso Legal.</p>"
+    },
+
+    "politicas_cookies": {
+        "title": "Política de Cookies",
+        "desc": "Uso transparente e seguro de cookies conforme normas internacionais.",
+        "keywords": "cookies, privacidade, gdpr, segurança, rastreamento",
+        "intro": "",
+        "content": "<p>Este site utiliza cookies para garantir uma experiência segura, otimizada e personalizada para todos os usuários, cumprindo padrões como o GDPR europeu.</p><p><strong>4 pontos principais:</strong></p><ul><li><strong>Cookies essenciais:</strong> Necessárias para o funcionamento do site, segurança e exibição correta de conteúdos.</li><li><strong>Cookies de análise:</strong> Permitem entender o comportamento dos usuários e melhorar a funcionalidade do site sem identificar dados pessoais.</li><li><strong>Controle do usuário:</strong> Você pode aceitar, recusar ou configurar cookies a qualquer momento pelo navegador ou painel de preferências.</li><li><strong>Compromisso com a privacidade:</strong> Não utilizamos cookies para coletar informações sensíveis nem compartilhamos dados com terceiros sem consentimento.</li></ul><p>Ao continuar utilizando nosso site, você aceita o uso de cookies conforme esta Política.</p>"
+    },
+
+    "ubicacion_horarios": {
+        "title": "Localização e horários",
+        "desc": "Onde estamos e nossos horários de atendimento.",
+        "keywords": "localização, horários, escritório",
+        "intro": "Visite-nos em nosso escritório principal em Cusco.",
+        "content": "<p>Estamos localizados em uma área acessível e segura, prontos para atendê-lo sempre que precisar.</p>",
+        "contacto": {
+            "direccion": "Av. Asociación D-9, Huancaro, Cusco",
+            "horarios": "Seg-Sáb 9h–18h (Pet)",
+            "mapa": "https://www.google.com/maps/embed?pb=XXXXX"
+        }
+    },
+
+    "libro_de_reclamaciones": {
+        "title": "Livro de Reclamações",
+        "desc": "Canal oficial para enviar reclamações, queixas ou sugestões.",
+        "keywords": "reclamações, queixas, sugestões, atendimento ao cliente",
+        "intro": "",
+        "content": "<p>Na GT Peru Travel, valorizamos a sua confiança. Se você precisar registrar uma reclamação, queixa ou sugestão, nosso Livro de Reclamações virtual está disponível de forma rápida e segura.</p><ul><li><strong>Atendimento transparente:</strong> Cada caso é analisado com seriedade e compromisso.</li><li><strong>Resposta oportuna:</strong> Forneceremos uma solução dentro dos prazos estabelecidos pela regulamentação peruana.</li><li><strong>Melhoria contínua:</strong> Seu feedback nos ajuda a aprimorar a qualidade do nosso serviço.</li></ul><p>Obrigado por nos ajudar a melhorar sua experiência.</p>"
+    },
+
+    "mapa_del_sitio": {
+        "title": "Mapa do Site",
+        "desc": "Acesso rápido a todas as principais seções e páginas da GT Peru Travel.",
+        "keywords": "mapa do site, navegação, estrutura do site",
+        "intro": "",
+        "content": "<p>O Mapa do Site oferece uma visão organizada de todas as áreas principais do nosso site, para que você encontre rapidamente as informações que precisa.</p><ul><li><strong>Acesso rápido:</strong> Navegue facilmente por todas as seções do site.</li><li><strong>Estrutura clara:</strong> Conteúdo organizado por categorias para facilitar sua navegação.</li><li><strong>Otimizado para SEO:</strong> Ajuda os motores de busca a indexar o site e melhora a acessibilidade.</li></ul><p>Você pode visualizar o mapa completo em formato HTML ou XML para usuários e motores de busca.</p>"
+    },
+
+    "preguntas_frecuentes": {
+        "title": "Perguntas Frequentes",
+        "desc": "Perguntas e respostas comuns sobre nossos tours, reservas e serviços.",
+        "keywords": "faq, ajuda, perguntas frequentes, suporte",
+        "intro": "Respondemos às perguntas mais comuns dos viajantes para ajudar você a planejar sua experiência no Peru.",
+        "content": "<p>Aqui você encontrará respostas claras e atualizadas sobre reservas, pagamentos, políticas, logística e recomendações de viagem.</p>",
+        "faq": [{
+                "pregunta": "Como posso reservar um tour?",
+                "respuesta": "Você pode reservar diretamente em nosso site usando nosso sistema de pagamento seguro, ou entrar em contato pelo WhatsApp para assistência personalizada."
+            },
+            {
+                "pregunta": "Os ingressos para Machu Picchu são reembolsáveis?",
+                "respuesta": "Não. Os ingressos de entrada para Machu Picchu e os bilhetes de trem não são reembolsáveis, de acordo com as políticas dos fornecedores oficiais."
+            },
+            {
+                "pregunta": "Quais métodos de pagamento vocês aceitam?",
+                "respuesta": "Aceitamos cartões de crédito/débito, transferências bancárias, depósitos e plataformas de pagamento online autorizadas. Alguns serviços exigem depósitos não reembolsáveis."
+            },
+            {
+                "pregunta": "O que devo levar para os tours em Cusco?",
+                "respuesta": "Recomendamos roupas quentes, água, protetor solar, lanches, capa de chuva e sapatos confortáveis. Para tours acima de 4.000 m, mantenha-se hidratado e evite refeições pesadas."
+            },
+            {
+                "pregunta": "É seguro viajar pelo Peru?",
+                "respuesta": "Sim. As rotas turísticas são seguras e monitoradas. Coordenamos todos os serviços para garantir uma experiência confiável e bem organizada."
+            },
+            {
+                "pregunta": "Posso modificar ou reagendar minha reserva?",
+                "respuesta": "Sim, a maioria dos tours pode ser reagendada com antecedência. No entanto, serviços não reembolsáveis, como ingressos de Machu Picchu e bilhetes de trem, não podem ser alterados após serem emitidos."
+            }
+        ]
+    },
+
+    "soporte_tecnico": {
+        "title": "Suporte Técnico",
+        "desc": "Ajuda especializada para resolver problemas técnicos.",
+        "keywords": "suporte técnico, assistência, erros no site, problemas",
+        "intro": "Estamos aqui para ajudar caso você encontre problemas técnicos durante a navegação ou reserva.",
+        "content": "<p><b>1. Problemas no site</b><br>Ajudamos você caso encontre erros de carregamento, links quebrados, incompatibilidade com dispositivos ou dificuldades de navegação.</p><p><br><b>2. Suporte em reservas online</b><br>Ajudamos caso formulários não enviem, pagamentos não processem ou confirmações não cheguem corretamente.</p><p><br><b>3. Assistência rápida</b><br>Nossa equipe técnica pode fornecer suporte imediato via WhatsApp ou e-mail para garantir que você conclua sua reserva sem problemas.</p>"
+    }
+}

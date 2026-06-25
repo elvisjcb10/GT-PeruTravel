@@ -1,0 +1,81 @@
+{
+    "title": "Peru Prime",
+    "short_description": "Cusco – Sacred Valley – Ollantaytambo – Machu Picchu – Rainbow Mountain – Humantay Lake.",
+    "long_description": "Explore the best of Peru in 7 days: from Lima to Cusco, discover history, culture, and iconic landscapes such as Machu Picchu, Humantay Lake and Rainbow Mountain.",
+    "duration": "7 Days / 6 Nights",
+
+    "image_cover": "peru-magico.jpg",
+    "gallery": ["machu1.jpg", "machu2.jpg"],
+
+    "price": "720",
+    "price_note": "Includes transportation, entrance tickets and professional guide.",
+
+    "seo_title": "Peru Prime 7D/6N – Cusco, Machu Picchu and Top Attractions | GT Peru Travel",
+    "seo_description": "Peru Prime 7 days: Sacred Valley, Cusco, Machu Picchu, Humantay Lake and Rainbow Mountain. Complete package with transportation, entrances and professional guide.",
+    "seo_keywords": "peru prime, peru 7 days tour, cusco machu picchu tour, sacred valley tour, rainbow mountain, humantay lake, gt peru travel",
+
+    "days": [{
+            "title": "Day 1: Arrival in Lima",
+            "text": "Airport pickup and transfer to your hotel. Check-in available from 14:00. Optional Lima City Tour for morning arrivals."
+        },
+        {
+            "title": "Day 2: Paracas – Ballestas Islands – Ica – Huacachina",
+            "text": "Early trip to Paracas for the Ballestas Islands. Continue to Ica for vineyard visit and tasting. Afternoon adventure in Huacachina with buggies and sandboarding. Return to Lima."
+        },
+        {
+            "title": "Day 3: Flight Lima – Cusco",
+            "text": "Transfer to the airport and flight to Cusco. Reception and transfer to the hotel. Free afternoon to acclimatize or visit the Qosqo Center of Native Art."
+        },
+        {
+            "title": "Day 4: Machu Picchu",
+            "text": "Train trip to Aguas Calientes and bus ascent to Machu Picchu. Guided tour through main attractions. Free time and return to Cusco in the afternoon."
+        },
+        {
+            "title": "Day 5: Humantay Lake",
+            "text": "Early departure to Mollepata. Hike to Humantay Lake (4200 m). Time for photos and panoramic views. Return to Cusco."
+        },
+        {
+            "title": "Day 6: Rainbow Mountain",
+            "text": "Trip to Cusipata, breakfast and hike to Vinicunca (5036 m). Amazing views of Ausangate. Return to Cusco in the afternoon."
+        },
+        {
+            "title": "Day 7: Departure",
+            "text": "Transfer to the airport according to your flight schedule."
+        }
+    ],
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "MACHU PICCHU TOUR – STANDARD",
+            "precio": "720",
+            "descripcion": "Classic option with Expedition train.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "MACHU PICCHU TOUR – COMFORT",
+            "precio": "720",
+            "descripcion": "Includes Vistadome train and buffet lunch.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "MACHU PICCHU TOUR – PREMIUM",
+            "precio": "720",
+            "descripcion": "Includes Vistadome train and upgraded services.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "MACHU PICCHU TOUR – ELITE",
+            "precio": "720",
+            "descripcion": "Full experience with superior services.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        }
+    }
+}

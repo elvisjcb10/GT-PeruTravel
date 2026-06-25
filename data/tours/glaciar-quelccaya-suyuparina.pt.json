@@ -1,0 +1,60 @@
+{
+    "title": "Tour ao Glaciar de Quelccaya Full Day saindo de Cusco",
+    "short_description": "Um programa ideal para aventureiros aclimatados que desejam conhecer o melhor dos Andes em uma única viagem, combinando cores, gelo e paisagens extraordinárias.",
+    "long_description": "Atreva-se a viver uma aventura única no ponto mais alto dos Andes. O Tour a Quelccaya, Suyuparina leva você a impressionantes montanhas cobertas de neve e paisagens de gelo eterno, pampas andinas com vicunhas e lagoas naturais, em uma experiência fora do comum, perfeita para viajantes que buscam aventuras únicas cheias de emoção, natureza e fotos inesquecíveis.",
+    "duration": "1 Dia",
+
+    "image_cover": "glaciar.jpg",
+    "gallery": ["machu1.jpg", "machu2.jpg"],
+
+    "price": "65",
+    "price_note": "Inclui transporte e guia profissional.",
+
+    "seo_title": "Tour ao Glaciar de Quelccaya Full Day saindo de Cusco | GT Peru Travel",
+    "seo_description": "Viva uma aventura full day ao Glaciar de Quelccaya, o maior glaciar tropical do mundo. Tour saindo de Cusco com paisagens andinas únicas.",
+    "seo_keywords": "glaciar de quelccaya, tour quelccaya full day, suyuparina cusco, glaciar tropical peru, tour aventura cusco, gt peru travel",
+
+    "days": [{
+        "title": "Dia 01 - Tour Glaciar de Quelccaya, Suyuparina – Full Day",
+        "text": "Saída bem cedo de Cusco (aprox. 3:00 a.m.) em direção ao sul, atravessando paisagens alto-andinas e comunidades rurais até chegar ao distrito de Checacupe. Continuamos a viagem até Phinaya, onde tomaremos o café da manhã para depois seguir até o abra de Suyuparina, uma das comunidades mais altas de Cusco, de onde começa uma caminhada gradual de aproximadamente 15 minutos até chegar às encostas do maior glaciar tropical do mundo. Durante o percurso, é possível apreciar lagoas, formações curiosas na parede do glaciar, pequenas cavernas de gelo puro, lagos, montanhas nevadas, alpacas e uma natureza quase intacta. Ao chegar ao glaciar, tempo livre para fotos, explicações do guia e contemplação da impressionante frente glacial. Em seguida, retornamos pelo mesmo caminho até Phinaya para o almoço e, por fim, iniciamos a viagem de retorno à cidade de Cusco, chegando aproximadamente entre 20:00 e 21:00 horas."
+    }],
+
+    "technical_sheet": "TOUR GLACIAR DE QUELCCAYA<br>• Destino: Glaciar de Quelccaya<br>• Duração: 1 Dia<br>• Altitude máxima: 4.800 – 5.100 m s. n. m.<br>• Nível de exigência: Moderado – Alto<br>• Tipo de tour: Natureza / Aventura / Glaciares<br>• Caminhada: 1 a 2 horas (aprox.)<br>• Clima: Frio andino<br>• Recomendado para: Pessoas aclimatadas e com boa condição física<br>• Não recomendado: Pessoas com problemas cardíacos ou respiratórios",
+    "includes": "• Transporte turístico ida e volta.<br>• Guia profissional.<br>• Café da manhã e almoço local.<br>• Bastões de trekking.<br>• Assistência permanente.<br>• Mantas térmicas.<br>• Oxigênio e kit de primeiros socorros.",
+    "not_includes": "• Entrada no glaciar (15 Soles).<br>• Gastos pessoais.",
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "basico": {
+            "titulo": "TOUR QUELCCAYA - BÁSICO",
+            "precio": "65",
+            "descripcion": "Serviço compartilhado ideal para aventureiros.",
+            "nota": "Inclui transporte, guia, café da manhã e almoço.",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "TOUR QUELCCAYA - CONFORTO",
+            "precio": "65",
+            "descripcion": "Grupos reduzidos e maior conforto durante a viagem.",
+            "nota": "Inclui bastões de trekking e assistência permanente.",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "TOUR QUELCCAYA - PREMIUM",
+            "precio": "65",
+            "descripcion": "Experiência mais completa com atendimento personalizado.",
+            "nota": "Inclui oxigênio, manta térmica e guia especializado.",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "TOUR QUELCCAYA - ELITE",
+            "precio": "65",
+            "descripcion": "Tour privado com horários flexíveis.",
+            "nota": "Inclui transporte exclusivo e atendimento personalizado.",
+            "descuento": 0
+        }
+    }
+}

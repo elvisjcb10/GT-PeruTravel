@@ -1,0 +1,130 @@
+{
+    "cards": [{
+            "title": "DESCUBRE PERÚ",
+            "subtitle": "8 DÍAS / 7 NOCHES",
+            "description": "Explora Perú en una experiencia completa desde Lima hasta Cusco...",
+            "price": "$819",
+            "image": "descubre-peru-ollantaytambo-cusco.jpg",
+            "url": "descubre-peru",
+            "reservar": "RESERVAR",
+            "promo": {
+                "active": true,
+                "label": "EXPERIENCIA COMPLETA"
+            }
+        },
+        {
+            "title": "MONTAÑA DE COLORES + 7 LAGUNAS",
+            "subtitle": "2 DÍAS / 1 NOCHES",
+            "description": "Aventura andina hacia la Montaña de Colores y las 7 Lagunas de Ausangate",
+            "price": "$125",
+            "image": [
+                "7-lagunas-cusco-peru-card.jpg",
+                "montana-colores-cusco-peru-card-01.jpg"
+            ],
+            "url": "montanacolores-7lagunas",
+            "reservar": "RESERVAR"
+        },
+        {
+            "title": "MONTAÑA DE COLORES + GLACIAR QUELCCAYA",
+            "subtitle": "2 DÍAS / 1 NOCHES",
+            "description": "Explora la Montaña de Colores y el Glaciar de Quelccaya en una expedición andina única.",
+            "price": "$145",
+            "image": [
+                "montana-colores-cusco-peru-card.jpg",
+                "glaciar-quelccaya-cusco-peru.jpg"
+            ],
+            "url": "montanacolores-glaciarquelcaya",
+            "reservar": "RESERVAR",
+            "promo": {
+                "active": true,
+                "label": "EXPEDICION ANDINA"
+            }
+        },
+        {
+            "title": "VALLE SAGRADO + MACHU PICCHU",
+            "subtitle": "2 DÍAS / 1 NOCHES",
+            "description": "Explora el Valle Sagrado de los Incas y culmina la experiencia en la majestuosa ciudadela de Machu Picchu.",
+            "price": "$389",
+            "image": [
+                "valle-sagrado-cusco-peru.jpg",
+                "machupicchu-cusco-peru.jpg"
+            ],
+            "url": "vallesagrado-machupicchu",
+            "reservar": "RESERVAR"
+        },
+        {
+            "title": "CAMINO INCA CORTO",
+            "subtitle": "2 DÍAS / 1 NOCHES",
+            "description": "Vive la mística del Camino Inca corto y llega a Machu Picchu por el antiguo sendero inca.",
+            "price": "$449",
+            "image": [
+                "camino-inca-corto-cusco-peru-machupicchu.jpg",
+                "machupicchu-camino-inca-corto-cusco-peru.jpg"
+            ],
+            "url": "short-inca-trail",
+            "reservar": "RESERVAR"
+        },
+        {
+            "title": "CUSCO EXPRESS",
+            "subtitle": "3 DÍAS / 2 NOCHES",
+            "description": "Escápate a Cusco y Machu Picchu, el destino ideal para descubrir la historia inca, la magia de los Andes y la esencia cultural del Perú.",
+            "price": "$345",
+            "image": "card-6.jpg",
+            "url": "cusco-express",
+            "reservar": "RESERVAR"
+        },
+        {
+            "title": "CUSCO MAGICO",
+            "subtitle": "5 DÍAS / 4 NOCHES",
+            "description": "Vive Machu Picchu y el Valle Sagrado en una aventura corta pero inolvidable. Explora templos, montañas y la esencia viva de los Andes.",
+            "price": "$579",
+            "image": "card-5.jpg",
+            "url": "cusco-magico",
+            "reservar": "RESERVAR",
+            "promo": {
+                "active": true,
+                "label": "FAVORITO DE VIAJEROS"
+            }
+        },
+        {
+            "title": "PERU PRIME",
+            "subtitle": "7 DÍAS / 6 NOCHES",
+            "description": "Vive la experiencia de Machupicchu y el Valle Sagrado. Conecta con la energía de los Andes y la grandeza del legado inca en cada paso.",
+            "price": "$720",
+            "image": "card-4.jpg",
+            "url": "peru-prime",
+            "reservar": "RESERVAR"
+        },
+        {
+            "title": "PERU MAGICO",
+            "subtitle": "9 DÍAS / 8 NOCHES",
+            "description": "Cusco y la Montaña de 7 Colores te esperan. Disfruta tours increíbles, paisajes de ensueño y la mejor experiencia de viaje en el Perú.",
+            "price": "$809",
+            "image": "card-3.jpg",
+            "url": "peru-magico",
+            "reservar": "RESERVAR"
+        },
+        {
+            "title": "PERU MISTICO",
+            "subtitle": "12 DÍAS / 11 NOCHES",
+            "description": "Experimenta lo mejor del Perú en un solo viaje...",
+            "price": "$1150",
+            "image": "card-2.jpg",
+            "url": "peru-mistico",
+            "reservar": "RESERVAR",
+            "promo": {
+                "active": true,
+                "label": "EXPERIENCIA ANDINA"
+            }
+        },
+        {
+            "title": "PERU PREMIUM",
+            "subtitle": "15 DÍAS / 14 NOCHES",
+            "description": "Vive la mejor aventura en el Perú...",
+            "price": "$1359",
+            "image": "card-1-tour-machupicchu.jpg",
+            "url": "peru-premium",
+            "reservar": "RESERVAR"
+        }
+    ]
+}

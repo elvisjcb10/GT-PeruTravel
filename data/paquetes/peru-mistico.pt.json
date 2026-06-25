@@ -1,0 +1,101 @@
+{
+    "title": "Peru Místico",
+    "short_description": "Cusco - Coricancha - Sacsayhuamán - Pisac - Urubamba - Ollantaytambo - Chinchero - Machu Picchu - Montanha Arco-Íris",
+    "long_description": "Bem-vindo ao Peru! Sua viagem começa em Lima, onde nossa equipe irá recebê-lo e acompanhá-lo nesta experiência inesquecível pela costa, Andes e mundo inca.",
+    "duration": "12 Dias / 11 Noites",
+
+    "image_cover": "peru-mistico.jpg",
+    "gallery": ["machu1.jpg", "machu2.jpg"],
+
+    "price": "1150",
+    "price_note": "Inclui transporte, ingressos e guia profissional.",
+
+    "seo_title": "Peru Místico 12D/11N - Lima, Cusco, Machu Picchu e Lago Titicaca | GT Peru Travel",
+    "seo_description": "Tour Peru Místico 12 dias: Lima, Paracas, Ica, Cusco, Vale Sagrado, Machu Picchu, Montanha Arco-Íris, Rota do Sol e Lago Titicaca. A viagem mais completa pelo Peru com a GT Peru Travel.",
+    "seo_keywords": "peru mistico, tour peru completo, viagem cusco machu picchu, vale sagrado, lago titicaca, rota do sol, humantay, vinicunca, gt peru travel",
+
+    "days": [{
+            "title": "Dia 1",
+            "text": "Chegada a Lima e traslado ao hotel. Tempo livre para descanso. Se seu voo chegar cedo, você poderá fazer um city tour opcional. Pernoite em Lima."
+        },
+        {
+            "title": "Dia 2",
+            "text": "Full Day Paracas + Ica: Ilhas Ballestas, observação de fauna marinha, visita a vinícola com degustação de vinhos e pisco, e aventura em Huacachina com buggies e sandboard. Retorno a Lima."
+        },
+        {
+            "title": "Dia 3",
+            "text": "Voo Lima - Cusco. Recepção no aeroporto e traslado ao hotel. Tarde livre para aclimatação. Recomendado visitar o Centro Qosqo de Arte Nativa."
+        },
+        {
+            "title": "Dia 4",
+            "text": "City Tour Cusco + Morada dos Deuses: Visita ao Coricancha, Sacsayhuamán, Qenqo, Puca Pucara e Tambomachay. Finalizamos na Morada dos Deuses, um espaço artístico inspirado na cosmovisão andina."
+        },
+        {
+            "title": "Dia 5",
+            "text": "Moray + Salinas de Maras + Chinchero: Visita aos terraços circulares de Moray, às salinas de Maras e aos centros têxteis tradicionais de Chinchero. Retorno a Cusco."
+        },
+        {
+            "title": "Dia 6",
+            "text": "Vale Sagrado: Parada opcional em Cochahuasi, mirante de Taray, sítio arqueológico de Pisac e ourivesarias, almoço buffet em Urubamba e visita a Ollantaytambo. Pernoite em Ollantaytambo."
+        },
+        {
+            "title": "Dia 7",
+            "text": "Machu Picchu - O Grande Dia: Trem cedo até Aguas Calientes e subida em ônibus até Machu Picchu. Tour guiado e tempo livre. Retorno a Cusco."
+        },
+        {
+            "title": "Dia 8",
+            "text": "Lagoa Humantay: Viagem até Soraypampa e caminhada até a lagoa turquesa. Tempo para fotos. Almoço buffet em Mollepata e retorno a Cusco."
+        },
+        {
+            "title": "Dia 9",
+            "text": "Montanha Arco-Íris: Café da manhã em Cusipata e caminhada até Vinicunca com vista do nevado Ausangate. Almoço buffet e retorno a Cusco."
+        },
+        {
+            "title": "Dia 10",
+            "text": "Rota do Sol (Cusco - Puno): Visitas a Andahuaylillas, Raqchi, almoço em Sicuani, mirante de La Raya e museu de Pukara. Chegada a Puno."
+        },
+        {
+            "title": "Dia 11",
+            "text": "Uros + Sillustani: Passeio de barco pelas Ilhas Flutuantes de Uros e retorno a Puno. À tarde visita às chullpas de Sillustani."
+        },
+        {
+            "title": "Dia 12",
+            "text": "Traslado ao aeroporto conforme horário do voo. Fim dos serviços."
+        }
+    ],
+
+    "brochure": "",
+    "map": "mapa-paquete-peru-mistico-12d-11n-pt.jpg",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "TOUR MACHU PICCHU - STANDARD",
+            "precio": "1150",
+            "descripcion": "Trem Expedition.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "TOUR MACHU PICCHU - CONFORTO",
+            "precio": "1150",
+            "descripcion": "Trem Vistadome + almoço buffet.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "TOUR MACHU PICCHU - PREMIUM",
+            "precio": "1150",
+            "descripcion": "Trem Vistadome + almoço buffet.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "TOUR MACHU PICCHU - ELITE",
+            "precio": "1150",
+            "descripcion": "Trem Vistadome + almoço buffet.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        }
+    }
+}

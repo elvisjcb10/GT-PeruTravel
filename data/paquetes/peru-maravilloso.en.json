@@ -1,0 +1,79 @@
+{
+    "title": "Wonderful Peru",
+    "long_description": "<b>Wonderful Peru 7D/6N</b> - Complete tour package. Discover the best of Peru on an unforgettable 7-day, 6-night journey. This full program combines culture, nature and adventure, including visits to the country’s most iconic destinations. Enjoy authentic experiences, breathtaking landscapes and the historical richness that make Peru a unique place in the world. Ideal for travelers seeking an all-inclusive package with accommodation, transfers, professional guiding and full organization. Book now and enjoy a week full of history, tradition and unforgettable moments.",
+    "short_description": "City Tour Cusco - Sacred Valley - Machupicchu and other tourist attractions.",
+    "duration": "7 Days / 6 Nights",
+    "image_cover": "promocion-peru-maravilloso-7d-6n-2025.jpg",
+    "gallery": ["machu1.jpg", "machu2.jpg"],
+    "price": "700",
+    "price_note": "Includes transportation, entrance tickets and professional guide.",
+
+    "seo_title": "Wonderful Peru 2025 Promotion - GT Peru Travel",
+    "seo_description": "Explore the Inca citadel of Machupicchu with expert guides and a complete tour.",
+    "seo_keywords": "machupicchu tour, travel to Peru, tourism in Cusco, Cusco tours, GT Peru Travel",
+
+    "days": [{
+            "title": "Day 1",
+            "text": "Discover the history and charm of the City of Kings, exploring its plazas, churches and colonial mansions. Experience the contrast between ancient and modern Lima in one tour. We will visit Miraflores, San Isidro, and the Historic Center, including the Main Square, the Cathedral, the Government Palace and the San Francisco Convent with its famous catacombs. Enjoy a panoramic view of the Huaca Pucllana, an ancient pre-Inca temple."
+        },
+        {
+            "title": "Day 2",
+            "text": "Enjoy an unforgettable adventure on the southern coast of Peru. We begin the trip to Paracas, where we will take a boat ride to the Ballestas Islands, home to sea lions, penguins and guano birds. Then we continue to Ica to visit the Huacachina Oasis, surrounded by impressive dunes where you can experience pure adrenaline with dune buggies and sandboarding. The dune buggy and sandboarding activity is included."
+        },
+        {
+            "title": "Day 3",
+            "text": "We begin the day by visiting the Qoricancha Temple, or Temple of the Sun, one of the most sacred Inca sites where Inca and Colonial architecture merge. We continue to the imposing archaeological centers of Sacsayhuamán, famous for its massive stone walls, Q'enqo, Puca Pucara and Tambomachay, all surrounded by nature and mystery."
+        },
+        {
+            "title": "Day 4",
+            "text": "Throughout the day you will discover the greatness of one of the world's most fascinating civilizations, surrounded by stunning Andean landscapes and traditional communities. We start with a visit to Chinchero, a colorful textile village, then continue to the circular terraces of Moray and the impressive Maras Salt Mines. We finish by exploring Ollantaytambo, a living Inca town and architectural jewel."
+        },
+        {
+            "title": "Day 5",
+            "text": "We start early heading to the town of Ollantaytambo/Poroy, where we will board the train to Aguas Calientes, enjoying beautiful Andean landscapes throughout the journey. Upon arrival, we take the bus up to the Machu Picchu citadel, where a specialized guide will reveal the secrets, history and mysticism of this wonderful archaeological site. You will have free time to explore before returning to Cusco by train and tourist transport."
+        },
+        {
+            "title": "Day 6",
+            "text": "We leave early from Cusco towards Soraypampa, the starting point of the hike. The ascent, about 1 hour and a half, takes you through spectacular Andean scenery until reaching Humantay Lake, famous for its intense turquoise color and mystical energy. Enjoy panoramic views, nature and time for unforgettable photos before returning. A perfect day for nature and adventure lovers."
+        },
+        {
+            "title": "Day 7",
+            "text": "We leave very early from Cusco heading south, enjoying a beautiful Andean sunrise and amazing landscapes. After a typical breakfast, we begin the hike to Rainbow Mountain (Vinicunca), located over 5,000 m.a.s.l. During the ascent you will see llamas, alpacas and the impressive glaciers of Ausangate, the sacred mountain of Cusco. At the summit, you will witness a natural show of red, yellow and turquoise colors painted by mineral sediments."
+        }
+    ],
+
+    "brochure": "peru-maravilloso-promocion-en.pdf",
+    "map": "mapa-paquete-peru-maravilloso-7d-6n-en.jpg",
+    "video": "https://www.youtube.com/shorts/7-jiRFm2L3U",
+
+    "categories": {
+        "tour": {
+            "titulo": "MACHUPICCHU TOUR - STANDARD",
+            "precio": "700",
+            "descripcion": "Classic option with Expedition train.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 10
+        },
+        "confort": {
+            "titulo": "MACHUPICCHU TOUR - COMFORT",
+            "precio": "800",
+            "descripcion": "Includes Vistadome train and buffet lunch.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 8
+        },
+        "premium": {
+            "titulo": "MACHUPICCHU TOUR - PREMIUM",
+            "precio": "900",
+            "descripcion": "Includes Vistadome train and buffet lunch.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 8
+        },
+        "elite": {
+            "titulo": "MACHUPICCHU TOUR - ELITE",
+            "precio": "1000",
+            "descripcion": "Includes Vistadome train and buffet lunch.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 8
+        }
+    }
+}

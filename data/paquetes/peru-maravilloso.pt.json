@@ -1,0 +1,79 @@
+{
+    "title": "Peru Maravilhoso",
+    "long_description": "<b>Peru Maravilhoso 7D/6N</b> - Pacote turístico completo. Descubra o melhor do Peru em uma viagem inesquecível de 7 dias e 6 noites. Este programa completo combina cultura, natureza e aventura, incluindo visitas aos destinos mais representativos do país. Desfrute de experiências autênticas, paisagens impressionantes e da riqueza histórica que fazem do Peru um lugar único no mundo. Ideal para viajantes que buscam um pacote tudo incluído, com hospedagem, traslados, guia profissional e organização integral. Reserve agora e viva uma semana cheia de história, tradição e momentos inesquecíveis.",
+    "short_description": "City Tour Cusco - Vale Sagrado - Machupicchu e outros pontos turísticos.",
+    "duration": "7 Dias / 6 Noites",
+    "image_cover": "promocion-peru-maravilloso-7d-6n-2025.jpg",
+    "gallery": ["machu1.jpg", "machu2.jpg"],
+    "price": "700",
+    "price_note": "Inclui transporte, ingressos e guia profissional.",
+
+    "seo_title": "Peru Maravilhoso 2025 Promoção - GT Peru Travel",
+    "seo_description": "Explore a cidadela inca de Machupicchu com guias especializados e um tour completo.",
+    "seo_keywords": "tour machupicchu, viajar ao Peru, turismo em Cusco, tours Cusco, GT Peru Travel",
+
+    "days": [{
+            "title": "Dia 1",
+            "text": "Descubra a história e o encanto da Cidade dos Reis, percorrendo suas praças, igrejas e mansões coloniais. Viva o contraste entre a Lima antiga e moderna em um único tour. Visitaremos Miraflores, San Isidro e o Centro Histórico, incluindo a Praça Maior, a Catedral, o Palácio do Governo e o Convento de San Francisco com suas famosas catacumbas. Também desfrute de uma vista panorâmica da Huaca Pucllana, antigo templo pré-inca."
+        },
+        {
+            "title": "Dia 2",
+            "text": "Viva uma aventura inesquecível na costa sul do Peru. Começamos a viagem para Paracas, onde faremos um passeio de barco pelas Ilhas Ballestas, lar de leões-marinhos, pinguins e aves guaneras. Depois seguimos para Ica para visitar o Oasis de Huacachina, rodeado por impressionantes dunas onde você poderá aproveitar muita adrenalina com buggies e sandboard. O passeio de buggy e sandboard está incluído."
+        },
+        {
+            "title": "Dia 3",
+            "text": "Iniciamos o dia visitando o Templo de Qoricancha, ou Templo do Sol, um dos locais mais sagrados dos incas, onde a arquitetura inca e colonial se fundem. Continuamos para os impressionantes centros arqueológicos de Sacsayhuamán, famoso por seus enormes muros de pedra, Q'enqo, Puca Pucara e Tambomachay."
+        },
+        {
+            "title": "Dia 4",
+            "text": "Ao longo do dia você conhecerá a grandeza de uma das civilizações mais fascinantes do mundo, rodeado por paisagens andinas impressionantes e comunidades tradicionais. Começamos com uma visita a Chinchero, um povoado têxtil colorido, depois seguimos às terrazas circulares de Moray e às impressionantes Salineras de Maras. Finalizamos explorando Ollantaytambo, uma joia arquitetônica inca viva."
+        },
+        {
+            "title": "Dia 5",
+            "text": "Começamos cedo rumo a Ollantaytambo/Poroy, onde embarcaremos no trem para Aguas Calientes, desfrutando de belas paisagens andinas ao longo do caminho. Ao chegar, tomaremos o ônibus até a cidadela inca de Machu Picchu, onde um guia especializado revelará os segredos, a história e o misticismo deste maravilhoso sítio arqueológico. Você terá tempo livre antes do retorno a Cusco."
+        },
+        {
+            "title": "Dia 6",
+            "text": "Partimos cedo de Cusco em direção a Soraypampa, ponto de início da caminhada. A subida, de aproximadamente 1 hora e meia, leva você por paisagens andinas espetaculares até a Laguna Humantay, famosa por sua cor turquesa intensa e energia mística. Aproveite vistas panorâmicas, natureza e momentos perfeitos para fotos inesquecíveis."
+        },
+        {
+            "title": "Dia 7",
+            "text": "Saímos muito cedo de Cusco rumo ao sul, desfrutando de um lindo amanhecer andino. Após um café da manhã típico, iniciamos a caminhada até a Montanha Colorida (Vinicunca), situada a mais de 5.000 m de altitude. Durante a subida você verá lhamas, alpacas e os impressionantes glaciares do Ausangate. No topo, você contemplará um espetáculo natural de cores vermelhas, amarelas e turquesas."
+        }
+    ],
+
+    "brochure": "peru-maravilloso-promocion-pt.pdf",
+    "map": "mapa-paquete-peru-maravilloso-7d-6n-pt.jpg",
+    "video": "https://www.youtube.com/shorts/7-jiRFm2L3U",
+
+    "categories": {
+        "tour": {
+            "titulo": "TOUR MACHUPICCHU - BÁSICO",
+            "precio": "700",
+            "descripcion": "Opção clássica com trem Expedition.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 10
+        },
+        "confort": {
+            "titulo": "TOUR MACHUPICCHU - CONFORTO",
+            "precio": "800",
+            "descripcion": "Inclui trem Vistadome e almoço buffet.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 8
+        },
+        "premium": {
+            "titulo": "TOUR MACHUPICCHU - PREMIUM",
+            "precio": "900",
+            "descripcion": "Inclui trem Vistadome e almoço buffet.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 8
+        },
+        "elite": {
+            "titulo": "TOUR MACHUPICCHU - ELITE",
+            "precio": "1000",
+            "descripcion": "Inclui trem Vistadome e almoço buffet.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 8
+        }
+    }
+}

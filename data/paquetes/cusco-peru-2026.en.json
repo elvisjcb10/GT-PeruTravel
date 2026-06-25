@@ -1,0 +1,69 @@
+{
+    "title": "NEW YEAR IN CUSCO 2025",
+    "short_description": "Celebrate New Year in Cusco with a trip full of culture, history, and festivities. Includes Machupicchu, city tour, and a special New Year’s Eve dinner.",
+    "long_description": "Experience an unforgettable New Year in the historical capital of Peru. This package combines Andean tradition, archaeology, gastronomy, and the most energetic celebrations of the year in Cusco's Main Square. Includes a guided visit to Machupicchu, City Tour, Sacred Valley, and a special New Year’s Eve dinner.",
+    "duration": "4 Days / 3 Nights",
+
+    "image_cover": "ano-nuevo-cusco-cover.jpg",
+    "gallery": ["cusco-new-year-1.jpg", "cusco-new-year-2.jpg", "machu1.jpg"],
+
+    "price": "650",
+    "price_note": "Includes accommodation, transfers, entrance fees, and New Year’s Eve dinner.",
+
+    "seo_title": "New Year in Cusco 2025 - 4D/3N Tour - Machupicchu | GT Peru Travel",
+    "seo_description": "New Year Package Cusco 2025: Machupicchu, City Tour, Sacred Valley, and New Year’s Eve dinner. Book now with GT Peru Travel.",
+    "seo_keywords": "new year cusco, new year peru, cusco tours, machupicchu new year, GT Peru Travel",
+
+    "days": [{
+            "title": "Day 1: Welcome + Cusco City Tour",
+            "text": "We will pick you up from the airport and take you to your hotel. In the afternoon, you will enjoy the City Tour visiting Qorikancha, Sacsayhuaman, Qenqo, Puca Pucara, and Tambomachay. Free evening to adapt to the altitude."
+        },
+        {
+            "title": "Day 2: Sacred Valley + Special New Year’s Eve Dinner",
+            "text": "Visit Pisac, the artisan market, Ollantaytambo, and Chinchero. In the evening, enjoy a special New Year’s Eve dinner in Cusco. Optional: celebration in the Main Square to welcome the New Year."
+        },
+        {
+            "title": "Day 3: Machupicchu - The Big Day",
+            "text": "Early in the morning, board the train to Aguas Calientes and then take the bus up to Machupicchu. Guided tour of approximately 2.5 hours. Free time for photos and exploration. Return to Cusco in the afternoon or evening."
+        },
+        {
+            "title": "Day 4: Farewell",
+            "text": "Free morning for shopping or walking around. Transfer to the airport or bus station according to your itinerary."
+        }
+    ],
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "NEW YEAR PACKAGE - STANDARD",
+            "precio": "650",
+            "descripcion": "2★ Hotels, transfers, entrance fees, and New Year’s Eve dinner.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "NEW YEAR PACKAGE - COMFORT",
+            "precio": "750",
+            "descripcion": "3★ Hotels + Vistadome train.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "NEW YEAR PACKAGE - PREMIUM",
+            "precio": "850",
+            "descripcion": "4★ Hotels + Dinner show + Vistadome train.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "NEW YEAR PACKAGE - ELITE",
+            "precio": "1150",
+            "descripcion": "5★ Hotels (JW Marriott / Palacio del Inka).",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "title": "Montanha das Cores + Geleira de Quelccaya",
+    "long_description": "Viva uma experiência andina completa combinando duas das paisagens naturais mais impressionantes de Cusco: a Montanha das Cores (Vinicunca) e a Geleira de Quelccaya, a maior geleira tropical do mundo. Um tour desenvolvido para viajantes que buscam aventura, natureza e cenários únicos, longe do convencional.",
+    "short_description": "Montanha das Cores + Geleira de Quelccaya.",
+    "duration": "2 Dias / 1 Noite",
+    "image_cover": "montana-colores-cusco-peru.jpg",
+    "gallery": ["vinicunca1.jpg", "quelccaya1.jpg"],
+    "price": "145",
+    "price_note": "Inclui transporte, ingressos de entrada e guia profissional.",
+
+    "seo_title": "Montanha das Cores e Geleira de Quelccaya | Tour de 2 Dias saindo de Cusco",
+    "seo_description": "Descubra a Montanha das Cores Vinicunca e a Geleira de Quelccaya em um tour de 2 dias saindo de Cusco. Natureza, aventura e paisagens únicas nos Andes peruanos.",
+    "seo_keywords": "montanha das cores, vinicunca, geleira de quelccaya, tour quelccaya, tour vinicunca, trekking cusco, tours de aventura cusco, natureza em cusco",
+
+    "days": [{
+            "title": "Dia 1 – Montanha das Cores",
+            "text": "Saímos bem cedo de Cusco em direção ao sul, atravessando comunidades alto-andinas e paisagens da cordilheira de Vilcanota. Após o café da manhã, iniciamos uma caminhada gradual cercada por alpacas e montanhas sagradas até chegar ao topo da Montanha das Cores, onde os intensos tons naturais criam uma vista inesquecível. Após tempo livre para fotos, continuamos a viagem até a região de Quelccaya para passar a noite."
+        },
+        {
+            "title": "Dia 2 – Geleira de Quelccaya",
+            "text": "Após o café da manhã, seguimos até o ponto de início da caminhada em direção à geleira. Durante o percurso, observaremos lagoas, montanhas nevadas e fauna andina até chegar à imponente frente da Geleira de Quelccaya. O guia explicará a importância natural e cultural deste lugar único. Após a visita, iniciamos o retorno a Cusco."
+        }
+    ],
+
+    "technical_sheet": "TOUR GELEIRA DE QUELCCAYA E MONTANHA DAS CORES <br>• Destino: Geleira de Quelccaya e Montanha das Cores <br>• Duração: 2 dias / 1 noite <br>• Altitude máxima: 4.800 – 5.100 m s.n.m. <br>• Nível de dificuldade: Moderado – Alto <br>• Tipo de tour: Natureza / Aventura / Geleiras <br>• Tempo de caminhada: 1 a 2 horas (aprox.) <br>• Clima: Frio andino <br>• Recomendado para: Pessoas aclimatadas e com boa condição física <br>• Não recomendado para: Pessoas com problemas cardíacos ou respiratórios",
+    "includes": "• Transporte turístico.<br>• Guia profissional.<br>• 2 cafés da manhã.<br>• 2 almoços.<br>• 1 jantar.<br>• 1 noite de hospedagem rural.<br>• Bastões de trekking.<br>• Mantas térmicas.<br>• Oxigênio e kit de primeiros socorros.",
+    "not_includes": "• Saco de dormir (recomendado para pessoas de climas quentes)<br>• Lanches.<br>• Gorjetas.",
+
+    "brochure": "",
+    "map": "mapa-montanacolores-glaciarquelcaya-pt.jpg",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "TOUR QUELCCAYA + MONTANHA DAS CORES – BÁSICO",
+            "precio": "145",
+            "descripcion": "Opção de serviço de acordo com o nível de conforto e experiência durante o tour.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "TOUR QUELCCAYA + MONTANHA DAS CORES – CONFORT",
+            "precio": "145",
+            "descripcion": "Opção de serviço de acordo com o nível de conforto e experiência durante o tour.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "TOUR QUELCCAYA + MONTANHA DAS CORES – PREMIUM",
+            "precio": "145",
+            "descripcion": "Opção de serviço de acordo com o nível de conforto e experiência durante o tour.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "TOUR QUELCCAYA + MONTANHA DAS CORES – ELITE",
+            "precio": "145",
+            "descripcion": "Opção de serviço de acordo com o nível de conforto e experiência durante o tour.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        }
+    }
+}

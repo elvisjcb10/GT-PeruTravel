@@ -1,0 +1,54 @@
+{
+    "title": "Laguna Humantay",
+    "short_description": "Um tour imperdível para descobrir uma das maravilhas naturais mais famosas de Cusco.",
+    "long_description": "<b>INÍCIO 04:00 - FIM 17:00</b><br>Embarque em uma aventura até a impressionante Laguna Humantay, uma joia natural escondida entre as montanhas de Cusco. Viva a magia das águas turquesa cercadas pelos imponentes picos andinos!",
+    "duration": "1 Dia",
+    "image_cover": "../tours/laguna-humantay-card.jpg",
+    "gallery": ["montana1.jpg", "montana2.jpg"],
+    "price": "90",
+    "price_note": "Inclui transporte, ingressos e guia profissional.",
+
+    "seo_title": "Tour Laguna Humantay e Montanha de Cores - Cusco | GT Peru Travel",
+    "seo_description": "Desfrute de um tour de 1 dia pela Laguna Humantay e Montanha de Cores. Inclui transporte, guia profissional e uma experiência única nos Andes de Cusco.",
+    "seo_keywords": "laguna humantay, montanha de cores, vinicunca, tour cusco 1 dia, excursao humantay, viagem peru, gt peru travel",
+
+    "days": [{
+        "title": "Dia 1",
+        "text": "Partimos cedo de Cusco em direção à vila de Soraypampa, ponto de início da caminhada. A subida, de aproximadamente 1 hora e meia, passa por paisagens andinas espetaculares até chegar à Laguna Humantay, famosa pela intensa cor turquesa e energia mística. Aproveite as vistas panorâmicas, conecte-se com a natureza e tire fotos inesquecíveis antes do retorno. Um dia perfeito para quem busca uma experiência natural, energética e cheia de beleza nos Andes peruanos."
+    }],
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "TOUR LAGUNA HUMANTAY - BÁSICO",
+            "precio": "90",
+            "descripcion": "Opção clássica com transporte padrão.",
+            "nota": "Inclui traslados e guia profissional",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "TOUR LAGUNA HUMANTAY - CONFORTO",
+            "precio": "130",
+            "descripcion": "Inclui transporte superior e almoço buffet.",
+            "nota": "Inclui traslados, serviço 2 ★★ e visitas guiadas",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "TOUR LAGUNA HUMANTAY - PREMIUM",
+            "precio": "150",
+            "descripcion": "Inclui transporte superior e almoço buffet.",
+            "nota": "Inclui traslados, serviço 3 ★★★ e visitas guiadas",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "TOUR LAGUNA HUMANTAY - ELITE",
+            "precio": "180",
+            "descripcion": "Inclui transporte superior e almoço buffet.",
+            "nota": "Inclui traslados, serviço 4 ★★★★ e visitas guiadas",
+            "descuento": 0
+        }
+    }
+}

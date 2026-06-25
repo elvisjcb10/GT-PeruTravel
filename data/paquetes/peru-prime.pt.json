@@ -1,0 +1,81 @@
+{
+    "title": "Peru Prime",
+    "short_description": "Cusco – Vale Sagrado – Ollantaytambo – Machu Picchu – Montanha Arco-Íris – Laguna Humantay.",
+    "long_description": "Explore o melhor do Peru em 7 dias: de Lima a Cusco, descubra história, cultura e paisagens icônicas como Machu Picchu, Laguna Humantay e a Montanha Arco-Íris.",
+    "duration": "7 Dias / 6 Noites",
+
+    "image_cover": "peru-magico.jpg",
+    "gallery": ["machu1.jpg", "machu2.jpg"],
+
+    "price": "720",
+    "price_note": "Inclui transporte, ingressos e guia profissional.",
+
+    "seo_title": "Peru Prime 7D/6N – Cusco, Machu Picchu e Atrações Imperdíveis | GT Peru Travel",
+    "seo_description": "Peru Prime 7 dias: Vale Sagrado, Cusco, Machu Picchu, Laguna Humantay e Montanha Arco-Íris. Pacote completo com transporte, ingressos e guia profissional.",
+    "seo_keywords": "peru prime, peru 7 dias, tour cusco machu picchu, vale sagrado, montanha arco-íris, laguna humantay, gt peru travel",
+
+    "days": [{
+            "title": "Dia 1: Chegada a Lima",
+            "text": "Recepção no aeroporto e traslado ao hotel. Check-in a partir das 14h. Tour pela cidade opcional para chegadas pela manhã."
+        },
+        {
+            "title": "Dia 2: Paracas – Ilhas Ballestas – Ica – Huacachina",
+            "text": "Viagem cedo a Paracas para visitar as Ilhas Ballestas. Continuação até Ica para visita a vinhedo e degustação. À tarde, aventura em Huacachina com buggies e sandboard. Retorno a Lima."
+        },
+        {
+            "title": "Dia 3: Voo Lima – Cusco",
+            "text": "Traslado ao aeroporto e voo para Cusco. Recepção e traslado ao hotel. Tarde livre para aclimatação ou visita ao Centro Qosqo de Arte Nativa."
+        },
+        {
+            "title": "Dia 4: Machu Picchu",
+            "text": "Viagem de trem até Aguas Calientes e subida de ônibus a Machu Picchu. Tour guiado pelos principais pontos. Tempo livre e retorno a Cusco."
+        },
+        {
+            "title": "Dia 5: Laguna Humantay",
+            "text": "Saída cedo para Mollepata. Caminhada até a Laguna Humantay (4200 m). Tempo para fotos e vistas panorâmicas. Retorno a Cusco."
+        },
+        {
+            "title": "Dia 6: Montanha Arco-Íris",
+            "text": "Viagem a Cusipata, café da manhã e trilha até Vinicunca (5036 m). Vistas do nevado Ausangate. Retorno a Cusco."
+        },
+        {
+            "title": "Dia 7: Partida",
+            "text": "Traslado ao aeroporto conforme horário do voo."
+        }
+    ],
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "TOUR MACHU PICCHU – STANDARD",
+            "precio": "720",
+            "descripcion": "Opção clássica com trem Expedition.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "TOUR MACHU PICCHU – CONFORTO",
+            "precio": "720",
+            "descripcion": "Inclui trem Vistadome e almoço buffet.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "TOUR MACHU PICCHU – PREMIUM",
+            "precio": "720",
+            "descripcion": "Inclui trem Vistadome e serviços aprimorados.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "TOUR MACHU PICCHU – ELITE",
+            "precio": "720",
+            "descripcion": "Experiência completa com serviços superiores.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        }
+    }
+}

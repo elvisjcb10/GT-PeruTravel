@@ -1,0 +1,17 @@
+{
+    "titulo": "Check Availability and Prices",
+    "subtitle": "We will respond as soon as possible",
+    "nombre": "Name",
+    "nombre-placeholder": "Carlos",
+    "numero": "WhatsApp or Phone",
+    "numero-placeholder": "98979-9898",
+    "correo": "Email",
+    "correo-placeholder": "email@example.com",
+    "fecha": "Approximate Travel Date",
+    "mensaje": "Message",
+    "mensaje-placeholder": "I would like more information about the tour",
+    "boton": "Request Information",
+
+    "success": "Message sent! We will reply soon.",
+    "error": "Error sending the message. Please try again."
+}

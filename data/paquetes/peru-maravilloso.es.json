@@ -1,0 +1,79 @@
+{
+    "title": "Peru Maravilloso",
+    "long_description": "<b>Peru Maravilloso 7D/6N</b> - Paquete turístico completo Descubre lo mejor del Perú en un viaje inolvidable de 7 días y 6 noches.Este programa completo combina cultura, naturaleza y aventura, incluyendo visitas a los destinos más representativos del país.Disfruta de experiencias auténticas, paisajes impresionantes y la riqueza histórica que hacen del Perú un lugar único en el mundo. Ideal para viajeros que buscan un paquete todo incluido, con alojamiento, traslados, guiado profesional y organización integral.Reserva ahora y vive una semana llena de historia, tradición y momentos inolvidables.",
+    "short_description": "City Tour Cusco - Valle Sagrado - Machupicchu y otros lugares turisticos.",
+    "duration": "7 Días/6 Noches",
+    "image_cover": "promocion-peru-maravilloso-7d-6n-2025.jpg",
+    "gallery": ["machu1.jpg", "machu2.jpg"],
+    "price": "700",
+    "price_note": "Incluye transporte, tickets de ingreso y guía profesional.",
+
+    "seo_title": "Peru Maravilloso 2025 Promocion - GT Peru Travel",
+    "seo_description": "Explora la ciudadela inca de Machupicchu con guías expertos y un tour completo.",
+    "seo_keywords": "tour a Machupicchu, viaje a Perú, turismo en Cusco, tours Cusco, GT Peru Travel",
+
+    "days": [{
+            "title": "Día 1",
+            "text": "Descubre la historia y el encanto de la Ciudad de los Reyes, recorriendo sus plazas, iglesias y casonas coloniales. Vive el contraste entre la Lima antigua y moderna en un solo tour, un recorrido por su pasado y presente. Visitaremos Miraflores, San Isidro y el Centro Histórico, con la Plaza Mayor, la Catedral, el Palacio de Gobierno y el Convento de San Francisco con sus famosas catacumbas. Disfruta también de una vista panorámica de la Huaca Pucllana, antiguo templo preincaico."
+        },
+        {
+            "title": "Día 2",
+            "text": "Vive una aventura inolvidable en la costa sur del Perú. Iniciamos el viaje hacia Paracas, donde realizaremos un paseo en lancha por las Islas Ballestas, hogar de lobos marinos, pingüinos y aves guaneras. Luego continuamos hacia Ica, para visitar el Oasis de Huacachina, rodeado de impresionantes dunas donde podrás disfrutar de adrenali- na pura con tubulares y sandboard. El paseo en tubulares y sandboarding esta incluida en esta aventura."
+        },
+        {
+            "title": "Día 3",
+            "text": "Iniciamos el recorrido visitando el Templo del Qoricancha o Templo del Sol, uno de los recintos más sagrados de los incas, donde se fu- sionan la arquitectura inca y colonial. Continuamos hacia las imponen- tes centros arqueológicos como Sacsayhuamán, famosa por sus enormes muros de piedra, Q'enqo, Puca Pucara y Tambomachay, rodeados de naturaleza y misterio."
+        },
+        {
+            "title": "Día 4",
+            "text": "A lo largo del día conocerás la grandeza de una de las civilizaciones más fascinantes del mundo, rodeado de imponentes paisajes andinos y comunidades tradicionales. Comenzamos con la visita a Chinchero, pueblo textil Ileno de color y tradición, para luego continuar hacia las terrazas circulares de Moray y las impactantes salineras de Maras. Posteriormente exploraremos Ollantaytambo, una joya arquitectónica inca viva."
+        },
+        {
+            "title": "Día 5",
+            "text": "Iniciaremos temprano rumbo al poblado de Ollantaytambo/Poroy , donde abordaremos el tren hacia Aguas Calientes, disfrutando de un paisaje andino impresionante a lo largo del recorrido. AI llegar, tomare- mos el bus que asciende hasta la ciudadela inca de Machu Picchu, donde un guía especializado te revelará los secretos, la historia y el misticismo de este maravilloso sitio arqueológico. Tendrás tiempo libre para recorrer y contemplar las vistas más icónicas antes de retornar a Cusco en tren y transporte turístico."
+        },
+        {
+            "title": "Día 6",
+            "text": "Partimos temprano desde Cusco hacia el pueblo de Soraypampa, punto de inicio de la caminata. El ascenso, de aproximadamente 1 hora y media, te llevará a través de paisajes andinos espectaculares hasta llegar a la Laguna Humantay, famosa por su intenso color turquesa y su energía mística. Podrás disfrutar de vistas panorámicas, momentos de conexión con la naturaleza y tiempo libre para tomar fotografías in- olvidables antes del regreso. Una jornada perfecta para quienes desean vivir una experiencia natu-ral, energética y Ilena de belleza en los Andes peruanos."
+        },
+        {
+            "title": "Día 7",
+            "text": "Partimos muy temprano desde Cusco rumbo al sur, disfrutando de un amanecer andino y hermosas vistas durante el trayecto. Tras un de- sayuno típico, iniciaremos la caminata hacia la Montaña Vinicunca, ubicada a más de 5,000 m s. n. m. Durante el ascenso podrás obser- var Ilamas, alpacas y los impresionantes glaciares delApu Ausangate, la montaña sagrada del Cusco. AI llegar a la cima, serás testigo de un espectáculo natural de colores rojizos, amarillos y turquesas, resultado de minerales que pintan el paisaje como un arcoiris terrestre."
+        }
+    ],
+
+    "brochure": "peru-maravilloso-promocion-es.pdf",
+    "map": "mapa-paquete-peru-maravilloso-7d-6n-es.jpg",
+    "video": "https://www.youtube.com/shorts/7-jiRFm2L3U",
+
+    "categories": {
+        "tour": {
+            "titulo": "TOUR MACHUPICCHU - SOLO",
+            "precio": "700",
+            "descripcion": "Opción clásica con tren Expedition.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 10
+        },
+        "confort": {
+            "titulo": "TOUR MACHUPICCHU - CONFORT",
+            "precio": "800",
+            "descripcion": "Incluye tren Vistadome y almuerzo buffet.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 8
+        },
+        "premium": {
+            "titulo": "TOUR MACHUPICCHU - PREMIUM",
+            "precio": "900",
+            "descripcion": "Incluye tren Vistadome y almuerzo buffet.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 8
+        },
+        "elite": {
+            "titulo": "TOUR MACHUPICCHU - ELITE",
+            "precio": "1000",
+            "descripcion": "Incluye tren Vistadome y almuerzo buffet.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 8
+        }
+    }
+}

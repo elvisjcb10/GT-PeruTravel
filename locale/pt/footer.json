@@ -1,0 +1,48 @@
+{
+    "company_name": "GT PERU TRAVEL S.A.C",
+
+    "description": "Operadora local em Cusco especializada em tours para Machu Picchu e experiências autênticas nos Andes.",
+
+    "tours_title": "Passeios em Cusco",
+    "tours": [{
+            "name": "Lagoa Humantay",
+            "url": "laguna-humantay"
+        },
+        {
+            "name": "Ponte Inca",
+            "url": "fortaleza-cuernos"
+        },
+        {
+            "name": "Machu Picchu",
+            "url": "machupicchu"
+        },
+        {
+            "name": "Vale Sagrado",
+            "url": "valle-sagrado"
+        },
+        {
+            "name": "Montanha Colorida",
+            "url": "montana-colores"
+        }
+    ],
+
+    "company_title": "Empresa",
+    "company_info": {
+        "name": "GT Peru Travel",
+        "ruc": "20601976634",
+        "email": "info@gtperutravel.com",
+        "address": "Cusco, Peru"
+    },
+
+    "contact_title": "Contato",
+    "whatsapp": "51997379201",
+    "email": "info@gtperutravel.com",
+
+    "payments": [
+        "visa.png",
+        "mastercard.png",
+        "paypal.png"
+    ],
+
+    "footer_legal": "© 2026 GT Peru Travel. Todos os direitos reservados."
+}

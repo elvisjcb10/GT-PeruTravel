@@ -1,0 +1,26 @@
+{
+    "company_title": "GT PERU TRAVEL",
+    "company_paragraph": "Nossa empresa matriz, registrada no Ministério do Turismo do Peru, lidera nossas marcas com um único propósito:",
+    "company_highlight": "Excelência, segurança e satisfação do viajante.",
+
+    "brands": {
+        "palcoyo": {
+            "title": "PALCOYO TREKKING",
+            "description": "Especialistas em trekking para a Montanha Palcoyo e rotas alternativas. Criamos experiências sustentáveis e autênticas para amantes da aventura.",
+            "link_text": "EXPLORAR MARCA",
+            "footer": "Opera sob GT Peru Travel S.A.C"
+        },
+        "gt": {
+            "title": "GT PERU TRAVEL",
+            "description": "Agência matriz com sede em Cusco. Criamos e operamos experiências autênticas através de nossas marcas especializadas.",
+            "link_text": "EXPLORAR MARCA",
+            "footer": "Empresa matriz - GT Peru Travel S.A.C"
+        },
+        "sunrise": {
+            "title": "SUNRISE EXPERIENCE CUSCO",
+            "description": "Turismo de aventura focado em amanheceres mágicos em Cusco. Para quem busca experiências únicas em contato com a natureza.",
+            "link_text": "EXPLORAR MARCA",
+            "footer": "Opera sob GT Peru Travel S.A.C"
+        }
+    }
+}

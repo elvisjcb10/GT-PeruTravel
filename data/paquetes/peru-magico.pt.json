@@ -1,0 +1,89 @@
+{
+    "title": "Peru Mágico",
+    "short_description": "Lima – Cusco – Qoricancha – Sacsayhuamán – Vale Sagrado – Machu Picchu – Montanha Colorida – Lago Humantay.",
+    "long_description": "Explore o Peru em uma viagem completa que combina história, natureza e cultura. Comece em Lima e continue para Cusco, a capital histórica do Império Inca.",
+    "duration": "9 Dias / 8 Noites",
+
+    "image_cover": "peru-magico.jpg",
+    "gallery": ["machu1.jpg", "machu2.jpg"],
+
+    "price": "809",
+    "price_note": "Inclui transporte, ingressos e guia profissional.",
+
+    "seo_title": "Peru Mágico 9D/8N – Lima, Cusco, Machu Picchu & Principais Atrações | GT Peru Travel",
+    "seo_description": "Peru Mágico 9 dias: Lima, Paracas, Ica, Cusco, Vale Sagrado, Machu Picchu, Lago Humantay e Montanha Colorida. Tour completo com transfers, ingressos e guia profissional.",
+    "seo_keywords": "peru mágico, tour peru 9 dias, viagem lima cusco machu picchu, peru completo, vale sagrado, montanha colorida, humantay, gt peru travel",
+
+    "days": [{
+            "title": "Dia 1: Chegada a Lima",
+            "text": "Recepção no aeroporto e traslado ao hotel. Check-in a partir das 14h. Se chegar cedo, pode fazer um City Tour opcional. Noite em Lima."
+        },
+        {
+            "title": "Dia 2: Paracas + Ilhas Ballestas + Ica + Huacachina",
+            "text": "Viagem a Paracas para visitar as Ilhas Ballestas e sua vida marinha. Seguimos para Ica para conhecer uma vinícola com degustação de vinhos e pisco. Em seguida, visita ao Oasis de Huacachina com buggy e sandboard. Retorno a Lima à noite."
+        },
+        {
+            "title": "Dia 3: Voo Lima – Cusco",
+            "text": "Traslado ao aeroporto e voo para Cusco. Recepção e traslado ao hotel. Tarde livre para aclimatação ou show típico no Centro Qosqo de Arte Nativa."
+        },
+        {
+            "title": "Dia 4: City Tour + Morada dos Deuses",
+            "text": "Visita ao Qoricancha, Sacsayhuamán, Qenqo e à Morada dos Deuses. Arquitetura inca, arte andina e pontos panorâmicos."
+        },
+        {
+            "title": "Dia 5: Machu Picchu",
+            "text": "Trem para Aguas Calientes e ônibus até Machu Picchu. Tour guiado pelos principais templos e mirantes. Tempo livre e retorno a Cusco."
+        },
+        {
+            "title": "Dia 6: Lago Humantay",
+            "text": "Saída cedo para Mollepata, café da manhã e início da caminhada até o Lago Humantay (4200 m). Tempo para fotos. Almoço e retorno a Cusco."
+        },
+        {
+            "title": "Dia 7: Dia Livre",
+            "text": "Dia livre para conhecer Cusco no seu ritmo ou fazer atividades opcionais como San Blas, Mercado de San Pedro, museus ou tour para Maras e Moray."
+        },
+        {
+            "title": "Dia 8: Montanha Colorida",
+            "text": "Viagem até Cusipata, café da manhã e caminhada até Vinicunca (5036 m). Vista única e cores impressionantes. Almoço e retorno a Cusco."
+        },
+        {
+            "title": "Dia 9: Retorno",
+            "text": "Traslado ao aeroporto conforme horário de voo. Fim da viagem."
+        }
+    ],
+
+    "brochure": "",
+    "map": "mapa-paquete-peru-magico-9d-8n-pt.jpg",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "TOUR MACHU PICCHU - PADRÃO",
+            "precio": "809",
+            "descripcion": "Opção clássica com trem Expedition.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "TOUR MACHU PICCHU - CONFORTO",
+            "precio": "809",
+            "descripcion": "Inclui trem Vistadome e almoço buffet.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "TOUR MACHU PICCHU - PREMIUM",
+            "precio": "809",
+            "descripcion": "Inclui trem Vistadome e almoço buffet.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "TOUR MACHU PICCHU - ELITE",
+            "precio": "809",
+            "descripcion": "Inclui trem Vistadome e almoço buffet.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        }
+    }
+}

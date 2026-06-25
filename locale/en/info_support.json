@@ -1,0 +1,93 @@
+{
+    "section_title": "Information & Support",
+
+    "columns": [{
+            "title": "Legal Information",
+            "links": [{
+                    "text": "About Us",
+                    "url": "/legal.php?doc=quienes_somos&lang=en"
+                },
+                {
+                    "text": "Terms & Conditions",
+                    "url": "/legal.php?doc=terminos_y_condiciones&lang=en"
+                },
+                {
+                    "text": "Privacy Policy",
+                    "url": "/legal.php?doc=politica_de_privacidad&lang=en"
+                },
+                {
+                    "text": "Personal Data Protection",
+                    "url": "/legal.php?doc=proteccion_de_datos&lang=en"
+                },
+                {
+                    "text": "Authorizations",
+                    "url": "/legal.php?doc=autorizaciones&lang=en"
+                }
+            ]
+        },
+        {
+            "title": "Payments & Booking",
+            "links": [{
+                    "text": "Payment Methods",
+                    "url": "/legal.php?doc=metodos_de_pago&lang=en"
+                },
+                {
+                    "text": "Cancellation Policy",
+                    "url": "/legal.php?doc=politica_de_cancelacion&lang=en"
+                },
+                {
+                    "text": "Receipts & Billing",
+                    "url": "/legal.php?doc=facturacion&lang=en"
+                },
+                {
+                    "text": "Customer Support",
+                    "url": "/legal.php?doc=soporte_cliente&lang=en"
+                }
+            ]
+        },
+        {
+            "title": "Trust & Safety",
+            "links": [{
+                    "text": "Quality Commitment",
+                    "url": "/legal.php?doc=compromiso_calidad&lang=en"
+                },
+                {
+                    "text": "PromPeru",
+                    "url": "/legal.php?doc=prom_peru&lang=en"
+                },
+                {
+                    "text": "Legal Notice",
+                    "url": "/legal.php?doc=aviso_legal&lang=en"
+                },
+                {
+                    "text": "Cookies Policy",
+                    "url": "/legal.php?doc=politicas_cookies&lang=en"
+                },
+                {
+                    "text": "Location & Hours",
+                    "url": "/legal.php?doc=ubicacion_horarios&lang=en"
+                }
+            ]
+        },
+        {
+            "title": "Help & Resources",
+            "links": [{
+                    "text": "Claims Book",
+                    "url": "/legal.php?doc=libro_de_reclamaciones&lang=en"
+                },
+                {
+                    "text": "Sitemap",
+                    "url": "/legal.php?doc=mapa_del_sitio&lang=en"
+                },
+                {
+                    "text": "FAQ",
+                    "url": "/legal.php?doc=preguntas_frecuentes&lang=en"
+                },
+                {
+                    "text": "Technical Support",
+                    "url": "/legal.php?doc=soporte_tecnico&lang=en"
+                }
+            ]
+        }
+    ]
+}

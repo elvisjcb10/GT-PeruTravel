@@ -1,0 +1,112 @@
+{
+    "title": "Peru Premium",
+    "short_description": "A complete journey through Peru: Lima, Paracas, Ica, Nazca, Cusco, Machu Picchu, Puno and Arequipa",
+    "long_description": "Discover the best of Peru in a 15-day program that blends history, nature, and living culture. From Lima and the South Coast to the Andes and the majestic Machu Picchu, enjoy an unforgettable experience designed for travelers seeking a premium journey through the country’s most iconic destinations.",
+    "duration": "15 Days / 14 Nights",
+    "image_cover": "peru-premium.jpg",
+    "gallery": ["machu1.jpg", "machu2.jpg"],
+    "price": "1359",
+    "price_note": "Includes transportation, entrance tickets, and professional guide.",
+
+    "seo_title": "Peru Premium 15 Days / 14 Nights – Lima, Cusco, Machu Picchu, Puno & Arequipa | GT Peru Travel",
+    "seo_description": "Peru Premium 15 Days / 14 Nights: Explore Lima, Paracas, Ica, Cusco, Machu Picchu, Puno, Arequipa and Nazca. Includes entrances, transportation, guided tours and cultural experiences.",
+    "seo_keywords": "peru premium tour, peru 15 days itinerary, machu picchu full tour, travel peru package, cusco puno arequipa tour, nazca lines tour, gt peru travel",
+
+    "days": [{
+            "title": "Day 1 – Lima",
+            "text": "Arrival in Lima, reception and transfer to the hotel. Optional city tour to discover the history, gastronomy and urban landscapes of the capital if arriving early."
+        },
+        {
+            "title": "Day 2 – Lima / Paracas / Ica – Huacachina / Nazca",
+            "text": "Travel to Paracas, boat tour to the Ballestas Islands and adventure in the Huacachina oasis with buggies and sandboarding. Transfer to Nazca and overnight stay."
+        },
+        {
+            "title": "Day 3 – Nazca Lines / Overflight – Lima",
+            "text": "Exciting overflight of the Nazca Lines to discover their ancient mysteries from the air. Comfortable return to Lima by bus."
+        },
+        {
+            "title": "Day 4 – Lima / Cusco",
+            "text": "Flight from Lima to Cusco. Free day for acclimatization, a relaxed walk through the imperial city and adaptation to the Andean altitude."
+        },
+        {
+            "title": "Day 5 – Cusco / City Tour",
+            "text": "City tour of Cusco visiting Coricancha, Sacsayhuamán and a camelid sanctuary, exploring Inca history and colonial architecture."
+        },
+        {
+            "title": "Day 6 – Sacred Valley / Aguas Calientes",
+            "text": "Tour of Chinchero, Maras, Moray and Ollantaytambo, enjoying Andean landscapes before traveling to Aguas Calientes."
+        },
+        {
+            "title": "Day 7 – Machu Picchu / Cusco",
+            "text": "Guided visit to Machu Picchu, one of the Seven Wonders of the World, with time for unforgettable photos and return to Cusco."
+        },
+        {
+            "title": "Day 8 – Cusco / Humantay Lake",
+            "text": "Hike to the spectacular Humantay Lake, surrounded by snow-capped mountains and breathtaking views. Return to Cusco in the afternoon."
+        },
+        {
+            "title": "Day 9 – Cusco / Rainbow Mountain",
+            "text": "Excursion to Vinicunca, the famous Rainbow Mountain, enjoying a moderate trek and unique panoramic views of the Andes."
+        },
+        {
+            "title": "Day 10 – Cusco / Puno – Route of the Sun",
+            "text": "Scenic journey along the Route of the Sun to Puno, visiting temples, museums and Andean landscapes."
+        },
+        {
+            "title": "Day 11 – Puno / Uros – Amantaní",
+            "text": "Navigation on Lake Titicaca visiting the floating Uros Islands and a cultural homestay experience with a local family on Amantaní."
+        },
+        {
+            "title": "Day 12 – Amantaní / Taquile – Puno / Arequipa",
+            "text": "Visit to Taquile Island, famous for its ancestral culture. Return to Puno and overnight bus journey to Arequipa."
+        },
+        {
+            "title": "Day 13 – Arequipa / City Tour",
+            "text": "City tour of Arequipa visiting Yanahuara, Carmen Alto, the Santa Catalina Monastery and its elegant Historic Center."
+        },
+        {
+            "title": "Day 14 – Arequipa / Colca Canyon",
+            "text": "Excursion to Colca Canyon, observing condors, natural viewpoints and enjoying relaxing hot springs."
+        },
+        {
+            "title": "Day 15 – Arequipa / Lima",
+            "text": "Transfer to the airport and flight back to Lima, concluding an unforgettable journey through the best of Peru."
+        }
+    ],
+
+
+    "brochure": "",
+    "map": "mapa-paquete-peru-premium-15d-14n-en.jpg",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "MACHUPICCHU TOUR - BASIC",
+            "precio": "1359",
+            "descripcion": "Classic service with Expedition train.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "MACHUPICCHU TOUR - COMFORT",
+            "precio": "1359",
+            "descripcion": "Includes Vistadome train and buffet lunch.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "MACHUPICCHU TOUR - PREMIUM",
+            "precio": "1359",
+            "descripcion": "Vistadome train + enhanced comfort.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "MACHUPICCHU TOUR - ELITE",
+            "precio": "1359",
+            "descripcion": "Complete experience with maximum comfort.",
+            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
+            "descuento": 0
+        }
+    }
+}

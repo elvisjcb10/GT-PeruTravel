@@ -1,0 +1,100 @@
+{
+    "banner_social": {
+        "horario": "Seg-Sáb 9am-6pm (Pet)",
+        "telefono": "+51 982 770 013",
+         "extra_links": {
+            "blog": "Blog",
+            "testimonios": "Testimonies",
+            "nosotros": "Sobre nós",
+            "impacto": "Planeje sua viagem"
+        }
+    },
+    "menu": {
+        "destinos": "Destinos",
+        "tour_cusco": "Passeios em Cusco",
+        "machupicchu": "Machu Picchu",
+        "glaciares_cusco": "Glaciares em Cusco",
+        "experiencia_unica": "Experiências Únicas",
+        "paquete_peru": "Pacotes Peru"
+    },
+
+    "mega_menu": {
+        "destinos":{
+            "lima":{
+                "nombre":"Lima",
+                "img":""
+            },
+            "manu_tambopata":{
+                "nombre":"Manu Tambopata",
+                "img":""
+            },
+            "puno":{
+                "nombre":"Puno",
+                "img":""
+            },
+            "arequipa":{
+                "nombre":"Arequipa",
+                "img":""
+            },
+            "huaraz":{
+                "nombre":"Huaraz",
+                "img":""
+            }
+        },
+        "paquetes_turisticos": {
+            "col1_title": "Pacotes Clássicos",
+            "col2_title": "Pacotes de Aventura",
+            "col3_title": "Pacotes Premium",
+            "ver_todos": "Ver todos os pacotes →",
+
+            "links": {
+                "machupicchu_valle": "Machu Picchu + Vale Sagrado",
+                "camino_inca_corto": "Trilha Inca Curta",
+                "peru_magico": "Peru Mágico",
+                "peru_prime": "Peru Prime",
+                "cusco_magico": "Cusco Mágico",
+                "peru_premium": "Peru Premium",
+                "peru_mistico": "Peru Místico"
+            }
+        },
+
+        "paquetes_machupicchu": {
+            "col1_title": "Machu Picchu Clássico",
+            "col2_title": "Com Montanhas",
+            "col3_title": "Experiências Especiais",
+            "ver_todos": "Ver todos os tours para Machu Picchu →",
+
+            "links": {
+                "mp_1_dia": "Machu Picchu 1 Dia",
+                "mp_2d_1n": "Machu Picchu 2D / 1N",
+                "tren_panoramico": "Trem Panorâmico + Tour",
+                "huayna_picchu": "Machu Picchu + Huayna Picchu",
+                "montana_mp": "Machu Picchu + Montanha Machu Picchu",
+                "huchuy_picchu": "Machu Picchu + Huchuy Picchu",
+                "mp_valle": "Machu Picchu + Vale Sagrado",
+                "tren_lujo": "Trem de Luxo para Machu Picchu",
+                "mp_premium": "Machu Picchu Full Day Premium"
+            }
+        },
+
+        "tours": {
+            "col1_title": "Tours em Cusco",
+            "col2_title": "Tours para Machu Picchu",
+            "col3_title": "Tours Alternativos",
+            "ver_todos": "Ver todos os tours →",
+
+            "links": {
+                "machupicchu": "Machu Picchu",
+                "humantay": "Lagoa Humantay",
+                "rainbow": "Montanha Arco-Íris",
+                "quelccaya": "Glaciar Quelccaya",
+                "qeswachaka": "Ponte Q’eswachaka",
+                "waqrapukara": "Waqrapukara",
+                "mp_full_day": "Machu Picchu Full Day",
+                "mp_montana": "Machu Picchu + Montanha",
+                "mp_huayna": "Trilha Inca Curta"
+            }
+        }
+    }
+
+}

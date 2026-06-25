@@ -1,0 +1,69 @@
+{
+    "title": "ANO NOVO EM CUSCO 2025",
+    "short_description": "Celebre o Ano Novo em Cusco com uma viagem repleta de cultura, história e festa. Inclui Machupicchu, city tour e jantar especial de Réveillon.",
+    "long_description": "Viva um Ano Novo inesquecível na capital histórica do Peru. Este pacote combina tradição andina, arqueologia, gastronomia e as celebrações mais animadas do ano na Plaza de Armas de Cusco. Inclui visita guiada a Machupicchu, City Tour, Vale Sagrado e jantar especial de Réveillon.",
+    "duration": "4 Dias / 3 Noites",
+
+    "image_cover": "ano-nuevo-cusco-cover.jpg",
+    "gallery": ["cusco-new-year-1.jpg", "cusco-new-year-2.jpg", "machu1.jpg"],
+
+    "price": "650",
+    "price_note": "Inclui hospedagem, traslados, ingressos e jantar especial de Réveillon.",
+
+    "seo_title": "Ano Novo em Cusco 2025 - Tour 4D/3N - Machupicchu | GT Peru Travel",
+    "seo_description": "Pacote Ano Novo Cusco 2025: Machupicchu, City Tour, Vale Sagrado e jantar especial de Réveillon. Reserve agora com a GT Peru Travel.",
+    "seo_keywords": "ano novo cusco, réveillon peru, tours cusco, machupicchu réveillon, GT Peru Travel",
+
+    "days": [{
+            "title": "Dia 1: Recepção + City Tour Cusco",
+            "text": "Recepção no aeroporto e traslado ao hotel. À tarde realizaremos o City Tour visitando Qorikancha, Sacsayhuamán, Qenqo, Puca Pucara e Tambomachay. Noite livre para aclimatação."
+        },
+        {
+            "title": "Dia 2: Vale Sagrado + Jantar Especial de Réveillon",
+            "text": "Visitaremos Pisac, o mercado artesanal, Ollantaytambo e Chinchero. À noite, você desfrutará de um jantar especial de Réveillon em Cusco. Opcional: celebração na Plaza de Armas para receber o Ano Novo."
+        },
+        {
+            "title": "Dia 3: Machupicchu - O Grande Dia",
+            "text": "Bem cedo embarcaremos no trem até Aguas Calientes e depois no ônibus que sobe a Machupicchu. Tour guiado de aproximadamente 2h30. Tempo livre para fotos e exploração. Retorno a Cusco à tarde ou à noite."
+        },
+        {
+            "title": "Dia 4: Despedida",
+            "text": "Manhã livre para compras ou passeios. Traslado ao aeroporto ou terminal terrestre conforme seu itinerário."
+        }
+    ],
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "PACOTE ANO NOVO - STANDARD",
+            "precio": "650",
+            "descripcion": "Hotéis 2★, traslados, ingressos e jantar de Réveillon.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "PACOTE ANO NOVO - CONFORTO",
+            "precio": "750",
+            "descripcion": "Hotéis 3★ + trem Vistadome.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "PACOTE ANO NOVO - PREMIUM",
+            "precio": "850",
+            "descripcion": "Hotéis 4★ + Jantar show + trem Vistadome.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "PACOTE ANO NOVO - ELITE",
+            "precio": "1150",
+            "descripcion": "Hotéis 5★ (JW Marriott / Palacio del Inka).",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        }
+    }
+}

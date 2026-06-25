@@ -1,0 +1,66 @@
+{
+    "title_primary": "Recomendados",
+    "title_secondary": "no TripAdvisor",
+    "subtitle": "Avaliações reais de viajantes que desfrutaram de nossos passeios",
+    "slides": [{
+            "nombre": "LUCIA C",
+            "texto": "Foi uma experiência muito agradável ser guiada pela GT Peru Travel. Desde o momento em que os contatamos pelo WhatsApp, eles nos forneceram todas as informações necessárias para que nossa estadia nos lugares visitados fosse tranquila.",
+            "fecha": "SETEMBRO 2025",
+            "img": "lucia-c.png"
+        },
+        {
+            "nombre": "INVESTIGACION M",
+            "texto": "Excelente apartamento, excelentes pessoas, muito amáveis e educadas. Se eu voltasse, não pensaria duas vezes em ficar novamente no apartamento deles e contratar os passeios pela agência.",
+            "fecha": "SETEMBRO 2025",
+            "img": "investigacion-m.png"
+        },
+        {
+            "nombre": "ALMA P",
+            "texto": "Excelente serviço. Muito pontuais. Explicam tudo muito bem. Muito pacientes. Recomendo bastante.",
+            "fecha": "SETEMBRO 2025",
+            "img": "alma-p.png"
+        },
+        {
+            "nombre": "GAUDY",
+            "texto": "Tive a experiência de viajar ao Peru com a GT Peru Travel e recomendo — bons preços, bom atendimento, pontuais e simpáticos.",
+            "fecha": "SETEMBRO 2025",
+            "img": "lucia-c.png"
+        },
+        {
+            "nombre": "MIGUEL G",
+            "texto": "Ficamos satisfeitos desde o primeiro dia — passeios personalizados e atendimento amigável. Super recomendados.",
+            "fecha": "SETEMBRO 2025",
+            "img": "miguel-g.png"
+        },
+        {
+            "nombre": "FRIDHA G",
+            "texto": "Tivemos férias incríveis com a agência! Fui com família e amigos, e gostamos de todos os passeios que fizemos.",
+            "fecha": "SETEMBRO 2025",
+            "img": "frida-g.png"
+        },
+        {
+            "nombre": "MOBILE677293",
+            "texto": "Fui com parte da minha família e nosso guia Euler nos proporcionou uma experiência única, maravilhosa e inesquecível. Amo o Peru ❤️‍🔥",
+            "fecha": "SETEMBRO 2025",
+            "img": "mobile.png"
+        },
+        {
+            "nombre": "MARTA D",
+            "texto": "Uma viagem espetacular com uma excelente agência de viagens!",
+            "fecha": "SETEMBRO 2025",
+            "img": "marta-d.png"
+        },
+        {
+            "nombre": "JULIETA O",
+            "texto": "Desde o momento em que cheguei, me buscaram no aeroporto com muito carinho. Os passeios foram lindos e o serviço de transporte excelente.",
+            "fecha": "SETEMBRO 2025",
+            "img": "juleta-o.png"
+        },
+        {
+            "nombre": "NATALIA D",
+            "texto": "Excelente serviço e hospedagem. Tudo saiu perfeito graças à excelente atenção do Euler.",
+            "fecha": "SETEMBRO 2025",
+            "img": "natalia-d.png"
+        }
+    ]
+}

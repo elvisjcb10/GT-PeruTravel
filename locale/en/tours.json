@@ -1,0 +1,86 @@
+{
+    "cards": [{
+            "title": "QUELCCAYA GLACIER",
+            "subtitle": "FULL DAY – SUYUPARINA, ANDES",
+            "description": "Experience a unique adventure visiting the largest tropical glacier in the world in the Andes.",
+            "image": "tours/glaciar.jpg",
+            "url": "glaciar-quelccaya-suyuparina",
+            "reservar": "BOOK NOW",
+            "price": "$89",
+            "promo": {
+                "active": true,
+                "label": "20% OFF",
+                "old_price": "$110"
+            }
+        },
+        {
+            "title": "MACHUPICCHU",
+            "subtitle": "DISCOVER PERU WITH MACHUPICCHU",
+            "description": "A 1-day adventure.",
+            "image": "tours/machupicchu-card.jpg",
+            "url": "machupicchu",
+            "reservar": "BOOK NOW",
+            "price": "$299"
+        },
+        {
+            "title": "HUMANTAY LAKE",
+            "subtitle": "DISCOVER THIS BEAUTIFUL PLACE",
+            "description": "Full-day tour from Cusco.",
+            "image": "tours/laguna-humantay-card.jpg",
+            "url": "laguna-humantay",
+            "reservar": "BOOK NOW",
+            "price": "$65",
+            "promo": {
+                "active": true,
+                "label": "SPECIAL PROMO",
+                "old_price": "$90"
+            }
+        },
+        {
+            "title": "RAINBOW MOUNTAIN",
+            "subtitle": "THE MOUNTAIN OF COLORS",
+            "description": "Ideal for those looking for a hiking experience.",
+            "image": "tours/montana-de-7-colores-card.jpg",
+            "url": "montana-colores",
+            "reservar": "BOOK NOW",
+            "price": "$59"
+        },
+        {
+            "title": "QESWACHACA INCA BRIDGE",
+            "subtitle": "THE LAST INCA BRIDGE",
+            "description": "Perfect for travelers looking for less hiking.",
+            "image": "tours/puente-inca-qeswachaka-card.jpg",
+            "url": "puente-inca",
+            "reservar": "BOOK NOW",
+            "price": "$60",
+            "promo": {
+                "active": true,
+                "label": "SPECIAL OFFER",
+                "old_price": "$75"
+            }
+        },
+        {
+            "title": "WAQRAPUKARA",
+            "subtitle": "PLACE OF BEAUTIFUL LANDSCAPES",
+            "description": "Explore stunning landscapes.",
+            "image": "tours/waqrapukara-card.jpg",
+            "url": "fortaleza-cuernos",
+            "reservar": "BOOK NOW",
+            "price": "$80"
+        },
+        {
+            "title": "SACRED VALLEY",
+            "subtitle": "THE LAND OF THE INCAS",
+            "description": "Tour through amazing tourist sites.",
+            "image": "tours/valle-sagrado-card.jpg",
+            "url": "valle-sagrado",
+            "reservar": "BOOK NOW",
+            "price": "$69",
+            "promo": {
+                "active": true,
+                "label": "TRAVELER PROMO",
+                "old_price": "$100"
+            }
+        }
+    ]
+}

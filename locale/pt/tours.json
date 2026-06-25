@@ -1,0 +1,86 @@
+{
+    "cards": [{
+            "title": "GLACIAR DE QUELCCAYA",
+            "subtitle": "FULL DAY – SUYUPARINA, ANDES",
+            "description": "Viva uma aventura única visitando a maior geleira tropical do mundo nos Andes.",
+            "image": "tours/glaciar.jpg",
+            "url": "glaciar-quelccaya-suyuparina",
+            "reservar": "RESERVAR",
+            "price": "$89",
+            "promo": {
+                "active": true,
+                "label": "20% DE DESCONTO",
+                "old_price": "$110"
+            }
+        },
+        {
+            "title": "MACHUPICCHU",
+            "subtitle": "DESCUBRA O PERU COM MACHUPICCHU",
+            "description": "Uma aventura de 1 dia.",
+            "image": "tours/machupicchu-card.jpg",
+            "url": "machupicchu",
+            "reservar": "RESERVAR",
+            "price": "$299"
+        },
+        {
+            "title": "LAGOA HUMANTAY",
+            "subtitle": "DESCUBRA ESTE LINDO LUGAR",
+            "description": "Tour de dia completo saindo de Cusco.",
+            "image": "tours/laguna-humantay-card.jpg",
+            "url": "laguna-humantay",
+            "reservar": "RESERVAR",
+            "price": "$65",
+            "promo": {
+                "active": true,
+                "label": "PROMOÇÃO ESPECIAL",
+                "old_price": "$90"
+            }
+        },
+        {
+            "title": "MONTANHA DE 7 CORES",
+            "subtitle": "A MONTANHA DAS CORES",
+            "description": "Ideal para quem busca uma caminhada.",
+            "image": "tours/montana-de-7-colores-card.jpg",
+            "url": "montana-colores",
+            "reservar": "RESERVAR",
+            "price": "$59"
+        },
+        {
+            "title": "PONTE INCA QESWACHACA",
+            "subtitle": "A ÚLTIMA PONTE INCA",
+            "description": "Perfeito para quem procura menos caminhada.",
+            "image": "tours/puente-inca-qeswachaka-card.jpg",
+            "url": "puente-inca",
+            "reservar": "RESERVAR",
+            "price": "$60",
+            "promo": {
+                "active": true,
+                "label": "OFERTA ESPECIAL",
+                "old_price": "$75"
+            }
+        },
+        {
+            "title": "WAQRAPUKARA",
+            "subtitle": "LOCAL DE BELAS PAISAGENS",
+            "description": "Explore belas paisagens.",
+            "image": "tours/waqrapukara-card.jpg",
+            "url": "fortaleza-cuernos",
+            "reservar": "RESERVAR",
+            "price": "$80"
+        },
+        {
+            "title": "VALE SAGRADO",
+            "subtitle": "A TERRA DOS INCAS",
+            "description": "Roteiro por pontos turísticos incríveis.",
+            "image": "tours/valle-sagrado-card.jpg",
+            "url": "valle-sagrado",
+            "reservar": "RESERVAR",
+            "price": "$69",
+            "promo": {
+                "active": true,
+                "label": "PROMOÇÃO PARA VIAJANTES",
+                "old_price": "$100"
+            }
+        }
+    ]
+}

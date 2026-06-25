@@ -1,0 +1,54 @@
+{
+    "title": "Sacred Valley",
+    "short_description": "A must-do tour to discover one of the most iconic natural wonders of Cusco.",
+    "long_description": "<b>MORNING: DAY 1: 07:00am – DAY 2: 21:00PM APPROX.</b><br>Discover the greatness of the Sacred Valley of the Incas and continue the adventure to the majestic citadel of Machu Picchu. History, culture, and unforgettable landscapes in one single experience.",
+    "duration": "1 Day",
+    "image_cover": "../tours/valle-sagrado-card.jpg",
+    "gallery": ["montana1.jpg", "montana2.jpg"],
+    "price": "90",
+    "price_note": "Includes transportation, entrance tickets and professional guide.",
+
+    "seo_title": "Sacred Valley + Machu Picchu Tour - Full Day | GT Peru Travel",
+    "seo_description": "Explore the Sacred Valley of the Incas and continue the journey to Machu Picchu. Full tour including transportation, entrance tickets, train and professional guide.",
+    "seo_keywords": "sacred valley, machu picchu tour, sacred valley full day, machu picchu peru, cusco tours, train to aguas calientes, peru travel, gt peru travel",
+
+    "days": [{
+        "title": "Day 1",
+        "text": "We depart from Cusco toward the Sacred Valley, visiting the colorful Pisac markets, its agricultural terraces and the impressive archaeological site. We continue to Ollantaytambo, known for its remarkable Inca complex. From there, we take the train to Aguas Calientes, where you can rest and prepare for the big day. At dawn, we visit the astonishing citadel of Machu Picchu at more than 2400 masl, one of the most recognized wonders on the planet. You will explore its temples, terraces and viewpoints while feeling the unique energy of the Andes."
+    }],
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "SACRED VALLEY - BASIC",
+            "precio": "90",
+            "descripcion": "Classic option with standard transportation.",
+            "nota": "Includes transfers and professional guide",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "SACRED VALLEY - COMFORT",
+            "precio": "130",
+            "descripcion": "Includes superior transportation and buffet lunch.",
+            "nota": "Includes transfers, 2 ★★ service and guided visits",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "SACRED VALLEY - PREMIUM",
+            "precio": "150",
+            "descripcion": "Includes superior transportation and buffet lunch.",
+            "nota": "Includes transfers, 3 ★★★ service and guided visits",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "SACRED VALLEY - ELITE",
+            "precio": "180",
+            "descripcion": "Includes superior transportation and buffet lunch.",
+            "nota": "Includes transfers, 4 ★★★★ service and guided visits",
+            "descuento": 0
+        }
+    }
+}

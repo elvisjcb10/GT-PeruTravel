@@ -1,0 +1,93 @@
+{
+    "section_title": "Información y Soporte",
+
+    "columns": [{
+            "title": "Información Legal",
+            "links": [{
+                    "text": "Quiénes somos",
+                    "url": "/legal.php?doc=quienes_somos&lang=es"
+                },
+                {
+                    "text": "Términos y condiciones",
+                    "url": "/legal.php?doc=terminos_y_condiciones&lang=es"
+                },
+                {
+                    "text": "Política de privacidad",
+                    "url": "/legal.php?doc=politica_de_privacidad&lang=es"
+                },
+                {
+                    "text": "Protección de datos personales",
+                    "url": "/legal.php?doc=proteccion_de_datos&lang=es"
+                },
+                {
+                    "text": "Autorizaciones",
+                    "url": "/legal.php?doc=autorizaciones&lang=es"
+                }
+            ]
+        },
+        {
+            "title": "Pagos y Reservas",
+            "links": [{
+                    "text": "Métodos de pago",
+                    "url": "/legal.php?doc=metodos_de_pago&lang=es"
+                },
+                {
+                    "text": "Política de cancelación",
+                    "url": "/legal.php?doc=politica_de_cancelacion&lang=es"
+                },
+                {
+                    "text": "Comprobantes y facturación",
+                    "url": "/legal.php?doc=facturacion&lang=es"
+                },
+                {
+                    "text": "Soporte al cliente",
+                    "url": "/legal.php?doc=soporte_cliente&lang=es"
+                }
+            ]
+        },
+        {
+            "title": "Confianza y Seguridad",
+            "links": [{
+                    "text": "Compromiso de calidad",
+                    "url": "/legal.php?doc=compromiso_calidad&lang=es"
+                },
+                {
+                    "text": "PromPerú",
+                    "url": "/legal.php?doc=prom_peru&lang=es"
+                },
+                {
+                    "text": "Aviso legal",
+                    "url": "/legal.php?doc=aviso_legal&lang=es"
+                },
+                {
+                    "text": "Política de cookies",
+                    "url": "/legal.php?doc=politicas_cookies&lang=es"
+                },
+                {
+                    "text": "Ubicación y horarios",
+                    "url": "/legal.php?doc=ubicacion_horarios&lang=es"
+                }
+            ]
+        },
+        {
+            "title": "Ayuda y Recursos",
+            "links": [{
+                    "text": "Libro de reclamaciones",
+                    "url": "/legal.php?doc=libro_de_reclamaciones&lang=es"
+                },
+                {
+                    "text": "Mapa del sitio",
+                    "url": "/legal.php?doc=mapa_del_sitio&lang=es"
+                },
+                {
+                    "text": "Preguntas frecuentes",
+                    "url": "/legal.php?doc=preguntas_frecuentes&lang=es"
+                },
+                {
+                    "text": "Soporte técnico",
+                    "url": "/legal.php?doc=soporte_tecnico&lang=es"
+                }
+            ]
+        }
+    ]
+}

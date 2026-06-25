@@ -1,0 +1,54 @@
+{
+    "title": "Montanha Arco-Íris",
+    "short_description": "Um tour imperdível para conhecer uma das maravilhas naturais mais famosas de Cusco.",
+    "long_description": "<b>MANHÃ: 04:30 AM - 18:00 PM</b><br>Embarque em uma jornada mágica até uma das paisagens mais impressionantes do Peru. Em um dia você conhecerá a área sagrada do Ausangate e visitará a incrível Montanha Arco-Íris Vinicunca, famosa por suas cores vibrantes.",
+    "duration": "1 Dia",
+    "image_cover": "../tours/montana-de-7-colores-card.jpg",
+    "gallery": ["montana1.jpg", "montana2.jpg"],
+    "price": "90",
+    "price_note": "Inclui transporte, ingressos e guia profissional.",
+
+    "seo_title": "Tour Montanha Arco-Íris Vinicunca - Full Day em Cusco | GT Peru Travel",
+    "seo_description": "Viva uma experiência única na Montanha Arco-Íris Vinicunca. Tour de 1 dia saindo de Cusco com transporte, ingressos e guia profissional incluídos.",
+    "seo_keywords": "montanha arco íris, vinicunca, rainbow mountain peru, tour vinicunca full day, passeio 1 dia cusco, viajar peru, gt peru travel",
+
+    "days": [{
+        "title": "Dia 1",
+        "text": "Saímos cedo em direção a Vinicunca, a famosa Montanha Arco-Íris, onde faremos uma caminhada até o mirante natural para apreciar suas cores únicas e o imponente nevado Ausangate. Em seguida, continuaremos para a área de Pacchanta, onde você pode relaxar nas águas termais locais antes de retornar a Cusco. Uma experiência perfeita para apreciar paisagens impressionantes e a natureza pura dos Andes."
+    }],
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "TOUR MONTANHA ARCO-ÍRIS – BÁSICO",
+            "precio": "90",
+            "descripcion": "Opção clássica com transporte padrão.",
+            "nota": "Inclui traslados e guia profissional",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "TOUR MONTANHA ARCO-ÍRIS – CONFORTO",
+            "precio": "130",
+            "descripcion": "Inclui transporte superior e almoço buffet.",
+            "nota": "Inclui traslados, serviço 2 ★★ e visitas guiadas",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "TOUR MONTANHA ARCO-ÍRIS – PREMIUM",
+            "precio": "150",
+            "descripcion": "Inclui transporte superior e almoço buffet.",
+            "nota": "Inclui traslados, serviço 3 ★★★ e visitas guiadas",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "TOUR MONTANHA ARCO-ÍRIS – ELITE",
+            "precio": "180",
+            "descripcion": "Inclui transporte superior e almoço buffet.",
+            "nota": "Inclui traslados, serviço 4 ★★★★ e visitas guiadas",
+            "descuento": 0
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "title": "Vale Sagrado",
+    "short_description": "Um tour essencial para descobrir uma das maravilhas naturais mais famosas de Cusco.",
+    "long_description": "<b>MANHÃ: DIA 1: 07:00am – DIA 2: 21:00PM APROX.</b><br>Descubra a grandiosidade do Vale Sagrado dos Incas e continue a aventura até a majestosa cidadela de Machu Picchu. História, cultura e paisagens inesquecíveis em uma única experiência.",
+    "duration": "1 Dia",
+    "image_cover": "../tours/valle-sagrado-card.jpg",
+    "gallery": ["montana1.jpg", "montana2.jpg"],
+    "price": "90",
+    "price_note": "Inclui transporte, entradas e guia profissional.",
+
+    "seo_title": "Tour Vale Sagrado + Machu Picchu - Full Day | GT Peru Travel",
+    "seo_description": "Explore o Vale Sagrado dos Incas e continue a experiência até Machu Picchu. Tour completo com transporte, entradas, trem e guia profissional.",
+    "seo_keywords": "vale sagrado, machu picchu, tour vale sagrado full day, tour machu picchu, passeios cusco, trem para aguas calientes, turismo peru, gt peru travel",
+
+    "days": [{
+        "title": "Dia 1",
+        "text": "Partimos de Cusco rumo ao Vale Sagrado, visitando os coloridos mercados de Pisac, seus terraços agrícolas e o impressionante sítio arqueológico. Continuamos até Ollantaytambo, com seu imponente complexo inca. De lá, tomaremos o trem para Aguas Calientes, onde você poderá descansar e se preparar para o grande dia. Ao amanhecer, visitaremos a incrível cidadela de Machu Picchu, a mais de 2400msnm, uma das maravilhas mais reconhecidas do planeta. Você percorrerá seus templos, terraços e mirantes enquanto sente a energia única dos Andes."
+    }],
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "VALE SAGRADO - BÁSICO",
+            "precio": "90",
+            "descripcion": "Opção clássica com transporte padrão.",
+            "nota": "Inclui traslados e guia profissional",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "VALE SAGRADO - CONFORTO",
+            "precio": "130",
+            "descripcion": "Inclui transporte superior e almoço buffet.",
+            "nota": "Inclui traslados, serviço 2 ★★ e visitas guiadas",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "VALE SAGRADO - PREMIUM",
+            "precio": "150",
+            "descripcion": "Inclui transporte superior e almoço buffet.",
+            "nota": "Inclui traslados, serviço 3 ★★★ e visitas guiadas",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "VALE SAGRADO - ELITE",
+            "precio": "180",
+            "descripcion": "Inclui transporte superior e almoço buffet.",
+            "nota": "Inclui traslados, serviço 4 ★★★★ e visitas guiadas",
+            "descuento": 0
+        }
+    }
+}

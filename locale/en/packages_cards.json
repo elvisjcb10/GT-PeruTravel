@@ -1,0 +1,130 @@
+{
+    "cards": [{
+            "title": "DISCOVER PERU",
+            "subtitle": "8 DAYS / 7 NIGHTS",
+            "description": "Explore Peru in a complete experience from Lima to Cusco...",
+            "price": "$819",
+            "image": "descubre-peru-ollantaytambo-cusco.jpg",
+            "url": "descubre-peru",
+            "reservar": "BOOK NOW",
+            "promo": {
+                "active": true,
+                "label": "FULL EXPERIENCE"
+            }
+        },
+        {
+            "title": "RAINBOW MOUNTAIN + 7 LAGOONS",
+            "subtitle": "2 DAYS / 1 NIGHT",
+            "description": "Andean adventure to Rainbow Mountain and the 7 Lagoons of Ausangate",
+            "price": "$125",
+            "image": [
+                "7-lagunas-cusco-peru-card.jpg",
+                "montana-colores-cusco-peru-card-01.jpg"
+            ],
+            "url": "montanacolores-7lagunas",
+            "reservar": "BOOK NOW"
+        },
+        {
+            "title": "RAINBOW MOUNTAIN + QUELCCAYA GLACIER",
+            "subtitle": "2 DAYS / 1 NIGHT",
+            "description": "Explore Rainbow Mountain and the Quelccaya Glacier on a unique Andean expedition.",
+            "price": "$145",
+            "image": [
+                "montana-colores-cusco-peru-card.jpg",
+                "glaciar-quelccaya-cusco-peru.jpg"
+            ],
+            "url": "montanacolores-glaciarquelcaya",
+            "reservar": "BOOK NOW",
+            "promo": {
+                "active": true,
+                "label": "ANDEAN EXPEDITION"
+            }
+        },
+        {
+            "title": "SACRED VALLEY + MACHU PICCHU",
+            "subtitle": "2 DAYS / 1 NIGHT",
+            "description": "Explore the Sacred Valley of the Incas and complete the experience at the majestic citadel of Machu Picchu.",
+            "price": "$389",
+            "image": [
+                "valle-sagrado-cusco-peru.jpg",
+                "machupicchu-cusco-peru.jpg"
+            ],
+            "url": "vallesagrado-machupicchu",
+            "reservar": "BOOK NOW"
+        },
+        {
+            "title": "SHORT INCA TRAIL",
+            "subtitle": "2 DAYS / 1 NIGHT",
+            "description": "Experience the mystique of the short Inca Trail and reach Machu Picchu via the ancient Inca path.",
+            "price": "$449",
+            "image": [
+                "camino-inca-corto-cusco-peru-machupicchu.jpg",
+                "machupicchu-camino-inca-corto-cusco-peru.jpg"
+            ],
+            "url": "short-inca-trail",
+            "reservar": "BOOK NOW"
+        },
+        {
+            "title": "CUSCO EXPRESS",
+            "subtitle": "3 DAYS / 2 NIGHTS",
+            "description": "Escape to Cusco and Machu Picchu, the ideal destination to discover Inca history, the magic of the Andes, and Peru's cultural essence.",
+            "price": "$345",
+            "image": "card-6.jpg",
+            "url": "cusco-express",
+            "reservar": "BOOK NOW"
+        },
+        {
+            "title": "MAGICAL CUSCO",
+            "subtitle": "5 DAYS / 4 NIGHTS",
+            "description": "Experience Machu Picchu and the Sacred Valley in a short but unforgettable adventure. Explore temples, mountains, and the living essence of the Andes.",
+            "price": "$579",
+            "image": "card-5.jpg",
+            "url": "cusco-magico",
+            "reservar": "BOOK NOW",
+            "promo": {
+                "active": true,
+                "label": "TRAVELERS' FAVORITE"
+            }
+        },
+        {
+            "title": "PERU PRIME",
+            "subtitle": "7 DAYS / 6 NIGHTS",
+            "description": "Experience Machu Picchu and the Sacred Valley. Connect with the energy of the Andes and the grandeur of the Inca legacy every step of the way.",
+            "price": "$720",
+            "image": "card-4.jpg",
+            "url": "peru-prime",
+            "reservar": "BOOK NOW"
+        },
+        {
+            "title": "MAGICAL PERU",
+            "subtitle": "9 DAYS / 8 NIGHTS",
+            "description": "Cusco and the Rainbow Mountain await you. Enjoy incredible tours, dreamlike landscapes, and the best travel experience in Peru.",
+            "price": "$809",
+            "image": "card-3.jpg",
+            "url": "peru-magico",
+            "reservar": "BOOK NOW"
+        },
+        {
+            "title": "MYSTICAL PERU",
+            "subtitle": "12 DAYS / 11 NIGHTS",
+            "description": "Experience the best of Peru in a single journey...",
+            "price": "$1150",
+            "image": "card-2.jpg",
+            "url": "peru-mistico",
+            "reservar": "BOOK NOW",
+            "promo": {
+                "active": true,
+                "label": "ANDEAN EXPERIENCE"
+            }
+        },
+        {
+            "title": "PERU PREMIUM",
+            "subtitle": "15 DAYS / 14 NIGHTS",
+            "description": "Live the ultimate adventure in Peru...",
+            "price": "$1359",
+            "image": "card-1-tour-machupicchu.jpg",
+            "url": "peru-premium",
+            "reservar": "BOOK NOW"
+        }
+    ]
+}

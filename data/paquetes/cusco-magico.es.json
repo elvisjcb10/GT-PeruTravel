@@ -1,0 +1,73 @@
+{
+    "title": "Cusco Mágico",
+    "short_description": "Cusco - Valle Sagrado - Ollantaytambo - Machu Picchu - Montaña Arcoíris - Laguna Humantay",
+    "long_description": "¡Bienvenidos a la capital histórica del Imperio Inca! Cusco te espera con su encanto ancestral, calles llenas de historia y algunos de los paisajes más impresionantes del Perú. En este recorrido disfrutarás de lugares emblemáticos como el Valle Sagrado, Machu Picchu, la Montaña Arcoíris y la Laguna Humantay, combinando cultura, naturaleza y aventura.",
+    "duration": "5 Días / 4 Noches",
+
+    "image_cover": "cusco-magico.jpg",
+    "gallery": ["machu1.jpg", "machu2.jpg"],
+
+    "price": "579",
+    "price_note": "Incluye transporte, tickets de ingreso y guía profesional.",
+
+    "seo_title": "Cusco Mágico 5D/4N – Machu Picchu, Humantay y Montaña Arcoíris | GT Peru Travel",
+    "seo_description": "Tour Cusco Mágico 5 días: Valle Sagrado, Machu Picchu, Laguna Humantay y Montaña Arcoíris. Paquete completo con ingresos, transporte y guía profesional.",
+    "seo_keywords": "cusco mágico 5 días, tour cusco machu picchu, valle sagrado, montaña arcoiris, laguna humantay, viaje cusco, paquete cusco, gt peru travel",
+
+    "days": [{
+            "title": "Día 1: Llegada a Cusco y City Tour",
+            "text": "Recepción en el aeropuerto y traslado a su hotel. Por la tarde, realizamos el City Tour por Cusco visitando Sacsayhuamán, Qenqo, Puka Pukara y Tambomachay. Noche libre para aclimatación."
+        },
+        {
+            "title": "Día 2: Valle Sagrado – Tren a Aguas Calientes",
+            "text": "Visita al Valle Sagrado de los Incas: Pisac, mercado artesanal, Mirador de Taray y la fortaleza de Ollantaytambo. Por la tarde, viaje en tren hacia Aguas Calientes. Alojamiento."
+        },
+        {
+            "title": "Día 3: Tour a Machu Picchu",
+            "text": "Ingreso temprano a Machu Picchu para recorrer la ciudadela Inca junto a un guía profesional. Tiempo para fotos y exploración. Por la tarde, retorno en tren y traslado a su hotel en Cusco."
+        },
+        {
+            "title": "Día 4: Laguna Humantay",
+            "text": "Excursión a la Laguna Humantay con caminata moderada. Disfrute de sus aguas turquesas y paisajes de glaciares. Retorno a Cusco por la tarde."
+        },
+        {
+            "title": "Día 5: Montaña de 7 Colores y Retorno",
+            "text": "Caminata hacia la famosa Montaña de 7 Colores (Vinicunca), uno de los paisajes naturales más impactantes del Perú. Por la tarde, traslado al aeropuerto para su vuelo de salida."
+        }
+    ],
+
+    "brochure": "",
+    "map": "mapa-paquete-cusco-magico-5d-4n-es.jpg",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "TOUR MACHU PICCHU - STANDARD",
+            "precio": "579",
+            "descripcion": "Opción clásica con tren Expedition.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "TOUR MACHU PICCHU - CONFORT",
+            "precio": "579",
+            "descripcion": "Incluye tren Vistadome y almuerzo buffet.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "TOUR MACHU PICCHU - PREMIUM",
+            "precio": "579",
+            "descripcion": "Tren Vistadome + experiencias adicionales.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "TOUR MACHU PICCHU - ELITE",
+            "precio": "579",
+            "descripcion": "Experiencia completa con la mejor comodidad.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 0
+        }
+    }
+}

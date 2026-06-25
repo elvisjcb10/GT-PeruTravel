@@ -1,0 +1,63 @@
+{
+    "title": "Vale Sagrado + Machu Picchu",
+    "long_description": "Viva dois dias mágicos explorando o Vale Sagrado dos Incas, uma das regiões mais férteis e espirituais do Império Inca, e finalize com a visita ao majestoso Santuário Histórico de Machu Picchu, uma das 7 Maravilhas do Mundo Moderno.",
+    "short_description": "Vale Sagrado + Machu Picchu",
+    "duration": "2 Dias / 1 Noite",
+    "image_cover": "valle-sagrado-machupicchu.jpg",
+    "gallery": ["pisac.jpg", "ollantaytambo.jpg", "machupicchu.jpg"],
+    "price": "389",
+    "price_note": "Inclui transporte, ingressos de entrada e guia profissional.",
+
+    "seo_title": "Vale Sagrado e Machu Picchu | Tour de 2 Dias saindo de Cusco",
+    "seo_description": "Explore o Vale Sagrado dos Incas e visite Machu Picchu em um tour de 2 dias saindo de Cusco. Cultura, história e paisagens únicas.",
+    "seo_keywords": "vale sagrado, machu picchu, tour machu picchu 2 dias, vale sagrado cusco, tours cusco",
+
+    "days": [{
+            "title": "Dia 1 - Cusco - Vale Sagrado - Águas Calientes",
+            "text": "Iniciamos a viagem rumo ao Vale Sagrado, visitando Pisac e seu impressionante complexo arqueológico, além de seu tradicional mercado artesanal. Em seguida, continuamos até Urubamba, onde desfrutamos de um almoço buffet. À tarde, exploramos a fortaleza de Ollantaytambo, uma joia arquitetônica da civilização inca. Depois, embarcamos no trem para Águas Calientes, viajando ao longo do rio com vistas espetaculares e únicas, até chegar à cidade de Águas Calientes, onde passaremos a noite."
+        },
+        {
+            "title": "Dia 2 - Machu Picchu - Cusco",
+            "text": "O dia mais esperado. Nosso guia irá buscá-los em seu hotel para iniciar esta aventura mágica rumo à maravilha de Machu Picchu. Desde o primeiro amanhecer nos Andes até o momento em que Machu Picchu surge diante de seus olhos, você sentirá o tempo parar. Caminhar por seus caminhos de pedra, tocar seus muros milenares e respirar a energia da cidade sagrada é uma experiência que não se explica… é sentida. Machu Picchu guarda silêncios antigos, sabedoria ancestral e paisagens que ficam gravadas para sempre na memória. Cada passo é uma conexão com o legado inca e cada olhar é um cartão-postal inesquecível. Mais tarde, descemos à cidade, com tempo livre para o almoço, e em seguida embarcamos no trem de retorno a Cusco. Porque existem viagens que você lembra… e outras que mudam você para sempre. Machu Picchu é uma delas."
+        }
+    ],
+
+    "technical_sheet": "VALE SAGRADO + MACHU PICCHU <br>• Destino: Vale Sagrado dos Incas e Machu Picchu.<br>• Duração: 2 dias / 1 noite.<br>• Altitude máxima: 3.399 m acima do nível do mar (Machu Picchu).<br>• Nível de exigência: Moderado.<br>• Tipo de tour: Cultural / Histórico / Natureza.<br>• Clima: Temperado, frio à noite.<br>• Recomendado para: Todo o público em bom estado de saúde.<br>• Não recomendado para: Pessoas com mobilidade reduzida sem assistência.",
+    "includes": "• Transporte turístico Cusco – Vale Sagrado.<br>• Boleto turístico para o Vale Sagrado.<br>• Guia profissional.<br>• Almoço buffet no Vale Sagrado.<br>• Trem turístico (ida e volta Expedition ou Voyager).<br>• 01 noite de hospedagem em hotel 3 estrelas.<br>• 01 café da manhã (Dia 2).<br>• Ingresso para Machu Picchu.<br>• Ônibus de subida e descida para Machu Picchu (Consetur).<br>• Visita guiada em Machu Picchu.<br>• Traslado de Ollantaytambo / Poroy para Cusco.",
+    "not_includes": "• Alimentação não especificada<br>• Despesas pessoais.<br>• Serviços não mencionados.",
+
+    "brochure": "",
+    "map": "mapa-paquete-valle-sagrado-y-machupicchu-2d-1n-pt.jpg",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "VALE SAGRADO + MACHU PICCHU – BÁSICO",
+            "precio": "389",
+            "descripcion": "Opção de serviço de acordo com o nível de conforto e experiência durante o tour.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "VALE SAGRADO + MACHU PICCHU – CONFORTO",
+            "precio": "389",
+            "descripcion": "Opção de serviço de acordo com o nível de conforto e experiência durante o tour.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "VALE SAGRADO + MACHU PICCHU – PREMIUM",
+            "precio": "389",
+            "descripcion": "Opção de serviço de acordo com o nível de conforto e experiência durante o tour.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "VALE SAGRADO + MACHU PICCHU – ELITE",
+            "precio": "389",
+            "descripcion": "Opção de serviço de acordo com o nível de conforto e experiência durante o tour.",
+            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
+            "descuento": 0
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "promotions": [{
+            "id": "descubre-peru-8d7n",
+            "text": {
+                "es": "✨ Promoción Especial:",
+                "en": "✨ Special Promotion:",
+                "pt": "✨ Promoção Especial:"
+            },
+            "link_text": {
+                "es": "Descubre Perú 8D/7N",
+                "en": "Discover Peru 8D/7N",
+                "pt": "Descubra o Peru 8D/7N"
+            },
+            "extra": {
+                "es": "una experiencia única en el Perú.",
+                "en": "a unique experience in Peru.",
+                "pt": "uma experiência única no Peru."
+            },
+            "link": "descubre-peru"
+        },
+        {
+            "id": "montana-colores-quelccaya",
+            "text": {
+                "es": "🏔️ Promoción Especial:",
+                "en": "🏔️ Special Promotion:",
+                "pt": "🏔️ Promoção Especial:"
+            },
+            "link_text": {
+                "es": "Montaña de Colores + Glaciar de Quelccaya",
+                "en": "Rainbow Mountain + Quelccaya Glacier",
+                "pt": "Montanha das Cores + Glaciar Quelccaya"
+            },
+            "extra": {
+                "es": "una expedición andina inolvidable.",
+                "en": "an unforgettable Andean expedition.",
+                "pt": "uma expedição andina inesquecível."
+            },
+            "link": "montanacolores-glaciarquelcaya"
+        }
+    ]
+}

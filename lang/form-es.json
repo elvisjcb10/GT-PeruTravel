@@ -1,0 +1,17 @@
+{
+    "titulo": "Consulta disponibilidad y precios",
+    "subtitle": "Te responderemos lo antes posible",
+    "nombre": "Nombre",
+    "nombre-placeholder": "Carlos",
+    "numero": "WhatsApp o Teléfono",
+    "numero-placeholder": "98979-9898",
+    "correo": "Email",
+    "correo-placeholder": "correo@ejemplo.com",
+    "fecha": "Fecha aproximada del viaje",
+    "mensaje": "Mensaje",
+    "mensaje-placeholder": "Deseo más información sobre el tour",
+    "boton": "Solicitar información",
+
+    "success": "¡Mensaje enviado! Te responderemos pronto.",
+    "error": "Error al enviar. Intenta nuevamente."
+}

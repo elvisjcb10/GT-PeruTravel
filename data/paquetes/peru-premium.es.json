@@ -1,0 +1,114 @@
+{
+    "title": "Peru Premium",
+    "short_description": "Un viaje completo por Perú: Lima, Paracas, Ica, Nazca, Cusco, Machu Picchu, Puno y Arequipa",
+    "long_description": "Explora lo mejor del Perú en un programa de 15 días que combina historia, naturaleza y cultura viva. Desde Lima y la Costa Sur hasta los Andes y el majestuoso Machu Picchu, vivirás una experiencia inolvidable diseñada para viajeros que buscan un recorrido Premium por los destinos más emblemáticos del país.",
+    "duration": "15 Días / 14 Noches",
+    "image_cover": "peru-premium.jpg",
+    "gallery": ["machu1.jpg", "machu2.jpg"],
+    "price": "1359",
+    "price_note": "Incluye transporte, tickets de ingreso y guía profesional.",
+
+    "seo_title": "Peru Premium 15 Días / 14 Noches– Lima, Cusco, Machu Picchu, Puno y Arequipa | GT Peru Travel",
+    "seo_description": "Paquete Peru Premium 15 días / 14 Noches: Lima, Paracas, Ica, Cusco, Machu Picchu, Puno, Arequipa y Nazca. Incluye ingresos, transporte, tours guiados y experiencias culturales.",
+    "seo_keywords": "peru premium, tour peru 15 dias / 14 noches, machu picchu tour, viaje a peru completo, cusco puno arequipa tour, lineas de nazca tour, paquetes peru gt peru travel",
+
+
+    "days": [{
+            "title": "Día 1 – Lima",
+            "text": "Llegada a Lima, recepción y traslado al hotel. City tour opcional para descubrir la historia, gastronomía y paisajes urbanos de la capital si llega temprano."
+        },
+        {
+            "title": "Día 2 – Lima / Paracas / Ica – Huacachina / Nazca",
+            "text": "Viaje a Paracas, navegación a las Islas Ballestas y aventura en el oasis de Huacachina con buggies y sandboard. Traslado a Nazca y descanso nocturno."
+        },
+        {
+            "title": "Día 3 – Líneas de Nazca / Sobrevuelo – Lima",
+            "text": "Emocionante sobrevuelo a las Líneas de Nazca para descubrir sus misterios ancestrales desde el aire. Retorno cómodo a Lima en bus."
+        },
+        {
+            "title": "Día 4 – Lima / Cusco",
+            "text": "Vuelo de Lima a Cusco. Día libre para aclimatación, paseo tranquilo por la ciudad imperial y adaptación a la altura andina."
+        },
+        {
+            "title": "Día 5 – Cusco / City Tour",
+            "text": "City tour por Cusco visitando el Coricancha, Sacsayhuamán y un santuario de camélidos, explorando la historia inca y la arquitectura colonial."
+        },
+        {
+            "title": "Día 6 – Valle Sagrado / Aguas Calientes",
+            "text": "Recorrido por Chinchero, Maras, Moray y Ollantaytambo, disfrutando paisajes andinos antes de viajar a Aguas Calientes."
+        },
+        {
+            "title": "Día 7 – Machu Picchu / Cusco",
+            "text": "Visita guiada a Machu Picchu, una de las maravillas del mundo, con tiempo para fotos inolvidables y retorno a Cusco."
+        },
+        {
+            "title": "Día 8 – Cusco / Laguna Humantay",
+            "text": "Caminata hacia la espectacular Laguna Humantay, rodeada de montañas nevadas y vistas impresionantes. Retorno a Cusco por la tarde."
+        },
+        {
+            "title": "Día 9 – Cusco / Montaña de Colores",
+            "text": "Excursión a Vinicunca, la famosa Montaña de Siete Colores, disfrutando trekking moderado y panorámicas únicas de los Andes."
+        },
+        {
+            "title": "Día 10 – Cusco / Puno – Ruta del Sol",
+            "text": "Viaje escénico por la Ruta del Sol hacia Puno, visitando templos, museos y paisajes andinos."
+        },
+        {
+            "title": "Día 11 – Puno / Uros – Amantaní",
+            "text": "Navegación por el Lago Titicaca visitando las islas flotantes de Uros y experiencia vivencial con familia local en Amantaní."
+        },
+        {
+            "title": "Día 12 – Amantaní / Taquile – Puno / Arequipa",
+            "text": "Visita a Taquile, famosa por su cultura ancestral. Retorno a Puno y viaje nocturno en bus hacia Arequipa."
+        },
+        {
+            "title": "Día 13 – Arequipa / City Tour",
+            "text": "City tour por Arequipa visitando Yanahuara, Carmen Alto, el Monasterio de Santa Catalina y su elegante Centro Histórico."
+        },
+        {
+            "title": "Día 14 – Arequipa / Cañón del Colca",
+            "text": "Excursión al Cañón del Colca, observando cóndores, miradores naturales y relajantes baños termales."
+        },
+        {
+            "title": "Día 15 – Arequipa / Lima",
+            "text": "Traslado al aeropuerto y vuelo de retorno a Lima, culminando una experiencia inolvidable recorriendo lo mejor del Perú."
+        }
+    ],
+
+
+
+    "brochure": "",
+    "map": "mapa-paquete-peru-premium-15d-14n-es.jpg",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "TOUR MACHUPICCHU - SOLO",
+            "precio": "1359",
+            "descripcion": "Servicio clásico con tren Expedition.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "TOUR MACHUPICCHU - CONFORT",
+            "precio": "1359",
+            "descripcion": "Incluye tren Vistadome y almuerzo buffet.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "TOUR MACHUPICCHU - PREMIUM",
+            "precio": "1359",
+            "descripcion": "Tren Vistadome + mayor comodidad.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "TOUR MACHUPICCHU - ELITE",
+            "precio": "1359",
+            "descripcion": "Experiencia completa con máxima comodidad.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 0
+        }
+    }
+}

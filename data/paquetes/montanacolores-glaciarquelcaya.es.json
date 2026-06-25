@@ -1,0 +1,63 @@
+{
+    "title": "Montaña de Colores + Glaciar de Quelccaya",
+    "long_description": "Vive una experiencia andina completa combinando dos de los paisajes naturales más impresionantes de Cusco: la Montaña de Colores Vinicunca y el Glaciar de Quelccaya, el glaciar tropical más grande del mundo. Un tour diseñado para viajeros que buscan aventura, naturaleza y escenarios únicos lejos de lo convencional.",
+    "short_description": "Montaña de Colores + Glaciar de Quelccaya.",
+    "duration": "2 Días/1 Noche",
+    "image_cover": "montana-colores-cusco-peru.jpg",
+    "gallery": ["vinicunca1.jpg", "quelccaya1.jpg"],
+    "price": "145",
+    "price_note": "Incluye transporte, tickets de ingreso y guía profesional.",
+
+    "seo_title": "Montaña de Colores y Glaciar de Quelccaya | Tour 2 Días desde Cusco",
+    "seo_description": "Descubre la Montaña de Colores Vinicunca y el Glaciar de Quelccaya en un tour de 2 días desde Cusco. Naturaleza, aventura y paisajes únicos en los Andes peruanos.",
+    "seo_keywords": "montaña de colores, vinicunca, glaciar de quelccaya, tour quelccaya, tour vinicunca, trekking cusco, tours de aventura cusco, naturaleza en cusco",
+
+    "days": [{
+            "title": "Día 1 – Montaña de Colores",
+            "text": "Salimos muy temprano desde Cusco rumbo al sur, atravesando comunidades altoandinas y paisajes de la cordillera del Vilcanota. Tras el desayuno, iniciamos una caminata gradual rodeados de alpacas y montañas sagradas hasta llegar a la cima de la Montaña de Colores, donde los intensos tonos naturales crean una vista inolvidable. Luego del tiempo libre para fotografías, continuamos el viaje hacia la zona de Quelccaya para pasar la noche."
+        },
+        {
+            "title": "Día 2 – Glaciar de Quelccaya",
+            "text": "Después del desayuno, nos dirigimos al punto de inicio de la caminata hacia el glaciar. Durante el recorrido observaremos lagunas, nevados y fauna andina, hasta llegar al imponente frente glaciar de Quelccaya. El guía explicará la importancia natural y cultural de este lugar único. Tras la visita, iniciamos el retorno a Cusco."
+        }
+    ],
+
+    "technical_sheet": "TOUR GLACIAR DE QUELCCAYA Y MONTAÑA DE COLORES <br>• Destino: Glaciar de Quelccaya y montaña de Colores <br>• Duración: 2 días / 1 noche <br>• Altura máxima: 4,800 – 5,100 m s. n. m. <br>• Nivel de exigencia: Moderado – Alto <br>• Tipo de tour: Naturaleza / Aventura / glaciares <br>• Caminata: 1 a 2 horas (aprox.) <br>• Clima: Frío andino <br>• Recomendado para: Personas aclimatadas y con buena condición física <br>• No recomendado: Personas con problemas cardíacos o respiratorios",
+    "includes": "• Transporte turístico.<br>• Guía profesional.<br>• 2 desayunos.<br>• 2 almuerzos.<br>• 1 cena.<br>• 1 noche de alojamiento rural.<br>• Bastones de trekking.<br>• Mantas polares.<br>• Oxígenos y botiquín.",
+    "not_includes": "• Sleeping bag (recomendado para personas de climas cálidos)<br>• Snacks. <br>• Propinas.",
+
+    "brochure": "",
+    "map": "mapa-montanacolores-glaciarquelcaya-es.jpg",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "TOUR QUELCCAYA + MONTAÑA DE COLORES – BÁSICO",
+            "precio": "145",
+            "descripcion": "Opción de servicio según nivel de comodidad y experiencia durante el tour.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "TOUR QUELCCAYA + MONTAÑA DE COLORES – CONFORT",
+            "precio": "145",
+            "descripcion": "Opción de servicio según nivel de comodidad y experiencia durante el tour.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "TOUR QUELCCAYA + MONTAÑA DE COLORES – PREMIUM",
+            "precio": "145",
+            "descripcion": "Opción de servicio según nivel de comodidad y experiencia durante el tour.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "TOUR QUELCCAYA + MONTAÑA DE COLORES – ELITE",
+            "precio": "145",
+            "descripcion": "Opción de servicio según nivel de comodidad y experiencia durante el tour.",
+            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
+            "descuento": 0
+        }
+    }
+}

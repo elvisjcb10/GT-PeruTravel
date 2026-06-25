@@ -1,0 +1,23 @@
+{
+    "es": {
+        "faltan_datos": "Faltan datos obligatorios",
+        "correo_invalido": "Correo inválido",
+        "captcha_requerido": "Captcha requerido",
+        "captcha_invalido": "Captcha inválido",
+        "mensaje_enviado": "¡Mensaje enviado! Pronto nos pondremos en contacto contigo."
+    },
+    "en": {
+        "faltan_datos": "Missing required fields",
+        "correo_invalido": "Invalid email",
+        "captcha_requerido": "Captcha required",
+        "captcha_invalido": "Invalid captcha",
+        "mensaje_enviado": "Message sent! We will contact you soon."
+    },
+    "pt": {
+        "faltan_datos": "Faltam campos obrigatórios",
+        "correo_invalido": "Email inválido",
+        "captcha_requerido": "Captcha obrigatório",
+        "captcha_invalido": "Captcha inválido",
+        "mensaje_enviado": "Mensagem enviada! Entraremos em contato em breve."
+    }
+}
