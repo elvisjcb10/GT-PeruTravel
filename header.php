@@ -2,7 +2,7 @@
 require_once __DIR__ . "/config/environment.php";
 ?>
 
-<header>
+<header >
 
     <!------------------------
     CARGAR IDIOMA BOTONES  
@@ -81,11 +81,9 @@ require_once __DIR__ . "/config/environment.php";
     ------------------>
 
     <!-- banner infp    -->
-    <section id="banner-promotions" class="bg-[#1C1C1C] text-white text-sm font-poppins">
-        <div class="container-custom mx-auto px-4">
-            
+    <section id="banner-promotions" class="bg-[#1C1C1C]  text-white text-sm font-poppins">
+        <div class="container-custom  ">
             <div class="flex flex-col md:flex-row items-center justify-between py-2 gap-3">
-
                 <!-- Left -->
                 <div class="flex items-center gap-6">
                     
@@ -175,7 +173,7 @@ require_once __DIR__ . "/config/environment.php";
         </div>
     </section>
     <!-- banner social-->
-    <section id="banner-social" class="bg-white shadow-sm border-b border-gray-100">
+    <section id="banner-social" class="bg-white shadow-sm border-b ">
         <div class="container-custom  px-4 font-poppins">
 
             <div class="flex flex-col md:flex-row items-center justify-between gap-4 py-3">
@@ -262,7 +260,7 @@ require_once __DIR__ . "/config/environment.php";
 
         </div>
     </section>
-    <!--Linuz-->
+    <!--navbar menu-->
     <section id="nav-menu">
         <div class="bg-[#F97316] text-white shadow-md font-poppins">
             <div class="container-custom mx-auto px-4">
@@ -272,667 +270,165 @@ require_once __DIR__ . "/config/environment.php";
                     <!-- Botón mobile -->
                     <button id="menu-btn"
                         class="absolute left-0 top-1/2 -translate-y-1/2 md:hidden text-white z-50">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-6 h-6"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
                                 d="M4 6h16M4 12h16M4 18h16"/>
                         </svg>
                     </button>
 
                     <!-- Menu desktop -->
                     <ul id="menu"
-                        class="hidden md:flex items-center justify-center gap-12 h-12 text-[14px] font-semibold uppercase tracking-[0.4px]">
+                        class="hidden md:flex relative w-full items-center justify-center gap-12 h-12 text-[14px] font-semibold uppercase tracking-[0.4px]">
 
-                        <li>
+                        <!-- DESTINOS -->
+                        <li class="group">
                             <a href="<?= $base_url ?>/?lang=<?= $idioma ?>"
-                            class="flex items-center gap-1 hover:text-orange-100 transition">
+                                class="flex items-center gap-1 px-2 h-12 hover:text-orange-100 transition">
                                 <?= $header_text['menu']['destinos'] ?>
+
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     class="w-3 h-3 opacity-80"
                                     fill="none"
                                     viewBox="0 0 20 20">
-                                    <path
-                                        d="M6 8l4 4 4-4"
+                                    <path d="M6 8l4 4 4-4"
                                         stroke="currentColor"
                                         stroke-width="2"
                                         stroke-linecap="round"
-                                        stroke-linejoin="round" />
+                                        stroke-linejoin="round"/>
                                 </svg>
                             </a>
+
+                            <!-- MEGA MENU -->
+                            <div class="absolute left-0 top-full w-full
+                                        opacity-0 invisible
+                                        group-hover:opacity-100
+                                        group-hover:visible
+                                        transition-all duration-300
+                                        z-[9999]  ">
+
+                                <div class="bg-white shadow-2xl rounded-b-2xl p-8">
+                                    <div class="grid grid-cols-5 gap-6">
+
+                                        <!-- lima-->
+                                        <a href="#" class="group block rounded-xl overflow-hidden shadow-md">
+                                            <div class="relative h-48">
+                                                <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['lima']['img'] ?>"
+                                                    alt="Lima"
+                                                    class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+
+                                                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-3">
+                                                    <span class="text-white text-lg font-bold">
+                                                        <?= $header_text['mega_menu']['destinos']['lima']['nombre'] ?>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <!-- Manu -->
+                                        <a href="#" class="group block rounded-xl overflow-hidden shadow-md">
+                                            <div class="relative h-48">
+                                                <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['manu_tambopata']['img'] ?>"
+                                                    alt="Lima"
+                                                    class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+
+                                                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-3">
+                                                    <span class="text-white text-lg font-bold">
+                                                        <?= $header_text['mega_menu']['destinos']['manu_tambopata']['nombre'] ?>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="group block rounded-xl overflow-hidden shadow-md">
+                                            <div class="relative h-48">
+                                                <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['arequipa']['img'] ?>"
+                                                    alt="Lima"
+                                                    class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+
+                                                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-3">
+                                                    <span class="text-white text-lg font-bold">
+                                                        <?= $header_text['mega_menu']['destinos']['arequipa']['nombre'] ?>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="group block rounded-xl overflow-hidden shadow-md">
+                                            <div class="relative h-48">
+                                                <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['puno']['img'] ?>"
+                                                    alt="Lima"
+                                                    class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+
+                                                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-3">
+                                                    <span class="text-white text-lg font-bold">
+                                                        <?= $header_text['mega_menu']['destinos']['puno']['nombre'] ?>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="group block rounded-xl overflow-hidden shadow-md">
+                                            <div class="relative h-48">
+                                                <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['huaraz']['img'] ?>"
+                                                    alt="Lima"
+                                                    class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+
+                                                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-3">
+                                                    <span class="text-white text-lg font-bold">
+                                                        <?= $header_text['mega_menu']['destinos']['huaraz']['nombre'] ?>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                        
+
+                                    </div>
+                                </div>
+                            </div>
                         </li>
 
+                        <!-- TOURS CUSCO -->
                         <li>
-                            <a href="#"
-                            class="flex items-center gap-1 hover:text-orange-100 transition">
-                                <?= $header_text['menu']['tour_cusco'] ?>
-                                <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="w-3 h-3 opacity-80"
-                                    fill="none"
-                                    viewBox="0 0 20 20">
-                                    <path
-                                        d="M6 8l4 4 4-4"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#"
-                            class="flex items-center gap-1 hover:text-orange-100 transition">
-                                <?= $header_text['menu']['machupicchu'] ?>
-                                <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="w-3 h-3 opacity-80"
-                                    fill="none"
-                                    viewBox="0 0 20 20">
-                                    <path
-                                        d="M6 8l4 4 4-4"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#"
-                            class="flex items-center gap-1 hover:text-orange-100 transition">
-                                <?= $header_text['menu']['glaciares_cusco'] ?>
-                                <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="w-3 h-3 opacity-80"
-                                    fill="none"
-                                    viewBox="0 0 20 20">
-                                    <path
-                                        d="M6 8l4 4 4-4"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#"
-                            class="flex items-center gap-1 hover:text-orange-100 transition">
-                                <?= $header_text['menu']['experiencia_unica'] ?>
-                                <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="w-3 h-3 opacity-80"
-                                    fill="none"
-                                    viewBox="0 0 20 20">
-                                    <path
-                                        d="M6 8l4 4 4-4"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#"
-                            class="flex items-center gap-1 hover:text-orange-100 transition">
-                                <?= $header_text['menu']['paquete_peru'] ?>
-                                <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="w-3 h-3 opacity-80"
-                                    fill="none"
-                                    viewBox="0 0 20 20">
-                                    <path
-                                        d="M6 8l4 4 4-4"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </li>
-
-
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="nav-menu">
-        <div class="bg-black text-white relative z-50 bg-[#F97316]">
-            <div class="container-custom mx-auto px-4">
-                <nav class="flex flex-col md:flex-row items-center justify-center py-3 relative">
-
-                    <!-- Botón hamburguesa (solo visible en móviles) -->
-                    <button id="menu-btn" class="absolute left-4 md:hidden text-white focus:outline-none z-50">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    </button>
-
-                    <!-- Enlaces del menú (centrados en PC) -->
-                    <ul id="menu"
-                        class="hidden md:flex justify-center items-center space-x-6 text-[1rem] font-medium w-full">
-                        <li>
-                            <a href="<?= $base_url ?>/?lang=<?= $idioma ?>"
-                                class="inline-flex items-center justify-center rounded-md bg-black-custom text-white px-4 py-2 text-sm font-semibold hover:bg-black-custom-hov transition-colors duration-200 shadow-sm">
-                                <?= $header_text['menu']['destinos'] ?>
-                            </a>
-                        </li>
-
-                        <!-- Adjuntar en la URL Siempre el idioma para que redireccione -->
-                        <li class="relative group">
-                            <a href="#"
-                                class="inline-flex items-center justify-center rounded-md bg-black-custom text-white px-4 py-2 text-sm font-semibold hover:bg-black-custom-hov transition-colors duration-200 shadow-sm">
+                            <a href="#" class="flex items-center gap-1 hover:text-orange-100 transition">
                                 <?= $header_text['menu']['tour_cusco'] ?>
                             </a>
-
-                            <!-- Sub menú -->
-                            <div class="absolute left-1/2 -translate-x-1/2 top-full hidden group-hover:block bg-black text-white shadow-2xl rounded-lg z-[999] min-w-[700px] max-w-[90vw] pt-4">
-                                <div class="grid grid-cols-3 gap-8 p-8 text-sm">
-
-                                    <!-- Columna 1 -->
-                                    <div>
-                                        <h4 class="font-semibold text-orange-custom mb-3">
-                                            <?= $header_text['mega_menu']['paquetes_turisticos']['col1_title'] ?>
-                                        </h4>
-                                        <ul class="space-y-2">
-                                            <li>
-                                                <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=vallesagrado-machupicchu&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['paquetes_turisticos']['links']['machupicchu_valle'] ?>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=short-inca-trail&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['paquetes_turisticos']['links']['camino_inca_corto'] ?>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <!-- Columna 2 -->
-                                    <div>
-                                        <h4 class="font-semibold text-orange-custom mb-3">
-                                            <?= $header_text['mega_menu']['paquetes_turisticos']['col2_title'] ?>
-                                        </h4>
-                                        <ul class="space-y-2">
-                                            <li>
-                                                <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=peru-magico&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['paquetes_turisticos']['links']['peru_magico'] ?>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=peru-prime&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['paquetes_turisticos']['links']['peru_prime'] ?>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=cusco-magico&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['paquetes_turisticos']['links']['cusco_magico'] ?>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <!-- Columna 3 -->
-                                    <div>
-                                        <h4 class="font-semibold text-orange-custom mb-3">
-                                            <?= $header_text['mega_menu']['paquetes_turisticos']['col3_title'] ?>
-                                        </h4>
-                                        <ul class="space-y-2">
-                                            <li>
-                                                <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=peru-premium&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['paquetes_turisticos']['links']['peru_premium'] ?>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=peru-mistico&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['paquetes_turisticos']['links']['peru_mistico'] ?>
-                                                </a>
-                                            </li>
-                                        </ul>
-
-                                        <div class="mt-4">
-                                            <a href="<?= $base_url ?>/?lang=<?= $idioma ?>#nuestros-paquetes" class="font-semibold text-orange-custom hover:underline">
-                                                <?= $header_text['mega_menu']['paquetes_turisticos']['ver_todos'] ?>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
                         </li>
 
-
-                        <li class="relative group">
-                            <a href="#"
-                                class="inline-flex items-center justify-center rounded-md bg-black-custom text-white px-4 py-2 text-sm font-semibold hover:bg-black-custom-hov transition-colors duration-200 shadow-sm">
+                        <!-- MACHU PICCHU -->
+                        <li>
+                            <a href="#" class="flex items-center gap-1 hover:text-orange-100 transition">
                                 <?= $header_text['menu']['machupicchu'] ?>
                             </a>
-
-                            <!-- Sub menú Machu Picchu -->
-                            <div class="absolute left-1/2 -translate-x-1/2 top-full hidden group-hover:block bg-black text-white shadow-2xl rounded-lg z-[999] min-w-[700px] max-w-[90vw] pt-4">
-                                <div class="grid grid-cols-3 gap-8 p-8 text-sm">
-
-                                    <!-- Columna 1 -->
-                                    <div>
-                                        <h4 class="font-semibold text-orange-custom mb-3">
-                                            <?= $header_text['mega_menu']['paquetes_machupicchu']['col1_title'] ?>
-                                        </h4>
-                                        <ul class="space-y-2">
-                                            <li>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=machupicchu&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['paquetes_machupicchu']['links']['mp_1_dia'] ?>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=vallesagrado-machupicchu&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['paquetes_machupicchu']['links']['mp_2d_1n'] ?>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=machupicchu&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['paquetes_machupicchu']['links']['tren_panoramico'] ?>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <!-- Columna 2 -->
-                                    <div>
-                                        <h4 class="font-semibold text-orange-custom mb-3">
-                                            <?= $header_text['mega_menu']['paquetes_machupicchu']['col2_title'] ?>
-                                        </h4>
-                                        <ul class="space-y-2">
-                                            <li>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=machupicchu&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['paquetes_machupicchu']['links']['huayna_picchu'] ?>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=machupicchu&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['paquetes_machupicchu']['links']['montana_mp'] ?>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=machupicchu&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['paquetes_machupicchu']['links']['huchuy_picchu'] ?>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <!-- Columna 3 -->
-                                    <div>
-                                        <h4 class="font-semibold text-orange-custom mb-3">
-                                            <?= $header_text['mega_menu']['paquetes_machupicchu']['col3_title'] ?>
-                                        </h4>
-                                        <ul class="space-y-2">
-                                            <li>
-                                                <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=vallesagrado-machupicchu&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['paquetes_machupicchu']['links']['mp_valle'] ?>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=machupicchu&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['paquetes_machupicchu']['links']['tren_lujo'] ?>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=machupicchu&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['paquetes_machupicchu']['links']['mp_premium'] ?>
-                                                </a>
-                                            </li>
-                                        </ul>
-
-                                        <div class="mt-4">
-                                            <a href="<?= $base_url ?>/?lang=<?= $idioma ?>#nuestros-paquetes" class="font-semibold text-orange-custom hover:underline">
-                                                <?= $header_text['mega_menu']['paquetes_machupicchu']['ver_todos'] ?>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
                         </li>
 
-
-                        <li class="relative group">
-                            <a href="#"
-                                class="inline-flex items-center justify-center rounded-md bg-black-custom text-white px-4 py-2 text-sm font-semibold hover:bg-black-custom-hov transition-colors duration-200 shadow-sm">
+                        <!-- GLACIARES -->
+                        <li>
+                            <a href="#" class="flex items-center gap-1 hover:text-orange-100 transition">
                                 <?= $header_text['menu']['glaciares_cusco'] ?>
                             </a>
-
-                            <!-- Mega menú Tours -->
-                            <div class="absolute left-1/2 -translate-x-1/2 top-full hidden group-hover:block bg-black text-white shadow-2xl rounded-lg z-[999] min-w-[700px] max-w-[90vw] pt-4">
-                                <div class="grid grid-cols-3 gap-8 p-8 text-sm">
-
-                                    <!-- Columna 1 -->
-                                    <div>
-                                        <h4 class="font-semibold text-orange-custom mb-3">
-                                            <?= $header_text['mega_menu']['tours']['col1_title'] ?>
-                                        </h4>
-                                        <ul class="space-y-2">
-                                            <li>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=machupicchu&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['tours']['links']['machupicchu'] ?>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=laguna-humantay&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['tours']['links']['humantay'] ?>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=montana-colores&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['tours']['links']['rainbow'] ?>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <!-- Columna 2 -->
-                                    <div>
-                                        <h4 class="font-semibold text-orange-custom mb-3">
-                                            <?= $header_text['mega_menu']['tours']['col2_title'] ?>
-                                        </h4>
-                                        <ul class="space-y-2">
-                                            <li>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=glaciar-quelccaya-suyuparina&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['tours']['links']['quelccaya'] ?>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=puente-inca&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['tours']['links']['qeswachaka'] ?>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=fortaleza-cuernos&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['tours']['links']['waqrapukara'] ?>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <!-- Columna 3 -->
-                                    <div>
-                                        <h4 class="font-semibold text-orange-custom mb-3">
-                                            <?= $header_text['mega_menu']['tours']['col3_title'] ?>
-                                        </h4>
-                                        <ul class="space-y-2">
-                                            <li>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=machupicchu&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['tours']['links']['mp_full_day'] ?>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=machupicchu&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['tours']['links']['mp_montana'] ?>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=short-inca-trail&lang=<?= $idioma ?>" class="hover-orange-custom transition-colors duration-200">
-                                                    <?= $header_text['mega_menu']['tours']['links']['mp_huayna'] ?>
-                                                </a>
-                                            </li>
-                                        </ul>
-
-                                        <div class="mt-4">
-                                            <a href="<?= $base_url ?>/?lang=<?= $idioma ?>#tours" class="font-semibold text-orange-custom hover:underline">
-                                                <?= $header_text['mega_menu']['tours']['ver_todos'] ?>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
                         </li>
 
-
+                        <!-- EXPERIENCIA -->
                         <li>
-                            <a href="<?= $base_url ?>/legal.php?doc=contacto&lang=<?= $idioma ?>"
-                                class="inline-flex items-center justify-center rounded-md bg-black-custom text-white px-4 py-2 text-sm font-semibold hover:bg-black-custom-hov transition-colors duration-200 shadow-sm">
+                            <a href="#" class="flex items-center gap-1 hover:text-orange-100 transition">
                                 <?= $header_text['menu']['experiencia_unica'] ?>
                             </a>
                         </li>
+
+                        <!-- PAQUETES -->
                         <li>
-                            <a href="<?= $base_url ?>/legal.php?doc=contacto&lang=<?= $idioma ?>"
-                                class="inline-flex items-center justify-center rounded-md bg-black-custom text-white px-4 py-2 text-sm font-semibold hover:bg-black-custom-hov transition-colors duration-200 shadow-sm">
+                            <a href="#" class="flex items-center gap-1 hover:text-orange-100 transition">
                                 <?= $header_text['menu']['paquete_peru'] ?>
                             </a>
                         </li>
 
                     </ul>
                 </nav>
-
-
-                <!-- Menú móvil lateral -->
-                <div id="mobile-menu" class="hidden fixed inset-0 bg-black/80 z-50 md:hidden">
-
-                    <!-- Panel lateral -->
-                    <div id="menu-panel"
-                        class="bg-black text-white w-64 h-full p-5 flex flex-col space-y-6 animate-slide-in font-[Poppins] relative">
-
-                        <!-- Botón cerrar -->
-                        <button id="closeMenuBtn"
-                            class="absolute top-3 right-3 text-3xl text-white hover:text-orange-400">&times;</button>
-
-                        <!-- Enlaces del menú -->
-                        <ul class="flex flex-col space-y-3 text-[1rem] font-medium mt-10">
-                            <li>
-                                <a href="<?= $base_url ?>/?lang=<?= $idioma ?>" class="hover:text-orange-400">
-                                    <?= $header_text['menu']['inicio'] ?>
-                                </a>
-                            </li>
-
-                            <li>
-                                <button class="w-full flex justify-between items-center toggle-submenu hover:text-orange-custom">
-                                    <?= $header_text['menu']['paquetes_turisticos'] ?>
-                                    <span>+</span>
-                                </button>
-
-                                <ul class="submenu hidden pl-4 mt-2 space-y-2 text-sm">
-                                    <li class="text-orange-custom font-semibold mt-2">
-                                        <?= $header_text['mega_menu']['paquetes_turisticos']['col1_title'] ?>
-                                    </li>
-                                    <li>
-                                        <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=vallesagrado-machupicchu&lang=<?= $idioma ?>" class="block hover-orange-custom">
-                                            <?= $header_text['mega_menu']['paquetes_turisticos']['links']['machupicchu_valle'] ?>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=short-inca-trail&lang=<?= $idioma ?>" class="block hover-orange-custom">
-                                            <?= $header_text['mega_menu']['paquetes_turisticos']['links']['camino_inca_corto'] ?>
-                                        </a>
-                                    </li>
-
-                                    <li class="text-orange-custom font-semibold mt-3">
-                                        <?= $header_text['mega_menu']['paquetes_turisticos']['col2_title'] ?>
-                                    </li>
-                                    <li>
-                                        <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=peru-magico&lang=<?= $idioma ?>" class="block hover-orange-custom">
-                                            <?= $header_text['mega_menu']['paquetes_turisticos']['links']['peru_magico'] ?>
-                                        </a>
-                                    </li>
-
-                                    <li class="text-orange-custom font-semibold mt-3">
-                                        <?= $header_text['mega_menu']['paquetes_turisticos']['col3_title'] ?>
-                                    </li>
-                                    <li>
-                                        <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=peru-premium&lang=<?= $idioma ?>" class="block hover-orange-custom">
-                                            <?= $header_text['mega_menu']['paquetes_turisticos']['links']['peru_premium'] ?>
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="<?= $base_url ?>/?lang=<?= $idioma ?>#nuestros-paquetes" class="block text-orange-custom font-semibold mt-2">
-                                            <?= $header_text['mega_menu']['paquetes_turisticos']['ver_todos'] ?>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <button class="w-full flex justify-between items-center toggle-submenu hover:text-orange-custom">
-                                    <?= $header_text['menu']['paquetes_machupicchu'] ?>
-                                    <span>+</span>
-                                </button>
-
-                                <ul class="submenu hidden pl-4 mt-2 space-y-2 text-sm">
-
-                                    <li class="text-orange-custom font-semibold mt-2">
-                                        <?= $header_text['mega_menu']['paquetes_machupicchu']['col1_title'] ?>
-                                    </li>
-                                    <li>
-                                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=machupicchu&lang=<?= $idioma ?>" class="block hover-orange-custom">
-                                            <?= $header_text['mega_menu']['paquetes_machupicchu']['links']['mp_1_dia'] ?>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=vallesagrado-machupicchu&lang=<?= $idioma ?>" class="block hover-orange-custom">
-                                            <?= $header_text['mega_menu']['paquetes_machupicchu']['links']['mp_2d_1n'] ?>
-                                        </a>
-                                    </li>
-
-                                    <li class="text-orange-custom font-semibold mt-3">
-                                        <?= $header_text['mega_menu']['paquetes_machupicchu']['col2_title'] ?>
-                                    </li>
-                                    <li>
-                                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=machupicchu&lang=<?= $idioma ?>" class="block hover-orange-custom">
-                                            <?= $header_text['mega_menu']['paquetes_machupicchu']['links']['huayna_picchu'] ?>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=machupicchu&lang=<?= $idioma ?>" class="block hover-orange-custom">
-                                            <?= $header_text['mega_menu']['paquetes_machupicchu']['links']['montana_mp'] ?>
-                                        </a>
-                                    </li>
-
-                                    <li class="text-orange-custom font-semibold mt-3">
-                                        <?= $header_text['mega_menu']['paquetes_machupicchu']['col3_title'] ?>
-                                    </li>
-                                    <li>
-                                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=machupicchu&lang=<?= $idioma ?>" class="block hover-orange-custom">
-                                            <?= $header_text['mega_menu']['paquetes_machupicchu']['links']['mp_premium'] ?>
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="<?= $base_url ?>/?lang=<?= $idioma ?>#nuestros-paquetes" class="block text-orange-custom font-semibold mt-2">
-                                            <?= $header_text['mega_menu']['paquetes_machupicchu']['ver_todos'] ?>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <button class="w-full flex justify-between items-center toggle-submenu hover:text-orange-custom">
-                                    <?= $header_text['menu']['tours'] ?>
-                                    <span>+</span>
-                                </button>
-
-                                <ul class="submenu hidden pl-4 mt-2 space-y-2 text-sm">
-
-                                    <li class="text-orange-custom font-semibold mt-2">
-                                        <?= $header_text['mega_menu']['tours']['col1_title'] ?>
-                                    </li>
-                                    <li>
-                                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=machupicchu&lang=<?= $idioma ?>" class="block hover-orange-custom">
-                                            <?= $header_text['mega_menu']['tours']['links']['machupicchu'] ?>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=laguna-humantay&lang=<?= $idioma ?>" class="block hover-orange-custom">
-                                            <?= $header_text['mega_menu']['tours']['links']['humantay'] ?>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=montana-colores&lang=<?= $idioma ?>" class="block hover-orange-custom">
-                                            <?= $header_text['mega_menu']['tours']['links']['rainbow'] ?>
-                                        </a>
-                                    </li>
-
-                                    <li class="text-orange-custom font-semibold mt-3">
-                                        <?= $header_text['mega_menu']['tours']['col2_title'] ?>
-                                    </li>
-                                    <li>
-                                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=glaciar-quelccaya-suyuparina&lang=<?= $idioma ?>" class="block hover-orange-custom">
-                                            <?= $header_text['mega_menu']['tours']['links']['quelccaya'] ?>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=puente-inca&lang=<?= $idioma ?>" class="block hover-orange-custom">
-                                            <?= $header_text['mega_menu']['tours']['links']['qeswachaka'] ?>
-                                        </a>
-                                    </li>
-
-                                    <li class="text-orange-custom font-semibold mt-3">
-                                        <?= $header_text['mega_menu']['tours']['col3_title'] ?>
-                                    </li>
-                                    <li>
-                                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=machupicchu&lang=<?= $idioma ?>" class="block hover-orange-custom">
-                                            <?= $header_text['mega_menu']['tours']['links']['mp_full_day'] ?>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=short-inca-trail&lang=<?= $idioma ?>" class="block hover-orange-custom">
-                                            <?= $header_text['mega_menu']['tours']['links']['mp_huayna'] ?>
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="<?= $base_url ?>/?lang=<?= $idioma ?>#tours" class="block text-orange-custom font-semibold mt-2">
-                                            <?= $header_text['mega_menu']['tours']['ver_todos'] ?>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-
-
-                            <li>
-                                <a href="<?= $base_url ?>/legal.php?doc=contacto&lang=<?= $idioma ?>" class="hover:text-orange-400">
-                                    <?= $header_text['menu']['contacto'] ?>
-                                </a>
-                            </li>
-
-                        </ul>
-
-                        <hr class="border-gray-700">
-
-                        <!-- Horario y contacto -->
-                        <div class="text-sm leading-tight space-y-1">
-                            <p>🕘 <?= $header_text['banner_social']['horario'] ?></p>
-                            <p><a href="https://wa.me/51982770013" target="_blank" class="hover:text-orange-400">📞 +51 982 770 013</a></p>
-                        </div>
-
-                        <hr class="border-gray-700">
-
-                        <!-- Enlaces adicionales -->
-                        <div class="flex flex-col space-y-2 text-sm font-medium">
-                            <a href="<?= $base_url ?>/blog" target="_blank" class="hover:text-orange-400"><?= $header_text['banner_social']['extra_links']['blog'] ?></a>
-                            <a href="<?= $base_url ?>/recomendaciones" target="_blank" class="hover:text-orange-400"><?= $header_text['banner_social']['extra_links']['tips'] ?></a>
-                            <a href="<?= $base_url ?>/proyectos" target="_blank" class="hover:text-orange-400"><?= $header_text['banner_social']['extra_links']['impacto'] ?></a>
-                        </div>
-
-                        <hr class="border-gray-700">
-
-                        <!-- Banderas idiomas -->
-                        <div class="flex flex-row space-x-2 text-sm font-medium">
-                            <a href="<?= cambiarIdioma('es') ?>"><img src="<?= $base_url ?>/images/es.png" width="32"></a>
-                            <a href="<?= cambiarIdioma('en') ?>"><img src="<?= $base_url ?>/images/en.png" width="32"></a>
-                            <a href="<?= cambiarIdioma('pt') ?>"><img src="<?= $base_url ?>/images/pt.png" width="32"></a>
-                        </div>
-
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
-
 
 </header>

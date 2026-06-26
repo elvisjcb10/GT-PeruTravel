@@ -23,23 +23,23 @@
         "destinos":{
             "lima":{
                 "nombre":"Lima",
-                "img":""
+                "img":"/images/destinos/lima/lima.webp"
             },
             "manu_tambopata":{
                 "nombre":"Manu Tambopata",
-                "img":""
+                "img":"/images/destinos/manu/manu.webp"
             },
             "puno":{
                 "nombre":"Puno",
-                "img":""
+                "img":"/images/destinos/puno/puno.webp"
             },
             "arequipa":{
                 "nombre":"Arequipa",
-                "img":""
+                "img":"/images/destinos/arequipa/arequipa.webp"
             },
             "huaraz":{
                 "nombre":"Huaraz",
-                "img":""
+                "img":"/images/destinos/huaraz/huaraz.webp"
             }
         },
         "paquetes_turisticos": {
