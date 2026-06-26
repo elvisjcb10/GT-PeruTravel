@@ -197,6 +197,7 @@ $data = json_decode($data_json, true);
 
     <!-- Mobile menu -->
     <script src="js/mobile-menu.js"></script>
+    <script src="js/mega-menu.js"></script> 
 
     <!-- Swiper Trip Comments -->
     <script src="js/swiper-trip-comments.js"></script>

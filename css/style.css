@@ -9,7 +9,9 @@ body {
     font-weight: 500;
     letter-spacing: 0.2px;
 }
-
+a{
+    cursor:pointer
+}
 /* continer custom */
 .container-custom {
     /* max-width: 1240px; */

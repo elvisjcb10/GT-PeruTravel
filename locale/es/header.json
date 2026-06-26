@@ -42,12 +42,10 @@
                 "img":"/images/destinos/huaraz/huaraz.webp"
             }
         },
-        "paquetes_turisticos": {
-            "col1_title": "Paquetes Clásico",
-            "col2_title": "Paquetes Aventura",
-            "col3_title": "Paquetes Premium",
-            "ver_todos": "Ver todos los paquetes →",
-
+        "tour_cusco": {
+            "col1_title": "Tours Tradicionales",
+            "col2_title": "Tours Tradicionales",
+            "col3_title": "Tours Tradicionales",
             "links": {
                 "machupicchu_valle": "Machupicchu + Valle Sagrado",
                 "camino_inca_corto": "Camino Inca Corto",
@@ -59,23 +57,59 @@
             }
         },
 
-        "paquetes_machupicchu": {
-            "col1_title": "Machu Picchu Clásico",
-            "col2_title": "Con Montañas",
-            "col3_title": "Experiencias Especiales",
-            "ver_todos": "Ver todos los tours a Machu Picchu →",
+        "machupicchu": {
+            "nombre":"Tour Machupicchu",
+            "descripcion":"Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
+            "imgs":{
+                "pr":"/images/machupicchu/principal.jpg",
+                "sec1":"/images/machupicchu/sec1.webp",
+                "sec2":"/images/machupicchu/sec2.webp"
+            },
+            "links":{
 
-            "links": {
-                "mp_1_dia": "Machu Picchu 1 Día",
-                "mp_2d_1n": "Machu Picchu 2D / 1N",
-                "tren_panoramico": "Tren Panorámico + Tour",
-                "huayna_picchu": "Machu Picchu + Huayna Picchu",
-                "montana_mp": "Machu Picchu + Montaña Machu Picchu",
-                "huchuy_picchu": "Machu Picchu + Huchuy Picchu",
-                "mp_valle": "Machu Picchu + Valle Sagrado",
-                "tren_lujo": "Machu Picchu en Tren de Lujo",
-                "mp_premium": "Machu Picchu Full Day Premium"
+                "clasico": {
+                    "img":"",
+                    "nombre":"Tour Machu Picchu Clasico",
+                    "descripcion":"Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
+                    "precio":"49",
+                    "tiempo":"Todo el dia",
+                    "dificultad":"Facil",
+                    "transporte":"Incluido"
+    
+    
+                },
+                "tren_panoramico": {
+                    "nombre":"Tour Machu Picchu con tren panoramico vista observatorio",
+                    "descripcion":"Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
+                    "precio":"49",
+                    "tiempo":"Todo el dia",
+                    "dificultad":"Facil",
+                    "transporte":"Incluido"
+    
+    
+                },
+                "tren_hiram": {
+                    "nombre":"Tour Machu Picchu en tren de lujo Hiram Bingham",
+                    "descripcion":"Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
+                    "precio":"49",
+                    "tiempo":"Todo el dia",
+                    "dificultad":"Facil",
+                    "transporte":"Incluido"
+    
+    
+                },
+                "ruta_amazonica": {
+                    "nombre":"Tour Machu Picchu ruta amazonica",
+                    "descripcion":"Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
+                    "precio":"49",
+                    "tiempo":"2D/1N",
+                    "dificultad":"Facil",
+                    "transporte":"Incluido"
+    
+    
+                }
             }
+            
         },
 
         "tours": {
