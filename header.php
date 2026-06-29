@@ -81,7 +81,7 @@ require_once __DIR__ . "/config/environment.php";
     ------------------>
 
     <!-- banner infp    -->
-    <section id="banner-promotions" class="bg-[#1C1C1C]  text-white text-sm font-poppins">
+    <section id="banner-promotions" class="bg-[#2b2b2b]  text-white text-sm font-poppins">
         <div class="container-custom  ">
             <div class="flex flex-col md:flex-row items-center justify-between py-2 gap-3">
                 <!-- Left -->
@@ -184,7 +184,7 @@ require_once __DIR__ . "/config/environment.php";
                         <img 
                             src="<?= $base_url ?>/images/gt-peru-travel.png"
                             alt="GT Peru Travel"
-                            class="w-24 md:w-36 hover:scale-105 transition duration-300"
+                            class="w-23 md:w-32 hover:scale-105 transition duration-300"
                         >
                     </a>
                 </div>
@@ -262,8 +262,8 @@ require_once __DIR__ . "/config/environment.php";
     </section>
     <!--navbar menu-->
     <section id="nav-menu">
-        <div class="bg-[#F97316] text-white shadow-md font-poppins">
-            <div class="container-custom mx-auto px-4">
+        <div class="bg-[#FF9300]  text-white shadow-md font-poppins">
+            <div class="container-custom mx-auto ">
 
                 <nav class="relative">
 
@@ -284,12 +284,11 @@ require_once __DIR__ . "/config/environment.php";
 
                     <!-- Menu desktop -->
                     <ul id="menu"
-                        class="hidden md:flex relative w-full items-center justify-center gap-12 h-12 text-[14px] font-semibold uppercase tracking-[0.4px]">
-
+                        class="hidden py-2  md:flex relative w-full items-center  justify-center gap-12  text-[14px] font-semibold uppercase tracking-[0.4px]">
                         <!-- DESTINOS -->
                         <li class="group">
                             <a href="<?= $base_url ?>/?lang=<?= $idioma ?>"
-                            class="group flex items-center gap-1 px-2 h-12 hover:text-orange-200 transition">
+                            class="group flex items-center gap-1 px-2   hover:text-orange-200 transition">
                                 
                                 <?= $header_text['menu']['destinos'] ?>
 
@@ -389,31 +388,116 @@ require_once __DIR__ . "/config/environment.php";
                                 </div>
                             </div>
                         </li>
-
                         <!-- TOURS CUSCO -->
-                        <li>
-                            <a href="#" class=" group flex items-center gap-1 px-2 h-12 hover:text-orange-200 transition">
+                        <li class="group">
+                            <a href="#" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
                                 <?= $header_text['menu']['tour_cusco'] ?>
-                                 <?= $header_text['menu']['destinos'] ?>
-
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     class="w-5 h-5 opacity-80 transition-transform duration-300 group-hover:rotate-180"
-                                    fill="none"
-                                    viewBox="0 0 20 20">
-                                    <path d="M6 8l4 4 4-4"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"/>
+                                    fill="none" viewBox="0 0 20 20">
+                                    <path d="M6 8l4 4 4-4" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </a>
-                            
+
+                            <!-- MEGA MENU -->
+                            <div class="absolute left-0 top-full w-full
+                                        opacity-0 invisible
+                                        group-hover:opacity-100
+                                        group-hover:visible
+                                        transition-all duration-300 z-[9999]">
+
+                                <div class="container-custom mx-auto">
+                                    <div class="bg-white shadow-2xl rounded-2xl p-8 text-[#333] text-sm font-normal normal-case">
+                                        <!-- 3 columnas -->
+                                        <div class="grid grid-cols-3 gap-8">
+
+                                            <!-- COL 1: Tours Tradicionales -->
+                                            <div class="flex flex-col gap-1">
+
+                                                <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2 px-2">
+                                                    <?= $header_text['mega_menu']['tour_cusco']['tradicionales']['title'] ?>
+                                                </p>
+
+                                                <?php foreach($header_text['mega_menu']['tour_cusco']['tradicionales']['links'] as $key => $nombre): ?>
+                                                    <a href="#"
+                                                        class="group/item flex items-center justify-between gap-2 px-2 py-2.5
+                                                            rounded-lg hover:bg-[#FFF7EF] transition duration-200">
+                                                        <span class="group-hover/item:text-orange-500 transition duration-200 font-medium">
+                                                            <?= $nombre ?>
+                                                        </span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                            class="w-3.5 h-3.5 shrink-0 text-gray-300
+                                                                group-hover/item:translate-x-0.5 group-hover/item:-translate-y-0.5
+                                                                group-hover/item:text-orange-500 transition-all duration-300"
+                                                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h6m0 0v6m0-6L10 16"/>
+                                                        </svg>
+                                                    </a>
+                                                <?php endforeach; ?>
+
+                                            </div>
+
+                                            <!-- COL 2: Tours de Caminata -->
+                                            <div class="flex flex-col gap-1">
+
+                                                <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2 px-2">
+                                                    <?= $header_text['mega_menu']['tour_cusco']['caminata']['title'] ?>
+                                                </p>
+
+                                                <?php foreach($header_text['mega_menu']['tour_cusco']['caminata']['links'] as $key => $nombre): ?>
+                                                    <a href="#"
+                                                        class="group/item flex items-center justify-between gap-2 px-2 py-2.5
+                                                            rounded-lg hover:bg-[#FFF7EF] transition duration-200">
+                                                        <span class="group-hover/item:text-orange-500 transition duration-200 font-medium">
+                                                            <?= $nombre ?>
+                                                        </span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                            class="w-3.5 h-3.5 shrink-0 text-gray-300
+                                                                group-hover/item:translate-x-0.5 group-hover/item:-translate-y-0.5
+                                                                group-hover/item:text-orange-500 transition-all duration-300"
+                                                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h6m0 0v6m0-6L10 16"/>
+                                                        </svg>
+                                                    </a>
+                                                <?php endforeach; ?>
+
+                                            </div>
+
+                                            <!-- COL 3: Tours de Aventura -->
+                                            <div class="flex flex-col gap-1">
+
+                                                <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2 px-2">
+                                                    <?= $header_text['mega_menu']['tour_cusco']['aventura']['title'] ?>
+                                                </p>
+
+                                                <?php foreach($header_text['mega_menu']['tour_cusco']['aventura']['links'] as $key => $nombre): ?>
+                                                    <a href="#"
+                                                        class="group/item flex items-center justify-between gap-2 px-2 py-2.5
+                                                            rounded-lg hover:bg-[#FFF7EF] transition duration-200">
+                                                        <span class="group-hover/item:text-orange-500 transition duration-200 font-medium">
+                                                            <?= $nombre ?>
+                                                        </span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                            class="w-3.5 h-3.5 shrink-0 text-gray-300
+                                                                group-hover/item:translate-x-0.5 group-hover/item:-translate-y-0.5
+                                                                group-hover/item:text-orange-500 transition-all duration-300"
+                                                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h6m0 0v6m0-6L10 16"/>
+                                                        </svg>
+                                                    </a>
+                                                <?php endforeach; ?>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
-
-                                                <!-- MACHU PICCHU -->
-                        <li class="group relative">
-
-                            <a href="#" class="flex items-center gap-1 px-2 h-12 hover:text-orange-200 transition">
+                        <!-- MACHU PICCHU -->
+                        <li class="group" data-megamenu>
+                            <a href="#" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
                                 <?= $header_text['menu']['machupicchu'] ?>
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     class="w-5 h-5 opacity-80 transition-transform duration-300 group-hover:rotate-180"
@@ -424,12 +508,11 @@ require_once __DIR__ . "/config/environment.php";
                             </a>
 
                             <!-- MEGA MENU -->
-                            <div id="mega-menu-mp"
-                                class="fixed left-0 w-screen
-                                    opacity-0 invisible pointer-events-none
-                                    group-hover:opacity-100 group-hover:visible group-hover:pointer-events-auto
-                                    transition-all duration-300 z-[9999]"
-                                style="top: var(--header-nav-bottom, 144px);">
+                            <div class="absolute left-0 top-full w-full
+                                        opacity-0 invisible 
+                                        group-hover:opacity-100 
+                                        group-hover:visible 
+                                        transition-all duration-300 z-[9999]">
 
                                 <div class="container-custom mx-auto">
                                     <div class="bg-white shadow-2xl rounded-2xl p-8 grid grid-cols-2 gap-8 text-[#333] text-sm font-normal normal-case">
@@ -445,7 +528,7 @@ require_once __DIR__ . "/config/environment.php";
                                                     data-time="<?= htmlspecialchars($tour['tiempo']) ?>"
                                                     data-difficulty="<?= htmlspecialchars($tour['dificultad']) ?>"
                                                     data-transport="<?= htmlspecialchars($tour['transporte']) ?>"
-                                                    data-img="<?= $base_url ?>/images/tours/machupicchu/<?= $key ?>.webp">
+                                                    data-img="<?= $base_url ?><?= htmlspecialchars($tour['img']) ?>">
 
                                                     <span class="group-hover/item:text-orange-500 transition duration-200 font-medium">
                                                         <?= $tour['nombre'] ?>
@@ -463,121 +546,502 @@ require_once __DIR__ . "/config/environment.php";
                                         </div>
 
                                         <!-- RIGHT: preview dinámico -->
-                                        <div id="preview-box" class="grid grid-cols-2 gap-4"
-                                            data-default-title="Tours Machupicchu"
-                                            data-default-desc="Descubre el corazón del Imperio Incaico con experiencias únicas diseñadas para todos los viajeros."
-                                            data-default-price="---"
-                                            data-default-time="-"
-                                            data-default-difficulty="-"
-                                            data-default-transport="-"
-                                            >
+                                        <div class="col-span-1 grid grid-cols-2 gap-4">
 
-                                            <!-- Título y descripción -->
-                                            <div class="">
-                                                <h3 id="preview-title" class="text-xl font-bold text-orange-500 mb-2 leading-snug transition-all duration-200">
-                                                    <?= $header_text['mega_menu']['machupicchu']['nombre'] ?>
-                                                </h3>
-                                                <p id="preview-desc" class="text-gray-500 leading-relaxed text-sm transition-all duration-200">
-                                                    <?= $header_text['mega_menu']['machupicchu']['descripcion'] ?>
-                                                </p>
-                                                    <!-- Detalles -->
-                                                <div class="flex flex-col gap-2 text-sm text-gray-600">
+                                            <!-- ESTADO DEFAULT -->
+                                            <div data-preview="default" class="col-span-2 grid grid-cols-2 gap-4">
 
-                                                    <div class="flex items-center gap-2">
-                                                        <!-- ícono reloj -->
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                                            <circle cx="12" cy="12" r="10"/><path stroke-linecap="round" d="M12 6v6l4 2"/>
-                                                        </svg>
-                                                        <span id="preview-time">-</span>
+                                                <!-- Info -->
+                                                <div class="flex flex-col gap-4">
+                                                    <div>
+                                                        <h3 class="text-xl font-bold text-[#FF9300] mb-2 leading-snug">
+                                                            <?= $header_text['mega_menu']['machupicchu']['nombre'] ?>
+                                                        </h3>
+                                                        <p class="text-gray-500 leading-relaxed text-sm">
+                                                            <?= $header_text['mega_menu']['machupicchu']['descripcion'] ?>
+                                                        </p>
                                                     </div>
 
-                                                    <div class="flex items-center gap-2">
-                                                        <!-- ícono dificultad -->
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 17l4-8 4 4 4-6 4 10"/>
-                                                        </svg>
-                                                        <span>Dificultad: <span id="preview-difficulty">-</span></span>
+                                                    <!-- Badges -->
+                                                    <div class="grid grid-cols-2 gap-3 mt-2">
+                                                        <div class="flex items-center gap-2 text-xs text-gray-600 font-medium">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0"/>
+                                                            </svg>
+                                                            Guías Profesional
+                                                        </div>
+                                                        <div class="flex items-center gap-2 text-xs text-gray-600 font-medium">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                                            </svg>
+                                                            Asistencia 24/7
+                                                        </div>
+                                                        <div class="flex items-center gap-2 text-xs text-gray-600 font-medium">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                                            </svg>
+                                                            Experiencia Local
+                                                        </div>
+                                                        <div class="flex items-center gap-2 text-xs text-gray-600 font-medium">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064"/>
+                                                            </svg>
+                                                            Trekking
+                                                        </div>
                                                     </div>
-
-                                                    <div class="flex items-center gap-2">
-                                                        <!-- ícono transporte -->
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                                            <rect x="1" y="3" width="15" height="13" rx="2"/><path stroke-linecap="round" stroke-linejoin="round" d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
-                                                        </svg>
-                                                        <span id="preview-transport">-</span>
-                                                    </div>
-
                                                 </div>
 
-                                                <!-- Precio -->
-                                                <div id="preview-price-wrap" class="hidden mt-auto pt-3 border-t border-gray-100">
-                                                    <p class="text-xs text-gray-400 uppercase tracking-wide mb-0.5">Desde</p>
-                                                    <p class="text-2xl font-bold text-orange-500">
-                                                        USD <span id="preview-price">---</span>
-                                                    </p>
+                                                <!-- Imágenes -->
+                                                <div class="grid grid-cols-2 gap-2 rounded-xl overflow-hidden">
+                                                    <div class="col-span-2 h-36 rounded-lg overflow-hidden">
+                                                        <img src="<?= $base_url . $header_text['mega_menu']['machupicchu']['imgs']['pr'] ?>"
+                                                            alt="Machu Picchu" class="w-full h-full object-cover">
+                                                    </div>
+                                                    <div class="h-24 rounded-lg overflow-hidden">
+                                                        <img src="<?= $base_url . $header_text['mega_menu']['machupicchu']['imgs']['sec1'] ?>"
+                                                            alt="Tour secundario" class="w-full h-full object-cover">
+                                                    </div>
+                                                    <div class="h-24 rounded-lg overflow-hidden">
+                                                        <img src="<?= $base_url . $header_text['mega_menu']['machupicchu']['imgs']['sec2'] ?>"
+                                                            alt="Tour secundario" class="w-full h-full object-cover">
+                                                    </div>
                                                 </div>
+
                                             </div>
 
+                                            <!-- ESTADO HOVER -->
+                                            <div data-preview="hover" class="col-span-2 grid grid-cols-2 gap-4 hidden">
 
-                                            <!-- Imagen -->
-                                            <div id=" preview-img-wrap" class="grid grid-cols-2 gap-4 rounded-xl  overflow-hidden bg-gray-100  transition-all duration-200">
-                                                <div class="col-span-2">
-                                                    <img id="preview-img"
-                                                        src="<?= $base_url . $header_text['mega_menu']['machupicchu']['imgs']['pr'] ?>"
-                                                        alt="Tour preview"
-                                                        class="w-full h-full object-cover transition duration-300"
-                                                        onerror="this.style.display='none'"
-                                                    >
-                                                </div>
-                                                <div class="col-span-1">
-                                                    <img id="preview-img"
-                                                        src="<?= $base_url . $header_text['mega_menu']['machupicchu']['imgs']['sec1'] ?>"
-                                                        alt="Tour preview"
-                                                        class="w-full h-full object-cover transition duration-300"
-                                                        onerror="this.style.display='none'"
-                                                    >
-                                                </div>
-                                                <div class="col-span-1">
-                                                    <img id="preview-img"
-                                                        src="<?= $base_url . $header_text['mega_menu']['machupicchu']['imgs']['sec2'] ?>"
-                                                        alt="Tour preview"
-                                                        class="w-full h-full object-cover transition duration-300"
-                                                        onerror="this.style.display='none'"
-                                                    >
-                                                </div>
-                                                
-                                            </div>  
+                                                <!-- Info del tour -->
+                                                <div class="flex flex-col gap-3">
+                                                    <h3 data-preview="title" class="text-xl font-bold text-[#FF9300] leading-snug"></h3>
+                                                    <p  data-preview="desc"  class="text-gray-500 leading-relaxed text-sm"></p>
 
-                                            
+                                                    <div class="flex flex-col gap-2 text-sm text-gray-600 mt-1">
+                                                        <div class="flex items-center gap-2">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                                <circle cx="12" cy="12" r="10"/><path stroke-linecap="round" d="M12 6v6l4 2"/>
+                                                            </svg>
+                                                            <span data-preview="time"></span>
+                                                        </div>
+                                                        <div class="flex items-center gap-2">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 17l4-8 4 4 4-6 4 10"/>
+                                                            </svg>
+                                                            <span>Dificultad: <span data-preview="difficulty"></span></span>
+                                                        </div>
+                                                        <div class="flex items-center gap-2">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                                <rect x="1" y="3" width="15" height="13" rx="2"/>
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M16 8h4l3 3v5h-7V8z"/>
+                                                                <circle cx="5.5" cy="18.5" r="2.5"/>
+                                                                <circle cx="18.5" cy="18.5" r="2.5"/>
+                                                            </svg>
+                                                            <span data-preview="transport"></span>
+                                                        </div>
+                                                    </div>
 
+                                                    <div data-preview="price-wrap" class="hidden mt-auto pt-3 border-t border-gray-100">
+                                                        <p class="text-xs text-gray-400 uppercase tracking-wide mb-0.5">Desde</p>
+                                                        <p class="text-2xl font-bold text-orange-500">
+                                                            USD <span data-preview="price"></span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Imagen del tour -->
+                                                <div class="rounded-xl overflow-hidden bg-gray-100 h-full max-h-[300px]">
+                                                    <img data-preview="img" src="" alt="Tour preview"
+                                                        class="w-full h-full object-cover" style="display:none">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- GLACIARES -->
+                        <li class="group" data-megamenu>
+                            <a href="#" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
+                                <?= $header_text['menu']['glaciares_cusco'] ?>
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="w-5 h-5 opacity-80 transition-transform duration-300 group-hover:rotate-180"
+                                    fill="none" viewBox="0 0 20 20">
+                                    <path d="M6 8l4 4 4-4" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+
+                            <!-- MEGA MENU -->
+                            <div class="absolute left-0 top-full w-full
+                                        opacity-0 invisible 
+                                        group-hover:opacity-100 
+                                        group-hover:visible 
+                                        transition-all duration-300 z-[9999]">
+
+                                <div class="container-custom mx-auto">
+                                    <div class="bg-white shadow-2xl rounded-2xl p-8 grid grid-cols-2 gap-8 text-[#333] text-sm font-normal normal-case">
+
+                                        <!-- LEFT: lista de tours -->
+                                        <div class="flex flex-col gap-1">
+                                            <?php foreach($header_text['mega_menu']['glaciares']['links'] as $key => $tour): ?>
+                                                <a href="#"
+                                                    class="tour-item group/item flex items-center justify-between gap-2 p-4 rounded-xl hover:bg-[#FFF7EF] transition duration-200 cursor-pointer"
+                                                    data-title="<?= htmlspecialchars($tour['nombre']) ?>"
+                                                    data-desc="<?= htmlspecialchars($tour['descripcion']) ?>"
+                                                    data-price="<?= htmlspecialchars($tour['precio']) ?>"
+                                                    data-time="<?= htmlspecialchars($tour['tiempo']) ?>"
+                                                    data-difficulty="<?= htmlspecialchars($tour['dificultad']) ?>"
+                                                    data-transport="<?= htmlspecialchars($tour['transporte']) ?>"
+                                                    data-img="<?= $base_url ?><?= htmlspecialchars($tour['img']) ?>">
+
+                                                    <span class="group-hover/item:text-orange-500 transition duration-200 font-medium">
+                                                        <?= $tour['nombre'] ?>
+                                                    </span>
+
+                                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                                        class="w-4 h-4 shrink-0 text-gray-300 transition-all duration-300
+                                                            group-hover/item:translate-x-0.5 group-hover/item:-translate-y-0.5
+                                                            group-hover/item:text-orange-500"
+                                                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h6m0 0v6m0-6L10 16"/>
+                                                    </svg>
+                                                </a>
+                                            <?php endforeach; ?>
+                                        </div>
+
+                                        <!-- RIGHT: preview dinámico -->
+                                        <div class="col-span-1 grid grid-cols-2 gap-4">
+
+                                            <!-- ESTADO DEFAULT -->
+                                            <div data-preview="default" class="col-span-2 grid grid-cols-2 gap-4">
+
+                                                <!-- Info -->
+                                                <div class="flex flex-col gap-4">
+                                                    <div>
+                                                        <h3 class="text-xl font-bold text-[#FF9300] mb-2 leading-snug">
+                                                            <?= $header_text['mega_menu']['glaciares']['nombre'] ?>
+                                                        </h3>
+                                                        <p class="text-gray-500 leading-relaxed text-sm">
+                                                            <?= $header_text['mega_menu']['glaciares']['descripcion'] ?>
+                                                        </p>
+                                                    </div>
+
+                                                    <!-- Badges -->
+                                                    <div class="grid grid-cols-2 gap-3 mt-2">
+                                                        <div class="flex items-center gap-2 text-xs text-gray-600 font-medium">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0"/>
+                                                            </svg>
+                                                            Guías Profesional
+                                                        </div>
+                                                        <div class="flex items-center gap-2 text-xs text-gray-600 font-medium">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                                            </svg>
+                                                            Asistencia 24/7
+                                                        </div>
+                                                        <div class="flex items-center gap-2 text-xs text-gray-600 font-medium">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                                            </svg>
+                                                            Experiencia Local
+                                                        </div>
+                                                        <div class="flex items-center gap-2 text-xs text-gray-600 font-medium">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064"/>
+                                                            </svg>
+                                                            Trekking
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Imágenes -->
+                                                <div class="grid grid-cols-2 gap-2 rounded-xl overflow-hidden">
+                                                    <div class="col-span-2 h-36 rounded-lg overflow-hidden">
+                                                        <img src="<?= $base_url . $header_text['mega_menu']['glaciares']['imgs']['pr'] ?>"
+                                                            alt="Glaciares" class="w-full h-full object-cover">
+                                                    </div>
+                                                    <div class="h-24 rounded-lg overflow-hidden">
+                                                        <img src="<?= $base_url . $header_text['mega_menu']['glaciares']['imgs']['sec1'] ?>"
+                                                            alt="Tour secundario" class="w-full h-full object-cover">
+                                                    </div>
+                                                    <div class="h-24 rounded-lg overflow-hidden">
+                                                        <img src="<?= $base_url . $header_text['mega_menu']['glaciares']['imgs']['sec2'] ?>"
+                                                            alt="Tour secundario" class="w-full h-full object-cover">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <!-- ESTADO HOVER -->
+                                            <div data-preview="hover" class="col-span-2 grid grid-cols-2 gap-4 hidden">
+
+                                                <!-- Info del tour -->
+                                                <div class="flex flex-col gap-3">
+                                                    <h3 data-preview="title" class="text-xl font-bold text-[#FF9300] leading-snug"></h3>
+                                                    <p  data-preview="desc"  class="text-gray-500 leading-relaxed text-sm"></p>
+
+                                                    <div class="flex flex-col gap-2 text-sm text-gray-600 mt-1">
+                                                        <div class="flex items-center gap-2">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                                <circle cx="12" cy="12" r="10"/><path stroke-linecap="round" d="M12 6v6l4 2"/>
+                                                            </svg>
+                                                            <span data-preview="time"></span>
+                                                        </div>
+                                                        <div class="flex items-center gap-2">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 17l4-8 4 4 4-6 4 10"/>
+                                                            </svg>
+                                                            <span>Dificultad: <span data-preview="difficulty"></span></span>
+                                                        </div>
+                                                        <div class="flex items-center gap-2">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                                <rect x="1" y="3" width="15" height="13" rx="2"/>
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M16 8h4l3 3v5h-7V8z"/>
+                                                                <circle cx="5.5" cy="18.5" r="2.5"/>
+                                                                <circle cx="18.5" cy="18.5" r="2.5"/>
+                                                            </svg>
+                                                            <span data-preview="transport"></span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div data-preview="price-wrap" class="hidden mt-auto pt-3 border-t border-gray-100">
+                                                        <p class="text-xs text-gray-400 uppercase tracking-wide mb-0.5">Desde</p>
+                                                        <p class="text-2xl font-bold text-orange-500">
+                                                            USD <span data-preview="price"></span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Imagen del tour -->
+                                                <div class="rounded-xl overflow-hidden bg-gray-100 h-full max-h-[300px]">
+                                                    <img data-preview="img" src="" alt="Tour preview"
+                                                        class="w-full h-full object-cover" style="display:none">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- EXPERIENCIA UNICAS -->
+                        <li class="group" data-megamenu>
+                            <a href="#" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
+                                <?= $header_text['menu']['experiencia_unica'] ?>
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="w-5 h-5 opacity-80 transition-transform duration-300 group-hover:rotate-180"
+                                    fill="none" viewBox="0 0 20 20">
+                                    <path d="M6 8l4 4 4-4" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <!-- MEGA MENU -->
+                            <div class="absolute left-0 top-full w-full
+                                        opacity-0 invisible 
+                                        group-hover:opacity-100 
+                                        group-hover:visible 
+                                        transition-all duration-300 z-[9999]">
+
+                                <div class="container-custom mx-auto">
+                                    <div class="bg-white shadow-2xl rounded-2xl p-8 grid grid-cols-2 gap-8 text-[#333] text-sm font-normal normal-case">
+
+                                        <!-- LEFT: lista de tours -->
+                                        <div class="flex flex-col gap-1">
+                                            <?php foreach($header_text['mega_menu']['experiencias_unicas']['links'] as $key => $tour): ?>
+                                                <a href="#"
+                                                    class="tour-item group/item flex items-center justify-between gap-2 p-4 rounded-xl hover:bg-[#FFF7EF] transition duration-200 cursor-pointer"
+                                                    data-title="<?= htmlspecialchars($tour['nombre']) ?>"
+                                                    data-desc="<?= htmlspecialchars($tour['descripcion']) ?>"
+                                                    data-price="<?= htmlspecialchars($tour['precio']) ?>"
+                                                    data-time="<?= htmlspecialchars($tour['tiempo']) ?>"
+                                                    data-difficulty="<?= htmlspecialchars($tour['dificultad']) ?>"
+                                                    data-transport="<?= htmlspecialchars($tour['transporte']) ?>"
+                                                    data-img="<?= $base_url ?><?= htmlspecialchars($tour['img']) ?>">
+
+                                                    <span class="group-hover/item:text-orange-500 transition duration-200 font-medium">
+                                                        <?= $tour['nombre'] ?>
+                                                    </span>
+
+                                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                                        class="w-4 h-4 shrink-0 text-gray-300 transition-all duration-300
+                                                            group-hover/item:translate-x-0.5 group-hover/item:-translate-y-0.5
+                                                            group-hover/item:text-orange-500"
+                                                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h6m0 0v6m0-6L10 16"/>
+                                                    </svg>
+                                                </a>
+                                            <?php endforeach; ?>
+                                        </div>
+
+                                        <!-- RIGHT: preview dinámico -->
+                                        <div class="col-span-1 grid grid-cols-2 gap-4">
+
+                                            <!-- ESTADO DEFAULT -->
+                                            <div data-preview="default" class="col-span-2 grid grid-cols-2 gap-4">
+
+                                                <!-- Info -->
+                                                <div class="flex flex-col gap-4">
+                                                    <div>
+                                                        <h3 class="text-xl font-bold text-[#FF9300] mb-2 leading-snug">
+                                                            <?= $header_text['mega_menu']['experiencias_unicas']['nombre'] ?>
+                                                        </h3>
+                                                        <p class="text-gray-500 leading-relaxed text-sm">
+                                                            <?= $header_text['mega_menu']['experiencias_unicas']['descripcion'] ?>
+                                                        </p>
+                                                    </div>
+
+                                                    <!-- Badges -->
+                                                    <div class="grid grid-cols-2 gap-3 mt-2">
+                                                        <div class="flex items-center gap-2 text-xs text-gray-600 font-medium">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0"/>
+                                                            </svg>
+                                                            Guías Profesional
+                                                        </div>
+                                                        <div class="flex items-center gap-2 text-xs text-gray-600 font-medium">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                                            </svg>
+                                                            Asistencia 24/7
+                                                        </div>
+                                                        <div class="flex items-center gap-2 text-xs text-gray-600 font-medium">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                                            </svg>
+                                                            Experiencia Local
+                                                        </div>
+                                                        <div class="flex items-center gap-2 text-xs text-gray-600 font-medium">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064"/>
+                                                            </svg>
+                                                            Trekking
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Imágenes -->
+                                                <div class="grid grid-cols-2 gap-2 rounded-xl overflow-hidden">
+                                                    <div class="col-span-2 h-36 rounded-lg overflow-hidden">
+                                                        <img src="<?= $base_url . $header_text['mega_menu']['experiencias_unicas']['imgs']['pr'] ?>"
+                                                            alt="Experiencias Únicas" class="w-full h-full object-cover">
+                                                    </div>
+                                                    <div class="h-24 rounded-lg overflow-hidden">
+                                                        <img src="<?= $base_url . $header_text['mega_menu']['experiencias_unicas']['imgs']['sec1'] ?>"
+                                                            alt="Tour secundario" class="w-full h-full object-cover">
+                                                    </div>
+                                                    <div class="h-24 rounded-lg overflow-hidden">
+                                                        <img src="<?= $base_url . $header_text['mega_menu']['experiencias_unicas']['imgs']['sec2'] ?>"
+                                                            alt="Tour secundario" class="w-full h-full object-cover">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <!-- ESTADO HOVER -->
+                                            <div data-preview="hover" class="col-span-2 grid grid-cols-2 gap-4 hidden">
+
+                                                <!-- Info del tour -->
+                                                <div class="flex flex-col gap-3">
+                                                    <h3 data-preview="title" class="text-xl font-bold text-[#FF9300] leading-snug"></h3>
+                                                    <p  data-preview="desc"  class="text-gray-500 leading-relaxed text-sm"></p>
+
+                                                    <div class="flex flex-col gap-2 text-sm text-gray-600 mt-1">
+                                                        <div class="flex items-center gap-2">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                                <circle cx="12" cy="12" r="10"/><path stroke-linecap="round" d="M12 6v6l4 2"/>
+                                                            </svg>
+                                                            <span data-preview="time"></span>
+                                                        </div>
+                                                        <div class="flex items-center gap-2">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 17l4-8 4 4 4-6 4 10"/>
+                                                            </svg>
+                                                            <span>Dificultad: <span data-preview="difficulty"></span></span>
+                                                        </div>
+                                                        <div class="flex items-center gap-2">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                                <rect x="1" y="3" width="15" height="13" rx="2"/>
+                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M16 8h4l3 3v5h-7V8z"/>
+                                                                <circle cx="5.5" cy="18.5" r="2.5"/>
+                                                                <circle cx="18.5" cy="18.5" r="2.5"/>
+                                                            </svg>
+                                                            <span data-preview="transport"></span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div data-preview="price-wrap" class="hidden mt-auto pt-3 border-t border-gray-100">
+                                                        <p class="text-xs text-gray-400 uppercase tracking-wide mb-0.5">Desde</p>
+                                                        <p class="text-2xl font-bold text-orange-500">
+                                                            USD <span data-preview="price"></span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Imagen del tour -->
+                                                <div class="rounded-xl overflow-hidden bg-gray-100 h-full max-h-[300px]">
+                                                    <img data-preview="img" src="" alt="Tour preview"
+                                                        class="w-full h-full object-cover" style="display:none">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- PAQUETES -->
+                        <!-- PAQUETES PERU -->
+                        <li class="group">
+                            <a href="#" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
+                                <?= $header_text['menu']['paquete_peru'] ?>
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="w-5 h-5 opacity-80 transition-transform duration-300 group-hover:rotate-180"
+                                    fill="none" viewBox="0 0 20 20">
+                                    <path d="M6 8l4 4 4-4" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+
+                            <!-- MEGA MENU -->
+                            <div class="absolute left-0 top-full w-full
+                                        opacity-0 invisible
+                                        group-hover:opacity-100
+                                        group-hover:visible
+                                        transition-all duration-300 z-[9999]">
+
+                                <div class="container-custom mx-auto">
+                                    <div class="bg-white shadow-2xl rounded-2xl p-8 text-[#333] text-sm font-normal normal-case">
+
+                                        <!-- Links en grid de 2 columnas -->
+                                        <div class="grid grid-cols-2 gap-x-12 gap-y-1">
+                                            <?php foreach($header_text['mega_menu']['paquete_peru']['links'] as $key => $nombre): ?>
+                                                <a href="#"
+                                                    class="group/item flex items-center justify-between gap-2 px-2 py-2.5
+                                                        rounded-lg hover:bg-[#FFF7EF] transition duration-200">
+                                                    <span class="group-hover/item:text-orange-500 transition duration-200 font-medium">
+                                                        <?= $nombre ?>
+                                                    </span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                                        class="w-3.5 h-3.5 shrink-0 text-gray-300
+                                                            group-hover/item:translate-x-0.5 group-hover/item:-translate-y-0.5
+                                                            group-hover/item:text-orange-500 transition-all duration-300"
+                                                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h6m0 0v6m0-6L10 16"/>
+                                                    </svg>
+                                                </a>
+                                            <?php endforeach; ?>
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
                         </li>
-
-                        <!-- GLACIARES -->
-                        <li>
-                            <a href="#" class="flex items-center gap-1 hover:text-orange-100 transition">
-                                <?= $header_text['menu']['glaciares_cusco'] ?>
-                            </a>
-                        </li>
-
-                        <!-- EXPERIENCIA -->
-                        <li>
-                            <a href="#" class="flex items-center gap-1 hover:text-orange-100 transition">
-                                <?= $header_text['menu']['experiencia_unica'] ?>
-                            </a>
-                        </li>
-
-                        <!-- PAQUETES -->
-                        <li>
-                            <a href="#" class="flex items-center gap-1 hover:text-orange-100 transition">
-                                <?= $header_text['menu']['paquete_peru'] ?>
-                            </a>
-                        </li>
-
                     </ul>
                 </nav>
             </div>

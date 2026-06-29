@@ -1,100 +1,201 @@
 {
     "banner_social": {
-        "horario": "Seg-Sáb 9am-6pm (Pet)",
+        "horario": "Seg-Sáb 9h-18h (PET)",
         "telefono": "+51 982 770 013",
-         "extra_links": {
+        "extra_links": {
             "blog": "Blog",
-            "testimonios": "Testimonies",
+            "testimonios": "Depoimentos",
             "nosotros": "Sobre nós",
             "impacto": "Planeje sua viagem"
         }
     },
     "menu": {
         "destinos": "Destinos",
-        "tour_cusco": "Passeios em Cusco",
-        "machupicchu": "Machu Picchu",
-        "glaciares_cusco": "Glaciares em Cusco",
+        "tour_cusco": "Tours em Cusco",
+        "machupicchu": "Machupicchu",
+        "glaciares_cusco": "Geleiras em Cusco",
         "experiencia_unica": "Experiências Únicas",
         "paquete_peru": "Pacotes Peru"
     },
-
     "mega_menu": {
-        "destinos":{
-            "lima":{
-                "nombre":"Lima",
-                "img":""
+        "destinos": {
+            "lima":           { "nombre": "Lima",          "img": "/images/destinos/lima/lima.webp" },
+            "manu_tambopata": { "nombre": "Manu Tambopata", "img": "/images/destinos/manu/manu.webp" },
+            "puno":           { "nombre": "Puno",           "img": "/images/destinos/puno/puno.webp" },
+            "arequipa":       { "nombre": "Arequipa",       "img": "/images/destinos/arequipa/arequipa.webp" },
+            "huaraz":         { "nombre": "Huaraz",         "img": "/images/destinos/huaraz/huaraz.webp" }
+        },
+        "tour_cusco": {
+            "tradicionales": {
+                "title": "Tours Tradicionais",
+                "links": {
+                    "tour_mistico":              "Tour Místico – Dia Completo",
+                    "city_tour":                 "City Tour Cusco – Meio Dia",
+                    "walking_tour":              "Walking Tour – Meio Dia",
+                    "super_valle_sagrado":       "Tour Super Vale Sagrado – Dia Completo",
+                    "valle_sagrado_tradicional": "Tour Vale Sagrado Tradicional – Dia Completo",
+                    "tour_valle_sur":            "Tour Vale Sul – Dia Completo",
+                    "salineras_moray":           "Tour Salineras e Moray – Meio Dia"
+                }
             },
-            "manu_tambopata":{
-                "nombre":"Manu Tambopata",
-                "img":""
+            "caminata": {
+                "title": "Tours de Trekking",
+                "links": {
+                    "montana_colores":       "Tour Montanha de Cores",
+                    "pallay_poncho":         "Tour Montanha Pallay Poncho",
+                    "laguna_humantay":       "Tour Lagoa Humantay",
+                    "waqrapukara":           "Tour Waqrapukara",
+                    "palcoyo":               "Tour Montanha de Cores de Palcoyo",
+                    "ultimo_puente_inca":    "Tour Última Ponte Inca – Q'eswachaka",
+                    "7_lagunas_ausangate":   "Tour 7 Lagoas Ausangate – Dia Completo",
+                    "programa_salkantay":    "Programa Trekking Salkantay",
+                    "programa_camino_inca":  "Programa Caminho Inca"
+                }
             },
-            "puno":{
-                "nombre":"Puno",
-                "img":""
-            },
-            "arequipa":{
-                "nombre":"Arequipa",
-                "img":""
-            },
-            "huaraz":{
-                "nombre":"Huaraz",
-                "img":""
+            "aventura": {
+                "title": "Tours de Aventura",
+                "links": {
+                    "cuatrimotos_maras_moray":          "Tour de Quadriciclo Maras Moray – Meio Dia",
+                    "cuatrimoto_montana_colores":        "Tour de Quadriciclo Montanha de Cores – Dia Completo",
+                    "cuatrimoto_vinicunca_vallerojo":    "Tour de Quadriciclo Vinicunca e Vale Vermelho – Dia Completo",
+                    "morada_dioses":                     "Tour Morada dos Deuses – 4 a 5 horas"
+                }
             }
         },
-        "paquetes_turisticos": {
-            "col1_title": "Pacotes Clássicos",
-            "col2_title": "Pacotes de Aventura",
-            "col3_title": "Pacotes Premium",
-            "ver_todos": "Ver todos os pacotes →",
-
+        "machupicchu": {
+            "nombre": "Tours Machupicchu",
+            "descripcion": "Descubra a impressionante cidadela inca com experiências únicas criadas para todos os viajantes.",
+            "imgs": {
+                "pr":   "/images/machupicchu/principal.jpg",
+                "sec1": "/images/machupicchu/sec1.webp",
+                "sec2": "/images/machupicchu/sec2.webp"
+            },
             "links": {
-                "machupicchu_valle": "Machu Picchu + Vale Sagrado",
-                "camino_inca_corto": "Trilha Inca Curta",
-                "peru_magico": "Peru Mágico",
-                "peru_prime": "Peru Prime",
-                "cusco_magico": "Cusco Mágico",
-                "peru_premium": "Peru Premium",
-                "peru_mistico": "Peru Místico"
+                "clasico": {
+                    "img":        "/images/machupicchu/clasico/img_header.webp",
+                    "nombre":     "Tour Machu Picchu Clássico",
+                    "descripcion":"Explore a icônica cidadela inca com um guia profissional nesta jornada inesquecível.",
+                    "precio":     "49",
+                    "tiempo":     "Dia Completo",
+                    "dificultad": "Fácil",
+                    "transporte": "Incluído"
+                },
+                "tren_panoramico": {
+                    "img":        "/images/machupicchu/panoramico/img_header.webp",
+                    "nombre":     "Tour Machu Picchu com Trem Panorâmico Observatório",
+                    "descripcion":"Viaje no trem panorâmico cênico e aproveite vistas deslumbrantes do Vale Sagrado.",
+                    "precio":     "19",
+                    "tiempo":     "Dia Completo",
+                    "dificultad": "Fácil",
+                    "transporte": "Incluído"
+                },
+                "tren_hiram": {
+                    "img":        "/images/machupicchu/hiram/img_header.webp",
+                    "nombre":     "Tour Machu Picchu no Trem de Luxo Hiram Bingham",
+                    "descripcion":"Viva a experiência máxima de luxo a bordo do lendário trem Hiram Bingham até Machu Picchu.",
+                    "precio":     "89",
+                    "tiempo":     "Dia Completo",
+                    "dificultad": "Fácil",
+                    "transporte": "Incluído"
+                },
+                "ruta_amazonica": {
+                    "img":        "/images/machupicchu/amazonica/img_header.webp",
+                    "nombre":     "Tour Machu Picchu Rota Amazônica",
+                    "descripcion":"Combine a maravilha de Machu Picchu com as paisagens exuberantes do portal amazônico.",
+                    "precio":     "59",
+                    "tiempo":     "2D/1N",
+                    "dificultad": "Fácil",
+                    "transporte": "Incluído"
+                }
             }
         },
-
-        "paquetes_machupicchu": {
-            "col1_title": "Machu Picchu Clássico",
-            "col2_title": "Com Montanhas",
-            "col3_title": "Experiências Especiais",
-            "ver_todos": "Ver todos os tours para Machu Picchu →",
-
+        "glaciares": {
+            "nombre": "Conheça as Geleiras",
+            "descripcion": "Explore as imponentes massas de gelo eterno nas cordilheiras de Cusco, rotas desafiadoras com paisagens andinas inigualáveis.",
+            "imgs": {
+                "pr":   "/images/glaciares/principal.webp",
+                "sec1": "/images/glaciares/sec1.webp",
+                "sec2": "/images/glaciares/sec2.webp"
+            },
             "links": {
-                "mp_1_dia": "Machu Picchu 1 Dia",
-                "mp_2d_1n": "Machu Picchu 2D / 1N",
-                "tren_panoramico": "Trem Panorâmico + Tour",
-                "huayna_picchu": "Machu Picchu + Huayna Picchu",
-                "montana_mp": "Machu Picchu + Montanha Machu Picchu",
-                "huchuy_picchu": "Machu Picchu + Huchuy Picchu",
-                "mp_valle": "Machu Picchu + Vale Sagrado",
-                "tren_lujo": "Trem de Luxo para Machu Picchu",
-                "mp_premium": "Machu Picchu Full Day Premium"
+                "quelccaya": {
+                    "img":        "/images/glaciares/quelccaya/img_header.webp",
+                    "nombre":     "Tour Geleira Quelccaya",
+                    "descripcion":"Aventure-se até a maior geleira tropical do mundo, uma joia da natureza nos Andes peruanos.",
+                    "precio":     "89",
+                    "tiempo":     "Dia Completo",
+                    "dificultad": "Alta",
+                    "transporte": "Incluído"
+                },
+                "ausangate": {
+                    "img":        "/images/glaciares/ausangate/img_header.webp",
+                    "nombre":     "Tour Geleiras do Ausangate",
+                    "descripcion":"Percorra as majestosas geleiras que cercam o sagrado Apu Ausangate.",
+                    "precio":     "79",
+                    "tiempo":     "Dia Completo",
+                    "dificultad": "Alta",
+                    "transporte": "Incluído"
+                }
             }
         },
-
-        "tours": {
-            "col1_title": "Tours em Cusco",
-            "col2_title": "Tours para Machu Picchu",
-            "col3_title": "Tours Alternativos",
-            "ver_todos": "Ver todos os tours →",
-
+        "experiencias_unicas": {
+            "nombre": "Experiências Únicas",
+            "descripcion": "Conecte-se com a cultura andina através de cerimônias místicas e gastronomia tradicional preparada sob a terra.",
+            "imgs": {
+                "pr":   "/images/experiencias_unicas/principal.webp",
+                "sec1": "/images/experiencias_unicas/sec1.webp",
+                "sec2": "/images/experiencias_unicas/sec2.webp"
+            },
             "links": {
-                "machupicchu": "Machu Picchu",
-                "humantay": "Lagoa Humantay",
-                "rainbow": "Montanha Arco-Íris",
-                "quelccaya": "Glaciar Quelccaya",
-                "qeswachaka": "Ponte Q’eswachaka",
-                "waqrapukara": "Waqrapukara",
-                "mp_full_day": "Machu Picchu Full Day",
-                "mp_montana": "Machu Picchu + Montanha",
-                "mp_huayna": "Trilha Inca Curta"
+                "misticas": {
+                    "img":        "/images/experiencias_unicas/misticas/img_header.webp",
+                    "nombre":     "Experiência Mística – Meio Dia",
+                    "descripcion":"Viva uma jornada de introspecção e conexão espiritual com rituais ancestrais guiados.",
+                    "precio":     "39",
+                    "tiempo":     "Meio Dia",
+                    "dificultad": "Fácil",
+                    "transporte": "Incluído"
+                },
+                "tour_maras_pachamanca": {
+                    "img":        "/images/experiencias_unicas/maras_pachamanca/img_header.webp",
+                    "nombre":     "Tour Maras Moray + Pachamanca Andino – Dia Completo",
+                    "descripcion":"Combine a maravilha dos laboratórios incas com um banquete andino tradicional cozido sob a terra.",
+                    "precio":     "99",
+                    "tiempo":     "Dia Completo",
+                    "dificultad": "Fácil",
+                    "transporte": "Incluído"
+                },
+                "pachamanca_medio_dia": {
+                    "img":        "/images/experiencias_unicas/pachamanca/img_header.webp",
+                    "nombre":     "Pachamanca Andino – Meio Dia",
+                    "descripcion":"Aproveite o processo de preparo e degustação da tradicional Pachamanca ancestral.",
+                    "precio":     "49",
+                    "tiempo":     "Meio Dia",
+                    "dificultad": "Fácil",
+                    "transporte": "Incluído"
+                },
+                "ritual_andino": {
+                    "img":        "/images/experiencias_unicas/ritual_andino/img_header.webp",
+                    "nombre":     "Oferenda Ritual Andina – Meio Dia",
+                    "descripcion":"Participe ativamente de uma autêntica oferenda de gratidão à Pachamama (Mãe Terra).",
+                    "precio":     "35",
+                    "tiempo":     "Meio Dia",
+                    "dificultad": "Fácil",
+                    "transporte": "Incluído"
+                }
+            }
+        },
+        "paquete_peru": {
+            "title": "Pacotes Peru",
+            "links": {
+                "cusco_express":    "Pacote Cusco Express – 3 Dias / 2 Noites",
+                "cusco_imperial":   "Pacote Cusco Imperial – 5 Dias / 4 Noites",
+                "peru_mistico":     "Pacote Peru Místico – 7 Dias / 6 Noites",
+                "peru_maravilloso": "Pacote Peru Maravilhoso – 8 Dias / 7 Noites",
+                "peru_magico":      "Pacote Peru Mágico – 9 Dias / 8 Noites",
+                "peru_milenario":   "Pacote Peru Milenar – 12 Dias / 11 Noites",
+                "peru_360":         "Pacote Peru 360 – 15 Dias / 14 Noites"
             }
         }
     }
-
 }

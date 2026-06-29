@@ -19,7 +19,7 @@
     },
 
 
-    "mega_menu": {
+    "mega_menu":{
         "destinos":{
             "lima":{
                 "nombre":"Lima",
@@ -43,17 +43,40 @@
             }
         },
         "tour_cusco": {
-            "col1_title": "Tours Tradicionales",
-            "col2_title": "Tours Tradicionales",
-            "col3_title": "Tours Tradicionales",
-            "links": {
-                "machupicchu_valle": "Machupicchu + Valle Sagrado",
-                "camino_inca_corto": "Camino Inca Corto",
-                "peru_magico": "Perú Mágico",
-                "peru_prime": "Perú Prime",
-                "cusco_magico": "Cusco Mágico",
-                "peru_premium": "Perú Premium",
-                "peru_mistico": "Perú Místico"
+            "tradicionales": {
+                "title": "Tours Tradicionales",
+                "links": {
+                    "tour_mistico": "Tour Místico _ full day",
+                    "city_tour": "City Tour Cusco Medio Día",
+                    "walking_tour": "Walking Tour _ Medio Dia",
+                    "super_valle_sagrado": "Tour Súper Valle Sagrado – Full Day",
+                    "valle_sagrado_tradicional": "Tour Valle Sagrado Tradicional – Full Day",
+                    "tour_valle_sur": "Tour Valle Sur _ Full Day",
+                    "salineras_moray": "Tour Salineras Y Moray – Medio Día"
+                }
+            },
+            "caminata": {
+                "title": "Tours de Caminata",
+                "links": {
+                    "montana_colores": "Tour Montaña de Colores",
+                    "pallay_poncho": "Tour Montaña Pallay Poncho",
+                    "laguna_humantay": "Tour Laguna Humantay",
+                    "waqrapukara": "Tour Waqrapukara",
+                    "palcoyo": "Tour Montaña de colores de Palcoyo",
+                    "ultimo_puente_inca": "Tour Último Puente Inca – Q’eswachaka",
+                    "7_lagunas_ausangate": "Tour 7 Lagunas Ausangate Full Day",
+                    "programa_salkantay": "Tour Programa Salkantay",
+                    "programa_camino_inca": "Tour Programa Camino Inca"
+                }
+            },
+            "aventura": {
+                "title": "Tours de Aventura",
+                "links": {
+                    "cuatrimotos_maras_moray": "Tour en Cuatrimotos Maras Moray _ medio dia",
+                    "cuatrimoto_montana_colores": "Tour en Cuatrimoto a la montaña de colores Full Day",
+                    "cuatrimoto_vinicunca_vallerojo": "Tour en Cuatrimoto a Vinicunca y Valle Rojo Full Day",
+                    "morada_dioses": "Tour Morada de los Dioses _ 4 a 5 horas"
+                }
             }
         },
 
@@ -68,7 +91,7 @@
             "links":{
 
                 "clasico": {
-                    "img":"",
+                    "img":"/images/machupicchu/clasico/img_header.webp",
                     "nombre":"Tour Machu Picchu Clasico",
                     "descripcion":"Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
                     "precio":"49",
@@ -79,9 +102,10 @@
     
                 },
                 "tren_panoramico": {
+                    "img":"/images/machupicchu/panoramico/img_header.webp",
                     "nombre":"Tour Machu Picchu con tren panoramico vista observatorio",
                     "descripcion":"Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
-                    "precio":"49",
+                    "precio":"19",
                     "tiempo":"Todo el dia",
                     "dificultad":"Facil",
                     "transporte":"Incluido"
@@ -89,9 +113,10 @@
     
                 },
                 "tren_hiram": {
+                    "img":"/images/machupicchu/hiram/img_header.webp",
                     "nombre":"Tour Machu Picchu en tren de lujo Hiram Bingham",
                     "descripcion":"Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
-                    "precio":"49",
+                    "precio":"89",
                     "tiempo":"Todo el dia",
                     "dificultad":"Facil",
                     "transporte":"Incluido"
@@ -99,9 +124,10 @@
     
                 },
                 "ruta_amazonica": {
+                    "img":"/images/machupicchu/amazonica/img_header.webp",
                     "nombre":"Tour Machu Picchu ruta amazonica",
                     "descripcion":"Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
-                    "precio":"49",
+                    "precio":"59",
                     "tiempo":"2D/1N",
                     "dificultad":"Facil",
                     "transporte":"Incluido"
@@ -112,22 +138,92 @@
             
         },
 
-        "tours": {
-            "col1_title": "Tours en Cusco",
-            "col2_title": "Tours a Machu Picchu",
-            "col3_title": "Tours Alternativos",
-            "ver_todos": "Ver todos los tours →",
-
+        "glaciares": {
+            "nombre": "Conoce los glaciares",
+            "descripcion": "Explora las imponentes masas de hielo perpetuo en las cordilleras de Cusco, rutas desafiantes con paisajes altoandinos inigualables.",
+            "imgs": {
+                "pr": "/images/glaciares/principal.webp",
+                "sec1": "/images/glaciares/sec1.webp",
+                "sec2": "/images/glaciares/sec2.webp"
+            },
             "links": {
-                "machupicchu": "Machupicchu",
-                "humantay": "Laguna Humantay",
-                "rainbow": "Montaña de 7 Colores",
-                "quelccaya": "Glaciar Quelccaya",
-                "qeswachaka": "Puente Q’eswachaka",
-                "waqrapukara": "Waqrapukara",
-                "mp_full_day": "Machu Picchu Full Day",
-                "mp_montana": "Machu Picchu + Montaña",
-                "mp_huayna": "Camino inca corto"
+                "quelccaya": {
+                    "img": "/images/glaciares/quelccaya/img_header.webp",
+                    "nombre": "Tour Glaciar Quelccaya",
+                    "descripcion": "Aventúrate al glaciar tropical más extenso del mundo, una joya de la naturaleza en los Andes peruanos.",
+                    "precio": "89",
+                    "tiempo": "Full Day",
+                    "dificultad": "Alta",
+                    "transporte": "Incluido"
+                },
+                "ausangate": {
+                    "img": "/images/glaciares/ausangate/img_header.webp",
+                    "nombre": "Tour Glaciares del Ausangate ",
+                    "descripcion": "Recorre los majestuosos e imponentes glaciares que rodean al sagrado Apu Ausangate.",
+                    "precio": "79",
+                    "tiempo": "Full Day",
+                    "dificultad": "Alta",
+                    "transporte": "Incluido"
+                }
+            }
+        },
+        "experiencias_unicas": {
+            "nombre": "Experiencias Únicas",
+            "descripcion": "Conéctate con la cultura andina a través de ceremonias místicas y delicias gastronómicas tradicionales preparadas bajo tierra.",
+            "imgs": {
+                "pr": "/images/experiencias_unicas/principal.webp",
+                "sec1": "/images/experiencias_unicas/sec1.webp",
+                "sec2": "/images/experiencias_unicas/sec2.webp"
+            },
+            "links": {
+                "misticas": {
+                    "img": "/images/experiencias_unicas/misticas/img_header.webp",
+                    "nombre": "Experiencia místicas medio días",
+                    "descripcion": "Vive una jornada de introspección y conexión espiritual con rituales ancestrales guiados.",
+                    "precio": "39",
+                    "tiempo": "Medio día",
+                    "dificultad": "Fácil",
+                    "transporte": "Incluido"
+                },
+                "tour_maras_pachamanca": {
+                    "img": "/images/experiencias_unicas/maras_pachamanca/img_header.webp",
+                    "nombre": "Tour maras Moray + pachamanca andino full day",
+                    "descripcion": "Combina la maravilla de los laboratorios incas con un banquete tradicional andino cocinado bajo tierra.",
+                    "precio": "99",
+                    "tiempo": "Full Day",
+                    "dificultad": "Fácil",
+                    "transporte": "Incluido"
+                },
+                "pachamanca_medio_dia": {
+                    "img": "/images/experiencias_unicas/pachamanca/img_header.webp",
+                    "nombre": "Pachamanca andino medio dia",
+                    "descripcion": "Disfruta del proceso de preparación y degustación de la tradicional Pachamanca ancestral.",
+                    "precio": "49",
+                    "tiempo": "Medio día",
+                    "dificultad": "Fácil",
+                    "transporte": "Incluido"
+                },
+                "ritual_andino": {
+                    "img": "/images/experiencias_unicas/ritual_andino/img_header.webp",
+                    "nombre": "Ofrenda ritual andina medio dia",
+                    "descripcion": "Participa activamente en una auténtica ofrenda de agradecimiento a la Pachamama (Madre Tierra).",
+                    "precio": "35",
+                    "tiempo": "Medio día",
+                    "dificultad": "Fácil",
+                    "transporte": "Incluido"
+                }
+            }
+        },
+        "paquete_peru": {
+            "title": "Paquetes Perú",
+            "links": {
+                "cusco_express": "Paquete Cusco Express – 3 Días / 2 Noches",
+                "cusco_imperial": "Paquete Cusco Imperial - 5 Días / 4 Noches",
+                "peru_mistico": "Paquete Perú Místico - 7 Días / 6 Noches",
+                "peru_maravilloso": "Paquete Perú Maravilloso 8 Días / 7 Noches",
+                "peru_magico": "Paquete Perú Mágico - 9 Días / 8 Noches",
+                "peru_milenario": "Paquete Perú Milenario - 12 Días / 11 Noches",
+                "peru_360": "Paquete Perú 360 - 15 Días / 14 Noches"
             }
         }
     }
