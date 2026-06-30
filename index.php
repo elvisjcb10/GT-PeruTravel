@@ -6,7 +6,11 @@ $json = file_get_contents(__DIR__ . "/promotions/promotions.json");
 $promotions = json_decode($json, true)['promotions'];
 ?>
 
-
+<!-- section hero / home .jon-->
+ <?php 
+ $hero = file_get_contents(__DIR__ . "/locale/$idioma/hero.json");
+ $hero_text = json_decode($hero, true);
+ ?>
 <!-- SECTION VIDOE .JSON -->
 <?php
 $video_json = file_get_contents(__DIR__ . "/locale/$idioma/video.json");

@@ -2,39 +2,111 @@
 <main>
 
     <!-- ******************** 
-          video promotional 
+          Hero
      *********************** -->
-    <section id="video" class="relative w-full h-[80vh] bg-black overflow-hidden">
-
-        <!-- VIDEO PC -->
+    <!-- ******************** 
+          Hero
+     *********************** -->
+    <section id="video" class="relative w-full h-[82vh] min-h-[650px] bg-black overflow-hidden">
+        <!--- mantener para futuras referncias-->
+        <!-- VIDEO PC 
         <video autoplay muted loop playsinline
             class="hidden md:block absolute top-0 left-0 w-full h-full object-cover">
-            <!-- <source src="<?= $base_url ?>/video/slider-pc.webm" type="video/webm"> -->
+             <source src="<?= $base_url ?>/video/slider-pc.webm" type="video/webm"> 
             <source src="<?= $base_url ?>/video/slider-machupicchu-web-pc-mobil.mp4" type="video/mp4">
         </video>
 
-        <!-- VIDEO MOBILE (más liviano) -->
+        VIDEO MOBILE (más liviano) 
         <video autoplay muted loop playsinline
             class="block md:hidden absolute top-0 left-0 w-full h-full object-cover">
-            <!-- <source src="<?= $base_url ?>/video/slider-mobile.webm" type="video/webm"> -->
+             <source src="<?= $base_url ?>/video/slider-mobile.webm" type="video/webm"> 
             <source src="<?= $base_url ?>/video/slider-machupicchu-web-pc-mobil.mp4" type="video/mp4">
-        </video>
+        </video> -->
 
-        <!-- capa de texto -->
-        <div class="absolute inset-x-0 top-1/2 -translate-y-1/2 bg-black/50 py-6 text-center">
-            <h2 class="text-white text-[2rem] md:text-5xl font-black drop-shadow-lg">
-                <?= html_entity_decode($video_text['titulo']) ?>
-            </h2>
-            <a href="paquete/template-paquete.php?paquete=peru-mistico&lang=<?= htmlspecialchars($idioma) ?>"
-                class="mt-4 inline-flex items-center px-6 py-3 text-[0.9rem] bg-white text-black font-semibold rounded-full transition duration-300 ease-in-out hover:bg-[#000000] hover:text-white shadow-md">
-                <?= html_entity_decode($video_text['subtitulo']) ?>
-            </a>
+        <!-- imagen de fondo -->
+        <img class="absolute top-0 left-0 w-full h-full object-cover"
+             src="<?= $base_url ?>/images/inicio/hero.webp"
+             alt="Machu Picchu - GT Peru Travel">
 
+        <!-- overlays para legibilidad del texto -->
+        <div class="absolute inset-0 bg-gradient-to-r from-black/85 via-black/50 to-black/10"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10"></div>
+
+        <!-- contenido principal -->
+        <div class="relative z-10  h-full flex items-center justify-center">
+            <div class="container-custom  px-20    w-full">
+                <div class="max-w-2xl">
+
+                    <h1 class="text-white text-[2.6rem] sm:text-5xl md:text-6xl lg:text-[4.2rem] font-anton font-black leading-[1.05] drop-shadow-lg">
+                        <?= html_entity_decode($hero_text['titulo']) ?>
+                    </h1>
+
+                    <p class="mt-6 text-white/90 text-base md:text-lg font-poppins font-light max-w-xl">
+                        <?= html_entity_decode($hero_text['subtitulo']) ?>
+                    </p>
+
+                    <div class="mt-8 flex flex-wrap items-center gap-4">
+
+                        <a href="paquete/template-paquete.php?paquete=peru-mistico&lang=<?= htmlspecialchars($idioma) ?>"
+                            class="inline-flex items-center px-7 py-3.5 text-sm md:text-base bg-orange-custom text-white font-bold font-poppins rounded-full transition duration-300 ease-in-out hover:bg-[#c2660a] shadow-md">
+                            <?= html_entity_decode($hero_text['boton1']) ?>
+                        </a>
+
+                        <a href="#experiencias"
+                            class="inline-flex items-center px-7 py-3.5 text-sm md:text-base border-2 border-white/70 text-white font-bold font-poppins rounded-full transition duration-300 ease-in-out hover:bg-white hover:text-black">
+                            <?= html_entity_decode($hero_text['boton2']) ?>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
         </div>
 
-        <!-- imagen encima del video logo tripadvisor -->
-        <div class="absolute bottom-4 left-1/2 -translate-x-[620px] max-w-[1240px] w-full flex justify-start px-4">
-            <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor" class="h-28">
+        <!-- logo tripadvisor -->
+        <div class="absolute z-10 bottom-24 md:bottom-28 right-4 md:right-10 flex justify-end">
+            <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
+        </div>
+
+        <!-- barra de estadísticas -->
+        <div class="absolute bottom-0 left-0 w-full z-10 bg-black/20 backdrop-blur-sm ">
+            <div class="container-custom mx-auto  py-5">
+                <div class="flex flex-wrap justify-center gap-y-4   gap-x-20">
+
+                    <div class="flex items-center  gap-3">
+                        <i class="fa-solid fa-mountain text-orange-custom text-2xl"></i>
+                        <div class="text-left flex flex-col gap-1">
+                            <p class="text-white text-2xl font-anton leading-none"><?= $hero_text['caracteristicas']['destinos'] ?>+</p>
+                            <p class="text-white/70 text-xs font-poppins uppercase tracking-wide">Destinos</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center  gap-3">
+                        <i class="fa-solid fa-people-group text-orange-custom text-2xl"></i>
+                        <div class="text-left flex flex-col gap-1">
+                            <p class="text-white text-2xl font-anton leading-none"><?= $hero_text['caracteristicas']['viajeros'] ?>+</p>
+                            <p class="text-white/70 text-xs font-poppins uppercase tracking-wide">Viajeros</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-star text-orange-custom text-2xl"></i>
+                        <div class="text-left flex flex-col gap-1">
+                            <p class="text-white text-2xl font-anton leading-none"><?= $hero_text['caracteristicas']['calificacion'] ?></p>
+                            <p class="text-white/70 text-xs font-poppins uppercase tracking-wide">Calificación</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center  gap-3">
+                        <i class="fa-solid fa-globe text-orange-custom text-2xl"></i>
+                        <div class="text-left flex flex-col gap-1">
+                            <p class="text-white text-2xl font-anton leading-none"><?= $hero_text['caracteristicas']['años'] ?>+</p>
+                            <p class="text-white/70 text-xs font-poppins uppercase tracking-wide">Años de Exp.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
 
     </section>
