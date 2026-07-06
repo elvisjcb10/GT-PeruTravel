@@ -267,7 +267,7 @@
                             </div>
 
                             <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $t['url'] ?>&lang=<?= $idioma ?>"
-                            class="inline-flex items-center px-7 py-3 text-sm md:text-base bg-orange-custom text-white font-bold font-poppins rounded-lg transition duration-300 ease-in-out hover:bg-[#c2660a] shadow-md">
+                            class="inline-flex items-center px-6 py-2 text-sm md:text-base bg-orange-custom text-white font-bold font-poppins rounded-lg transition duration-300 ease-in-out hover:bg-[#c2660a] shadow-md">
                                 <?= $t['reservar'] ?>
                             </a>
                         </div>
@@ -305,6 +305,15 @@
                         alt="<?= $destinos['cusco']['nombre'] ?>"
                         class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+
+                    <!-- OVERLAY HOVER: VER TOURS -->
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
+                        <span class="inline-flex items-center gap-2 px-6 py-3 border-2 border-white text-white text-sm md:text-base font-bold font-poppins uppercase tracking-wide rounded-full">
+                            Ver Tours
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </span>
+                    </div>
+
                     <div class="absolute bottom-5 left-5 text-white">
                         <h3 class="text-2xl md:text-3xl font-bold font-poppins"><?= $destinos['cusco']['nombre'] ?></h3>
                         <p class="text-white/80 text-sm font-poppins font-light"><?= $destinos['cusco']['descripcion'] ?></p>
@@ -319,6 +328,15 @@
                         alt="<?= $destinos['lima']['nombre'] ?>"
                         class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+
+                    <!-- OVERLAY HOVER: VER TOURS -->
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
+                        <span class="inline-flex items-center gap-2 px-5 py-2.5 border-2 border-white text-white text-sm font-bold font-poppins uppercase tracking-wide rounded-full">
+                            Ver Tours
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </span>
+                    </div>
+
                     <div class="absolute bottom-4 left-4 text-white">
                         <h3 class="text-xl font-bold font-poppins"><?= $destinos['lima']['nombre'] ?></h3>
                         <p class="text-white/80 text-xs font-poppins font-light"><?= $destinos['lima']['descripcion'] ?></p>
@@ -333,6 +351,15 @@
                         alt="<?= $destinos['puno']['nombre'] ?>"
                         class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+
+                    <!-- OVERLAY HOVER: VER TOURS -->
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
+                        <span class="inline-flex items-center gap-2 px-5 py-2.5 border-2 border-white text-white text-sm font-bold font-poppins uppercase tracking-wide rounded-full">
+                            Ver Tours
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </span>
+                    </div>
+
                     <div class="absolute bottom-4 left-4 text-white">
                         <h3 class="text-xl font-bold font-poppins"><?= $destinos['puno']['nombre'] ?></h3>
                         <p class="text-white/80 text-xs font-poppins font-light"><?= $destinos['puno']['descripcion'] ?></p>
@@ -354,6 +381,15 @@
                             alt="<?= $destinos[$key]['nombre'] ?>"
                             class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+
+                        <!-- OVERLAY HOVER: VER TOURS -->
+                        <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
+                            <span class="inline-flex items-center gap-2 px-5 py-2.5 border-2 border-white text-white text-sm font-bold font-poppins uppercase tracking-wide rounded-full">
+                                Ver Tours
+                                <i class="fa-solid fa-arrow-right text-xs"></i>
+                            </span>
+                        </div>
+
                         <div class="absolute bottom-4 left-4 text-white">
                             <h3 class="text-xl font-bold font-poppins"><?= $destinos[$key]['nombre'] ?></h3>
                             <p class="text-white/80 text-xs font-poppins font-light"><?= $destinos[$key]['descripcion'] ?></p>
@@ -486,7 +522,7 @@
         </div>
 
         <!-- GRID: card grande + 2 cards horizontales -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch">
 
             <?php
             $destacada = null;
@@ -503,17 +539,17 @@
             <!-- CARD GRANDE (izquierda) -->
             <?php if ($destacada): ?>
                 <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $destacada['url'] ?>&lang=<?= $idioma ?>"
-                class="block bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                class="flex flex-col bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
 
                     <!-- IMAGEN -->
-                    <div class="h-72 md:h-96 w-full overflow-hidden">
+                    <div class="h-72 md:h-90 w-full overflow-hidden">
                         <img src="<?= $base_url . $destacada['img'] ?>"
                             alt="<?= $destacada['titulo'] ?>"
                             class="w-full h-full object-cover">
                     </div>
 
                     <!-- CONTENIDO -->
-                    <div class="px-5 pt-4">
+                    <div class="px-5 pt-4 flex-1">
                         <p class="text-orange-custom text-sm font-bold font-poppins mb-1">
                             <?= $destacada['duracion'] ?>
                         </p>
@@ -531,9 +567,9 @@
                     <div class="flex items-center justify-between px-5 py-4">
                         <div>
                             <span class="block text-xs text-gray-400 font-poppins leading-none mb-1">desde</span>
-                            <span class="text-2xl font-bold text-orange-custom"><?= $destacada['precio'] ?></span>
+                            <span class="text-3xl font-bold text-orange-custom"><?= $destacada['precio'] ?></span>
                         </div>
-                        <span class="bg-orange-custom hover:bg-[#c2660a] text-white text-sm font-bold px-6 py-2.5 rounded-full transition">
+                        <span class="font-poppins bg-orange-custom hover:bg-[#c2660a] text-white text-sm font-bold px-6 py-2.5 rounded-lg transition">
                             <?= $destacada['reservar'] ?>
                         </span>
                     </div>
@@ -541,12 +577,12 @@
                 </a>
             <?php endif; ?>
 
-            <!-- CARDS HORIZONTALES (derecha, apiladas) -->
-            <div class="flex flex-col gap-6">
+            <!-- CARDS HORIZONTALES (derecha, apiladas, misma altura que la grande) -->
+            <div class="grid grid-rows-2 gap-6 h-full">
 
                 <?php foreach ($secundarias as $e): ?>
                     <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $e['url'] ?>&lang=<?= $idioma ?>"
-                    class="flex bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                    class="flex bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full">
 
                         <!-- IMAGEN -->
                         <div class="w-2/5 flex-shrink-0">
@@ -572,9 +608,9 @@
                             <div class="mt-3 pt-3 border-t border-gray-200 flex items-center justify-between">
                                 <div>
                                     <span class="block text-[0.65rem] text-gray-400 font-poppins leading-none mb-1">desde</span>
-                                    <span class="text-lg font-bold text-orange-custom"><?= $e['precio'] ?></span>
+                                    <span class="text-2xl font-bold text-orange-custom"><?= $e['precio'] ?></span>
                                 </div>
-                                <span class="bg-orange-custom hover:bg-[#c2660a] text-white text-xs font-bold px-4 py-2 rounded-full transition">
+                                <span class="font-poppins bg-orange-custom hover:bg-[#c2660a] text-white text-sm font-bold px-4 py-2 rounded-lg transition">
                                     <?= $e['reservar'] ?>
                                 </span>
                             </div>
@@ -589,14 +625,9 @@
 
     </section>
    
-
-
-    <!-- ******************** 
-        Titulo Paquetes mas populares
-     *********************** -->
     <!-- ******************** 
      Titulo Paquetes mas populares
- *********************** -->
+     *********************** -->
     <section id="paquetes-populares" class="py-8  bg-white">
         <div class="container-custom mx-auto px-20">
 
@@ -623,7 +654,6 @@
         </div>
     </section>
 
-
     <!-- ************************ 
         carrusel paquetes mas populares
     *********************** -->
@@ -639,8 +669,9 @@
 
                 <?php foreach ($promo_packages as $p) : ?>
                     <div class="swiper-slide h-auto">
+
                         <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=<?= $p['url'] ?>&lang=<?= $idioma ?>"
-                        class="block bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full">
+                        class="block bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full">
 
                             <!-- IMAGEN -->
                             <?php
@@ -649,26 +680,21 @@
                                 $imagenes = is_array($p['image']) ? $p['image'] : [$p['image']];
                             }
                             ?>
-                            <div class="relative h-56 w-full overflow-hidden">
+                            <div class="relative h-80 w-full overflow-hidden px-1 pt-1">
 
                                 <?php if (count($imagenes) > 1): ?>
                                     <div class="card-slider relative w-full h-full">
                                         <?php foreach ($imagenes as $i => $img): ?>
                                             <img src="<?= $base_url ?>/images/<?= $img ?>"
-                                                class="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 <?= $i === 0 ? 'opacity-100' : 'opacity-0' ?>">
+                                                class="absolute rounded-lg inset-0 w-full h-full object-cover transition-opacity duration-1000 <?= $i === 0 ? 'opacity-100' : 'opacity-0' ?>">
                                         <?php endforeach; ?>
                                     </div>
                                 <?php else: ?>
                                     <img src="<?= $base_url ?>/images/<?= $imagenes[0] ?>"
-                                        class="absolute inset-0 w-full h-full object-cover">
+                                        class="relative  inset-0 w-full rounded-lg h-full object-cover">
                                 <?php endif; ?>
 
-                                <!-- BADGE PROMO -->
-                                <?php if (isset($p['promo']['active']) && $p['promo']['active']): ?>
-                                    <div class="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg font-poppins">
-                                        <?= $p['promo']['label'] ?>
-                                    </div>
-                                <?php endif; ?>
+                                
                             </div>
 
                             <!-- CONTENIDO -->
@@ -718,14 +744,14 @@
                                     <span class="block text-xs text-gray-400 font-poppins leading-none mb-1">desde</span>
 
                                     <?php if (isset($p['promo']['active']) && $p['promo']['active'] && isset($p['promo']['old_price'])): ?>
-                                        <span class="text-xs line-through text-gray-300 mr-1"><?= $p['promo']['old_price'] ?></span>
+                                        <span class="text-3xl line-through text-gray-300 mr-1"><?= $p['promo']['old_price'] ?></span>
                                     <?php endif; ?>
 
-                                    <span class="text-2xl font-bold text-orange-custom">
+                                    <span class="text-3xl font-bold text-orange-custom">
                                         $<?= $p['price'] ?> <span class="text-sm text-gray-700 font-semibold"><?= $p['moneda'] ?? 'USD' ?></span>
                                     </span>
                                 </div>
-                                <span class="bg-orange-custom hover:bg-[#c2660a] text-white text-xs font-bold px-5 py-2.5 rounded-lg transition uppercase">
+                                <span class="font-poppins bg-orange-custom hover:bg-[#c2660a] text-white text-sm font-bold px-5 py-2.5 rounded-lg transition uppercase">
                                     <?= $p['reservar'] ?>
                                 </span>
                             </div>
@@ -887,6 +913,7 @@
             </div>
         </div>
     </section>
+
     <!-- ******************** 
      videos testimoniales
     *********************** -->
@@ -1003,7 +1030,7 @@
                     class="block bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
 
                         <!-- IMAGEN -->
-                        <div class="h-48 w-full overflow-hidden">
+                        <div class="h-80 w-full overflow-hidden">
                             <img src="<?= $base_url . $post['img'] ?>"
                                 alt="<?= $post['titulo'] ?>"
                                 class="w-full h-full object-cover">

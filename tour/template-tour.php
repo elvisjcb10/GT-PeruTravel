@@ -170,7 +170,7 @@ $global = json_decode(file_get_contents($global_path), true);
 
 
     <?php include('../header.php') ?>
-
+    <?php include('../footer.php') ?>
     <!-- contenido paquete o tour -->
     <main>
 

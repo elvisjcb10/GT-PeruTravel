@@ -1,0 +1,52 @@
+{
+    "tours": [
+        {
+            "title": "Tour Machupicchu Clasico",
+            "description": "Escápate a Cusco y Machu Picchu. La historia inca, la magia de los Andes y la esencia cultural del Perú en un formato compacto.",
+            "price": "65",
+            "duracion": "3Dias / 7Noches",
+            "image": "machupicchu-clasico.webp",
+            "url": "machupicchu-clasico"
+        },
+        {
+            "title": "Valle Sagrado + Machu Picchu",
+            "description": "Explora el Valle Sagrado de los Incas y culmina la experiencia en la majestuosa ciudadela de Machu Picchu.",
+            "price": "389",
+            "duracion": "2Dias / 1Noches",
+            "image": "valle-sagrado-cusco-peru.jpg",
+            "url": "vallesagrado-machupicchu"
+        },
+        {
+            "title": "Camino Inca Corto",
+            "description": "Vive la mística del Camino Inca corto y llega a Machu Picchu por el antiguo sendero inca.",
+            "price": "449",
+            "duracion": "2Dias / 1Noches",
+            "image": "camino-inca-corto-cusco-peru-machupicchu.jpg",
+            "url": "short-inca-trail"
+        },
+        {
+            "title": "Cusco Express",
+            "description": "Escápate a Cusco y Machu Picchu, el destino ideal para descubrir la historia inca, la magia de los Andes y la esencia cultural del Perú.",
+            "price": "345",
+            "duracion": "3Dias / 2Noches",
+            "image": "card-6.jpg",
+            "url": "cusco-express"
+        },
+        {
+            "title": "Montaña de Colores + 7 Lagunas",
+            "description": "Aventura andina hacia la Montaña de Colores y las 7 Lagunas de Ausangate.",
+            "price": "125",
+            "duracion": "2Dias / 1Noches",
+            "image": "montana-colores-cusco-peru-card-01.jpg",
+            "url": "montanacolores-7lagunas"
+        },
+        {
+            "title": "Cusco Magico",
+            "description": "Vive Machu Picchu y el Valle Sagrado en una aventura corta pero inolvidable. Explora templos, montañas y la esencia viva de los Andes.",
+            "price": "579",
+            "duracion": "5Dias / 4Noches",
+            "image": "card-5.jpg",
+            "url": "cusco-magico"
+        }
+    ]
+}

@@ -1,20 +1,20 @@
 {
-    "background_img": "/images/videos/fondo-machupicchu.webp",
+    "background_img": "/images/videos/background.webp",
     "kicker": "Revive La Experiencia",
     "title": "Videos Testimoniales",
     "videos": [
         {
-            "thumbnail": "/images/videos/rio-urubamba.webp",
+            "thumbnail": "/images/videos/1.webp",
             "video_url": "https://youtu.be/b0DtwUq386Y",
             "titulo": "Río Urubamba"
         },
         {
-            "thumbnail": "/images/videos/lago-titicaca.webp",
+            "thumbnail": "/images/videos/1.webp",
             "video_url": "https://www.youtube.com/watch?v=XXXXXXXXX",
             "titulo": "Lago Titicaca"
         },
         {
-            "thumbnail": "/images/videos/plaza-cusco.webp",
+            "thumbnail": "/images/videos/1.webp",
             "video_url": "https://www.youtube.com/watch?v=XXXXXXXXX",
             "titulo": "Plaza de Armas Cusco"
         }
