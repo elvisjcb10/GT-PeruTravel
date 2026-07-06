@@ -1,11 +1,30 @@
 {
-    "title_primary": "Tours em Cusco e Machu Picchu com operador turístico local –",
-    "title_secondary": "GT Peru Travel",
-    "description": "Na GT Peru Travel somos um operador turístico local especializado em experiências autênticas em Cusco e Machu Picchu. Nossa equipe combina conhecimento local, segurança e atendimento personalizado para oferecer viagens inesquecíveis pelos Andes.",
-    "features": [
-        "Guias profissionais",
-        "Grupos pequenos",
-        "Experiência local",
-        "Suporte 24/7"
-    ]
+  "img": "/images/inicio/about.webp",
+  "años": {
+    "titulo": "Anos de Experiência",
+    "numero": "10"
+  },
+  "subtitle": "sobre nós",
+  "title_primary": "Somos a sua",
+  "title_secondary": "Melhor Opção",
+  "description": "GT Peru Travel é uma operadora de turismo com sede em Cusco, registrada no Mincetur. Não somos uma agência de revenda — projetamos e operamos cada tour diretamente.",
+  "features": {
+    "f1": {
+      "title": "Tours Personalizados",
+      "description": "Projetamos experiências únicas adaptadas aos seus interesses e necessidades."
+    },
+    "f2": {
+      "title": "Guias Profissionais",
+      "description": "Nossos guias são locais e altamente capacitados."
+    },
+    "f3": {
+      "title": "Grupos Pequenos",
+      "description": "Oferecemos tours com grupos reduzidos para uma experiência mais personalizada."
+    },
+    "f4": {
+      "title": "Experiência Local",
+      "description": "Conectamos você com a cultura e as tradições locais para enriquecer a sua viagem."
+    }
+  },
+  "boton": "Saber mais"
 }

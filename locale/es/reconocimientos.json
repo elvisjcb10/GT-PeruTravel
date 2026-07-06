@@ -1,0 +1,36 @@
+{
+    "background_img": "/images/reconocimientos/fondo-amazonas.webp",
+    "kicker": "¿Listo Para Partir?",
+    "title_primary": "Reconocimientos",
+    "title_secondary": "Y Licencias",
+    "certificados": [
+        {
+            "img": "/images/reconocimientos/constancia-1.webp",
+            "label": "Operador Oficial"
+        },
+        {
+            "img": "/images/reconocimientos/constancia-2.webp",
+            "label": "Operador Oficial"
+        },
+        {
+            "img": "/images/reconocimientos/constancia-3.webp",
+            "label": "Operador Oficial"
+        },
+        {
+            "img": "/images/reconocimientos/constancia-4.webp",
+            "label": "Operador Oficial"
+        },
+        {
+            "img": "/images/reconocimientos/constancia-5.webp",
+            "label": "Operador Oficial"
+        }
+    ],
+    "pagos": {
+        "texto": "Pagos Seguro Con",
+        "metodos": [
+            { "img": "/images/pagos/visa.png", "nombre": "Visa" },
+            { "img": "/images/pagos/mastercard.png", "nombre": "Mastercard" },
+            { "img": "/images/pagos/amex.png", "nombre": "American Express" }
+        ]
+    }
+}

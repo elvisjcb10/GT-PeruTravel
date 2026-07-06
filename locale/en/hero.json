@@ -1,0 +1,24 @@
+{
+  "titulo": "Discover Peru <span class='text-[#D97706]' >& Its Wonders</span>",
+  "subtitulo": "Authentic tours with expert local guides. From the Inca Trail to unexplored glaciers — experiences that transcend ordinary travel.",
+  "boton1": "View Tours",
+  "boton2": "Explore Packages",
+  "caracteristicas": {
+    "destinos": {
+      "titulo": "Destinations",
+      "numero": "12"
+    },
+    "viajeros": {
+      "titulo": "Travelers",
+      "numero": "12K"
+    },
+    "calificacion": {
+      "titulo": "Rating",
+      "numero": "4.9"
+    },
+    "años": {
+      "titulo": "Years of Exp.",
+      "numero": "10"
+    }
+  }
+}

@@ -2,10 +2,10 @@
     "cards": [{
             "title": "GLACIAR DE QUELCCAYA",
             "subtitle": "FULL DAY – SUYUPARINA, ANDES",
-            "description": "Vive una aventura única visitando el glaciar tropical más grande del mundo en los Andes.",
+            "description": "Embárcate en un viaje inolvidable por los Andes con el Tour Súper Valle Sagrado Full Day, una experiencia diseñada para conectar profundamente con la majestuosidad de la antigua cultura incaic",
             "image": "tours/glaciar.jpg",
             "url": "glaciar-quelccaya-suyuparina",
-            "reservar": "RESERVAR",
+            "reservar": "Reservar",
             "price": "$89",
             "promo": {
                 "active": true,
@@ -16,19 +16,19 @@
         {
             "title": "MACHUPICCHU",
             "subtitle": "DESCUBRE PERU CON MACHUPICCHU",
-            "description": "Una aventura de 1 día.",
+            "description": "Embárcate en un viaje inolvidable por los Andes con el Tour Súper Valle Sagrado Full Day, una experiencia diseñada para conectar profundamente con la majestuosidad de la antigua cultura incaic",
             "image": "tours/machupicchu-card.jpg",
             "url": "machupicchu",
-            "reservar": "RESERVAR",
+            "reservar": "Reservar",
             "price": "$299"
         },
         {
             "title": "LAGUNA HUMANTAY",
             "subtitle": "DESCUBRE ESTE HERMOSO LUGAR",
-            "description": "Tour de día completo desde Cusco.",
+            "description": "Embárcate en un viaje inolvidable por los Andes con el Tour Súper Valle Sagrado Full Day, una experiencia diseñada para conectar profundamente con la majestuosidad de la antigua cultura incaic",
             "image": "tours/laguna-humantay-card.jpg",
             "url": "laguna-humantay",
-            "reservar": "RESERVAR",
+            "reservar": "Reservar",
             "price": "$65",
             "promo": {
                 "active": true,
@@ -39,19 +39,19 @@
         {
             "title": "MONTAÑA DE 7 COLORES",
             "subtitle": "LA MONTAÑA DE LOS COLORES",
-            "description": "Ideal para quienes buscan una caminata.",
+            "description": "Embárcate en un viaje inolvidable por los Andes con el Tour Súper Valle Sagrado Full Day, una experiencia diseñada para conectar profundamente con la majestuosidad de la antigua cultura incaic",
             "image": "tours/montana-de-7-colores-card.jpg",
             "url": "montana-colores",
-            "reservar": "RESERVAR",
+            "reservar": "Reservar",
             "price": "$59"
         },
         {
             "title": "PUENTE INCA QESWACHACA",
             "subtitle": "ULTIMO PUENTE INCA",
-            "description": "Ideal para quienes buscan menos caminata.",
+            "description": "Embárcate en un viaje inolvidable por los Andes con el Tour Súper Valle Sagrado Full Day, una experiencia diseñada para conectar profundamente con la majestuosidad de la antigua cultura incaic",
             "image": "tours/puente-inca-qeswachaka-card.jpg",
             "url": "puente-inca",
-            "reservar": "RESERVAR",
+            "reservar": "Reservar",
             "price": "$60",
             "promo": {
                 "active": true,
@@ -62,25 +62,11 @@
         {
             "title": "WAQRAPUKARA",
             "subtitle": "LUGAR DE LINDOS PAISAJES",
-            "description": "Recorrer lindos paisajes.",
+            "description": "Embárcate en un viaje inolvidable por los Andes con el Tour Súper Valle Sagrado Full Day, una experiencia diseñada para conectar profundamente con la majestuosidad de la antigua cultura incaic",
             "image": "tours/waqrapukara-card.jpg",
             "url": "fortaleza-cuernos",
-            "reservar": "RESERVAR",
+            "reservar": "Reservar",
             "price": "$80"
-        },
-        {
-            "title": "VALLE SAGRADO",
-            "subtitle": "EL LUGAR DE LOS INCAS",
-            "description": "Recorrido por lugares turísticos.",
-            "image": "tours/valle-sagrado-card.jpg",
-            "url": "valle-sagrado",
-            "reservar": "RESERVAR",
-            "price": "$69",
-            "promo": {
-                "active": true,
-                "label": "PROMO VIAJERO",
-                "old_price": "$100"
-            }
         }
     ]
 }

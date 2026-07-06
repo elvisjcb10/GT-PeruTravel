@@ -23,7 +23,29 @@ $about_file = __DIR__ . "/locale/$idioma/about.json";
 $about_json = file_get_contents($about_file);
 $about_text = json_decode($about_json, true);
 ?>
+<!-- SECTION destinos .JSON -->
+<!-- SECTION destinos .JSON -->
+<?php
+$destinos_json = file_get_contents(__DIR__ . "/locale/$idioma/destinos.json");
+$destinos = json_decode($destinos_json, true);
+?>
+<!-- SECTION GLACIARES .JSON -->
+<?php
+$glaciares_json = file_get_contents(__DIR__ . "/locale/$idioma/glaciares.json");
+$glaciares = json_decode($glaciares_json, true);
+?>
+<!-- SECTION TITULO EXPERIENCIAS .JSON -->
+<?php
+$exp_title_json = file_get_contents(__DIR__ . "/locale/$idioma/experiencias_title.json");
+$experiencias_text = json_decode($exp_title_json, true);
+?>
 
+<!-- SECTION EXPERIENCIAS .JSON -->
+<?php
+$exp_json = file_get_contents(__DIR__ . "/locale/$idioma/experiencias.json");
+$exp_all = json_decode($exp_json, true);
+$experiencias = $exp_all["cards"];
+?>
 <!-- SECTION TRIPADVISOR .JSON -->
 <?php
 $trip_file = __DIR__ . "/locale/$idioma/tripadvisor.json";
@@ -49,7 +71,32 @@ $cards_json = file_get_contents(__DIR__ . "/locale/$idioma/packages_cards.json")
 $cards_all = json_decode($cards_json, true);
 $cards = $cards_all["cards"];
 ?>
-
+<!-- SECTION VIDEOS TESTIMONIALES .JSON -->
+<?php
+$videos_json = file_get_contents(__DIR__ . "/locale/$idioma/videos_testimoniales.json");
+$videos_test = json_decode($videos_json, true);
+?>
+<!-- SECTION CTA AVENTURA .JSON -->
+<?php
+$cta_json = file_get_contents(__DIR__ . "/locale/$idioma/cta_aventura.json");
+$cta = json_decode($cta_json, true);
+?>
+<!-- SECTION TITULO BLOG .JSON -->
+<?php
+$blog_title_json = file_get_contents(__DIR__ . "/locale/$idioma/blog_title.json");
+$blog_text = json_decode($blog_title_json, true);
+?>
+<!-- SECTION RECONOCIMIENTOS .JSON -->
+<?php
+$reconocimientos_json = file_get_contents(__DIR__ . "/locale/$idioma/reconocimientos.json");
+$reconocimientos = json_decode($reconocimientos_json, true);
+?>
+<!-- SECTION BLOG POSTS .JSON -->
+<?php
+$blog_posts_json = file_get_contents(__DIR__ . "/locale/$idioma/blog_posts.json");
+$blog_all = json_decode($blog_posts_json, true);
+$blog_posts = $blog_all["posts"];
+?>
 <!-- SECTION TITULO TOURS .JSON -->
 <?php
 $tours_json = file_get_contents(__DIR__ . "/locale/$idioma/tours_title.json");
@@ -198,6 +245,7 @@ $data = json_decode($data_json, true);
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/video-modal.js"></script>
 
     <!-- Mobile menu -->
     <script src="js/mobile-menu.js"></script>

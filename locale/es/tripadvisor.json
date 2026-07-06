@@ -1,65 +1,67 @@
 {
-    "title_primary": "Recomendados",
-    "title_secondary": "en TripAdvisor",
-    "subtitle": "Opiniones reales de viajeros que disfrutaron nuestros tours",
-    "slides": [{
+    "kicker": "Opiniones Reales",
+    "title_primary": "Lo Que Dicen",
+    "title_secondary": "Nuestros Viajeros",
+    "subtitle": "",
+    "slides": [
+        {
             "nombre": "LUCIA C",
             "texto": "Fue una grata experiencia haber sido guiadas por Gt Perú Travel, desde que los contactamos por medio de WhatsApp nos brindaron toda la información necesaria.",
-            "fecha": "SEPTIEMBRE 2025",
+            "fecha": "Septiembre 2025",
             "img": "lucia-c.png"
         },
         {
             "nombre": "INVESTIGACION M",
             "texto": "Exelente departamento excelentes personas amables educadas si regresaría nuevamente no lo pensaría dos veces para irme a su departamento y con su agencia.",
-            "fecha": "SEPTIEMBRE 2025",
+            "fecha": "Septiembre 2025",
             "img": "investigacion-m.png"
         },
         {
             "nombre": "ALMA P",
             "texto": "Excelente servicio. Muy puntuales. Te explican muy bien todo. Muy pacientes. Si lo recomiendo mucho. ",
-            "fecha": "SEPTIEMBRE 2025",
+            "fecha": "Septiembre 2025",
             "img": "alma-p.png"
         },
         {
             "nombre": "GAUDY",
             "texto": "Tuve la experiencia de viajar a Perú con GT Perú travel y lo recomiendo, buenos precios, buena atención, puntuales y amables",
-            "fecha": "SEPTIEMBRE 2025",
+            "fecha": "Septiembre 2025",
             "img": "lucia-c.png"
         },
         {
             "nombre": "MIGUEL G",
             "texto": "Satisfechos desde el dia uno, tours personalizados, atención amena. Super recomendados. ",
-            "fecha": "SEPTIEMBRE 2025",
+            "fecha": "Septiembre 2025",
             "img": "miguel-g.png"
         },
         {
             "nombre": "FRIDHA G",
             "texto": "Pasamos unas vacaciones increíbles con la agencia! Fui con familia y amigos, nos gustaron todos los tours que realizamos.",
-            "fecha": "SEPTIEMBRE 2025",
+            "fecha": "Septiembre 2025",
             "img": "frida-g.png"
         },
         {
             "nombre": "MOBILE677293",
-            "texto": "Fui con parte de mi familia,nuestro guía Euler nos hizo pasar una experiencia única,maravillosa e inolvidable,amo Perú ❤️‍🔥",
-            "fecha": "SEPTIEMBRE 2025",
+            "texto": "Fui con parte de mi familia, nuestro guía Euler nos hizo pasar una experiencia única, maravillosa e inolvidable, amo Perú",
+            "fecha": "Septiembre 2025",
             "img": "mobile.png"
         },
         {
             "nombre": "MARTA D",
             "texto": "Un viaje espectacular con una gran agencia de viajes!",
-            "fecha": "SEPTIEMBRE 2025",
+            "fecha": "Septiembre 2025",
             "img": "marta-d.png"
         },
         {
             "nombre": "JULIETA O",
-            "texto": "Desde el momento en el que llegue me recogieron en el aeropuerto con mucho cariño, los tours súper lindos , el servicio de transporte genial",
-            "fecha": "SEPTIEMBRE 2025",
+            "texto": "Desde el momento en el que llegue me recogieron en el aeropuerto con mucho cariño, los tours súper lindos, el servicio de transporte genial",
+            "fecha": "Septiembre 2025",
             "img": "juleta-o.png"
         },
         {
             "nombre": "NATALIA D",
-            "texto": "Excelente servicio y hospedaje . Todo el viaje salió perfecto gracias a la excelente atención de Euler . ",
-            "fecha": "SEPTIEMBRE 2025",
+            "texto": "Excelente servicio y hospedaje. Todo el viaje salió perfecto gracias a la excelente atención de Euler.",
+            "fecha": "Septiembre 2025",
             "img": "natalia-d.png"
         }
     ]

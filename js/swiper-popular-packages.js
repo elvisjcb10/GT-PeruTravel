@@ -1,17 +1,12 @@
-var swiperPopular = new Swiper(".mySwiperPopular", {
+new Swiper(".mySwiperPopular", {
     slidesPerView: 1,
-    spaceBetween: 20,
-    loop: false,
+    spaceBetween: 24,
     navigation: {
         nextEl: ".custom-next-popular",
         prevEl: ".custom-prev-popular",
     },
     breakpoints: {
-        768: {
-            slidesPerView: 2
-        },
-        1024: {
-            slidesPerView: 3
-        }
-    }
+        640: { slidesPerView: 2 },
+        1024: { slidesPerView: 3 },
+    },
 });

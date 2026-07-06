@@ -1,0 +1,16 @@
+{
+    "background_img": "/images/cta.webp",
+    "kicker": "¿Listo Para Partir?",
+    "title_primary": "Tu Aventura En Los Andes",
+    "title_secondary": "Empieza",
+    "title_highlight": "Hoy",
+    "description": "Tours auténticos con guías locales expertos. Desde el Camino Inca hasta glaciares inexplorados — experiencias que trascienden el viaje ordinario.",
+    "boton_whatsapp": {
+        "texto": "Consultar por WhatsApp",
+        "numero": "51987654321"
+    },
+    "boton_contacto": {
+        "texto": "Ver formulario de contacto",
+        "url": "#contacto"
+    }
+}

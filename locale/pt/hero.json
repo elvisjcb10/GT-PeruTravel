@@ -1,0 +1,24 @@
+{
+  "titulo": "Descubra o Peru <span class='text-[#D97706]' >e suas Maravilhas</span>",
+  "subtitulo": "Tours autênticos com guias locais especializados. Do Caminho Inca a geleiras inexploradas — experiências que transcendem a viagem comum.",
+  "boton1": "Ver Tours",
+  "boton2": "Explorar Pacotes",
+  "caracteristicas": {
+    "destinos": {
+      "titulo": "Destinos",
+      "numero": "12"
+    },
+    "viajeros": {
+      "titulo": "Viajantes",
+      "numero": "12K"
+    },
+    "calificacion": {
+      "titulo": "Avaliação",
+      "numero": "4.9"
+    },
+    "años": {
+      "titulo": "Anos de Exp.",
+      "numero": "10"
+    }
+  }
+}

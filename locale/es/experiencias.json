@@ -1,0 +1,34 @@
+{
+    "cards": [
+        {
+            "img": "/images/experiencias_unicas/principal.webp",
+            "duracion": "3Dias / 7Noches",
+            "titulo": "Tour Machupicchu Clasico",
+            "descripcion": "Escápate a Cusco y Machu Picchu. La historia inca, la magia de los Andes y la esencia cultural del Perú en un formato compacto.",
+            "precio": "$65",
+            "reservar": "Reservar",
+            "url": "machupicchu-clasico",
+            "destacado": true
+        },
+        {
+            "img": "/images/experiencias_unicas/sec2.webp",
+            "duracion": "3Dias / 7Noches",
+            "titulo": "Tour Machupicchu",
+            "descripcion": "Escápate a Cusco y Machu Picchu. La historia inca, la magia de los Andes y la esencia cultural del Perú en un formato compacto.",
+            "precio": "$65",
+            "reservar": "Reservar",
+            "url": "machupicchu-moray",
+            "destacado": false
+        },
+        {
+            "img": "/images/experiencias_unicas/sec2.webp",
+            "duracion": "3Dias / 7Noches",
+            "titulo": "Tour Machupicchu",
+            "descripcion": "Escápate a Cusco y Machu Picchu. La historia inca, la magia de los Andes y la esencia cultural del Perú en un formato compacto.",
+            "precio": "$65",
+            "reservar": "Reservar",
+            "url": "machupicchu-2",
+            "destacado": false
+        }
+    ]
+}
