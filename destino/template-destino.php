@@ -26,7 +26,9 @@ if (!file_exists($tours_destino_file)) {
 
 $tours_destino_json = file_get_contents($tours_destino_file);
 $tours_destino = json_decode($tours_destino_json, true)['tours'];
-
+// ⬇️ AGREGAR ESTO: cargar el footer, igual que en index.php
+$footer_json = file_get_contents(__DIR__ . "/../locale/$idioma/footer.json");
+$footer = json_decode($footer_json, true);
 $base_url = "..";
 ?>
 <!DOCTYPE html>
@@ -139,7 +141,7 @@ $base_url = "..";
         </div>
     </section>
 
-     <?php include('../footer.php') ?>
+     <?php include(__DIR__ . '/../footer.php') ?>
 
 </body>
 </html>
