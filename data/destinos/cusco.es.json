@@ -1,4 +1,40 @@
 {
+    "background": "/images/destinos/cusco/cusco.webp",
+    "badge": "Destino",
+    "titulo": "Cusco",
+    "descripcion": "Guías de viaje, consejos prácticos y experiencias auténticas desde los Andes del Perú. Todo lo que necesitas saber antes de partir.",
+    "stats": [
+        {
+            "icono": "fa-mountain",
+            "numero": "150+",
+            "titulo": "Destinos"
+        },
+        {
+            "icono": "fa-people-group",
+            "numero": "12K+",
+            "titulo": "Viajeros"
+        },
+        {
+            "icono": "fa-star",
+            "numero": "4.9",
+            "titulo": "Calificación"
+        },
+        {
+            "icono": "fa-globe",
+            "numero": "10+",
+            "titulo": "Años de Exp."
+        }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.7",
+        "texto": "+200 Viajeros"
+    },
+    "filtros": [
+        { "id": "todos", "label": "Todos" },
+        { "id": "tradicionales", "label": "Tradicionales" },
+        { "id": "aventura", "label": "Aventura" },
+        { "id": "caminata", "label": "Caminata" }
+    ],
     "tours": [
         {
             "title": "Tour Machupicchu Clasico",
@@ -6,7 +42,8 @@
             "price": "65",
             "duracion": "3Dias / 7Noches",
             "image": "machupicchu-clasico.webp",
-            "url": "machupicchu-clasico"
+            "url": "machupicchu-clasico",
+            "categoria": "tradicionales"
         },
         {
             "title": "Valle Sagrado + Machu Picchu",
@@ -14,7 +51,8 @@
             "price": "389",
             "duracion": "2Dias / 1Noches",
             "image": "valle-sagrado-cusco-peru.jpg",
-            "url": "vallesagrado-machupicchu"
+            "url": "vallesagrado-machupicchu",
+            "categoria": "tradicionales"
         },
         {
             "title": "Camino Inca Corto",
@@ -22,7 +60,8 @@
             "price": "449",
             "duracion": "2Dias / 1Noches",
             "image": "camino-inca-corto-cusco-peru-machupicchu.jpg",
-            "url": "short-inca-trail"
+            "url": "short-inca-trail",
+            "categoria": "caminata"
         },
         {
             "title": "Cusco Express",
@@ -30,7 +69,8 @@
             "price": "345",
             "duracion": "3Dias / 2Noches",
             "image": "card-6.jpg",
-            "url": "cusco-express"
+            "url": "cusco-express",
+            "categoria": "tradicionales"
         },
         {
             "title": "Montaña de Colores + 7 Lagunas",
@@ -38,7 +78,8 @@
             "price": "125",
             "duracion": "2Dias / 1Noches",
             "image": "montana-colores-cusco-peru-card-01.jpg",
-            "url": "montanacolores-7lagunas"
+            "url": "montanacolores-7lagunas",
+            "categoria": "aventura"
         },
         {
             "title": "Cusco Magico",
@@ -46,7 +87,8 @@
             "price": "579",
             "duracion": "5Dias / 4Noches",
             "image": "card-5.jpg",
-            "url": "cusco-magico"
+            "url": "cusco-magico",
+            "categoria": "aventura"
         }
     ]
 }
