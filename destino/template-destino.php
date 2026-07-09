@@ -1,6 +1,8 @@
+
 <?php
 $idioma = $_GET['lang'] ?? 'es';
 $destino_slug = $_GET['destino'] ?? null;
+
 
 if (!$destino_slug) {
     die("Destino no especificado");
@@ -19,7 +21,10 @@ $footer_json = file_get_contents(__DIR__ . "/../locale/$idioma/footer.json");
 $footer = json_decode($footer_json, true);
 
 $base_url = "..";
+$hero = file_get_contents(__DIR__ . "/../locale/$idioma/hero.json");
+$hero_text = json_decode($hero, true);
 ?>
+
 <!DOCTYPE html>
 <html lang="<?= $idioma ?>">
 <head>
@@ -40,7 +45,7 @@ $base_url = "..";
 
 
     <!-- faviicon -->
-    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../assets/favicon/favicon.ico" type="image/x-icon">
 
     <!-- Whatssap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -75,7 +80,7 @@ $base_url = "..";
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
 
     <!-- styles -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <!-- COMPILADO PARA CARGAR VANDERAS PARA TELEFONO -->
     <!-- INICIALIZACION DEL IMPUT DE TELEFONO -->
@@ -97,53 +102,79 @@ $base_url = "..";
     <!-- ******************** 
          HERO DEL DESTINO
      *********************** -->
-    <section class="relative w-full min-h-[550px] bg-black overflow-hidden">
+    <section class="relative w-full h-[82vh] min-h-[650px] bg-black overflow-hidden">
 
         <img src="<?= $base_url . $destino['background'] ?>"
              alt="<?= $destino['titulo'] ?>"
              class="absolute inset-0 w-full h-full object-cover">
-
-        <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/20"></div>
+        
+        <!-- overlay -->
+        <div class="absolute inset-0 bg-gradient-to-r from-black/85 via-black/50 to-black/10"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10"></div>
 
         <!-- CONTENIDO -->
-        <div class="relative z-10 container-custom mx-auto px-4 pt-24 pb-16">
+        <div class="relative z-10  h-full flex items-center justify-center">
+            <div class="container-custom  px-20    w-full">
+                <div class="max-w-2xl">
+                    <!-- BADGE DESTI¿NO -->
+                    <span class="inline-flex items-center gap-2 bg-orange-500/50 text-white text-xs font-bold font-poppins uppercase tracking-wide px-4 py-1.5 rounded-md mb-4">
+                        <?= $destino['badge'] ?? 'Destino' ?>
+                    </span>
+                    <h1 class="text-white text-[2.6rem] sm:text-5xl md:text-6xl lg:text-[4.2rem] font-anton font-black leading-[1.05] drop-shadow-lg">
+                        <?= $destino['titulo'] ?>
+                    </h1>
 
-            <span class="inline-block bg-orange-custom/90 text-white text-xs font-bold font-poppins uppercase tracking-wide px-4 py-1.5 rounded-full mb-4">
-                <?= $destino['badge'] ?>
-            </span>
-
-            <h1 class="text-white text-5xl md:text-6xl font-anton mb-4">
-                <?= $destino['titulo'] ?>
-            </h1>
-
-            <p class="text-white/85 font-poppins font-light text-base md:text-lg max-w-xl">
-                <?= $destino['descripcion'] ?>
-            </p>
-
+                    <p class="mt-6 text-white/90 text-base md:text-lg font-poppins font-light max-w-xl">
+                        <?= $destino['descripcion'] ?>
+                    </p>
+                </div>
+            </div>
         </div>
+        <!-- logo tripadvisor -->
+        <div class="absolute z-10 bottom-24 md:bottom-28 right-4 md:right-10 flex justify-end">
+            <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
+            <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
+            <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
+            <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
+        </div>
+        <!-- barra de estadísticas -->
+        <div class="absolute bottom-0 left-0 w-full z-10 bg-black/20 backdrop-blur-sm ">
+            <div class="container-custom mx-auto  py-5">
+                <div class="flex flex-wrap justify-center gap-y-4   gap-x-20">
 
-        <!-- BARRA DE ESTADISTICAS -->
-        <div class="absolute bottom-0 left-0 w-full z-10 bg-black/30 backdrop-blur-sm">
-            <div class="container-custom mx-auto px-4 py-5 relative">
-
-                <div class="flex flex-wrap justify-center gap-x-16 gap-y-4">
-                    <?php foreach ($destino['stats'] as $stat): ?>
-                        <div class="flex items-center gap-3">
-                            <i class="fa-solid <?= $stat['icono'] ?> text-orange-custom text-2xl"></i>
-                            <div class="text-left flex flex-col gap-1">
-                                <p class="text-white text-2xl font-anton leading-none"><?= $stat['numero'] ?></p>
-                                <p class="text-white/70 text-xs font-poppins uppercase tracking-wide"><?= $stat['titulo'] ?></p>
-                            </div>
+                    <div class="flex items-center  gap-3">
+                        <i class="fa-solid fa-mountain text-orange-custom text-2xl"></i>
+                        <div class="text-left flex flex-col gap-1">
+                            <p class="text-white text-2xl font-anton leading-none"><?= $hero_text['caracteristicas']['destinos']['numero'] ?>+</p>
+                            <p class="text-white/70 text-xs font-poppins uppercase tracking-wide"><?= $hero_text['caracteristicas']['destinos']['titulo'] ?></p>
                         </div>
-                    <?php endforeach; ?>
-                </div>
+                    </div>
 
-                <!-- BADGE FLOTANTE -->
-                <div class="hidden md:flex absolute right-4 top-1/2 -translate-y-1/2 items-center gap-2 bg-orange-custom text-white text-sm font-bold font-poppins px-4 py-2 rounded-full shadow-lg">
-                    <i class="fa-solid fa-star"></i>
-                    <?= $destino['badge_flotante']['calificacion'] ?> <?= $destino['badge_flotante']['texto'] ?>
-                </div>
+                    <div class="flex items-center  gap-3">
+                        <i class="fa-solid fa-people-group text-orange-custom text-2xl"></i>
+                        <div class="text-left flex flex-col gap-1">
+                            <p class="text-white text-2xl font-anton leading-none"><?= $hero_text['caracteristicas']['viajeros']['numero'] ?>+</p>
+                            <p class="text-white/70 text-xs font-poppins uppercase tracking-wide"><?= $hero_text['caracteristicas']['viajeros']['titulo'] ?></p>
+                        </div>
+                    </div>
 
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-star text-orange-custom text-2xl"></i>
+                        <div class="text-left flex flex-col gap-1">
+                            <p class="text-white text-2xl font-anton leading-none"><?= $hero_text['caracteristicas']['calificacion']['numero'] ?></p>
+                            <p class="text-white/70 text-xs font-poppins uppercase tracking-wide"><?= $hero_text['caracteristicas']['calificacion']['titulo'] ?></p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center  gap-3">
+                        <i class="fa-solid fa-globe text-orange-custom text-2xl"></i>
+                        <div class="text-left flex flex-col gap-1">
+                            <p class="text-white text-2xl font-anton leading-none"><?= $hero_text['caracteristicas']['años']['numero'] ?>+</p>
+                            <p class="text-white/70 text-xs font-poppins uppercase tracking-wide"><?= $hero_text['caracteristicas']['años']['titulo'] ?></p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
 
@@ -152,7 +183,7 @@ $base_url = "..";
     <!-- ******************** 
          FILTROS + GRID DE TOURS
      *********************** -->
-    <section class="container-custom mx-auto px-4 py-14">
+    <section class="container-custom mx-auto px-20 py-14">
 
         <!-- TABS DE FILTRO -->
         <div class="flex flex-wrap justify-center gap-3 mb-10">
@@ -172,41 +203,59 @@ $base_url = "..";
         <div id="grid-tours" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
             <?php foreach ($destino['tours'] as $t): ?>
-                <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $t['url'] ?>&lang=<?= $idioma ?>"
-                   class="tour-card block bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300"
-                   data-categoria="<?= $t['categoria'] ?>">
+                <div class="tour-card bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300"
+                    data-categoria="<?= $t['categoria'] ?>">
 
-                    <div class="h-56 w-full overflow-hidden">
-                        <img src="<?= $base_url ?>/images/<?= $t['image'] ?>"
-                             alt="<?= $t['title'] ?>"
-                             class="w-full h-full object-cover">
-                    </div>
+                    <!-- Link envolvente -->
+                    <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $t['url'] ?>&lang=<?= $idioma ?>" class="block">
 
-                    <div class="px-4 pt-4">
-                        <p class="text-orange-custom text-sm font-bold font-poppins mb-1">
-                            <?= $t['duracion'] ?>
-                        </p>
-                        <h3 class="text-base font-bold font-poppins text-gray-900 leading-snug mb-1">
-                            <?= $t['title'] ?>
-                        </h3>
-                        <p class="text-gray-500 text-sm font-poppins font-light leading-snug">
-                            <?= $t['description'] ?>
-                        </p>
-                    </div>
-
-                    <div class="mt-4 border-t border-gray-200"></div>
-
-                    <div class="flex items-center justify-between px-4 py-4">
-                        <div>
-                            <span class="block text-xs text-gray-400 font-poppins leading-none mb-1">desde</span>
-                            <span class="text-2xl font-bold text-orange-custom">$<?= $t['price'] ?></span>
+                        <!-- IMAGEN -->
+                        <div class="relative h-72 md:h-80 w-full overflow-hidden px-1 pt-1">
+                            <img src="<?= $base_url ?>/images/<?= $t['image'] ?>"
+                                alt="<?= $t['title'] ?>"
+                                class="w-full h-full object-cover rounded-lg shadow-md">
                         </div>
-                        <span class="bg-orange-custom hover:bg-[#c2660a] text-white text-sm font-bold px-6 py-2.5 rounded-full transition">
-                            Reservar
-                        </span>
+
+                        <!-- CONTENIDO -->
+                        <div class="p-4">
+
+                            <!-- DURACION -->
+                            <p class="text-orange-custom text-xs font-bold font-poppins mb-1">
+                                <?= $t['duracion'] ?>
+                            </p>
+
+                            <!-- TITULO -->
+                            <h3 class="text-base md:text-lg font-bold font-poppins text-gray-900 leading-snug">
+                                <?= $t['title'] ?>
+                            </h3>
+
+                            <!-- DESCRIPCION -->
+                            <p class="text-gray-500 text-xs md:text-sm font-poppins font-light mt-1 line-clamp-3">
+                                <?= $t['description'] ?>
+                            </p>
+
+                        </div>
+                    </a>
+
+                    <!-- linea divisoria -->
+                    <div class="px-4">
+                        <hr class="border-t border-gray-200">
                     </div>
 
-                </a>
+                    <!-- PRECIO + BOTON -->
+                    <div class="flex items-center justify-between p-4 pb-4">
+                        <div>
+                            <span class="block text-[0.65rem] text-gray-400 font-poppins leading-none">desde</span>
+                            <span class="text-3xl font-bold text-orange-custom">$<?= $t['price'] ?></span>
+                        </div>
+
+                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $t['url'] ?>&lang=<?= $idioma ?>"
+                        class="inline-flex items-center px-6 py-2 text-sm md:text-base bg-orange-custom text-white font-bold font-poppins rounded-lg transition duration-300 ease-in-out hover:bg-[#c2660a] shadow-md">
+                            Reservar
+                        </a>
+                    </div>
+
+                </div>
             <?php endforeach; ?>
 
         </div>
@@ -216,6 +265,7 @@ $base_url = "..";
     <?php include(__DIR__ . '/../footer.php') ?>
 
     <script src="<?= $base_url ?>/js/filtro-tours.js"></script>
-
+    <script src="../js/mobile-menu.js"></script>
+    <script src="../js/mega-menu.js"></script> 
 </body>
 </html>
