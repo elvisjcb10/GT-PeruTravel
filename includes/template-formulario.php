@@ -65,7 +65,7 @@ $form = json_decode(file_get_contents($form_path), true);
 
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-    <button class="bg-[#ff9300] hover:bg-[#ff7a00] text-white w-full mt-5 py-3 rounded-md font-bold transition">
+    <button class="bg-[#ff9300] hover:bg-[#ff7a00] text-white w-full mt-5 py-3 rounded-md  font-poppins font-bold transition">
         <?= $form['boton'] ?>
     </button>
 

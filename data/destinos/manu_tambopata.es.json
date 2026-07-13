@@ -1,0 +1,60 @@
+{
+    "background": "/images/destinos/manu/manu.webp",
+    "badge": "Destino",
+    "titulo": "Tours en Manu Tambopata",
+    "descripcion": "Adéntrate en la selva amazónica peruana, una de las reservas de biosfera con mayor biodiversidad del planeta.",
+    "stats": [
+        { "icono": "fa-mountain", "numero": "15+", "titulo": "Destinos" },
+        { "icono": "fa-people-group", "numero": "4K+", "titulo": "Viajeros" },
+        { "icono": "fa-star", "numero": "4.9", "titulo": "Calificación" },
+        { "icono": "fa-globe", "numero": "10+", "titulo": "Años de Exp." }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.8",
+        "texto": "+90 Viajeros"
+    },
+    "filtros": [
+        { "id": "todos", "label": "Todos" },
+        { "id": "tradicionales", "label": "Tradicionales" },
+        { "id": "aventura", "label": "Aventura" },
+        { "id": "caminata", "label": "Caminata" }
+    ],
+    "tours": [
+        {
+            "title": "Tambopata 3 Días",
+            "description": "Explora la Reserva Nacional Tambopata, observa fauna silvestre y visita la Collpa de Guacamayos.",
+            "price": "280",
+            "duracion": "3Dias / 2Noches",
+            "image": "tambopata-3dias.jpg",
+            "url": "tambopata-3dias",
+            "categoria": "aventura"
+        },
+        {
+            "title": "Manu National Park 4 Días",
+            "description": "Adéntrate en el Parque Nacional del Manu, una de las áreas protegidas con mayor biodiversidad del mundo.",
+            "price": "450",
+            "duracion": "4Dias / 3Noches",
+            "image": "manu-4dias.jpg",
+            "url": "manu-4dias",
+            "categoria": "aventura"
+        },
+        {
+            "title": "Lago Sandoval",
+            "description": "Navega en canoa por el Lago Sandoval y observa lobos de río, monos y aves tropicales.",
+            "price": "65",
+            "duracion": "1Dia / 0Noches",
+            "image": "lago-sandoval.jpg",
+            "url": "lago-sandoval",
+            "categoria": "tradicionales"
+        },
+        {
+            "title": "Canopy y Torre de Observación",
+            "description": "Vive la adrenalina del canopy sobre el dosel amazónico y observa la selva desde una torre de 40 metros.",
+            "price": "70",
+            "duracion": "1Dia / 0Noches",
+            "image": "canopy-amazonico.jpg",
+            "url": "canopy-amazonico",
+            "categoria": "caminata"
+        }
+    ]
+}

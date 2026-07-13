@@ -221,7 +221,7 @@ require_once __DIR__ . "/config/environment.php";
                             <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h6m0 0v6m0-6L10 16"/>
                         </svg>
                     </a>
-                    <a href="https://www.gtperutravel.com/recomendaciones"
+                    <a href="<?= $base_url ?>/nosotros.php?lang=<?= $idioma ?>"
                     target="_blank"
                     class="group flex items-center gap-1 hover:text-[#ff9300] transition duration-300">
                         <?= $header_text['banner_social']['extra_links']['nosotros'] ?>
@@ -235,8 +235,7 @@ require_once __DIR__ . "/config/environment.php";
                             <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h6m0 0v6m0-6L10 16"/>
                         </svg>
                     </a>
-                    <a href="https://wa.me/<?= $footer['whatsapp'] ?>"
-                    target="_blank"
+                    <a href="<?= $base_url ?>/contacto.php?lang=<?= $idioma ?>"
                     class="inline-flex items-center gap-2 bg-[#ff9300] hover:bg-[#ff7a00]
                             hover:shadow-lg hover:-translate-y-0.5
                             transition duration-300 text-white px-5 py-2.5 rounded-lg font-semibold group">
@@ -315,7 +314,7 @@ require_once __DIR__ . "/config/environment.php";
                                     <div class="grid grid-cols-5 gap-6">
 
                                         <!-- lima-->
-                                        <a href="#" class="group block rounded-xl overflow-hidden shadow-md">
+                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=lima&lang=<?= $idioma ?>" class="group block rounded-xl overflow-hidden shadow-md">
                                             <div class="relative h-48">
                                                 <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['lima']['img'] ?>"
                                                     alt="Lima"
@@ -329,7 +328,7 @@ require_once __DIR__ . "/config/environment.php";
                                             </div>
                                         </a>
                                         <!-- Manu -->
-                                        <a href="#" class="group block rounded-xl overflow-hidden shadow-md">
+                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=manu_tambopata&lang=<?= $idioma ?>" class="group block rounded-xl overflow-hidden shadow-md">
                                             <div class="relative h-48">
                                                 <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['manu_tambopata']['img'] ?>"
                                                     alt="Lima"
@@ -342,7 +341,7 @@ require_once __DIR__ . "/config/environment.php";
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="#" class="group block rounded-xl overflow-hidden shadow-md">
+                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=arequipa&lang=<?= $idioma ?>"  class="group block rounded-xl overflow-hidden shadow-md">
                                             <div class="relative h-48">
                                                 <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['arequipa']['img'] ?>"
                                                     alt="Lima"
@@ -355,7 +354,7 @@ require_once __DIR__ . "/config/environment.php";
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="#" class="group block rounded-xl overflow-hidden shadow-md">
+                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=puno&lang=<?= $idioma ?>"  class="group block rounded-xl overflow-hidden shadow-md">
                                             <div class="relative h-48">
                                                 <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['puno']['img'] ?>"
                                                     alt="Lima"
@@ -368,7 +367,7 @@ require_once __DIR__ . "/config/environment.php";
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="#" class="group block rounded-xl overflow-hidden shadow-md">
+                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=huaraz&lang=<?= $idioma ?>" class="group block rounded-xl overflow-hidden shadow-md">
                                             <div class="relative h-48">
                                                 <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['huaraz']['img'] ?>"
                                                     alt="Lima"
@@ -995,7 +994,6 @@ require_once __DIR__ . "/config/environment.php";
                                 </div>
                             </div>
                         </li>
-                        <!-- PAQUETES -->
                         <!-- PAQUETES PERU -->
                         <li class="group">
                             <a href="#" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">

@@ -1,0 +1,138 @@
+{
+    "hero": {
+        "background": "/images/nosotros/equipo-hero.webp",
+        "kicker": "Agencia Autorizada · Cusco, Perú",
+        "title_primary": "100% Tour",
+        "title_highlight": "Local",
+        "title_secondary": "desde Cusco",
+        "description": "Somos una agencia de turismo autorizada con sede en Cusco, Perú. Con un equipo de profesionales apasionados, nuestro objetivo es que vivas el Perú de una manera auténtica e inolvidable.",
+        "trip_awards": [
+            { "img": "/images/trip-awards-2025.png", "alt": "Tripadvisor Travelers Choice Awards 2025" },
+            { "img": "/images/trip-awards-2026.png", "alt": "Tripadvisor Travelers Choice 2026" }
+        ],
+        "stats": [
+            { "icono": "fa-mountain", "numero": "150+", "titulo": "Destinos" },
+            { "icono": "fa-people-group", "numero": "12K+", "titulo": "Viajeros" },
+            { "icono": "fa-star", "numero": "4.9", "titulo": "Calificación" },
+            { "icono": "fa-globe", "numero": "10+", "titulo": "Años de Exp." }
+        ],
+        "badge_flotante": {
+            "calificacion": "4.7",
+            "texto": "+200 Viajeros"
+        }
+    },
+
+    "quienes_somos": {
+        "img": "/images/nosotros/equipo-oficina.webp",
+        "badge_img": "Tour 100% Local",
+        "kicker": "Quiénes Somos",
+        "title_primary": "Agencia",
+        "title_secondary": "Autorizada",
+        "title_tertiary": "con sede en Cusco",
+        "description_1": "Somos una agencia de turismo autorizada con sede en Cusco, Perú, con un equipo de profesionales en turismo, nuestro principal objetivo es satisfacer plenamente a los visitantes que deciden descubrir esta región del mundo.",
+        "description_2": "Operamos principalmente en la zona de Cusco, donde ofrecemos una amplia variedad de tours: desde tours convencionales hasta expediciones a la selva amazónica peruana y el Salkantay Trek. Ofrecemos la visita al santuario de Machu Picchu y un tour por la ciudad de Cusco, donde podrá deleitarse con las maravillosas fiestas, culturas y paisajes naturales de esta región.",
+        "stats": [
+            { "numero": "15+", "titulo": "Años de Exp." },
+            { "numero": "12K+", "titulo": "Viajeros" },
+            { "numero": "4.9★", "titulo": "Calificación" },
+            { "numero": "100%", "titulo": "Local" }
+        ]
+    },
+
+    "equipo": {
+        "kicker": "Nuestro Equipo",
+        "title_primary": "Profesionales",
+        "title_secondary": "Apasionados",
+        "description": "Comprometidos con tu experiencia perfecta. Cada asesor está verificado y disponible por WhatsApp.",
+        "asesores": [
+            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/equipo/asesor-1.webp", "whatsapp": "51987370201" },
+            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/equipo/asesor-2.webp", "whatsapp": "51987370202" },
+            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/equipo/asesor-3.webp", "whatsapp": "51987370203" },
+            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/equipo/asesor-4.webp", "whatsapp": "51987370204" },
+            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/equipo/asesor-5.webp", "whatsapp": "51987370205" }
+        ]
+    },
+
+    "ventajas": {
+        "kicker": "Nuestras Ventajas",
+        "title_primary": "¿Por qué elegir",
+        "title_secondary": "PerúTravel?",
+        "description": "Compromiso, calidad y experiencia en cada aventura que emprendemos juntos.",
+        "items": [
+            { "icono": "fa-flag", "titulo": "100% Local", "descripcion": "Guías nativos expertos que conocen cada rincón y secreto de nuestra tierra andina." },
+            { "icono": "fa-route", "titulo": "Tours Personalizados", "descripcion": "Adaptamos cada experiencia a las necesidades y preferencias específicas de viaje." },
+            { "icono": "fa-graduation-cap", "titulo": "Profesionales", "descripcion": "Equipo especializado con certificaciones internacionales y más de 10 años de experiencia." },
+            { "icono": "fa-headset", "titulo": "Soporte 24/7", "descripcion": "Acompañamiento completo antes, durante y después de tu viaje por WhatsApp." },
+            { "icono": "fa-shield-halved", "titulo": "Operador Seguro", "descripcion": "Registrados ante MINCETUR y DIRCETUR. Tu seguridad y tranquilidad es nuestra prioridad." },
+            { "icono": "fa-language", "titulo": "Multilingüe", "descripcion": "Atención y guías en español, inglés y portugués para viajeros de todo el mundo." },
+            { "icono": "fa-leaf", "titulo": "Turismo Sostenible", "descripcion": "Practicamos un turismo que cuida el medio ambiente y apoya a las comunidades locales." }
+        ]
+    },
+
+    "historia": {
+        "background": "/images/nosotros/rieles-tren.webp",
+        "kicker": "Nuestra Historia",
+        "title_primary": "Un viaje de",
+        "title_highlight": "pasión",
+        "title_secondary": "por el Perú",
+        "description": "Desde nuestros inicios en Cusco hasta convertirnos en una de las agencias más confiables del país.",
+        "hitos": [
+            {
+                "etiqueta": "Fundación · Nuestros Inicios",
+                "titulo": "Nacemos de la pasión por el Perú",
+                "descripcion": "PerúTravel nace de la pasión por compartir las maravillas del Perú con viajeros de todo el mundo. Comenzamos en Cusco, llevando a los primeros visitantes a descubrir la magia de la ciudad inca."
+            },
+            {
+                "etiqueta": "Expansión · Crecimiento Regional",
+                "titulo": "Expandimos horizontes",
+                "descripcion": "Expandimos nuestros servicios a destinos como Valle Sagrado, Machu Picchu, la selva amazónica y el famoso Camino Inca, trayendo experiencias y viajeros de más países."
+            },
+            {
+                "etiqueta": "Certificación · Reconocimiento Oficial",
+                "titulo": "Avalados por las grandes instituciones",
+                "descripcion": "Obtuvimos las certificaciones de CALTUR, DIRCETUR, MINCETUR y membresía en ATTA (Adventure Travel Trade Association), consolidándonos como operador turístico de confianza en el panorama nacional e internacional."
+            },
+            {
+                "etiqueta": "Actualidad · Líderes en Turismo",
+                "titulo": "Hoy somos referencia en Cusco",
+                "descripcion": "Hoy somos una de las agencias más confiables de Cusco, con miles de viajeros satisfechos de todo el mundo comprometidos con la excelencia, la sostenibilidad y la autenticidad del turismo en el Perú."
+            }
+        ]
+    },
+
+    "mision_vision": {
+        "kicker": "Nuestra Esencia",
+        "title_primary": "Misión, Visión",
+        "title_highlight": "&",
+        "title_secondary": "Valores",
+        "description": "Los principios que guían cada tour, cada decisión y cada experiencia que creamos.",
+        "mision": {
+            "icono": "fa-bullseye",
+            "titulo": "Nuestra Misión",
+            "descripcion": "Proporcionar experiencias turísticas excepcionales que conecten a los viajeros con la rica historia, cultura y naturaleza del Perú, superando sus expectativas en cada momento del viaje."
+        },
+        "vision": {
+            "icono": "fa-eye",
+            "titulo": "Nuestra Visión",
+            "descripcion": "Ser la agencia de turismo líder en Cusco y el Perú, reconocida internacionalmente por nuestra calidad de servicio, compromiso social y prácticas de turismo sostenible y responsable."
+        }
+    },
+
+    "certificaciones": {
+        "background": "/images/nosotros/fondo-alianzas.webp",
+        "kicker": "Empresa Certificada Oficialmente",
+        "title_primary": "Certificaciones",
+        "title_secondary": "y Asociaciones",
+        "description": "Avalados por las principales instituciones de turismo del Perú y organizaciones internacionales.",
+        "items": [
+            { "logo": "/images/certificaciones/atta.png", "nombre": "ATTA Member", "tipo": "Internacional" },
+            { "logo": "/images/certificaciones/caltur.png", "nombre": "Asociada AATC", "tipo": "Nacional" },
+            { "logo": "/images/certificaciones/mincetur.png", "nombre": "Certificado CALTUR", "tipo": "Calidad" },
+            { "logo": "/images/certificaciones/dircetur.png", "nombre": "Registrada DIRCETUR", "tipo": "Oficial" },
+            { "logo": "/images/certificaciones/peru.png", "nombre": "Autorizada MINCETUR", "tipo": "Ministerial" },
+            { "logo": "/images/certificaciones/atta2.png", "nombre": "ATTA Member", "tipo": "Internacional" },
+            { "logo": "/images/certificaciones/caltur2.png", "nombre": "Asociada AATC", "tipo": "Nacional" },
+            { "logo": "/images/certificaciones/mincetur2.png", "nombre": "Certificado CALTUR", "tipo": "Calidad" }
+        ]
+    }
+}

@@ -1,12 +1,49 @@
 {
-    "descripcion": "DESCRIPCIÓN",
-    "itinerario": "ITINERARIO",
+    "descripcion": "Descripción",
+    "itinerario": "Itinerario",
     "desde": "Desde:",
     "reserva_titulo": "Reserva tu lugar",
     "boton_reservar": "Reservar",
-    "ficha_tecnica": "FICHA TECNICA",
-    "incluye": "INCLUYE",
-    "no_incluye": "NO INCLUYE",
+    "ficha_tecnica": "Ficha Tecnica",
+    "incluye": "Incluye",
+    "no_incluye": "No Incluye",
     "ver_mapa": "🔍 Ver mapa en grande",
-    "ver_mas_dias": "Ver más días"
+    "ver_mas_dias": "Ver más días",
+
+    "sobre_el_paquete": "Sobre El Paquete",
+    "que": "Que",
+
+    "dia_a_dia": "Dia A Dia",
+    "itinerario_titulo": "Itinerario",
+    "itinerario_subtitulo": "Completo",
+
+    "preguntas": "Preguntas",
+    "frecuentes": "Frecuentes",
+
+    "mapa": "Mapa",
+    "mapa_del": "Mapa Del",
+    "recorrido": "Recorrido",
+
+    "galeria": "Galeria",
+    "galeria_de": "Galeria De",
+    "fotos": "Fotos",
+    "explora_peru": "Explora Peru",
+
+    "recomendaciones": "Recomendaciones",
+
+    "precio": "Precio",
+    "precio_desde": "Precio Desde",
+    "precio_y_disponibilidad": "Precio Y Disponibilidad",
+    "por_persona": "Por Persona",
+
+    "consultar_reservar": "Consultar / Reservar",
+    "ver_detalles": "Ver Detalles",
+
+    "tours": "Tours",
+    "relacionados": "Relacionados",
+
+    "duracion": "Duración",
+    "dificultad": "Dificultad",
+    "altitud_maxima": "Altitud Máxima",
+    "tipo_servicio": "Tipo De Servicio22"
 }

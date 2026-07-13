@@ -1,0 +1,69 @@
+{
+    "background": "/images/destinos/lima/lima.webp",
+    "badge": "Destino",
+    "titulo": "Tours en Lima",
+    "descripcion": "Descubre la capital gastronómica de Sudamérica, su centro histórico colonial y la vibrante costa del Pacífico. Todo lo que necesitas saber antes de partir.",
+    "stats": [
+        { "icono": "fa-mountain", "numero": "40+", "titulo": "Destinos" },
+        { "icono": "fa-people-group", "numero": "8K+", "titulo": "Viajeros" },
+        { "icono": "fa-star", "numero": "4.8", "titulo": "Calificación" },
+        { "icono": "fa-globe", "numero": "10+", "titulo": "Años de Exp." }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.6",
+        "texto": "+150 Viajeros"
+    },
+    "filtros": [
+        { "id": "todos", "label": "Todos" },
+        { "id": "tradicionales", "label": "Tradicionales" },
+        { "id": "aventura", "label": "Aventura" },
+        { "id": "caminata", "label": "Caminata" }
+    ],
+    "tours": [
+        {
+            "title": "City Tour Lima Colonial",
+            "description": "Recorre el centro histórico de Lima, sus iglesias coloniales y la Plaza Mayor, declarada Patrimonio de la Humanidad.",
+            "price": "35",
+            "duracion": "1Dia / 0Noches",
+            "image": "lima-colonial.jpg",
+            "url": "lima-colonial",
+            "categoria": "tradicionales"
+        },
+        {
+            "title": "Tour Gastronómico Lima",
+            "description": "Descubre por qué Lima es considerada la capital gastronómica de Sudamérica, con degustaciones en mercados y restaurantes locales.",
+            "price": "65",
+            "duracion": "1Dia / 0Noches",
+            "image": "lima-gastronomico.jpg",
+            "url": "lima-gastronomico",
+            "categoria": "tradicionales"
+        },
+        {
+            "title": "Miraflores y Barranco",
+            "description": "Explora el Malecón de Miraflores, el Parque del Amor y el bohemio distrito de Barranco con su famoso Puente de los Suspiros.",
+            "price": "40",
+            "duracion": "1Dia / 0Noches",
+            "image": "miraflores-barranco.jpg",
+            "url": "miraflores-barranco",
+            "categoria": "tradicionales"
+        },
+        {
+            "title": "Islas Palomino",
+            "description": "Nada junto a lobos marinos en su hábitat natural frente a las costas del Callao.",
+            "price": "85",
+            "duracion": "1Dia / 0Noches",
+            "image": "islas-palomino.jpg",
+            "url": "islas-palomino",
+            "categoria": "aventura"
+        },
+        {
+            "title": "Pachacamac Full Day",
+            "description": "Visita el santuario arqueológico preinca más importante de la costa central del Perú.",
+            "price": "45",
+            "duracion": "1Dia / 0Noches",
+            "image": "pachacamac.jpg",
+            "url": "pachacamac",
+            "categoria": "caminata"
+        }
+    ]
+}

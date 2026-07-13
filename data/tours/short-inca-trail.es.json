@@ -1,0 +1,129 @@
+{
+    "title": "Waqrapukara <span class=\"text-orange-custom\">Fortress</span>",
+    "short_description": "An essential tour to discover one of Cusco's most impressive natural and archaeological wonders.",
+    "long_description": "<b>ONLY SCHEDULE: 04:00 AM – 18:00 PM APPROX</b><br> Dare to explore Waqrapukara, the horn-shaped fortress that rises over the Apurímac canyon. An adventure full of energy, history, and breathtaking landscapes.",
+    "duration": "1 Day",
+    "image_cover": "waqrapukara-card.jpg",
+    "gallery": ["montana1.jpg", "montana2.jpg", "montana3.jpg", "montana4.jpg"],
+    "price": "90",
+    "price_note": "Includes transportation, entrance tickets and professional guide.",
+
+    "seo_title": "Waqrapukara Fortress Tour - Full Day from Cusco | GT Peru Travel",
+    "seo_description": "Explore Waqrapukara, the impressive Inca fortress overlooking the Apurímac canyon. Full-day tour from Cusco with transportation, entrance tickets, and professional guide.",
+    "seo_keywords": "waqrapukara, waqrapukara fortress, waqrapukara tour full day, inca fortress cusco, apurimac canyon hike, waqrapukara trek, cusco tours, gt peru travel",
+
+    "days": [
+        {
+            "title": "Día 1 – Cusco / City Tour",
+            "text": "We leave Cusco early heading south, enjoying Andean landscapes, local communities, and a mysterious natural environment. After a scenic hike surrounded by mountains and rock formations, we arrive at the impressive Inca sanctuary known as \"the horned fortress,\" a symbol of spiritual and military power. From the top, at 4100 MASL, the views of the Apurímac canyon are truly unforgettable."
+        },
+        {
+            "title": "Día 2 – Valle Sagrado / Aguas Calientes",
+            "text": "We leave Cusco early heading south, enjoying Andean landscapes, local communities, and a mysterious natural environment. After a scenic hike surrounded by mountains and rock formations, we arrive at the impressive Inca sanctuary known as \"the horned fortress,\" a symbol of spiritual and military power. From the top, at 4100 MASL, the views of the Apurímac canyon are truly unforgettable."
+        },
+        {
+            "title": "Day 2",
+            "text": "We leave Cusco early heading south, enjoying Andean landscapes, local communities, and a mysterious natural environment. After a scenic hike surrounded by mountains and rock formations, we arrive at the impressive Inca sanctuary known as \"the horned fortress,\" a symbol of spiritual and military power. From the top, at 4100 MASL, the views of the Apurímac canyon are truly unforgettable."
+        }
+    ],
+
+    "includes": ["Transporte turístico", "Guía profesional bilingüe", "Entrada a Waqrapukara", "Box lunch"],
+    "not_includes": ["Bebidas extra", "Propinas", "Seguro de viaje"],
+
+    "recommendations": [
+        { "img": "lentes.jpeg", "nombre": "Lentes de sol con protección UV" },
+        { "img": "mochila.png", "nombre": "Mochila pequeña para trekking" },
+        { "img": "lentes.jpeg", "nombre": "Bloqueador solar factor alto" },
+        { "img": "lentes.jpeg", "nombre": "Gorro o sombrero para el sol" },
+        { "img": "mochila.png", "nombre": "Mochila pequeña para trekking" },
+        { "img": "mochila.png", "nombre": "Mochila pequeña para trekking" },
+        { "img": "mochila.png", "nombre": "Mochila pequeña para trekking" },
+        { "img": "mochila.png", "nombre": "Mochila pequeña para trekking" },
+        { "img": "mochila.png", "nombre": "Mochila pequeña para trekking" },
+        { "img": "mochila.png", "nombre": "Mochila pequeña para trekking" }
+    ],
+
+    "faq": [
+        {
+            "pregunta": "¿Es necesario aclimatarse en Cusco?",
+            "respuesta": "Sí, recomendamos al menos 1 día de aclimatación antes de iniciar esta caminata debido a la altitud (4100 msnm en el punto más alto)."
+        },
+        {
+            "pregunta": "¿Qué nivel de dificultad tiene esta caminata?",
+            "respuesta": "Es una caminata de dificultad moderada, apta para personas con buena condición física básica."
+        },
+        {
+            "pregunta": "¿Puedo cancelar mi reserva?",
+            "respuesta": "Sí, consulta nuestra política de cancelación en la sección de términos y condiciones."
+        }
+    ],
+
+    "tours_relacionados": [
+        {
+            "title": "Tour Machupicchu Clasico",
+            "description": "Escápate a Cusco y Machu Picchu. La historia inca, la magia de los Andes y la esencia cultural del Perú en un formato compacto.",
+            "price": "65",
+            "duracion": "3Dias / 7Noches",
+            "image": "tours/glaciar.jpg",
+            "url": "machupicchu-clasico"
+        },
+        {
+            "title": "Montaña de Colores + 7 Lagunas",
+            "description": "Aventura andina hacia la Montaña de Colores y las 7 Lagunas de Ausangate.",
+            "price": "125",
+            "duracion": "2Dias / 1Noches",
+            "image": "montana-colores-cusco-peru-card-01.jpg",
+            "url": "montanacolores-7lagunas"
+        },
+        {
+            "title": "Laguna Humantay",
+            "description": "Camina hacia una de las lagunas glaciares más impresionantes de Cusco, con vista al Nevado Salkantay.",
+            "price": "45",
+            "duracion": "1Dia / 0Noches",
+            "image": "tours/laguna-humantay-card.jpg",
+            "url": "laguna-humantay"
+        }
+    ],
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "tour": {
+            "titulo": "WAQRAPUKARA FORTRESS - BASIC",
+            "precio": "90",
+            "descripcion": "Classic option with standard transportation.",
+            "nota": "Includes transfers and professional guide",
+            "descuento": 0
+        },
+        "confort": {
+            "titulo": "WAQRAPUKARA FORTRESS - COMFORT",
+            "precio": "130",
+            "descripcion": "Includes superior transportation and buffet lunch.",
+            "nota": "Includes transfers, 2 ★★ service and guided visits",
+            "descuento": 0
+        },
+        "premium": {
+            "titulo": "WAQRAPUKARA FORTRESS - PREMIUM",
+            "precio": "150",
+            "descripcion": "Includes superior transportation and buffet lunch.",
+            "nota": "Includes transfers, 3 ★★★ service and guided visits",
+            "descuento": 0
+        },
+        "elite": {
+            "titulo": "WAQRAPUKARA FORTRESS - ELITE",
+            "precio": "180",
+            "descripcion": "Includes superior transportation and buffet lunch.",
+            "nota": "Includes transfers, 4 ★★★★ service and guided visits",
+            "descuento": 0
+        }
+    },
+    "caracteristicas": [
+    { "icono": "fa-person-hiking", "label": "Dificultad", "valor": "Moderada" },
+    { "icono": "fa-clock", "label": "Duración", "valor": "1 Día" },
+    { "icono": "fa-user-shield", "label": "Servicio", "valor": "Compartido" },
+    { "icono": "fa-people-group", "label": "Modalidad", "valor": "Grupal" },
+    { "icono": "fa-mountain", "label": "Altitud Máxima", "valor": "4,100 msnm" }
+     ]
+}

@@ -1,0 +1,60 @@
+{
+    "background": "/images/destinos/arequipa/arequipa.webp",
+    "badge": "Destino",
+    "titulo": "Tours en Arequipa",
+    "descripcion": "Explora la Ciudad Blanca, su arquitectura colonial de sillar, y el imponente Cañón del Colca, uno de los más profundos del mundo.",
+    "stats": [
+        { "icono": "fa-mountain", "numero": "30+", "titulo": "Destinos" },
+        { "icono": "fa-people-group", "numero": "7K+", "titulo": "Viajeros" },
+        { "icono": "fa-star", "numero": "4.8", "titulo": "Calificación" },
+        { "icono": "fa-globe", "numero": "10+", "titulo": "Años de Exp." }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.7",
+        "texto": "+140 Viajeros"
+    },
+    "filtros": [
+        { "id": "todos", "label": "Todos" },
+        { "id": "tradicionales", "label": "Tradicionales" },
+        { "id": "aventura", "label": "Aventura" },
+        { "id": "caminata", "label": "Caminata" }
+    ],
+    "tours": [
+        {
+            "title": "City Tour Arequipa Colonial",
+            "description": "Recorre el centro histórico de la Ciudad Blanca, el Monasterio de Santa Catalina y la Plaza de Armas.",
+            "price": "30",
+            "duracion": "1Dia / 0Noches",
+            "image": "arequipa-colonial.jpg",
+            "url": "arequipa-colonial",
+            "categoria": "tradicionales"
+        },
+        {
+            "title": "Cañón del Colca 2 Días",
+            "description": "Observa el vuelo del cóndor andino en la Cruz del Cóndor y explora los pueblos tradicionales del Valle del Colca.",
+            "price": "95",
+            "duracion": "2Dias / 1Noches",
+            "image": "canon-colca.jpg",
+            "url": "canon-colca",
+            "categoria": "tradicionales"
+        },
+        {
+            "title": "Trekking Cañón del Colca",
+            "description": "Desciende al fondo del segundo cañón más profundo del mundo y disfruta del oasis de Sangalle.",
+            "price": "120",
+            "duracion": "3Dias / 2Noches",
+            "image": "trekking-colca.jpg",
+            "url": "trekking-colca",
+            "categoria": "caminata"
+        },
+        {
+            "title": "Reserva de Salinas y Aguada Blanca",
+            "description": "Observa vicuñas, flamencos andinos y volcanes en esta reserva natural cercana a Arequipa.",
+            "price": "55",
+            "duracion": "1Dia / 0Noches",
+            "image": "salinas-aguada-blanca.jpg",
+            "url": "salinas-aguada-blanca",
+            "categoria": "aventura"
+        }
+    ]
+}

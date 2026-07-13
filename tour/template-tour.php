@@ -1,57 +1,28 @@
-<!-- VERIFICACIONES DE ERRORES EN PHP .JSON -->
+<!-- VERIFICACIONES DE ERRORES EN PHP -->
 <?php
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 ?>
 
-<!-- VARIABLES DE PROMOCIONES - HEADER .JSON -->
+<!-- VARIABLES DE PROMOCIONES - HEADER -->
 <?php
-$promotions_path = __DIR__ . "/../promotions/promotions.json";
-
-if (file_exists($promotions_path)) {
-    $promotions = json_decode(file_get_contents($promotions_path), true);
-} else {
-    $promotions = [];
-}
-?>
-
-<!-- CARGANDO TOURS-TEMPLATE Y CARDS .JSON -->
-<?php
-$tour = $_GET['tour'] ?? 'machupicchu';
-$lang = $_GET['lang'] ?? 'es';
-
-$json_file = __DIR__ . "/../data/tours/{$tour}.{$lang}.json";
-
-if (file_exists($json_file)) {
-    $data = json_decode(file_get_contents($json_file), true);
-} else {
-    // Mostrar error 404
-    header("Location: /404.php");
-    exit;
-}
-
-//<!-- VERIFICACIONES DE SEO TOURS .JSON -->
-// Para SEO
-$meta_title = $data['seo_title'] ?? $data['title'];
-$meta_description = $data['seo_description'] ?? $data['short_description'];
-$meta_keywords = $data['seo_keywords'] ?? ''; // puedes agregar un campo opcional en el JSON
-?>
-
-
-<!-- PARA HEADER RUTAS -->
-<?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-
 $promotions_path = __DIR__ . "/../promotions/promotions.json";
 $promotions = file_exists($promotions_path)
     ? json_decode(file_get_contents($promotions_path), true)
     : [];
+?>
 
+<!-- CARGANDO TOUR + IDIOMA -->
+<?php
 $tour = $_GET['tour'] ?? 'machupicchu';
 $lang = $_GET['lang'] ?? 'es';
+$idioma = $lang; // alias usado en otras partes del sitio
+$GLOBALS['lang'] = $lang;
 
-$GLOBALS['lang'] = $lang; // <<< IMPORTANTE
+$allowed = ['es', 'en', 'pt'];
+if (!in_array($lang, $allowed)) {
+    $lang = 'es';
+}
 
 $json_file = __DIR__ . "/../data/tours/{$tour}.{$lang}.json";
 
@@ -67,30 +38,26 @@ $meta_description = $data['seo_description'] ?? $data['short_description'];
 $meta_keywords = $data['seo_keywords'] ?? '';
 ?>
 
-<!-- JALAR TEXTO LANG GLOBALES -->
+<!-- TEXTOS GLOBALES -->
 <?php
-$lang = $_GET['lang'] ?? 'es';
-
-// Idiomas permitidos
-$allowed = ['es', 'en', 'pt'];
-if (!in_array($lang, $allowed)) {
-    $lang = 'es';
-}
-
-// Cargar globales
 $global_path = __DIR__ . "/../lang/global-{$lang}.json";
-
-// Seguridad extra: validar que el archivo existe
 if (!file_exists($global_path)) {
     $global_path = __DIR__ . "/../lang/global-es.json";
 }
-
 $global = json_decode(file_get_contents($global_path), true);
 ?>
 
+<!-- FOOTER (una sola vez, ANTES de renderizar el HTML) -->
+<?php
+$footer_json = __DIR__ . "/../locale/$lang/footer.json";
+$footer = file_exists($footer_json)
+    ? json_decode(file_get_contents($footer_json), true)
+    : [];
+?>
 
-
-<!-- TEMPLATE TOUR -->
+<?php
+$base_url = "..";
+?>
 <!DOCTYPE html>
 <html lang="<?= $lang ?>">
 
@@ -102,31 +69,18 @@ $global = json_decode(file_get_contents($global_path), true);
     <meta name="description" content="<?= htmlspecialchars($meta_description) ?>">
     <meta name="keywords" content="<?= htmlspecialchars($meta_keywords) ?>">
 
-
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17034229022"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'AW-17034229022');
     </script>
 
-
-    <!-- favicon -->
     <link rel="icon" href="../assets/favicon/favicon.ico" type="image/x-icon">
-
-    <!-- WhatsApp icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
-    <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-    <!-- Tailwind CSS (CDN) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -141,658 +95,561 @@ $global = json_decode(file_get_contents($global_path), true);
         }
     </script>
 
-    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <!-- Google Fonts POPPINS - 2 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
 
-    <!-- styles -->
     <link rel="stylesheet" href="../css/style.css">
 
-    <!-- COMPILADO PARA CARGAR VANDERAS PARA TELEFONO -->
-    <!-- INICIALIZACION DEL IMPUT DE TELEFONO -->
-
-    <!-- END CARGAR VANDERAS PARA TELEFONO -->
-
-    <!-- swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
-    <!-- swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 
-
 <body>
 
-
     <?php include('../header.php') ?>
-    <?php include('../footer.php') ?>
-    <!-- contenido paquete o tour -->
+
     <main>
-
-        <!-- imgen de paquete o tours -->
-        <section id="img-package-tour" class="relative w-full h-[80vh] overflow-hidden">
-
-            <?php
-            // Tomar siempre image_cover
-            $imageName = $data['image_cover'] ?? '';
-
-            // Ruta relativa
-            $imgPath = "images/tours/" . $imageName;
-
-            // Ruta absoluta
-            $imgFullPath = __DIR__ . '/../' . $imgPath;
-
-            // Si no existe el archivo o está vacío, usar una imagen por defecto
-            if (!file_exists($imgFullPath) || empty($imageName)) {
-                $imgPath = "images/tours/template-image-tour.jpg";
-            }
-            ?>
-
-
-            <img src="<?= htmlspecialchars($base_url . '/' . $imgPath) ?>"
-                alt="<?= htmlspecialchars($data['title']) ?>"
-                class="absolute top-0 left-0 w-full h-full object-cover">
-
-            <!-- Texto centrado -->
-            <div class="relative flex flex-col justify-center items-center h-full text-center text-white px-4">
-                <h1 class="text-[clamp(2rem,6vw,5rem)] font-extrabold uppercase drop-shadow-lg">
-                    <?= htmlspecialchars($data['title']) ?>
-                </h1>
-                <p class="mt-4 text-[clamp(1rem,2vw,1.5rem)] font-semibold bg-[#ff9300]/80 px-6 py-2 rounded-lg shadow-md">
-                    <?= htmlspecialchars($data['duration']) ?>
-                </p>
-            </div>
-        </section>
-
-
-
-        <!-- Categorías de paquetes y tours -->
-        <section id="category-package-tour" class="w-full bg-[#ff9300] py-4">
-            <div class="max-w-7xl mx-auto px-4">
-                <div class="flex flex-wrap md:flex-nowrap items-center justify-between text-white text-center gap-4 md:gap-6">
-
-                    <!-- Video circular -->
-                    <?php
-                    $videoUrl = $data['video'] ?? '';  // Si no existe, queda vacío
-                    $hasVideo = !empty($videoUrl);     // true si hay video válido
-                    ?>
-
-                    <!-- Video circular -->
-                    <div class="flex items-center gap-4">
-
-                        <?php if ($hasVideo): ?>
-                            <!-- Si hay video -->
-                            <a href="<?= $videoUrl ?>" target="_blank"
-                                class="flex items-center justify-center w-14 h-14 bg-black/30 rounded-full hover:opacity-80 transition relative">
-                                <!-- Icono Play -->
-                                <div class="w-0 h-0 border-l-[18px] border-l-black/40 
-                        border-t-[10px] border-t-transparent 
-                        border-b-[10px] border-b-transparent ml-[6px]"></div>
-                            </a>
-
-                        <?php else: ?>
-                            <!-- Si NO hay video -->
-                            <div class="flex items-center justify-center w-14 h-14 bg-red-500/40 rounded-full">
-                                <span class="text-white text-xl font-bold">✕</span>
-                            </div>
-                        <?php endif; ?>
-
-                    </div>
-
-                    <!-- Línea vertical -->
-                    <div class="w-[2px] h-14 bg-black/40"></div>
-
-                    <!-- TOUR -->
-                    <div class="category-item cursor-pointer" data-category="tour">
-                        <span class="bg-black px-9 py-1 rounded-xl block text-xs tracking-wide">SOLO</span>
-                        <h3 class="text-[2rem] font-bold leading-tight text-black">TOUR</h3>
-                    </div>
-
-                    <div class="w-[2px] h-14 bg-black/40"></div>
-
-                    <!-- CONFORT -->
-                    <div class="category-item cursor-pointer" data-category="confort">
-                        <span class="bg-black px-9 py-1 rounded-xl block text-xs tracking-wide">CATEGORÍA</span>
-                        <h3 class="text-[2rem] font-bold leading-tight text-black">CONFORT</h3>
-                    </div>
-
-                    <div class="w-[2px] h-14 bg-black/40"></div>
-
-                    <!-- PREMIUM -->
-                    <div class="category-item cursor-pointer" data-category="premium">
-                        <span class="bg-black px-9 py-1 rounded-xl block text-xs tracking-wide">CATEGORÍA</span>
-                        <h3 class="text-[2rem] font-bold leading-tight text-black">PREMIUM</h3>
-                    </div>
-
-                    <div class="w-[2px] h-14 bg-black/40"></div>
-
-                    <!-- ELITE -->
-                    <div class="category-item cursor-pointer" data-category="elite">
-                        <span class="bg-black px-9 py-1 rounded-xl block text-xs tracking-wide">CATEGORÍA</span>
-                        <h3 class="text-[2rem] font-bold leading-tight text-black">ELITE</h3>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-        <!-- documentos de descarga y enlaces -->
+        <!-- ******************** 
+            HERO DEL TOUR
+        *********************** -->
         <?php
-        $doc_folder = $base_url . "/docs"; // carpeta donde estarán los PDFs
-        $brochure_file = $data['brochure'] ?? '';
+        $imageName = $data['image_cover'] ?? '';
+        $imgPath = "images/tours/" . $imageName;
+        $imgFullPath = __DIR__ . '/../' . $imgPath;
+
+        if (!file_exists($imgFullPath) || empty($imageName)) {
+            $imgPath = "images/tours/template-image-tour.jpg";
+        }
+
+        // Helper para tomar un valor de "caracteristicas" por su label
+        function get_caracteristica($caracteristicas, $label) {
+            foreach (($caracteristicas ?? []) as $c) {
+                if (strcasecmp($c['label'], $label) === 0) {
+                    return $c['valor'];
+                }
+            }
+            return null;
+        }
+
+        $dificultad = get_caracteristica($data['caracteristicas'] ?? [], 'Dificultad') ?? '—';
+        $altitud    = get_caracteristica($data['caracteristicas'] ?? [], 'Altitud Máxima') ?? '—';
         ?>
-        <section id="items-package-tour">
-            <div class="bg-black py-6">
-                <div class="max-w-7xl mx-auto px-4">
-                    <div class="flex flex-col md:flex-row items-center justify-center gap-4 text-white text-center">
-                        <?php if ($brochure_file): ?>
-                            <a href="<?= $doc_folder . '/' . $brochure_file ?>" download
-                                class="inline-flex items-center gap-2 bg-[#ff9300] hover:bg-[#ff7e29] text-black font-semibold px-6 py-3 rounded-xl transition-all duration-300">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                                    class="w-5 h-5">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4" />
-                                </svg>
-                                Brochure
-                            </a>
-                        <?php else: ?>
-                            <span class="text-gray-300">Brochure (próximamente)</span>
-                        <?php endif; ?>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <section id="video" class="relative w-full h-[82vh] min-h-[650px] bg-black overflow-hidden">
 
-        <section id="description-package" class="py-12 bg-white relative text-white">
-            <div class="container-custom max-w-7xl mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-12">
+            <!-- imagen de fondo -->
+            <img class="absolute top-0 left-0 w-full h-full object-cover"
+                src="<?= htmlspecialchars($base_url . '/' . $imgPath) ?>"
+                alt="<?= ($data['title']) ?>">
 
-                <!-- Columna izquierda -->
-                <div class="space-y-10">
+            <!-- overlays para legibilidad del texto -->
+            <div class="absolute inset-0 bg-gradient-to-r from-black/85 via-black/50 to-black/10"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10"></div>
 
-                    <!-- Título Descripción -->
-                    <div>
-                        <div class="flex items-center gap-3 mb-6">
-                            <div class="w-6 h-6 bg-[#ff9300] rounded-full"></div>
-                            <h2 class="text-black text-2xl font-bold"><?= $global['descripcion'] ?></h2>
-                        </div>
+            <!-- contenido principal -->
+            <div class="relative z-10 h-full flex items-center justify-center">
+                <div class="container-custom px-20 w-full">
+                    <div class="max-w-2xl">
 
-                        <p id="descripcion" class="text-black leading-relaxed font-[Poppins]" style="word-spacing: -0.5px;">
-                            <?= $data['long_description'] ?? 'Descripción no disponible'; ?>
+                        <h1 class="text-white text-[2.6rem] sm:text-5xl md:text-6xl lg:text-[4.2rem] font-anton font-black leading-[1.05] drop-shadow-lg">
+                            <?= ($data['title']) ?>
+                        </h1>
+
+                        <p class="mt-6 text-white/90 text-base md:text-lg font-poppins font-light max-w-xl">
+                            <?= htmlspecialchars($data['short_description']) ?>
                         </p>
                     </div>
+                </div>
+            </div>
 
-                    <!-- Título Itinerario -->
-                    <div class="flex items-center gap-3 mt-12">
-                        <div class="w-6 h-6 bg-[#ff9300] rounded-full"></div>
-                        <h2 class="text-black text-2xl font-bold"><?= $global['itinerario'] ?></h2>
+            <!-- logo tripadvisor -->
+            <div class="absolute z-10 bottom-24 md:bottom-28 right-4 md:right-10 flex justify-end">
+                <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
+                <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
+                <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
+            </div>
+
+            <!-- barra de estadísticas del tour -->
+            <div class="absolute bottom-0 left-0 w-full z-10 bg-black/20 backdrop-blur-sm">
+                <div class="container-custom mx-auto py-5">
+                    <div class="flex flex-wrap justify-center gap-y-4 gap-x-20">
+
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-clock text-orange-custom text-2xl"></i>
+                            <div class="text-left flex flex-col gap-1">
+                                <p class="text-white text-2xl font-anton leading-none"><?= htmlspecialchars($data['duration']) ?></p>
+                                <p class="text-white/70 text-xs font-poppins uppercase tracking-wide"><?= $global['duracion'] ?? 'Duración' ?></p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-person-hiking text-orange-custom text-2xl"></i>
+                            <div class="text-left flex flex-col gap-1">
+                                <p class="text-white text-2xl font-anton leading-none"><?= htmlspecialchars($dificultad) ?></p>
+                                <p class="text-white/70 text-xs font-poppins uppercase tracking-wide"><?= $global['dificultad'] ?? 'Dificultad' ?></p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-mountain text-orange-custom text-2xl"></i>
+                            <div class="text-left flex flex-col gap-1">
+                                <p class="text-white text-2xl font-anton leading-none"><?= htmlspecialchars($altitud) ?></p>
+                                <p class="text-white/70 text-xs font-poppins uppercase tracking-wide"><?= $global['altitud_maxima'] ?? 'Altitud Máxima' ?></p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-people-group text-orange-custom text-2xl"></i>
+                            <div class="text-left flex flex-col gap-1">
+                                <p class="text-white text-2xl font-anton leading-none">Grupal / Privado</p>
+                                <p class="text-white/70 text-xs font-poppins uppercase tracking-wide"><?= $global['tipo_servicio'] ?? 'Tipo De Servicio' ?></p>
+                            </div>
+                        </div>
+
                     </div>
-                    <p class="text-black leading-relaxed font-[Poppins]" style="word-spacing: -0.5px;">
-                        <?= $data['short_description'] ?? 'Descripción no disponible'; ?>
+                </div>
+            </div>
+
+        </section>
+        <!-- ******************** 
+             CONTENIDO: TABS + SIDEBAR
+         *********************** -->
+        <section class="container-custom mx-auto px-4 md:px-20 py-14">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+
+                <!-- COLUMNA IZQUIERDA: CONTENIDO CON TABS -->
+                <div class="lg:col-span-2">
+
+                    <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
+                        <?= $global['sobre_el_paquete'] ?? 'Sobre El Paquete' ?>
                     </p>
 
-                    <!-- Timeline de días -->
-                    <ul class="relative border-l-2 border-[#ff9300]/40 ml-4 pl-6 space-y-10">
+                    <h2 class="text-3xl md:text-4xl font-anton mb-4 leading-tight text-gray-900">
+                        <?= ($data['title']) ?>
+                    </h2>
+
+                    <p class="text-gray-600 font-poppins font-light text-base mb-8">
+                        <?= $data['long_description'] ?>
+                    </p>
+
+                    <!-- TABS -->
+                    <div class="flex flex-wrap gap-2 mb-8">
+                        <button type="button" class="tab-tour-btn active px-5 py-2 rounded-full text-sm font-bold font-poppins bg-orange-custom text-white transition" data-tab="itinerario">
+                            <?= $global['itinerario'] ?? 'Itinerario' ?>
+                        </button>
+                        <button type="button" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="incluye">
+                            <?= $global['incluye'] ?? 'Incluye' ?>
+                        </button>
+                        <button type="button" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="mapa">
+                            <?= $global['mapa'] ?? 'Mapa' ?>
+                        </button>
+                        <button type="button" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="galeria">
+                            <?= $global['galeria'] ?? 'Galeria' ?>
+                        </button>
+                        <button type="button" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="recomendaciones">
+                            <?= $global['recomendaciones'] ?? 'Recomendaciones' ?>
+                        </button>
+                        <button type="button" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="precio">
+                            <?= $global['precio'] ?? 'Precio' ?>
+                        </button>
+                    </div>
+
+                    <!-- ============ TAB: ITINERARIO ============ -->
+                    <!-- ============ TAB: ITINERARIO ============ -->
+                    <div class="tab-tour-content" data-tab-content="itinerario">
+                        <p class="text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                            <?= $global['dia_a_dia'] ?? 'Dia A Dia' ?>
+                        </p>
+                        <h3 class="text-2xl md:text-3xl font-anton mb-8">
+                            <span class="text-gray-900"><?= $global['itinerario_titulo'] ?? 'Itinerario' ?></span>
+                            <span class="text-orange-custom"><?= $global['itinerario_subtitulo'] ?? 'Completo' ?></span>
+                        </h3>
 
                         <?php if (!empty($data['days'])): ?>
-
-                            <!-- Mostrar los primeros 3 días siempre -->
-                            <?php foreach ($data['days'] as $index => $day): ?>
-                                <?php if ($index < 1): ?>
-                                    <li class="relative">
-                                        <div class="absolute -left-[33px] top-1 w-4 h-4 bg-[#ff9300] rounded-full flex items-center justify-center text-[10px] font-bold">
-                                            <?= $index + 1 ?>
-                                        </div>
-                                        <h3 class="text-black"><?= htmlspecialchars($day['title']) ?></h3><br>
-                                        <p class="text-black leading-relaxed font-[Poppins]" style="word-spacing: -0.5px;"><?= $day['text'] ?></p>
-                                    </li>
-                                <?php endif; ?>
-                            <?php endforeach; ?>
-
-                            <!-- Contenedor único para TODOS los días "extras" (4,5,6...) -->
-                            <div id="dias-extra" class="hidden">
+                            <ul class="relative">
                                 <?php foreach ($data['days'] as $index => $day): ?>
-                                    <?php if ($index >= 1): ?>
-                                        <li class="relative">
-                                            <div class="absolute -left-[33px] top-1 w-4 h-4 bg-[#ff9300] rounded-full flex items-center justify-center text-[10px] font-bold">
-                                                <?= $index + 1 ?>
+                                    <li class="itinerario-item relative hover:bg-gray-50 transition pl-12 pr-2 rounded-lg">
+
+                                        <!-- Línea conectora vertical -->
+                                        <?php if ($index < count($data['days']) - 1): ?>
+                                            <div class="absolute left-4 top-12 bottom-0 w-[3.5px] bg-gray-700"></div>
+                                        <?php endif; ?>
+
+                                        <!-- Círculo numerado (posición absoluta, no afecta el layout del resto) -->
+                                        <span class="itinerario-numero absolute left-0 top-4 z-10 w-8 h-8 bg-[#2a2a2a] text-white rounded-full flex items-center justify-center text-sm transition-colors">
+                                            <?= $index + 1 ?>
+                                        </span>
+
+                                        <!-- Wrapper con el borde AL FINAL (header + panel juntos) -->
+                                        <div class="   border-b border-gray-700">
+
+                                            <button type="button"
+                                                    class=" itinerario-toggle w-full flex items-center justify-between gap-4 py-4 text-left ">
+
+                                                <span class="flex-1">
+                                                    <span class="itinerario-titulo block font-bold font-poppins text-gray-900 transition-colors">
+                                                        <?= htmlspecialchars($day['title']) ?>
+                                                    </span>
+                                                    <span class="block text-gray-400 text-xs font-poppins uppercase tracking-wide mt-0.5">
+                                                        <?= htmlspecialchars($day['lugar'] ?? '') ?>
+                                                    </span>
+                                                </span>
+
+                                                <i class="fa-solid fa-chevron-down text-orange-custom itinerario-icon transition-transform"></i>
+                                            </button>
+
+                                            <div class="itinerario-panel hidden pb-5">
+                                                <div class="flex flex-col sm:flex-row gap-4">
+                                                    <?php if (!empty($day['imagen'])): ?>
+                                                        <div class="w-full sm:w-32 h-24 rounded-lg overflow-hidden flex-shrink-0">
+                                                            <img src="<?= $base_url ?>/images/tours/<?= htmlspecialchars($day['imagen']) ?>"
+                                                                alt="<?= htmlspecialchars($day['title']) ?>"
+                                                                class="w-full h-full object-cover">
+                                                        </div>
+                                                    <?php endif; ?>
+                                                    <p class="text-gray-500 font-poppins text-sm leading-relaxed">
+                                                        <?= $day['text'] ?>
+                                                    </p>
+                                                </div>
                                             </div>
-                                            <h3><?= htmlspecialchars($day['title']) ?></h3>
-                                            <p class="text-gray-300 leading-relaxed font-[Poppins]" style="word-spacing: -0.5px;"><?= $day['text'] ?></p>
-                                        </li>
-                                    <?php endif; ?>
+                                                    <!--linea final-->
+                                            <div></div>
+                                        </div>
+
+                                    </li>
                                 <?php endforeach; ?>
-                            </div>
-
+                            </ul>
                         <?php else: ?>
-                            <li>No hay información de itinerario disponible.</li>
+                            <p class="text-gray-500">No hay información de itinerario disponible.</p>
                         <?php endif; ?>
-
-                    </ul>
-
-                    <!-- Botón para mostrar más -->
-                    <?php if (count($data['days']) > 1): ?>
-                        <div class="text-center mt-6">
-                            <button
-                                id="verMasBtn"
-                                class="bg-[#ff9300] px-6 py-2 rounded-lg font-semibold text-black hover:bg-[#ff7e29] transition-all">
-                                <?= $global['ver_mas_dias'] ?>
-                            </button>
-                        </div>
-                    <?php endif; ?>
-
-
-
-                    <!-- Ficha Tecnica -->
-                    <div class="flex items-center gap-3 mt-12">
-                        <div class="w-6 h-6 bg-[#ff9300] rounded-full"></div>
-                        <h2 class="text-black text-2xl font-bold"><?= $global['ficha_tecnica'] ?></h2>
-                    </div>
-                    <p class="text-black leading-relaxed font-[Poppins]">
-                        <?= $data['technical_sheet'] ?? 'Descripción no disponible'; ?>
-                    </p>
-
-                    <!-- INCLUYE Y NO INCLUYE -->
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
-
-                        <!-- INCLUYE -->
-                        <div>
-                            <div class="flex items-center gap-3">
-                                <div class="w-6 h-6 bg-[#ff9300] rounded-full"></div>
-                                <h2 class="text-black text-2xl font-bold"><?= $global['incluye'] ?></h2>
-                            </div>
-                            <p class="text-black leading-relaxed font-[Poppins] mt-3">
-                                <?= $data['includes'] ?? 'Descripción no disponible'; ?>
-                            </p>
-                        </div>
-
-                        <!-- NO INCLUYE -->
-                        <div>
-                            <div class="flex items-center gap-3">
-                                <div class="w-6 h-6 bg-[#ff9300] rounded-full"></div>
-                                <h2 class="text-black text-2xl font-bold"><?= $global['no_incluye'] ?></h2>
-                            </div>
-                            <p class="text-black leading-relaxed font-[Poppins] mt-3">
-                                <?= $data['not_includes'] ?? 'Descripción no disponible'; ?>
-                            </p>
-                        </div>
-
                     </div>
 
-                    <!-- IMAGEN DE MAPA -->
-                    <!-- Mapa -->
-                    <?php
-                    $mapa = !empty($data['map'])
-                        ? $data['map']
-                        : 'template-citytour.jpg';
-                    ?>
+                    <!-- ============ TAB: INCLUYE ============ -->
+                    <div class="tab-tour-content hidden" data-tab-content="incluye">
+                        <p class="text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                            <?= $global['preguntas'] ?? 'Preguntas' ?>
+                        </p>
+                        <h3 class="text-2xl md:text-3xl font-anton mb-6">
+                            <span class="text-gray-900"><?= $global['que'] ?? 'Que' ?></span>
+                            <span class="text-orange-custom"><?= $global['incluye'] ?? 'Incluye' ?></span>
+                        </h3>
 
-                    <div class="mt-10">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div class="bg-[#2a2a2a] rounded-xl p-6">
+                                <h4 class="text-[#34e0a1] font-bold font-poppins uppercase mb-4">
+                                    <?= $global['incluye'] ?? 'Incluye' ?>
+                                </h4>
+                                <ul class="space-y-2">
+                                    <?php foreach (($data['includes'] ?? []) as $item): ?>
+                                        <li class="flex items-start gap-2 text-white text-sm font-poppins">
+                                            <i class="fa-solid fa-check text-[#34e0a1] mt-1"></i>
+                                            <?= htmlspecialchars($item) ?>
+                                        </li>
+                                    <?php endforeach; ?>
+                                </ul>
+                            </div>
+
+                            <div class="bg-white border border-gray-200 rounded-xl p-6">
+                                <h4 class="text-red-500 font-bold font-poppins uppercase mb-4">
+                                    <?= $global['no_incluye'] ?? 'No Incluye' ?>
+                                </h4>
+                                <ul class="space-y-2">
+                                    <?php foreach (($data['not_includes'] ?? []) as $item): ?>
+                                        <li class="flex items-start gap-2 text-gray-700 text-sm font-poppins">
+                                            <i class="fa-solid fa-xmark text-red-500 mt-1"></i>
+                                            <?= htmlspecialchars($item) ?>
+                                        </li>
+                                    <?php endforeach; ?>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ============ TAB: MAPA / RUTA ============ -->
+                    <div class="tab-tour-content hidden" data-tab-content="mapa">
+                        <p class="text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                            <?= $global['preguntas'] ?? 'Preguntas' ?>
+                        </p>
+                        <h3 class="text-2xl md:text-3xl font-anton mb-6">
+                            <span class="text-gray-900"><?= $global['mapa_del'] ?? 'Mapa Del' ?></span>
+                            <span class="text-orange-custom"><?= $global['recorrido'] ?? 'Recorrido' ?></span>
+                        </h3>
+
+                        <?php
+                        $mapa = !empty($data['map']) ? $data['map'] : 'template-citytour.jpg';
+                        ?>
                         <a href="<?= $base_url ?>/images/mapas/<?= htmlspecialchars($mapa) ?>" target="_blank">
-                            <img
-                                src="<?= $base_url ?>/images/mapas/<?= htmlspecialchars($mapa) ?>"
-                                alt="Mapa del tour <?= htmlspecialchars($data['title'] ?? '') ?>"
-                                class="w-full h-auto max-h-[500px] object-cover rounded-xl shadow hover:scale-[1.02] transition duration-300"
-                                loading="lazy">
+                            <img src="<?= $base_url ?>/images/mapas/<?= htmlspecialchars($mapa) ?>"
+                                 alt="Mapa del tour <?= htmlspecialchars($data['title']) ?>"
+                                 class="w-full h-auto rounded-xl shadow-md hover:scale-[1.01] transition duration-300"
+                                 loading="lazy">
                         </a>
                     </div>
 
-                    <p class="text-center mt-2 text-sm">
-                        <a href="<?= $base_url ?>/images/mapas/<?= htmlspecialchars($mapa) ?>"
-                            target="_blank"
-                            class="text-[#ff9300] font-semibold hover:underline">
-                            <?= $global['ver_mapa'] ?>
-                        </a>
-                    </p>
+                    <!-- ============ TAB: GALERIA ============ -->
+                    <div class="tab-tour-content hidden" data-tab-content="galeria">
+                        <p class="text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                            <?= $global['explora_peru'] ?? 'Explora Peru' ?>
+                        </p>
+                        <h3 class="text-2xl md:text-3xl font-anton mb-6">
+                            <span class="text-gray-900"><?= $global['galeria_de'] ?? 'Galeria De' ?></span>
+                            <span class="text-orange-custom"><?= $global['fotos'] ?? 'Fotos' ?></span>
+                        </h3>
 
+                        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                            <?php foreach (($data['gallery'] ?? []) as $img): ?>
+                                <div class="rounded-xl overflow-hidden h-40 sm:h-48">
+                                    <img src="<?= $base_url ?>/images/tours/<?= htmlspecialchars($img) ?>"
+                                         alt="<?= htmlspecialchars($data['title']) ?>"
+                                         class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+
+                    <!-- ============ TAB: RECOMENDACIONES ============ -->
+                    <div class="tab-tour-content hidden" data-tab-content="recomendaciones">
+                        <p class="text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                            <?= $global['recomendaciones'] ?? 'Recomendaciones' ?>
+                        </p>
+                        <h3 class="text-2xl md:text-3xl font-anton mb-6 text-gray-900">
+                            <?= $global['recomendaciones'] ?? 'Recomendaciones' ?>
+                        </h3>
+
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                            <?php foreach (($data['recommendations'] ?? []) as $rec): ?>
+                                <div class="text-center">
+                                    <div class="bg-gray-100 rounded-lg h-24 flex items-center justify-center overflow-hidden mb-2">
+                                        <img src="<?= $base_url ?>/images/<?= htmlspecialchars($rec['img']) ?>"
+                                             alt="<?= htmlspecialchars($rec['nombre']) ?>"
+                                             class="max-h-full object-contain">
+                                    </div>
+                                    <p class="text-xs font-poppins text-gray-700"><?= htmlspecialchars($rec['nombre']) ?></p>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+
+                    <!-- ============ TAB: PRECIO (usa tus categorías existentes) ============ -->
+                    <div class="tab-tour-content hidden" data-tab-content="precio">
+                        <p class="text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                            <?= $global['precio'] ?? 'Precio' ?>
+                        </p>
+                        <h3 class="text-2xl md:text-3xl font-anton mb-6 text-gray-900">
+                            <?= $global['precio_y_disponibilidad'] ?? 'Precio Y Disponibilidad' ?>
+                        </h3>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <?php foreach (($data['categories'] ?? []) as $key => $cat): ?>
+                                <div class="border border-gray-200 rounded-xl p-5">
+                                    <h4 class="font-bold font-poppins text-gray-900 mb-1"><?= htmlspecialchars($cat['titulo']) ?></h4>
+                                    <p class="text-gray-500 text-sm font-poppins mb-3"><?= htmlspecialchars($cat['descripcion']) ?></p>
+                                    <span class="text-2xl font-bold text-orange-custom">$<?= htmlspecialchars($cat['precio']) ?></span>
+                                    <p class="text-gray-400 text-xs font-poppins mt-1"><?= htmlspecialchars($cat['nota']) ?></p>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+
+                    <!-- ============ FAQ (fija, debajo de las tabs) ============ -->
+                    <?php if (!empty($data['faq'])): ?>
+                    <div class="mt-14">
+                        <p class="text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                            <?= $global['preguntas'] ?? 'Preguntas' ?>
+                        </p>
+                        <h3 class="text-2xl md:text-3xl font-anton mb-6">
+                            <span class="text-gray-900"><?= $global['preguntas'] ?? 'Preguntas' ?></span>
+                            <span class="text-orange-custom"><?= $global['frecuentes'] ?? 'Frecuentes' ?></span>
+                        </h3>
+
+                        <div class="space-y-3">
+                            <?php foreach ($data['faq'] as $item): ?>
+                                <div class="faq-item border border-gray-800 rounded-lg overflow-hidden bg-[#2a2a2a]">
+                                    <button type="button" class="faq-toggle w-full flex items-center justify-between p-4 text-left text-white font-poppins font-semibold">
+                                        <?= htmlspecialchars($item['pregunta']) ?>
+                                        <i class="fa-solid fa-chevron-down text-orange-custom faq-icon transition-transform"></i>
+                                    </button>
+                                    <div class="faq-panel hidden px-4 pb-4">
+                                        <p class="text-gray-300 text-sm font-poppins leading-relaxed">
+                                            <?= htmlspecialchars($item['respuesta']) ?>
+                                        </p>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+                    <?php endif; ?>
 
                 </div>
 
+                <!-- COLUMNA DERECHA: SIDEBAR (precio + formulario) -->
+                <aside class="space-y-6">
+                    <!-- BLOQUE PRECIO -->
+                    <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-6">
 
-                <!-- Columna derecha (sidebar) -->
-                <aside class="space-y-8">
-                    <!-- Bloque precio -->
-                    <div class="bg-gray-50 text-center text-gray-800 rounded-2xl shadow-lg overflow-hidden py-2">
+                        <p class="text-gray-900 text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                            <?= $global['precio_desde'] ?? 'Precio Desde' ?>
+                        </p>
 
-                        <!-- Encabezado negro -->
-                        <div class="bg-black py-4 px-6">
-                            <h2 id="titulo-paquete" class="text-2xl font-extrabold text-white tracking-wide">
-                                <span id="titulo-text"><?= $data['title'] ?? 'Descripción no disponible'; ?></span>
-                                <!-- 
-                                Etiqueta de categoría "(SOLO)" desactivada.
-                                Motivo: generaba confusión en clientes y equipo de ventas.
-                                Decisión: se retira del frontend para simplificar el mensaje.
-                                Estado: desactivado temporalmente, pendiente de optimización UX.-->
-                                <!-- <span id="categoria-titulo" class="ml-2 text-[#ff6600]">(SOLO)</span> -->
-                                <span id="dias-paquete" class="text-[#ff9300] ml-2"><?= $data['duration'] ?? 'Descripción no disponible'; ?></span>
-                            </h2>
-                        </div>
+                        <h3 id="precio" class="text-5xl font-medium text-orange-custom leading-none mb-4">
+                            $<?= htmlspecialchars($data['price']) ?>
+                        </h3>
 
-                        <!-- Contenido principal -->
-                        <div class="p-6">
-                            <p class="text-[#ff9300] text-sm font-semibold mb-1 uppercase text-left"><?= $global['desde'] ?></p>
+                        <p class="font-bold font-poppins text-gray-900 text-sm mb-1">
+                            <?= $global['por_persona'] ?? 'Por Persona' ?>
+                        </p>
 
-                            <!-- PRECIO de tour -->
-                            <div class="flex flex-col items-center justify-center">
-                                <h3 id="precio" class="text-5xl font-extrabold text-[#ff9300] leading-none">$<?= $data['price'] ?? 'Descripción no disponible'; ?></h3>
-                            </div>
+                        <p id="nota-precio" class="text-gray-500 text-sm font-poppins leading-relaxed">
+                            <?= htmlspecialchars($data['price_note']) ?>
+                        </p>
 
-                            <!-- DESCUENTO (solo si existe y es > 0) -->
-                            <div class="flex flex-col items-center justify-center">
-                                <h3 id="precio" class="text-5xl font-extrabold text-[#ff9300] leading-none"></h3>
+                        <a href="https://wa.me/51987370201?text=<?= urlencode('Hola, quiero consultar sobre ' . $data['title']) ?>"
+                        target="_blank" rel="noopener"
+                        class="mt-6 inline-flex items-center justify-center gap-2 w-full px-6 py-3.5 bg-orange-custom text-white font-bold font-poppins rounded-lg hover:bg-[#c2660a] transition">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
+                            <?= $global['consultar_reservar'] ?? 'Consultar / Reservar' ?>
+                        </a>
 
-                                <!-- DESCUENTO -->
-                                <span id="descuentoTag"
-                                    class="hidden mt-2 bg-red-600 text-white text-sm font-bold px-3 py-1 rounded-full">
-                                </span>
-                            </div>
-
-
-                            <!-- DESCRIPCION de tour -->
-                            <p id="nota-precio" class="text-gray-600 text-[0.7rem] font-[Poppins] leading-relaxed mt-4">
-                                <?= $data['price_note'] ?? 'Descripción no disponible'; ?>
-                            </p>
-
-                            <!-- CONTADOR DE PERSONAS -->
-                            <div class="flex items-center justify-center gap-4 mt-6">
-                                <!-- ICONO DE PERSONAS -->
-                                <img src="<?= $base_url ?>/images/cantidad-personas.svg"
-                                    alt="Personas"
-                                    class="w-8 h-8 select-none">
-
-                                <!-- BOTÓN - -->
-                                <button
-                                    id="btnMenos"
-                                    class="w-8 h-8 flex items-center justify-center bg-gray-800 text-white rounded-full text-xl font-bold hover:bg-gray-700 transition">
-                                    -
-                                </button>
-
-                                <!-- CONTADOR -->
-                                <span id="contadorPasajeros" class="text-2xl font-bold text-gray-900">1</span>
-
-                                <!-- BOTÓN + -->
-                                <button
-                                    id="btnMas"
-                                    class="w-8 h-8 flex items-center justify-center bg-gray-800 text-white rounded-full text-xl font-bold hover:bg-gray-700 transition">
-                                    +
-                                </button>
-                            </div>
-
-                        </div>
                     </div>
 
-
-                    <!-- Formulario -->
+                    <!-- FORMULARIO -->
                     <?php
-                    $tipo_formulario = "tour";  // dinámico según el template
+                    $tipo_formulario = "tour";
                     include __DIR__ . "/../includes/template-formulario.php";
                     ?>
 
-
                 </aside>
-            </div>
 
+            </div>
         </section>
 
+        <!-- ******************** 
+             OPINIONES (usa tripadvisor.json global, reutilizado)
+         *********************** -->
+        <?php
+        $trip_json_path = __DIR__ . "/../locale/$lang/tripadvisor.json";
+        $trip_text = file_exists($trip_json_path) ? json_decode(file_get_contents($trip_json_path), true) : null;
+        ?>
+        <?php if ($trip_text): ?>
+        <section class="bg-white py-14">
+            <div class="container-custom mx-auto px-20">
+                <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
+                    <?= $trip_text['kicker'] ?? 'Preguntas' ?>
+                </p>
+                <h2 class="text-3xl md:text-4xl font-anton leading-tight mb-8">
+                    <span class="text-gray-900"><?= $trip_text['title_primary'] ?? 'Opiniones De' ?></span>
+                    <span class="text-orange-custom"><?= $trip_text['title_secondary'] ?? 'Nuestros Viajeros' ?></span>
+                </h2>
 
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                    <?php foreach (array_slice($trip_text['slides'], 0, 3) as $slide): ?>
+                        <div class="bg-white border border-gray-200 rounded-2xl shadow-sm p-6 flex flex-col">
+                            <div class="flex gap-1 mb-4">
+                                <?php for ($i = 0; $i < 5; $i++): ?>
+                                    <i class="fa-solid fa-star text-orange-custom text-lg"></i>
+                                <?php endfor; ?>
+                            </div>
+                            <p class="text-gray-700 font-poppins text-sm leading-relaxed italic flex-1">
+                                "<?= $slide['texto'] ?>"
+                            </p>
+                            <div class="flex items-center justify-between mt-5 pt-4 border-t border-gray-100">
+                                <div>
+                                    <p class="text-orange-custom text-sm font-bold font-poppins">- <?= ucwords(strtolower($slide['nombre'])) ?></p>
+                                    <p class="text-gray-500 text-xs font-poppins"><?= $slide['fecha'] ?></p>
+                                </div>
+                                <img src="<?= $base_url ?>/images/testimonials/<?= $slide['img'] ?>"
+                                     alt="<?= $slide['nombre'] ?>"
+                                     class="w-12 h-12 rounded-full object-cover border-2 border-orange-custom">
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </section>
+        <?php endif; ?>
+        <!-- ******************** 
+            TOURS RELACIONADOS
+        *********************** -->
+        <?php if (!empty($data['tours_relacionados'])): ?>
+        <section class="bg-white py-14">
+            <div class="container-custom mx-auto px-20">
+
+                <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
+                    <?= $global['explora_peru'] ?? 'Explora Peru' ?>
+                </p>
+
+                <h2 class="text-3xl md:text-4xl font-anton leading-tight mb-8">
+                    <span class="text-gray-900"><?= $global['tours'] ?? 'Tours' ?></span>
+                    <span class="text-orange-custom"><?= $global['relacionados'] ?? 'Relacionados' ?></span>
+                </h2>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <?php foreach ($data['tours_relacionados'] as $t): ?>
+                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $t['url'] ?>&lang=<?= $lang ?>"
+                        class="block bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+
+                            <div class="relative h-56 w-full overflow-hidden">
+                                <img src="<?= $base_url ?>/images/<?= htmlspecialchars($t['image']) ?>"
+                                    alt="<?= htmlspecialchars($t['title']) ?>"
+                                    class="w-full h-full object-cover">
+                            </div>
+
+                            <div class="p-4">
+                                <p class="text-orange-custom text-xs font-bold font-poppins mb-1">
+                                    <?= htmlspecialchars($t['duracion']) ?>
+                                </p>
+                                <h3 class="text-base font-bold font-poppins text-gray-900 leading-snug">
+                                    <?= htmlspecialchars($t['title']) ?>
+                                </h3>
+                                <p class="text-gray-500 text-xs font-poppins font-light mt-1 line-clamp-2">
+                                    <?= htmlspecialchars($t['description']) ?>
+                                </p>
+                            </div>
+
+                            <div class="border-t border-gray-200 mx-4"></div>
+
+                            <div class="flex items-center justify-between p-4">
+                                <div>
+                                    <span class="block text-[0.65rem] text-gray-400 font-poppins leading-none">desde</span>
+                                    <span class="text-xl font-bold text-orange-custom">$<?= htmlspecialchars($t['price']) ?></span>
+                                </div>
+                                <span class="bg-orange-custom text-white text-xs font-bold font-poppins rounded-full  px-4 py-2 rounded-full">
+                                    Reservar
+                                </span>
+                            </div>
+
+                        </a>
+                    <?php endforeach; ?>
+                </div>
+
+            </div>
+        </section>
+        <?php endif; ?>
     </main>
-    <!-- fin contenido paquete -->
-
-    <!-- PARA INCLUIR EL FOOTER -->
-    <?php
-    // idioma
-    $idioma = $_GET['lang'] ?? 'es';
-
-    // archivo footer JSON (corrección: subir un nivel)
-    $footer_json = __DIR__ . "/../locale/$idioma/footer.json";
-
-    // comprobar y cargar
-    if (file_exists($footer_json)) {
-        $footer = json_decode(file_get_contents($footer_json), true);
-    } else {
-        $footer = [];
-    }
-    ?>
-    <!-- FIN PARA INCLUIR EL FOOTER -->
-
-
 
     <?php include('../footer.php') ?>
 
-    <!-- // scrips // -->
-
-    <!-- Swiper JS -->
+    <!-- SCRIPTS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Mobile menu -->
     <script src="../js/mobile-menu.js"></script>
-
-    <!-- Swiper Trip Comments -->
     <script src="../js/swiper-trip-comments.js"></script>
-
-    <!-- Swiper tours -->
     <script src="../js/swiper-tours.js"></script>
 
-    <!-- ver mas texto-contenido JS -->
-    <script src="../js/see-more-text.js"></script>
+    <!-- TABS DEL TOUR -->
+    <script src="../js/tour-tabs.js"></script>
 
-    <!-- cambio-categoria JS -->
-    <script src="../js/change-category.js"></script>
+    <!-- ITINERARIO ACORDEON -->
+    <script src="../js/tour-itinerario-accordion.js"></script>
 
-    <!-- cambio-categoria JS -->
-    <script src="../js/change-category-text-price.js"></script>
+    <!-- FAQ ACORDEON -->
+    <script src="../js/tour-faq-accordion.js"></script>
 
-
-    <!-- ------------------------
-    pasando categorias a script   
-    ----------------------------- -->
+    <!-- CATEGORIAS + PASAJEROS + PRECIO -->
     <script>
-        const categorias = <?= json_encode($data['categories']); ?>;
+        const categoriasData = <?= json_encode($data['categories'] ?? [], JSON_UNESCAPED_UNICODE) ?>;
     </script>
-
-    <!-- Cargando de .json -->
-    <script>
-        const categoriaActual = "tour"; // ← esta variable luego será dinámica
-
-        fetch("/data/categorias.json")
-            .then(response => response.json())
-            .then(json => {
-                const item = json[categoriaActual];
-
-                if (!item) return;
-
-                // Actualizar HTML
-                document.getElementById("precio").textContent = "$" + item.precio;
-                document.getElementById("nota-precio").textContent = item.nota;
-                // Si después agregas más campos, se actualizan aquí
-            })
-            .catch(err => console.error("Error cargando JSON:", err));
-    </script>
-
-    <!-- -----------------------
-        + o - de pasajeros  
-    ---------------------------- -->
-    <script>
-        let pasajeros = 1;
-
-        const btnMas = document.getElementById('btnMas');
-        const btnMenos = document.getElementById('btnMenos');
-        const contador = document.getElementById('contadorPasajeros');
-        const precioElemento = document.getElementById('precio');
-
-        // Tomamos el precio base desde PHP (limpiando el $)
-        let precioBase = parseFloat("<?= str_replace('$', '', $data['price']); ?>");
-
-        btnMas.addEventListener('click', () => {
-            pasajeros++;
-            actualizarPrecio();
-        });
-
-        btnMenos.addEventListener('click', () => {
-            if (pasajeros > 1) {
-                pasajeros--;
-                actualizarPrecio();
-            }
-        });
-
-        function actualizarPrecio() {
-            contador.textContent = pasajeros;
-
-            let total = precioBase * pasajeros;
-
-            // Mostrar con dos decimales si quieres
-            precioElemento.textContent = "$" + total.toFixed(2);
-        }
-    </script>
-
-
-    <!-- --------------------------- 
-           cargar categorias data 
-     -------------------------- -->
-    <script>
-        const categoriasData = <?= json_encode($data['categories'], JSON_UNESCAPED_UNICODE) ?>;
-    </script>
-
-
-    <!-- -------------------------------------------------- 
-    Manejo de Categoría (visual + actualizar hidden/select) BLOQUE
-     ------------------------------------------------------- -->
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const categoryItems = document.querySelectorAll(".category-item");
-            const categoriaTituloSpan = document.getElementById("categoria-titulo");
-            const selectServicio = document.getElementById("selectServicio");
-            const inputCategoria = document.getElementById("inputCategoria");
-
-            const nombresCategorias = {
-                tour: "(SOLO)",
-                confort: "(CONFORT)",
-                premium: "(PREMIUM)",
-                elite: "(ELITE)"
-            };
-
-            categoryItems.forEach(item => {
-                item.addEventListener("click", () => {
-                    const categoria = item.dataset.category;
-
-                    // Activar visual
-                    categoryItems.forEach(i => i.classList.remove("text-[#ff6600]", "scale-105"));
-                    item.classList.add("text-[#ff6600]", "scale-105");
-
-                    // Actualizar UI
-                    if (categoriaTituloSpan) categoriaTituloSpan.textContent = nombresCategorias[categoria] || categoria;
-                    if (selectServicio) selectServicio.value = categoria;
-                    if (inputCategoria) inputCategoria.value = categoria;
-
-                    // Avisar al bloque C : “la categoría cambió”
-                    document.dispatchEvent(new CustomEvent("categoriaCambiada", {
-                        detail: categoria
-                    }));
-                });
-            });
-        });
-    </script>
-
-    <!-- -------------------------------------------------- 
-    Contador de pasajeros BLOQUE
-     ------------------------------------------------------- -->
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const contadorEl = document.getElementById("contadorPasajeros");
-            const btnMas = document.getElementById("btnMas");
-            const btnMenos = document.getElementById("btnMenos");
-
-            let pasajeros = parseInt(contadorEl.textContent) || 1;
-
-            btnMas.addEventListener("click", () => {
-                pasajeros++;
-                contadorEl.textContent = pasajeros;
-
-                // Avisar al bloque C
-                document.dispatchEvent(new CustomEvent("pasajerosCambiaron", {
-                    detail: pasajeros
-                }));
-            });
-
-            btnMenos.addEventListener("click", () => {
-                if (pasajeros > 1) {
-                    pasajeros--;
-                    contadorEl.textContent = pasajeros;
-
-                    // Avisar al bloque C
-                    document.dispatchEvent(new CustomEvent("pasajerosCambiaron", {
-                        detail: pasajeros
-                    }));
-                }
-            });
-        });
-    </script>
-
-    <!-- -------------------------------------------------- 
-    Cálculo de precio BLOQUE
-     ------------------------------------------------------- -->
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const precioEl = document.getElementById("precio");
-            const notaEl = document.getElementById("nota-precio");
-            const descuentoTag = document.getElementById("descuentoTag");
-
-            let categoria = "tour";
-            let pasajeros = 1;
-
-            if (typeof categoriasData === "undefined") {
-                console.error("categoriasData no existe");
-                return;
-            }
-
-            function parsePrecio(v) {
-                if (!v) return 0;
-                return parseFloat(String(v).replace(/[^0-9.]/g, "")) || 0;
-            }
-
-            function actualizarPrecio() {
-                let cat = categoriasData[categoria];
-                if (!cat) return;
-
-                const base = parsePrecio(cat.precio ?? cat.precio_base ?? 0);
-                const desc = parseFloat(cat.descuento ?? 0);
-                const precioFinal = base * (1 - desc / 100) * pasajeros;
-
-                precioEl.textContent = "$" + precioFinal.toFixed(2);
-                notaEl.textContent = cat.nota ?? "";
-
-                // Mostrar descuento si es mayor a 0
-                if (desc > 0) {
-                    descuentoTag.textContent = `-${desc}%`;
-                    descuentoTag.classList.remove("hidden");
-                } else {
-                    descuentoTag.classList.add("hidden");
-                }
-            }
-
-            // Escuchar cambios desde A y B
-            document.addEventListener("categoriaCambiada", e => {
-                categoria = e.detail;
-                actualizarPrecio();
-            });
-
-            document.addEventListener("pasajerosCambiaron", e => {
-                pasajeros = e.detail;
-                actualizarPrecio();
-            });
-
-            // Primera carga
-            actualizarPrecio();
-        });
-    </script>
-
-
+    <script src="../js/tour-price-calculator.js"></script>
 
 </body>
-
 </html>

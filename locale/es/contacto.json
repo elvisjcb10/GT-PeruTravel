@@ -1,0 +1,101 @@
+{
+    "hero": {
+        "background": "/images/inicio/hero.webp",
+        "kicker": "Estamos Para Ayudarte",
+        "title_primary": "Hablemos de tu",
+        "title_secondary": "próxima aventura",
+        "description": "Nuestro equipo de guías expertos está listo para asesorarte y diseñar el viaje perfecto por el Perú.",
+        "badges": [
+            "Respuesta en menos de 2 horas",
+            "Operador local certificado",
+            "4.9 / 5 en satisfacción"
+        ]
+    },
+    "formulario": {
+        "kicker": "Formulario De Contacto",
+        "title_primary": "Cuéntanos tu",
+        "title_secondary": "viaje ideal",
+        "description": "Completa el formulario y te contactamos en menos de 2 horas hábiles.",
+        "campos": {
+            "nombre": { "label": "Nombre", "placeholder": "Tu nombre completo" },
+            "apellido": { "label": "Apellido", "placeholder": "Tu apellido" },
+            "whatsapp": { "label": "Whatsapp / Teléfono", "placeholder": "+51 987 000 000" },
+            "email": { "label": "Correo Electrónico", "placeholder": "tu@email.com" },
+            "fecha": { "label": "Fecha de Viaje", "placeholder": "" },
+            "personas": { "label": "N° de Personas", "placeholder": "Seleccionar" },
+            "mensaje": { "label": "Mensaje", "placeholder": "Cuéntanos más sobre tu viaje: fechas, presupuesto aproximado, si viajas en familia, pareja, grupo..." }
+        },
+        "boton": "Enviar mensaje",
+        "nota_privacidad": "Tu información es privada y nunca será compartida con terceros."
+    },
+    "info_contacto": {
+        "kicker": "Información De Contacto",
+        "asesores": [
+            {
+                "nombre": "Carolina Ancco",
+                "cargo": "Asesor de Ventas",
+                "telefono": "+51 987 370",
+                "whatsapp": "51987370201",
+                "foto": "/images/equipo/asesor-1.webp"
+            },
+            {
+                "nombre": "Carolina Ancco",
+                "cargo": "Asesor de Ventas",
+                "telefono": "+51 987 370",
+                "whatsapp": "51987370202",
+                "foto": "/images/equipo/asesor-2.webp"
+            }
+        ],
+        "email": {
+            "titulo": "Correo Electrónico",
+            "valor": "info@perutravel.pe",
+            "nota": "Respuesta en menos de 2 horas"
+        },
+        "oficina": {
+            "titulo": "Oficina en Cusco",
+            "direccion": "Av. El Sol 345, Cusco",
+            "nota": "A 2 cuadras de la Plaza de Armas"
+        },
+        "redes": {
+            "titulo": "Síguenos",
+            "facebook": "https://www.facebook.com/gtperutravel",
+            "instagram": "https://www.instagram.com/gtperutravel_oficial/",
+            "tiktok": "https://www.tiktok.com/@gt_peru_travel",
+            "youtube": "https://www.youtube.com/@gtperutravel9213",
+            "threads": "#"
+        },
+        "mapa": {
+            "titulo": "Nuestra Ubicación",
+            "embed_url": "https://www.google.com/maps/embed?pb=REEMPLAZAR_CON_EMBED_REAL"
+        },
+        "horario": {
+            "titulo": "Horario de Atención",
+            "items": [
+                { "dias": "Lunes – Viernes", "horas": "9:00 – 18:00" },
+                { "dias": "Sábado", "horas": "9:00 – 14:00" },
+                { "dias": "Domingo", "horas": "Cerrado" },
+                { "dias": "WhatsApp", "horas": "7:00 – 21:00", "destacado": true }
+            ]
+        }
+    },
+    "whatsapp_banner": {
+        "titulo_primary": "¿Prefieres",
+        "titulo_secondary": "WhatsApp",
+        "descripcion": "Escríbenos directo y te respondemos al instante. Nuestro equipo está disponible todos los días de 7am a 9pm para resolver tus dudas.",
+        "boton": "Chatear ahora",
+        "numero": "51987370201"
+    },
+    "faq": {
+        "kicker": "Preguntas Frecuentes",
+        "title_primary": "Lo que más nos",
+        "title_secondary": "preguntan",
+        "preguntas": [
+            { "pregunta": "¿Con cuánta anticipación debo reservar mi tour?" },
+            { "pregunta": "¿Ofrecen tours privados o solo grupales?" },
+            { "pregunta": "¿Qué incluye el precio de los paquetes?" },
+            { "pregunta": "¿Cómo es la política de cancelación?" },
+            { "pregunta": "¿Hacen tours en inglés o portugués?" },
+            { "pregunta": "¿Qué métodos de pago aceptan?" }
+        ]
+    }
+}
