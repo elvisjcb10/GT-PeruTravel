@@ -1,0 +1,60 @@
+{
+    "background": "/images/machupicchu/machupicchu-hero.webp",
+    "badge": "Destino",
+    "titulo": "Tours a Machu Picchu",
+    "descripcion": "Descubre la ciudadela inca de Machu Picchu con diferentes rutas y experiencias: clásica, tren panorámico, tren de lujo o ruta amazónica.",
+    "stats": [
+        { "icono": "fa-mountain", "numero": "4+", "titulo": "Rutas" },
+        { "icono": "fa-people-group", "numero": "15K+", "titulo": "Viajeros" },
+        { "icono": "fa-star", "numero": "4.9", "titulo": "Calificación" },
+        { "icono": "fa-globe", "numero": "10+", "titulo": "Años de Exp." }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.9",
+        "texto": "+300 Viajeros"
+    },
+    "filtros": [
+        { "id": "todos", "label": "Todos" },
+        { "id": "tradicionales", "label": "Tradicionales" },
+        { "id": "premium", "label": "Premium" },
+        { "id": "aventura", "label": "Aventura" }
+    ],
+    "tours": [
+        {
+            "title": "Tour Machu Picchu Clasico",
+            "description": "Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
+            "price": "49",
+            "duracion": "Todo el dia",
+            "image": "clasico/img_header.webp",
+            "url": "clasico",
+            "categoria": "tradicionales"
+        },
+        {
+            "title": "Tour Machu Picchu con tren panoramico vista observatorio",
+            "description": "Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
+            "price": "19",
+            "duracion": "Todo el dia",
+            "image": "panoramico/img_header.webp",
+            "url": "tren_panoramico",
+            "categoria": "tradicionales"
+        },
+        {
+            "title": "Tour Machu Picchu en tren de lujo Hiram Bingham",
+            "description": "Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
+            "price": "89",
+            "duracion": "Todo el dia",
+            "image": "hiram/img_header.webp",
+            "url": "tren_hiram",
+            "categoria": "premium"
+        },
+        {
+            "title": "Tour Machu Picchu ruta amazonica",
+            "description": "Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
+            "price": "59",
+            "duracion": "2Dias / 1Noches",
+            "image": "amazonica/img_header.webp",
+            "url": "ruta_amazonica",
+            "categoria": "aventura"
+        }
+    ]
+}

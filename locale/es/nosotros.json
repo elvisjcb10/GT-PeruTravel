@@ -1,14 +1,14 @@
 {
     "hero": {
-        "background": "/images/nosotros/equipo-hero.webp",
+        "background": "/images/nosotros/hero.jpg",
         "kicker": "Agencia Autorizada · Cusco, Perú",
         "title_primary": "100% Tour",
         "title_highlight": "Local",
         "title_secondary": "desde Cusco",
         "description": "Somos una agencia de turismo autorizada con sede en Cusco, Perú. Con un equipo de profesionales apasionados, nuestro objetivo es que vivas el Perú de una manera auténtica e inolvidable.",
         "trip_awards": [
-            { "img": "/images/trip-awards-2025.png", "alt": "Tripadvisor Travelers Choice Awards 2025" },
-            { "img": "/images/trip-awards-2026.png", "alt": "Tripadvisor Travelers Choice 2026" }
+            { "img": "/images/tripadvisor-video.png", "alt": "Tripadvisor Travelers Choice Awards 2025" },
+            { "img": "/images/tripadvisor-video.png", "alt": "Tripadvisor Travelers Choice 2026" }
         ],
         "stats": [
             { "icono": "fa-mountain", "numero": "150+", "titulo": "Destinos" },
@@ -23,7 +23,7 @@
     },
 
     "quienes_somos": {
-        "img": "/images/nosotros/equipo-oficina.webp",
+        "img": "/images/nosotros/hero.jpg",
         "badge_img": "Tour 100% Local",
         "kicker": "Quiénes Somos",
         "title_primary": "Agencia",
@@ -32,7 +32,7 @@
         "description_1": "Somos una agencia de turismo autorizada con sede en Cusco, Perú, con un equipo de profesionales en turismo, nuestro principal objetivo es satisfacer plenamente a los visitantes que deciden descubrir esta región del mundo.",
         "description_2": "Operamos principalmente en la zona de Cusco, donde ofrecemos una amplia variedad de tours: desde tours convencionales hasta expediciones a la selva amazónica peruana y el Salkantay Trek. Ofrecemos la visita al santuario de Machu Picchu y un tour por la ciudad de Cusco, donde podrá deleitarse con las maravillosas fiestas, culturas y paisajes naturales de esta región.",
         "stats": [
-            { "numero": "15+", "titulo": "Años de Exp." },
+            { "numero": "10+", "titulo": "Años de Exp." },
             { "numero": "12K+", "titulo": "Viajeros" },
             { "numero": "4.9★", "titulo": "Calificación" },
             { "numero": "100%", "titulo": "Local" }
@@ -45,11 +45,11 @@
         "title_secondary": "Apasionados",
         "description": "Comprometidos con tu experiencia perfecta. Cada asesor está verificado y disponible por WhatsApp.",
         "asesores": [
-            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/equipo/asesor-1.webp", "whatsapp": "51987370201" },
-            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/equipo/asesor-2.webp", "whatsapp": "51987370202" },
-            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/equipo/asesor-3.webp", "whatsapp": "51987370203" },
-            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/equipo/asesor-4.webp", "whatsapp": "51987370204" },
-            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/equipo/asesor-5.webp", "whatsapp": "51987370205" }
+            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/nosotros/carmen.jpg", "whatsapp": "51987370201" },
+            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/nosotros/carmen.jpg", "whatsapp": "51987370202" },
+            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/nosotros/carmen.jpg", "whatsapp": "51987370203" },
+            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/nosotros/carmen.jpg", "whatsapp": "51987370204" },
+            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/nosotros/carmen.jpg", "whatsapp": "51987370205" }
         ]
     },
 
@@ -70,7 +70,7 @@
     },
 
     "historia": {
-        "background": "/images/nosotros/rieles-tren.webp",
+        "background": "/images/nosotros/historia.webp",
         "kicker": "Nuestra Historia",
         "title_primary": "Un viaje de",
         "title_highlight": "pasión",

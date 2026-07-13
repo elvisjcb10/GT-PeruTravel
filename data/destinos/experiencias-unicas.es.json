@@ -1,0 +1,57 @@
+{
+    "background": "/images/experiencias_unicas/experiencias-hero.webp",
+    "badge": "Destino",
+    "titulo": "Experiencias Únicas",
+    "descripcion": "Conéctate con la cultura andina a través de ceremonias místicas y delicias gastronómicas tradicionales preparadas bajo tierra.",
+    "stats": [
+        { "icono": "fa-mountain", "numero": "4+", "titulo": "Experiencias" },
+        { "icono": "fa-people-group", "numero": "5K+", "titulo": "Viajeros" },
+        { "icono": "fa-star", "numero": "4.9", "titulo": "Calificación" },
+        { "icono": "fa-globe", "numero": "10+", "titulo": "Años de Exp." }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.9",
+        "texto": "+100 Viajeros"
+    },
+    "filtros": [
+       
+    ],
+    "tours": [
+        {
+            "title": "Experiencia místicas medio días",
+            "description": "Vive una jornada de introspección y conexión espiritual con rituales ancestrales guiados.",
+            "price": "39",
+            "duracion": "Medio día",
+            "image": "misticas/img_header.webp",
+            "url": "misticas",
+            "categoria": "misticas"
+        },
+        {
+            "title": "Tour maras Moray + pachamanca andino full day",
+            "description": "Combina la maravilla de los laboratorios incas con un banquete tradicional andino cocinado bajo tierra.",
+            "price": "99",
+            "duracion": "Full Day",
+            "image": "maras_pachamanca/img_header.webp",
+            "url": "tour_maras_pachamanca",
+            "categoria": "gastronomia"
+        },
+        {
+            "title": "Pachamanca andino medio dia",
+            "description": "Disfruta del proceso de preparación y degustación de la tradicional Pachamanca ancestral.",
+            "price": "49",
+            "duracion": "Medio día",
+            "image": "pachamanca/img_header.webp",
+            "url": "pachamanca_medio_dia",
+            "categoria": "gastronomia"
+        },
+        {
+            "title": "Ofrenda ritual andina medio dia",
+            "description": "Participa activamente en una auténtica ofrenda de agradecimiento a la Pachamama (Madre Tierra).",
+            "price": "35",
+            "duracion": "Medio día",
+            "image": "ritual_andino/img_header.webp",
+            "url": "ritual_andino",
+            "categoria": "misticas"
+        }
+    ]
+}

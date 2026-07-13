@@ -172,122 +172,93 @@ require_once __DIR__ . "/config/environment.php";
             </div>
         </div>
     </section>
-    <!-- banner social-->
-    <section id="banner-social" class="bg-white shadow-sm border-b ">
-        <div class="container-custom  px-4 font-poppins">
-
-            <div class="flex flex-col md:flex-row items-center justify-between gap-4 py-3">
+    <!--banner ctae -->
+    <section id="banner-social" class="bg-white shadow-sm border-b">
+        <div class="container-custom px-4 font-poppins">
+            <div class="flex items-center justify-between gap-4 py-3">
 
                 <!-- Logo -->
                 <div class="shrink-0">
                     <a href="<?= $base_url ?>?lang=<?= $idioma ?>">
-                        <img 
-                            src="<?= $base_url ?>/images/gt-peru-travel.png"
+                        <img src="<?= $base_url ?>/images/gt-peru-travel.png"
                             alt="GT Peru Travel"
-                            class="w-23 md:w-32 hover:scale-105 transition duration-300"
-                        >
+                            class="w-20 sm:w-24 md:w-32 hover:scale-105 transition duration-300">
                     </a>
                 </div>
 
-                <!-- Links -->
-                <div class="hidden md:flex items-center gap-8 text-sm font-medium text-[#333]">
+                <!-- Links (solo desktop) -->
+                <div class="hidden lg:flex items-center gap-8 text-sm font-medium text-[#333]">
 
-                    <a href="https://www.gtperutravel.com/blog"
-                    target="_blank"
+                    <a href="https://www.gtperutravel.com/blog" 
                     class="group flex items-center gap-1 hover:text-[#ff9300] transition duration-300">
                         <?= $header_text['banner_social']['extra_links']['blog'] ?>
-
-                        <svg xmlns="http://www.w3.org/2000/svg"
-                            class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition"
+                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h6m0 0v6m0-6L10 16"/>
                         </svg>
                     </a>
 
-                    <a href="https://www.gtperutravel.com/recomendaciones"
-                    target="_blank"
+                    <a href="https://www.gtperutravel.com/recomendaciones" target="_blank"
                     class="group flex items-center gap-1 hover:text-[#ff9300] transition duration-300">
                         <?= $header_text['banner_social']['extra_links']['testimonios'] ?>
-
-                        <svg xmlns="http://www.w3.org/2000/svg"
-                            class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition"
+                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h6m0 0v6m0-6L10 16"/>
                         </svg>
                     </a>
+
                     <a href="<?= $base_url ?>/nosotros.php?lang=<?= $idioma ?>"
-                    target="_blank"
                     class="group flex items-center gap-1 hover:text-[#ff9300] transition duration-300">
                         <?= $header_text['banner_social']['extra_links']['nosotros'] ?>
-
-                        <svg xmlns="http://www.w3.org/2000/svg"
-                            class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition"
+                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h6m0 0v6m0-6L10 16"/>
                         </svg>
                     </a>
-                    <a href="<?= $base_url ?>/contacto.php?lang=<?= $idioma ?>"
-                    class="inline-flex items-center gap-2 bg-[#ff9300] hover:bg-[#ff7a00]
-                            hover:shadow-lg hover:-translate-y-0.5
-                            transition duration-300 text-white px-5 py-2.5 rounded-lg font-semibold group">
 
+                    <a href="<?= $base_url ?>/contacto.php?lang=<?= $idioma ?>"
+                    class="inline-flex items-center gap-2 bg-[#ff9300] hover:bg-[#ff7a00] hover:shadow-lg hover:-translate-y-0.5
+                            transition duration-300 text-white px-5 py-2.5 rounded-lg font-semibold group">
                         <?= $header_text['banner_social']['extra_links']['impacto'] ?>
-                        <svg xmlns="http://www.w3.org/2000/svg"
-                            class="w-4 h-4 group-hover:translate-x-1 transition duration-300"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M5 12h18m0 0l-4-4m4 4l-4 4"/>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 group-hover:translate-x-1 transition duration-300"
+                            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h18m0 0l-4-4m4 4l-4 4"/>
                         </svg>
                     </a>
 
                 </div>
 
+                <!-- Botón CTA visible en mobile/tablet + botón hamburguesa -->
+                <div class="flex items-center gap-3 lg:hidden">
+                    <a href="<?= $base_url ?>/contacto.php?lang=<?= $idioma ?>"
+                    class="hidden sm:inline-flex items-center gap-1.5 bg-[#ff9300] hover:bg-[#ff7a00] transition text-white text-xs px-4 py-2 rounded-lg font-semibold">
+                        <?= $header_text['banner_social']['extra_links']['impacto'] ?>
+                    </a>
+
+                    <button id="menu-btn-mobile" aria-label="Abrir menú"
+                            class="text-gray-800 p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
 
             </div>
-
         </div>
     </section>
     <!--navbar menu-->
-    <section id="nav-menu">
+    <section id="nav-menu" class="hidden lg:block">
         <div class="bg-[#FF9300]  text-white shadow-md font-poppins">
             <div class="container-custom mx-auto ">
-
                 <nav class="relative">
-
-                    <!-- Botón mobile -->
-                    <button id="menu-btn"
-                        class="absolute left-0 top-1/2 -translate-y-1/2 md:hidden text-white z-50">
-                        <svg xmlns="http://www.w3.org/2000/svg"
-                            class="w-6 h-6"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M4 6h16M4 12h16M4 18h16"/>
-                        </svg>
-                    </button>
-
+                   
                     <!-- Menu desktop -->
-                    <ul id="menu"
-                        class="hidden py-2  md:flex relative w-full items-center  justify-center gap-12  text-[14px] font-semibold uppercase tracking-[0.4px]">
+                    <ul class="hidden py-2  md:flex relative w-full items-center  justify-center gap-12  text-[14px] font-semibold uppercase tracking-[0.4px]">
                         <!-- DESTINOS -->
-                        <li class="group">
+                       <!-- DESTINOS -->
+                        <li class="group/menu">
                             <a href="<?= $base_url ?>/?lang=<?= $idioma ?>"
-                            class="group flex items-center gap-1 px-2   hover:text-orange-200 transition">
+                            class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
                                 
                                 <?= $header_text['menu']['destinos'] ?>
 
@@ -305,8 +276,8 @@ require_once __DIR__ . "/config/environment.php";
                             <!-- MEGA MENU -->
                             <div class="absolute left-0 top-full w-full
                                         opacity-0 invisible
-                                        group-hover:opacity-100
-                                        group-hover:visible
+                                        group-hover/menu:opacity-100
+                                        group-hover/menu:visible
                                         transition-all duration-300
                                         z-[9999]  ">
 
@@ -314,11 +285,11 @@ require_once __DIR__ . "/config/environment.php";
                                     <div class="grid grid-cols-5 gap-6">
 
                                         <!-- lima-->
-                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=lima&lang=<?= $idioma ?>" class="group block rounded-xl overflow-hidden shadow-md">
-                                            <div class="relative h-48">
+                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=lima&lang=<?= $idioma ?>" class="group/card block rounded-xl overflow-hidden shadow-md">
+                                            <div class="relative h-48 overflow-hidden">
                                                 <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['lima']['img'] ?>"
                                                     alt="Lima"
-                                                    class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                                                    class="w-full h-full object-cover transform transition-transform duration-500 ease-out group-hover/card:scale-110">
 
                                                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-3">
                                                     <span class="text-white text-lg font-bold">
@@ -327,12 +298,13 @@ require_once __DIR__ . "/config/environment.php";
                                                 </div>
                                             </div>
                                         </a>
+
                                         <!-- Manu -->
-                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=manu_tambopata&lang=<?= $idioma ?>" class="group block rounded-xl overflow-hidden shadow-md">
-                                            <div class="relative h-48">
+                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=manu_tambopata&lang=<?= $idioma ?>" class="group/card block rounded-xl overflow-hidden shadow-md">
+                                            <div class="relative h-48 overflow-hidden">
                                                 <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['manu_tambopata']['img'] ?>"
-                                                    alt="Lima"
-                                                    class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                                                    alt="Manu Tambopata"
+                                                    class="w-full h-full object-cover transform transition-transform duration-500 ease-out group-hover/card:scale-110">
 
                                                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-3">
                                                     <span class="text-white text-lg font-bold">
@@ -341,11 +313,13 @@ require_once __DIR__ . "/config/environment.php";
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=arequipa&lang=<?= $idioma ?>"  class="group block rounded-xl overflow-hidden shadow-md">
-                                            <div class="relative h-48">
+
+                                        <!-- Arequipa -->
+                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=arequipa&lang=<?= $idioma ?>" class="group/card block rounded-xl overflow-hidden shadow-md">
+                                            <div class="relative h-48 overflow-hidden">
                                                 <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['arequipa']['img'] ?>"
-                                                    alt="Lima"
-                                                    class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                                                    alt="Arequipa"
+                                                    class="w-full h-full object-cover transform transition-transform duration-500 ease-out group-hover/card:scale-110">
 
                                                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-3">
                                                     <span class="text-white text-lg font-bold">
@@ -354,11 +328,13 @@ require_once __DIR__ . "/config/environment.php";
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=puno&lang=<?= $idioma ?>"  class="group block rounded-xl overflow-hidden shadow-md">
-                                            <div class="relative h-48">
+
+                                        <!-- Puno -->
+                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=puno&lang=<?= $idioma ?>" class="group/card block rounded-xl overflow-hidden shadow-md">
+                                            <div class="relative h-48 overflow-hidden">
                                                 <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['puno']['img'] ?>"
-                                                    alt="Lima"
-                                                    class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                                                    alt="Puno"
+                                                    class="w-full h-full object-cover transform transition-transform duration-500 ease-out group-hover/card:scale-110">
 
                                                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-3">
                                                     <span class="text-white text-lg font-bold">
@@ -367,11 +343,13 @@ require_once __DIR__ . "/config/environment.php";
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=huaraz&lang=<?= $idioma ?>" class="group block rounded-xl overflow-hidden shadow-md">
-                                            <div class="relative h-48">
+
+                                        <!-- Huaraz -->
+                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=huaraz&lang=<?= $idioma ?>" class="group/card block rounded-xl overflow-hidden shadow-md">
+                                            <div class="relative h-48 overflow-hidden">
                                                 <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['huaraz']['img'] ?>"
-                                                    alt="Lima"
-                                                    class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                                                    alt="Huaraz"
+                                                    class="w-full h-full object-cover transform transition-transform duration-500 ease-out group-hover/card:scale-110">
 
                                                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-3">
                                                     <span class="text-white text-lg font-bold">
@@ -381,15 +359,13 @@ require_once __DIR__ . "/config/environment.php";
                                             </div>
                                         </a>
 
-                                        
-
                                     </div>
                                 </div>
                             </div>
                         </li>
                         <!-- TOURS CUSCO -->
                         <li class="group">
-                            <a href="#" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
+                            <a href="<?= $base_url ?>/destino/template-destino.php?destino=cusco&lang=<?= $idioma ?>" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
                                 <?= $header_text['menu']['tour_cusco'] ?>
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     class="w-5 h-5 opacity-80 transition-transform duration-300 group-hover:rotate-180"
@@ -407,14 +383,14 @@ require_once __DIR__ . "/config/environment.php";
                                         transition-all duration-300 z-[9999]">
 
                                 <div class="container-custom mx-auto">
-                                    <div class="bg-white shadow-2xl rounded-2xl p-8 text-[#333] text-sm font-normal normal-case">
+                                    <div class="bg-white shadow-2xl rounded-2xl p-8 text-[#333] text-sm  normal-case">
                                         <!-- 3 columnas -->
                                         <div class="grid grid-cols-3 gap-8">
 
                                             <!-- COL 1: Tours Tradicionales -->
                                             <div class="flex flex-col gap-1">
 
-                                                <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2 px-2">
+                                                <p class="text-xl font-anton-sub font-medium    mb-2 px-2 text-[#FF9300]">
                                                     <?= $header_text['mega_menu']['tour_cusco']['tradicionales']['title'] ?>
                                                 </p>
 
@@ -440,7 +416,7 @@ require_once __DIR__ . "/config/environment.php";
                                             <!-- COL 2: Tours de Caminata -->
                                             <div class="flex flex-col gap-1">
 
-                                                <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2 px-2">
+                                                <p class="text-xl font-anton-sub font-medium   mb-2 px-2 text-[#FF9300]">
                                                     <?= $header_text['mega_menu']['tour_cusco']['caminata']['title'] ?>
                                                 </p>
 
@@ -466,7 +442,7 @@ require_once __DIR__ . "/config/environment.php";
                                             <!-- COL 3: Tours de Aventura -->
                                             <div class="flex flex-col gap-1">
 
-                                                <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2 px-2">
+                                                <p class="text-xl font-anton-sub font-medium    mb-2 px-2 text-[#FF9300]">
                                                     <?= $header_text['mega_menu']['tour_cusco']['aventura']['title'] ?>
                                                 </p>
 
@@ -496,7 +472,7 @@ require_once __DIR__ . "/config/environment.php";
                         </li>
                         <!-- MACHU PICCHU -->
                         <li class="group" data-megamenu>
-                            <a href="#" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
+                            <a href="<?= $base_url ?>/destino/template-destino.php?destino=machupicchu&lang=<?= $idioma ?>"" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
                                 <?= $header_text['menu']['machupicchu'] ?>
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     class="w-5 h-5 opacity-80 transition-transform duration-300 group-hover:rotate-180"
@@ -551,9 +527,9 @@ require_once __DIR__ . "/config/environment.php";
                                             <div data-preview="default" class="col-span-2 grid grid-cols-2 gap-4">
 
                                                 <!-- Info -->
-                                                <div class="flex flex-col gap-4">
+                                                <div class="flex flex-col gap-4  ">
                                                     <div>
-                                                        <h3 class="text-xl font-bold text-[#FF9300] mb-2 leading-snug">
+                                                        <h3 class="text-2xl font-medium font-anton-sub text-[#FF9300] mb-2 leading-snug  ">
                                                             <?= $header_text['mega_menu']['machupicchu']['nombre'] ?>
                                                         </h3>
                                                         <p class="text-gray-500 leading-relaxed text-sm">
@@ -613,7 +589,7 @@ require_once __DIR__ . "/config/environment.php";
 
                                                 <!-- Info del tour -->
                                                 <div class="flex flex-col gap-3">
-                                                    <h3 data-preview="title" class="text-xl font-bold text-[#FF9300] leading-snug"></h3>
+                                                    <h3 data-preview="title" class="text-2xl font-anton-sub font-medium text-[#FF9300] leading-snug"></h3>
                                                     <p  data-preview="desc"  class="text-gray-500 leading-relaxed text-sm"></p>
 
                                                     <div class="flex flex-col gap-2 text-sm text-gray-600 mt-1">
@@ -663,7 +639,7 @@ require_once __DIR__ . "/config/environment.php";
                         </li>
                         <!-- GLACIARES -->
                         <li class="group" data-megamenu>
-                            <a href="#" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
+                            <a href="<?= $base_url ?>/destino/template-destino.php?destino=glaciares&lang=<?= $idioma ?>" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
                                 <?= $header_text['menu']['glaciares_cusco'] ?>
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     class="w-5 h-5 opacity-80 transition-transform duration-300 group-hover:rotate-180"
@@ -720,7 +696,7 @@ require_once __DIR__ . "/config/environment.php";
                                                 <!-- Info -->
                                                 <div class="flex flex-col gap-4">
                                                     <div>
-                                                        <h3 class="text-xl font-bold text-[#FF9300] mb-2 leading-snug">
+                                                        <h3 class="text-2xl font-medium font-anton-sub text-[#FF9300] mb-2 leading-snug">
                                                             <?= $header_text['mega_menu']['glaciares']['nombre'] ?>
                                                         </h3>
                                                         <p class="text-gray-500 leading-relaxed text-sm">
@@ -780,7 +756,7 @@ require_once __DIR__ . "/config/environment.php";
 
                                                 <!-- Info del tour -->
                                                 <div class="flex flex-col gap-3">
-                                                    <h3 data-preview="title" class="text-xl font-bold text-[#FF9300] leading-snug"></h3>
+                                                    <h3 data-preview="title" class="text-2xl font-medium font-anton-sub text-[#FF9300] leading-snug"></h3>
                                                     <p  data-preview="desc"  class="text-gray-500 leading-relaxed text-sm"></p>
 
                                                     <div class="flex flex-col gap-2 text-sm text-gray-600 mt-1">
@@ -830,7 +806,7 @@ require_once __DIR__ . "/config/environment.php";
                         </li>
                         <!-- EXPERIENCIA UNICAS -->
                         <li class="group" data-megamenu>
-                            <a href="#" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
+                            <a href="<?= $base_url ?>/destino/template-destino.php?destino=experiencias-unicas&lang=<?= $idioma ?>" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
                                 <?= $header_text['menu']['experiencia_unica'] ?>
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     class="w-5 h-5 opacity-80 transition-transform duration-300 group-hover:rotate-180"
@@ -886,7 +862,7 @@ require_once __DIR__ . "/config/environment.php";
                                                 <!-- Info -->
                                                 <div class="flex flex-col gap-4">
                                                     <div>
-                                                        <h3 class="text-xl font-bold text-[#FF9300] mb-2 leading-snug">
+                                                        <h3 class="text-2xl font-medium font-anton-sub text-[#FF9300] mb-2 leading-snug">
                                                             <?= $header_text['mega_menu']['experiencias_unicas']['nombre'] ?>
                                                         </h3>
                                                         <p class="text-gray-500 leading-relaxed text-sm">
@@ -946,7 +922,7 @@ require_once __DIR__ . "/config/environment.php";
 
                                                 <!-- Info del tour -->
                                                 <div class="flex flex-col gap-3">
-                                                    <h3 data-preview="title" class="text-xl font-bold text-[#FF9300] leading-snug"></h3>
+                                                    <h3 data-preview="title" class="text-2xl font-medium font-anton-sub text-[#FF9300] leading-snug"></h3>
                                                     <p  data-preview="desc"  class="text-gray-500 leading-relaxed text-sm"></p>
 
                                                     <div class="flex flex-col gap-2 text-sm text-gray-600 mt-1">
@@ -996,7 +972,7 @@ require_once __DIR__ . "/config/environment.php";
                         </li>
                         <!-- PAQUETES PERU -->
                         <li class="group">
-                            <a href="#" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
+                            <a href="<?= $base_url ?>/destino/template-destino.php?destino=paquete-peru&lang=<?= $idioma ?>"  class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
                                 <?= $header_text['menu']['paquete_peru'] ?>
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     class="w-5 h-5 opacity-80 transition-transform duration-300 group-hover:rotate-180"
@@ -1045,5 +1021,155 @@ require_once __DIR__ . "/config/environment.php";
             </div>
         </div>
     </section>
+   <!-- ============================================
+     MENU MOBILE (panel deslizable + overlay)
+     ============================================ -->
+    <div id="mobile-menu-overlay" class="fixed inset-0 bg-black/50 z-[9998] hidden lg:hidden"></div>
 
+    <div id="mobile-menu-panel"
+        class="fixed top-0 right-0 h-full w-[85%] max-w-sm bg-white z-[9999] shadow-2xl
+                transform translate-x-full transition-transform duration-300 ease-in-out
+                overflow-y-auto lg:hidden">
+
+        <!-- Header del panel -->
+        <div class="flex items-center justify-between p-4 border-b border-gray-200 sticky top-0 bg-white z-10">
+            <img src="<?= $base_url ?>/images/gt-peru-travel.png" alt="GT Peru Travel" class="w-24">
+            <button id="menu-close-btn" aria-label="Cerrar menú" class="text-gray-600 p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Links principales del sitio (los que estaban en banner-social) -->
+        <div class="p-4 border-b border-gray-200 space-y-1">
+            <a href="https://www.gtperutravel.com/blog" target="_blank"
+            class="flex items-center justify-between py-3 px-2 text-gray-700 font-medium text-sm hover:bg-gray-50 rounded-lg">
+                <?= $header_text['banner_social']['extra_links']['blog'] ?>
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-400"></i>
+            </a>
+            <a href="https://www.gtperutravel.com/recomendaciones" target="_blank"
+            class="flex items-center justify-between py-3 px-2 text-gray-700 font-medium text-sm hover:bg-gray-50 rounded-lg">
+                <?= $header_text['banner_social']['extra_links']['testimonios'] ?>
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-400"></i>
+            </a>
+            <a href="<?= $base_url ?>/nosotros.php?lang=<?= $idioma ?>"
+            class="flex items-center justify-between py-3 px-2 text-gray-700 font-medium text-sm hover:bg-gray-50 rounded-lg">
+                <?= $header_text['banner_social']['extra_links']['nosotros'] ?>
+            </a>
+        </div>
+
+        <!-- Menú principal (acordeones) -->
+        <div class="p-4 space-y-2">
+
+            <!-- DESTINOS -->
+            <div class="mobile-accordion border-b border-gray-100 pb-2">
+                <button type="button" class="mobile-accordion-toggle w-full flex items-center justify-between py-3 text-left font-medium text-gray-900 text-sm uppercase tracking-wide">
+                    <?= $header_text['menu']['destinos'] ?>
+                    <i class="fa-solid fa-chevron-down text-orange-custom text-xs mobile-accordion-icon transition-transform"></i>
+                </button>
+                <div class=" font-poppins mobile-accordion-panel hidden pl-2 pb-2 space-y-1">
+                    <?php
+                    $destinos_menu = ['lima', 'manu_tambopata', 'arequipa', 'puno', 'huaraz'];
+                    foreach ($destinos_menu as $d): ?>
+                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=<?= $d ?>&lang=<?= $idioma ?>"
+                        class="block py-2 text-gray-600 text-sm hover:text-orange-custom">
+                            <?= $header_text['mega_menu']['destinos'][$d]['nombre'] ?>
+                        </a>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+
+            <!-- TOUR CUSCO -->
+            <div class="mobile-accordion border-b border-gray-100 pb-2">
+                <button type="button" class="mobile-accordion-toggle w-full flex items-center justify-between py-3 text-left font-medium text-gray-900 text-sm uppercase tracking-wide">
+                    <?= $header_text['menu']['tour_cusco'] ?>
+                    <i class="fa-solid fa-chevron-down text-orange-custom text-xs mobile-accordion-icon transition-transform"></i>
+                </button>
+                <div class=" font-poppins mobile-accordion-panel hidden pl-2 pb-2">
+                    <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mt-2 mb-1"><?= $header_text['mega_menu']['tour_cusco']['tradicionales']['title'] ?></p>
+                    <?php foreach ($header_text['mega_menu']['tour_cusco']['tradicionales']['links'] as $key => $nombre): ?>
+                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $key ?>&lang=<?= $idioma ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $nombre ?></a>
+                    <?php endforeach; ?>
+
+                    <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mt-3 mb-1"><?= $header_text['mega_menu']['tour_cusco']['caminata']['title'] ?></p>
+                    <?php foreach ($header_text['mega_menu']['tour_cusco']['caminata']['links'] as $key => $nombre): ?>
+                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $key ?>&lang=<?= $idioma ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $nombre ?></a>
+                    <?php endforeach; ?>
+
+                    <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mt-3 mb-1"><?= $header_text['mega_menu']['tour_cusco']['aventura']['title'] ?></p>
+                    <?php foreach ($header_text['mega_menu']['tour_cusco']['aventura']['links'] as $key => $nombre): ?>
+                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $key ?>&lang=<?= $idioma ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $nombre ?></a>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+
+            <!-- MACHUPICCHU -->
+            <div class="mobile-accordion border-b border-gray-100 pb-2">
+                <button type="button" class="mobile-accordion-toggle w-full flex items-center justify-between py-3 text-left font-medium text-gray-900 text-sm uppercase tracking-wide">
+                    <?= $header_text['menu']['machupicchu'] ?>
+                    <i class="fa-solid fa-chevron-down text-orange-custom text-xs mobile-accordion-icon transition-transform"></i>
+                </button>
+                <div class=" font-poppins mobile-accordion-panel hidden pl-2 pb-2 space-y-1">
+                    <?php foreach ($header_text['mega_menu']['machupicchu']['links'] as $key => $tour): ?>
+                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $key ?>&lang=<?= $idioma ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $tour['nombre'] ?></a>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+
+            <!-- GLACIARES -->
+            <div class="mobile-accordion border-b border-gray-100 pb-2">
+                <button type="button" class="mobile-accordion-toggle w-full flex items-center justify-between py-3 text-left font-medium text-gray-900 text-sm uppercase tracking-wide">
+                    <?= $header_text['menu']['glaciares_cusco'] ?>
+                    <i class="fa-solid fa-chevron-down text-orange-custom text-xs mobile-accordion-icon transition-transform"></i>
+                </button>
+                <div class=" font-poppins mobile-accordion-panel hidden pl-2 pb-2 space-y-1">
+                    <?php foreach ($header_text['mega_menu']['glaciares']['links'] as $key => $tour): ?>
+                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $key ?>&lang=<?= $idioma ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $tour['nombre'] ?></a>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+
+            <!-- EXPERIENCIAS UNICAS -->
+            <div class="mobile-accordion border-b border-gray-100 pb-2">
+                <button type="button" class="mobile-accordion-toggle w-full flex items-center justify-between py-3 text-left font-medium text-gray-900 text-sm uppercase tracking-wide">
+                    <?= $header_text['menu']['experiencia_unica'] ?>
+                    <i class="fa-solid fa-chevron-down text-orange-custom text-xs mobile-accordion-icon transition-transform"></i>
+                </button>
+                <div class=" font-poppins mobile-accordion-panel hidden pl-2 pb-2 space-y-1">
+                    <?php foreach ($header_text['mega_menu']['experiencias_unicas']['links'] as $key => $tour): ?>
+                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $key ?>&lang=<?= $idioma ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $tour['nombre'] ?></a>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+
+            <!-- PAQUETE PERU -->
+            <div class="mobile-accordion pb-2">
+                <button type="button" class="mobile-accordion-toggle w-full flex items-center justify-between py-3 text-left font-medium text-gray-900 text-sm uppercase tracking-wide">
+                    <?= $header_text['menu']['paquete_peru'] ?>
+                    <i class="fa-solid fa-chevron-down text-orange-custom text-xs mobile-accordion-icon transition-transform"></i>
+                </button>
+                <div class="mobile-accordion-panel hidden pl-2 pb-2 space-y-1 font-poppins ">
+                    <?php foreach ($header_text['mega_menu']['paquete_peru']['links'] as $key => $nombre): ?>
+                        <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=<?= $key ?>&lang=<?= $idioma ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $nombre ?></a>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- CTA + idiomas al final del panel -->
+        <div class="p-4 border-t border-gray-200">
+            <a href="<?= $base_url ?>/contacto.php?lang=<?= $idioma ?>"
+            class="flex items-center justify-center gap-2 bg-orange-custom hover:bg-[#ff7a00] transition text-white font-medium text-sm px-5 py-3 rounded-lg mb-4">
+                <?= $header_text['banner_social']['extra_links']['impacto'] ?>
+            </a>
+            <div class="flex items-center justify-center gap-3">
+                <a href="<?= cambiarIdioma('es') ?>"><img src="<?= $base_url ?>/images/es.png" width="26" alt="Español"></a>
+                <a href="<?= cambiarIdioma('en') ?>"><img src="<?= $base_url ?>/images/en.png" width="26" alt="English"></a>
+                <a href="<?= cambiarIdioma('pt') ?>"><img src="<?= $base_url ?>/images/pt.png" width="26" alt="Português"></a>
+            </div>
+        </div>
+
+    </div>
 </header>

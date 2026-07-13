@@ -36,14 +36,14 @@
                 "cargo": "Asesor de Ventas",
                 "telefono": "+51 987 370",
                 "whatsapp": "51987370201",
-                "foto": "/images/equipo/asesor-1.webp"
+                "foto": "/images/nosotros/carmen.jpg"
             },
             {
                 "nombre": "Carolina Ancco",
                 "cargo": "Asesor de Ventas",
                 "telefono": "+51 987 370",
                 "whatsapp": "51987370202",
-                "foto": "/images/equipo/asesor-2.webp"
+                "foto": "/images/nosotros/carmen.jpg"
             }
         ],
         "email": {

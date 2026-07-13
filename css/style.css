@@ -39,7 +39,16 @@ body {
     /* Anton no tiene pesos */
     letter-spacing: 0.5px;
 }
-
+/* SUBTITULOS - variante más liviana de Anton */
+.font-anton-sub {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    font-size: 1rem;
+    /* ~20px, ajustable según contexto */
+    line-height: 1.3;
+    /* gris oscuro, no negro puro, para diferenciarlo del título principal */
+}
 /* POPPINS */
 .font-poppins {
     font-family: 'Poppins', sans-serif;

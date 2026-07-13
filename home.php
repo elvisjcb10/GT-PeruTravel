@@ -170,8 +170,8 @@
                     <?php endforeach; ?>
                 </div>
 
-                <a href="#experiencias"
-                class="inline-flex items-center px-7 py-3 text-sm md:text-base bg-orange-custom text-white font-bold font-poppins rounded-full transition duration-300 ease-in-out hover:bg-[#c2660a] shadow-md">
+                <a href="<?= $base_url ?>/nosotros.php?lang=<?= $idioma ?>"
+                class="hover:scale-105 inline-flex items-center px-7 py-3 text-sm md:text-base bg-orange-custom text-white font-bold font-poppins rounded-full transition duration-300 ease-in-out hover:bg-[#c2660a] shadow-md">
                     <?= $about_text['boton'] ?>
                 </a>
             </div>
@@ -205,7 +205,7 @@
             </div>
 
             <!-- ************************ 
-                GRID DE TOURS (sin carrusel)
+                GRID DE TOURS
             *********************** -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
@@ -450,8 +450,8 @@
                     <!-- BOTONES -->
                     <div class="flex flex-wrap items-center gap-4">
 
-                        <a href="#tours-glaciares"
-                        class="inline-flex items-center px-7 py-3.5 text-sm md:text-base bg-orange-custom text-white font-bold font-poppins rounded-full transition duration-300 ease-in-out hover:bg-[#c2660a] shadow-md">
+                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=glaciares&lang=<?= $idioma ?>" 
+                        class="hover:scale-105 inline-flex items-center px-7 py-3.5 text-sm md:text-base bg-orange-custom text-white font-bold font-poppins rounded-full transition duration-300 ease-in-out hover:bg-[#c2660a] shadow-md">
                             <?= $glaciares['boton_primario'] ?>
                         </a>
 
@@ -514,7 +514,7 @@
                 </h2>
             </div>
 
-            <a href="<?= $base_url ?>/experiencias/template-experiencias.php?lang=<?= $idioma ?>"
+            <a href="<?= $base_url ?>/destino/template-destino.php?destino=experiencias-unicas&lang=<?= $idioma ?>" 
             class="inline-flex items-center gap-2 text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide hover:text-[#c2660a] transition">
                 <?= $experiencias_text['ver_todos'] ?>
                 <i class="fa-solid fa-arrow-right text-xs"></i>
@@ -644,7 +644,7 @@
                     </h2>
                 </div>
 
-                <a href="<?= $base_url ?>/paquetes/template-paquetes.php?lang=<?= $idioma ?>"
+                <a href="<?= $base_url ?>/destino/template-destino.php?destino=paquete-peru&lang=<?= $idioma ?>" 
                 class="inline-flex items-center gap-2 text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide hover:text-[#c2660a] transition">
                     <?= $popular_text['ver_todos'] ?>
                     <i class="fa-solid fa-arrow-right text-xs"></i>

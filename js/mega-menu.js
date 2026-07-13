@@ -39,9 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
             clearActive();
             item.classList.add('bg-[#FFF7EF]', 'active-tour');
 
-            previewTitle.textContent      = item.dataset.title;
-            previewDesc.textContent       = item.dataset.desc;
-            previewTime.textContent       = item.dataset.time;
+            // Usamos innerHTML para permitir <span> u otras etiquetas simples de estilo
+            previewTitle.innerHTML      = item.dataset.title;
+            previewDesc.innerHTML       = item.dataset.desc;
+            previewTime.textContent     = item.dataset.time;
             previewDifficulty.textContent = item.dataset.difficulty;
             previewTransport.textContent  = item.dataset.transport;
 

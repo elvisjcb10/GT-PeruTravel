@@ -1,0 +1,230 @@
+{
+    "hero": {
+        "background": "/images/tours/peru-magico-hero.webp",
+        "titulo_primary": "Perú",
+        "titulo_secondary": "Mágico",
+        "stats": [
+            { "icono": "fa-mountain", "numero": "150+", "titulo": "Destinos" },
+            { "icono": "fa-people-group", "numero": "12K+", "titulo": "Viajeros" },
+            { "icono": "fa-star", "numero": "4.9", "titulo": "Calificación" },
+            { "icono": "fa-globe", "numero": "10+", "titulo": "Años de Exp." }
+        ],
+        "badge_flotante": {
+            "calificacion": "4.7",
+            "texto": "+200 Viajeros"
+        }
+    },
+
+    "resumen": {
+        "kicker": "Sobre El Paquete",
+        "title_primary": "Viaje Completo",
+        "title_secondary": "Por El Peru",
+        "description": "Descubre Perú combinando historia, naturaleza y cultura. Inicia en Lima, continúa hacia Cusco —capital del Imperio Inca— y vive experiencias únicas en Machu Picchu, la Laguna Humantay, la Montaña Arcoíris y más destinos extraordinarios de los Andes.",
+        "video_thumbnail": "/images/tours/peru-magico-video-thumb.webp",
+        "video_url": "https://www.youtube.com/watch?v=XXXXXXXXX"
+    },
+
+    "precio_sidebar": {
+        "label": "Precio Desde",
+        "precio": "569",
+        "moneda": "$",
+        "por": "Por Persona",
+        "incluye_resumen": "Incluye Transporte, Entradas Y Guía Profesional",
+        "boton_texto": "Consultar / Reservar",
+        "boton_whatsapp": "51987370201"
+    },
+
+    "formulario": {
+        "titulo": "Consultar Disponibilidad",
+        "campos": {
+            "nombre": "Tu Nombre Completo",
+            "whatsapp": "Tu Nombre Completo",
+            "email": "Tu Nombre Completo",
+            "fecha": "Tu Nombre Completo",
+            "mensaje": "Cuéntanos Más..."
+        },
+        "boton_texto": "Solicitar Información"
+    },
+
+    "tabs": [
+        { "id": "itinerario", "label": "Itinerario" },
+        { "id": "incluye", "label": "Incluye" },
+        { "id": "ruta", "label": "Ruta" },
+        { "id": "galeria", "label": "Galeria" },
+        { "id": "recomendaciones", "label": "Recomendaciones" },
+        { "id": "precio", "label": "Precio" }
+    ],
+
+    "itinerario": {
+        "kicker": "Dia A Dia",
+        "titulo_primary": "Itinerario",
+        "titulo_secondary": "Completo",
+        "dias": [
+            {
+                "numero": 1,
+                "titulo": "Lima - Llegada",
+                "lugar": "Lima, Perú",
+                "descripcion": "Recepción en el aeropuerto y traslado al hotel. Check-in a partir de las 14:00. Si llegas por la mañana, puedes realizar un city tour opcional. Noche en la capital.",
+                "imagen": "/images/tours/dia-1.webp"
+            },
+            {
+                "numero": 2,
+                "titulo": "Lima - City Tour",
+                "lugar": "Lima, Perú",
+                "descripcion": "Recorrido por el centro histórico de Lima, Miraflores y Barranco.",
+                "imagen": "/images/tours/dia-2.webp"
+            }
+        ]
+    },
+
+    "incluye": {
+        "kicker": "Preguntas",
+        "titulo_primary": "Que",
+        "titulo_secondary": "Incluye",
+        "si_incluye": [
+            "Transportes internos",
+            "Alojamiento en hoteles seleccionados",
+            "Guía profesional bilingüe",
+            "Entradas a todos los sitios turísticos",
+            "Desayunos incluidos"
+        ],
+        "no_incluye": [
+            "Vuelos internacionales",
+            "Almuerzos y cenas",
+            "Propinas",
+            "Gastos personales"
+        ]
+    },
+
+    "ruta": {
+        "kicker": "Preguntas",
+        "titulo_primary": "Mapa Del",
+        "titulo_secondary": "Recorrido",
+        "imagen_mapa": "/images/tours/mapa-peru-magico.webp"
+    },
+
+    "galeria": {
+        "kicker": "Explora Peru",
+        "titulo_primary": "Galeria De",
+        "titulo_secondary": "Fotos",
+        "imagenes": [
+            "/images/tours/galeria-1.webp",
+            "/images/tours/galeria-2.webp",
+            "/images/tours/galeria-3.webp",
+            "/images/tours/galeria-4.webp",
+            "/images/tours/galeria-5.webp",
+            "/images/tours/galeria-6.webp"
+        ]
+    },
+
+    "recomendaciones": {
+        "kicker": "Recomendaciones",
+        "titulo": "Recomendaciones",
+        "items": [
+            { "imagen": "/images/recomendaciones/lentes-sol.webp", "nombre": "Lentes de sol con proteccion UV" },
+            { "imagen": "/images/recomendaciones/lentes-sol.webp", "nombre": "Lentes de sol con proteccion UV" },
+            { "imagen": "/images/recomendaciones/lentes-sol.webp", "nombre": "Lentes de sol con proteccion UV" },
+            { "imagen": "/images/recomendaciones/mochila.webp", "nombre": "Equipaje para pernoctar" },
+            { "imagen": "/images/recomendaciones/mochila.webp", "nombre": "Equipaje para pernoctar" },
+            { "imagen": "/images/recomendaciones/mochila.webp", "nombre": "Equipaje para pernoctar" },
+            { "imagen": "/images/recomendaciones/bloqueador.webp", "nombre": "Bloqueador solar factor alto" },
+            { "imagen": "/images/recomendaciones/bloqueador.webp", "nombre": "Bloqueador solar factor alto" },
+            { "imagen": "/images/recomendaciones/bloqueador.webp", "nombre": "Bloqueador solar factor alto" }
+        ]
+    },
+
+    "precio_detalle": {
+        "kicker": "Precio",
+        "titulo_primary": "Precio Y",
+        "titulo_secondary": "Disponibilidad",
+        "planes": [
+            {
+                "nombre": "Individual",
+                "precio": "569",
+                "descripcion": "Precio por persona, habitación individual"
+            },
+            {
+                "nombre": "Doble / Grupo",
+                "precio": "489",
+                "descripcion": "Precio por persona, habitación compartida"
+            }
+        ]
+    },
+
+    "faq": {
+        "kicker": "Preguntas",
+        "titulo": "Preguntas Frecuentes",
+        "preguntas": [
+            {
+                "pregunta": "¿Es necesario aclimatarse en Cusco?",
+                "respuesta": "Sí, recomendamos al menos 1 día de aclimatación antes de iniciar actividades físicas intensas debido a la altitud de Cusco (3,400 msnm)."
+            },
+            {
+                "pregunta": "¿Qué documentos necesito para el viaje?",
+                "respuesta": "Necesitas tu DNI o pasaporte vigente. Para el Camino Inca se requiere el pasaporte original."
+            },
+            {
+                "pregunta": "¿Puedo cancelar mi reserva?",
+                "respuesta": "Sí, consulta nuestra política de cancelación en la sección de términos y condiciones."
+            }
+        ]
+    },
+
+    "opiniones": {
+        "kicker": "Preguntas",
+        "titulo_primary": "Opiniones De",
+        "titulo_secondary": "Nuestros Viajeros",
+        "testimonios": [
+            {
+                "nombre": "Maribel C.",
+                "fecha": "Septiembre 2025",
+                "texto": "Nosotras fuimos un grupo de 4 amigas. Nos contactamos con la empresa y realmente fue una experiencia de principio a fin maravillosa.",
+                "avatar": "/images/testimonials/maribel-c.webp"
+            },
+            {
+                "nombre": "Maribel C.",
+                "fecha": "Septiembre 2025",
+                "texto": "Nosotras fuimos un grupo de 4 amigas. Nos contactamos con la empresa y realmente fue una experiencia de principio a fin maravillosa.",
+                "avatar": "/images/testimonials/maribel-c.webp"
+            },
+            {
+                "nombre": "Maribel C.",
+                "fecha": "Septiembre 2025",
+                "texto": "Nosotras fuimos un grupo de 4 amigas. Nos contactamos con la empresa y realmente fue una experiencia de principio a fin maravillosa.",
+                "avatar": "/images/testimonials/maribel-c.webp"
+            }
+        ]
+    },
+
+    "tours_relacionados": {
+        "kicker": "Explora Peru",
+        "titulo_primary": "Tours",
+        "titulo_secondary": "Relacionados",
+        "tours": [
+            {
+                "title": "Tour Machupicchu Clasico",
+                "description": "Escápate a Cusco y Machu Picchu. La historia inca, la magia de los Andes y la esencia cultural del Perú en un formato compacto.",
+                "price": "65",
+                "duracion": "3Dias / 7Noches",
+                "image": "machupicchu-clasico.webp",
+                "url": "machupicchu-clasico"
+            },
+            {
+                "title": "Tour Machupicchu Clasico",
+                "description": "Escápate a Cusco y Machu Picchu. La historia inca, la magia de los Andes y la esencia cultural del Perú en un formato compacto.",
+                "price": "65",
+                "duracion": "3Dias / 7Noches",
+                "image": "montana-colores.webp",
+                "url": "montana-colores"
+            },
+            {
+                "title": "Tour Machupicchu Clasico",
+                "description": "Escápate a Cusco y Machu Picchu. La historia inca, la magia de los Andes y la esencia cultural del Perú en un formato compacto.",
+                "price": "65",
+                "duracion": "3Dias / 7Noches",
+                "image": "laguna-humantay.webp",
+                "url": "laguna-humantay"
+            }
+        ]
+    }
+}
