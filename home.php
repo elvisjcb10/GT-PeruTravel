@@ -817,7 +817,7 @@
                     </a>
 
                     <!-- BOTON CONTACTO -->
-                    <a href="<?= $cta['boton_contacto']['url'] ?>"
+                    <a href="<?= $base_url ?>/contacto.php?lang=<?= $idioma ?>"
                     class="inline-flex items-center px-7 py-3.5 text-sm md:text-base border-2 border-white/70 text-white font-bold font-poppins rounded-full transition duration-300 ease-in-out hover:bg-white hover:text-black">
                         <?= $cta['boton_contacto']['texto'] ?>
                     </a>

@@ -344,9 +344,8 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
                 <div class="grid grid-cols-2 sm:grid-cols-4 gap-5">
                     <?php foreach ($nosotros['certificaciones']['items'] as $c): ?>
                         <div class="bg-white border border-gray-200 rounded-xl p-5">
-                            <img src="<?= $base_url . $c['logo'] ?>" alt="<?= htmlspecialchars($c['nombre']) ?>" class="h-12 mx-auto mb-3 object-contain">
+                            <img src="<?= $base_url . $c['logo'] ?>" alt="<?= htmlspecialchars($c['nombre']) ?>" class="h-20 mx-auto mb-3 object-contain">
                             <p class="font-bold font-poppins text-gray-900 text-xs"><?= htmlspecialchars($c['nombre']) ?></p>
-                            <span class="inline-block mt-1 text-[0.6rem] font-bold font-poppins uppercase text-orange-custom border border-orange-custom rounded-full px-2 py-0.5"><?= htmlspecialchars($c['tipo']) ?></span>
                         </div>
                     <?php endforeach; ?>
                 </div>

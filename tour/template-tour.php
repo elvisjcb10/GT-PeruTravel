@@ -54,7 +54,13 @@ $footer = file_exists($footer_json)
     ? json_decode(file_get_contents($footer_json), true)
     : [];
 ?>
-
+<!-- ASESORES (compartido con Contacto y Nosotros) -->
+<?php
+$asesores_json = __DIR__ . "/../locale/$lang/asesores.json";
+$asesores_data = file_exists($asesores_json)
+    ? json_decode(file_get_contents($asesores_json), true)
+    : ['asesores' => []];
+?>
 <?php
 $base_url = "..";
 ?>
@@ -504,12 +510,36 @@ $base_url = "..";
                             <?= htmlspecialchars($data['price_note']) ?>
                         </p>
 
-                        <a href="https://wa.me/51987370201?text=<?= urlencode('Hola, quiero consultar sobre ' . $data['title']) ?>"
+                        <!-- <a href="https://wa.me/51987370201?text=<?= urlencode('Hola, quiero consultar sobre ' . $data['title']) ?>"
                         target="_blank" rel="noopener"
                         class="mt-6 inline-flex items-center justify-center gap-2 w-full px-6 py-3.5 bg-orange-custom text-white font-bold font-poppins rounded-lg hover:bg-[#c2660a] transition">
                             <i class="fa-brands fa-whatsapp text-lg"></i>
                             <?= $global['consultar_reservar'] ?? 'Consultar / Reservar' ?>
-                        </a>
+                        </a> -->
+
+                        <!-- ASESORES -->
+                        <?php if (!empty($asesores_data['asesores'])): ?>
+                            <div class="mt-6 pt-6 border-t border-gray-200 space-y-4">
+                                <?php foreach ($asesores_data['asesores'] as $asesor): ?>
+                                    <div class="flex items-center gap-3">
+                                        <img src="<?= $base_url . $asesor['foto'] ?>"
+                                            alt="<?= htmlspecialchars($asesor['nombre']) ?>"
+                                            class="w-12 h-12 rounded-full object-cover flex-shrink-0">
+                                        <div class="flex-1">
+                                            <p class="text-orange-custom text-xs font-bold font-poppins uppercase"><?= htmlspecialchars($asesor['cargo']) ?></p>
+                                            <p class="font-bold font-poppins text-gray-900 text-sm"><?= htmlspecialchars($asesor['nombre']) ?></p>
+                                            <p class="text-gray-500 text-xs font-poppins"><?= htmlspecialchars($asesor['telefono']) ?></p>
+                                        </div>
+                                        <a href="https://wa.me/<?= $asesor['whatsapp'] ?>"
+                                        target="_blank" rel="noopener"
+                                        class="inline-flex items-center gap-1.5 bg-[#FF9300] hover:bg-[#1ebe5a] text-white text-xs font-bold font-poppins px-4 py-2 rounded-full transition">
+                                            Consultar
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                        </a>
+                                    </div>
+                                <?php endforeach; ?>
+                            </div>
+                        <?php endif; ?>
 
                     </div>
 

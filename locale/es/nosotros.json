@@ -125,14 +125,13 @@
         "title_secondary": "y Asociaciones",
         "description": "Avalados por las principales instituciones de turismo del Perú y organizaciones internacionales.",
         "items": [
-            { "logo": "/images/certificaciones/atta.png", "nombre": "ATTA Member", "tipo": "Internacional" },
-            { "logo": "/images/certificaciones/caltur.png", "nombre": "Asociada AATC", "tipo": "Nacional" },
-            { "logo": "/images/certificaciones/mincetur.png", "nombre": "Certificado CALTUR", "tipo": "Calidad" },
-            { "logo": "/images/certificaciones/dircetur.png", "nombre": "Registrada DIRCETUR", "tipo": "Oficial" },
-            { "logo": "/images/certificaciones/peru.png", "nombre": "Autorizada MINCETUR", "tipo": "Ministerial" },
-            { "logo": "/images/certificaciones/atta2.png", "nombre": "ATTA Member", "tipo": "Internacional" },
-            { "logo": "/images/certificaciones/caltur2.png", "nombre": "Asociada AATC", "tipo": "Nacional" },
-            { "logo": "/images/certificaciones/mincetur2.png", "nombre": "Certificado CALTUR", "tipo": "Calidad" }
+            { "logo": "/images/organizaciones/caltur-190x100.webp", "nombre": "Certificado CALTUR" },
+            { "logo": "/images/organizaciones/dircetur-190x100.png", "nombre": "Registrada DIRCETUR" },
+            { "logo": "/images/organizaciones/esnna-190x100.webp", "nombre": "Código de Conducta ESNNA" },
+            { "logo": "/images/organizaciones/mincetur-190x100.png", "nombre": "Autorizada MINCETUR" },
+            { "logo": "/images/organizaciones/peru-brand-190x120.png", "nombre": "Marca Perú" },
+            { "logo": "/images/organizaciones/sello-agencia-registrada-mincetur-190x100.png", "nombre": "Agencia Registrada MINCETUR" },
+            { "logo": "/images/organizaciones/sernanp-190x100.png", "nombre": "Autorizada SERNANP" }
         ]
     }
 }
