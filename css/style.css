@@ -382,3 +382,158 @@ pseudo-elemento TRIANGULO para seccion TOURS */
     padding: 5px;
     transform: rotate(-45deg);
 }
+
+/* ============================================
+   SCROLL REVEAL
+   ============================================ */
+
+/* Estado inicial: oculto y desplazado */
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+/* Estado final: visible, cuando se agrega la clase via JS */
+.reveal.reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Variante: aparece desde la izquierda */
+.reveal-left {
+    opacity: 0;
+    transform: translateX(-40px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.reveal-left.reveal-visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Variante: aparece desde la derecha */
+.reveal-right {
+    opacity: 0;
+    transform: translateX(40px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.reveal-right.reveal-visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Variante: solo fade, sin movimiento (útil para imágenes grandes) */
+.reveal-fade {
+    opacity: 0;
+    transition: opacity 0.8s ease-out;
+}
+
+.reveal-fade.reveal-visible {
+    opacity: 1;
+}
+
+/* Variante: zoom suave */
+.reveal-zoom {
+    opacity: 0;
+    transform: scale(0.92);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.reveal-zoom.reveal-visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Delays opcionales para escalonar elementos dentro de un grid */
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-delay-4 { transition-delay: 0.4s; }
+.reveal-delay-5 { transition-delay: 0.5s; }
+/* ============================================
+   AUTO SWIPER (carrusel genérico reutilizable)
+   ============================================ */
+
+.auto-swiper {
+    padding-bottom: 3rem;
+    overflow: hidden;
+ /* espacio para la paginación */
+}
+
+.swiper-outer {
+    position: relative;
+}
+
+.auto-swiper-nav {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 3rem;
+    height: 3rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 20;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    color: #ff9300;
+}
+
+.auto-swiper-nav:hover {
+    background: #ff9300;
+    color: white;
+    transform: translateY(-50%) scale(1.08);
+}
+
+.auto-swiper-nav.swiper-button-disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+
+.auto-swiper-prev {
+    left: -1.25rem;
+}
+
+.auto-swiper-next {
+    right: -1.25rem;
+}
+
+/* En mobile, las flechas quedan más pegadas para no salirse de pantalla */
+@media (max-width: 767px) {
+    .auto-swiper-prev { left: 0.5rem; }
+    .auto-swiper-next { right: 0.5rem; }
+    .auto-swiper-nav {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+/* Paginación (puntos) */
+.auto-swiper-pagination {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+.auto-swiper-pagination .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background: #d1d5db;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.auto-swiper-pagination .swiper-pagination-bullet-active {
+    background: #ff9300;
+    width: 24px;
+    border-radius: 9999px;
+}

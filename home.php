@@ -118,7 +118,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center">
 
             <!-- IMAGEN + BADGE AÑOS -->
-            <div class="relative">
+            <div class="relative reveal-left">
                 <img src="<?= $base_url . $about_text['img'] ?>"
                     alt="<?= $about_text['title_primary'] . ' ' . $about_text['title_secondary'] ?>"
                     class="w-full h-[420px] md:h-[480px] object-cover rounded-2xl shadow-lg">
@@ -132,7 +132,7 @@
             </div>
 
             <!-- CONTENIDO -->
-            <div>
+            <div class="reveal-right">
                 <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                     <?= $about_text['subtitle'] ?>
                 </p>
@@ -184,7 +184,7 @@
 
     <section id="tours" class="py-12 bg-white">
 
-        <div class="container-custom mx-auto px-20 space-y-8">
+        <div class="container-custom mx-auto px-20 space-y-8 reveal">
 
             <!-- Titulo -->
             <div class="container-custom mx-auto px-4 ">
@@ -210,7 +210,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
                 <?php foreach ($tours as $t) : ?>
-                    <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300 reveal ">
 
                         <!-- Link envolvente -->
                         <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $t['url'] ?>&lang=<?= $idioma ?>" class="block">
@@ -284,7 +284,7 @@
     <section id="destinos" class="container-custom mx-auto px-20 py-14">
 
         <!-- Titulo (mismo estilo que "Nosotros") -->
-        <div class="text-left mb-8">
+        <div class="text-left mb-8 reveal">
             <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                 Explora Perú
             </p>
@@ -299,7 +299,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-4 mb-4 md:h-[450px]">
 
             <!-- CUSCO - grande, ocupa 2 columnas y 2 filas -->
-            <div class="relative md:col-span-2 md:row-span-2 rounded-xl overflow-hidden group h-72 md:h-full">
+            <div class="relative md:col-span-2 md:row-span-2 rounded-xl overflow-hidden group h-72 md:h-full reveal-zoom">
                 <a href="<?= $base_url ?>/destino/template-destino.php?destino=cusco&lang=<?= $idioma ?>">
                     <img src="<?= $base_url . $destinos['cusco']['img'] ?>"
                         alt="<?= $destinos['cusco']['nombre'] ?>"
@@ -322,7 +322,7 @@
             </div>
 
             <!-- LIMA -->
-            <div class="relative rounded-xl overflow-hidden group h-56 md:h-full">
+            <div class="relative rounded-xl overflow-hidden group h-56 md:h-full reveal reveal-delay-1">
                 <a href="<?= $base_url ?>/destino/template-destino.php?destino=lima&lang=<?= $idioma ?>">
                     <img src="<?= $base_url . $destinos['lima']['img'] ?>"
                         alt="<?= $destinos['lima']['nombre'] ?>"
@@ -345,7 +345,7 @@
             </div>
 
             <!-- PUNO -->
-            <div class="relative rounded-xl overflow-hidden group h-56 md:h-full">
+            <div class="relative rounded-xl overflow-hidden group h-56 md:h-full reveal reveal-delay-1">
                 <a href="<?= $base_url ?>/destino/template-destino.php?destino=puno&lang=<?= $idioma ?>">
                     <img src="<?= $base_url . $destinos['puno']['img'] ?>"
                         alt="<?= $destinos['puno']['nombre'] ?>"
@@ -375,7 +375,7 @@
             <?php
             $bottom = ['manu', 'arequipa', 'huaraz'];
             foreach ($bottom as $key): ?>
-                <div class="relative rounded-xl overflow-hidden group h-56">
+                <div class="relative rounded-xl overflow-hidden group h-56 reveal reveal-delay-<?= $i + 1 ?>">
                     <a href="<?= $base_url ?>/destino/template-destino.php?destino=<?= $key ?>&lang=<?= $idioma ?>">
                         <img src="<?= $base_url . $destinos[$key]['img'] ?>"
                             alt="<?= $destinos[$key]['nombre'] ?>"
@@ -418,7 +418,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 
                 <!-- COLUMNA IZQUIERDA: TEXTO -->
-                <div>
+                <div class="reveal-left">
 
                     <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-3">
                         <?= $glaciares['kicker'] ?>
@@ -461,7 +461,7 @@
                 </div>
 
                 <!-- COLUMNA DERECHA: CARDS APILADAS -->
-                <div class="flex flex-col gap-5">
+                <div class="flex flex-col gap-5 reveal-right">
 
                     <?php foreach ($glaciares['cards'] as $card): ?>
                         <a href="<?= $base_url ?>/destino/template-glaciar.php?glaciar=<?= $card['url'] ?>&lang=<?= $idioma ?>"
@@ -632,7 +632,7 @@
         <div class="container-custom mx-auto px-20">
 
             <!-- TITULO + VER TODOS (mismo patrón que las demás secciones) -->
-            <div class="flex flex-wrap items-end justify-between gap-4 mb-8">
+            <div class="flex flex-wrap items-end justify-between gap-4 mb-8 reveal">
                 <div>
                     <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                         <?= $popular_text['kicker'] ?>
@@ -663,115 +663,106 @@
     });
     ?>
 
-    <div class="container-custom mx-auto px-20 pb-8 md:pb-16">
-        <div class="swiper mySwiperPopular px-1 relative">
-            <div class="swiper-wrapper">
-
-                <?php foreach ($promo_packages as $p) : ?>
-                    <div class="swiper-slide h-auto">
-
-                        <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=<?= $p['url'] ?>&lang=<?= $idioma ?>"
-                        class="block bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full">
-
-                            <!-- IMAGEN -->
-                            <?php
-                            $imagenes = [];
-                            if (isset($p['image'])) {
-                                $imagenes = is_array($p['image']) ? $p['image'] : [$p['image']];
-                            }
-                            ?>
-                            <div class="relative h-80 w-full overflow-hidden px-1 pt-1">
-
-                                <?php if (count($imagenes) > 1): ?>
-                                    <div class="card-slider relative w-full h-full">
-                                        <?php foreach ($imagenes as $i => $img): ?>
-                                            <img src="<?= $base_url ?>/images/<?= $img ?>"
-                                                class="absolute rounded-lg inset-0 w-full h-full object-cover transition-opacity duration-1000 <?= $i === 0 ? 'opacity-100' : 'opacity-0' ?>">
-                                        <?php endforeach; ?>
-                                    </div>
-                                <?php else: ?>
-                                    <img src="<?= $base_url ?>/images/<?= $imagenes[0] ?>"
-                                        class="relative  inset-0 w-full rounded-lg h-full object-cover">
-                                <?php endif; ?>
-
-                                
-                            </div>
-
-                            <!-- CONTENIDO -->
-                            <div class="px-4 pt-4">
-
-                                <!-- TITULO -->
-                                <h3 class="text-base font-bold font-poppins text-gray-900 leading-snug mb-1">
-                                    <?= $p['title'] ?>
-                                </h3>
-
-                                <!-- UBICACION -->
-                                <p class="text-gray-500 text-sm font-poppins mb-3">
-                                    <?= $p['ubicacion'] ?? '' ?>
-                                </p>
-
-                                <!-- DURACION + MAX PERSONAS -->
-                                <div class="flex items-center gap-4 text-xs text-gray-600 font-poppins mb-3">
-                                    <span class="flex items-center gap-1.5">
-                                        <i class="fa-regular fa-calendar text-orange-custom"></i>
-                                        <?= $p['subtitle'] ?>
-                                    </span>
-                                    <span class="flex items-center gap-1.5">
-                                        <i class="fa-solid fa-people-group text-orange-custom"></i>
-                                        Max <?= $p['max_personas'] ?? '12' ?> personas
-                                    </span>
-                                </div>
-
-                                <!-- TAGS / CATEGORIAS -->
-                                <?php if (!empty($p['categorias'])): ?>
-                                    <div class="flex flex-wrap gap-2 mb-4">
-                                        <?php foreach ($p['categorias'] as $i => $cat): ?>
-                                            <span class="text-[0.65rem] font-bold font-poppins uppercase px-3 py-1 rounded-full border
-                                                <?= $i === 0 ? 'border-orange-custom text-orange-custom' : 'border-orange-200 bg-orange-50 text-orange-400' ?>">
-                                                <?= $cat ?>
-                                            </span>
-                                        <?php endforeach; ?>
-                                    </div>
-                                <?php endif; ?>
-
-                            </div>
-
-                            <div class="border-t border-gray-200 mx-4"></div>
-
-                            <!-- PRECIO + BOTON -->
-                            <div class="flex items-center justify-between px-4 py-4">
-                                <div>
-                                    <span class="block text-xs text-gray-400 font-poppins leading-none mb-1">desde</span>
-
-                                    <?php if (isset($p['promo']['active']) && $p['promo']['active'] && isset($p['promo']['old_price'])): ?>
-                                        <span class="text-3xl line-through text-gray-300 mr-1"><?= $p['promo']['old_price'] ?></span>
+    <div class="  mx-auto px-20 pb-8 md:pb-16 reveal">
+        <div class="swiper-outer">
+            <div class="auto-swiper  relative"  data-desktop="3" data-tablet="2" data-mobile="1" data-gap="24">
+                <div class="swiper-wrapper">
+    
+                    <?php foreach ($promo_packages as $p) : ?>
+                        <div class="swiper-slide h-auto">
+    
+                            <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=<?= $p['url'] ?>&lang=<?= $idioma ?>"
+                            class="block bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full">
+    
+                                <!-- IMAGEN -->
+                                <?php
+                                $imagenes = [];
+                                if (isset($p['image'])) {
+                                    $imagenes = is_array($p['image']) ? $p['image'] : [$p['image']];
+                                }
+                                ?>
+                                <div class="relative h-80 w-full overflow-hidden px-1 pt-1">
+    
+                                    <?php if (count($imagenes) > 1): ?>
+                                        <div class="card-slider relative w-full h-full">
+                                            <?php foreach ($imagenes as $i => $img): ?>
+                                                <img src="<?= $base_url ?>/images/<?= $img ?>"
+                                                    class="absolute rounded-lg inset-0 w-full h-full object-cover transition-opacity duration-1000 <?= $i === 0 ? 'opacity-100' : 'opacity-0' ?>">
+                                            <?php endforeach; ?>
+                                        </div>
+                                    <?php else: ?>
+                                        <img src="<?= $base_url ?>/images/<?= $imagenes[0] ?>"
+                                            class="relative  inset-0 w-full rounded-lg h-full object-cover">
                                     <?php endif; ?>
-
-                                    <span class="text-3xl font-bold text-orange-custom">
-                                        $<?= $p['price'] ?> <span class="text-sm text-gray-700 font-semibold"><?= $p['moneda'] ?? 'USD' ?></span>
+    
+                                    
+                                </div>
+    
+                                <!-- CONTENIDO -->
+                                <div class="px-4 pt-4">
+    
+                                    <!-- TITULO -->
+                                    <h3 class="text-base font-bold font-poppins text-gray-900 leading-snug mb-1">
+                                        <?= $p['title'] ?>
+                                    </h3>
+    
+                                    <!-- UBICACION -->
+                                    <p class="text-gray-500 text-sm font-poppins mb-3">
+                                        <?= $p['ubicacion'] ?? '' ?>
+                                    </p>
+    
+                                    <!-- DURACION + MAX PERSONAS -->
+                                    <div class="flex items-center gap-4 text-xs text-gray-600 font-poppins mb-3">
+                                        <span class="flex items-center gap-1.5">
+                                            <i class="fa-regular fa-calendar text-orange-custom"></i>
+                                            <?= $p['subtitle'] ?>
+                                        </span>
+                                        <span class="flex items-center gap-1.5">
+                                            <i class="fa-solid fa-people-group text-orange-custom"></i>
+                                            Max <?= $p['max_personas'] ?? '12' ?> personas
+                                        </span>
+                                    </div>
+    
+                                    <!-- TAGS / CATEGORIAS -->
+                                    <?php if (!empty($p['categorias'])): ?>
+                                        <div class="flex flex-wrap gap-2 mb-4">
+                                            <?php foreach ($p['categorias'] as $i => $cat): ?>
+                                                <span class="text-[0.65rem] font-bold font-poppins uppercase px-3 py-1 rounded-full border
+                                                    <?= $i === 0 ? 'border-orange-custom text-orange-custom' : 'border-orange-200 bg-orange-50 text-orange-400' ?>">
+                                                    <?= $cat ?>
+                                                </span>
+                                            <?php endforeach; ?>
+                                        </div>
+                                    <?php endif; ?>
+    
+                                </div>
+    
+                                <div class="border-t border-gray-200 mx-4"></div>
+    
+                                <!-- PRECIO + BOTON -->
+                                <div class="flex items-center justify-between px-4 py-4">
+                                    <div>
+                                        <span class="block text-xs text-gray-400 font-poppins leading-none mb-1">desde</span>
+    
+                                        <?php if (isset($p['promo']['active']) && $p['promo']['active'] && isset($p['promo']['old_price'])): ?>
+                                            <span class="text-3xl line-through text-gray-300 mr-1"><?= $p['promo']['old_price'] ?></span>
+                                        <?php endif; ?>
+    
+                                        <span class="text-3xl font-bold text-orange-custom">
+                                            $<?= $p['price'] ?> <span class="text-sm text-gray-700 font-semibold"><?= $p['moneda'] ?? 'USD' ?></span>
+                                        </span>
+                                    </div>
+                                    <span class="font-poppins bg-orange-custom hover:bg-[#c2660a] text-white text-sm font-bold px-5 py-2.5 rounded-lg transition uppercase">
+                                        <?= $p['reservar'] ?>
                                     </span>
                                 </div>
-                                <span class="font-poppins bg-orange-custom hover:bg-[#c2660a] text-white text-sm font-bold px-5 py-2.5 rounded-lg transition uppercase">
-                                    <?= $p['reservar'] ?>
-                                </span>
-                            </div>
-
-                        </a>
-                    </div>
-                <?php endforeach; ?>
-
+    
+                            </a>
+                        </div>
+                    <?php endforeach; ?>
+    
+                </div>
             </div>
-
-            <!-- BOTON ANTERIOR -->
-            <div class="custom-prev-popular w-14 h-14 bg-white/90 hover:bg-white rounded-full flex items-center justify-center absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 cursor-pointer shadow-lg z-50 transition-all duration-300">
-                <div class="w-0 h-0 border-t-[8px] border-b-[8px] border-r-[12px] border-t-transparent border-b-transparent border-r-[#ff9300]"></div>
-            </div>
-
-            <!-- BOTON SIGUIENTE -->
-            <div class="custom-next-popular w-14 h-14 bg-white/90 hover:bg-white rounded-full flex items-center justify-center absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 cursor-pointer shadow-lg z-50 transition-all duration-300">
-                <div class="w-0 h-0 border-t-[8px] border-b-[8px] border-l-[12px] border-t-transparent border-b-transparent border-l-[#ff9300]"></div>
-            </div>
-
         </div>
     </div>
     <!-- ******************** 
@@ -789,7 +780,7 @@
 
         <!-- CONTENIDO -->
         <div class="relative z-10 container-custom mx-auto px-4">
-            <div class="max-w-3xl mx-auto text-center">
+            <div class="max-w-3xl mx-auto text-center reveal-zoom">
 
                 <p class="text-orange-custom text-sm md:text-base font-bold font-poppins mb-3">
                     <?= $cta['kicker'] ?>
@@ -835,7 +826,7 @@
         <div class="container-custom mx-auto px-20">
 
             <!-- TITULO (mismo patrón que las demás secciones) -->
-            <div class="mb-10">
+            <div class="mb-10 reveal">
                 <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                     <?= $trip_text['kicker'] ?>
                 </p>
@@ -850,7 +841,7 @@
             <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
 
                 <!-- LADO IZQUIERDO: LOGOS -->
-                <div class="md:col-span-3 flex flex-col items-start gap-4">
+                <div class="md:col-span-3 flex flex-col items-start gap-4 reveal-left">
 
                     <div class="flex items-center gap-3">
                         <img src="<?= $base_url ?>/images/trofy-1.png" alt="Travelers Choice 2020" class="h-20">
@@ -867,7 +858,7 @@
                 </div>
 
                 <!-- LADO DERECHO: CARRUSEL DE TESTIMONIOS -->
-                <div class="md:col-span-9">
+                <div class="md:col-span-9 reveal-right">
                     <div class="swiper mySwiper relative">
                         <div class="swiper-wrapper">
 
@@ -931,7 +922,7 @@
         <div class="relative z-10 container-custom mx-auto px-4">
 
             <!-- TITULO CENTRADO -->
-            <div class="text-center mb-10">
+            <div class="text-center mb-10 reveal">
                 <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                     <?= $videos_test['kicker'] ?>
                 </p>
@@ -946,7 +937,7 @@
 
                 <?php foreach ($videos_test['videos'] as $video): ?>
                     <button type="button"
-                            class="video-trigger relative rounded-xl overflow-hidden shadow-lg group h-56 md:h-64"
+                            class="video-trigger relative rounded-xl overflow-hidden shadow-lg group h-56 md:h-64 reveal reveal-delay-<?= $i + 1 ?>"
                             data-video-url="<?= htmlspecialchars($video['video_url']) ?>">
 
                         <img src="<?= $base_url . $video['thumbnail'] ?>"
@@ -999,7 +990,7 @@
         <div class="container-custom mx-auto px-20">
 
             <!-- TITULO + VER TODOS -->
-            <div class="flex flex-wrap items-end justify-between gap-4 mb-8">
+            <div class="flex flex-wrap items-end justify-between gap-4 mb-8 reveal">
                 <div>
                     <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                         <?= $blog_text['kicker'] ?>
@@ -1023,11 +1014,11 @@
             </div>
 
             <!-- GRID DE POSTS -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 reveal">
 
                 <?php foreach ($blog_posts as $post): ?>
                     <a href="<?= $base_url ?>/blog/template-articulo.php?articulo=<?= $post['url'] ?>&lang=<?= $idioma ?>"
-                    class="block bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                    class="block bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300 ">
 
                         <!-- IMAGEN -->
                         <div class="h-80 w-full overflow-hidden">
@@ -1082,7 +1073,7 @@
         <div class="relative z-10 container-custom mx-auto px-4">
 
             <!-- TITULO CENTRADO -->
-            <div class="text-center mb-10">
+            <div class="text-center mb-10 reveal">
                 <p class="text-orange-custom text-sm md:text-base font-bold font-poppins mb-2">
                     <?= $reconocimientos['kicker'] ?>
                 </p>
@@ -1097,7 +1088,7 @@
             <div class="flex flex-wrap justify-center gap-6 md:gap-8 mb-12">
 
                 <?php foreach ($reconocimientos['certificados'] as $cert): ?>
-                    <div class="flex flex-col items-center w-32 sm:w-36 md:w-40">
+                    <div class="flex flex-col items-center w-32 sm:w-36 md:w-40 reveal reveal-delay-<?= ($i % 5) + 1 ?>">
                         <div class="bg-white rounded-lg shadow-xl overflow-hidden w-full aspect-[3/4]">
                             <img src="<?= $base_url . $cert['img'] ?>"
                                 alt="<?= $cert['label'] ?>"

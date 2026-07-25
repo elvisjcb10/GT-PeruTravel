@@ -244,7 +244,7 @@ $data = json_decode($data_json, true);
     <!-- // scrips // -->
 
     <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
     <script src="js/video-modal.js"></script>
 
     <!-- Mobile menu -->
@@ -280,8 +280,8 @@ $data = json_decode($data_json, true);
 
         });
     </script>
-
-
+    <script src="js/scroll-reveal.js"></script>
+    <script src="js/auto-swiper.js"></script>
 </body>
 
 </html>
