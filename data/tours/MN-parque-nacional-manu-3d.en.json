@@ -1,0 +1,187 @@
+{
+  "title": "Manu National Park 3D/2N",
+  "short_description": "Discover the extraordinary biodiversity of the Peruvian Amazon on a 3-day, 2-night expedition connecting the Andes with the tropical rainforest.",
+  "long_description": "The Manu National Park 3 Days / 2 Nights tour is an expedition designed to discover the extraordinary biodiversity of the Peruvian Amazon through a journey connecting the Andes with the tropical rainforest. During the trip, you will explore the Cultural Zone of Manu National Park, traversing landscapes that range from the cloud forest to the Amazonian rainforest, inhabited by a rich variety of flora and fauna.<br><br>The itinerary includes visits to iconic spots such as Ninamarca, Paucartambo, Abra Acjanaco, the Alto Madre de Dios River, Machuwasi Lake, and a parrot clay lick, combining overland transport, river navigation, and interpretive walks accompanied by a specialized guide.<br><br>This tour is ideal for travelers who want to explore one of Peru's most important natural destinations through an organized experience that blends nature, wildlife watching, and unique landscapes in Manu National Park.",
+  "duration": "3 Days / 2 Nights",
+  "image_cover": "manu/manu3d/hero.webp",
+  "gallery": [
+    "manu/manu3d/galeria1.webp",
+    "manu/manu3d/galeria2.webp",
+    "manu/manu3d/galeria3.webp",
+    "manu/manu3d/galeria4.webp"
+  ],
+  "price": "0",
+  "price_note": "Includes overland and river transportation, specialized guide, meals as per itinerary, and 2 nights accommodation in an eco-lodge.",
+
+  "seo_title": "Manu National Park Tour 3D/2N - Amazon Rainforest | GT Peru Travel",
+  "seo_description": "Explore Manu National Park on a 3-day, 2-night tour: cloud forest, Alto Madre de Dios River, Machuwasi Lake, and parrot clay lick. Specialized guide included.",
+  "seo_keywords": "manu national park, manu tour 3 days, peruvian amazon rainforest, machuwasi lake, parrot clay lick, ecotourism peru, gt peru travel",
+
+  "resumen": {
+    "ubicacion": "Department of Madre de Dios, Manu National Park",
+    "lugar_recojo": "Cusco City",
+    "lugar_finalizacion": "Cusco City",
+    "idiomas": ["Spanish", "English", "Portuguese"],
+    "transporte": ["Overland tourist transportation", "River transportation on the Alto Madre de Dios River"],
+    "alimentacion": "Meals according to itinerary",
+    "alojamiento": "2 nights in an eco-lodge",
+    "altitud": "400 - 3,550 m.a.s.l."
+  },
+
+  "caracteristicas": [
+    { "icono": "fa-person-hiking", "label": "Difficulty", "valor": "Moderate" },
+    { "icono": "fa-clock", "label": "Duration", "valor": "3 Days / 2 Nights" },
+    { "icono": "fa-people-group", "label": "Service", "valor": "Group / Private" },
+    { "icono": "fa-mountain", "label": "Max Altitude", "valor": "3,550 m.a.s.l." }
+  ],
+
+  "actividades": [
+    "Interpretive walks",
+    "Navigation on the Alto Madre de Dios River",
+    "Flora and fauna observation",
+    "Visit to Machuwasi Lake",
+    "Parrot clay lick observation"
+  ],
+
+  "days": [
+    {
+      "title": "Day 1: Cusco – Ninamarca – Paucartambo – Abra Acjanaco – Cloud Forest – Rainforest Lodge",
+      "lugar": "Cusco → Rainforest Lodge",
+      "text": "Our expedition starts early in the morning in the city of Cusco, heading towards Manu National Park. The first stop will be at the Ninamarca archaeological complex, where we will see the pre-Inca chullpas (burial towers) that form part of the archaeological heritage of the Paucartambo province.<br><br>Afterward, we will visit Paucartambo, a traditional Andean town that preserves its colonial architecture and rich cultural heritage. We will continue ascending to Tres Cruces and Abra Acjanaco, considered the main gateway to Manu National Park, where we will begin our descent into the cloud forest.<br><br>Along the way, we will take a walk to observe the Cock-of-the-Rock (Peru's national bird), as well as various species of monkeys, orchids, ferns, and native plant life. After lunch, we will continue our journey to our lodge, where we will enjoy dinner and rest."
+    },
+    {
+      "title": "Day 2: Rainforest Lodge – Puerto Atalaya – Alto Madre de Dios River – Machuwasi Lake – Harpy Eagle Lodge",
+      "lugar": "Rainforest Lodge → Harpy Eagle Lodge",
+      "text": "After breakfast, we will travel to Puerto Atalaya, where we will board a boat to navigate the Alto Madre de Dios River, admiring the lush Amazonian vegetation and various bird and wildlife species along the way.<br><br>Upon arrival at the lodge, we will have lunch and, in the afternoon, visit Machuwasi Lake. We will navigate in traditional rafts to observe the Hoatzin—known as the prehistoric bird of the Amazon—alongside other species characteristic of this wetland. At dusk, we will head out for caiman spotting before returning to the lodge for dinner and rest."
+    },
+    {
+      "title": "Day 3: Harpy Eagle Lodge – Parrot Clay Lick – Atalaya – Cusco",
+      "lugar": "Harpy Eagle Lodge → Cusco",
+      "text": "Very early in the morning, we will visit a parrot clay lick, where different species of parrots and macaws gather daily to consume essential minerals from the clay walls of this natural site.<br><br>Following breakfast, we will go on a jungle hike along trails where we can observe diverse species of birds, plants, and iconic Amazonian trees. Once the activity is finished, we will return by boat to Puerto Atalaya, where our tourist transport will be waiting to take us back to Cusco, passing back through the cloud forest and the town of Paucartambo."
+    }
+  ],
+
+  "includes": [
+    "Overland tourist transportation",
+    "River transportation",
+    "Professional specialized guide",
+    "2 nights accommodation in an eco-lodge",
+    "Meals according to itinerary",
+    "Guided walks",
+    "Raft navigation on Machuwasi Lake",
+    "Visit to the parrot clay lick"
+  ],
+
+  "not_includes": [
+    "Domestic or international flights",
+    "Travel insurance",
+    "Personal expenses",
+    "Drinks",
+    "Tips",
+    "Services not specified in the program"
+  ],
+
+  "recommendations": [
+    { "img": "pasaporte.webp", "nombre": "ID card or original passport" },
+    { "img": "repelente.webp", "nombre": "Insect repellent" },
+    { "img": "bloqueador.webp", "nombre": "Sunscreen" },
+    { "img": "gorra.webp", "nombre": "Hat or cap" },
+    { "img": "ropa-manga-larga.webp", "nombre": "Lightweight long-sleeved clothes" },
+    { "img": "poncho-lluvia.webp", "nombre": "Raincoat or rain poncho" },
+    { "img": "calzado-trekking.webp", "nombre": "Comfortable hiking shoes" },
+    { "img": "linterna.webp", "nombre": "Flashlight / Headlamp" },
+    { "img": "botella-agua.webp", "nombre": "Reusable water bottle" }
+  ],
+
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Yellow fever vaccination is recommended",
+      "Consult a health professional regarding tropical disease prevention",
+      "Follow the guide's instructions throughout the tour",
+      "Respect the flora and fauna of Manu National Park"
+    ]
+  },
+
+  "faq": [
+    {
+      "pregunta": "When is the best time to visit Manu National Park?",
+      "respuesta": "Manu National Park can be visited year-round. However, the period between May and October typically offers more stable weather conditions with less rainfall, making hiking, river navigation, and wildlife watching much easier."
+    },
+    {
+      "pregunta": "What animals can be seen during the tour?",
+      "respuesta": "Wildlife diversity varies depending on the season and natural conditions. During the expedition, it is possible to spot species such as the Cock-of-the-Rock, parrots, macaws, hoatzins, monkeys, caimans, capybaras, turtles, and a wide variety of birds and insects. As it is a protected area, animal sightings depend on weather and wildlife behavior in their natural state."
+    },
+    {
+      "pregunta": "Is the tour suitable for families?",
+      "respuesta": "Yes, this tour is suitable for families, provided participants have reasonable physical condition for moderate hikes and boat rides. It is recommended to evaluate the participation of young children, seniors, or people with specific medical conditions before booking."
+    },
+    {
+      "pregunta": "What kind of accommodation is included?",
+      "respuesta": "The tour includes 2 nights in an eco-lodge located in the buffer zone of Manu National Park. These lodges are designed to offer comfort while providing an authentic experience in direct contact with nature."
+    },
+    {
+      "pregunta": "What clothing should I pack?",
+      "respuesta": "We recommend light long-sleeved shirts, long pants, comfortable hiking boots, a poncho or raincoat, hat/cap, insect repellent, sunscreen, and an extra change of clothes. Carrying a flashlight and a small daypack for daily excursions is also advisable."
+    },
+    {
+      "pregunta": "Is vaccination required before traveling?",
+      "respuesta": "A yellow fever vaccination is highly recommended before traveling to Manu National Park. Additionally, it is advisable to consult with a medical professional regarding preventive measures before visiting the Peruvian Amazon."
+    },
+    {
+      "pregunta": "What is the difficulty level of the tour?",
+      "respuesta": "The tour has a moderate difficulty level as it combines overland transport, boat travel on the Alto Madre de Dios River, and nature walks. No prior experience is required, but a basic physical condition is recommended to comfortably enjoy the activities."
+    },
+    {
+      "pregunta": "What activities are included in the expedition?",
+      "respuesta": "The program combines various ecotourism and nature watching activities, including interpretive walks, river navigation on the Alto Madre de Dios River, cloud forest exploration, a visit to Machuwasi Lake, parrot clay lick observation, and exploring different ecosystems within Manu National Park."
+    }
+  ],
+
+  "tours_relacionados": [
+    {
+      "title": "Manu National Park 4D/3N",
+      "description": "Travel from the Andes to the Amazon: cloud forest, Alto Madre de Dios River, Machuwasi Lake, and parrot clay lick in a 4-day expedition.",
+      "price": "0",
+      "duracion": "4Days / 3Nights",
+      "image": "manu-nacional-park-cover.jpg",
+      "url": "manu-4days"
+    },
+    {
+      "title": "Tambopata 3 Days",
+      "description": "Explore the Tambopata National Reserve, spot wildlife, and visit the Macaw Clay Lick.",
+      "price": "280",
+      "duracion": "3Days / 2Nights",
+      "image": "tambopata-3dias.jpg",
+      "url": "tambopata-3days"
+    },
+    {
+      "title": "Sandoval Lake",
+      "description": "Navigate by canoe on Sandoval Lake and observe giant river otters, monkeys, and tropical birds.",
+      "price": "65",
+      "duracion": "1Day / 0Nights",
+      "image": "lago-sandoval.jpg",
+      "url": "sandoval-lake"
+    }
+  ],
+
+  "brochure": "",
+  "map": "",
+  "video": "",
+
+  "categories": {
+    "grupal": {
+      "titulo": "MANU NATIONAL PARK 3D/2N - GROUP SERVICE",
+      "precio": "0",
+      "descripcion": "Shared service with other travelers.",
+      "nota": "Includes transportation, specialized guide, meals, and lodge accommodation",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "MANU NATIONAL PARK 3D/2N - PRIVATE SERVICE",
+      "precio": "0",
+      "descripcion": "Exclusive service only for your group.",
+      "nota": "Includes transportation, specialized guide, meals, and lodge accommodation",
+      "descuento": 0
+    }
+  }
+}

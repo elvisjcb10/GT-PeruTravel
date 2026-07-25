@@ -1,0 +1,193 @@
+{
+    "title": "Parque Nacional do Manu",
+    "short_description": "Descubra um dos territórios com maior diversidade biológica do planeta, percorrendo desde os Andes até a Amazônia peruana em 4 dias e 3 noites.",
+    "long_description": "O Parque Nacional do Manu é uma das áreas naturais protegidas mais importantes do Peru e um dos territórios com maior diversidade biológica do planeta. Este programa de 4 dias e 3 noites foi criado para que o viajante conheça os principais ecossistemas que conectam a cordilheira dos Andes com a Amazônia peruana, percorrendo paisagens que mudam progressivamente das florestas montanas até a selva tropical.<br><br>Durante a expedição são visitados espaços naturais de grande valor ecológico, como a floresta nublada, o rio Alto Madre de Dios, o lago Machuwasi e uma collpa de araras, cenários que abrigam uma notável variedade de aves, mamíferos, répteis e espécies vegetais próprias da região amazônica. O percurso combina transporte terrestre e navegação fluvial, permitindo uma exploração mais completa dos diferentes ambientes que compõem o Parque Nacional do Manu.<br><br>Este tour é indicado para viajantes interessados em ecoturismo, observação de fauna silvestre e natureza, oferecendo uma experiência organizada que permite conhecer um dos ecossistemas mais bem preservados do país, sempre acompanhado por um guia especializado durante todo o percurso.",
+    "duration": "4 Dias / 3 Noites",
+    "image_cover": "manu/manu4d/hero.webp",
+    "gallery": [
+        "manu/manu4d/galeria1.webp",
+        "manu/manu4d/galeria1.webp",
+        "manu/manu4d/galeria1.webp",
+        "manu/manu4d/galeria1.webp",
+        "manu/manu4d/galeria1.webp",
+        "manu/manu4d/galeria1.webp"
+    ],
+    "price": "0",
+    "price_note": "Inclui transporte terrestre e fluvial, guia especializado, alimentação completa e 3 noites de hospedagem em lodge.",
+
+    "seo_title": "Tour Parque Nacional do Manu 4D/3N - Selva Amazônica | GT Peru Travel",
+    "seo_description": "Explore o Parque Nacional do Manu em um tour de 4 dias e 3 noites: floresta nublada, rio Alto Madre de Dios, lago Machuwasi e collpa de araras. Guia especializado incluído.",
+    "seo_keywords": "parque nacional do manu, manu tour, selva amazonica peru, tour manu 4 dias, lago machuwasi, collpa de araras, ecoturismo peru, gt peru travel",
+
+    "resumen": {
+        "ubicacion": "Departamento de Madre de Dios, Parque Nacional do Manu",
+        "lugar_recojo": "Cidade de Cusco",
+        "lugar_finalizacion": "Cidade de Cusco",
+        "idiomas": ["Espanhol", "Inglês", "Português"],
+        "transporte": ["Transporte turístico terrestre", "Transporte fluvial em embarcação pelo rio Alto Madre de Dios"],
+        "alimentacion": "3 cafés da manhã, 3 almoços, 3 jantares",
+        "alojamiento": "3 noites em lodge na selva",
+        "altitud": "400 - 3.550 msnm"
+    },
+
+    "caracteristicas": [
+        { "icono": "fa-person-hiking", "label": "Dificuldade", "valor": "Moderada" },
+        { "icono": "fa-clock", "label": "Duração", "valor": "4 Dias / 3 Noites" },
+        { "icono": "fa-people-group", "label": "Serviço", "valor": "Grupal / Privado" },
+        { "icono": "fa-mountain", "label": "Altitude Máxima", "valor": "3.550 msnm" }
+    ],
+
+    "days": [
+        {
+            "title": "Dia 1: Cusco – Ninamarca – Paucartambo – Abra Acjanaco – Floresta Nublada – Pilcopata",
+            "lugar": "Cusco → Pilcopata",
+            "text": "Iniciaremos nossa expedição com a busca na cidade de Cusco para nos dirigirmos ao Parque Nacional do Manu. Durante o percurso faremos uma parada no complexo arqueológico de Ninamarca, onde conheceremos suas antigas chullpas pré-hispânicas. Em seguida visitaremos Paucartambo, um tradicional povoado colonial reconhecido por preservar sua arquitetura e costumes ancestrais.<br><br>Continuaremos a subida até o Abra Acjanaco (3.550 m de altitude), considerada a principal porta de entrada ao Parque Nacional do Manu. A partir deste ponto iniciaremos a descida pela floresta nublada, um ecossistema de grande importância biológica onde, dependendo das condições, será possível observar orquídeas, samambaias, bromélias e diversas espécies de aves, entre elas o Galo-da-serra, ave nacional do Peru.<br><br>Ao final do percurso chegaremos a Pilcopata, onde nos instalaremos no lodge para desfrutar do jantar e descansar."
+        },
+        {
+            "title": "Dia 2: Pilcopata – Puerto Atalaya – Rio Alto Madre de Dios – Rainforest Lodge",
+            "lugar": "Pilcopata → Rainforest Lodge",
+            "text": "Após o café da manhã continuaremos por estrada até o Porto de Atalaya, onde embarcaremos em uma embarcação para navegar pelo rio Alto Madre de Dios, um dos principais afluentes da bacia amazônica nesta região.<br><br>Ao chegar ao Rainforest Lodge, faremos uma caminhada por trilhas da selva para conhecer a flora e fauna características do local. Durante o percurso, o guia compartilhará informações sobre as espécies que habitam este ecossistema e a importância de sua conservação. À noite teremos tempo para descansar no lodge.<br><br><i>Atividade opcional: Caminhada noturna.</i>"
+        },
+        {
+            "title": "Dia 3: Rainforest Lodge – Lago Machuwasi",
+            "lugar": "Rainforest Lodge",
+            "text": "Iniciaremos o dia explorando uma área mais profunda da selva, onde conheceremos a biodiversidade que caracteriza o Parque Nacional do Manu. Durante a caminhada, o guia interpretará o ambiente natural e compartilhará informações sobre algumas plantas utilizadas tradicionalmente pelas populações locais.<br><br>À tarde visitaremos o Lago Machuwasi, realizando um passeio em embarcações tradicionais feitas de troncos escavados. Este lugar constitui um excelente cenário para a observação de aves e outras espécies da fauna amazônica. Concluídas as atividades, retornaremos ao lodge para passar a noite.<br><br><i>Atividade opcional: Caminhada noturna.</i>"
+        },
+        {
+            "title": "Dia 4: Rainforest Lodge – Collpa de Araras – Puerto Atalaya – Cusco",
+            "lugar": "Rainforest Lodge → Cusco",
+            "text": "Após o café da manhã nos dirigiremos a uma collpa de araras, um espaço natural onde diferentes espécies de araras e papagaios se reúnem diariamente para se alimentar dos minerais presentes no solo, oferecendo um dos espetáculos naturais mais representativos da Amazônia.<br><br>Concluída a visita, retornaremos de embarcação até o Porto de Atalaya, onde embarcaremos em nosso transporte turístico para a viagem de volta à cidade de Cusco, encerrando assim nossos serviços."
+        }
+    ],
+
+    "includes": [
+        "Transporte turístico terrestre durante todo o percurso",
+        "Transporte fluvial em embarcação pelo rio Alto Madre de Dios",
+        "Guia profissional especializado em natureza",
+        "Cozinheiro durante a expedição",
+        "3 cafés da manhã",
+        "3 almoços",
+        "3 jantares",
+        "Água potável durante as refeições",
+        "Opção de alimentação vegetariana (mediante solicitação prévia e sem custo adicional)",
+        "3 noites de hospedagem em lodge na selva",
+        "Visita ao Lago Machuwasi",
+        "Visita à collpa de araras",
+        "Caminhadas guiadas pela floresta nublada e pela selva",
+        "Kit de primeiros socorros",
+        "Extrator de veneno e antídoto para picada de cobra",
+        "Tratamento para picadas de insetos",
+        "Coletes salva-vidas durante a navegação",
+        "Equipamento de comunicação por rádio",
+        "Botas de borracha para as atividades"
+    ],
+
+    "not_includes": [
+        "Voos nacionais ou internacionais",
+        "Taxas de aeroporto",
+        "Seguro de viagem",
+        "Vacina contra febre amarela",
+        "Medicação preventiva contra malária",
+        "Café da manhã do primeiro dia",
+        "Jantar do último dia",
+        "Bebidas",
+        "Gastos pessoais",
+        "Gorjetas para o guia, motorista ou equipe do lodge"
+    ],
+
+    "recommendations": [
+        { "img": "pasaporte.webp", "nombre": "Passaporte original ou documento de identidade" },
+        { "img": "repelente.webp", "nombre": "Repelente de insetos (mínimo 35% DEET)" },
+        { "img": "mochila.webp", "nombre": "Mochila pequena para as excursões" },
+        { "img": "ropa-manga-larga.webp", "nombre": "Roupa leve de manga longa e calça comprida de algodão" },
+        { "img": "medias-largas.webp", "nombre": "Meias longas" },
+        { "img": "calzado-trekking.webp", "nombre": "Calçado confortável para caminhadas" },
+        { "img": "sandalias.webp", "nombre": "Sandálias ou calçado leve para o lodge" },
+        { "img": "poncho-lluvia.webp", "nombre": "Capa de chuva ou poncho" },
+        { "img": "ropa-abrigo.webp", "nombre": "Roupa de frio para o primeiro dia" },
+        { "img": "traje-bano.webp", "nombre": "Roupa de banho" },
+        { "img": "gorra.webp", "nombre": "Chapéu ou boné" },
+        { "img": "lentes-sol.webp", "nombre": "Óculos de sol" },
+        { "img": "bloqueador.webp", "nombre": "Protetor solar" },
+        { "img": "toalla.webp", "nombre": "Toalha de uso pessoal" },
+        { "img": "linterna.webp", "nombre": "Lanterna com pilhas reserva" },
+        { "img": "botella-agua.webp", "nombre": "Garrafa de água reutilizável" }
+    ],
+
+    "recomendaciones_generales": {
+        "antes_de_viajar": [
+            "Recomenda-se tomar a vacina contra febre amarela antes de realizar a viagem",
+            "É aconselhável consultar um profissional de saúde sobre o uso de medicação preventiva contra malária",
+            "O percurso se desenvolve em diferentes zonas ecológicas, desde os Andes até a Amazônia, portanto as condições climáticas podem variar durante a viagem",
+            "A observação de fauna silvestre depende das condições naturais do ambiente, portanto o avistamento de determinadas espécies não pode ser garantido",
+            "É importante seguir sempre as indicações do guia para contribuir com a conservação do Parque Nacional do Manu e garantir uma experiência segura"
+        ],
+        "tips": [
+            "Mantenha sua câmera e equipamentos eletrônicos protegidos da umidade utilizando bolsas impermeáveis",
+            "Leve apenas a bagagem necessária para facilitar os deslocamentos durante o percurso",
+            "Evite alimentar ou se aproximar da fauna silvestre; observar à distância contribui para sua conservação",
+            "Utilize repelente de insetos e protetor solar durante as atividades ao ar livre",
+            "Respeite o ambiente natural e evite deixar resíduos durante todo o percurso"
+        ]
+    },
+
+    "faq": [
+        {
+            "pregunta": "Qual é a melhor época para visitar o Parque Nacional do Manu?",
+            "respuesta": "O tour é realizado durante todo o ano. No entanto, a temporada entre maio e outubro costuma oferecer condições climáticas mais favoráveis para o desenvolvimento das atividades."
+        },
+        {
+            "pregunta": "Que tipo de fauna pode ser observada durante o percurso?",
+            "respuesta": "Dependendo das condições naturais, é possível observar espécies como o Galo-da-serra, beija-flores, quetzais, trogões, macacos, jacarés, capivaras, tartarugas, papagaios e araras, entre outros animais próprios da Amazônia peruana."
+        },
+        {
+            "pregunta": "O tour inclui hospedagem?",
+            "respuesta": "Sim. O programa inclui 3 noites de hospedagem em um lodge na selva, além da alimentação especificada no roteiro."
+        },
+        {
+            "pregunta": "Qual é o nível de dificuldade deste tour?",
+            "respuesta": "O percurso apresenta um nível de dificuldade moderado, pois combina transporte terrestre, navegação fluvial e caminhadas por trilhas naturais."
+        },
+        {
+            "pregunta": "É obrigatório se vacinar antes da viagem?",
+            "respuesta": "Recomenda-se ter a vacina contra febre amarela antes de realizar o tour. Também é aconselhável consultar um profissional de saúde sobre a medicação preventiva contra malária."
+        },
+        {
+            "pregunta": "Que tipo de roupa devo levar?",
+            "respuesta": "Recomenda-se levar roupa leve de manga longa, calças compridas, calçado confortável para caminhadas, capa de chuva ou poncho, chapéu, protetor solar e repelente de insetos."
+        },
+        {
+            "pregunta": "O tour é indicado para toda a família?",
+            "respuesta": "O tour é recomendado para viajantes com condição física adequada para realizar caminhadas e deslocamentos em ambientes naturais."
+        },
+        {
+            "pregunta": "O avistamento de animais é garantido?",
+            "respuesta": "Não. A observação de fauna silvestre depende de fatores naturais, portanto o avistamento de determinadas espécies não pode ser garantido."
+        },
+        {
+            "pregunta": "Como é o transporte durante o percurso?",
+            "respuesta": "O tour combina transporte turístico terrestre saindo de Cusco com navegação em embarcação pelo rio Alto Madre de Dios, de acordo com o roteiro estabelecido."
+        }
+    ],
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "grupal": {
+            "titulo": "PARQUE NACIONAL DO MANU - SERVIÇO GRUPAL",
+            "precio": "0",
+            "descripcion": "Serviço compartilhado com outros viajantes.",
+            "nota": "Inclui transporte, guia especializado, alimentação e hospedagem em lodge",
+            "descuento": 0
+        },
+        "privado": {
+            "titulo": "PARQUE NACIONAL DO MANU - SERVIÇO PRIVADO",
+            "precio": "0",
+            "descripcion": "Serviço exclusivo apenas para o seu grupo.",
+            "nota": "Inclui transporte, guia especializado, alimentação e hospedagem em lodge",
+            "descuento": 0
+        }
+    }
+}

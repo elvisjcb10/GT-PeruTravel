@@ -109,8 +109,8 @@ $hero_text = json_decode($hero, true);
              class="absolute inset-0 w-full h-full object-cover">
         
         <!-- overlay -->
-        <div class="absolute inset-0 bg-gradient-to-r from-black/85 via-black/50 to-black/10"></div>
-        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/0 to-black/10"></div>
+        <!-- <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10"></div> -->
 
         <!-- CONTENIDO -->
         <div class="relative z-10  h-full flex items-center justify-center">

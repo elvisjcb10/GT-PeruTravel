@@ -121,7 +121,7 @@
             <div class="relative reveal-left">
                 <img src="<?= $base_url . $about_text['img'] ?>"
                     alt="<?= $about_text['title_primary'] . ' ' . $about_text['title_secondary'] ?>"
-                    class="w-full h-[420px] md:h-[480px] object-cover rounded-2xl shadow-lg">
+                    class="w-full h-[420px] md:h-[480px] object-cover object-bottom  rounded-2xl shadow-lg">
 
                 <div class="absolute -bottom-6 right-6 md:right-10 w-28 h-28 md:w-32 md:h-32 bg-orange-custom rounded-full flex flex-col items-center justify-center text-white text-center shadow-lg ">
                     <span class="text-3xl md:text-4xl font-anton leading-none"><?= $about_text['años']['numero'] ?>+</span>
@@ -190,7 +190,7 @@
             <div class="container-custom mx-auto px-4 ">
 
                 <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
-                    Mejores tours
+                    <?= $tours_text['kicker'] ?>
                 </p>
 
                 <h2 class="text-3xl md:text-5xl font-anton mb-4 leading-tight">
@@ -468,7 +468,7 @@
                         class="block rounded-xl overflow-hidden shadow-lg group">
 
                             <!-- IMAGEN -->
-                            <div class="relative h-40 md:h-48 overflow-hidden">
+                            <div class="relative h-40 md:h-60 overflow-hidden">
                                 <img src="<?= $base_url . $card['img'] ?>"
                                     alt="<?= $card['nombre'] ?>"
                                     class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">

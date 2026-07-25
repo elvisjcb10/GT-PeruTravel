@@ -1,12 +1,49 @@
 {
-    "descripcion": "DESCRIÇÃO",
-    "itinerario": "ITINERÁRIO",
+    "descripcion": "Descrição",
+    "itinerario": "Roteiro",
     "desde": "A partir de:",
     "reserva_titulo": "Reserve seu lugar",
     "boton_reservar": "Reservar",
     "ficha_tecnica": "Ficha Técnica",
     "incluye": "Inclui",
     "no_incluye": "Não Inclui",
-    "ver_mapa": "🔍 Ver mapa em tamanho grande",
-    "ver_mas_dias": "Ver mais dias"
+    "ver_mapa": "🔍 Ver mapa ampliado",
+    "ver_mas_dias": "Ver mais dias",
+
+    "sobre_el_paquete": "Sobre Este Pacote",
+    "que": "O Que",
+
+    "dia_a_dia": "Dia A Dia",
+    "itinerario_titulo": "Roteiro",
+    "itinerario_subtitulo": "Completo",
+
+    "preguntas": "Perguntas",
+    "frecuentes": "Frequentes",
+
+    "mapa": "Mapa",
+    "mapa_del": "Mapa Do",
+    "recorrido": "Percurso",
+
+    "galeria": "Galeria",
+    "galeria_de": "Galeria De",
+    "fotos": "Fotos",
+    "explora_peru": "Explore O Peru",
+
+    "recomendaciones": "Recomendações",
+
+    "precio": "Preço",
+    "precio_desde": "Preço A Partir De",
+    "precio_y_disponibilidad": "Preço E Disponibilidade",
+    "por_persona": "Por Pessoa",
+
+    "consultar_reservar": "Consultar / Reservar",
+    "ver_detalles": "Ver Detalhes",
+
+    "tours": "Tours",
+    "relacionados": "Relacionados",
+
+    "duracion": "Duração",
+    "dificultad": "Dificuldade",
+    "altitud_maxima": "Altitude Máxima",
+    "tipo_servicio": "Tipo De Serviço"
 }

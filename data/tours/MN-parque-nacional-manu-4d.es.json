@@ -3,12 +3,14 @@
     "short_description": "Descubre uno de los territorios con mayor diversidad biológica del planeta, recorriendo desde los Andes hasta la Amazonía peruana en 4 días y 3 noches.",
     "long_description": "El Parque Nacional del Manu es una de las áreas naturales protegidas más importantes del Perú y uno de los territorios con mayor diversidad biológica del planeta. Este programa de 4 días y 3 noches ha sido diseñado para que el viajero conozca los principales ecosistemas que conectan la cordillera de los Andes con la Amazonía peruana, recorriendo paisajes que cambian progresivamente desde los bosques montanos hasta la selva tropical.<br><br>Durante la expedición se visitan espacios naturales de gran valor ecológico, como el bosque nublado, el río Alto Madre de Dios, el lago Machuwasi y una collpa de loros, escenarios que albergan una notable variedad de aves, mamíferos, reptiles y especies vegetales propias de la región amazónica. El recorrido combina transporte terrestre y navegación fluvial, permitiendo una exploración más completa de los diferentes ambientes que conforman el Parque Nacional del Manu.<br><br>Este tour está dirigido a viajeros interesados en el ecoturismo, la observación de fauna silvestre y la naturaleza, ofreciendo una experiencia organizada que permite conocer uno de los ecosistemas mejor conservados del país, siempre acompañado por un guía especializado durante todo el recorrido.",
     "duration": "4 Días / 3 Noches",
-    "image_cover": "manu-nacional-park-cover.jpg",
+    "image_cover": "manu/manu4d/hero.webp",
     "gallery": [
-        "manu-galeria-1.jpg",
-        "manu-galeria-2.jpg",
-        "manu-galeria-3.jpg",
-        "manu-galeria-4.jpg"
+        "manu/manu4d/galeria1.webp",
+        "manu/manu4d/galeria1.webp",
+        "manu/manu4d/galeria1.webp",
+        "manu/manu4d/galeria1.webp",
+        "manu/manu4d/galeria1.webp",
+        "manu/manu4d/galeria1.webp"
     ],
     "price": "0",
     "price_note": "Incluye transporte terrestre y fluvial, guía especializado, alimentación completa y 3 noches de alojamiento en lodge.",

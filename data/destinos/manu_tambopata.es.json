@@ -1,5 +1,5 @@
 {
-    "background": "/images/destinos/manu/manu.webp",
+    "background": "/images/destinos/manu/hero.webp",
     "badge": "Destino",
     "titulo": "Tours en Manu Tambopata",
     "descripcion": "Adéntrate en la selva amazónica peruana, una de las reservas de biosfera con mayor biodiversidad del planeta.",
@@ -14,47 +14,26 @@
         "texto": "+90 Viajeros"
     },
     "filtros": [
-        { "id": "todos", "label": "Todos" },
-        { "id": "tradicionales", "label": "Tradicionales" },
-        { "id": "aventura", "label": "Aventura" },
-        { "id": "caminata", "label": "Caminata" }
+    
     ],
     "tours": [
         {
-            "title": "Tambopata 3 Días",
-            "description": "Explora la Reserva Nacional Tambopata, observa fauna silvestre y visita la Collpa de Guacamayos.",
-            "price": "280",
-            "duracion": "3Dias / 2Noches",
-            "image": "tambopata-3dias.jpg",
-            "url": "tambopata-3dias",
-            "categoria": "aventura"
-        },
-        {
-            "title": "Manu National Park 4 Días",
-            "description": "Adéntrate en el Parque Nacional del Manu, una de las áreas protegidas con mayor biodiversidad del mundo.",
-            "price": "450",
+            "title": "Parque Nacional del Manu 4D/3N",
+            "description": "Recorre desde los Andes hasta la Amazonía: bosque nublado, río Alto Madre de Dios, lago Machuwasi y la collpa de loros en una expedición de 4 días.",
+            "price": "0",
             "duracion": "4Dias / 3Noches",
-            "image": "manu-4dias.jpg",
-            "url": "manu-4dias",
+            "image": "tours/manu/manu4d/card.webp",
+            "url": "MN-parque-nacional-manu-4d",
             "categoria": "aventura"
         },
         {
-            "title": "Lago Sandoval",
-            "description": "Navega en canoa por el Lago Sandoval y observa lobos de río, monos y aves tropicales.",
-            "price": "65",
-            "duracion": "1Dia / 0Noches",
-            "image": "lago-sandoval.jpg",
-            "url": "lago-sandoval",
-            "categoria": "tradicionales"
-        },
-        {
-            "title": "Canopy y Torre de Observación",
-            "description": "Vive la adrenalina del canopy sobre el dosel amazónico y observa la selva desde una torre de 40 metros.",
-            "price": "70",
-            "duracion": "1Dia / 0Noches",
-            "image": "canopy-amazonico.jpg",
-            "url": "canopy-amazonico",
-            "categoria": "caminata"
+            "title": "Parque Nacional del Manu 3D/2N",
+            "description": "Descubre la extraordinaria biodiversidad de la Amazonía peruana en una expedición de 3 días y 2 noches que conecta los Andes con la selva tropical.",
+            "price": "0",
+            "duracion": "3Dias / 2Noches",
+            "image": "tours/manu/manu3d/card.webp",
+            "url": "MN-parque-nacional-manu-3d",
+            "categoria": "aventura"
         }
     ]
 }

@@ -150,8 +150,8 @@ $base_url = "..";
                 alt="<?= ($data['title']) ?>">
 
             <!-- overlays para legibilidad del texto -->
-            <div class="absolute inset-0 bg-gradient-to-r from-black/85 via-black/50 to-black/10"></div>
-            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10"></div>
+            <!-- <div class="absolute inset-0 bg-gradient-to-r from-black/85 via-black/50 to-black/10"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10"></div> -->
 
             <!-- contenido principal -->
             <div class="relative z-10 h-full flex items-center justify-center">

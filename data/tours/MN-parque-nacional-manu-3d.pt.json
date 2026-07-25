@@ -1,0 +1,187 @@
+{
+  "title": "Parque Nacional do Manu 3D/2N",
+  "short_description": "Descubra a extraordinária biodiversidade da Amazônia peruana em uma expedição de 3 dias e 2 noites que conecta os Andes à selva tropical.",
+  "long_description": "O Parque Nacional do Manu 3 Dias / 2 Noites é uma expedição projetada para descobrir a extraordinária biodiversidade da Amazônia peruana através de um percurso que conecta os Andes à selva tropical. Durante a viagem, você explorará a Zona Cultural do Parque Nacional do Manu, atravessando paisagens que vão desde a floresta nublada até as matas amazônicas, habitat de uma grande variedade de espécies de flora e fauna.<br><br>O itinerário inclui visitas a locais emblemáticos como Ninamarca, Paucartambo, o Abra Acjanaco, o rio Alto Madre de Dios, a Lagoa Machuwasi e um barreiro de papagaios (collpa), combinando transporte terrestre, navegação fluvial e caminhadas interpretativas acompanhadas por um guia especializado.<br><br>Este tour é ideal para viajantes que desejam conhecer um dos destinos naturais mais importantes do Peru por meio de uma experiência organizada, que combina natureza, observação da vida selvagem e paisagens únicas no Parque Nacional do Manu.",
+  "duration": "3 Dias / 2 Noites",
+  "image_cover": "manu/manu3d/hero.webp",
+  "gallery": [
+    "manu/manu3d/galeria1.webp",
+    "manu/manu3d/galeria2.webp",
+    "manu/manu3d/galeria3.webp",
+    "manu/manu3d/galeria4.webp"
+  ],
+  "price": "0",
+  "price_note": "Inclui transporte terrestre e fluvial, guia especializado, alimentação segundo o itinerário e 2 noites de hospedagem em ecolodge.",
+
+  "seo_title": "Tour Parque Nacional do Manu 3D/2N - Selva Amazônica | GT Peru Travel",
+  "seo_description": "Explore o Parque Nacional do Manu em um tour de 3 dias e 2 noites: floresta nublada, rio Alto Madre de Dios, Lagoa Machuwasi e barreiro de papagaios. Guia especializado incluído.",
+  "seo_keywords": "parque nacional do manu, manu tour 3 dias, selva amazonica peru, lagoa machuwasi, collpa de papagaios, ecoturismo peru, gt peru travel",
+
+  "resumen": {
+    "ubicacion": "Departamento de Madre de Dios, Parque Nacional do Manu",
+    "lugar_recojo": "Cidade de Cusco",
+    "lugar_finalizacion": "Cidade de Cusco",
+    "idiomas": ["Espanhol", "Inglês", "Português"],
+    "transporte": ["Transporte turístico terrestre", "Transporte fluvial pelo rio Alto Madre de Dios"],
+    "alimentacion": "Alimentação de acordo com o itinerário",
+    "alojamiento": "2 noites em ecolodge",
+    "altitud": "400 - 3.550 msnm"
+  },
+
+  "caracteristicas": [
+    { "icono": "fa-person-hiking", "label": "Dificuldade", "valor": "Moderada" },
+    { "icono": "fa-clock", "label": "Duração", "valor": "3 Dias / 2 Noites" },
+    { "icono": "fa-people-group", "label": "Serviço", "valor": "Compartilhado / Privado" },
+    { "icono": "fa-mountain", "label": "Altitude Máxima", "valor": "3.550 msnm" }
+  ],
+
+  "actividades": [
+    "Caminhadas interpretativas",
+    "Navegação pelo rio Alto Madre de Dios",
+    "Observação de flora e fauna",
+    "Visita à Lagoa Machuwasi",
+    "Observação do barreiro de papagaios (collpa)"
+  ],
+
+  "days": [
+    {
+      "title": "Dia 1: Cusco – Ninamarca – Paucartambo – Abra Acjanaco – Floresta Nublada – Rainforest Lodge",
+      "lugar": "Cusco → Rainforest Lodge",
+      "text": "Nossa expedição começa bem cedo na cidade de Cusco em direção ao Parque Nacional do Manu. A primeira parada será no sítio arqueológico de Ninamarca, onde conheceremos as antigas chullpas pré-incas que fazem parte do patrimônio arqueológico da província de Paucartambo.<br><br>Posteriormente, visitaremos Paucartambo, um vilarejo andino tradicional que conserva sua arquitetura colonial e uma rica herança cultural. Continuaremos a subida até Tres Cruces e o Abra Acjanaco, considerado o principal acesso ao Parque Nacional do Manu, de onde iniciaremos a descida em direção à floresta nublada.<br><br>Durante o trajeto, faremos uma caminhada para observar o Galo-da-serra (ave nacional do Peru), além de diferentes espécies de macacos, orquídeas, samambaias e plantas nativas. Após o almoço, continuaremos a viagem até o nosso lodge, onde desfrutaremos do jantar e descanso."
+    },
+    {
+      "title": "Dia 2: Rainforest Lodge – Porto Atalaya – Rio Alto Madre de Dios – Lagoa Machuwasi – Harpy Eagle Lodge",
+      "lugar": "Rainforest Lodge → Harpy Eagle Lodge",
+      "text": "Após o café da manhã, continuaremos a viagem até Porto Atalaya, onde embarcaremos em uma viagem de barco pelo rio Alto Madre de Dios, observando a exuberante vegetação amazônica e diversas espécies de aves e animais silvestres ao longo do caminho.<br><br>Ao chegar ao lodge, teremos o almoço e, à tarde, visitaremos a Lagoa Machuwasi. Navegaremos em embarcações tradicionais para observar o Cigana (Hoatzin), conhecido como a ave pré-histórica da Amazônia, além de outras espécies características deste lago. Ao cair da tarde, faremos uma saída para observação de jacarés antes de retornar ao lodge para jantar e descansar."
+    },
+    {
+      "title": "Dia 3: Harpy Eagle Lodge – Barreiro de Papagaios (Collpa) – Atalaya – Cusco",
+      "lugar": "Harpy Eagle Lodge → Cusco",
+      "text": "Bem cedo, visitaremos um barreiro de papagaios (collpa), onde diferentes espécies de papagaios e araras se reúnem diariamente para ingerir minerais essenciais presentes nas paredes de argila deste local natural.<br><br>Após o café da manhã, faremos uma caminhada pela selva em trilhas onde será possível observar diversas espécies de aves, plantas e árvores representativas da floresta amazônica. Finalizada a atividade, retornaremos de barco até Porto Atalaya, onde nosso transporte turístico estará aguardando para voltar à cidade de Cusco, atravessando novamente a floresta nublada e o vilarejo de Paucartambo."
+    }
+  ],
+
+  "includes": [
+    "Transporte turístico terrestre",
+    "Transporte fluvial",
+    "Guia profissional especializado",
+    "2 noites de hospedagem em ecolodge",
+    "Alimentação de acordo com o itinerário",
+    "Caminhadas guiadas",
+    "Navegação na Lagoa Machuwasi",
+    "Visita ao barreiro de papagaios (collpa)"
+  ],
+
+  "not_includes": [
+    "Voos nacionais ou internacionais",
+    "Seguro de viagem",
+    "Gastos pessoais",
+    "Bebidas",
+    "Gorjetas",
+    "Serviços não especificados no programa"
+  ],
+
+  "recommendations": [
+    { "img": "pasaporte.webp", "nombre": "Documento de identidade ou passaporte" },
+    { "img": "repelente.webp", "nombre": "Repelente de insetos" },
+    { "img": "bloqueador.webp", "nombre": "Protetor solar" },
+    { "img": "gorra.webp", "nombre": "Chapéu ou boné" },
+    { "img": "ropa-manga-larga.webp", "nombre": "Roupas leves de manga longa" },
+    { "img": "poncho-lluvia.webp", "nombre": "Capa de chuva ou poncho" },
+    { "img": "calzado-trekking.webp", "nombre": "Calçado confortável para caminhadas" },
+    { "img": "linterna.webp", "nombre": "Lanterna" },
+    { "img": "botella-agua.webp", "nombre": "Garrafa reutilizável para água" }
+  ],
+
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Recomenda-se tomar a vacina contra a febre amarela",
+      "Consulte um profissional de saúde sobre a prevenção de doenças tropicais",
+      "Siga as instruções do guia durante todo o trajeto",
+      "Respeite a flora e a fauna do Parque Nacional do Manu"
+    ]
+  },
+
+  "faq": [
+    {
+      "pregunta": "Qual é a melhor época para visitar o Parque Nacional do Manu?",
+      "respuesta": "O Parque Nacional do Manu pode ser visitado durante todo o ano. No entanto, o período entre maio e outubro costuma oferecer condições climáticas mais estáveis e com menor incidência de chuvas, o que facilita as caminhadas, a navegação e a observação da vida selvagem."
+    },
+    {
+      "pregunta": "Quais animais é possível ver durante o passeio?",
+      "respuesta": "A diversidade da fauna varia conforme a temporada e as condições naturais do ambiente. Durante a expedição, é possível observar espécies como o Galo-da-serra, papagaios, araras, ciganas (hoatzins), macacos, jacarés, capivaras, tartarugas e uma enorme variedade de aves e insetos. Por se tratar de uma área natural protegida, a avistamento de animais depende do clima e do seu comportamento na natureza."
+    },
+    {
+      "pregunta": "O tour é adequado para toda a família?",
+      "respuesta": "Sim, o programa pode ser realizado por famílias, desde que os participantes tenham condição física adequada para caminhadas de dificuldade moderada e passeios de barco. Recomenda-se avaliar a participação de crianças pequenas, idosos ou pessoas com alguma condição médica antes de reservar."
+    },
+    {
+      "pregunta": "Que tipo de hospedagem está incluída no programa?",
+      "respuesta": "O tour inclui 2 noites de hospedagem em um ecolodge localizado na zona de amortecimento do Parque Nacional do Manu. Essas acomodações são projetadas para oferecer conforto ao viajante, mantendo uma experiência de contato direto com a natureza."
+    },
+    {
+      "pregunta": "Que tipo de roupa é recomendável levar?",
+      "respuesta": "Recomendamos levar roupas leves de manga longa, calças compridas, calçados confortáveis para caminhada, capa de chuva ou poncho, chapéu ou boné, repelente, protetor solar e uma troca de roupa extra. Também é aconselhável levar uma lanterna e uma mochila pequena para os passeios diários."
+    },
+    {
+      "pregunta": "É obrigatório tomar vacina antes da viagem?",
+      "respuesta": "É altamente recomendável tomar a vacina contra a febre amarela antes de viajar para o Parque Nacional do Manu. Além disso, é aconselhável consultar um profissional de saúde sobre medidas preventivas adicionais antes de visitar a Amazônia peruana."
+    },
+    {
+      "pregunta": "Qual é o nível de dificuldade do tour?",
+      "respuesta": "O itinerário apresenta nível de dificuldade moderado, pois combina transporte terrestre, navegação pelo rio Alto Madre de Dios e caminhadas por trilhas naturais. Não é necessária experiência prévia, apenas uma condição física básica para aproveitar as atividades com conforto."
+    },
+    {
+      "pregunta": "Quais atividades são realizadas durante a expedição?",
+      "respuesta": "O programa combina diversas atividades voltadas ao ecoturismo e à observação da natureza, incluindo caminhadas interpretativas, navegação pelo rio Alto Madre de Dios, passeios pela floresta nublada, visita à Lagoa Machuwasi, observação do barreiro de papagaios (collpa) e exploração de diferentes ecossistemas do Manu."
+    }
+  ],
+
+  "tours_relacionados": [
+    {
+      "title": "Parque Nacional do Manu 4D/3N",
+      "description": "Viaje dos Andes até a Amazônia: floresta nublada, rio Alto Madre de Dios, lago Machuwasi e barreiro de papagaios em uma expedição de 4 dias.",
+      "price": "0",
+      "duracion": "4Dias / 3Noites",
+      "image": "manu-nacional-park-cover.jpg",
+      "url": "manu-4dias"
+    },
+    {
+      "title": "Tambopata 3 Dias",
+      "description": "Explore a Reserva Nacional Tambopata, observe a vida selvagem e visite o barreiro de araras (collpa).",
+      "price": "280",
+      "duracion": "3Dias / 2Noites",
+      "image": "tambopata-3dias.jpg",
+      "url": "tambopata-3dias"
+    },
+    {
+      "title": "Lago Sandoval",
+      "description": "Navegue de canoa pelo Lago Sandoval e observe ariranhas (lobos de rio), macacos e aves tropicais.",
+      "price": "65",
+      "duracion": "1Dia / 0Noites",
+      "image": "lago-sandoval.jpg",
+      "url": "lago-sandoval"
+    }
+  ],
+
+  "brochure": "",
+  "map": "",
+  "video": "",
+
+  "categories": {
+    "grupal": {
+      "titulo": "PARQUE NACIONAL DO MANU 3D/2N - SERVIÇO COMPARTILHADO",
+      "precio": "0",
+      "descripcion": "Serviço compartilhado com outros viajantes.",
+      "nota": "Inclui transporte, guia especializado, alimentação e hospedagem em lodge",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "PARQUE NACIONAL DO MANU 3D/2N - SERVIÇO PRIVADO",
+      "precio": "0",
+      "descripcion": "Serviço exclusivo apenas para o seu grupo.",
+      "nota": "Inclui transporte, guia especializado, alimentação e hospedagem em lodge",
+      "descuento": 0
+    }
+  }
+}

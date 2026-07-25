@@ -1,0 +1,187 @@
+{
+    "title": "Parque Nacional del Manu 3D/2N",
+    "short_description": "Descubre la extraordinaria biodiversidad de la Amazonía peruana en una expedición de 3 días y 2 noches que conecta los Andes con la selva tropical.",
+    "long_description": "El Parque Nacional del Manu 3 Días / 2 Noches es una expedición diseñada para descubrir la extraordinaria biodiversidad de la Amazonía peruana a través de un recorrido que conecta los Andes con la selva tropical. Durante el viaje explorarán la Zona Cultural del Parque Nacional del Manu, atravesando paisajes que van desde el bosque nublado hasta los bosques amazónicos, donde habita una gran variedad de especies de flora y fauna.<br><br>El programa incluye visitas a lugares emblemáticos como Ninamarca, Paucartambo, el Abra Acjanaco, el río Alto Madre de Dios, la Laguna Machuwasi y una collpa de loros, combinando transporte terrestre, navegación fluvial y caminatas interpretativas en compañía de un guía especializado.<br><br>Este tour es ideal para viajeros que desean conocer uno de los destinos naturales más importantes del Perú mediante una experiencia organizada, que combina naturaleza, observación de vida silvestre y paisajes únicos en el Parque Nacional del Manu.",
+    "duration": "3 Días / 2 Noches",
+    "image_cover": "manu/manu3d/hero.webp",
+    "gallery": [
+        "manu/manu3d/galeria1.webp",
+        "manu/manu3d/galeria2.webp",
+        "manu/manu3d/galeria3.webp",
+        "manu/manu3d/galeria4.webp"
+    ],
+    "price": "0",
+    "price_note": "Incluye transporte terrestre y fluvial, guía especializado, alimentación según itinerario y 2 noches de alojamiento en lodge ecológico.",
+
+    "seo_title": "Tour Parque Nacional del Manu 3D/2N - Selva Amazónica | GT Peru Travel",
+    "seo_description": "Explora el Parque Nacional del Manu en un tour de 3 días y 2 noches: bosque nublado, río Alto Madre de Dios, Laguna Machuwasi y collpa de loros. Guía especializado incluido.",
+    "seo_keywords": "parque nacional del manu, manu tour 3 dias, selva amazonica peru, laguna machuwasi, collpa de loros, ecoturismo peru, gt peru travel",
+
+    "resumen": {
+        "ubicacion": "Departamento de Madre de Dios, Parque Nacional del Manu",
+        "lugar_recojo": "Ciudad del Cusco",
+        "lugar_finalizacion": "Ciudad del Cusco",
+        "idiomas": ["Español", "Inglés", "Portugués"],
+        "transporte": ["Transporte turístico terrestre", "Transporte fluvial por el río Alto Madre de Dios"],
+        "alimentacion": "Alimentación según el itinerario",
+        "alojamiento": "2 noches en lodge ecológico",
+        "altitud": "400 - 3,550 msnm"
+    },
+
+    "caracteristicas": [
+        { "icono": "fa-person-hiking", "label": "Dificultad", "valor": "Moderada" },
+        { "icono": "fa-clock", "label": "Duración", "valor": "3 Días / 2 Noches" },
+        { "icono": "fa-people-group", "label": "Servicio", "valor": "Grupal / Privado" },
+        { "icono": "fa-mountain", "label": "Altitud Máxima", "valor": "3,550 msnm" }
+    ],
+
+    "actividades": [
+        "Caminatas interpretativas",
+        "Navegación por el río Alto Madre de Dios",
+        "Observación de flora y fauna",
+        "Visita a la Laguna Machuwasi",
+        "Observación de la collpa de loros"
+    ],
+
+    "days": [
+        {
+            "title": "Día 1: Cusco – Ninamarca – Paucartambo – Abra Acjanaco – Bosque Nublado – Rainforest Lodge",
+            "lugar": "Cusco → Rainforest Lodge",
+            "text": "Nuestra expedición inicia muy temprano en la ciudad del Cusco con dirección al Parque Nacional del Manu. La primera parada será en el complejo arqueológico de Ninamarca, donde conoceremos las antiguas chullpas pre hispánicas que forman parte del patrimonio arqueológico de la provincia de Paucartambo.<br><br>Posteriormente visitaremos Paucartambo, un tradicional pueblo andino que conserva su arquitectura colonial y una importante herencia cultural. Continuaremos el ascenso hasta Tres Cruces y el Abra Acjanaco, considerado el principal acceso al Parque Nacional del Manu, desde donde iniciaremos el descenso hacia el bosque nublado.<br><br>Durante el recorrido realizaremos una caminata para observar el Gallito de las Rocas, ave nacional del Perú, además de diferentes especies de monos, orquídeas, helechos y otras plantas propias de este ecosistema. Después del almuerzo continuaremos el viaje hasta nuestro lodge, donde disfrutaremos de la cena y el descanso."
+        },
+        {
+            "title": "Día 2: Rainforest Lodge – Puerto Atalaya – Río Alto Madre de Dios – Laguna Machuwasi – Harpy Eagle Lodge",
+            "lugar": "Rainforest Lodge → Harpy Eagle Lodge",
+            "text": "Después del desayuno continuaremos el recorrido hasta Puerto Atalaya, donde abordaremos una embarcación para navegar por el río Alto Madre de Dios, observando durante el trayecto la exuberante vegetación amazónica y diversas especies de aves y fauna silvestre.<br><br>Al llegar al lodge disfrutaremos del almuerzo y, por la tarde, visitaremos la Laguna Machuwasi. Navegaremos en embarcaciones tradicionales para observar el Hoatzín, conocido como el ave prehistórica de la Amazonía, además de otras especies características de este humedal. Al caer la tarde realizaremos una salida para observar caimanes antes de retornar al lodge para cenar y descansar."
+        },
+        {
+            "title": "Día 3: Harpy Eagle Lodge – Collpa de Loros – Atalaya – Cusco",
+            "lugar": "Harpy Eagle Lodge → Cusco",
+            "text": "Muy temprano visitaremos una collpa de loros, donde diferentes especies de loros y guacamayos se concentran diariamente para ingerir minerales esenciales presentes en las paredes arcillosas de este espacio natural.<br><br>Después del desayuno realizaremos una caminata por la selva, recorriendo senderos donde será posible observar diversas especies de aves, plantas y árboles representativos del bosque amazónico. Finalizada la actividad retornaremos en embarcación hasta Puerto Atalaya, donde abordaremos nuestro transporte turístico para regresar a la ciudad del Cusco, atravesando nuevamente el bosque nublado y el pueblo de Paucartambo."
+        }
+    ],
+
+    "includes": [
+        "Transporte turístico terrestre",
+        "Transporte fluvial",
+        "Guía profesional especializado",
+        "2 noches de alojamiento en lodge ecológico",
+        "Alimentación según el itinerario",
+        "Caminatas guiadas",
+        "Navegación en la Laguna Machuwasi",
+        "Visita a la collpa de loros"
+    ],
+
+    "not_includes": [
+        "Vuelos nacionales o internacionales",
+        "Seguro de viaje",
+        "Gastos personales",
+        "Bebidas",
+        "Propinas",
+        "Servicios no especificados en el programa"
+    ],
+
+    "recommendations": [
+        { "img": "pasaporte.webp", "nombre": "Documento de identidad o pasaporte" },
+        { "img": "repelente.webp", "nombre": "Repelente de insectos" },
+        { "img": "bloqueador.webp", "nombre": "Protector solar" },
+        { "img": "gorra.webp", "nombre": "Sombrero o gorra" },
+        { "img": "ropa-manga-larga.webp", "nombre": "Ropa ligera de manga larga" },
+        { "img": "poncho-lluvia.webp", "nombre": "Impermeable o poncho" },
+        { "img": "calzado-trekking.webp", "nombre": "Calzado cómodo para caminatas" },
+        { "img": "linterna.webp", "nombre": "Linterna" },
+        { "img": "botella-agua.webp", "nombre": "Botella reutilizable para agua" }
+    ],
+
+    "recomendaciones_generales": {
+        "antes_de_viajar": [
+            "Se recomienda contar con la vacuna contra la fiebre amarilla",
+            "Consulta con un profesional de la salud sobre la prevención de enfermedades tropicales",
+            "Sigue las indicaciones del guía durante todo el recorrido",
+            "Respeta la flora y fauna del Parque Nacional del Manu"
+        ]
+    },
+
+    "faq": [
+        {
+            "pregunta": "¿Cuál es la mejor época para visitar el Parque Nacional del Manu?",
+            "respuesta": "El Parque Nacional del Manu puede visitarse durante todo el año. Sin embargo, la temporada comprendida entre mayo y octubre suele ofrecer condiciones climáticas más estables, con menor presencia de lluvias, lo que facilita las caminatas, la navegación y la observación de fauna durante el recorrido."
+        },
+        {
+            "pregunta": "¿Qué animales es posible observar durante el recorrido?",
+            "respuesta": "La diversidad de fauna varía según la temporada y las condiciones naturales del entorno. Durante la expedición es posible observar especies como el Gallito de las Rocas, loros, guacamayos, hoatzines, monos, caimanes, capibaras, tortugas y una gran variedad de aves e insectos. Al tratarse de un área natural protegida, el avistamiento de animales depende de factores como el clima y su comportamiento en estado silvestre."
+        },
+        {
+            "pregunta": "¿El tour es apto para toda la familia?",
+            "respuesta": "Sí, el programa puede ser realizado por familias, siempre que los participantes cuenten con una condición física adecuada para realizar caminatas de dificultad moderada y desplazamientos en embarcación. Se recomienda evaluar la participación de niños pequeños, adultos mayores o personas con alguna condición médica antes de realizar la reserva."
+        },
+        {
+            "pregunta": "¿Qué tipo de alojamiento incluye el programa?",
+            "respuesta": "El tour incluye 2 noches de alojamiento en un lodge ecológico, ubicado en la zona de influencia del Parque Nacional del Manu. Estos alojamientos están diseñados para ofrecer comodidad al viajero, manteniendo una experiencia de contacto directo con la naturaleza."
+        },
+        {
+            "pregunta": "¿Qué ropa se recomienda llevar?",
+            "respuesta": "Se recomienda llevar ropa ligera de manga larga, pantalones largos, calzado cómodo para caminatas, impermeable o poncho para lluvia, sombrero o gorra, repelente de insectos, protector solar y una muda de ropa adicional. También es aconsejable llevar una linterna y una mochila pequeña para las excursiones diarias."
+        },
+        {
+            "pregunta": "¿Es obligatorio vacunarse antes del viaje?",
+            "respuesta": "Se recomienda contar con la vacuna contra la fiebre amarilla antes de realizar el viaje al Parque Nacional del Manu. Asimismo, es aconsejable consultar con un profesional de la salud sobre medidas preventivas adicionales antes de visitar la Amazonía peruana."
+        },
+        {
+            "pregunta": "¿Qué nivel de dificultad tiene el tour?",
+            "respuesta": "El recorrido presenta un nivel de dificultad moderado, ya que combina transporte terrestre, navegación por el río Alto Madre de Dios y caminatas por senderos naturales. No se requiere experiencia previa, pero sí una condición física que permita disfrutar cómodamente de las actividades programadas."
+        },
+        {
+            "pregunta": "¿Qué actividades se realizan durante la expedición?",
+            "respuesta": "El programa combina diversas actividades orientadas al ecoturismo y la observación de la naturaleza, entre ellas caminatas interpretativas, navegación por el río Alto Madre de Dios, recorridos por el bosque nublado, visita a la Laguna Machuwasi, observación de una collpa de loros y exploración de diferentes ecosistemas que conforman el Parque Nacional del Manu."
+        }
+    ],
+
+    "tours_relacionados": [
+        {
+            "title": "Parque Nacional del Manu 4D/3N",
+            "description": "Recorre desde los Andes hasta la Amazonía: bosque nublado, río Alto Madre de Dios, lago Machuwasi y la collpa de loros en una expedición de 4 días.",
+            "price": "0",
+            "duracion": "4Dias / 3Noches",
+            "image": "manu-nacional-park-cover.jpg",
+            "url": "manu-4dias"
+        },
+        {
+            "title": "Tambopata 3 Días",
+            "description": "Explora la Reserva Nacional Tambopata, observa fauna silvestre y visita la Collpa de Guacamayos.",
+            "price": "280",
+            "duracion": "3Dias / 2Noches",
+            "image": "tambopata-3dias.jpg",
+            "url": "tambopata-3dias"
+        },
+        {
+            "title": "Lago Sandoval",
+            "description": "Navega en canoa por el Lago Sandoval y observa lobos de río, monos y aves tropicales.",
+            "price": "65",
+            "duracion": "1Dia / 0Noches",
+            "image": "lago-sandoval.jpg",
+            "url": "lago-sandoval"
+        }
+    ],
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "grupal": {
+            "titulo": "PARQUE NACIONAL DEL MANU 3D/2N - SERVICIO GRUPAL",
+            "precio": "0",
+            "descripcion": "Servicio compartido con otros viajeros.",
+            "nota": "Incluye transporte, guía especializado, alimentación y alojamiento en lodge",
+            "descuento": 0
+        },
+        "privado": {
+            "titulo": "PARQUE NACIONAL DEL MANU 3D/2N - SERVICIO PRIVADO",
+            "precio": "0",
+            "descripcion": "Servicio exclusivo solo para tu grupo.",
+            "nota": "Incluye transporte, guía especializado, alimentación y alojamiento en lodge",
+            "descuento": 0
+        }
+    }
+}

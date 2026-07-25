@@ -1,0 +1,193 @@
+{
+    "title": "Manu National Park",
+    "short_description": "Discover one of the most biologically diverse territories on the planet, traveling from the Andes to the Peruvian Amazon in 4 days and 3 nights.",
+    "long_description": "Manu National Park is one of the most important protected natural areas in Peru and one of the territories with the greatest biological diversity on the planet. This 4-day, 3-night program has been designed so travelers can experience the main ecosystems that connect the Andes mountain range with the Peruvian Amazon, journeying through landscapes that progressively change from montane forests to tropical rainforest.<br><br>During the expedition, visitors explore natural areas of great ecological value, such as the cloud forest, the Alto Madre de Dios River, Machuwasi Lake, and a parrot clay lick, home to a remarkable variety of birds, mammals, reptiles, and plant species typical of the Amazon region. The route combines overland transport and river navigation, allowing for a more complete exploration of the different environments that make up Manu National Park.<br><br>This tour is aimed at travelers interested in ecotourism, wildlife observation, and nature, offering an organized experience that allows visitors to discover one of the best-preserved ecosystems in the country, always accompanied by a specialized guide throughout the journey.",
+    "duration": "4 Days / 3 Nights",
+    "image_cover": "manu/manu4d/hero.webp",
+    "gallery": [
+        "manu/manu4d/galeria1.webp",
+        "manu/manu4d/galeria1.webp",
+        "manu/manu4d/galeria1.webp",
+        "manu/manu4d/galeria1.webp",
+        "manu/manu4d/galeria1.webp",
+        "manu/manu4d/galeria1.webp"
+    ],
+    "price": "0",
+    "price_note": "Includes ground and river transportation, specialized guide, full meals, and 3 nights of lodge accommodation.",
+
+    "seo_title": "Manu National Park Tour 4D/3N - Amazon Rainforest | GT Peru Travel",
+    "seo_description": "Explore Manu National Park on a 4-day, 3-night tour: cloud forest, Alto Madre de Dios River, Machuwasi Lake, and parrot clay lick. Specialized guide included.",
+    "seo_keywords": "manu national park, manu tour, peru amazon rainforest, manu 4 day tour, machuwasi lake, parrot clay lick, peru ecotourism, gt peru travel",
+
+    "resumen": {
+        "ubicacion": "Madre de Dios Region, Manu National Park",
+        "lugar_recojo": "City of Cusco",
+        "lugar_finalizacion": "City of Cusco",
+        "idiomas": ["Spanish", "English", "Portuguese"],
+        "transporte": ["Overland tourist transport", "River transport by boat along the Alto Madre de Dios River"],
+        "alimentacion": "3 breakfasts, 3 lunches, 3 dinners",
+        "alojamiento": "3 nights at a rainforest lodge",
+        "altitud": "400 - 3,550 masl"
+    },
+
+    "caracteristicas": [
+        { "icono": "fa-person-hiking", "label": "Difficulty", "valor": "Moderate" },
+        { "icono": "fa-clock", "label": "Duration", "valor": "4 Days / 3 Nights" },
+        { "icono": "fa-people-group", "label": "Service", "valor": "Group / Private" },
+        { "icono": "fa-mountain", "label": "Maximum Altitude", "valor": "3,550 masl" }
+    ],
+
+    "days": [
+        {
+            "title": "Day 1: Cusco – Ninamarca – Paucartambo – Acjanaco Pass – Cloud Forest – Pilcopata",
+            "lugar": "Cusco → Pilcopata",
+            "text": "We begin our expedition with pickup in the city of Cusco to head toward Manu National Park. Along the way, we'll stop at the Ninamarca archaeological complex, where we'll learn about its ancient pre-Hispanic chullpas. Afterward, we'll visit Paucartambo, a traditional colonial town known for preserving its architecture and ancestral customs.<br><br>We'll continue climbing to the Acjanaco Pass (3,550 masl), considered the main entrance to Manu National Park. From this point we'll begin our descent through the cloud forest, an ecosystem of great biological importance where, depending on conditions, it may be possible to spot orchids, ferns, bromeliads, and various bird species, including the Andean Cock-of-the-rock, Peru's national bird.<br><br>At the end of the journey we'll arrive in Pilcopata, where we'll settle into the lodge to enjoy dinner and rest."
+        },
+        {
+            "title": "Day 2: Pilcopata – Atalaya Port – Alto Madre de Dios River – Rainforest Lodge",
+            "lugar": "Pilcopata → Rainforest Lodge",
+            "text": "After breakfast we'll continue by road to Atalaya Port, where we'll board a boat to navigate the Alto Madre de Dios River, one of the main tributaries of the Amazon basin in this region.<br><br>Upon arriving at the Rainforest Lodge, we'll take a walk along rainforest trails to discover the flora and fauna characteristic of the area. Along the way, the guide will share information about the species that inhabit this ecosystem and the importance of its conservation. In the evening we'll have time to rest at the lodge.<br><br><i>Optional activity: Night walk.</i>"
+        },
+        {
+            "title": "Day 3: Rainforest Lodge – Machuwasi Lake",
+            "lugar": "Rainforest Lodge",
+            "text": "We'll start the day exploring a deeper area of the rainforest, discovering the biodiversity that characterizes Manu National Park. During the walk, the guide will interpret the natural surroundings and share information about certain plants traditionally used by local communities.<br><br>In the afternoon we'll visit Machuwasi Lake, taking a tour aboard traditional dugout canoes. This spot is an excellent setting for observing birds and other species of Amazonian wildlife. Once the activities are finished, we'll return to the lodge to spend the night.<br><br><i>Optional activity: Night walk.</i>"
+        },
+        {
+            "title": "Day 4: Rainforest Lodge – Parrot Clay Lick – Atalaya Port – Cusco",
+            "lugar": "Rainforest Lodge → Cusco",
+            "text": "After breakfast we'll head to a parrot clay lick, a natural spot where different species of parrots and macaws gather daily to feed on the minerals present in the soil, offering one of the most iconic natural spectacles of the Amazon.<br><br>After the visit, we'll return by boat to Atalaya Port, where we'll board our tourist transport for the return trip to the city of Cusco, concluding our services."
+        }
+    ],
+
+    "includes": [
+        "Overland tourist transport throughout the tour",
+        "River transport by boat along the Alto Madre de Dios River",
+        "Professional guide specialized in nature",
+        "Cook throughout the expedition",
+        "3 breakfasts",
+        "3 lunches",
+        "3 dinners",
+        "Drinking water during meals",
+        "Vegetarian meal option (upon request, at no additional cost)",
+        "3 nights of accommodation at a rainforest lodge",
+        "Visit to Machuwasi Lake",
+        "Visit to the parrot clay lick",
+        "Guided walks through the cloud forest and rainforest",
+        "First aid kit",
+        "Venom extractor and antidote for snake bites",
+        "Insect bite treatment",
+        "Life jackets during river navigation",
+        "Radio communication equipment",
+        "Rubber boots for activities"
+    ],
+
+    "not_includes": [
+        "Domestic or international flights",
+        "Airport taxes",
+        "Travel insurance",
+        "Yellow fever vaccine",
+        "Preventive malaria medication",
+        "Breakfast on the first day",
+        "Dinner on the last day",
+        "Beverages",
+        "Personal expenses",
+        "Tips for guide, driver, or lodge staff"
+    ],
+
+    "recommendations": [
+        { "img": "pasaporte.webp", "nombre": "Original passport or ID document" },
+        { "img": "repelente.webp", "nombre": "Insect repellent (minimum 35% DEET)" },
+        { "img": "mochila.webp", "nombre": "Small backpack for excursions" },
+        { "img": "ropa-manga-larga.webp", "nombre": "Lightweight long-sleeve shirt and long cotton pants" },
+        { "img": "medias-largas.webp", "nombre": "Long socks" },
+        { "img": "calzado-trekking.webp", "nombre": "Comfortable footwear for hiking" },
+        { "img": "sandalias.webp", "nombre": "Sandals or light footwear for the lodge" },
+        { "img": "poncho-lluvia.webp", "nombre": "Raincoat or poncho" },
+        { "img": "ropa-abrigo.webp", "nombre": "Warm clothing for the first day" },
+        { "img": "traje-bano.webp", "nombre": "Swimsuit" },
+        { "img": "gorra.webp", "nombre": "Hat or cap" },
+        { "img": "lentes-sol.webp", "nombre": "Sunglasses" },
+        { "img": "bloqueador.webp", "nombre": "Sunscreen" },
+        { "img": "toalla.webp", "nombre": "Personal towel" },
+        { "img": "linterna.webp", "nombre": "Flashlight with spare batteries" },
+        { "img": "botella-agua.webp", "nombre": "Reusable water bottle" }
+    ],
+
+    "recomendaciones_generales": {
+        "antes_de_viajar": [
+            "It is recommended to get the yellow fever vaccine before the trip",
+            "It's advisable to consult a health professional about preventive malaria medication",
+            "The route passes through different ecological zones, from the Andes to the Amazon, so weather conditions may vary during the trip",
+            "Wildlife observation depends on natural environmental conditions, so sightings of certain species cannot be guaranteed",
+            "It's important to follow the guide's instructions at all times to help conserve Manu National Park and ensure a safe experience"
+        ],
+        "tips": [
+            "Keep your camera and electronic equipment protected from humidity using waterproof bags",
+            "Bring only the necessary luggage to make it easier to move around during the tour",
+            "Avoid feeding or approaching wildlife; observing from a distance helps with their conservation",
+            "Use insect repellent and sunscreen during outdoor activities",
+            "Respect the natural environment and avoid leaving waste behind throughout the tour"
+        ]
+    },
+
+    "faq": [
+        {
+            "pregunta": "What is the best time to visit Manu National Park?",
+            "respuesta": "The tour operates year-round. However, the season between May and October usually offers more favorable weather conditions for activities."
+        },
+        {
+            "pregunta": "What kind of wildlife can be seen during the tour?",
+            "respuesta": "Depending on natural conditions, it's possible to spot species such as the Andean Cock-of-the-rock, hummingbirds, quetzals, trogons, monkeys, caimans, capybaras, turtles, parrots, and macaws, among other animals native to the Peruvian Amazon."
+        },
+        {
+            "pregunta": "Does the tour include accommodation?",
+            "respuesta": "Yes. The program includes 3 nights of accommodation at a rainforest lodge, plus the meals specified in the itinerary."
+        },
+        {
+            "pregunta": "What difficulty level does this tour have?",
+            "respuesta": "The route has a moderate difficulty level, as it combines overland transport, river navigation, and walks along natural trails."
+        },
+        {
+            "pregunta": "Is vaccination mandatory before the trip?",
+            "respuesta": "It's recommended to have the yellow fever vaccine before taking the tour. It's also advisable to consult a health professional about preventive malaria medication."
+        },
+        {
+            "pregunta": "What kind of clothing should I bring?",
+            "respuesta": "We recommend bringing lightweight long-sleeve clothing, long pants, comfortable footwear for hiking, a raincoat or poncho, a hat, sunscreen, and insect repellent."
+        },
+        {
+            "pregunta": "Is the tour suitable for the whole family?",
+            "respuesta": "The tour is recommended for travelers with adequate physical condition for hiking and moving around in natural environments."
+        },
+        {
+            "pregunta": "Is wildlife sighting guaranteed?",
+            "respuesta": "No. Wildlife observation depends on natural factors, so sightings of certain species cannot be guaranteed."
+        },
+        {
+            "pregunta": "What is transportation like during the tour?",
+            "respuesta": "The tour combines overland tourist transport from Cusco with boat navigation along the Alto Madre de Dios River, according to the established itinerary."
+        }
+    ],
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "grupal": {
+            "titulo": "MANU NATIONAL PARK - GROUP SERVICE",
+            "precio": "0",
+            "descripcion": "Shared service with other travelers.",
+            "nota": "Includes transport, specialized guide, meals, and lodge accommodation",
+            "descuento": 0
+        },
+        "privado": {
+            "titulo": "MANU NATIONAL PARK - PRIVATE SERVICE",
+            "precio": "0",
+            "descripcion": "Exclusive service for your group only.",
+            "nota": "Includes transport, specialized guide, meals, and lodge accommodation",
+            "descuento": 0
+        }
+    }
+}
