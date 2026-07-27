@@ -1,5 +1,5 @@
 {
-    "background": "/images/machupicchu/machupicchu-hero.webp",
+    "background": "/images/machupicchu/hero.webp",
     "badge": "Destino",
     "titulo": "Tours a Machu Picchu",
     "descripcion": "Descubre la ciudadela inca de Machu Picchu con diferentes rutas y experiencias: clásica, tren panorámico, tren de lujo o ruta amazónica.",
@@ -25,7 +25,7 @@
             "description": "Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
             "price": "49",
             "duracion": "Todo el dia",
-            "image": "clasico/img_header.webp",
+            "image": "tours/machupicchu/clasico/card.webp",
             "url": "CZ-machupicchu-clasico",
             "categoria": "tradicionales"
         },

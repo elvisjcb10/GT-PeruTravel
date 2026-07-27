@@ -1,0 +1,151 @@
+{
+  "title": "Quelccaya Glacier Tour Full Day",
+  "short_description": "Explore the largest tropical glacier in the world on a breathtaking high-mountain expedition connecting high-Andean wetlands, glacial lakes, and Sibinacocha Lake.",
+  "long_description": "The Quelccaya Glacier Tour Full Day is one of the most impressive high-mountain experiences you can enjoy in Cusco. This excursion takes you to one of the most important tropical glaciers on the planet, surrounded by high-Andean landscapes, glacial lakes, and unique ecosystems that showcase the natural beauty of the Peruvian mountain range.<br><br>During the trip, we will pass through the community of Phinaya, vast peatlands, lakes of glacial origin, and finally reach the impressive ice fields of Quelccaya. It is an ideal experience for lovers of nature, photography, and high-altitude mountain adventure.",
+  "duration": "1 Day",
+  "image_cover": "glaciares/quelccaya/hero.webp",
+  "gallery": [
+    "quelccaya/quelccaya-fd/galeria1.webp",
+    "quelccaya/quelccaya-fd/galeria2.webp",
+    "quelccaya/quelccaya-fd/galeria3.webp",
+    "quelccaya/quelccaya-fd/galeria4.webp"
+  ],
+  "price": "0",
+  "price_note": "Includes tourist transportation, breakfast and lunch in Phinaya, bilingual professional guide, entrance fees, oxygen kit, first aid kit, and trekking poles.",
+
+  "seo_title": "Quelccaya Glacier Tour Full Day - High Mountain Expedition | GT Peru Travel",
+  "seo_description": "Visit the world's largest tropical glacier on a Full Day tour from Cusco. Explore Phinaya, glacial lagoons, and Sibinacocha Lake at over 5,000 meters above sea level.",
+  "seo_keywords": "quelccaya glacier, quelccaya full day, world largest tropical glacier, phinaya, sibinacocha lake, trekking cusco, gt peru travel",
+
+  "resumen": {
+    "ubicacion": "Vilcanota Mountain Range, Cusco Region",
+    "lugar_recojo": "Hotel located in Cusco Historic Center",
+    "lugar_finalizacion": "Cusco Historic Center",
+    "idiomas": ["Spanish", "English", "Portuguese"],
+    "transporte": ["Round-trip overland tourist transport"],
+    "alimentacion": "Breakfast and lunch at local restaurant in Phinaya",
+    "alojamiento": "Not included",
+    "altitud": "5,200 m.a.s.l."
+  },
+
+  "caracteristicas": [
+    { "icono": "fa-person-hiking", "label": "Difficulty", "valor": "Moderate" },
+    { "icono": "fa-clock", "label": "Duration", "valor": "Full Day" },
+    { "icono": "fa-people-group", "label": "Service", "valor": "Group / Private" },
+    { "icono": "fa-mountain", "label": "Max Altitude", "valor": "5,200 m.a.s.l." }
+  ],
+
+  "actividades": [
+    "Visit to the Andean community of Phinaya",
+    "Observation of high-Andean wetlands and wildlife (vicuñas and alpacas)",
+    "Hike towards the ice fields of Quelccaya Glacier",
+    "Exploration of Qorikalis Lake and glacial viewpoints",
+    "Photo stop at the majestic Sibinacocha Lake"
+  ],
+
+  "days": [
+    {
+      "title": "Day 1: Cusco – Phinaya – Quelccaya Glacier – Sibinacocha Lake – Cusco",
+      "lugar": "Cusco → Phinaya → Quelccaya Glacier → Sibinacocha → Cusco",
+      "text": "The tour begins with hotel pick-up at approximately 03:00 a.m. to set off on a journey of about 6 hours toward the community of Phinaya, crossing stunning Andean landscapes.<br><br>Upon arrival in Phinaya, we will enjoy breakfast at a local restaurant. Afterward, we will continue by transport for approximately 30 minutes to the nearest parking area to Quelccaya Glacier, considered the largest tropical glacier in the world.<br><br>From this point, we will begin a 30 to 45-minute hike, ascending to an altitude of approximately 5,100 to 5,200 m.a.s.l. Along the path, we can admire crystal-clear lagoons, streams, Andean wildlife such as vicuñas, and the majestic peaks of the Vilcanota range. Upon reaching the glacier, your guide will share insights about the area, and you will have around 1 hour to enjoy the scenery, take photos, and explore.<br><br>After the visit, we will walk back to our transport to return to the community of Phinaya for a local lunch. Next, we will start the journey back to Cusco, stopping at Sibinacocha Lake—one of the largest and most beautiful lakes in the high Andes—for photos. Finally, we will continue our return to Cusco, completing an unforgettable experience."
+    }
+  ],
+
+  "includes": [
+    "Overland tourist transportation",
+    "Breakfast at a local restaurant in Phinaya",
+    "Lunch at a local restaurant in Phinaya",
+    "Bilingual professional guide (Spanish / English)",
+    "Entrance ticket",
+    "First aid kit and oxygen bottle",
+    "Trekking poles",
+    "Constant monitoring throughout the tour"
+  ],
+
+  "not_includes": [
+    "Meals not mentioned in the itinerary",
+    "Extra snacks and drinks",
+    "Personal expenses or tips",
+    "Unspecified services"
+  ],
+
+  "recommendations": [
+    { "img": "pasaporte.webp", "nombre": "ID card or original passport" },
+    { "img": "casaca-impermeable.webp", "nombre": "Waterproof or heavy thermal jacket" },
+    { "img": "calzado-trekking.webp", "nombre": "Comfortable hiking/trekking shoes" },
+    { "img": "guantes.webp", "nombre": "Gloves and beanie/chullo for the cold" },
+    { "img": "bufanda.webp", "nombre": "Scarf or thermal neck gaiter" },
+    { "img": "bloqueador.webp", "nombre": "Sunscreen and sunglasses" },
+    { "img": "poncho-lluvia.webp", "nombre": "Rain poncho" },
+    { "img": "botella-agua.webp", "nombre": "Reusable water bottle" }
+  ],
+
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "At least 2 to 3 days of prior acclimatization in Cusco is highly recommended",
+      "This is a high-altitude tour exceeding 5,000 m.a.s.l.",
+      "Weather conditions change rapidly; wear thermal and waterproof layers",
+      "Stay hydrated and eat balanced meals the day before the trip",
+      "Avoid alcohol consumption prior to the excursion"
+    ]
+  },
+
+  "faq": [
+    {
+      "pregunta": "How difficult is the hike at Quelccaya Glacier?",
+      "respuesta": "The hike is relatively short (30 to 45 minutes each way), making the physical difficulty moderate. However, the main challenge is the high altitude (over 5,000 m.a.s.l.), so proper acclimatization in Cusco beforehand is essential."
+    },
+    {
+      "pregunta": "What time does pick-up start?",
+      "respuesta": "Pick-up starts at 03:00 a.m. from your hotel located in Cusco's Historic Center to make the most of the day."
+    },
+    {
+      "pregunta": "Is emergency oxygen provided on the tour?",
+      "respuesta": "Yes, our transport carries an oxygen cylinder and a first aid kit to assist travelers experiencing altitude symptoms."
+    },
+    {
+      "pregunta": "What clothing should I wear for this expedition?",
+      "respuesta": "Since this is a high-mountain glacier environment, temperatures are usually very low. Dressing in layers is recommended: thermal base layer, windproof/waterproof jacket, gloves, beanie, scarf, and sturdy hiking shoes with good traction."
+    }
+  ],
+
+  "tours_relacionados": [
+    {
+      "title": "Rainbow Mountain (Vinicunca)",
+      "description": "Discover the vibrant pigmented mountains of the Andean range on a full-day excursion.",
+      "price": "0",
+      "duracion": "1Day / 0Nights",
+      "image": "vinicunca-cover.jpg",
+      "url": "rainbow-mountain"
+    },
+    {
+      "title": "Humantay Lake Full Day",
+      "description": "Hike to the famous turquoise lake at the foot of the imposing Humantay snow-capped mountain.",
+      "price": "0",
+      "duracion": "1Day / 0Nights",
+      "image": "humantay-cover.jpg",
+      "url": "humantay-lake"
+    }
+  ],
+
+  "brochure": "",
+  "map": "",
+  "video": "",
+
+  "categories": {
+    "grupal": {
+      "titulo": "QUELCCAYA GLACIER TOUR FULL DAY - GROUP SERVICE",
+      "precio": "0",
+      "descripcion": "Shared service in small adventure groups.",
+      "nota": "Includes transport, meals, professional guide, entrance tickets, and support gear",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "QUELCCAYA GLACIER TOUR FULL DAY - PRIVATE SERVICE",
+      "precio": "0",
+      "descripcion": "Exclusive high-mountain experience tailored for your group.",
+      "nota": "Includes private transport, meals, private guide, entrance tickets, and support gear",
+      "descuento": 0
+    }
+  }
+}

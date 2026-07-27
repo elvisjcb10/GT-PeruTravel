@@ -3,12 +3,12 @@
   "short_description": "Conoce una de las Siete Maravillas del Mundo Moderno en un solo día. Recorre Machu Picchu combinando un viaje escénico en tren y la visita guiada por su legendaria ciudadela inca.",
   "long_description": "El Tour Machu Picchu Clásico Full Day es la opción ideal para quienes desean conocer una de las maravillas arqueológicas más importantes del mundo en un solo día. Este recorrido combina un viaje en tren a través del Valle Sagrado de los Incas con una visita guiada al Santuario Histórico de Machu Picchu, declarado Patrimonio Mundial por la UNESCO y reconocido como una de las Siete Maravillas del Mundo Moderno.<br><br>Durante la experiencia recorrerán los principales sectores abiertos al circuito asignado, acompañado por un guía profesional que explicará la historia, arquitectura y el legado de la civilización inca. Además de descubrir uno de los destinos más emblemáticos del Perú, disfrutarás de impresionantes paisajes andinos durante el trayecto en tren y del encanto del pueblo de Machu Picchu Pueblo (Aguas Calientes).",
   "duration": "1 Día",
-  "image_cover": "machupicchu/mp-clasico/hero.webp",
+  "image_cover": "machupicchu/clasico/hero.webp",
   "gallery": [
-    "machupicchu/mp-clasico/galeria1.webp",
-    "machupicchu/mp-clasico/galeria2.webp",
-    "machupicchu/mp-clasico/galeria3.webp",
-    "machupicchu/mp-clasico/galeria4.webp"
+    "machupicchu/clasico/galeria1.webp",
+    "machupicchu/clasico/galeria2.webp",
+    "machupicchu/clasico/galeria3.webp",
+    "machupicchu/clasico/galeria4.webp"
   ],
   "price": "0",
   "price_note": "Incluye transporte turístico, boletos de tren de ida y retorno, bus de subida y bajada, boleto de ingreso y guía profesional.",

@@ -1,0 +1,173 @@
+{
+  "title": "Tour Geleiras do Ausangate Full Day",
+  "short_description": "Contemple as majestosas geleiras e imponentes massas de gelo que descem do sagrado Apu Ausangate em uma inesquecível expedição de alta montanha.",
+  "long_description": "O Tour Geleiras do Ausangate Full Day é uma das experiências mais impressionantes para os amantes da natureza e das paisagens de alta montanha em Cusco. Esta excursão permite conhecer de perto as majestosas geleiras que fazem parte do nevado Ausangate, a montanha mais alta da região de Cusco e considerada uma das mais sagradas na cosmovisão andina.<br><br>Durante o percurso, você atravessará pequenos vilarejos tradicionais, extensas planícies alto-andinas e paisagens dominadas por lagoas de origem glacial, pântanos, rebanhos de alpacas e lhamas, até chegar às impressionantes geleiras que descem dos picos nevados do Ausangate.<br><br>Diferente de outros Roteiros de aventura, este tour oferece a oportunidade de contemplar enormes massas de gelo natural, observar o processo de formação das geleiras e desfrutar de um ambiente praticamente intocado, cercado por montanhas que ultrapassam os 6.000 metros acima do nível do mar. É uma experiência ideal para viajantes que desejam descobrir uma das paisagens mais espetaculares dos Andes peruanos.",
+  "duration": "1 Dia",
+  "image_cover": "glaciares/ausangate/hero.webp",
+  "gallery": [
+    "ausangate/glaciares-fd/galeria1.webp",
+    "ausangate/glaciares-fd/galeria2.webp",
+    "ausangate/glaciares-fd/galeria3.webp",
+    "ausangate/glaciares-fd/galeria4.webp"
+  ],
+  "price": "0",
+  "price_note": "Inclui transporte turístico, café da manhã e almoço buffet em Cusipata, guia oficial bilíngue, ingressos de entrada, bastões de caminhada e equipamento de oxigênio.",
+
+  "seo_title": "Tour Geleiras do Ausangate Full Day - Trekking desde Cusco | GT Peru Travel",
+  "seo_description": "Descubra as imponentes geleiras do Apu Ausangate e a Lagoa Ausangate em um tour Full Day a partir de Cusco. Inclui transporte, alimentação e guia profissional.",
+  "seo_keywords": "geleiras do ausangate, tour ausangate full day, nevado ausangate, lagoa ausangate, apu ausangate, trekking cusco, gt peru travel",
+
+  "resumen": {
+    "ubicacion": "Cordilheira do Vilcanota, Região de Cusco",
+    "lugar_recojo": "Hotéis localizados no Centro Histórico de Cusco",
+    "lugar_finalizacion": "Praça Regocijo ou Centro Histórico de Cusco",
+    "idiomas": ["Espanhol", "Inglês", "Português"],
+    "transporte": ["Transporte turístico de ida e volta"],
+    "alimentacion": "Café da manhã e almoço buffet em restaurante local em Cusipata",
+    "alojamiento": "Não inclui",
+    "altitud": "3.400 - 5.000 msnm"
+  },
+
+  "caracteristicas": [
+    { "icono": "fa-person-hiking", "label": "Dificuldade", "valor": "Moderada - Alta" },
+    { "icono": "fa-clock", "label": "Duração", "valor": "Full Day" },
+    { "icono": "fa-people-group", "label": "Serviço", "valor": "Compartilhado / Privado" },
+    { "icono": "fa-mountain", "label": "Altitude Máxima", "valor": "5.000 msnm" }
+  ],
+
+  "actividades": [
+    "Viagem panorâmica pelos vales do sul em direção a Cusipata",
+    "Caminhada de subida até a base do Nevado Ausangate",
+    "Observação da Lagoa Ausangate e massas de gelo glacial",
+    "Observação de camelídeos andinos (alpacas, lhamas e vicunhas)",
+    "Contemplação da Cordilheira do Vilcanota e fotografia de paisagem"
+  ],
+
+  "days": [
+    {
+      "title": "Dia 1: Cusco – Cusipata – Geleiras do Ausangate – Lagoa Ausangate – Cusco",
+      "lugar": "Cusco → Cusipata → Geleiras do Ausangate → Cusco",
+      "text": "Faremos o embarque no seu hotel entre 04:00 e 05:00 a.m. para iniciar nossa viagem até a cidade de Cusipata, em um trajeto de aproximadamente 2 horas.<br><br>Ao chegar a Cusipata, desfrutaremos de um café da manhã buffet andino preparado com produtos locais para nos dar a energia necessária para iniciar esta aventura. Após o café da manhã, continuaremos em nosso transporte até o ponto mais próximo do início da caminhada.<br><br>A partir daí, iniciaremos uma subida de dificuldade moderada com duração aproximada de 1 hora até chegar ao nevado. Durante o percurso, poderemos apreciar a Lagoa Ausangate, além de outras impressionantes geleiras que moldam a paisagem, oferecendo cenários perfeitos para contemplação e fotografia.<br><br>Após aproveitar a visita, iniciaremos o retorno caminhando pela mesma rota até o ponto de partida, onde nosso transporte estará aguardando para nos levar de volta a Cusipata. Em Cusipata, desfrutaremos de um almoço delicioso e nutritivo. Em seguida, iniciaremos a viagem de volta à cidade de Cusco, finalizando nosso tour."
+    }
+  ],
+
+  "includes": [
+    "Embarque no hotel (Centro Histórico de Cusco)",
+    "Transporte turístico de ida e volta",
+    "Café da manhã buffet em restaurante local",
+    "Almoço buffet em restaurante local",
+    "Ingressos de entrada",
+    "Guia Oficial de Turismo (bilíngue)",
+    "Kit de primeiros socorros e oxigênio de emergência",
+    "Bastões de caminhada",
+    "Assistência permanente durante todo o percurso"
+  ],
+
+  "not_includes": [
+    "Aluguel de cavalos (opcional na rota: aprox. S/ 70 - 80)",
+    "Bebidas adicionais e lanches",
+    "Gorjetas",
+    "Gastos pessoais",
+    "Serviços não mencionados no programa"
+  ],
+
+  "recommendations": [
+    { "img": "pasaporte.webp", "nombre": "Documento de identidade ou passaporte original" },
+    { "img": "casaca-impermeable.webp", "nombre": "Jaqueta impermeável e roupas térmicas" },
+    { "img": "calzado-trekking.webp", "nombre": "Sapatos ou tênis de trekking" },
+    { "img": "guantes.webp", "nombre": "Luvas e gorro para o frio" },
+    { "img": "gorra.webp", "nombre": "Chapéu ou boné para o sol" },
+    { "img": "bloqueador.webp", "nombre": "Protetor solar e óculos de sol" },
+    { "img": "botella-agua.webp", "nombre": "Garrafa de água e lanches energéticos" },
+    { "img": "mochila.webp", "nombre": "Mochila pequena e dinheiro em espécie" }
+  ],
+
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Permanecer pelo menos 1 ou 2 dias em aclimatação prévia em Cusco antes do tour",
+      "O percurso atinge uma altitude próxima aos 5.000 msnm",
+      "Descanse bem na noite anterior e evite bebidas alcoólicas antes da caminhada",
+      "Caminhe em um ritmo constante e mantenha-se bem hidratado durante o trajeto",
+      "Leve baterias extras para câmeras e celulares, pois o frio acelera o descarregamento"
+    ]
+  },
+
+  "faq": [
+    {
+      "pregunta": "É um tour recomendável para iniciantes?",
+      "respuesta": "Sim, desde que o visitante tenha uma condição física aceitável e já tenha se aclimatado adequadamente à altitude de Cusco."
+    },
+    {
+      "pregunta": "É possível observar geleiras durante todo o ano?",
+      "respuesta": "Sim. As geleiras do Ausangate mantêm neve permanente durante todo o ano, embora seu volume ou aparência visual possam variar ligeiramente conforme a temporada."
+    },
+    {
+      "pregunta": "Qual é a melhor época para realizar este tour?",
+      "respuesta": "Entre os meses de abril e outubro, período em que predomina a estação seca e se conta com as melhores condições climáticas e de visibilidade."
+    },
+    {
+      "pregunta": "É possível alugar um cavalo durante a rota?",
+      "respuesta": "Sim, o serviço de aluguel de cavalos é oferecido pelos moradores locais no ponto inicial da caminhada. O custo aproximado varia entre 70 e 80 Soles."
+    },
+    {
+      "pregunta": "É necessário levar bastões de caminhada?",
+      "respuesta": "Não são obrigatórios, mas são altamente recomendáveis para proporcionar maior estabilidade. Além disso, nós incluímos os bastões no serviço."
+    },
+    {
+      "pregunta": "Que fauna pode ser observada durante a excursão?",
+      "respuesta": "Durante o trajeto é muito comum observar alpacas, lhamas, vicunhas, aves alto-andinas e diversas espécies adaptadas ao ecossistema de montanha."
+    },
+    {
+      "pregunta": "Faz muito frio durante o percurso?",
+      "respuesta": "Sim, especialmente durante as primeiras horas da manhã e nas zonas próximas às geleiras. Recomenda-se vestir roupas térmicas em camadas e jaqueta corta-vento."
+    },
+    {
+      "pregunta": "Existem banheiros disponíveis durante o percurso?",
+      "respuesta": "Existe um banheiro básico no ponto onde se inicia e finaliza a caminhada."
+    },
+    {
+      "pregunta": "Este tour opera durante a temporada de chuvas?",
+      "respuesta": "Sim, a excursão opera durante todo o ano, adaptando o ritmo de caminhada de acordo com o clima do dia."
+    }
+  ],
+
+  "tours_relacionados": [
+    {
+      "title": "Tour Glaciar Quelccaya",
+      "description": "Explore a maior geleira tropical do mundo cercada por pântanos e a imponente Lagoa Sibinacocha.",
+      "price": "0",
+      "duracion": "Full Day",
+      "image": "quelccaya/quelccaya-fd/hero.webp",
+      "url": "tour-glaciar-quelccaya"
+    },
+    {
+      "title": "Montanha das 7 Cores (Vinicunca)",
+      "description": "Visite a famosa montanha colorida atravessando os belos vales do sul de Cusco.",
+      "price": "0",
+      "duracion": "Full Day",
+      "image": "vinicunca-cover.jpg",
+      "url": "montanha-7-cores"
+    }
+  ],
+
+  "brochure": "",
+  "map": "",
+  "video": "",
+
+  "categories": {
+    "grupal": {
+      "titulo": "TOUR GELEIRAS DO AUSANGATE FULL DAY - SERVIÇO COMPARTILHADO",
+      "precio": "79",
+      "descripcion": "Serviço compartilhado em grupo com outros viajantes.",
+      "nota": "Inclui transporte, alimentação buffet, guia profissional, ingressos e bastões",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "TOUR GELEIRAS DO AUSANGATE FULL DAY - SERVIÇO PRIVADO",
+      "precio": "0",
+      "descripcion": "Serviço exclusivo apenas para o seu grupo.",
+      "nota": "Inclui transporte privado, alimentação buffet, guia exclusivo, ingressos e bastões",
+      "descuento": 0
+    }
+  }
+}

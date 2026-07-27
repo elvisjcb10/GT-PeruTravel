@@ -1,0 +1,151 @@
+{
+  "title": "Tour Glaciar Quelccaya Full Day",
+  "short_description": "Explora el glaciar tropical más grande del mundo en una impresionante expedición de alta montaña que conecta bofedales, lagunas glaciares y la Laguna Sibinacocha.",
+  "long_description": "El Tour Glaciar Quelccaya Full Day es una de las experiencias de montaña más impresionantes que se pueden realizar en Cusco. Este recorrido permite visitar uno de los glaciares tropicales más importantes del planeta, rodeado de paisajes altoandinos, lagunas glaciares y ecosistemas únicos que muestran la belleza natural de la cordillera peruana.<br><br>Durante la excursión recorreremos la comunidad de Phinaya, extensos bofedales, lagunas de origen glaciar y finalmente llegaremos a los impresionantes campos de hielo de Quelccaya. Es una experiencia ideal para viajeros amantes de la naturaleza, la fotografía y la aventura en alta montaña.",
+  "duration": "1 Día",
+  "image_cover": "glaciares/quelccaya/hero.webp",
+  "gallery": [
+    "quelccaya/quelccaya-fd/galeria1.webp",
+    "quelccaya/quelccaya-fd/galeria2.webp",
+    "quelccaya/quelccaya-fd/galeria3.webp",
+    "quelccaya/quelccaya-fd/galeria4.webp"
+  ],
+  "price": "0",
+  "price_note": "Incluye transporte turístico, desayuno y almuerzo en Phinaya, guía profesional bilingüe, ingresos, oxígeno, botiquín y bastones de trekking.",
+
+  "seo_title": "Tour Glaciar Quelccaya Full Day - Expedición de Alta Montaña | GT Peru Travel",
+  "seo_description": "Visita el glaciar tropical más grande del mundo en un tour Full Day desde Cusco. Recorre Phinaya, lagunas glaciares y Sibinacocha a más de 5,000 msnm.",
+  "seo_keywords": "glaciar quelccaya, quelccaya full day, glaciar tropical mas grande del mundo, phinaya, laguna sibinacocha, trekking cusco, gt peru travel",
+
+  "resumen": {
+    "ubicacion": "Cordillera del Vilcanota, Región Cusco",
+    "lugar_recojo": "Hotel ubicado dentro del Centro Histórico de Cusco",
+    "lugar_finalizacion": "Centro Histórico de Cusco",
+    "idiomas": ["Español", "Inglés", "Portugués"],
+    "transporte": ["Transporte turístico terrestre ida y vuelta"],
+    "alimentacion": "Desayuno y almuerzo en restaurante local en Phinaya",
+    "alojamiento": "No incluye",
+    "altitud": "5,200 m s. n. m."
+  },
+
+  "caracteristicas": [
+    { "icono": "fa-person-hiking", "label": "Dificultad", "valor": "Moderada" },
+    { "icono": "fa-clock", "label": "Duración", "valor": "Full Day" },
+    { "icono": "fa-people-group", "label": "Servicio", "valor": "Grupal / Privado" },
+    { "icono": "fa-mountain", "label": "Altitud Máxima", "valor": "5,200 msnm" }
+  ],
+
+  "actividades": [
+    "Visita a la comunidad andina de Phinaya",
+    "Observación de bofedales y fauna altoandina (vicuñas y alpacas)",
+    "Caminata hacia los campos de hielo del Glaciar Quelccaya",
+    "Exploración de la Laguna Qorikalis y miradores glaciares",
+    "Parada fotográfica en la majestuosa Laguna Sibinacocha"
+  ],
+
+  "days": [
+    {
+      "title": "Día 1: Cusco – Phinaya – Glaciar Quelccaya – Laguna Sibinacocha – Cusco",
+      "lugar": "Cusco → Phinaya → Glaciar Quelccaya → Sibinacocha → Cusco",
+      "text": "El tour inicia con el recojo desde su hotel aproximadamente a las 03:00 a.m. para emprender un viaje de alrededor de 6 horas hacia la comunidad de Phinaya, atravesando impresionantes paisajes andinos.<br><br>A nuestra llegada a Phinaya, disfrutaremos de un desayuno en un restaurante local. Posteriormente, continuaremos en transporte durante aproximadamente 30 minutos hasta el punto de estacionamiento más cercano al Glaciar Quelccaya, considerado el glaciar tropical más grande del mundo.<br><br>Desde este punto iniciaremos una caminata de 30 a 45 minutos, ascendiendo hasta una altitud aproximada de 5,100 a 5,200 m s. n. m. Durante el recorrido podremos apreciar lagunas cristalinas, riachuelos, fauna andina como vicuñas y las majestuosas montañas de la cordillera del Vilcanota. Al llegar al glaciar, el guía brindará una explicación sobre el lugar y dispondrán de aproximadamente 1 hora para disfrutar del paisaje, tomar fotografías y explorar los alrededores.<br><br>Finalizada la visita, retornaremos caminando hasta el transporte para dirigirnos nuevamente a la comunidad de Phinaya, donde disfrutaremos de un almuerzo local. Posteriormente, iniciaremos el viaje de regreso hacia la ciudad del Cusco, realizando una parada en la Laguna de Sibinacocha, una de las lagunas más grandes y hermosas del altiplano. Finalmente, continuaremos el retorno a la ciudad del Cusco, culminando esta inolvidable experiencia."
+    }
+  ],
+
+  "includes": [
+    "Transporte turístico terrestre",
+    "Desayuno en un restaurante local de Phinaya",
+    "Almuerzo en un restaurante local de Phinaya",
+    "Guiado profesional bilingüe (español / inglés)",
+    "Boleto de ingreso",
+    "Botiquín de primeros auxilios y balón de oxígeno",
+    "Bastones de trekking",
+    "Monitoreo constante durante el recorrido"
+  ],
+
+  "not_includes": [
+    "Alimentación no mencionada en el programa",
+    "Snacks y bebidas adicionales",
+    "Gastos personales o propinas",
+    "Servicios no especificados"
+  ],
+
+  "recommendations": [
+    { "img": "pasaporte.webp", "nombre": "Documento de identidad o pasaporte original" },
+    { "img": "casaca-impermeable.webp", "nombre": "Casaca impermeable o abrigo técnico" },
+    { "img": "calzado-trekking.webp", "nombre": "Calzado cómodo para caminata / trekking" },
+    { "img": "guantes.webp", "nombre": "Guantes y gorro o chullo para el frío" },
+    { "img": "bufanda.webp", "nombre": "Bufanda o cuello térmico" },
+    { "img": "bloqueador.webp", "nombre": "Protector solar y lentes de sol" },
+    { "img": "poncho-lluvia.webp", "nombre": "Poncho de lluvia" },
+    { "img": "botella-agua.webp", "nombre": "Botella reutilizable para agua" }
+  ],
+
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Se recomienda contar con al menos 2 o 3 días de aclimatación previa en Cusco",
+      "Es un tour de alta montaña que supera los 5,000 m s. n. m.",
+      "Las condiciones climáticas pueden variar rápidamente; vestirse en capas térmicas e impermeables",
+      "Mantenerse bien hidratado y comer balanceado el día previo al viaje",
+      "Evitar el consumo de bebidas alcohólicas antes de la excursión"
+    ]
+  },
+
+  "faq": [
+    {
+      "pregunta": "¿Qué tan difícil es la caminata en el Glaciar Quelccaya?",
+      "respuesta": "La caminata es relativamente corta (30 a 45 minutos por tramo), por lo que el nivel físico es moderado. Sin embargo, la principal exigencia es la altitud (más de 5,000 m s. n. m.), por lo que una buena aclimatación previa es fundamental."
+    },
+    {
+      "pregunta": "¿A qué hora pasa el transporte a recogerme?",
+      "respuesta": "El recojo inicia a las 03:00 a.m. desde su hotel ubicado en el Centro Histórico de Cusco para aprovechar al máximo la jornada."
+    },
+    {
+      "pregunta": "¿El tour incluye equipos de seguridad o de oxígeno?",
+      "respuesta": "Sí, la unidad de transporte cuenta con un balón de oxígeno y un botiquín de primeros auxilios para asistir a los pasajeros en caso de síntomas de mal de altura."
+    },
+    {
+      "pregunta": "¿Qué ropa debo usar para esta expedición?",
+      "respuesta": "Al tratarse de un ecosistema glaciar de alta montaña, las temperaturas suelen ser muy bajas. Se recomienda vestir por capas: primera capa térmica, casaca cortaviento/impermeable, guantes, chullo, bufanda y calzado de trekking con buen agarre."
+    }
+  ],
+
+  "tours_relacionados": [
+    {
+      "title": "Montaña de 7 Colores (Vinicunca)",
+      "description": "Descubre las impresionantes montañas pigmentadas de la cordillera andina en una excursión Full Day.",
+      "price": "0",
+      "duracion": "1Dia / 0Noches",
+      "image": "vinicunca-cover.jpg",
+      "url": "montana-7-colores"
+    },
+    {
+      "title": "Laguna Humantay Full Day",
+      "description": "Camina hacia la famosa laguna turquesa a los pies del imponente nevado Humantay.",
+      "price": "0",
+      "duracion": "1Dia / 0Noches",
+      "image": "humantay-cover.jpg",
+      "url": "laguna-humantay"
+    }
+  ],
+
+  "brochure": "",
+  "map": "",
+  "video": "",
+
+  "categories": {
+    "grupal": {
+      "titulo": "TOUR GLACIAR QUELCCAYA FULL DAY - SERVICIO GRUPAL",
+      "precio": "0",
+      "descripcion": "Servicio compartido en grupos reducidos de aventura.",
+      "nota": "Incluye transporte, alimentación, guía profesional, ingresos y equipo de apoyo",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "TOUR GLACIAR QUELCCAYA FULL DAY - SERVICIO PRIVADO",
+      "precio": "0",
+      "descripcion": "Experiencia exclusiva de alta montaña solo para tu grupo.",
+      "nota": "Incluye transporte privado, alimentación, guía exclusivo, ingresos y equipo de apoyo",
+      "descuento": 0
+    }
+  }
+}

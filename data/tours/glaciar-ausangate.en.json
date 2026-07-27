@@ -1,0 +1,173 @@
+{
+  "title": "Ausangate Glaciers Tour Full Day",
+  "short_description": "Contemplate the majestic glaciers and imposing masses of ice descending from the sacred Apu Ausangate on an unforgettable high-mountain expedition.",
+  "long_description": "The Ausangate Glaciers Tour Full Day is one of the most impressive experiences for lovers of nature and high-mountain landscapes in Cusco. This excursion allows you to get up close to the majestic glaciers that form part of Mount Ausangate, the highest peak in the Cusco region and considered one of the most sacred mountains in Andean cosmology.<br><br>During the journey, you will pass through small traditional villages, vast high-Andean plains, and landscapes dominated by glacial lakes, peatlands, and herds of alpacas and llamas, until reaching the impressive glaciers descending from Ausangate's snow-capped peaks.<br><br>Unlike other adventure routes, this tour offers the opportunity to contemplate massive natural ice formations, observe the process of glacier formation, and enjoy a virtually untouched environment surrounded by mountains soaring above 6,000 meters above sea level. It is an ideal experience for travelers wishing to discover one of the most spectacular landscapes in the Peruvian Andes.",
+  "duration": "1 Day",
+  "image_cover": "glaciares/ausangate/hero.webp",
+  "gallery": [
+    "ausangate/glaciares-fd/galeria1.webp",
+    "ausangate/glaciares-fd/galeria2.webp",
+    "ausangate/glaciares-fd/galeria3.webp",
+    "ausangate/glaciares-fd/galeria4.webp"
+  ],
+  "price": "0",
+  "price_note": "Includes tourist transport, buffet breakfast and lunch in Cusipata, official bilingual guide, entrance tickets, trekking poles, and emergency oxygen equipment.",
+
+  "seo_title": "Ausangate Glaciers Tour Full Day - Trekking from Cusco | GT Peru Travel",
+  "seo_description": "Discover the imposing glaciers of Apu Ausangate and Ausangate Lake on a Full Day tour from Cusco. Includes transport, meals, and professional guide.",
+  "seo_keywords": "ausangate glaciers, ausangate full day tour, ausangate mountain, ausangate lake, apu ausangate, trekking cusco, gt peru travel",
+
+  "resumen": {
+    "ubicacion": "Vilcanota Mountain Range, Cusco Region",
+    "lugar_recojo": "Hotels located in Cusco Historic Center",
+    "lugar_finalizacion": "Regocijo Square or Cusco Historic Center",
+    "idiomas": ["Spanish", "English", "Portuguese"],
+    "transporte": ["Round-trip tourist transportation"],
+    "alimentacion": "Buffet breakfast and lunch at local restaurant in Cusipata",
+    "alojamiento": "Not included",
+    "altitud": "3,400 - 5,000 m.a.s.l."
+  },
+
+  "caracteristicas": [
+    { "icono": "fa-person-hiking", "label": "Difficulty", "valor": "Moderate - High" },
+    { "icono": "fa-clock", "label": "Duration", "valor": "Full Day" },
+    { "icono": "fa-people-group", "label": "Service", "valor": "Group / Private" },
+    { "icono": "fa-mountain", "label": "Max Altitude", "valor": "5,000 m.a.s.l." }
+  ],
+
+  "actividades": [
+    "Scenic drive through the southern valleys toward Cusipata",
+    "Uphill hike toward the foot of Mount Ausangate",
+    "Observation of Ausangate Lake and glacial ice masses",
+    "Spotting Andean camelids (alpacas, llamas, and vicuñas)",
+    "Contemplation of the Vilcanota Range and landscape photography"
+  ],
+
+  "days": [
+    {
+      "title": "Day 1: Cusco – Cusipata – Ausangate Glaciers – Ausangate Lake – Cusco",
+      "lugar": "Cusco → Cusipata → Ausangate Glaciers → Cusco",
+      "text": "We will pick you up from your accommodation between 04:00 and 05:00 a.m. to begin our journey toward the town of Cusipata, a drive of approximately 2 hours.<br><br>Upon arrival in Cusipata, we will enjoy an Andean buffet breakfast prepared with local ingredients to give us the energy needed for this adventure. After breakfast, we will continue in our transport to the nearest point to the start of the hike.<br><br>From there, we will begin a moderately challenging ascent lasting approximately 1 hour until we reach the snow-capped mountain. Along the trail, we will appreciate Ausangate Lake along with other impressive glaciers framing the landscape, offering ideal settings for reflection and photography.<br><br>After enjoying the visit, we will hike back along the same path to the starting point, where our transport will be waiting to take us back to Cusipata. Once in Cusipata, we will enjoy a delicious and nutritious lunch. Afterward, we will start the return journey to Cusco, concluding this tour."
+    }
+  ],
+
+  "includes": [
+    "Hotel pick-up (Cusco Historic Center)",
+    "Round-trip tourist transportation",
+    "Buffet breakfast at local restaurant",
+    "Buffet lunch at local restaurant",
+    "Entrance tickets",
+    "Official Tourism Guide (bilingüe)",
+    "First aid kit and emergency oxygen",
+    "Trekking poles",
+    "Constant assistance throughout the tour"
+  ],
+
+  "not_includes": [
+    "Horse rental (optional on site: approx. S/ 70 - 80)",
+    "Extra drinks and snacks",
+    "Tips",
+    "Personal expenses",
+    "Services not specified in the program"
+  ],
+
+  "recommendations": [
+    { "img": "pasaporte.webp", "nombre": "Original ID card or passport" },
+    { "img": "casaca-impermeable.webp", "nombre": "Waterproof jacket and thermal clothing" },
+    { "img": "calzado-trekking.webp", "nombre": "Hiking or trekking shoes" },
+    { "img": "guantes.webp", "nombre": "Gloves and beanie/chullo for the cold" },
+    { "img": "gorra.webp", "nombre": "Hat or cap for the sun" },
+    { "img": "bloqueador.webp", "nombre": "Sunscreen and sunglasses" },
+    { "img": "botella-agua.webp", "nombre": "Water bottle and energy snacks" },
+    { "img": "mochila.webp", "nombre": "Small daypack and cash" }
+  ],
+
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Spend at least 1 or 2 days acclimatizing in Cusco before taking this tour",
+      "The hike reaches an altitude close to 5,000 m.a.s.l.",
+      "Get a good night's rest and avoid alcohol the day before the hike",
+      "Walk at a steady pace and stay well-hydrated during the journey",
+      "Bring extra camera and phone batteries, as cold temperatures drain them faster"
+    ]
+  },
+
+  "faq": [
+    {
+      "pregunta": "Is this tour suitable for beginners?",
+      "respuesta": "Yes, provided the traveler has a reasonable physical condition and has properly acclimatized to Cusco's high altitude."
+    },
+    {
+      "pregunta": "Is it possible to see glaciers all year round?",
+      "respuesta": "Yes. The Ausangate glaciers maintain permanent snow year-round, although their volume or visual appearance may vary slightly depending on the season."
+    },
+    {
+      "pregunta": "When is the best time to do this tour?",
+      "respuesta": "Between April and October, during the dry season, which offers the best weather and visibility conditions."
+    },
+    {
+      "pregunta": "Can I rent a horse during the trek?",
+      "respuesta": "Yes, local community members offer horse rental services at the trail's starting point. The approximate cost ranges between 70 and 80 Soles."
+    },
+    {
+      "pregunta": "Are trekking poles necessary?",
+      "respuesta": "They are not mandatory, but highly recommended to provide better stability. Furthermore, we include trekking poles in our service."
+    },
+    {
+      "pregunta": "What wildlife can be spotted on the trip?",
+      "respuesta": "Along the route, it is very common to spot alpacas, llamas, vicuñas, high-Andean birds, and various species adapted to mountain ecosystems."
+    },
+    {
+      "pregunta": "Does it get very cold during the tour?",
+      "respuesta": "Yes, especially in the early morning hours and in areas close to the glaciers. We recommend dressing in thermal layers with a windproof jacket."
+    },
+    {
+      "pregunta": "Are restrooms available along the route?",
+      "respuesta": "Basic restroom facilities are available at the point where the hike begins and ends."
+    },
+    {
+      "pregunta": "Does this tour operate during the rainy season?",
+      "respuesta": "Yes, the excursion operates year-round, adjusting the walking pace according to daily weather conditions."
+    }
+  ],
+
+  "tours_relacionados": [
+    {
+      "title": "Quelccaya Glacier Tour",
+      "description": "Explore the largest tropical glacier in the world surrounded by high-Andean wetlands and Sibinacocha Lake.",
+      "price": "0",
+      "duracion": "Full Day",
+      "image": "quelccaya/quelccaya-fd/hero.webp",
+      "url": "tour-glaciar-quelccaya"
+    },
+    {
+      "title": "Rainbow Mountain (Vinicunca)",
+      "description": "Visit the famous pigmented mountain traversing through Cusco's scenic southern valleys.",
+      "price": "0",
+      "duracion": "Full Day",
+      "image": "vinicunca-cover.jpg",
+      "url": "rainbow-mountain"
+    }
+  ],
+
+  "brochure": "",
+  "map": "",
+  "video": "",
+
+  "categories": {
+    "grupal": {
+      "titulo": "AUSANGATE GLACIERS TOUR FULL DAY - GROUP SERVICE",
+      "precio": "79",
+      "descripcion": "Shared service in a group with other travelers.",
+      "nota": "Includes transport, buffet meals, professional guide, entrance tickets, and trekking poles",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "AUSANGATE GLACIERS TOUR FULL DAY - PRIVATE SERVICE",
+      "precio": "0",
+      "descripcion": "Exclusive service tailored only for your group.",
+      "nota": "Includes private transport, buffet meals, private guide, entrance tickets, and trekking poles",
+      "descuento": 0
+    }
+  }
+}

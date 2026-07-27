@@ -1,48 +1,68 @@
 {
-    "company_name": "GT PERU TRAVEL S.A.C",
+  "company_name": "GT PERU TRAVEL S.A.C",
 
-    "description": "Operadora local em Cusco especializada em tours para Machu Picchu e experiências autênticas nos Andes.",
-
-    "tours_title": "Passeios em Cusco",
-    "tours": [{
-            "name": "Lagoa Humantay",
-            "url": "laguna-humantay"
-        },
-        {
-            "name": "Ponte Inca",
-            "url": "fortaleza-cuernos"
-        },
-        {
-            "name": "Machu Picchu",
-            "url": "machupicchu"
-        },
-        {
-            "name": "Vale Sagrado",
-            "url": "valle-sagrado"
-        },
-        {
-            "name": "Montanha Colorida",
-            "url": "montana-colores"
-        }
-    ],
-
-    "company_title": "Empresa",
-    "company_info": {
-        "name": "GT Peru Travel",
-        "ruc": "20601976634",
-        "email": "info@gtperutravel.com",
-        "address": "Cusco, Peru"
-    },
-
-    "contact_title": "Contato",
-    "whatsapp": "51997379201",
+  "description": "GT PERU TRAVEL INVERSIONES E.I.R.L.  Operadora local em Cusco especializada em tours para Machu Picchu e experiências autênticas nos Andes. RUC: 20615670252",
+  
+  "company_title": "Empresa",
+  "company_info": {
+    "name": "GT Peru Travel",
+    "ruc": "20601976634",
     "email": "info@gtperutravel.com",
+    "address": "Cusco, Peru"
+  },
+  "enlaces_title": "Links úteis",
+  "enlaces": [
+    {
+      "name": "Blog",
+      "url": "blog"
+    },
+    {
+      "name": "Depoimentos",
+      "url": "testimonios"
+    },
+    {
+      "name": "Sobre Nós",
+      "url": "nosotros"
+    },
+    {
+      "name": "Planeje sua viagem",
+      "url": "impacto"
+    }
+  ],
+  "destinos_title": "Destinos",
+  "destinos": [
+    {
+      "name": "Cusco",
+      "url": "laguna-humantay"
+    },
+    {
+      "name": "Lima",
+      "url": "fortaleza-cuernos"
+    },
+    {
+      "name": "Arequipa",
+      "url": "machupicchu"
+    },
+    {
+      "name": "Huaraz",
+      "url": "valle-sagrado"
+    },
+    {
+      "name": "Puno",
+      "url": "montana-colores"
+    }
+  ],
 
-    "payments": [
-        "visa.png",
-        "mastercard.png",
-        "paypal.png"
-    ],
-
-    "footer_legal": "© 2026 GT Peru Travel. Todos os direitos reservados."
+  "contact_title": "Contato",
+  "whatsapp": "51997379201",
+  "email": "info@gtperutravel.com",
+  "direccion": "Av. Asociación D-9, Huancaro, Cusco. Sala 402 - 4º andar, Cusco, Peru",
+  "horario": "Segunda a Domingo: 8:00 - 20:00",
+  "payments": [
+    "visa.png",
+    "mastercard.png",
+    "paypal.png"
+  ],
+  "boton": "Entrar em contato",
+  "footer_legal": "© 2026 GT Peru Travel. Todos os Direitos Reservados."
 }

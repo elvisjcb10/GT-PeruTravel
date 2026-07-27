@@ -1,5 +1,5 @@
 {
-    "background": "/images/glaciares/glaciares-hero.webp",
+    "background": "/images/glaciares/hero.webp",
     "badge": "Destino",
     "titulo": "Glaciares en Cusco",
     "descripcion": "Explora las imponentes masas de hielo perpetuo en las cordilleras de Cusco, rutas desafiantes con paisajes altoandinos inigualables.",
@@ -14,28 +14,27 @@
         "texto": "+80 Viajeros"
     },
     "filtros": [
-        { "id": "todos", "label": "Todos" },
-        { "id": "aventura", "label": "Aventura" },
-        { "id": "caminata", "label": "Caminata" }
+       
     ],
     "tours": [
         {
             "title": "Tour Glaciar Quelccaya",
-            "description": "Aventúrate al glaciar tropical más extenso del mundo, una joya de la naturaleza en los Andes peruanos.",
-            "price": "89",
+            "description": "Explora el glaciar tropical más grande del mundo rodeado de bofedales, lagunas glaciares y la imponente Laguna Sibinacocha.",
+            "price": "0",
             "duracion": "Full Day",
-            "image": "quelccaya/img_header.webp",
-            "url": "quelccaya",
-            "categoria": "aventura"
+            "image": "glaciares/quelccaya/card.jpeg",
+            "url": "glaciar-quelccaya",
+            "categoria": "caminata"
         },
         {
             "title": "Tour Glaciares del Ausangate",
             "description": "Recorre los majestuosos e imponentes glaciares que rodean al sagrado Apu Ausangate.",
-            "price": "79",
+            "price": "0",
             "duracion": "Full Day",
-            "image": "ausangate/img_header.webp",
-            "url": "ausangate",
+            "image": "glaciares/ausangate/card.webp",
+            "url": "glaciar-ausangate",
             "categoria": "caminata"
-        }
+            }
+        
     ]
 }

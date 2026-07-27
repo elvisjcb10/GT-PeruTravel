@@ -1,0 +1,173 @@
+{
+  "title": "Tour Glaciares del Ausangate Full Day",
+  "short_description": "Contempla los majestuosos glaciares e imponentes masas de hielo que descienden del sagrado Apu Ausangate en una inolvidable expedición de alta montaña.",
+  "long_description": "El Tour Glaciares del Ausangate Full Day es una de las experiencias más impresionantes para los amantes de la naturaleza y los paisajes de alta montaña en Cusco. Esta excursión permite conocer de cerca los majestuosos glaciares que forman parte del nevado Ausangate, la montaña más alta de la región del Cusco y considerada una de las más sagradas dentro de la cosmovisión andina.<br><br>Durante el recorrido atravesará pequeños pueblos tradicionales, extensas pampas altoandinas y paisajes donde predominan lagunas de origen glaciar, bofedales, rebaños de alpacas y llamas, hasta llegar a los impresionantes glaciares que descienden desde las cumbres nevadas del Ausangate.<br><br>A diferencia de otros recorridos de aventura, este tour ofrece la oportunidad de contemplar enormes masas de hielo natural, observar el proceso de formación de los glaciares y disfrutar de un entorno prácticamente intacto, rodeado por montañas que superan los 6,000 metros sobre el nivel del mar. Es una experiencia ideal para viajeros que desean descubrir uno de los paisajes más espectaculares de los Andes peruanos.",
+  "duration": "1 Día",
+  "image_cover": "glaciares/ausangate/hero.webp",
+  "gallery": [
+    "ausangate/glaciares-fd/galeria1.webp",
+    "ausangate/glaciares-fd/galeria2.webp",
+    "ausangate/glaciares-fd/galeria3.webp",
+    "ausangate/glaciares-fd/galeria4.webp"
+  ],
+  "price": "0",
+  "price_note": "Incluye transporte turístico, desayuno y almuerzo buffet en Cusipata, guía oficial bilingüe, boletos de ingreso, bastones de trekking y equipo de oxigenación.",
+
+  "seo_title": "Tour Glaciares del Ausangate Full Day - Trekking desde Cusco | GT Peru Travel",
+  "seo_description": "Descubre los imponentes glaciares del Apu Ausangate y la Laguna Ausangate en un tour Full Day desde Cusco. Incluye transporte, alimentación y guía profesional.",
+  "seo_keywords": "glaciares del ausangate, tour ausangate full day, nevado ausangate, laguna ausangate, apu ausangate, trekking cusco, gt peru travel",
+
+  "resumen": {
+    "ubicacion": "Cordillera de Vilcanota, Región Cusco",
+    "lugar_recojo": "Hoteles ubicados en el Centro Histórico de Cusco",
+    "lugar_finalizacion": "Plaza Regocijo o Centro Histórico de Cusco",
+    "idiomas": ["Español", "Inglés", "Portugués"],
+    "transporte": ["Transporte turístico ida y retorno"],
+    "alimentacion": "Desayuno y almuerzo buffet en restaurante local en Cusipata",
+    "alojamiento": "No incluye",
+    "altitud": "3,400 - 5,000 m s. n. m."
+  },
+
+  "caracteristicas": [
+    { "icono": "fa-person-hiking", "label": "Dificultad", "valor": "Moderada - Alta" },
+    { "icono": "fa-clock", "label": "Duración", "valor": "Full Day" },
+    { "icono": "fa-people-group", "label": "Servicio", "valor": "Grupal / Privado" },
+    { "icono": "fa-mountain", "label": "Altitud Máxima", "valor": "5,000 msnm" }
+  ],
+
+  "actividades": [
+    "Viaje escénico por los valles del sur hacia Cusipata",
+    "Caminata de ascenso hacia el pie del Nevado Ausangate",
+    "Observación de la Laguna Ausangate y masas de hielo glacial",
+    "Avistamiento de camélidos andinos (alpacas, llamas y vicuñas)",
+    "Contemplación de la Cordillera de Vilcanota y fotografía de paisaje"
+  ],
+
+  "days": [
+    {
+      "title": "Día 1: Cusco – Cusipata – Glaciares del Ausangate – Laguna Ausangate – Cusco",
+      "lugar": "Cusco → Cusipata → Glaciares del Ausangate → Cusco",
+      "text": "Lo recogeremos desde su alojamiento entre las 04:00 y 05:00 a.m. para iniciar nuestro viaje hacia la localidad de Cusipata, en un recorrido de aproximadamente 2 horas.<br><br>Al llegar a Cusipata, disfrutaremos de un desayuno buffet andino, preparado con productos locales que nos brindarán la energía necesaria para iniciar esta aventura. Finalizado el desayuno, continuaremos en nuestro transporte hasta el punto más cercano al inicio de la caminata.<br><br>Desde allí comenzaremos un ascenso de dificultad moderada, con una duración aproximada de 1 hora, hasta llegar al nevado. Durante el recorrido podremos apreciar la Laguna Ausangate, además de otros impresionantes glaciares que enmarcan el paisaje, ofreciendo escenarios ideales para la contemplación y la fotografía.<br><br>Después de disfrutar de la visita, emprenderemos el retorno caminando por la misma ruta hasta el punto de inicio, donde nuestro transporte nos estará esperando para regresar a Cusipata. Una vez en Cusipata, disfrutaremos de un almuerzo nutritivo y delicioso. Posteriormente, iniciaremos el viaje de retorno hacia la ciudad del Cusco, dando por finalizado nuestro tour."
+    }
+  ],
+
+  "includes": [
+    "Recojo desde el hotel (Centro Histórico de Cusco)",
+    "Transporte turístico ida y retorno",
+    "Desayuno buffet en restaurante local",
+    "Almuerzo buffet en restaurante local",
+    "Boletos de ingreso",
+    "Guía Oficial de Turismo (bilingüe)",
+    "Botiquín de primeros auxilios y oxígeno de emergencia",
+    "Bastones de trekking",
+    "Asistencia permanente durante todo el recorrido"
+  ],
+
+  "not_includes": [
+    "Alquiler de caballos (opcional en ruta: S/ 70 - 80 aprox.)",
+    "Bebidas adicionales y snacks",
+    "Propinas",
+    "Gastos personales",
+    "Servicios no mencionados en el programa"
+  ],
+
+  "recommendations": [
+    { "img": "pasaporte.webp", "nombre": "Documento de identidad o pasaporte original" },
+    { "img": "casaca-impermeable.webp", "nombre": "Casaca impermeable y ropa térmica" },
+    { "img": "calzado-trekking.webp", "nombre": "Zapatos o zapatillas de trekking" },
+    { "img": "guantes.webp", "nombre": "Guantes y gorro para el frío" },
+    { "img": "gorra.webp", "nombre": "Sombrero o gorro para el sol" },
+    { "img": "bloqueador.webp", "nombre": "Protector solar y lentes de sol" },
+    { "img": "botella-agua.webp", "nombre": "Botella de agua y snacks energéticos" },
+    { "img": "mochila.webp", "nombre": "Mochila pequeña y dinero en efectivo" }
+  ],
+
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Permanecer al menos 1 o 2 días previa aclimatación en Cusco antes del tour",
+      "El recorrido alcanza una altitud cercana a los 5,000 m s. n. m.",
+      "Descansar bien la noche anterior y evitar bebidas alcohólicas previo a la caminata",
+      "Caminar a un ritmo constante e hidratarse adecuadamente durante el trayecto",
+      "Llevar baterías adicionales para cámaras y teléfonos, ya que el frío acelera su descarga"
+    ]
+  },
+
+  "faq": [
+    {
+      "pregunta": "¿Es un tour recomendable para principiantes?",
+      "respuesta": "Sí, siempre que el visitante tenga una condición física aceptable y ya se haya aclimatado adecuadamente a la altitud de Cusco."
+    },
+    {
+      "pregunta": "¿Es posible observar glaciares durante todo el año?",
+      "respuesta": "Sí. Los glaciares del Ausangate mantienen nieve permanente todo el año, aunque su volumen o apariencia visual pueden variar levemente según la temporada."
+    },
+    {
+      "pregunta": "¿Cuál es la mejor época para realizar este tour?",
+      "respuesta": "Entre los meses de abril y octubre, período en el que predomina la temporada seca y se cuenta con las mejores condiciones climáticas y de visibilidad."
+    },
+    {
+      "pregunta": "¿Se puede alquilar un caballo durante la ruta?",
+      "respuesta": "Sí, el servicio de alquiler de caballos es ofrecido por los comuneros locales en el punto de inicio de la caminata. Su costo aproximado oscila entre 70 y 80 soles."
+    },
+    {
+      "pregunta": "¿Es necesario llevar bastones de trekking?",
+      "respuesta": "No son obligatorios, pero sí muy recomendables para brindar mayor estabilidad. Además, nosotros incluimos los bastones dentro del servicio."
+    },
+    {
+      "pregunta": "¿Qué fauna se puede observar durante la excursión?",
+      "respuesta": "Durante el trayecto es muy común observar alpacas, llamas, vicuñas, aves altoandinas y diversas especies adaptadas al ecosistema de alta montaña."
+    },
+    {
+      "pregunta": "¿Hace mucho frío durante el recorrido?",
+      "respuesta": "Sí, especialmente durante las primeras horas de la mañana y en las zonas cercanas a los glaciares. Se recomienda vestir con ropa térmica por capas y casaca cortaviento."
+    },
+    {
+      "pregunta": "¿Hay servicios higiénicos disponibles?",
+      "respuesta": "Existe un servicio higiénico básico en el punto donde se inicia y finaliza la caminata."
+    },
+    {
+      "pregunta": "¿Este tour opera durante la temporada de lluvias?",
+      "respuesta": "Sí, la excursión opera durante todo el año, adaptando los ritmos de marcha según el clima del día."
+    }
+  ],
+
+  "tours_relacionados": [
+    {
+      "title": "Tour Glaciar Quelccaya",
+      "description": "Explora el glaciar tropical más grande del mundo rodeado de bofedales y la imponente Laguna Sibinacocha.",
+      "price": "0",
+      "duracion": "Full Day",
+      "image": "quelccaya/quelccaya-fd/hero.webp",
+      "url": "tour-glaciar-quelccaya"
+    },
+    {
+      "title": "Montaña de 7 Colores (Vinicunca)",
+      "description": "Visita la famosa montaña pigmentada atravesando los mismos valles del sur de Cusco.",
+      "price": "0",
+      "duracion": "Full Day",
+      "image": "vinicunca-cover.jpg",
+      "url": "montana-7-colores"
+    }
+  ],
+
+  "brochure": "",
+  "map": "",
+  "video": "",
+
+  "categories": {
+    "grupal": {
+      "titulo": "TOUR GLACIARES DEL AUSANGATE FULL DAY - SERVICIO GRUPAL",
+      "precio": "79",
+      "descripcion": "Servicio compartido en grupo con otros viajeros.",
+      "nota": "Incluye transporte, alimentación buffet, guía profesional, boletos de ingreso y bastones",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "TOUR GLACIARES DEL AUSANGATE FULL DAY - SERVICIO PRIVADO",
+      "precio": "0",
+      "descripcion": "Servicio exclusivo solo para tu grupo.",
+      "nota": "Incluye transporte privado, alimentación buffet, guía exclusivo, boletos de ingreso y bastones",
+      "descuento": 0
+    }
+  }
+}
