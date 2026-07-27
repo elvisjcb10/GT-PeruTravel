@@ -91,8 +91,10 @@
             "links":{
 
                 "clasico": {
+                    "url": "CZ-machupicchu-clasico",
                     "img":"/images/machupicchu/clasico/img_header.webp",
                     "nombre":"<span class='text-gray-900'>Tour Machu Picchu</span>  Clasico",
+                    "nombre2":"Tour Machu Picchu  Clasico",
                     "descripcion":"Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
                     "precio":"49",
                     "tiempo":"Todo el dia",
@@ -102,8 +104,10 @@
     
                 },
                 "tren_panoramico": {
+                    "url": "CZ-machupicchu-panoramico",
                     "img":"/images/machupicchu/panoramico/img_header.webp",
                     "nombre":"<span class='text-gray-900'>Tou Machu Picchur</span>  con tren panoramico vista observatorio",
+                    "nombre2":"Tou Machu Picchur con tren panoramico vista observatorio",
                     "descripcion":"Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
                     "precio":"19",
                     "tiempo":"Todo el dia",
@@ -113,8 +117,10 @@
     
                 },
                 "tren_hiram": {
+                    "url": "CZ-machupicchu-hiram",
                     "img":"/images/machupicchu/hiram/img_header.webp",
                     "nombre":"<span class='text-gray-900'>Tour Machu Picchu</span>  en tren de lujo Hiram Bingham",
+                    "nombre2":"Tour Machu Picchu en tren de lujo Hiram Bingham",
                     "descripcion":"Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
                     "precio":"89",
                     "tiempo":"Todo el dia",
@@ -124,8 +130,10 @@
     
                 },
                 "ruta_amazonica": {
+                    "url": "CZ-machupicchu-amazonico",
                     "img":"/images/machupicchu/amazonica/img_header.webp",
                     "nombre":"<span class='text-gray-900'>Tour Machu Picchu</span> ruta amazonica",
+                    "nombre2":"Tour Machu Picchuruta amazonica",
                     "descripcion":"Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
                     "precio":"59",
                     "tiempo":"2D/1N",
@@ -148,8 +156,10 @@
             },
             "links": {
                 "quelccaya": {
+                    "url": "glaciar-quelccaya",
                     "img": "/images/glaciares/quelccaya/img_header.webp",
                     "nombre": "<span class='text-gray-900'>Tour</span> Glaciar Quelccaya",
+                    "nombre2": "Tour Glaciar Quelccaya",
                     "descripcion": "Aventúrate al glaciar tropical más extenso del mundo, una joya de la naturaleza en los Andes peruanos.",
                     "precio": "89",
                     "tiempo": "Full Day",
@@ -157,8 +167,10 @@
                     "transporte": "Incluido"
                 },
                 "ausangate": {
+                    "url": "glaciar-ausangate",
                     "img": "/images/glaciares/ausangate/img_header.webp",
                     "nombre": "<span class='text-gray-900'>Tour</span> Glaciares del Ausangate ",
+                    "nombre2": "Tour Glaciares del Ausangate ",
                     "descripcion": "Recorre los majestuosos e imponentes glaciares que rodean al sagrado Apu Ausangate.",
                     "precio": "79",
                     "tiempo": "Full Day",
@@ -177,8 +189,10 @@
             },
             "links": {
                 "misticas": {
+                    "url":"",
                     "img": "/images/experiencias_unicas/misticas/img_header.webp",
                     "nombre": "<span class='text-gray-900'>Experiencia</span> místicas medio días",
+                    "nombre2": "Experiencia místicas medio días",
                     "descripcion": "Vive una jornada de introspección y conexión espiritual con rituales ancestrales guiados.",
                     "precio": "39",
                     "tiempo": "Medio día",
@@ -186,8 +200,10 @@
                     "transporte": "Incluido"
                 },
                 "tour_maras_pachamanca": {
+                    "url":"",
                     "img": "/images/experiencias_unicas/maras_pachamanca/img_header.webp",
                     "nombre": "<span class='text-gray-900'>Tour</span> maras Moray + pachamanca andino full day",
+                    "nombre2": "Tour maras Moray + pachamanca andino full day",
                     "descripcion": "Combina la maravilla de los laboratorios incas con un banquete tradicional andino cocinado bajo tierra.",
                     "precio": "99",
                     "tiempo": "Full Day",
@@ -195,8 +211,10 @@
                     "transporte": "Incluido"
                 },
                 "pachamanca_medio_dia": {
+                    "url":"",
                     "img": "/images/experiencias_unicas/pachamanca/img_header.webp",
                     "nombre": "<span class='text-gray-900'>Pachamanca</span> andino medio dia",
+                    "nombre2": "Pachamancaandino medio dia",
                     "descripcion": "Disfruta del proceso de preparación y degustación de la tradicional Pachamanca ancestral.",
                     "precio": "49",
                     "tiempo": "Medio día",
@@ -204,8 +222,10 @@
                     "transporte": "Incluido"
                 },
                 "ritual_andino": {
+                    "url":"",
                     "img": "/images/experiencias_unicas/ritual_andino/img_header.webp",
                     "nombre": "<span class='text-gray-900'>Ofrenda ritual</span>  andina medio dia",
+                    "nombre2": "Ofrenda ritual andina medio dia",
                     "descripcion": "Participa activamente en una auténtica ofrenda de agradecimiento a la Pachamama (Madre Tierra).",
                     "precio": "35",
                     "tiempo": "Medio día",

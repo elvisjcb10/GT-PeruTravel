@@ -8,7 +8,9 @@
     "machupicchu/clasico/galeria1.webp",
     "machupicchu/clasico/galeria2.webp",
     "machupicchu/clasico/galeria3.webp",
-    "machupicchu/clasico/galeria4.webp"
+    "machupicchu/clasico/galeria4.webp",
+    "machupicchu/clasico/galeria5.webp",
+    "machupicchu/clasico/galeria6.webp"
   ],
   "price": "0",
   "price_note": "Incluye transporte turístico, boletos de tren de ida y retorno, bus de subida y bajada, boleto de ingreso y guía profesional.",
@@ -114,20 +116,31 @@
 
   "tours_relacionados": [
     {
-      "title": "Valle Sagrado + Machu Picchu 2D/1N",
-      "description": "Recorre el Valle Sagrado de los Incas, pernocta en Aguas Calientes y visita Machu Picchu al día siguiente.",
-      "price": "0",
-      "duracion": "2Dias / 1Noche",
-      "image": "valle-sagrado-machupicchu.jpg",
-      "url": "valle-sagrado-machupicchu-2d"
+        "title": "Tour Machu Picchu en Tren Panorámico Vistadome Observatory",
+        "description": "Combina el viaje a Machu Picchu con un recorrido ferroviario panorámico que muestra los impresionantes paisajes del Valle Sagrado de los Incas.",
+        "price": "0",
+        "duracion": "Todo el dia",
+        "image": "tours/machupicchu/panoramico/card.webp",
+        "url": "CZ-machupicchu-panoramico",
+        "categoria": "tradicionales"
     },
     {
-      "title": "Machu Picchu en Tren Vistadome",
-      "description": "Vive una experiencia panorámica premium hacia la ciudadela inca a bordo del tren Vistadome.",
-      "price": "0",
-      "duracion": "1Dia / 0Noches",
-      "image": "machupicchu-vistadome.jpg",
-      "url": "machupicchu-vistadome"
+        "title": "Tour Machu Picchu en Tren de Lujo Hiram Bingham",
+        "description": "Vive una experiencia exclusiva a bordo del tren más prestigioso de Sudamérica, combinando confort premium, gastronomía y la visita a Machu Picchu.",
+        "price": "0",
+        "duracion": "Todo el dia",
+        "image": "tours/machupicchu/hiram/card.webp",
+        "url": "CZ-machupicchu-hiram",
+        "categoria": "premium"
+    },
+    {
+        "title": "Tour Machu Picchu por la Ruta Amazónica",
+        "description": "Llega a Machu Picchu por una ruta alternativa que combina viaje por carretera, caminata junto al río Vilcanota y paisajes de ceja de selva.",
+        "price": "0",
+        "duracion": "2Dias / 1Noches",
+        "image": "tours/machupicchu/amazonico/card.webp",
+        "url": "CZ-machupicchu-amazonico",
+        "categoria": "aventura"
     }
   ],
 

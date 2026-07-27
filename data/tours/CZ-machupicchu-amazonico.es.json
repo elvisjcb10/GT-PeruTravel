@@ -1,0 +1,206 @@
+{
+    "title": "Tour Machu Picchu por la Ruta Amazónica",
+    "short_description": "Llega a Machu Picchu por una ruta alternativa que combina viaje por carretera, caminata junto al río Vilcanota y paisajes de ceja de selva.",
+    "long_description": "El Tour Machu Picchu por la Ruta Amazónica 2 Días / 1 Noche es una excelente alternativa para quienes desean llegar a la ciudadela inca a través de un recorrido diferente, combinando viaje por carretera, caminatas y paisajes naturales que conectan los Andes con la ceja de selva peruana.<br><br>Durante la expedición recorrerás el Valle Sagrado de los Incas, cruzarás el Abra Málaga y continuarás hacia Santa Teresa e Hidroeléctrica, punto desde donde inicia una caminata rodeada de abundante vegetación, junto al río Vilcanota y la vía férrea que conduce hasta Machu Picchu Pueblo (Aguas Calientes).<br><br>Al día siguiente visitarás el Santuario Histórico de Machu Picchu, donde un guía profesional te acompañará a descubrir la historia, arquitectura e importancia de uno de los sitios arqueológicos más emblemáticos del mundo. Este programa está dirigido a viajeros que buscan una experiencia más activa, disfrutando no solo de Machu Picchu, sino también del recorrido y los impresionantes paisajes que ofrece la Ruta Amazónica.",
+    "duration": "2 Días / 1 Noche",
+    "image_cover": "machupicchu/amazonico/hero.webp",
+    "gallery": [
+        "machupicchu/amazonico/galeria1.webp",
+        "machupicchu/amazonico/galeria2.webp",
+        "machupicchu/amazonico/galeria3.webp",
+        "machupicchu/amazonico/galeria4.webp",
+        "machupicchu/amazonico/galeria5.webp",
+        "machupicchu/amazonico/galeria6.webp"
+    ],
+    "price": "59",
+    "price_note": "Incluye transporte turístico, 1 noche de alojamiento en Machu Picchu Pueblo, alimentación según itinerario, entrada a Machu Picchu y guía profesional.",
+
+    "seo_title": "Tour Machu Picchu Ruta Amazónica 2D/1N - Hidroeléctrica | GT Peru Travel",
+    "seo_description": "Llega a Machu Picchu por la Ruta Amazónica: Valle Sagrado, Abra Málaga, Santa Teresa, Hidroeléctrica y caminata junto al río Vilcanota. Tour de 2 días desde Cusco.",
+    "seo_keywords": "ruta amazonica machu picchu, tour hidroelectrica machu picchu, machu picchu 2 dias, santa teresa cusco, caminata machu picchu, tour cusco economico, gt peru travel",
+
+    "resumen": {
+        "ubicacion": "Santuario Histórico de Machu Picchu",
+        "lugar_recojo": "Hoteles en el Centro Histórico de Cusco",
+        "lugar_finalizacion": "Plaza San Francisco o Centro Histórico de Cusco",
+        "hora_inicio": "Entre 06:30 a.m. y 07:30 a.m. (aproximado)",
+        "hora_retorno": "Entre 09:00 p.m. y 10:00 p.m. del segundo día",
+        "idiomas": ["Español", "Inglés", "Portugués (servicio privado o previa solicitud)"],
+        "transporte": [
+            "Transporte turístico Cusco – Hidroeléctrica – Cusco",
+            "Bus turístico de bajada desde Machu Picchu (según programa contratado)"
+        ],
+        "alimentacion": "1 desayuno, 1 almuerzo, 1 cena",
+        "alojamiento": "1 noche en Machu Picchu Pueblo (Aguas Calientes)",
+        "altitud_maxima": "4,350 msnm (Abra Málaga)",
+        "altitud_minima": "1,800 msnm (Santa Teresa)",
+        "altitud_machupicchu": "2,430 msnm",
+        "edad_recomendada": "A partir de los 12 años",
+        "temporada": "Disponible durante todo el año"
+    },
+
+    "caracteristicas": [
+        { "icono": "fa-person-hiking", "label": "Dificultad", "valor": "Moderada" },
+        { "icono": "fa-clock", "label": "Duración", "valor": "2 Días / 1 Noche" },
+        { "icono": "fa-people-group", "label": "Servicio", "valor": "Grupal / Privado" },
+        { "icono": "fa-mountain", "label": "Altitud Máxima", "valor": "4,350 msnm" }
+    ],
+
+    "days": [
+        {
+            "title": "Día 1: Cusco – Valle Sagrado – Abra Málaga – Santa Teresa – Hidroeléctrica – Machu Picchu Pueblo",
+            "lugar": "Cusco → Machu Picchu Pueblo",
+            "text": "La aventura comienza con el recojo desde su hotel en la ciudad del Cusco para iniciar el recorrido por carretera hacia Hidroeléctrica. Durante el viaje atravesaremos el Valle Sagrado de los Incas y el Abra Málaga, el punto más alto de la ruta, desde donde se aprecian impresionantes paisajes andinos antes de descender hacia la ceja de selva, donde el clima y la vegetación cambian notablemente.<br><br>Continuaremos hacia Santa Teresa, donde disfrutaremos del almuerzo, para luego trasladarnos hasta Hidroeléctrica, punto de inicio de la caminata. Desde aquí recorreremos aproximadamente 11 kilómetros siguiendo la vía férrea y el río Vilcanota, atravesando un entorno rodeado de abundante vegetación hasta llegar a Machu Picchu Pueblo (Aguas Calientes). Al finalizar el recorrido nos instalaremos en el alojamiento, disfrutaremos de la cena y recibiremos las indicaciones del guía para la visita a Machu Picchu del día siguiente."
+        },
+        {
+            "title": "Día 2: Machu Picchu Pueblo – Santuario Histórico de Machu Picchu – Hidroeléctrica – Cusco",
+            "lugar": "Machu Picchu Pueblo → Cusco",
+            "text": "Muy temprano iniciaremos el ascenso hacia el Santuario Histórico de Machu Picchu, donde realizaremos una visita guiada por el circuito autorizado. Durante el recorrido conoceremos la historia, arquitectura y los principales sectores de una de las obras más representativas de la civilización inca, además de disponer de tiempo para tomar fotografías y disfrutar del entorno.<br><br>Finalizada la visita, retornaremos a Machu Picchu Pueblo para continuar el recorrido hacia Hidroeléctrica, donde abordaremos nuestro transporte turístico de regreso a la ciudad del Cusco. Durante el viaje volveremos a recorrer los paisajes de la ceja de selva y la cordillera andina, concluyendo así esta experiencia por la Ruta Amazónica hacia Machu Picchu."
+        }
+    ],
+
+    "includes": [
+        "Recojo desde hoteles ubicados en el Centro Histórico de Cusco",
+        "Transporte turístico Cusco – Hidroeléctrica – Cusco",
+        "Boleto de ingreso al Santuario Histórico de Machu Picchu (según el circuito confirmado)",
+        "Visita guiada en Machu Picchu con guía profesional",
+        "1 noche de alojamiento en Machu Picchu Pueblo (Aguas Calientes)",
+        "1 desayuno",
+        "1 almuerzo",
+        "1 cena",
+        "Botiquín básico de primeros auxilios durante el recorrido",
+        "Asistencia permanente durante el desarrollo del tour"
+    ],
+
+    "not_includes": [
+        "Alimentación no especificada en el programa",
+        "Boletos de tren (servicio opcional para el tramo Hidroeléctrica – Machu Picchu Pueblo o viceversa, según preferencia del pasajero)",
+        "Boleto de ingreso a la montaña Huayna Picchu",
+        "Seguro de viaje",
+        "Gastos personales",
+        "Propinas",
+        "Servicios no mencionados expresamente en el programa"
+    ],
+
+    "recommendations": [
+        { "img": "pasaporte.webp", "nombre": "Pasaporte o documento de identidad original" },
+        { "img": "mochila.webp", "nombre": "Mochila pequeña para uso diario" },
+        { "img": "ropa-comoda.webp", "nombre": "Ropa cómoda y ligera para caminatas" },
+        { "img": "poncho-lluvia.webp", "nombre": "Casaca impermeable o poncho para lluvia" },
+        { "img": "calzado-trekking.webp", "nombre": "Calzado de trekking o zapatillas con buena adherencia" },
+        { "img": "bloqueador.webp", "nombre": "Protector solar" },
+        { "img": "repelente.webp", "nombre": "Repelente de insectos" },
+        { "img": "gorra.webp", "nombre": "Sombrero o gorra" },
+        { "img": "lentes-sol.webp", "nombre": "Gafas de sol" },
+        { "img": "botella-agua.webp", "nombre": "Botella de agua reutilizable" }
+    ],
+
+    "recomendaciones_generales": {
+        "antes_de_viajar": [
+            "La Ruta Amazónica incluye caminatas de dificultad moderada, por lo que se recomienda contar con una condición física adecuada",
+            "El horario del tour puede variar según las condiciones del clima, el tránsito y la disponibilidad de ingreso a Machu Picchu",
+            "Lleva siempre tu pasaporte o documento de identidad original, ya que será solicitado durante el recorrido y al ingresar al Santuario Histórico de Machu Picchu",
+            "Se recomienda viajar con equipaje ligero para mayor comodidad durante la caminata entre Hidroeléctrica y Machu Picchu Pueblo"
+        ],
+        "tips": [
+            "Reserva tu tour con anticipación para asegurar la disponibilidad del ingreso a Machu Picchu",
+            "Mantén un ritmo constante durante la caminata y realiza pausas cuando sea necesario",
+            "Respeta las indicaciones del guía y las normas de conservación del Santuario Histórico de Machu Picchu",
+            "No olvides llevar tu cámara o teléfono con suficiente batería para capturar los paisajes de la Ruta Amazónica y la ciudadela inca"
+        ]
+    },
+
+    "faq": [
+        {
+            "pregunta": "¿Qué es la Ruta Amazónica hacia Machu Picchu?",
+            "respuesta": "Es una ruta alternativa que combina transporte turístico y una caminata desde Hidroeléctrica hasta Machu Picchu Pueblo, permitiendo disfrutar de paisajes naturales entre la ceja de selva y el río Vilcanota antes de visitar la ciudadela inca."
+        },
+        {
+            "pregunta": "¿Cuál es el nivel de dificultad del tour?",
+            "respuesta": "El tour presenta un nivel de dificultad moderado, ya que incluye una caminata aproximada de 11 km entre Hidroeléctrica y Machu Picchu Pueblo, además del ascenso o traslado hacia la ciudadela al día siguiente."
+        },
+        {
+            "pregunta": "¿Es obligatorio realizar la caminata desde Hidroeléctrica?",
+            "respuesta": "No. Los pasajeros que lo prefieran pueden optar por realizar este tramo en tren (servicio opcional con costo adicional), sujeto a disponibilidad."
+        },
+        {
+            "pregunta": "¿Qué tipo de alojamiento incluye el tour?",
+            "respuesta": "El programa incluye 1 noche de alojamiento en Machu Picchu Pueblo (Aguas Calientes), en un establecimiento turístico con servicios básicos para un descanso cómodo antes de la visita a la ciudadela."
+        },
+        {
+            "pregunta": "¿Qué circuito de Machu Picchu visitaré?",
+            "respuesta": "El circuito dependerá del boleto de ingreso confirmado al momento de la reserva y de la disponibilidad establecida por las autoridades del Santuario Histórico de Machu Picchu."
+        },
+        {
+            "pregunta": "¿Necesito experiencia en trekking para realizar este tour?",
+            "respuesta": "No es necesario tener experiencia previa. Sin embargo, se recomienda contar con una condición física adecuada para realizar caminatas de varias horas sobre terreno natural."
+        },
+        {
+            "pregunta": "¿Qué documentos debo presentar durante el viaje?",
+            "respuesta": "Es indispensable portar el pasaporte o documento de identidad original utilizado para realizar la reserva, ya que será solicitado durante el recorrido y al ingresar a Machu Picchu."
+        },
+        {
+            "pregunta": "¿Cuál es la mejor época para realizar la Ruta Amazónica?",
+            "respuesta": "El tour opera durante todo el año. No obstante, los meses comprendidos entre abril y octubre suelen ofrecer mejores condiciones climáticas para disfrutar de la caminata y de los paisajes de la ruta."
+        },
+        {
+            "pregunta": "¿Puedo agregar el ingreso a Huayna Picchu?",
+            "respuesta": "Sí. El ingreso a Huayna Picchu puede solicitarse como un servicio adicional, siempre que exista disponibilidad al momento de realizar la reserva."
+        },
+        {
+            "pregunta": "¿Con cuánta anticipación debo reservar?",
+            "respuesta": "Se recomienda reservar con varias semanas o meses de anticipación, especialmente en temporada alta, ya que los boletos de ingreso a Machu Picchu cuentan con disponibilidad limitada."
+        }
+    ],
+
+    "tours_relacionados": [
+         {
+            "title": "Tour Machu Picchu Clasico",
+            "description": "Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
+            "price": "0",
+            "duracion": "Todo el dia",
+            "image": "tours/machupicchu/clasico/card.webp",
+            "url": "CZ-machupicchu-clasico",
+            "categoria": "tradicionales"
+        },
+        {
+            "title": "Tour Machu Picchu en Tren Panorámico Vistadome Observatory",
+            "description": "Combina el viaje a Machu Picchu con un recorrido ferroviario panorámico que muestra los impresionantes paisajes del Valle Sagrado de los Incas.",
+            "price": "0",
+            "duracion": "Todo el dia",
+            "image": "tours/machupicchu/panoramico/card.webp",
+            "url": "CZ-machupicchu-panoramico",
+            "categoria": "tradicionales"
+        },
+        {
+            "title": "Tour Machu Picchu en Tren de Lujo Hiram Bingham",
+            "description": "Vive una experiencia exclusiva a bordo del tren más prestigioso de Sudamérica, combinando confort premium, gastronomía y la visita a Machu Picchu.",
+            "price": "0",
+            "duracion": "Todo el dia",
+            "image": "tours/machupicchu/hiram/card.webp",
+            "url": "CZ-machupicchu-hiram",
+            "categoria": "premium"
+        }
+    ],
+
+    "brochure": "",
+    "map": "",
+    "video": "",
+
+    "categories": {
+        "grupal": {
+            "titulo": "RUTA AMAZÓNICA - SERVICIO GRUPAL",
+            "precio": "59",
+            "descripcion": "Servicio compartido con otros viajeros.",
+            "nota": "Incluye transporte, alojamiento, alimentación, entrada y guía profesional",
+            "descuento": 0
+        },
+        "privado": {
+            "titulo": "RUTA AMAZÓNICA - SERVICIO PRIVADO",
+            "precio": "59",
+            "descripcion": "Servicio exclusivo solo para tu grupo, disponible también en portugués.",
+            "nota": "Incluye transporte, alojamiento, alimentación, entrada y guía profesional",
+            "descuento": 0
+        }
+    }
+}

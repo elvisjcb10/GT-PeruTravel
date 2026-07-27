@@ -464,7 +464,7 @@
                 <div class="flex flex-col gap-5 reveal-right">
 
                     <?php foreach ($glaciares['cards'] as $card): ?>
-                        <a href="<?= $base_url ?>/destino/template-glaciar.php?glaciar=<?= $card['url'] ?>&lang=<?= $idioma ?>"
+                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $card['url'] ?>&lang=<?= $idioma ?>"
                         class="block rounded-xl overflow-hidden shadow-lg group">
 
                             <!-- IMAGEN -->

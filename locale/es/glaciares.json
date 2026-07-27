@@ -22,18 +22,18 @@
     "boton_secundario": "Ver Experiencias",
     "cards": [
         {
-            "img": "/images/glaciares/ausangate/img_header.webp",
+            "img": "/images/tours/glaciares/ausangate/card.webp",
             "nombre": "Ausangate",
             "descripcion": "El glaciar tropical más accesible del Perú. Una experiencia sobrecogedora a 4,800 msnm.",
             "link_text": "Ver más",
-            "url": "ausangate"
+            "url": "glaciar-ausangate"
         },
         {
-            "img": "/images/glaciares/quelccaya/img_header.webp",
+            "img": "/images/tours/glaciares/quelccaya/img_header.webp",
             "nombre": "Quelccaya",
             "descripcion": "El glaciar tropical más accesible del Perú. Una experiencia sobrecogedora a 4,800 msnm.",
             "link_text": "Ver más",
-            "url": "quelccaya"
+            "url": "glaciar-quelccaya"
         }
     ]
 }

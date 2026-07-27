@@ -150,8 +150,8 @@ $base_url = "..";
                 alt="<?= ($data['title']) ?>">
 
             <!-- overlays para legibilidad del texto -->
-            <!-- <div class="absolute inset-0 bg-gradient-to-r from-black/85 via-black/50 to-black/10"></div>
-            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10"></div> -->
+             <!-- <div class="absolute inset-0 bg-gradient-to-r from-black/85 via-black/10 to-black/0"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10"></div>  -->
 
             <!-- contenido principal -->
             <div class="relative z-10 h-full flex items-center justify-center">
@@ -394,6 +394,7 @@ $base_url = "..";
                     </div>
 
                     <!-- ============ TAB: GALERIA ============ -->
+                    <!-- ============ TAB: GALERIA ============ -->
                     <div class="tab-tour-content hidden" data-tab-content="galeria">
                         <p class="text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
                             <?= $global['explora_peru'] ?? 'Explora Peru' ?>
@@ -404,12 +405,14 @@ $base_url = "..";
                         </h3>
 
                         <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
-                            <?php foreach (($data['gallery'] ?? []) as $img): ?>
-                                <div class="rounded-xl overflow-hidden h-40 sm:h-48">
+                            <?php foreach (($data['gallery'] ?? []) as $index => $img): ?>
+                                <button type="button"
+                                        class="gallery-item rounded-xl overflow-hidden h-40 sm:h-48 group cursor-pointer"
+                                        data-index="<?= $index ?>">
                                     <img src="<?= $base_url ?>/images/tours/<?= htmlspecialchars($img) ?>"
-                                         alt="<?= htmlspecialchars($data['title']) ?>"
-                                         class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
-                                </div>
+                                        alt="<?= htmlspecialchars($data['title']) ?>"
+                                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                                </button>
                             <?php endforeach; ?>
                         </div>
                     </div>
@@ -659,13 +662,44 @@ $base_url = "..";
     </main>
 
     <?php include('../footer.php') ?>
+    <!-- ******************** 
+     LIGHTBOX DE GALERIA
+ *********************** -->
+    <div id="gallery-lightbox" class="fixed inset-0 z-[999] hidden items-center justify-center bg-black/90 px-4">
 
+        <!-- Botón cerrar -->
+        <button type="button" id="gallery-close"
+                class="absolute top-5 right-5 text-white text-3xl hover:text-orange-custom transition z-10">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <!-- Flecha anterior -->
+        <button type="button" id="gallery-prev"
+                class="absolute left-3 md:left-8 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-white/10 hover:bg-orange-custom rounded-full text-white text-xl transition z-10">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <!-- Imagen -->
+        <div class="max-w-5xl w-full">
+            <img id="gallery-image" src="" alt="Galería"
+                class="w-full max-h-[80vh] object-contain rounded-lg mx-auto">
+            <p id="gallery-counter" class="text-center text-white/70 text-sm font-poppins mt-4"></p>
+        </div>
+
+        <!-- Flecha siguiente -->
+        <button type="button" id="gallery-next"
+                class="absolute right-3 md:right-8 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-white/10 hover:bg-orange-custom rounded-full text-white text-xl transition z-10">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+    </div>
     <!-- SCRIPTS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="../js/mobile-menu.js"></script>
     <script src="../js/swiper-trip-comments.js"></script>
     <script src="../js/swiper-tours.js"></script>
-
+    <!-- Mobile menu -->
+    <script src="../js/mega-menu.js"></script> 
     <!-- TABS DEL TOUR -->
     <script src="../js/tour-tabs.js"></script>
 
@@ -674,7 +708,7 @@ $base_url = "..";
 
     <!-- FAQ ACORDEON -->
     <script src="../js/tour-faq-accordion.js"></script>
-
+    <script src="../js/tour-gallery-lightbox.js"></script>
     <!-- CATEGORIAS + PASAJEROS + PRECIO -->
     <script>
         const categoriasData = <?= json_encode($data['categories'] ?? [], JSON_UNESCAPED_UNICODE) ?>;

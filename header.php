@@ -187,7 +187,7 @@ require_once __DIR__ . "/config/environment.php";
                 </div>
 
                 <!-- Links (solo desktop) -->
-                <div class="hidden lg:flex items-center gap-8 text-sm font-medium text-[#333]">
+                <div class="hidden lg:flex items-center gap-8 text-sm font-medium text-[#333]"> 
 
                     <a href="https://www.gtperutravel.com/blog" 
                     class="group flex items-center gap-1 hover:text-[#ff9300] transition duration-300">
@@ -495,7 +495,7 @@ require_once __DIR__ . "/config/environment.php";
                                         <!-- LEFT: lista de tours -->
                                         <div class="flex flex-col gap-1">
                                             <?php foreach($header_text['mega_menu']['machupicchu']['links'] as $key => $tour): ?>
-                                                <a href="#"
+                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $tour['url'] ?>&lang=<?= $idioma ?>"
                                                     class="tour-item group/item flex items-center justify-between gap-2 p-4 rounded-xl hover:bg-[#FFF7EF] transition duration-200 cursor-pointer"
                                                     data-title="<?= htmlspecialchars($tour['nombre']) ?>"
                                                     data-desc="<?= htmlspecialchars($tour['descripcion']) ?>"
@@ -505,8 +505,8 @@ require_once __DIR__ . "/config/environment.php";
                                                     data-transport="<?= htmlspecialchars($tour['transporte']) ?>"
                                                     data-img="<?= $base_url ?><?= htmlspecialchars($tour['img']) ?>">
 
-                                                    <span class="group-hover/item:text-orange-500 transition duration-200 font-medium">
-                                                        <?= $tour['nombre'] ?>
+                                                    <span class=" transition duration-200 font-medium">
+                                                        <?= $tour['nombre2'] ?>
                                                     </span>
 
                                                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -662,18 +662,18 @@ require_once __DIR__ . "/config/environment.php";
                                         <!-- LEFT: lista de tours -->
                                         <div class="flex flex-col gap-1">
                                             <?php foreach($header_text['mega_menu']['glaciares']['links'] as $key => $tour): ?>
-                                                <a href="#"
+                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $tour['url'] ?>&lang=<?= $idioma ?>"
                                                     class="tour-item group/item flex items-center justify-between gap-2 p-4 rounded-xl hover:bg-[#FFF7EF] transition duration-200 cursor-pointer"
                                                     data-title="<?= htmlspecialchars($tour['nombre']) ?>"
                                                     data-desc="<?= htmlspecialchars($tour['descripcion']) ?>"
                                                     data-price="<?= htmlspecialchars($tour['precio']) ?>"
                                                     data-time="<?= htmlspecialchars($tour['tiempo']) ?>"
-                                                    data-difficulty="<?= htmlspecialchars($tour['dificultad']) ?>"
+                                       s             data-difficulty="<?= htmlspecialchars($tour['dificultad']) ?>"
                                                     data-transport="<?= htmlspecialchars($tour['transporte']) ?>"
                                                     data-img="<?= $base_url ?><?= htmlspecialchars($tour['img']) ?>">
 
-                                                    <span class="group-hover/item:text-orange-500 transition duration-200 font-medium">
-                                                        <?= $tour['nombre'] ?>
+                                                    <span class=" transition duration-200 font-medium">
+                                                        <?= $tour['nombre2'] ?>
                                                     </span>
 
                                                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -828,7 +828,7 @@ require_once __DIR__ . "/config/environment.php";
                                         <!-- LEFT: lista de tours -->
                                         <div class="flex flex-col gap-1">
                                             <?php foreach($header_text['mega_menu']['experiencias_unicas']['links'] as $key => $tour): ?>
-                                                <a href="#"
+                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $tour['url'] ?>&lang=<?= $idioma ?>"
                                                     class="tour-item group/item flex items-center justify-between gap-2 p-4 rounded-xl hover:bg-[#FFF7EF] transition duration-200 cursor-pointer"
                                                     data-title="<?= htmlspecialchars($tour['nombre']) ?>"
                                                     data-desc="<?= htmlspecialchars($tour['descripcion']) ?>"
@@ -838,8 +838,8 @@ require_once __DIR__ . "/config/environment.php";
                                                     data-transport="<?= htmlspecialchars($tour['transporte']) ?>"
                                                     data-img="<?= $base_url ?><?= htmlspecialchars($tour['img']) ?>">
 
-                                                    <span class="group-hover/item:text-orange-500 transition duration-200 font-medium">
-                                                        <?= $tour['nombre'] ?>
+                                                    <span class=" transition duration-200 font-medium">
+                                                        <?= $tour['nombre2'] ?>
                                                     </span>
 
                                                     <svg xmlns="http://www.w3.org/2000/svg"

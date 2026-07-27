@@ -14,46 +14,42 @@
         "texto": "+300 Viajeros"
     },
     "filtros": [
-        { "id": "todos", "label": "Todos" },
-        { "id": "tradicionales", "label": "Tradicionales" },
-        { "id": "premium", "label": "Premium" },
-        { "id": "aventura", "label": "Aventura" }
     ],
     "tours": [
         {
             "title": "Tour Machu Picchu Clasico",
             "description": "Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
-            "price": "49",
+            "price": "0",
             "duracion": "Todo el dia",
             "image": "tours/machupicchu/clasico/card.webp",
             "url": "CZ-machupicchu-clasico",
             "categoria": "tradicionales"
         },
         {
-            "title": "Tour Machu Picchu con tren panoramico vista observatorio",
-            "description": "Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
-            "price": "19",
+            "title": "Tour Machu Picchu en Tren Panorámico Vistadome Observatory",
+            "description": "Combina el viaje a Machu Picchu con un recorrido ferroviario panorámico que muestra los impresionantes paisajes del Valle Sagrado de los Incas.",
+            "price": "0",
             "duracion": "Todo el dia",
-            "image": "panoramico/img_header.webp",
-            "url": "tren_panoramico",
+            "image": "tours/machupicchu/panoramico/card.webp",
+            "url": "CZ-machupicchu-panoramico",
             "categoria": "tradicionales"
         },
         {
-            "title": "Tour Machu Picchu en tren de lujo Hiram Bingham",
-            "description": "Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
-            "price": "89",
+            "title": "Tour Machu Picchu en Tren de Lujo Hiram Bingham",
+            "description": "Vive una experiencia exclusiva a bordo del tren más prestigioso de Sudamérica, combinando confort premium, gastronomía y la visita a Machu Picchu.",
+            "price": "0",
             "duracion": "Todo el dia",
-            "image": "hiram/img_header.webp",
-            "url": "tren_hiram",
+            "image": "tours/machupicchu/hiram/card.webp",
+            "url": "CZ-machupicchu-hiram",
             "categoria": "premium"
         },
         {
-            "title": "Tour Machu Picchu ruta amazonica",
-            "description": "Descubre los impresionantes laboratorios agrícolas de los Incas en Moray y vive una experiencia gastronómica ancestral única cocinando bajo tierra.",
-            "price": "59",
+            "title": "Tour Machu Picchu por la Ruta Amazónica",
+            "description": "Llega a Machu Picchu por una ruta alternativa que combina viaje por carretera, caminata junto al río Vilcanota y paisajes de ceja de selva.",
+            "price": "0",
             "duracion": "2Dias / 1Noches",
-            "image": "amazonica/img_header.webp",
-            "url": "ruta_amazonica",
+            "image": "tours/machupicchu/amazonico/card.webp",
+            "url": "CZ-machupicchu-amazonico",
             "categoria": "aventura"
         }
     ]
