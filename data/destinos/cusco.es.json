@@ -36,6 +36,15 @@
         { "id": "caminata", "label": "Caminata" }
     ],
     "tours": [
+        {
+            "title": "Tour Montaña Pallay Punchu",
+            "description": "Descubre una de las formaciones geológicas más impresionantes de Cusco: franjas de colores y cumbres afiladas que recuerdan a un tradicional Punchu andino.",
+            "price": "0",
+            "duracion": "Full Day",
+            "image": "tours/cusco/pallay-punchu/card.webp",
+            "url": "CZ-pallay_punchu",
+            "categoria": "caminata"
+        },
        
         {
             "title": "Valle Sagrado + Machu Picchu",

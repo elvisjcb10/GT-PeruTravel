@@ -105,9 +105,8 @@ $hero_text = json_decode($hero, true);
     <section class="relative w-full h-[82vh] min-h-[650px] bg-black overflow-hidden">
 
         <img src="<?= $base_url . $destino['background'] ?>"
-             alt="<?= $destino['titulo'] ?>"
-             class="absolute inset-0 w-full h-full object-cover">
-        
+            alt="<?= $destino['titulo'] ?>"
+            class="hero-bg absolute inset-0 w-full h-full object-cover">
         <!-- overlay -->
         <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/0 to-black/10"></div>
         <!-- <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10"></div> -->

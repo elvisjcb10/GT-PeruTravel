@@ -145,7 +145,7 @@ $base_url = "..";
         <section id="video" class="relative w-full h-[82vh] min-h-[650px] bg-black overflow-hidden">
 
             <!-- imagen de fondo -->
-            <img class="absolute top-0 left-0 w-full h-full object-cover"
+            <img class="hero-bg absolute top-0 left-0 w-full h-full object-cover"
                 src="<?= htmlspecialchars($base_url . '/' . $imgPath) ?>"
                 alt="<?= ($data['title']) ?>">
 

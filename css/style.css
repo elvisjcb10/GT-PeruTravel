@@ -537,3 +537,16 @@ pseudo-elemento TRIANGULO para seccion TOURS */
     width: 24px;
     border-radius: 9999px;
 }
+.hero-bg{
+    transform: scale(1.18) translateY(0);
+    animation: heroCinematic 12s ease-out forwards;
+}
+
+@keyframes heroCinematic{
+    from{
+        transform: scale(1.18) translateY(0);
+    }
+    to{
+        transform: scale(1) translateY(-15px);
+    }
+}

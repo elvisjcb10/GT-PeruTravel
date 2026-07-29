@@ -5,10 +5,12 @@
   "duration": "1 Day",
   "image_cover": "glaciares/quelccaya/hero.webp",
   "gallery": [
-    "quelccaya/quelccaya-fd/galeria1.webp",
-    "quelccaya/quelccaya-fd/galeria2.webp",
-    "quelccaya/quelccaya-fd/galeria3.webp",
-    "quelccaya/quelccaya-fd/galeria4.webp"
+   "glaciares/quelccaya/galeria1.webp",
+    "glaciares/quelccaya/galeria2.webp",
+    "glaciares/quelccaya/galeria3.webp",
+    "glaciares/quelccaya/galeria4.webp",
+    "glaciares/quelccaya/galeria5.webp",
+    "glaciares/quelccaya/galeria6.webp"
   ],
   "price": "0",
   "price_note": "Includes tourist transportation, breakfast and lunch in Phinaya, bilingual professional guide, entrance fees, oxygen kit, first aid kit, and trekking poles.",
