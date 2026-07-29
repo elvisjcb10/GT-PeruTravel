@@ -1,7 +1,7 @@
 {
     "cards": [
         {
-            "img": "/images/experiencias_unicas/principal.webp",
+            "img": "/images/tours/machupicchu-cover.webp",
             "duracion": "3Dias / 7Noches",
             "titulo": "Tour Machupicchu Clasico",
             "descripcion": "Escápate a Cusco y Machu Picchu. La historia inca, la magia de los Andes y la esencia cultural del Perú en un formato compacto.",
@@ -11,7 +11,7 @@
             "destacado": true
         },
         {
-            "img": "/images/experiencias_unicas/sec2.webp",
+            "img": "/images/tours/machupicchu-cover.jpg",
             "duracion": "3Dias / 7Noches",
             "titulo": "Tour Machupicchu",
             "descripcion": "Escápate a Cusco y Machu Picchu. La historia inca, la magia de los Andes y la esencia cultural del Perú en un formato compacto.",
@@ -21,7 +21,7 @@
             "destacado": false
         },
         {
-            "img": "/images/experiencias_unicas/sec2.webp",
+            "img": "/images/tours/laguna-humantay-card.jpg",
             "duracion": "3Dias / 7Noches",
             "titulo": "Tour Machupicchu",
             "descripcion": "Escápate a Cusco y Machu Picchu. La historia inca, la magia de los Andes y la esencia cultural del Perú en un formato compacto.",

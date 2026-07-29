@@ -149,19 +149,6 @@
   "video": "",
 
   "categories": {
-    "grupal": {
-      "titulo": "MACHU PICCHU CLÁSICO FULL DAY - SERVICIO GRUPAL",
-      "precio": "0",
-      "descripcion": "Servicio compartido con otros viajeros.",
-      "nota": "Incluye transporte, boletos de tren, buses, ingreso oficial y guía profesional",
-      "descuento": 0
-    },
-    "privado": {
-      "titulo": "MACHU PICCHU CLÁSICO FULL DAY - SERVICIO PRIVADO",
-      "precio": "0",
-      "descripcion": "Servicio exclusivo solo para tu grupo.",
-      "nota": "Incluye transporte, boletos de tren, buses, ingreso oficial y guía profesional exclusivo",
-      "descuento": 0
-    }
+  
   }
 }

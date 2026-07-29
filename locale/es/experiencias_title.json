@@ -2,5 +2,11 @@
     "kicker": "Solo Con GT Peru Travel",
     "title_primary": "Experiencias",
     "title_secondary": "Únicas",
+    "description": "Vive momentos irrepetibles diseñados para conectar con la cultura, la naturaleza y la historia viva del Perú, con actividades pensadas para todo tipo de viajero.",
+    "stats": [
+        { "numero": "10+", "titulo": "Experiencias" },
+        { "numero": "5K+", "titulo": "Viajeros" },
+        { "numero": "4.9", "titulo": "Calificación" }
+    ],
     "ver_todos": "Ver Todos"
 }

@@ -80,19 +80,22 @@ require_once __DIR__ . "/config/environment.php";
     fin enlaces 
     ------------------>
 
-    <!-- banner infp    -->
-    <section id="banner-promotions" class="bg-[#2b2b2b]  text-white text-sm font-poppins">
-        <div class="container-custom  ">
-            <div class="flex flex-col md:flex-row items-center justify-between py-2 gap-3">
-                <!-- Left -->
-                <div class="flex items-center gap-6">
-                    
+    <!-- banner info    -->
+    <!-- banner info -->
+    <!-- banner info -->
+    <section id="banner-promotions" class="bg-[#2b2b2b] text-white text-sm font-poppins">
+        <div class="container-custom">
+            <div class="flex flex-col md:flex-row items-center justify-center md:justify-between py-2 gap-3">
+
+                <!-- Left: horario + telefono (oculto en mobile) -->
+                <div class="hidden md:flex items-center gap-6">
+
                     <p class="text-[#A0A0A0] text-[13px] flex items-center gap-2">
                         <?= get_icon('clock', 'w-4 h-4'); ?>
-                         <?= $header_text['banner_social']['horario'] ?>
+                        <?= $header_text['banner_social']['horario'] ?>
                     </p>
 
-                    <p class="text-[#A0A0A0] text-[13px] flex items-center gap-2" >
+                    <p class="text-[#A0A0A0] text-[13px] flex items-center gap-2">
                         <?= get_icon('phone', 'w-4 h-4'); ?>
                         <?= $header_text['banner_social']['telefono'] ?>
                     </p>
@@ -101,16 +104,16 @@ require_once __DIR__ . "/config/environment.php";
 
                 <div class="flex items-center gap-4">
 
-                    <!-- redes sociales -->
+                    <!-- redes sociales (siempre visibles) -->
                     <div class="flex items-center gap-4">
-                        
+
                         <a href="https://www.facebook.com/gtperutravel"
                         target="_blank"
                         class="relative group">
                             <span class="text-gray-400 group-hover:text-[#1877F2] transition duration-300">
                                 <?= get_icon('facebook', 'w-5 h-5'); ?>
                             </span>
-                            <span class="absolute top-full mt-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-black px-2 py-1 rounded text-xs whitespace-nowrap transition z-50">
+                            <span class="hidden md:block absolute top-full mt-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-black px-2 py-1 rounded text-xs whitespace-nowrap transition z-50">
                                 Facebook
                             </span>
                         </a>
@@ -121,7 +124,7 @@ require_once __DIR__ . "/config/environment.php";
                             <span class="text-gray-400 group-hover:text-pink-500 transition duration-300">
                                 <?= get_icon('instagram', 'w-5 h-5'); ?>
                             </span>
-                            <span class="absolute top-full mt-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-black px-2 py-1 rounded text-xs whitespace-nowrap transition z-50">
+                            <span class="hidden md:block absolute top-full mt-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-black px-2 py-1 rounded text-xs whitespace-nowrap transition z-50">
                                 Instagram
                             </span>
                         </a>
@@ -132,7 +135,7 @@ require_once __DIR__ . "/config/environment.php";
                             <span class="text-gray-400 group-hover:text-red-500 transition duration-300">
                                 <?= get_icon('youtube', 'w-5 h-5'); ?>
                             </span>
-                            <span class="absolute top-full mt-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-black px-2 py-1 rounded text-xs whitespace-nowrap transition z-50">
+                            <span class="hidden md:block absolute top-full mt-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-black px-2 py-1 rounded text-xs whitespace-nowrap transition z-50">
                                 YouTube
                             </span>
                         </a>
@@ -143,28 +146,28 @@ require_once __DIR__ . "/config/environment.php";
                             <span class="text-gray-400 group-hover:text-cyan-400 transition duration-300">
                                 <?= get_icon('tiktok', 'w-5 h-5'); ?>
                             </span>
-                            <span class="absolute top-full mt-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-black px-2 py-1 rounded text-xs whitespace-nowrap transition z-50">
+                            <span class="hidden md:block absolute top-full mt-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-black px-2 py-1 rounded text-xs whitespace-nowrap transition z-50">
                                 TikTok
                             </span>
                         </a>
 
                     </div>
 
-                    <!-- linea -->
-                    <div class="w-px h-5 bg-gray-600"></div>
+                    <!-- linea (visible tambien en mobile ahora, ya que hay idiomas al lado) -->
+                    <div class="block w-px h-5 bg-gray-600"></div>
 
-                    <!-- idiomas -->
-                    <div class="hidden md:flex items-center gap-2">
+                    <!-- idiomas (ahora visibles en mobile tambien) -->
+                    <div class="flex items-center gap-2">
                         <a href="<?= cambiarIdioma('es') ?>" class="hover:scale-110 transition">
-                            <img src="<?= $base_url ?>/images/es.png" width="24" alt="Español">
+                            <img src="<?= $base_url ?>/images/es.png" width="20" class="md:w-6" alt="Español">
                         </a>
 
                         <a href="<?= cambiarIdioma('en') ?>" class="hover:scale-110 transition">
-                            <img src="<?= $base_url ?>/images/en.png" width="24" alt="English">
+                            <img src="<?= $base_url ?>/images/en.png" width="20" class="md:w-6" alt="English">
                         </a>
 
                         <a href="<?= cambiarIdioma('pt') ?>" class="hover:scale-110 transition">
-                            <img src="<?= $base_url ?>/images/pt.png" width="24" alt="Português">
+                            <img src="<?= $base_url ?>/images/pt.png" width="20" class="md:w-6" alt="Português">
                         </a>
                     </div>
 

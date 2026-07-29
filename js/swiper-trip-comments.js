@@ -5,7 +5,7 @@ new Swiper(".mySwiper", {
     spaceBetween: 20,
     loop: true,
     autoplay: {
-        delay: 3000
+        delay: 2000
     },
     pagination: {
         el: ".swiper-pagination",

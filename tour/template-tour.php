@@ -575,28 +575,52 @@ $base_url = "..";
                     <span class="text-orange-custom"><?= $trip_text['title_secondary'] ?? 'Nuestros Viajeros' ?></span>
                 </h2>
 
-                <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
-                    <?php foreach (array_slice($trip_text['slides'], 0, 3) as $slide): ?>
-                        <div class="bg-white border border-gray-200 rounded-2xl shadow-sm p-6 flex flex-col">
-                            <div class="flex gap-1 mb-4">
-                                <?php for ($i = 0; $i < 5; $i++): ?>
-                                    <i class="fa-solid fa-star text-orange-custom text-lg"></i>
-                                <?php endfor; ?>
-                            </div>
-                            <p class="text-gray-700 font-poppins text-sm leading-relaxed italic flex-1">
-                                "<?= $slide['texto'] ?>"
-                            </p>
-                            <div class="flex items-center justify-between mt-5 pt-4 border-t border-gray-100">
-                                <div>
-                                    <p class="text-orange-custom text-sm font-bold font-poppins">- <?= ucwords(strtolower($slide['nombre'])) ?></p>
-                                    <p class="text-gray-500 text-xs font-poppins"><?= $slide['fecha'] ?></p>
+                <div class="">
+                    <div class="swiper mySwiper relative">
+                        <div class="swiper-wrapper">
+
+                            <?php foreach ($trip_text['slides'] as $slide): ?>
+                                <div class="swiper-slide h-auto">
+                                    <a href="<?= $slide['review_url'] ?? 'https://www.tripadvisor.com/Attraction_Review-g294314-d19390237-Reviews-GT_PERU_TRAVEL-Cusco_Cusco_Region.html' ?>"
+                                    target="_blank" rel="noopener"
+                                    class="group block bg-white border border-gray-200 hover:border-[#00AF87] rounded-2xl shadow-sm hover:shadow-md p-5 sm:p-6 h-full flex flex-col transition-all duration-300">
+
+                                        <!-- ESTRELLAS + LOGO -->
+                                        <div class="flex justify-between items-center mb-2 sm:mb-3">
+                                            <div class="flex gap-1">
+                                                <?php for ($i = 0; $i < 5; $i++): ?>
+                                                    <i class="fa-solid fa-star text-orange-custom text-base sm:text-lg"></i>
+                                                <?php endfor; ?>
+                                            </div>
+                                            <img src="<?= $base_url ?>/images/tripadvisor/tripadvisor-logo.png" alt="Tripadvisor" class="h-6 w-6 sm:h-7 sm:w-7 opacity-70 group-hover:opacity-100 transition-opacity">
+                                        </div>
+
+                                        <!-- TESTIMONIO -->
+                                        <p class="text-gray-700 font-poppins text-xs sm:text-sm leading-relaxed italic flex-1">
+                                            "<?= $slide['texto'] ?>"
+                                        </p>
+
+                                        <!-- NOMBRE + FECHA + AVATAR -->
+                                        <div class="flex items-center justify-between mt-4 sm:mt-5 pt-3 sm:pt-4 border-t border-gray-100">
+                                            <div>
+                                                <p class="text-orange-custom text-xs sm:text-sm font-bold font-poppins">
+                                                    - <?= ucwords(strtolower($slide['nombre'])) ?>
+                                                </p>
+                                                <p class="text-gray-500 text-[0.65rem] sm:text-xs font-poppins">
+                                                    <?= $slide['fecha'] ?>
+                                                </p>
+                                            </div>
+                                            <img src="<?= $base_url ?>/images/testimonials/<?= $slide['img'] ?>"
+                                                alt="<?= $slide['nombre'] ?>"
+                                                class="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover border-2 border-orange-custom">
+                                        </div>
+
+                                    </a>
                                 </div>
-                                <img src="<?= $base_url ?>/images/testimonials/<?= $slide['img'] ?>"
-                                     alt="<?= $slide['nombre'] ?>"
-                                     class="w-12 h-12 rounded-full object-cover border-2 border-orange-custom">
-                            </div>
+                            <?php endforeach; ?>
+
                         </div>
-                    <?php endforeach; ?>
+                    </div>
                 </div>
             </div>
         </section>
