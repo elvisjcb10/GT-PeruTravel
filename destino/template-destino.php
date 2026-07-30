@@ -102,7 +102,7 @@ $hero_text = json_decode($hero, true);
     <!-- ******************** 
          HERO DEL DESTINO
      *********************** -->
-    <section class="relative w-full h-[82vh] min-h-[650px] bg-black overflow-hidden">
+    <section class="responsive-hero relative w-full h-[82vh] min-h-[650px] bg-black overflow-hidden">
 
         <img src="<?= $base_url . $destino['background'] ?>"
             alt="<?= $destino['titulo'] ?>"

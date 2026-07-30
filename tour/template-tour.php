@@ -142,7 +142,7 @@ $base_url = "..";
         $dificultad = get_caracteristica($data['caracteristicas'] ?? [], 'Dificultad') ?? '—';
         $altitud    = get_caracteristica($data['caracteristicas'] ?? [], 'Altitud Máxima') ?? '—';
         ?>
-        <section id="video" class="relative w-full h-[82vh] min-h-[650px] bg-black overflow-hidden">
+        <section id="video" class="tour-hero relative w-full h-[92vh] sm:h-[85vh] md:h-[82vh] min-h-[680px] sm:min-h-[650px] bg-black overflow-hidden">
 
             <!-- imagen de fondo -->
             <img class="hero-bg absolute top-0 left-0 w-full h-full object-cover"
@@ -150,66 +150,73 @@ $base_url = "..";
                 alt="<?= ($data['title']) ?>">
 
             <!-- overlays para legibilidad del texto -->
-             <!-- <div class="absolute inset-0 bg-gradient-to-r from-black/85 via-black/10 to-black/0"></div>
-            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10"></div>  -->
+            <div class="absolute inset-0 bg-gradient-to-r from-black/85 via-black/40 to-black/10"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10"></div>
 
             <!-- contenido principal -->
-            <div class="relative z-10 h-full flex items-center justify-center">
-                <div class="container-custom px-20 w-full">
+            <div class="tour-hero-content z-10 flex items-center justify-center">
+                <div class="container-custom px-5 sm:px-8 md:px-20 w-full">
                     <div class="max-w-2xl">
 
-                        <h1 class="text-white text-[2.6rem] sm:text-5xl md:text-6xl lg:text-[4.2rem] font-anton font-black leading-[1.05] drop-shadow-lg">
+                        <h1 class="tour-hero-title text-white text-[2.55rem] sm:text-4xl md:text-6xl lg:text-[4.2rem] font-anton font-black leading-[0.98] sm:leading-[1.1] drop-shadow-lg">
                             <?= ($data['title']) ?>
                         </h1>
 
-                        <p class="mt-6 text-white/90 text-base md:text-lg font-poppins font-light max-w-xl">
+                        <p class="tour-hero-description mt-4 sm:mt-6 text-white/90 text-sm sm:text-base md:text-lg leading-relaxed font-poppins font-light max-w-xl">
                             <?= htmlspecialchars($data['short_description']) ?>
                         </p>
+
+                        <!-- Reconocimientos integrados al contenido en móvil y tablet -->
+                        <div class="tour-hero-awards flex lg:hidden items-center gap-2 sm:gap-3 mt-5 sm:mt-6">
+                            <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-16 sm:h-20 w-auto">
+                            <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-16 sm:h-20 w-auto">
+                            <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-16 sm:h-20 w-auto">
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- logo tripadvisor -->
-            <div class="absolute z-10 bottom-24 md:bottom-28 right-4 md:right-10 flex justify-end">
-                <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
-                <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
-                <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
+            <!-- Reconocimientos en escritorio -->
+            <div class="hidden lg:flex absolute z-10 bottom-28 right-10 gap-2">
+                <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-28 w-auto">
+                <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-28 w-auto">
+                <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-28 w-auto">
             </div>
 
             <!-- barra de estadísticas del tour -->
-            <div class="absolute bottom-0 left-0 w-full z-10 bg-black/20 backdrop-blur-sm">
-                <div class="container-custom mx-auto py-5">
-                    <div class="flex flex-wrap justify-center gap-y-4 gap-x-20">
+            <div class="absolute bottom-0 left-0 w-full z-10 bg-black/30 sm:bg-black/20 backdrop-blur-sm">
+                <div class="container-custom mx-auto px-5 sm:px-6 py-4 sm:py-5">
+                    <div class="grid grid-cols-2 sm:flex sm:flex-wrap sm:justify-center gap-y-4 gap-x-5 sm:gap-x-10 md:gap-x-16 lg:gap-x-20">
 
-                        <div class="flex items-center gap-3">
-                            <i class="fa-solid fa-clock text-orange-custom text-2xl"></i>
-                            <div class="text-left flex flex-col gap-1">
-                                <p class="text-white text-2xl font-anton leading-none"><?= htmlspecialchars($data['duration']) ?></p>
-                                <p class="text-white/70 text-xs font-poppins uppercase tracking-wide"><?= $global['duracion'] ?? 'Duración' ?></p>
+                        <div class="flex items-center gap-2.5 sm:gap-3 justify-start">
+                            <i class="fa-solid fa-clock text-orange-custom text-lg sm:text-2xl w-5 shrink-0 text-center"></i>
+                            <div class="text-left flex flex-col gap-0.5 sm:gap-1">
+                                <p class="text-white text-[0.95rem] sm:text-2xl font-anton leading-none"><?= htmlspecialchars($data['duration']) ?></p>
+                                <p class="text-white/70 text-[0.6rem] sm:text-xs font-poppins uppercase tracking-wide"><?= $global['duracion'] ?? 'Duración' ?></p>
                             </div>
                         </div>
 
-                        <div class="flex items-center gap-3">
-                            <i class="fa-solid fa-person-hiking text-orange-custom text-2xl"></i>
-                            <div class="text-left flex flex-col gap-1">
-                                <p class="text-white text-2xl font-anton leading-none"><?= htmlspecialchars($dificultad) ?></p>
-                                <p class="text-white/70 text-xs font-poppins uppercase tracking-wide"><?= $global['dificultad'] ?? 'Dificultad' ?></p>
+                        <div class="flex items-center gap-2.5 sm:gap-3 justify-start">
+                            <i class="fa-solid fa-person-hiking text-orange-custom text-lg sm:text-2xl w-5 shrink-0 text-center"></i>
+                            <div class="text-left flex flex-col gap-0.5 sm:gap-1">
+                                <p class="text-white text-[0.95rem] sm:text-2xl font-anton leading-none"><?= htmlspecialchars($dificultad) ?></p>
+                                <p class="text-white/70 text-[0.6rem] sm:text-xs font-poppins uppercase tracking-wide"><?= $global['dificultad'] ?? 'Dificultad' ?></p>
                             </div>
                         </div>
 
-                        <div class="flex items-center gap-3">
-                            <i class="fa-solid fa-mountain text-orange-custom text-2xl"></i>
-                            <div class="text-left flex flex-col gap-1">
-                                <p class="text-white text-2xl font-anton leading-none"><?= htmlspecialchars($altitud) ?></p>
-                                <p class="text-white/70 text-xs font-poppins uppercase tracking-wide"><?= $global['altitud_maxima'] ?? 'Altitud Máxima' ?></p>
+                        <div class="flex items-center gap-2.5 sm:gap-3 justify-start">
+                            <i class="fa-solid fa-mountain text-orange-custom text-lg sm:text-2xl w-5 shrink-0 text-center"></i>
+                            <div class="text-left flex flex-col gap-0.5 sm:gap-1">
+                                <p class="text-white text-[0.95rem] sm:text-2xl font-anton leading-none"><?= htmlspecialchars($altitud) ?></p>
+                                <p class="text-white/70 text-[0.6rem] sm:text-xs font-poppins uppercase tracking-wide"><?= $global['altitud_maxima'] ?? 'Altitud Máxima' ?></p>
                             </div>
                         </div>
 
-                        <div class="flex items-center gap-3">
-                            <i class="fa-solid fa-people-group text-orange-custom text-2xl"></i>
-                            <div class="text-left flex flex-col gap-1">
-                                <p class="text-white text-2xl font-anton leading-none">Grupal / Privado</p>
-                                <p class="text-white/70 text-xs font-poppins uppercase tracking-wide"><?= $global['tipo_servicio'] ?? 'Tipo De Servicio' ?></p>
+                        <div class="flex items-center gap-2.5 sm:gap-3 justify-start">
+                            <i class="fa-solid fa-people-group text-orange-custom text-lg sm:text-2xl w-5 shrink-0 text-center"></i>
+                            <div class="text-left flex flex-col gap-0.5 sm:gap-1">
+                                <p class="text-white text-[0.95rem] sm:text-2xl font-anton leading-none">Grupal / Privado</p>
+                                <p class="text-white/70 text-[0.6rem] sm:text-xs font-poppins uppercase tracking-wide"><?= $global['tipo_servicio'] ?? 'Tipo De Servicio' ?></p>
                             </div>
                         </div>
 
@@ -221,50 +228,55 @@ $base_url = "..";
         <!-- ******************** 
              CONTENIDO: TABS + SIDEBAR
          *********************** -->
-        <section class="container-custom mx-auto px-4 md:px-20 py-14">
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+        <section class="tour-detail-section container-custom mx-auto px-4 md:px-20 py-10 sm:py-12 lg:py-16">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-12">
 
                 <!-- COLUMNA IZQUIERDA: CONTENIDO CON TABS -->
                 <div class="lg:col-span-2">
 
-                    <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
-                        <?= $global['sobre_el_paquete'] ?? 'Sobre El Paquete' ?>
-                    </p>
+                    <header class="tour-intro mb-8 sm:mb-10">
+                        <div class="tour-intro-kicker flex items-center gap-3 mb-3 sm:mb-4">
+                            <span class="block w-8 sm:w-10 h-[3px] rounded-full bg-[#ff9300]" aria-hidden="true"></span>
+                            <p class="text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-[0.12em]">
+                                <?= $global['sobre_el_paquete'] ?? 'Sobre El Paquete' ?>
+                            </p>
+                        </div>
 
-                    <h2 class="text-3xl md:text-4xl font-anton mb-4 leading-tight text-gray-900">
-                        <?= ($data['title']) ?>
-                    </h2>
+                        <h2 class="tour-intro-title font-anton text-gray-900">
+                            <?= ($data['title']) ?>
+                        </h2>
 
-                    <p class="text-gray-600 font-poppins font-light text-base mb-8">
-                        <?= $data['long_description'] ?>
-                    </p>
+                        <div class="tour-intro-description text-gray-600 font-poppins font-light">
+                            <?= $data['long_description'] ?>
+                        </div>
+                    </header>
 
                     <!-- TABS -->
-                    <div class="flex flex-wrap gap-2 mb-8">
-                        <button type="button" class="tab-tour-btn active px-5 py-2 rounded-full text-sm font-bold font-poppins bg-orange-custom text-white transition" data-tab="itinerario">
+                    <div class="tour-tabs-nav flex flex-nowrap lg:flex-wrap gap-2 mb-8 overflow-x-auto" role="tablist" aria-label="<?= $global['sobre_el_paquete'] ?? 'Información del tour' ?>">
+                        <button type="button" id="tab-itinerario" role="tab" aria-controls="panel-itinerario" aria-selected="true" class="tab-tour-btn active px-5 py-2 rounded-full text-sm font-bold font-poppins bg-orange-custom text-white transition" data-tab="itinerario">
                             <?= $global['itinerario'] ?? 'Itinerario' ?>
                         </button>
-                        <button type="button" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="incluye">
+                        <button type="button" id="tab-incluye" role="tab" aria-controls="panel-incluye" aria-selected="false" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="incluye">
                             <?= $global['incluye'] ?? 'Incluye' ?>
                         </button>
-                        <button type="button" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="mapa">
+                        <button type="button" id="tab-mapa" role="tab" aria-controls="panel-mapa" aria-selected="false" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="mapa">
                             <?= $global['mapa'] ?? 'Mapa' ?>
                         </button>
-                        <button type="button" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="galeria">
+                        <button type="button" id="tab-galeria" role="tab" aria-controls="panel-galeria" aria-selected="false" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="galeria">
                             <?= $global['galeria'] ?? 'Galeria' ?>
                         </button>
-                        <button type="button" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="recomendaciones">
+                        <button type="button" id="tab-recomendaciones" role="tab" aria-controls="panel-recomendaciones" aria-selected="false" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="recomendaciones">
                             <?= $global['recomendaciones'] ?? 'Recomendaciones' ?>
                         </button>
-                        <button type="button" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="precio">
+                        <button type="button" id="tab-precio" role="tab" aria-controls="panel-precio" aria-selected="false" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="precio">
                             <?= $global['precio'] ?? 'Precio' ?>
                         </button>
                     </div>
 
                     <!-- ============ TAB: ITINERARIO ============ -->
                     <!-- ============ TAB: ITINERARIO ============ -->
-                    <div class="tab-tour-content" data-tab-content="itinerario">
-                        <p class="text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                    <div id="panel-itinerario" class="tab-tour-content" role="tabpanel" aria-labelledby="tab-itinerario" data-tab-content="itinerario">
+                        <p class="section-kicker text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
                             <?= $global['dia_a_dia'] ?? 'Dia A Dia' ?>
                         </p>
                         <h3 class="text-2xl md:text-3xl font-anton mb-8">
@@ -275,7 +287,7 @@ $base_url = "..";
                         <?php if (!empty($data['days'])): ?>
                             <ul class="relative">
                                 <?php foreach ($data['days'] as $index => $day): ?>
-                                    <li class="itinerario-item relative hover:bg-gray-50 transition pl-12 pr-2 rounded-lg">
+                                    <li class="itinerario-item relative hover:bg-gray-50 transition pl-10 sm:pl-12 pr-1 sm:pr-2 rounded-lg">
 
                                         <!-- Línea conectora vertical -->
                                         <?php if ($index < count($data['days']) - 1): ?>
@@ -332,8 +344,8 @@ $base_url = "..";
                     </div>
 
                     <!-- ============ TAB: INCLUYE ============ -->
-                    <div class="tab-tour-content hidden" data-tab-content="incluye">
-                        <p class="text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                    <div id="panel-incluye" class="tab-tour-content hidden" role="tabpanel" aria-labelledby="tab-incluye" data-tab-content="incluye">
+                        <p class="section-kicker text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
                             <?= $global['preguntas'] ?? 'Preguntas' ?>
                         </p>
                         <h3 class="text-2xl md:text-3xl font-anton mb-6">
@@ -342,7 +354,7 @@ $base_url = "..";
                         </h3>
 
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                            <div class="bg-[#2a2a2a] rounded-xl p-6">
+                            <div class="tour-info-card bg-[#2a2a2a] rounded-xl p-5 sm:p-6">
                                 <h4 class="text-[#34e0a1] font-bold font-poppins uppercase mb-4">
                                     <?= $global['incluye'] ?? 'Incluye' ?>
                                 </h4>
@@ -356,7 +368,7 @@ $base_url = "..";
                                 </ul>
                             </div>
 
-                            <div class="bg-white border border-gray-200 rounded-xl p-6">
+                            <div class="tour-info-card bg-white border border-gray-200 rounded-xl p-5 sm:p-6">
                                 <h4 class="text-red-500 font-bold font-poppins uppercase mb-4">
                                     <?= $global['no_incluye'] ?? 'No Incluye' ?>
                                 </h4>
@@ -373,8 +385,8 @@ $base_url = "..";
                     </div>
 
                     <!-- ============ TAB: MAPA / RUTA ============ -->
-                    <div class="tab-tour-content hidden" data-tab-content="mapa">
-                        <p class="text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                    <div id="panel-mapa" class="tab-tour-content hidden" role="tabpanel" aria-labelledby="tab-mapa" data-tab-content="mapa">
+                        <p class="section-kicker text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
                             <?= $global['preguntas'] ?? 'Preguntas' ?>
                         </p>
                         <h3 class="text-2xl md:text-3xl font-anton mb-6">
@@ -395,8 +407,8 @@ $base_url = "..";
 
                     <!-- ============ TAB: GALERIA ============ -->
                     <!-- ============ TAB: GALERIA ============ -->
-                    <div class="tab-tour-content hidden" data-tab-content="galeria">
-                        <p class="text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                    <div id="panel-galeria" class="tab-tour-content hidden" role="tabpanel" aria-labelledby="tab-galeria" data-tab-content="galeria">
+                        <p class="section-kicker text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
                             <?= $global['explora_peru'] ?? 'Explora Peru' ?>
                         </p>
                         <h3 class="text-2xl md:text-3xl font-anton mb-6">
@@ -404,10 +416,10 @@ $base_url = "..";
                             <span class="text-orange-custom"><?= $global['fotos'] ?? 'Fotos' ?></span>
                         </h3>
 
-                        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                        <div class="tour-gallery-grid grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4">
                             <?php foreach (($data['gallery'] ?? []) as $index => $img): ?>
                                 <button type="button"
-                                        class="gallery-item rounded-xl overflow-hidden h-40 sm:h-48 group cursor-pointer"
+                                        class="gallery-item rounded-xl overflow-hidden aspect-[4/3] group cursor-pointer"
                                         data-index="<?= $index ?>">
                                     <img src="<?= $base_url ?>/images/tours/<?= htmlspecialchars($img) ?>"
                                         alt="<?= htmlspecialchars($data['title']) ?>"
@@ -418,8 +430,8 @@ $base_url = "..";
                     </div>
 
                     <!-- ============ TAB: RECOMENDACIONES ============ -->
-                    <div class="tab-tour-content hidden" data-tab-content="recomendaciones">
-                        <p class="text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                    <div id="panel-recomendaciones" class="tab-tour-content hidden" role="tabpanel" aria-labelledby="tab-recomendaciones" data-tab-content="recomendaciones">
+                        <p class="section-kicker text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
                             <?= $global['recomendaciones'] ?? 'Recomendaciones' ?>
                         </p>
                         <h3 class="text-2xl md:text-3xl font-anton mb-6 text-gray-900">
@@ -428,7 +440,7 @@ $base_url = "..";
 
                         <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
                             <?php foreach (($data['recommendations'] ?? []) as $rec): ?>
-                                <div class="text-center">
+                                <div class="tour-recommendation-card text-center">
                                     <div class="bg-gray-100 rounded-lg h-24 flex items-center justify-center overflow-hidden mb-2">
                                         <img src="<?= $base_url ?>/images/<?= htmlspecialchars($rec['img']) ?>"
                                              alt="<?= htmlspecialchars($rec['nombre']) ?>"
@@ -441,8 +453,8 @@ $base_url = "..";
                     </div>
 
                     <!-- ============ TAB: PRECIO (usa tus categorías existentes) ============ -->
-                    <div class="tab-tour-content hidden" data-tab-content="precio">
-                        <p class="text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                    <div id="panel-precio" class="tab-tour-content hidden" role="tabpanel" aria-labelledby="tab-precio" data-tab-content="precio">
+                        <p class="section-kicker text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
                             <?= $global['precio'] ?? 'Precio' ?>
                         </p>
                         <h3 class="text-2xl md:text-3xl font-anton mb-6 text-gray-900">
@@ -451,7 +463,7 @@ $base_url = "..";
 
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <?php foreach (($data['categories'] ?? []) as $key => $cat): ?>
-                                <div class="border border-gray-200 rounded-xl p-5">
+                                <div class="tour-price-card border border-gray-200 rounded-xl p-5">
                                     <h4 class="font-bold font-poppins text-gray-900 mb-1"><?= htmlspecialchars($cat['titulo']) ?></h4>
                                     <p class="text-gray-500 text-sm font-poppins mb-3"><?= htmlspecialchars($cat['descripcion']) ?></p>
                                     <span class="text-2xl font-bold text-orange-custom">$<?= htmlspecialchars($cat['precio']) ?></span>
@@ -464,7 +476,7 @@ $base_url = "..";
                     <!-- ============ FAQ (fija, debajo de las tabs) ============ -->
                     <?php if (!empty($data['faq'])): ?>
                     <div class="mt-14">
-                        <p class="text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                        <p class="section-kicker text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
                             <?= $global['preguntas'] ?? 'Preguntas' ?>
                         </p>
                         <h3 class="text-2xl md:text-3xl font-anton mb-6">
@@ -567,7 +579,7 @@ $base_url = "..";
         <?php if ($trip_text): ?>
         <section class="bg-white py-14">
             <div class="container-custom mx-auto px-20">
-                <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
+                <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                     <?= $trip_text['kicker'] ?? 'Preguntas' ?>
                 </p>
                 <h2 class="text-3xl md:text-4xl font-anton leading-tight mb-8">
@@ -632,7 +644,7 @@ $base_url = "..";
         <section class="bg-white py-14">
             <div class="container-custom mx-auto px-20">
 
-                <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
+                <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                     <?= $global['explora_peru'] ?? 'Explora Peru' ?>
                 </p>
 

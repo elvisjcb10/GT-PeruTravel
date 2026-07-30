@@ -66,7 +66,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
         <!-- ******************** 
              HERO CONTACTO
          *********************** -->
-        <section class="relative w-full h-[75vh] min-h-[550px] bg-black overflow-hidden">
+        <section class="responsive-hero relative w-full h-[75vh] min-h-[550px] bg-black overflow-hidden">
 
             <img src="<?= $base_url . $contacto['hero']['background'] ?>"
                  alt="<?= htmlspecialchars($contacto['hero']['title_primary'] . ' ' . $contacto['hero']['title_secondary']) ?>"
@@ -110,7 +110,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
 
                     <!-- COLUMNA IZQUIERDA: FORMULARIO -->
                     <div>
-                        <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
+                        <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                             <?= $contacto['formulario']['kicker'] ?>
                         </p>
 
@@ -210,7 +210,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
                     <!-- COLUMNA DERECHA: INFO DE CONTACTO -->
                     <div class="bg-[#faf9f7] rounded-2xl p-6 md:p-8">
 
-                        <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-6">
+                        <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-6">
                             <?= $contacto['info_contacto']['kicker'] ?>
                         </p>
 
@@ -349,7 +349,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
         <section class="bg-white py-14">
             <div class="container-custom mx-auto px-4 md:px-20">
 
-                <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
+                <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                     <?= $contacto['faq']['kicker'] ?>
                 </p>
 

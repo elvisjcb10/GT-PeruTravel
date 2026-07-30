@@ -238,7 +238,7 @@ require_once __DIR__ . "/config/environment.php";
                         <?= $header_text['banner_social']['extra_links']['impacto'] ?>
                     </a>
 
-                    <button id="menu-btn-mobile" aria-label="Abrir menú"
+                    <button id="menu-btn-mobile" type="button" aria-label="Abrir menú"
                             class="text-gray-800 p-2">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
@@ -1037,7 +1037,7 @@ require_once __DIR__ . "/config/environment.php";
         <!-- Header del panel -->
         <div class="flex items-center justify-between p-4 border-b border-gray-200 sticky top-0 bg-white z-10">
             <img src="<?= $base_url ?>/images/gt-peru-travel.png" alt="GT Peru Travel" class="w-24">
-            <button id="menu-close-btn" aria-label="Cerrar menú" class="text-gray-600 p-2">
+            <button id="menu-close-btn" type="button" aria-label="Cerrar menú" class="text-gray-600 p-2">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
                 </svg>

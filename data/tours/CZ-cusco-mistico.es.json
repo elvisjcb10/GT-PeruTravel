@@ -1,0 +1,141 @@
+{
+  "title": "Tour Místico en Cusco Full Day",
+  "short_description": "Explora la Morada de los Dioses, el Valle de los Duendes, el Humedal de Huasao y el Parque de los Ents en un recorrido alternativo lleno de arte, escultura monumental y naturaleza.",
+  "long_description": "El Tour Místico en Cusco – Full Day es una experiencia que combina arte, naturaleza y tradiciones andinas a través de un recorrido por algunos de los lugares más singulares de los alrededores de la ciudad. Este programa invita a descubrir espacios que reflejan la riqueza cultural del Cusco desde una perspectiva diferente, ideal para quienes buscan salir de las rutas turísticas convencionales.<br><br>Durante el recorrido visitarás la Morada de los Dioses (Apukunaq Tianan), un impresionante conjunto de esculturas monumentales talladas en roca que representan deidades y personajes de la cosmovisión andina. La experiencia continúa en el Valle de los Duendes, un lugar rodeado de paisajes naturales, para luego dirigirse al Humedal de Huasao y al Parque de los Ents, dos espacios que combinan naturaleza, arte y recreación en un entorno tranquilo.<br><br>Acompañado por un guía profesional, conocerás la historia y el significado de cada lugar mientras disfrutas de un recorrido diseñado para conectar con la esencia cultural y natural de Cusco.",
+  "duration": "1 Día",
+  "image_cover": "mistico/mistico-fd/hero.webp",
+  "gallery": [
+    "mistico/mistico-fd/galeria1.webp",
+    "mistico/mistico-fd/galeria2.webp",
+    "mistico/mistico-fd/galeria3.webp",
+    "mistico/mistico-fd/galeria4.webp"
+  ],
+  "price": "0",
+  "price_note": "Incluye transporte turístico, guía profesional bilingüe, almuerzo en restaurante local, botiquín de primeros auxilios y oxígeno portátil.",
+
+  "seo_title": "Tour Místico en Cusco Full Day - Morada de los Dioses y Huasao | GT Peru Travel",
+  "seo_description": "Descubre el Tour Místico en Cusco: Apukunaq Tianan, Valle de los Duendes, Humedal de Huasao y Parque de los Ents. Una ruta cultural y natural alternativa.",
+  "seo_keywords": "tour mistico cusco, morada de los dioses, apukunaq tianan, valle de los duendes, humedal de huasao, parque de los ents, turismo alternativo cusco, gt peru travel",
+
+  "resumen": {
+    "ubicacion": "Alrededores del Valle Sur y Cusco, Región Cusco",
+    "lugar_recojo": "Hoteles ubicados en el Centro Histórico de Cusco o punto coordinado",
+    "lugar_finalizacion": "Centro Histórico de Cusco",
+    "idiomas": ["Español", "Inglés", "Portugués"],
+    "transporte": ["Transporte turístico durante todo el recorrido"],
+    "alimentacion": "Almuerzo en restaurante local (según programa contratado)",
+    "alojamiento": "No incluye",
+    "altitud": "3,950 m s. n. m."
+  },
+
+  "caracteristicas": [
+    { "icono": "fa-person-hiking", "label": "Dificultad", "valor": "Fácil" },
+    { "icono": "fa-clock", "label": "Duración", "valor": "Full Day" },
+    { "icono": "fa-people-group", "label": "Servicio", "valor": "Privado" },
+    { "icono": "fa-mountain", "label": "Altitud Máxima", "valor": "3,950 msnm" }
+  ],
+
+  "actividades": [
+    "Recorrido por las esculturas gigantestas de la Morada de los Dioses (Apukunaq Tianan)",
+    "Paseo por las formaciones del Valle de los Duendes",
+    "Observación de flora y fauna en el Humedal de Huasao",
+    "Visita temática al Parque de los Ents",
+    "Fotografía artística y de paisaje en entornos naturales"
+  ],
+
+  "days": [
+    {
+      "title": "Día 1: Morada de los Dioses – Valle de los Duendes – Humedal de Huasao – Parque de los Ents",
+      "lugar": "Cusco → Apukunaq Tianan → Huasao → Cusco",
+      "text": "El tour comienza con el recojo desde su hotel o desde el punto de encuentro previamente coordinado en la ciudad del Cusco. Nuestra primera visita será a la Morada de los Dioses (Apukunaq Tianan), un espacio artístico donde enormes esculturas talladas en roca representan personajes y deidades de la cosmovisión andina. Durante el recorrido, el guía compartirá información sobre el significado de estas obras y dispondrás de tiempo para recorrer el lugar y tomar fotografías.<br><br>Continuaremos hacia el Valle de los Duendes, un atractivo rodeado de naturaleza que destaca por sus formaciones y el ambiente tranquilo que lo caracteriza. Después de la visita nos dirigiremos a un restaurante local para disfrutar del almuerzo y continuar con el recorrido.<br><br>Por la tarde visitaremos el Humedal de Huasao, un ecosistema natural reconocido por su biodiversidad y por ser un importante refugio para diversas especies de flora y fauna. Finalmente, conoceremos el Parque de los Ents, un espacio temático inspirado en personajes fantásticos, donde arte y naturaleza se integran en un entorno ideal para recorrer, relajarse y capturar fotografías.<br><br>Al finalizar las actividades emprenderemos el retorno a la ciudad del Cusco, concluyendo esta experiencia con la llegada al Centro Histórico en horas de la tarde."
+    }
+  ],
+
+  "includes": [
+    "Recojo desde hoteles ubicados en el Centro Histórico de Cusco o punto coordinado",
+    "Transporte turístico durante todo el recorrido",
+    "Guía profesional en español o inglés (portugués previa solicitud)",
+    "Almuerzo en restaurante local (según el programa contratado)",
+    "Botiquín básico de primeros auxilios",
+    "Oxígeno portátil para atención preventiva",
+    "Asistencia permanente durante toda la experiencia"
+  ],
+
+  "not_includes": [
+    "Boletos de ingreso a los atractivos turísticos visitados",
+    "Bebidas y alimentación no especificada en el programa",
+    "Gastos personales",
+    "Propinas",
+    "Seguro de viaje",
+    "Servicios no mencionados expresamente en el programa"
+  ],
+
+  "recommendations": [
+    { "img": "pasaporte.webp", "nombre": "Documento de identidad o pasaporte original" },
+    { "img": "casaca-ligera.webp", "nombre": "Ropa cómoda y casaca ligera o impermeable" },
+    { "img": "calzado-deportivo.webp", "nombre": "Calzado deportivo o de trekking ligero" },
+    { "img": "gorra.webp", "nombre": "Sombrero o gorra para el sol" },
+    { "img": "bloqueador.webp", "nombre": "Protector solar y gafas de sol" },
+    { "img": "botella-agua.webp", "nombre": "Botella de agua reutilizable" },
+    { "img": "camara.webp", "nombre": "Cámara fotográfica o teléfono móvil" },
+    { "img": "dinero-efectivo.webp", "nombre": "Dinero en efectivo para ingresos y compras" }
+  ],
+
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Se recomienda pasar al menos un día en Cusco para previa aclimatación",
+      "Usar ropa cómoda adecuada para caminatas cortas al aire libre",
+      "Mantener una hidratación constante durante todo el recorrido",
+      "Llevar suficiente batería en la cámara o teléfono para fotografiar las esculturas",
+      "Respetar la naturaleza y no dejar residuos en los destinos visitados"
+    ]
+  },
+
+  "faq": [
+    {
+      "pregunta": "¿El tour tiene un nivel de dificultad elevado?",
+      "respuesta": "No. El recorrido tiene un nivel de dificultad fácil, por lo que es apto para personas de diferentes edades que puedan realizar caminatas cortas y de baja exigencia."
+    },
+    {
+      "pregunta": "¿Los boletos de ingreso a los atractivos están incluidos?",
+      "respuesta": "No. Los ingresos a los diferentes atractivos turísticos se adquieren por separado en cada control y no forman parte del precio del tour, salvo que se especifique lo contrario."
+    },
+    {
+      "pregunta": "¿Qué ropa se recomienda llevar?",
+      "respuesta": "Se recomienda usar ropa cómoda, calzado deportivo o de trekking ligero, además de llevar una casaca para los cambios de temperatura, sombrero o gorra, protector solar y una botella de agua."
+    }
+  ],
+
+  "tours_relacionados": [
+    {
+      "title": "Tour Valle Sur Cusco",
+      "description": "Explora Tipón, Pikillacta y la Capilla Sixtina de América en Andahuaylillas.",
+      "price": "0",
+      "duracion": "Medio Día",
+      "image": "valle-sur/valle-sur-cover.jpg",
+      "url": "valle-sur-cusco"
+    },
+    {
+      "title": "City Tour Cusco",
+      "description": "Recorre Sacsayhuamán, Qenqo, Puka Pukara, Tambomachay y el Coricancha.",
+      "price": "0",
+      "duracion": "Medio Día",
+      "image": "city-tour/city-tour-cover.jpg",
+      "url": "city-tour-cusco"
+    }
+  ],
+
+  "brochure": "",
+  "map": "",
+  "video": "",
+
+  "categories": {
+    "privado": {
+      "titulo": "TOUR MÍSTICO EN CUSCO FULL DAY - SERVICIO PRIVADO",
+      "precio": "0",
+      "descripcion": "Servicio exclusivo solo para tu grupo (mínimo 2 personas).",
+      "nota": "Incluye transporte privado, guía bilingüe, almuerzo y kit preventivo de salud",
+      "descuento": 0
+    }
+  }
+}

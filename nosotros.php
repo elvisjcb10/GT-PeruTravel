@@ -64,7 +64,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
         <!-- ******************** 
              HERO
          *********************** -->
-        <section class="relative w-full h-[82vh] min-h-[650px] bg-black overflow-hidden">
+        <section class="responsive-hero relative w-full h-[82vh] min-h-[650px] bg-black overflow-hidden">
 
             <img src="<?= $base_url . $nosotros['hero']['background'] ?>"
                  alt="<?= htmlspecialchars($nosotros['hero']['title_primary'] . ' ' . $nosotros['hero']['title_highlight']) ?>"
@@ -140,7 +140,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
                 </div>
 
                 <div>
-                    <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
+                    <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                         <?= $nosotros['quienes_somos']['kicker'] ?>
                     </p>
                     <h2 class="text-3xl md:text-4xl font-anton mb-4 leading-tight">
@@ -175,7 +175,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
         <section class="bg-white py-16">
             <div class="container-custom mx-auto px-4 md:px-20 text-center">
 
-                <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['equipo']['kicker'] ?></p>
+                <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['equipo']['kicker'] ?></p>
                 <h2 class="text-3xl md:text-4xl font-anton mb-3">
                     <span class="text-gray-900"><?= $nosotros['equipo']['title_primary'] ?></span>
                     <span class="text-orange-custom"><?= $nosotros['equipo']['title_secondary'] ?></span>
@@ -206,7 +206,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
         <section class="bg-[#faf9f7] py-16">
             <div class="container-custom mx-auto px-4 md:px-20 text-center">
 
-                <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['ventajas']['kicker'] ?></p>
+                <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['ventajas']['kicker'] ?></p>
                 <h2 class="text-3xl md:text-4xl font-anton mb-3">
                     <span class="text-gray-900"><?= $nosotros['ventajas']['title_primary'] ?></span>
                     <span class="text-orange-custom"><?= $nosotros['ventajas']['title_secondary'] ?></span>
@@ -240,7 +240,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
             <div class="relative z-10 container-custom mx-auto px-4 md:px-20">
 
                 <div class="text-center mb-12">
-                    <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['historia']['kicker'] ?></p>
+                    <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['historia']['kicker'] ?></p>
                     <h2 class="text-3xl md:text-4xl font-anton mb-3">
                         <span class="text-white"><?= $nosotros['historia']['title_primary'] ?></span>
                         <span class="text-orange-custom"><?= $nosotros['historia']['title_highlight'] ?></span>
@@ -279,7 +279,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
         <section class="bg-white py-16">
             <div class="container-custom mx-auto px-4 md:px-20 text-center">
 
-                <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['mision_vision']['kicker'] ?></p>
+                <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['mision_vision']['kicker'] ?></p>
                 <h2 class="text-3xl md:text-4xl font-anton mb-3">
                     <span class="text-gray-900"><?= $nosotros['mision_vision']['title_primary'] ?></span>
                     <span class="text-orange-custom"><?= $nosotros['mision_vision']['title_highlight'] ?></span>
@@ -334,7 +334,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
 
             <div class="relative z-10 container-custom mx-auto px-4 md:px-20 text-center">
 
-                <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['certificaciones']['kicker'] ?></p>
+                <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['certificaciones']['kicker'] ?></p>
                 <h2 class="text-3xl md:text-4xl font-anton mb-3">
                     <span class="text-gray-900"><?= $nosotros['certificaciones']['title_primary'] ?></span>
                     <span class="text-orange-custom"><?= $nosotros['certificaciones']['title_secondary'] ?></span>

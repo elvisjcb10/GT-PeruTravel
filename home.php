@@ -116,7 +116,7 @@
 
             <!-- CONTENIDO -->
             <div class="reveal-right mt-8 md:mt-0">
-                <p class="text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
+                <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                     <?= $about_text['subtitle'] ?>
                 </p>
 
@@ -171,7 +171,7 @@
             <!-- Titulo -->
             <div class="container-custom mx-auto px-0">
 
-                <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
+                <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                     <?= $tours_text['kicker'] ?>
                 </p>
 
@@ -258,7 +258,7 @@
 
         <!-- Titulo (mismo estilo que "Nosotros") -->
         <div class="text-left mb-6 sm:mb-8 reveal">
-            <p class="text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
+            <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                 Explora Perú
             </p>
 
@@ -393,7 +393,7 @@
                 <!-- COLUMNA IZQUIERDA: TEXTO -->
                 <div class="reveal-left">
 
-                    <p class="text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2 sm:mb-3">
+                    <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2 sm:mb-3">
                         <?= $glaciares['kicker'] ?>
                     </p>
 
@@ -521,7 +521,7 @@
             <!-- TITULO + VER TODOS -->
             <div class="flex flex-wrap items-end justify-between gap-3 sm:gap-4 mb-6 sm:mb-8 reveal">
                 <div>
-                    <p class="text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
+                    <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                         <?= $popular_text['kicker'] ?>
                     </p>
 
@@ -661,7 +661,7 @@
                 <!-- COLUMNA IZQUIERDA: TEXTO -->
                 <div class="reveal-left">
 
-                    <p class="text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-3">
+                    <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-3">
                         <?= $experiencias_text['kicker'] ?>
                     </p>
 
@@ -793,7 +793,7 @@
         <div class="relative z-10 container-custom mx-auto px-5 sm:px-8">
             <div class="max-w-3xl mx-auto text-center reveal-zoom">
 
-                <p class="text-orange-custom text-xs sm:text-sm md:text-base font-bold font-poppins mb-3">
+                <p class="section-kicker section-kicker-center text-orange-custom text-xs sm:text-sm md:text-base font-bold font-poppins mb-3">
                     <?= $cta['kicker'] ?>
                 </p>
 
@@ -840,7 +840,7 @@
             <!-- TITULO + VER TODOS -->
             <div class="flex flex-wrap items-end justify-between gap-3 sm:gap-4 mb-8 sm:mb-10 reveal">
                 <div>
-                    <p class="text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
+                    <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                         <?= $trip_text['kicker'] ?>
                     </p>
 
@@ -960,7 +960,7 @@
             <!-- TITULO + VER TODOS -->
             <div class="flex flex-wrap items-end justify-between gap-3 sm:gap-4 mb-6 sm:mb-8 reveal">
                 <div>
-                    <p class="text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
+                    <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                         <?= $blog_text['kicker'] ?>
                     </p>
 
@@ -1048,7 +1048,7 @@
 
             <!-- TITULO CENTRADO -->
             <div class="text-center mb-10 reveal">
-                <p class="text-orange-custom text-sm md:text-base font-bold font-poppins mb-2">
+                <p class="section-kicker section-kicker-center text-orange-custom text-sm md:text-base font-bold font-poppins mb-2">
                     <?= $reconocimientos['kicker'] ?>
                 </p>
 

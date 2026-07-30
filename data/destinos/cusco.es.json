@@ -45,7 +45,24 @@
             "url": "CZ-pallay_punchu",
             "categoria": "caminata"
         },
-       
+       {
+            "title": "Tour Místico en Cusco",
+            "description": "Descubre la Morada de los Dioses, el Valle de los Duendes, el Humedal de Huasao y el Parque de los Ents en una ruta alternativa y cultural.",
+            "price": "0",
+            "duracion": "Full Day",
+            "image": "tours/cusco/mistico/card.webp",
+            "url": "CZ-cusco-mistico",
+            "categoria": "tradicionales"
+        },
+        {
+            "title": "City Tour Cusco",
+            "description": "Explora los tesoros del antiguo Imperio Inca: Qorikancha, Sacsayhuamán, Qenqo, Puka Pukara y Tambomachay.",
+            "price": "0",
+            "duracion": "Medio Día",
+            "image": "tours/cusco/city-tour/card.webp",
+            "url": "CZ-cusco-city",
+            "categoria": "tradicionales"
+        },
         {
             "title": "Valle Sagrado + Machu Picchu",
             "description": "Explora el Valle Sagrado de los Incas y culmina la experiencia en la majestuosa ciudadela de Machu Picchu.",
