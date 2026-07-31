@@ -1,0 +1,32 @@
+{
+    "cusco": {
+        "img": "/images/destinos/cusco/cusco.webp",
+        "nombre": "Cuzco",
+        "descripcion": "Umbigo do mundo em Cusco"
+    },
+    "lima": {
+        "img": "/images/destinos/lima/lima.webp",
+        "nombre": "Lima",
+        "descripcion": "capital gastronômica"
+    },
+    "puno": {
+        "img": "/images/destinos/puno/puno.webp",
+        "nombre": "punho",
+        "descripcion": "Lago Titicaca, a cidade dos ventos"
+    },
+    "arequipa": {
+        "img": "/images/destinos/arequipa/arequipa.webp",
+        "nombre": "Arequipa",
+        "descripcion": "Cidade Branca, a cidade dos vulcões"
+    },
+    "manu": {
+        "img": "/images/destinos/manu/manu.webp",
+        "nombre": "Manu Tambopata",
+        "descripcion": "Reserva da biosfera, floresta amazônica"
+    },
+    "huaraz": {
+        "img": "/images/destinos/huaraz/huaraz.webp",
+        "nombre": "Huaraz",
+        "descripcion": "Capital do trekking, cordilheira branca"
+    }
+}

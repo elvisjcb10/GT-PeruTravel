@@ -1,0 +1,53 @@
+{
+    "background": "/images/destinos/manu/hero.webp",
+    "badge": "Destination",
+    "titulo": "Tours in Manu Tambopata",
+    "descripcion": "Enter the Peruvian Amazon jungle, one of the biosphere reserves with the greatest biodiversity on the planet.",
+    "stats": [
+        {
+            "icono": "fa-mountain",
+            "numero": "15+",
+            "titulo": "Destinations"
+        },
+        {
+            "icono": "fa-people-group",
+            "numero": "4K+",
+            "titulo": "Travelers"
+        },
+        {
+            "icono": "fa-star",
+            "numero": "4.9",
+            "titulo": "Rating"
+        },
+        {
+            "icono": "fa-globe",
+            "numero": "10+",
+            "titulo": "Years of Exp."
+        }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.8",
+        "texto": "+90 Travelers"
+    },
+    "filtros": [],
+    "tours": [
+        {
+            "title": "Manu National Park 4D/3N",
+            "description": "Travel from the Andes to the Amazon: cloud forest, Alto Madre de Dios River, Machuwasi Lake and the parrot clay lick on a 4-day expedition.",
+            "price": "0",
+            "duracion": "4Days / 3Nights",
+            "image": "tours/manu/manu4d/card.webp",
+            "url": "MN-parque-nacional-manu-4d",
+            "categoria": "adventure"
+        },
+        {
+            "title": "Manu National Park 3D/2N",
+            "description": "Discover the extraordinary biodiversity of the Peruvian Amazon on a 3-day, 2-night expedition that connects the Andes with the rainforest.",
+            "price": "0",
+            "duracion": "3Days / 2Nights",
+            "image": "tours/manu/manu3d/card.webp",
+            "url": "MN-parque-nacional-manu-3d",
+            "categoria": "adventure"
+        }
+    ]
+}

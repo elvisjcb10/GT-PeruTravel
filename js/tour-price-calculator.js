@@ -7,6 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const btnMenos = document.getElementById("btnMenos");
     const categoryItems = document.querySelectorAll(".category-item");
 
+    if (!precioEl || !notaEl || !contadorEl || !btnMas || !btnMenos || !categoryItems.length) return;
+
     let categoria = "tour";
     let pasajeros = 1;
 

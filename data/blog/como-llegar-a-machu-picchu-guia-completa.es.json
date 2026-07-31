@@ -1,0 +1,157 @@
+{
+    "title": "Cómo llegar a Machu Picchu: guía completa",
+    "category": "Guía de viaje",
+    "excerpt": "Todas las rutas, costos, tiempos y recomendaciones para organizar tu llegada a la ciudadela inca.",
+    "hero_image": "images/inicio/hero.webp",
+    "date": "8 de junio de 2026",
+    "reading_time": "9 min de lectura",
+    "views": "4,832 vistas",
+    "author": {
+        "name": "Ricardo Condori",
+        "initials": "RC",
+        "role": "Guía certificado · 10 años de experiencia",
+        "bio": "Guía profesional con más de 10 años acompañando viajeros por los senderos de los Andes. Especialista en el Camino Inca y la historia del Imperio Inca.",
+        "location": "Cusco, Perú"
+    },
+    "intro": "Machu Picchu es el destino más icónico de Sudamérica. Pero llegar hasta allí no es tan sencillo como tomar un vuelo. En esta guía te explicamos todas las rutas posibles, sus costos, tiempos y cuál es la mejor opción según tu perfil de viajero.",
+    "facts": [
+        {
+            "label": "Altitud de Cusco",
+            "value": "3,399 m",
+            "note": "Aclimatación recomendada: 2 días"
+        },
+        {
+            "label": "Altitud Machu Picchu",
+            "value": "2,430 m",
+            "note": "Más accesible que Cusco"
+        },
+        {
+            "label": "Distancia Cusco – Aguas Calientes",
+            "value": "112 km",
+            "note": "En tren: 3 horas aproximadamente"
+        },
+        {
+            "label": "Precio entrada Machu Picchu",
+            "value": "$55 USD",
+            "note": "Adultos 2026 · Reserva anticipada"
+        }
+    ],
+    "sections": [
+        {
+            "id": "desde-donde",
+            "title": "¿Desde dónde se parte hacia Machu Picchu?",
+            "paragraphs": [
+                "Todo comienza en Cusco. Ya sea que llegues en avión desde Lima o en bus nocturno, Cusco es la puerta de entrada obligatoria a la ciudadela inca.",
+                "Desde aquí tienes tres grandes rutas para llegar a Machu Picchu, cada una con diferentes tiempos, niveles de aventura y presupuestos."
+            ]
+        },
+        {
+            "id": "rutas",
+            "title": "Las 3 rutas para llegar",
+            "paragraphs": [
+                "Estas son las alternativas más utilizadas por los viajeros. Conviene elegir según el tiempo disponible, tu condición física y el tipo de experiencia que buscas."
+            ],
+            "routes": [
+                {
+                    "title": "Tren desde Cusco u Ollantaytambo",
+                    "description": "La opción más popular y cómoda. Toma un tren desde Poroy u Ollantaytambo hasta Aguas Calientes y continúa en bus hacia la ciudadela.",
+                    "meta": "Duración total: 4–5 horas · Precio aproximado desde $45 USD"
+                },
+                {
+                    "title": "Camino Inca clásico (4 días)",
+                    "description": "La experiencia definitiva para los amantes del trekking. Recorre senderos ancestrales, ruinas incas, selva y pasos de montaña.",
+                    "meta": "Requiere permiso · Precio referencial desde $650 USD"
+                },
+                {
+                    "title": "Ruta económica: bus y tren local",
+                    "description": "Viaja por carretera hasta Santa Teresa, continúa hacia Hidroeléctrica y camina hasta Aguas Calientes.",
+                    "meta": "Duración: 8–10 horas · Alternativa de menor costo"
+                }
+            ],
+            "image": "images/inicio/hero.webp",
+            "image_caption": "Vista panorámica de Machu Picchu, uno de los destinos más extraordinarios del Perú."
+        },
+        {
+            "id": "mejor-momento",
+            "title": "¿Cuál es el mejor momento para visitar?",
+            "paragraphs": [
+                "La temporada seca, de mayo a octubre, ofrece cielos más despejados y lluvias mínimas. Es también la época con mayor demanda, por lo que debes reservar con anticipación.",
+                "La temporada de lluvias, entre noviembre y abril, tiene menos visitantes, precios más bajos y una vegetación exuberante. Las lluvias suelen presentarse por las tardes."
+            ],
+            "tip": {
+                "title": "Consejo del guía",
+                "text": "Compra tus entradas a Machu Picchu con al menos dos semanas de anticipación. En temporada alta, reserva con uno o dos meses de margen."
+            },
+            "quote": "Machu Picchu no es solo un destino, es una experiencia que te cambia. Cada piedra tiene una historia y las montañas que la rodean parecen guardianes eternos del tiempo."
+        },
+        {
+            "id": "consejos",
+            "title": "Consejos prácticos antes de ir",
+            "paragraphs": [
+                "Lleva ropa en capas: la temperatura puede variar considerablemente entre el amanecer y el mediodía. El protector solar, agua y un impermeable ligero son indispensables.",
+                "Lleva tu pasaporte original para el ingreso. No se aceptan fotocopias y el nombre debe coincidir con el de tu entrada."
+            ]
+        }
+    ],
+    "tags": [
+        "Machu Picchu",
+        "Cusco",
+        "Trekking",
+        "Camino Inca",
+        "Guía de viaje",
+        "Perú"
+    ],
+    "cta": {
+        "title": "¿Listo para ir a Machu Picchu?",
+        "text": "Nuestros guías locales organizan todo por ti: entradas, tren, hotel y asistencia.",
+        "button": "Ver paquetes disponibles",
+        "url": "/destino/template-destino.php?destino=paquete-peru&lang=es"
+    },
+    "related": [
+        {
+            "category": "Trekking",
+            "title": "Montaña de 7 Colores: guía completa",
+            "time": "7 min",
+            "image": "images/blog/2.webp"
+        },
+        {
+            "category": "Naturaleza",
+            "title": "Laguna Humantay: cómo prepararte",
+            "time": "5 min",
+            "image": "images/glaciares/principal.webp"
+        },
+        {
+            "category": "Gastronomía",
+            "title": "Sabores que debes conocer en Cusco",
+            "time": "6 min",
+            "image": "images/blog/3.webp"
+        }
+    ],
+    "more_articles": [
+        {
+            "category": "Glaciares",
+            "title": "Pastoruri: visita antes de que desaparezca",
+            "date": "1 Jun 2026",
+            "time": "6 min",
+            "image": "images/glaciares/quelccaya/card.jpeg"
+        },
+        {
+            "category": "Cultura",
+            "title": "Mercado de San Pedro: lo que ninguna guía te cuenta",
+            "date": "28 May 2026",
+            "time": "5 min",
+            "image": "images/blog/3.webp"
+        },
+        {
+            "category": "Transporte",
+            "title": "Vistadome vs Expedition: ¿qué tren elegir?",
+            "date": "20 May 2026",
+            "time": "4 min",
+            "image": "images/inicio/hero.webp"
+        }
+    ],
+    "seo": {
+        "title": "Cómo llegar a Machu Picchu: guía completa | GT Peru Travel",
+        "description": "Descubre cómo llegar a Machu Picchu desde Cusco: rutas en tren, Camino Inca, precios, tiempos y consejos de guías locales."
+    }
+}

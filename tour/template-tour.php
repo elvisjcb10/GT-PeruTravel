@@ -20,9 +20,16 @@ $idioma = $lang; // alias usado en otras partes del sitio
 $GLOBALS['lang'] = $lang;
 
 $allowed = ['es', 'en', 'pt'];
-if (!in_array($lang, $allowed)) {
+if (!in_array($lang, $allowed, true)) {
     $lang = 'es';
 }
+$idioma = $lang;
+$GLOBALS['lang'] = $lang;
+$template_ui = [
+    'es' => ['service' => 'Grupal / Privado', 'package' => 'Paquete', 'empty_itinerary' => 'No hay información de itinerario disponible.', 'from' => 'desde'],
+    'en' => ['service' => 'Group / Private', 'package' => 'Package', 'empty_itinerary' => 'No itinerary information is available.', 'from' => 'from'],
+    'pt' => ['service' => 'Grupo / Privado', 'package' => 'Pacote', 'empty_itinerary' => 'Não há informações de roteiro disponíveis.', 'from' => 'a partir de'],
+][$lang];
 
 $json_file = __DIR__ . "/../data/tours/{$tour}.{$lang}.json";
 
@@ -114,7 +121,7 @@ $base_url = "..";
 
 <body>
 
-    <?php include('../header.php') ?>
+    <?php include(__DIR__ . '/../header.php') ?>
 
     <main>
         <!-- ******************** 
@@ -215,7 +222,7 @@ $base_url = "..";
                         <div class="flex items-center gap-2.5 sm:gap-3 justify-start">
                             <i class="fa-solid fa-people-group text-orange-custom text-lg sm:text-2xl w-5 shrink-0 text-center"></i>
                             <div class="text-left flex flex-col gap-0.5 sm:gap-1">
-                                <p class="text-white text-[0.95rem] sm:text-2xl font-anton leading-none">Grupal / Privado</p>
+                                <p class="text-white text-[0.95rem] sm:text-2xl font-anton leading-none"><?= htmlspecialchars($template_ui['service']) ?></p>
                                 <p class="text-white/70 text-[0.6rem] sm:text-xs font-poppins uppercase tracking-wide"><?= $global['tipo_servicio'] ?? 'Tipo De Servicio' ?></p>
                             </div>
                         </div>
@@ -251,35 +258,47 @@ $base_url = "..";
                         </div>
                     </header>
 
-                    <!-- TABS -->
-                    <div class="tour-tabs-nav flex flex-nowrap lg:flex-wrap gap-2 mb-8 overflow-x-auto" role="tablist" aria-label="<?= $global['sobre_el_paquete'] ?? 'Información del tour' ?>">
-                        <button type="button" id="tab-itinerario" role="tab" aria-controls="panel-itinerario" aria-selected="true" class="tab-tour-btn active px-5 py-2 rounded-full text-sm font-bold font-poppins bg-orange-custom text-white transition" data-tab="itinerario">
-                            <?= $global['itinerario'] ?? 'Itinerario' ?>
-                        </button>
-                        <button type="button" id="tab-incluye" role="tab" aria-controls="panel-incluye" aria-selected="false" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="incluye">
-                            <?= $global['incluye'] ?? 'Incluye' ?>
-                        </button>
-                        <button type="button" id="tab-mapa" role="tab" aria-controls="panel-mapa" aria-selected="false" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="mapa">
-                            <?= $global['mapa'] ?? 'Mapa' ?>
-                        </button>
-                        <button type="button" id="tab-galeria" role="tab" aria-controls="panel-galeria" aria-selected="false" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="galeria">
-                            <?= $global['galeria'] ?? 'Galeria' ?>
-                        </button>
-                        <button type="button" id="tab-recomendaciones" role="tab" aria-controls="panel-recomendaciones" aria-selected="false" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="recomendaciones">
-                            <?= $global['recomendaciones'] ?? 'Recomendaciones' ?>
-                        </button>
-                        <button type="button" id="tab-precio" role="tab" aria-controls="panel-precio" aria-selected="false" class="tab-tour-btn px-5 py-2 rounded-full text-sm font-bold font-poppins bg-white text-gray-700 border border-gray-300 transition" data-tab="precio">
-                            <?= $global['precio'] ?? 'Precio' ?>
-                        </button>
-                    </div>
+                    <?php
+                    $mapa = trim((string) ($data['map'] ?? ''));
+                    $tiene_mapa = $mapa !== '' && file_exists(__DIR__ . '/../images/mapas/' . $mapa);
 
+                    $tabs_tour = array_filter([
+                        'itinerario' => !empty($data['days']) ? ($global['itinerario'] ?? 'Itinerario') : null,
+                        'incluye' => (!empty($data['includes']) || !empty($data['not_includes'])) ? ($global['incluye'] ?? 'Incluye') : null,
+                        'mapa' => $tiene_mapa ? ($global['mapa'] ?? 'Mapa') : null,
+                        'galeria' => !empty($data['gallery']) ? ($global['galeria'] ?? 'Galeria') : null,
+                        'recomendaciones' => !empty($data['recommendations']) ? ($global['recomendaciones'] ?? 'Recomendaciones') : null,
+                        'precio' => !empty($data['categories']) ? ($global['precio'] ?? 'Precio') : null,
+                    ]);
+                    $primer_tab = array_key_first($tabs_tour);
+                    ?>
+
+                    <!-- TABS -->
+                    <?php if (!empty($tabs_tour)): ?>
+                    <div class="tour-tabs-nav flex flex-nowrap lg:flex-wrap gap-2 mb-8 overflow-x-auto" role="tablist" aria-label="<?= $global['sobre_el_paquete'] ?? 'Información del tour' ?>">
+                        <?php foreach ($tabs_tour as $tab_id => $tab_label): ?>
+                            <?php $es_primer_tab = $tab_id === $primer_tab; ?>
+                            <button type="button"
+                                id="tab-<?= $tab_id ?>"
+                                role="tab"
+                                aria-controls="panel-<?= $tab_id ?>"
+                                aria-selected="<?= $es_primer_tab ? 'true' : 'false' ?>"
+                                tabindex="<?= $es_primer_tab ? '0' : '-1' ?>"
+                                class="tab-tour-btn <?= $es_primer_tab ? 'active bg-orange-custom text-white' : 'bg-white text-gray-700 border border-gray-300' ?> px-5 py-2 rounded-full text-sm font-bold font-poppins transition"
+                                data-tab="<?= $tab_id ?>">
+                                <?= htmlspecialchars($tab_label) ?>
+                            </button>
+                        <?php endforeach; ?>
+                    </div>
+                    <?php endif; ?>
                     <!-- ============ TAB: ITINERARIO ============ -->
                     <!-- ============ TAB: ITINERARIO ============ -->
-                    <div id="panel-itinerario" class="tab-tour-content" role="tabpanel" aria-labelledby="tab-itinerario" data-tab-content="itinerario">
-                        <p class="section-kicker text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                    <?php if (isset($tabs_tour['itinerario'])): ?>
+                    <div id="panel-itinerario" class="tab-tour-content<?= $primer_tab === 'itinerario' ? '' : ' hidden' ?>" role="tabpanel" aria-labelledby="tab-itinerario" data-tab-content="itinerario">
+                        <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                             <?= $global['dia_a_dia'] ?? 'Dia A Dia' ?>
                         </p>
-                        <h3 class="text-2xl md:text-3xl font-anton mb-8">
+                        <h3 class="tour-section-title font-anton mb-8">
                             <span class="text-gray-900"><?= $global['itinerario_titulo'] ?? 'Itinerario' ?></span>
                             <span class="text-orange-custom"><?= $global['itinerario_subtitulo'] ?? 'Completo' ?></span>
                         </h3>
@@ -339,21 +358,25 @@ $base_url = "..";
                                 <?php endforeach; ?>
                             </ul>
                         <?php else: ?>
-                            <p class="text-gray-500">No hay información de itinerario disponible.</p>
+                            <p class="text-gray-500"><?= htmlspecialchars($template_ui['empty_itinerary']) ?></p>
                         <?php endif; ?>
                     </div>
 
+                    <?php endif; ?>
+
                     <!-- ============ TAB: INCLUYE ============ -->
-                    <div id="panel-incluye" class="tab-tour-content hidden" role="tabpanel" aria-labelledby="tab-incluye" data-tab-content="incluye">
-                        <p class="section-kicker text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                    <?php if (isset($tabs_tour['incluye'])): ?>
+                    <div id="panel-incluye" class="tab-tour-content<?= $primer_tab === 'incluye' ? '' : ' hidden' ?>" role="tabpanel" aria-labelledby="tab-incluye" data-tab-content="incluye">
+                        <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                             <?= $global['preguntas'] ?? 'Preguntas' ?>
                         </p>
-                        <h3 class="text-2xl md:text-3xl font-anton mb-6">
+                        <h3 class="tour-section-title font-anton mb-6">
                             <span class="text-gray-900"><?= $global['que'] ?? 'Que' ?></span>
                             <span class="text-orange-custom"><?= $global['incluye'] ?? 'Incluye' ?></span>
                         </h3>
 
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div class="grid grid-cols-1 <?= !empty($data['includes']) && !empty($data['not_includes']) ? 'sm:grid-cols-2' : '' ?> gap-6">
+                            <?php if (!empty($data['includes'])): ?>
                             <div class="tour-info-card bg-[#2a2a2a] rounded-xl p-5 sm:p-6">
                                 <h4 class="text-[#34e0a1] font-bold font-poppins uppercase mb-4">
                                     <?= $global['incluye'] ?? 'Incluye' ?>
@@ -368,6 +391,9 @@ $base_url = "..";
                                 </ul>
                             </div>
 
+                            <?php endif; ?>
+
+                            <?php if (!empty($data['not_includes'])): ?>
                             <div class="tour-info-card bg-white border border-gray-200 rounded-xl p-5 sm:p-6">
                                 <h4 class="text-red-500 font-bold font-poppins uppercase mb-4">
                                     <?= $global['no_incluye'] ?? 'No Incluye' ?>
@@ -381,22 +407,24 @@ $base_url = "..";
                                     <?php endforeach; ?>
                                 </ul>
                             </div>
+                            <?php endif; ?>
                         </div>
                     </div>
 
+                    <?php endif; ?>
+
                     <!-- ============ TAB: MAPA / RUTA ============ -->
-                    <div id="panel-mapa" class="tab-tour-content hidden" role="tabpanel" aria-labelledby="tab-mapa" data-tab-content="mapa">
-                        <p class="section-kicker text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                    <?php if (isset($tabs_tour['mapa'])): ?>
+                    <div id="panel-mapa" class="tab-tour-content<?= $primer_tab === 'mapa' ? '' : ' hidden' ?>" role="tabpanel" aria-labelledby="tab-mapa" data-tab-content="mapa">
+                        <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                             <?= $global['preguntas'] ?? 'Preguntas' ?>
                         </p>
-                        <h3 class="text-2xl md:text-3xl font-anton mb-6">
+                        <h3 class="tour-section-title font-anton mb-6">
                             <span class="text-gray-900"><?= $global['mapa_del'] ?? 'Mapa Del' ?></span>
                             <span class="text-orange-custom"><?= $global['recorrido'] ?? 'Recorrido' ?></span>
                         </h3>
 
-                        <?php
-                        $mapa = !empty($data['map']) ? $data['map'] : 'template-citytour.jpg';
-                        ?>
+
                         <a href="<?= $base_url ?>/images/mapas/<?= htmlspecialchars($mapa) ?>" target="_blank">
                             <img src="<?= $base_url ?>/images/mapas/<?= htmlspecialchars($mapa) ?>"
                                  alt="Mapa del tour <?= htmlspecialchars($data['title']) ?>"
@@ -405,13 +433,16 @@ $base_url = "..";
                         </a>
                     </div>
 
+                    <?php endif; ?>
+
                     <!-- ============ TAB: GALERIA ============ -->
                     <!-- ============ TAB: GALERIA ============ -->
-                    <div id="panel-galeria" class="tab-tour-content hidden" role="tabpanel" aria-labelledby="tab-galeria" data-tab-content="galeria">
-                        <p class="section-kicker text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                    <?php if (isset($tabs_tour['galeria'])): ?>
+                    <div id="panel-galeria" class="tab-tour-content<?= $primer_tab === 'galeria' ? '' : ' hidden' ?>" role="tabpanel" aria-labelledby="tab-galeria" data-tab-content="galeria">
+                        <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                             <?= $global['explora_peru'] ?? 'Explora Peru' ?>
                         </p>
-                        <h3 class="text-2xl md:text-3xl font-anton mb-6">
+                        <h3 class="tour-section-title font-anton mb-6">
                             <span class="text-gray-900"><?= $global['galeria_de'] ?? 'Galeria De' ?></span>
                             <span class="text-orange-custom"><?= $global['fotos'] ?? 'Fotos' ?></span>
                         </h3>
@@ -429,12 +460,15 @@ $base_url = "..";
                         </div>
                     </div>
 
+                    <?php endif; ?>
+
                     <!-- ============ TAB: RECOMENDACIONES ============ -->
-                    <div id="panel-recomendaciones" class="tab-tour-content hidden" role="tabpanel" aria-labelledby="tab-recomendaciones" data-tab-content="recomendaciones">
-                        <p class="section-kicker text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                    <?php if (isset($tabs_tour['recomendaciones'])): ?>
+                    <div id="panel-recomendaciones" class="tab-tour-content<?= $primer_tab === 'recomendaciones' ? '' : ' hidden' ?>" role="tabpanel" aria-labelledby="tab-recomendaciones" data-tab-content="recomendaciones">
+                        <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                             <?= $global['recomendaciones'] ?? 'Recomendaciones' ?>
                         </p>
-                        <h3 class="text-2xl md:text-3xl font-anton mb-6 text-gray-900">
+                        <h3 class="tour-section-title font-anton mb-6 text-gray-900">
                             <?= $global['recomendaciones'] ?? 'Recomendaciones' ?>
                         </h3>
 
@@ -452,12 +486,15 @@ $base_url = "..";
                         </div>
                     </div>
 
+                    <?php endif; ?>
+
                     <!-- ============ TAB: PRECIO (usa tus categorías existentes) ============ -->
-                    <div id="panel-precio" class="tab-tour-content hidden" role="tabpanel" aria-labelledby="tab-precio" data-tab-content="precio">
-                        <p class="section-kicker text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                    <?php if (isset($tabs_tour['precio'])): ?>
+                    <div id="panel-precio" class="tab-tour-content<?= $primer_tab === 'precio' ? '' : ' hidden' ?>" role="tabpanel" aria-labelledby="tab-precio" data-tab-content="precio">
+                        <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                             <?= $global['precio'] ?? 'Precio' ?>
                         </p>
-                        <h3 class="text-2xl md:text-3xl font-anton mb-6 text-gray-900">
+                        <h3 class="tour-section-title font-anton mb-6 text-gray-900">
                             <?= $global['precio_y_disponibilidad'] ?? 'Precio Y Disponibilidad' ?>
                         </h3>
 
@@ -473,26 +510,32 @@ $base_url = "..";
                         </div>
                     </div>
 
+                    <?php endif; ?>
+
                     <!-- ============ FAQ (fija, debajo de las tabs) ============ -->
                     <?php if (!empty($data['faq'])): ?>
-                    <div class="mt-14">
-                        <p class="section-kicker text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
+                    <div class="tour-faq mt-10 sm:mt-12 lg:mt-14">
+                        <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                             <?= $global['preguntas'] ?? 'Preguntas' ?>
                         </p>
-                        <h3 class="text-2xl md:text-3xl font-anton mb-6">
+                        <h3 class="tour-section-title font-anton mb-4 sm:mb-6">
                             <span class="text-gray-900"><?= $global['preguntas'] ?? 'Preguntas' ?></span>
                             <span class="text-orange-custom"><?= $global['frecuentes'] ?? 'Frecuentes' ?></span>
                         </h3>
 
-                        <div class="space-y-3">
+                        <div class="space-y-2.5 sm:space-y-3">
                             <?php foreach ($data['faq'] as $item): ?>
-                                <div class="faq-item border border-gray-800 rounded-lg overflow-hidden bg-[#2a2a2a]">
-                                    <button type="button" class="faq-toggle w-full flex items-center justify-between p-4 text-left text-white font-poppins font-semibold">
-                                        <?= htmlspecialchars($item['pregunta']) ?>
-                                        <i class="fa-solid fa-chevron-down text-orange-custom faq-icon transition-transform"></i>
+                                <div class="faq-item border border-gray-800 rounded-xl overflow-hidden bg-[#2a2a2a]">
+                                    <button type="button"
+                                            class="faq-toggle w-full flex items-center justify-between gap-3 px-4 py-3.5 sm:p-5 text-left text-sm sm:text-base leading-snug text-white font-poppins font-semibold"
+                                            aria-expanded="false">
+                                        <span class="flex-1 min-w-0 break-words">
+                                            <?= htmlspecialchars($item['pregunta']) ?>
+                                        </span>
+                                        <i class="fa-solid fa-chevron-down text-orange-custom faq-icon flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-white/5 transition-transform"></i>
                                     </button>
-                                    <div class="faq-panel hidden px-4 pb-4">
-                                        <p class="text-gray-300 text-sm font-poppins leading-relaxed">
+                                    <div class="faq-panel hidden px-4 pb-4 sm:px-5 sm:pb-5">
+                                        <p class="break-words text-gray-300 text-sm sm:text-[0.95rem] font-poppins leading-7">
                                             <?= htmlspecialchars($item['respuesta']) ?>
                                         </p>
                                     </div>
@@ -505,15 +548,15 @@ $base_url = "..";
                 </div>
 
                 <!-- COLUMNA DERECHA: SIDEBAR (precio + formulario) -->
-                <aside class="space-y-6">
+                <aside class="tour-booking-sidebar min-w-0 self-start content-start grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-5 sm:gap-6 items-start">
                     <!-- BLOQUE PRECIO -->
-                    <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-6">
+                    <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-4 sm:p-6">
 
                         <p class="text-gray-900 text-xs font-bold font-poppins uppercase tracking-wide mb-2">
                             <?= $global['precio_desde'] ?? 'Precio Desde' ?>
                         </p>
 
-                        <h3 id="precio" class="text-5xl font-medium text-orange-custom leading-none mb-4">
+                        <h3 id="precio" class="text-4xl sm:text-5xl font-medium text-orange-custom leading-none mb-4">
                             $<?= htmlspecialchars($data['price']) ?>
                         </h3>
 
@@ -536,18 +579,18 @@ $base_url = "..";
                         <?php if (!empty($asesores_data['asesores'])): ?>
                             <div class="mt-6 pt-6 border-t border-gray-200 space-y-4">
                                 <?php foreach ($asesores_data['asesores'] as $asesor): ?>
-                                    <div class="flex items-center gap-3">
+                                    <div class="flex flex-wrap sm:flex-nowrap items-center gap-3">
                                         <img src="<?= $base_url . $asesor['foto'] ?>"
                                             alt="<?= htmlspecialchars($asesor['nombre']) ?>"
                                             class="w-12 h-12 rounded-full object-cover flex-shrink-0">
-                                        <div class="flex-1">
+                                        <div class="flex-1 min-w-0">
                                             <p class="text-orange-custom text-xs font-bold font-poppins uppercase"><?= htmlspecialchars($asesor['cargo']) ?></p>
                                             <p class="font-bold font-poppins text-gray-900 text-sm"><?= htmlspecialchars($asesor['nombre']) ?></p>
                                             <p class="text-gray-500 text-xs font-poppins"><?= htmlspecialchars($asesor['telefono']) ?></p>
                                         </div>
                                         <a href="https://wa.me/<?= $asesor['whatsapp'] ?>"
                                         target="_blank" rel="noopener"
-                                        class="inline-flex items-center gap-1.5 bg-[#FF9300] hover:bg-[#1ebe5a] text-white text-xs font-bold font-poppins px-4 py-2 rounded-full transition">
+                                        class="inline-flex items-center justify-center gap-1.5 bg-[#FF9300] hover:bg-[#1ebe5a] text-white text-xs font-bold font-poppins px-4 py-2 rounded-full transition max-sm:w-full">
                                             Consultar
                                             <i class="fa-brands fa-whatsapp"></i>
                                         </a>
@@ -577,12 +620,12 @@ $base_url = "..";
         $trip_text = file_exists($trip_json_path) ? json_decode(file_get_contents($trip_json_path), true) : null;
         ?>
         <?php if ($trip_text): ?>
-        <section class="bg-white py-14">
-            <div class="container-custom mx-auto px-20">
-                <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
+        <section class="bg-white py-10 sm:py-12 lg:py-14">
+            <div class="container-custom mx-auto px-4 sm:px-6 md:px-10 lg:px-20">
+                <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                     <?= $trip_text['kicker'] ?? 'Preguntas' ?>
                 </p>
-                <h2 class="text-3xl md:text-4xl font-anton leading-tight mb-8">
+                <h2 class="tour-section-title font-anton leading-tight mb-6 sm:mb-8">
                     <span class="text-gray-900"><?= $trip_text['title_primary'] ?? 'Opiniones De' ?></span>
                     <span class="text-orange-custom"><?= $trip_text['title_secondary'] ?? 'Nuestros Viajeros' ?></span>
                 </h2>
@@ -641,22 +684,25 @@ $base_url = "..";
             TOURS RELACIONADOS
         *********************** -->
         <?php if (!empty($data['tours_relacionados'])): ?>
-        <section class="bg-white py-14">
-            <div class="container-custom mx-auto px-20">
+        <section class="bg-white py-10 sm:py-12 lg:py-14">
+            <div class="container-custom mx-auto px-4 sm:px-6 md:px-10 lg:px-20">
 
-                <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
+                <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                     <?= $global['explora_peru'] ?? 'Explora Peru' ?>
                 </p>
 
-                <h2 class="text-3xl md:text-4xl font-anton leading-tight mb-8">
+                <h2 class="tour-section-title font-anton leading-tight mb-6 sm:mb-8">
                     <span class="text-gray-900"><?= $global['tours'] ?? 'Tours' ?></span>
                     <span class="text-orange-custom"><?= $global['relacionados'] ?? 'Relacionados' ?></span>
                 </h2>
 
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="swiper-outer">
+                    <div class="auto-swiper relative" data-desktop="3" data-tablet="2" data-mobile="1" data-gap="24">
+                        <div class="swiper-wrapper">
                     <?php foreach ($data['tours_relacionados'] as $t): ?>
+                        <div class="swiper-slide h-auto">
                         <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $t['url'] ?>&lang=<?= $lang ?>"
-                        class="block bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                        class="flex flex-col bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300 h-full">
 
                             <div class="relative h-56 w-full overflow-hidden">
                                 <img src="<?= $base_url ?>/images/<?= htmlspecialchars($t['image']) ?>"
@@ -664,7 +710,7 @@ $base_url = "..";
                                     class="w-full h-full object-cover">
                             </div>
 
-                            <div class="p-4">
+                            <div class="p-4 flex-1">
                                 <p class="text-orange-custom text-xs font-bold font-poppins mb-1">
                                     <?= htmlspecialchars($t['duracion']) ?>
                                 </p>
@@ -678,18 +724,21 @@ $base_url = "..";
 
                             <div class="border-t border-gray-200 mx-4"></div>
 
-                            <div class="flex items-center justify-between p-4">
+                            <div class="flex flex-wrap items-center justify-between gap-3 p-4">
                                 <div>
-                                    <span class="block text-[0.65rem] text-gray-400 font-poppins leading-none">desde</span>
+                                    <span class="block text-[0.65rem] text-gray-400 font-poppins leading-none"><?= htmlspecialchars($template_ui['from']) ?></span>
                                     <span class="text-xl font-bold text-orange-custom">$<?= htmlspecialchars($t['price']) ?></span>
                                 </div>
-                                <span class="bg-orange-custom text-white text-xs font-bold font-poppins rounded-full  px-4 py-2 rounded-full">
+                                <span class="bg-orange-custom text-white text-xs font-bold font-poppins px-4 py-2 rounded-full">
                                     Reservar
                                 </span>
                             </div>
 
                         </a>
+                        </div>
                     <?php endforeach; ?>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -697,34 +746,34 @@ $base_url = "..";
         <?php endif; ?>
     </main>
 
-    <?php include('../footer.php') ?>
+    <?php include(__DIR__ . '/../footer.php') ?>
     <!-- ******************** 
      LIGHTBOX DE GALERIA
  *********************** -->
-    <div id="gallery-lightbox" class="fixed inset-0 z-[999] hidden items-center justify-center bg-black/90 px-4">
+    <div id="gallery-lightbox" class="fixed inset-0 z-[999] hidden items-center justify-center bg-black/90 px-3 sm:px-4">
 
         <!-- Botón cerrar -->
         <button type="button" id="gallery-close"
-                class="absolute top-5 right-5 text-white text-3xl hover:text-orange-custom transition z-10">
+                class="absolute top-3 right-3 sm:top-5 sm:right-5 w-10 h-10 flex items-center justify-center text-white text-2xl sm:text-3xl hover:text-orange-custom transition z-10">
             <i class="fa-solid fa-xmark"></i>
         </button>
 
         <!-- Flecha anterior -->
         <button type="button" id="gallery-prev"
-                class="absolute left-3 md:left-8 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-white/10 hover:bg-orange-custom rounded-full text-white text-xl transition z-10">
+                class="absolute left-2 sm:left-3 md:left-8 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-12 sm:h-12 flex items-center justify-center bg-white/10 hover:bg-orange-custom rounded-full text-white text-sm sm:text-xl transition z-10">
             <i class="fa-solid fa-chevron-left"></i>
         </button>
 
         <!-- Imagen -->
-        <div class="max-w-5xl w-full">
+        <div class="max-w-5xl w-full px-8 sm:px-12">
             <img id="gallery-image" src="" alt="Galería"
-                class="w-full max-h-[80vh] object-contain rounded-lg mx-auto">
+                class="w-full max-h-[75svh] sm:max-h-[80vh] object-contain rounded-lg mx-auto">
             <p id="gallery-counter" class="text-center text-white/70 text-sm font-poppins mt-4"></p>
         </div>
 
         <!-- Flecha siguiente -->
         <button type="button" id="gallery-next"
-                class="absolute right-3 md:right-8 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-white/10 hover:bg-orange-custom rounded-full text-white text-xl transition z-10">
+                class="absolute right-2 sm:right-3 md:right-8 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-12 sm:h-12 flex items-center justify-center bg-white/10 hover:bg-orange-custom rounded-full text-white text-sm sm:text-xl transition z-10">
             <i class="fa-solid fa-chevron-right"></i>
         </button>
 
@@ -733,7 +782,7 @@ $base_url = "..";
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="../js/mobile-menu.js"></script>
     <script src="../js/swiper-trip-comments.js"></script>
-    <script src="../js/swiper-tours.js"></script>
+    <script src="../js/auto-swiper.js"></script>
     <!-- Mobile menu -->
     <script src="../js/mega-menu.js"></script> 
     <!-- TABS DEL TOUR -->

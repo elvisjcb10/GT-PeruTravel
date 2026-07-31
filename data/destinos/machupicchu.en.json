@@ -1,0 +1,71 @@
+{
+    "background": "/images/machupicchu/hero.webp",
+    "badge": "Destination",
+    "titulo": "Tours to Machu Picchu",
+    "descripcion": "Discover the Inca citadel of Machu Picchu with different routes and experiences: classic, panoramic train, luxury train or Amazon route.",
+    "stats": [
+        {
+            "icono": "fa-mountain",
+            "numero": "4+",
+            "titulo": "Routes"
+        },
+        {
+            "icono": "fa-people-group",
+            "numero": "15K+",
+            "titulo": "Travelers"
+        },
+        {
+            "icono": "fa-star",
+            "numero": "4.9",
+            "titulo": "Rating"
+        },
+        {
+            "icono": "fa-globe",
+            "numero": "10+",
+            "titulo": "Years of Exp."
+        }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.9",
+        "texto": "+300 Travelers"
+    },
+    "filtros": [],
+    "tours": [
+        {
+            "title": "Machu Picchu Classic Tour",
+            "description": "Discover the impressive agricultural laboratories of the Incas in Moray and live a unique ancestral gastronomic experience cooking underground.",
+            "price": "0",
+            "duracion": "all day",
+            "image": "tours/machupicchu/clasico/card.webp",
+            "url": "CZ-machupicchu-clasico",
+            "categoria": "traditional"
+        },
+        {
+            "title": "Machu Picchu Panoramic Train Tour Vistadome Observatory",
+            "description": "Combine the trip to Machu Picchu with a panoramic railway tour that shows the impressive landscapes of the Sacred Valley of the Incas.",
+            "price": "0",
+            "duracion": "all day",
+            "image": "tours/machupicchu/panoramico/card.webp",
+            "url": "CZ-machupicchu-panoramico",
+            "categoria": "traditional"
+        },
+        {
+            "title": "Machu Picchu Tour by Hiram Bingham Luxury Train",
+            "description": "Live an exclusive experience aboard the most prestigious train in South America, combining premium comfort, gastronomy and a visit to Machu Picchu.",
+            "price": "0",
+            "duracion": "all day",
+            "image": "tours/machupicchu/hiram/card.webp",
+            "url": "CZ-machupicchu-hiram",
+            "categoria": "premium"
+        },
+        {
+            "title": "Machu Picchu Tour along the Amazon Route",
+            "description": "Reach Machu Picchu via an alternative route that combines a road trip, a hike along the Vilcanota River and jungle landscapes.",
+            "price": "0",
+            "duracion": "2Days / 1Nights",
+            "image": "tours/machupicchu/amazonico/card.webp",
+            "url": "CZ-machupicchu-amazonico",
+            "categoria": "adventure"
+        }
+    ]
+}

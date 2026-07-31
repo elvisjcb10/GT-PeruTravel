@@ -1,0 +1,201 @@
+{
+    "title": "Excursão de trem panorâmico em Machu Picchu Observatório Vistadome",
+    "short_description": "Combine a viagem a uma das maravilhas do mundo com um passeio ferroviário panorâmico que mostra as impressionantes paisagens do Vale Sagrado dos Incas.",
+    "long_description": "O Passeio de Trem Panorâmico de Machu Picchu Vistadome Dia Inteiro oferece uma experiência que combina a viagem a uma das maravilhas do mundo com um passeio de trem projetado para desfrutar das impressionantes paisagens do Vale Sagrado dos Incas. Graças às suas grandes janelas panorâmicas e ao seu carro observatório, a viagem permite apreciar de uma forma única a transição entre a Cordilheira dos Andes e a selva.<br/><br/>Ao chegar a Machu Picchu, você fará uma visita guiada à cidadela Inca, onde conhecerá sua história, arquitetura e a importância deste Patrimônio Mundial da UNESCO. É uma excelente opção para quem deseja complementar a visita a Machu Picchu com uma experiência ferroviária mais confortável e panorâmica.",
+    "duration": "Dia inteiro",
+    "image_cover": "machupicchu/panoramico/hero.webp",
+    "gallery": [
+        "machupicchu/panoramico/galeria1.webp",
+        "machupicchu/panoramico/galeria2.webp",
+        "machupicchu/panoramico/galeria3.webp",
+        "machupicchu/panoramico/galeria4.webp",
+        "machupicchu/panoramico/galeria6.webp",
+        "machupicchu/panoramico/galeria5.webp"
+    ],
+    "price": "19",
+    "price_note": "Inclui transporte turístico, trem Observatório Vistadome, ônibus turístico, entrada em Machu Picchu e guia profissional.",
+    "seo_title": "Machu Picchu Passeio De Trem Panorâmico Observatório Vistadome Dia Inteiro | GT Peru Viagens",
+    "seo_description": "Experimente Machu Picchu a bordo do Trem Observatório Vistadome, com janelas panorâmicas e um carro de observação. Excursão de dia inteiro saindo de Cusco com guia profissional incluído.",
+    "seo_keywords": "trem observatório vistadome, trem panorâmico machu picchu, excursão de dia inteiro a machu picchu, perurail observatório vistadome, passeio cusco machu picchu, viagens gt peru",
+    "resumen": {
+        "ubicacion": "Santuário Histórico de Machu Picchu",
+        "lugar_recojo": "Hotel no Centro Histórico de Cusco",
+        "lugar_finalizacion": "Centro Histórico de Cusco",
+        "idiomas": [
+            "Espanhol",
+            "Inglês",
+            "Português (atendimento privado ou mediante solicitação)"
+        ],
+        "transporte": [
+            "Transporte turístico Cusco – estação ferroviária – Cusco",
+            "Trem Panorâmico do Observatório Vistadome (ida ou volta, dependendo da disponibilidade)",
+            "Ônibus turístico subindo e descendo entre Machu Picchu Pueblo e a cidadela"
+        ],
+        "entrada": "Bilhete oficial de entrada ao Santuário Histórico de Machu Picchu (dependendo do circuito e disponibilidade)",
+        "altitud": "2.430 metros acima do nível do mar",
+        "temporada": "Disponível o ano todo"
+    },
+    "caracteristicas": [
+        {
+            "icono": "fa-person-hiking",
+            "label": "Dificuldade",
+            "valor": "Moderado"
+        },
+        {
+            "icono": "fa-clock",
+            "label": "Duração",
+            "valor": "Dia inteiro"
+        },
+        {
+            "icono": "fa-people-group",
+            "label": "Serviço",
+            "valor": "Grupo / Privado"
+        },
+        {
+            "icono": "fa-mountain",
+            "label": "Altitude Máxima",
+            "valor": "2.430 metros acima do nível do mar"
+        }
+    ],
+    "days": [
+        {
+            "title": "Dia 1: Cusco – Trem Panorâmico Observatório Vistadome – Machu Picchu – Cusco",
+            "lugar": "Cusco → Machu Picchu → Cusco",
+            "text": "O passeio começa com a retirada em seu hotel na cidade de Cusco para traslado à estação ferroviária de Ollantaytambo ou Poroy, conforme serviço confirmado. De lá você embarcará no Trem Panorâmico Observatório Vistadome, onde desfrutará de um passeio com vistas privilegiadas do Vale Sagrado graças às suas grandes janelas panorâmicas e ao seu exclusivo carro-observatório.<br/><br/>Ao chegar a Machu Picchu Pueblo (Aguas Calientes), embarcaremos no ônibus turístico até o Santuário Histórico de Machu Picchu. Uma vez na cidadela, faremos uma visita guiada ao circuito autorizado, conhecendo a história, a arquitetura e os principais setores desta maravilha do mundo.<br/><br/>Após o passeio desceremos até Machu Picchu Pueblo, onde você terá tempo livre para almoçar ou passear pela cidade antes de embarcar no trem de retorno. Ao chegar à estação, o transporte turístico nos levará de volta à cidade de Cusco, concluindo esta experiência."
+        }
+    ],
+    "includes": [
+        "Pick up em hotéis localizados no Centro Histórico de Cusco",
+        "Transporte turístico entre Cusco e a estação ferroviária",
+        "Bilhetes de trem do Observatório PeruRail Vistadome (ida e volta, sujeito a disponibilidade)",
+        "Ônibus turístico subindo e descendo entre Machu Picchu Pueblo e a cidadela",
+        "Bilhete de entrada ao Santuário Histórico de Machu Picchu (conforme circuito confirmado)",
+        "Visita guiada com guia profissional em espanhol ou inglês",
+        "Assistência permanente durante todo o passeio"
+    ],
+    "not_includes": [
+        "Alimentação (café da manhã, almoço e jantar)",
+        "despesas pessoais",
+        "Dicas",
+        "seguro de viagem",
+        "Serviços não mencionados expressamente no programa"
+    ],
+    "recommendations": [
+        {
+            "img": "pasaporte.webp",
+            "nombre": "Passaporte ou documento de identidade original"
+        },
+        {
+            "img": "ropa-comoda.webp",
+            "nombre": "Roupa confortável e adequada para caminhadas"
+        },
+        {
+            "img": "poncho-lluvia.webp",
+            "nombre": "Jaqueta impermeável ou poncho de chuva"
+        },
+        {
+            "img": "calzado-trekking.webp",
+            "nombre": "Sapatos de trekking antiderrapantes ou leves"
+        },
+        {
+            "img": "gorra.webp",
+            "nombre": "Chapéu ou boné e óculos de sol"
+        },
+        {
+            "img": "bloqueador.webp",
+            "nombre": "Protetor solar"
+        },
+        {
+            "img": "botella-agua.webp",
+            "nombre": "Garrafa de água reutilizável"
+        }
+    ],
+    "recomendaciones_generales": {
+        "antes_de_viajar": [
+            "Recomenda-se ficar pelo menos um dia em Cusco antes do passeio para facilitar a aclimatação à altitude",
+            "O horário do passeio está sujeito à disponibilidade do trem e ao horário de entrada designado para Machu Picchu.",
+            "Leve sempre consigo o passaporte ou documento de identificação original, pois será solicitado durante a viagem e ao entrar na cidadela",
+            "Siga as instruções do guia e respeite as regras estabelecidas no Santuário Histórico de Machu Picchu para contribuir com sua conservação"
+        ],
+        "tips": [
+            "Reserve seu passeio com antecedência, pois os ingressos para Machu Picchu e trens têm disponibilidade limitada",
+            "Traga apenas a bagagem necessária para aproveitar o passeio com maior conforto",
+            "Aproveite o passeio no Trem Observatório Vistadome para apreciar as paisagens do Vale Sagrado e tirar fotos do carro panorâmico",
+            "Respeite o património arqueológico e evite sair dos trilhos autorizados durante a visita"
+        ]
+    },
+    "faq": [
+        {
+            "pregunta": "Qual é a diferença entre o Tour Clássico e o Passeio de Trem do Observatório Vistadome?",
+            "respuesta": "A principal diferença é a experiência ferroviária. O Trem Observatório Vistadome oferece grandes janelas panorâmicas, carro-observatório com varanda ao ar livre e, conforme programação da PeruRail, atividades a bordo que permitem aproveitar ainda mais a viagem a Machu Picchu."
+        },
+        {
+            "pregunta": "Qual circuito de Machu Picchu visitarei?",
+            "respuesta": "O circuito dependerá do bilhete de entrada disponível no momento da reserva. Todos os circuitos permitem conhecer os principais atrativos do Santuário Histórico de Machu Picchu."
+        },
+        {
+            "pregunta": "Terei tempo livre durante o passeio?",
+            "respuesta": "Sim. Após a visita guiada você terá tempo livre em Machu Picchu Pueblo (Aguas Calientes) para almoçar, passear pela cidade ou fazer compras antes da viagem de volta."
+        },
+        {
+            "pregunta": "É necessário reservar com antecedência?",
+            "respuesta": "Sim. Recomenda-se fazer sua reserva com a maior antecedência possível, pois tanto os ingressos para Machu Picchu quanto as vagas no trem Observatório Vistadome estão sujeitos à disponibilidade."
+        },
+        {
+            "pregunta": "Que documentos preciso apresentar para fazer o tour?",
+            "respuesta": "É obrigatória a apresentação do passaporte ou documento de identificação original, o mesmo que foi utilizado para fazer a reserva do passeio e entrada em Machu Picchu."
+        },
+        {
+            "pregunta": "O passeio é recomendado para crianças e idosos?",
+            "respuesta": "Sim, desde que possam fazer caminhadas moderadas e acompanhar o ritmo do passeio. Caso necessite de assistência especial, recomendamos comunicá-la no momento da reserva."
+        }
+    ],
+    "tours_relacionados": [
+        {
+            "title": "Tour Clássico Machu Picchu",
+            "description": "Descubra os impressionantes laboratórios agrícolas dos Incas em Moray e viva uma experiência gastronómica ancestral única cozinhando no subsolo.",
+            "price": "0",
+            "duracion": "o dia todo",
+            "image": "tours/machupicchu/clasico/card.webp",
+            "url": "CZ-machupicchu-clasico",
+            "categoria": "tradicional"
+        },
+        {
+            "title": "Excursão Machu Picchu pelo trem de luxo Hiram Bingham",
+            "description": "Viva uma experiência exclusiva a bordo do trem mais prestigiado da América do Sul, combinando conforto premium, gastronomia e uma visita a Machu Picchu.",
+            "price": "0",
+            "duracion": "o dia todo",
+            "image": "tours/machupicchu/hiram/card.webp",
+            "url": "CZ-machupicchu-hiram",
+            "categoria": "prêmio"
+        },
+        {
+            "title": "Tour Machu Picchu pela Rota Amazônica",
+            "description": "Chegue a Machu Picchu por uma rota alternativa que combina uma viagem rodoviária, uma caminhada ao longo do rio Vilcanota e paisagens de selva.",
+            "price": "0",
+            "duracion": "2Dias / 1Noites",
+            "image": "tours/machupicchu/amazonico/card.webp",
+            "url": "CZ-machupicchu-amazonico",
+            "categoria": "aventura"
+        }
+    ],
+    "brochure": "",
+    "map": "",
+    "video": "",
+    "categories": {
+        "grupal": {
+            "titulo": "TREM OBSERVATÓRIO VISTADOME - SERVIÇO DE GRUPO",
+            "precio": "19",
+            "descripcion": "Serviço compartilhado com outros viajantes.",
+            "nota": "Inclui transporte, trem, ônibus turístico, entrada e guia profissional",
+            "descuento": 0
+        },
+        "privado": {
+            "titulo": "TREM OBSERVATÓRIO VISTADOME - SERVIÇO PRIVADO",
+            "precio": "19",
+            "descripcion": "Serviço exclusivo apenas para o seu grupo, também disponível em português.",
+            "nota": "Inclui transporte, trem, ônibus turístico, entrada e guia profissional",
+            "descuento": 0
+        }
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "background": "/images/destinos/arequipa/arequipa.webp",
+    "badge": "Destino",
+    "titulo": "Passeios em Arequipa",
+    "descripcion": "Explore a Cidade Branca, sua arquitetura colonial em cantaria e o imponente Cânion do Colca, um dos mais profundos do mundo.",
+    "stats": [
+        {
+            "icono": "fa-mountain",
+            "numero": "30+",
+            "titulo": "Destinos"
+        },
+        {
+            "icono": "fa-people-group",
+            "numero": "7 mil +",
+            "titulo": "Viajantes"
+        },
+        {
+            "icono": "fa-star",
+            "numero": "4.8",
+            "titulo": "Avaliação"
+        },
+        {
+            "icono": "fa-globe",
+            "numero": "10+",
+            "titulo": "Anos de Exp."
+        }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.7",
+        "texto": "+140 viajantes"
+    },
+    "filtros": [
+        {
+            "id": "todos",
+            "label": "tudo"
+        },
+        {
+            "id": "tradicionales",
+            "label": "Tradicional"
+        },
+        {
+            "id": "aventura",
+            "label": "Aventura"
+        },
+        {
+            "id": "caminata",
+            "label": "Caminhada"
+        }
+    ],
+    "tours": [
+        {
+            "title": "City Tour Colonial em Arequipa",
+            "description": "Passeie pelo centro histórico da Cidade Branca, pelo Mosteiro de Santa Catalina e pela Plaza de Armas.",
+            "price": "30",
+            "duracion": "1Dia / 0Noites",
+            "image": "arequipa-colonial.jpg",
+            "url": "arequipa-colonial",
+            "categoria": "tradicional"
+        },
+        {
+            "title": "Cânion Colca 2 Dias",
+            "description": "Assista ao voo do condor andino na Cruz del Cóndor e explore as aldeias tradicionais do Vale do Colca.",
+            "price": "95",
+            "duracion": "2Dias / 1Noites",
+            "image": "canon-colca.jpg",
+            "url": "canon-colca",
+            "categoria": "tradicional"
+        },
+        {
+            "title": "Trekking pelo Cânion Colca",
+            "description": "Desça até o fundo do segundo cânion mais profundo do mundo e desfrute do oásis de Sangalle.",
+            "price": "120",
+            "duracion": "3Dias / 2Noites",
+            "image": "trekking-colca.jpg",
+            "url": "trekking-colca",
+            "categoria": "caminhada"
+        },
+        {
+            "title": "Reserva Salinas e Aguada Blanca",
+            "description": "Veja vicunhas, flamingos andinos e vulcões nesta reserva natural perto de Arequipa.",
+            "price": "55",
+            "duracion": "1Dia / 0Noites",
+            "image": "salinas-aguada-blanca.jpg",
+            "url": "salinas-aguada-blanca",
+            "categoria": "aventura"
+        }
+    ]
+}

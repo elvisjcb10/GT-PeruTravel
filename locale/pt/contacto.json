@@ -1,0 +1,153 @@
+{
+    "hero": {
+        "background": "/images/inicio/hero.webp",
+        "kicker": "Estamos aqui para ajudá-lo",
+        "title_primary": "Vamos falar sobre você",
+        "title_secondary": "próxima aventura",
+        "description": "Nossa equipe de guias especializados está pronta para aconselhá-lo e planejar a viagem perfeita pelo Peru.",
+        "badges": [
+            "Resposta em menos de 2 horas",
+            "Operador local certificado",
+            "4,9/5 em satisfação"
+        ]
+    },
+    "formulario": {
+        "kicker": "Formulário de contato",
+        "title_primary": "Você nos diz",
+        "title_secondary": "viagem ideal",
+        "description": "Preencha o formulário e entraremos em contato com você em menos de 2 horas úteis.",
+        "campos": {
+            "nombre": {
+                "label": "Nome",
+                "placeholder": "Seu nome completo"
+            },
+            "apellido": {
+                "label": "Sobrenome",
+                "placeholder": "Seu sobrenome"
+            },
+            "whatsapp": {
+                "label": "Whatsapp/Telefone",
+                "placeholder": "+51 987 000 000"
+            },
+            "email": {
+                "label": "E-mail",
+                "placeholder": "tu@email.com"
+            },
+            "fecha": {
+                "label": "Data da viagem",
+                "placeholder": ""
+            },
+            "personas": {
+                "label": "Nº de pessoas",
+                "placeholder": "Selecione"
+            },
+            "mensaje": {
+                "label": "Mensagem",
+                "placeholder": "Conte-nos mais sobre sua viagem: datas, orçamento aproximado, se você vai viajar em família, casal, grupo..."
+            }
+        },
+        "boton": "Enviar mensagem",
+        "nota_privacidad": "Suas informações são privadas e nunca serão compartilhadas com terceiros."
+    },
+    "info_contacto": {
+        "kicker": "Informações de contato",
+        "asesores": [
+            {
+                "nombre": "Carolina Ancco",
+                "cargo": "Consultor de vendas",
+                "telefono": "+51 987 370",
+                "whatsapp": "51987370201",
+                "foto": "/images/nosotros/carmen.jpg"
+            },
+            {
+                "nombre": "Carolina Ancco",
+                "cargo": "Consultor de vendas",
+                "telefono": "+51 987 370",
+                "whatsapp": "51987370202",
+                "foto": "/images/nosotros/carmen.jpg"
+            }
+        ],
+        "email": {
+            "titulo": "E-mail",
+            "valor": "info@perutravel.pe",
+            "nota": "Resposta em menos de 2 horas"
+        },
+        "oficina": {
+            "titulo": "Escritório em Cusco",
+            "direccion": "Av. El Sol 345, Cusco",
+            "nota": "2 quarteirões da Praça de Armas"
+        },
+        "redes": {
+            "titulo": "siga-nos",
+            "facebook": "https://www.facebook.com/gtperutravel",
+            "instagram": "https://www.instagram.com/gtperutravel_oficial/",
+            "tiktok": "https://www.tiktok.com/@gt_peru_travel",
+            "youtube": "https://www.youtube.com/@gtperutravel9213",
+            "threads": "#"
+        },
+        "mapa": {
+            "titulo": "Nossa localização",
+            "embed_url": "https://www.google.com/maps/embed?pb=REEMPLAZAR_CON_EMBED_REAL"
+        },
+        "horario": {
+            "titulo": "Horário comercial",
+            "items": [
+                {
+                    "dias": "Segunda a sexta",
+                    "horas": "9:00 – 18:00"
+                },
+                {
+                    "dias": "Sábado",
+                    "horas": "9:00 – 14:00"
+                },
+                {
+                    "dias": "domingo",
+                    "horas": "Fechado"
+                },
+                {
+                    "dias": "WhatsApp",
+                    "horas": "7:00 – 21:00",
+                    "destacado": true
+                }
+            ]
+        }
+    },
+    "whatsapp_banner": {
+        "titulo_primary": "Você prefere",
+        "titulo_secondary": "WhatsApp",
+        "descripcion": "Escreva-nos diretamente e responderemos instantaneamente. Nossa equipe está disponível todos os dias das 7h às 21h para esclarecer suas dúvidas.",
+        "boton": "Converse agora",
+        "numero": "51987370201"
+    },
+    "faq": {
+        "kicker": "Perguntas frequentes",
+        "title_primary": "O que mais",
+        "title_secondary": "eles perguntam",
+        "preguntas": [
+            {
+                "pregunta": "Com que antecedência devo reservar meu passeio?",
+                "respuesta": "Recomendamos reservar com pelo menos 2 a 4 semanas de antecedência. Para Machu Picchu, Trilha Inca e temporadas de alta demanda, o ideal é fazer com 1 a 3 meses de antecedência, já que as passagens e trens têm vagas limitadas."
+            },
+            {
+                "pregunta": "Vocês oferecem passeios privados ou apenas passeios em grupo?",
+                "respuesta": "Oferecemos ambas as opções. Você pode optar por um passeio em grupo com saídas programadas ou solicitar um serviço privado com horários flexíveis e atendimento personalizado para sua família ou grupo."
+            },
+            {
+                "pregunta": "O que inclui o preço dos pacotes?",
+                "respuesta": "As inclusões dependem de cada programa e podem incluir transporte, guia, alojamento, entradas e algumas refeições. No itinerário de cada pacote você encontrará os detalhes exatos do que está incluído e do que não está incluído."
+            },
+            {
+                "pregunta": "Como é a política de cancelamento?",
+                "respuesta": "As condições variam dependendo do passeio e da data de cancelamento. Alguns serviços, como entradas para Machu Picchu e passagens de trem, podem não ser reembolsáveis. Enviar-lhe-emos as condições específicas antes de confirmar a reserva."
+            },
+            {
+                "pregunta": "Vocês fazem tours em inglês ou português?",
+                "respuesta": "Sim. Temos guias em espanhol, inglês e português, sujeitos a disponibilidade. Por favor indique o idioma que você precisa ao solicitar a reserva para que possamos lhe atribuir o guia adequado."
+            },
+            {
+                "pregunta": "Quais métodos de pagamento você aceita?",
+                "respuesta": "Aceitamos cartões de crédito ou débito, transferências bancárias e outros métodos de pagamento autorizados. A nossa equipa indicar-lhe-á as opções disponíveis e enviar-lhe-á a confirmação correspondente."
+            }
+        ]
+    }
+}

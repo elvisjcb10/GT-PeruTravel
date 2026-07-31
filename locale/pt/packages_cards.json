@@ -1,5 +1,6 @@
 {
-    "cards": [{
+    "cards": [
+        {
             "title": "DESCUBRA O PERU",
             "subtitle": "8 DIAS / 7 NOITES",
             "description": "Explore o Peru em uma experiência completa de Lima até Cusco...",
@@ -10,7 +11,15 @@
             "promo": {
                 "active": true,
                 "label": "EXPERIÊNCIA COMPLETA"
-            }
+            },
+            "ubicacion": "Cusco · Vale Sagrado",
+            "max_personas": "12",
+            "categorias": [
+                "Caminhada",
+                "arqueologia",
+                "Gastronomia"
+            ],
+            "moneda": "USD"
         },
         {
             "title": "MONTANHA COLORIDA + 7 LAGOAS",
@@ -22,7 +31,15 @@
                 "montana-colores-cusco-peru-card-01.jpg"
             ],
             "url": "montanacolores-7lagunas",
-            "reservar": "RESERVAR"
+            "reservar": "RESERVAR",
+            "ubicacion": "Cusco · Vale Sagrado",
+            "max_personas": "12",
+            "categorias": [
+                "Caminhada",
+                "arqueologia",
+                "Gastronomia"
+            ],
+            "moneda": "USD"
         },
         {
             "title": "MONTANHA COLORIDA + GLACIAR QUELCCAYA",
@@ -38,7 +55,15 @@
             "promo": {
                 "active": true,
                 "label": "EXPEDIÇÃO ANDINA"
-            }
+            },
+            "ubicacion": "Cusco · Vale Sagrado",
+            "max_personas": "12",
+            "categorias": [
+                "Caminhada",
+                "arqueologia",
+                "Gastronomia"
+            ],
+            "moneda": "USD"
         },
         {
             "title": "VALE SAGRADO + MACHU PICCHU",
@@ -50,7 +75,19 @@
                 "machupicchu-cusco-peru.jpg"
             ],
             "url": "vallesagrado-machupicchu",
-            "reservar": "RESERVAR"
+            "reservar": "RESERVAR",
+            "ubicacion": "Cusco · Vale Sagrado",
+            "max_personas": "12",
+            "categorias": [
+                "Caminhada",
+                "arqueologia",
+                "Gastronomia"
+            ],
+            "moneda": "USD",
+            "promo": {
+                "active": true,
+                "label": "EXPEDIÇÃO ANDINA"
+            }
         },
         {
             "title": "CAMINHO INCA CURTO",
@@ -62,7 +99,19 @@
                 "machupicchu-camino-inca-corto-cusco-peru.jpg"
             ],
             "url": "short-inca-trail",
-            "reservar": "RESERVAR"
+            "reservar": "RESERVAR",
+            "ubicacion": "Cusco · Vale Sagrado",
+            "max_personas": "12",
+            "categorias": [
+                "Caminhada",
+                "arqueologia",
+                "Gastronomia"
+            ],
+            "moneda": "USD",
+            "promo": {
+                "active": true,
+                "label": "EXPEDIÇÃO ANDINA"
+            }
         },
         {
             "title": "CUSCO EXPRESS",

@@ -1,0 +1,34 @@
+{
+    "cards": [
+        {
+            "img": "/images/tours/machupicchu-cover.webp",
+            "duracion": "3Dias / 7Noites",
+            "titulo": "Tour Clássico Machupicchu",
+            "descripcion": "Fuja para Cusco e Machu Picchu. História Inca, a magia dos Andes e a essência cultural do Peru em formato compacto.",
+            "precio": "$65",
+            "reservar": "Reserva",
+            "url": "machupicchu-clasico",
+            "destacado": true
+        },
+        {
+            "img": "/images/tours/machupicchu-cover.jpg",
+            "duracion": "3Dias / 7Noites",
+            "titulo": "Passeio Machupicchu",
+            "descripcion": "Fuja para Cusco e Machu Picchu. História Inca, a magia dos Andes e a essência cultural do Peru em formato compacto.",
+            "precio": "$65",
+            "reservar": "Reserva",
+            "url": "machupicchu-moray",
+            "destacado": false
+        },
+        {
+            "img": "/images/tours/laguna-humantay-card.jpg",
+            "duracion": "3Dias / 7Noites",
+            "titulo": "Passeio Machupicchu",
+            "descripcion": "Fuja para Cusco e Machu Picchu. História Inca, a magia dos Andes e a essência cultural do Peru em formato compacto.",
+            "precio": "$65",
+            "reservar": "Reserva",
+            "url": "machupicchu-2",
+            "destacado": false
+        }
+    ]
+}

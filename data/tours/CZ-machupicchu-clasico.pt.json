@@ -1,0 +1,186 @@
+{
+    "title": "Machu Picchu Clássico Dia Inteiro",
+    "short_description": "Conheça uma das Sete Maravilhas do Mundo Moderno em um único dia. Tour Machu Picchu combinando uma viagem panorâmica de trem e uma visita guiada à sua lendária cidadela Inca.",
+    "long_description": "O Machu Picchu Classic Full Day Tour é a opção ideal para quem deseja conhecer uma das maravilhas arqueológicas mais importantes do mundo em um único dia. Este passeio combina um passeio de trem pelo Vale Sagrado dos Incas com uma visita guiada ao Santuário Histórico de Machu Picchu, declarado Patrimônio Mundial da UNESCO e reconhecido como uma das Sete Maravilhas do Mundo Moderno.<br/><br/>Durante a experiência você percorrerá os principais setores abertos ao circuito designado, acompanhado por um guia profissional que explicará a história, arquitetura e legado da civilização Inca. Além de conhecer um dos destinos mais emblemáticos do Peru, você poderá desfrutar de impressionantes paisagens andinas durante o passeio de trem e do encanto da cidade de Machu Picchu Pueblo (Aguas Calientes).",
+    "duration": "1 dia",
+    "image_cover": "machupicchu/clasico/hero.webp",
+    "gallery": [
+        "machupicchu/clasico/galeria1.webp",
+        "machupicchu/clasico/galeria2.webp",
+        "machupicchu/clasico/galeria3.webp",
+        "machupicchu/clasico/galeria4.webp",
+        "machupicchu/clasico/galeria5.webp",
+        "machupicchu/clasico/galeria6.webp"
+    ],
+    "price": "0",
+    "price_note": "Inclui transporte turístico, passagens de trem ida e volta, ônibus de ida e volta, ingresso e guia profissional.",
+    "seo_title": "Excursão Machu Picchu Clássica de Dia Inteiro - Excursão saindo de Cusco | GT Peru Viagens",
+    "seo_description": "Descubra o Santuário Histórico de Machu Picchu em uma excursão de dia inteiro saindo de Cusco. Inclui trem, ônibus Consettur, ingresso e guia profissional.",
+    "seo_keywords": "Machu Picchu dia inteiro, tour clássico de Machu Picchu, trem para Machu Picchu, viagem a Machu Picchu saindo de Cusco, Aguas Calientes, turismo no Peru, viagens GT Peru",
+    "resumen": {
+        "ubicacion": "Departamento de Cusco, Santuário Histórico de Machu Picchu",
+        "lugar_recojo": "Hotel localizado no Centro Histórico de Cusco",
+        "lugar_finalizacion": "Centro Histórico de Cusco",
+        "idiomas": [
+            "Espanhol",
+            "Inglês",
+            "Português"
+        ],
+        "transporte": [
+            "Transporte turístico Cusco – estação ferroviária – Cusco",
+            "Trem turístico de ida e volta",
+            "Ônibus sobe e desce entre Aguas Calientes e Machu Picchu"
+        ],
+        "alimentacion": "Não inclui",
+        "alojamiento": "Não inclui",
+        "altitud": "2.430 m acima. n. m."
+    },
+    "caracteristicas": [
+        {
+            "icono": "fa-person-hiking",
+            "label": "Dificuldade",
+            "valor": "Moderado"
+        },
+        {
+            "icono": "fa-clock",
+            "label": "Duração",
+            "valor": "Dia inteiro"
+        },
+        {
+            "icono": "fa-people-group",
+            "label": "Serviço",
+            "valor": "Grupo / Privado"
+        },
+        {
+            "icono": "fa-mountain",
+            "label": "Altitude Máxima",
+            "valor": "2.430 metros acima do nível do mar"
+        }
+    ],
+    "actividades": [
+        "Viagem de trem pelo Vale Sagrado dos Incas",
+        "Caminhe pela cidade de Aguas Calientes",
+        "Subida em ônibus ecológico até a cidadela",
+        "Visita guiada ao Santuário Histórico de Machu Picchu",
+        "Visita aos principais miradouros e setores arqueológicos"
+    ],
+    "days": [
+        {
+            "title": "Dia 1: Cusco – Ollantaytambo / Poroy – Águas Calientes – Machu Picchu – Cusco",
+            "lugar": "Cusco → Machu Picchu → Cusco",
+            "text": "O passeio começa com a retirada em seu hotel na cidade de Cusco para traslado à estação ferroviária de Ollantaytambo ou Poroy, dependendo do serviço confirmado no momento da reserva. A partir daí iniciaremos uma viagem ferroviária considerada uma das mais pitorescas do Peru, seguindo o curso do rio Vilcanota enquanto a paisagem muda gradualmente dos vales andinos para a floresta montanhosa que circunda Machu Picchu.<br/><br/>Ao chegar a Machu Picchu Pueblo (Aguas Calientes), nossa equipe prestará a assistência necessária para embarcar no ônibus turístico que sobe até a entrada do Santuário Histórico de Machu Picchu. A viagem dura aproximadamente 25 minutos e percorre uma estrada de montanha com vista panorâmica do vale.<br/><br/>Uma vez na cidadela, iniciaremos uma visita guiada ao circuito que lhe está atribuído no seu ingresso. Durante o passeio conheceremos a história do sítio arqueológico, seu planejamento urbano, as principais construções incas e a importância que Machu Picchu teve dentro de Tahuantinsuyo. O guia explicará também vários aspectos relacionados com a arquitectura, engenharia e conservação deste extraordinário património cultural.<br/><br/>Terminada a visita guiada, você terá tempo para tirar fotos e apreciar os arredores antes de descer de volta a Aguas Calientes. No horário indicado embarcaremos no trem de retorno à estação correspondente, onde nosso transporte turístico estará esperando para levá-lo de volta à cidade de Cusco, concluindo assim esta experiência."
+        }
+    ],
+    "includes": [
+        "Pick up em hotéis localizados no Centro Histórico de Cusco",
+        "Transporte turístico entre Cusco e a estação ferroviária",
+        "Bilhetes de trem de ida e volta",
+        "Ônibus turístico subindo e descendo entre Aguas Calientes e Machu Picchu",
+        "Bilhete oficial de entrada para Machu Picchu (dependendo da disponibilidade e circuito confirmado)",
+        "Visita guiada com guia profissional em espanhol ou inglês",
+        "Assistência permanente durante o desenvolvimento do passeio"
+    ],
+    "not_includes": [
+        "Comida",
+        "despesas pessoais",
+        "Dicas",
+        "Serviços não especificados no programa"
+    ],
+    "recommendations": [
+        {
+            "img": "pasaporte.webp",
+            "nombre": "Documento de identidade original ou passaporte"
+        },
+        {
+            "img": "boleto-ingreso.webp",
+            "nombre": "Entrada impressa e bilhete de trem"
+        },
+        {
+            "img": "repelente.webp",
+            "nombre": "Repelente de insetos"
+        },
+        {
+            "img": "bloqueador.webp",
+            "nombre": "Protetor solar"
+        },
+        {
+            "img": "gorra.webp",
+            "nombre": "Chapéu ou boné"
+        },
+        {
+            "img": "poncho-lluvia.webp",
+            "nombre": "Capa de chuva ou poncho de chuva"
+        },
+        {
+            "img": "calzado-trekking.webp",
+            "nombre": "Sapatos confortáveis ou sapatos de trekking"
+        },
+        {
+            "img": "botella-agua.webp",
+            "nombre": "Garrafa de água reutilizável"
+        },
+        {
+            "img": "dinero-efectivo.webp",
+            "nombre": "Dinheiro (solas)"
+        }
+    ],
+    "recomendaciones_generales": {
+        "antes_de_viajar": [
+            "Reserve com bastante antecedência devido à disponibilidade limitada de ingressos para Machu Picchu",
+            "Trazer o passaporte original ou documento de identificação obrigatório com que foi feita a reserva",
+            "Chegue cedo aos pontos de embarque de trens e ônibus",
+            "Respeite as normas de conservação do Santuário Histórico de Machu Picchu"
+        ]
+    },
+    "faq": [
+        {
+            "pregunta": "Com que antecedência devo reservar este passeio?",
+            "respuesta": "Recomenda-se reservar com vários meses de antecedência, pois os ingressos para Machu Picchu e as vagas no trem têm vagas limitadas por dia."
+        },
+        {
+            "pregunta": "Que documento devo levar no dia do passeio?",
+            "respuesta": "É obrigatório trazer o documento de identificação original ou passaporte com o qual fez a reserva. Não é permitida a entrada na cidadela com fotocópias."
+        },
+        {
+            "pregunta": "O passeio inclui alimentação?",
+            "respuesta": "O programa padrão não inclui alimentação, mas em Aguas Calientes você terá opções e tempo livre para almoçar antes ou depois do passeio pela cidadela."
+        },
+        {
+            "pregunta": "É adequado para todas as idades?",
+            "respuesta": "Sim, o passeio Machu Picchu é adequado para pessoas de todas as idades. As caminhadas dentro do circuito designado são de nível moderado."
+        }
+    ],
+    "tours_relacionados": [
+        {
+            "title": "Excursão de trem panorâmico em Machu Picchu Observatório Vistadome",
+            "description": "Combine a viagem a Machu Picchu com um passeio ferroviário panorâmico que mostra as impressionantes paisagens do Vale Sagrado dos Incas.",
+            "price": "0",
+            "duracion": "o dia todo",
+            "image": "tours/machupicchu/panoramico/card.webp",
+            "url": "CZ-machupicchu-panoramico",
+            "categoria": "tradicional"
+        },
+        {
+            "title": "Excursão Machu Picchu pelo trem de luxo Hiram Bingham",
+            "description": "Viva uma experiência exclusiva a bordo do trem mais prestigiado da América do Sul, combinando conforto premium, gastronomia e uma visita a Machu Picchu.",
+            "price": "0",
+            "duracion": "o dia todo",
+            "image": "tours/machupicchu/hiram/card.webp",
+            "url": "CZ-machupicchu-hiram",
+            "categoria": "prêmio"
+        },
+        {
+            "title": "Tour Machu Picchu pela Rota Amazônica",
+            "description": "Chegue a Machu Picchu por uma rota alternativa que combina uma viagem rodoviária, uma caminhada ao longo do rio Vilcanota e paisagens de selva.",
+            "price": "0",
+            "duracion": "2Dias / 1Noites",
+            "image": "tours/machupicchu/amazonico/card.webp",
+            "url": "CZ-machupicchu-amazonico",
+            "categoria": "aventura"
+        }
+    ],
+    "brochure": "",
+    "map": "",
+    "video": "",
+    "categories": {}
+}

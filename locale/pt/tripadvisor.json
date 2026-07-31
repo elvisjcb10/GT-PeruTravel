@@ -2,7 +2,8 @@
     "title_primary": "Recomendados",
     "title_secondary": "no TripAdvisor",
     "subtitle": "Avaliações reais de viajantes que desfrutaram de nossos passeios",
-    "slides": [{
+    "slides": [
+        {
             "nombre": "LUCIA C",
             "texto": "Foi uma experiência muito agradável ser guiada pela GT Peru Travel. Desde o momento em que os contatamos pelo WhatsApp, eles nos forneceram todas as informações necessárias para que nossa estadia nos lugares visitados fosse tranquila.",
             "fecha": "SETEMBRO 2025",
@@ -62,5 +63,6 @@
             "fecha": "SETEMBRO 2025",
             "img": "natalia-d.png"
         }
-    ]
+    ],
+    "kicker": "Opiniões reais"
 }

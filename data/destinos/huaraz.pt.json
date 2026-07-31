@@ -1,0 +1,88 @@
+{
+    "background": "/images/destinos/huaraz/huaraz.webp",
+    "badge": "Destino",
+    "titulo": "Passeios em Huaraz",
+    "descripcion": "Descubra a capital do trekking da América do Sul, cercada pela Cordilheira Branca, a cordilheira tropical mais alta do mundo.",
+    "stats": [
+        {
+            "icono": "fa-mountain",
+            "numero": "20+",
+            "titulo": "Destinos"
+        },
+        {
+            "icono": "fa-people-group",
+            "numero": "5K+",
+            "titulo": "Viajantes"
+        },
+        {
+            "icono": "fa-star",
+            "numero": "4.9",
+            "titulo": "Avaliação"
+        },
+        {
+            "icono": "fa-globe",
+            "numero": "10+",
+            "titulo": "Anos de Exp."
+        }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.8",
+        "texto": "+110 viajantes"
+    },
+    "filtros": [
+        {
+            "id": "todos",
+            "label": "tudo"
+        },
+        {
+            "id": "tradicionales",
+            "label": "Tradicional"
+        },
+        {
+            "id": "aventura",
+            "label": "Aventura"
+        },
+        {
+            "id": "caminata",
+            "label": "Caminhada"
+        }
+    ],
+    "tours": [
+        {
+            "title": "Lagoa 69",
+            "description": "Caminhe até uma das lagoas mais impressionantes do Peru, com águas azul-turquesa cercadas por geleiras.",
+            "price": "40",
+            "duracion": "1Dia / 0Noites",
+            "image": "laguna-69.jpg",
+            "url": "laguna-69",
+            "categoria": "caminhada"
+        },
+        {
+            "title": "Lagoa Churup",
+            "description": "Caminhada moderadamente difícil até uma lagoa glacial cercada por imponentes picos cobertos de neve.",
+            "price": "30",
+            "duracion": "1Dia / 0Noites",
+            "image": "laguna-churup.jpg",
+            "url": "laguna-churup",
+            "categoria": "caminhada"
+        },
+        {
+            "title": "Beco Huaylas",
+            "description": "Passeie pelas cidades e paisagens do Callejón de Huaylas, com vista para as montanhas cobertas de neve da Cordilheira Branca.",
+            "price": "45",
+            "duracion": "1Dia / 0Noites",
+            "image": "callejon-huaylas.jpg",
+            "url": "callejon-huaylas",
+            "categoria": "tradicional"
+        },
+        {
+            "title": "Trekking Santa Cruz 4 Dias",
+            "description": "Uma das caminhadas mais famosas da América do Sul, atravessando a Cordilheira Branca entre picos de mais de 6.000 metros acima do nível do mar.",
+            "price": "320",
+            "duracion": "4Dias / 3Noites",
+            "image": "santa-cruz-trek.jpg",
+            "url": "santa-cruz-trek",
+            "categoria": "aventura"
+        }
+    ]
+}

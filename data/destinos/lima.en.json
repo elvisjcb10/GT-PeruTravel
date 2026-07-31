@@ -1,0 +1,97 @@
+{
+    "background": "/images/destinos/lima/lima.webp",
+    "badge": "Destination",
+    "titulo": "Tours in Lima",
+    "descripcion": "Discover the gastronomic capital of South America, its historic colonial center and the vibrant Pacific coast. Everything you need to know before you leave.",
+    "stats": [
+        {
+            "icono": "fa-mountain",
+            "numero": "40+",
+            "titulo": "Destinations"
+        },
+        {
+            "icono": "fa-people-group",
+            "numero": "8K+",
+            "titulo": "Travelers"
+        },
+        {
+            "icono": "fa-star",
+            "numero": "4.8",
+            "titulo": "Rating"
+        },
+        {
+            "icono": "fa-globe",
+            "numero": "10+",
+            "titulo": "Years of Exp."
+        }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.6",
+        "texto": "+150 Travelers"
+    },
+    "filtros": [
+        {
+            "id": "todos",
+            "label": "all"
+        },
+        {
+            "id": "tradicionales",
+            "label": "Traditional"
+        },
+        {
+            "id": "aventura",
+            "label": "Adventure"
+        },
+        {
+            "id": "caminata",
+            "label": "Hike"
+        }
+    ],
+    "tours": [
+        {
+            "title": "Colonial Lima City Tour",
+            "description": "Tour the historic center of Lima, its colonial churches and the Plaza Mayor, declared a World Heritage Site.",
+            "price": "35",
+            "duracion": "1Day / 0Nights",
+            "image": "lima-colonial.jpg",
+            "url": "lima-colonial",
+            "categoria": "traditional"
+        },
+        {
+            "title": "Lima Gastronomic Tour",
+            "description": "Discover why Lima is considered the gastronomic capital of South America, with tastings at local markets and restaurants.",
+            "price": "65",
+            "duracion": "1Day / 0Nights",
+            "image": "lima-gastronomico.jpg",
+            "url": "lima-gastronomico",
+            "categoria": "traditional"
+        },
+        {
+            "title": "Miraflores and Barranco",
+            "description": "Explore the Miraflores Malecón, the Parque del Amor and the bohemian district of Barranco with its famous Bridge of Sighs.",
+            "price": "40",
+            "duracion": "1Day / 0Nights",
+            "image": "miraflores-barranco.jpg",
+            "url": "miraflores-barranco",
+            "categoria": "traditional"
+        },
+        {
+            "title": "Palomino Islands",
+            "description": "Swim alongside sea lions in their natural habitat off the coast of Callao.",
+            "price": "85",
+            "duracion": "1Day / 0Nights",
+            "image": "islas-palomino.jpg",
+            "url": "islas-palomino",
+            "categoria": "adventure"
+        },
+        {
+            "title": "Pachacamac Full Day",
+            "description": "Visit the most important pre-Inca archaeological sanctuary on the central coast of Peru.",
+            "price": "45",
+            "duracion": "1Day / 0Nights",
+            "image": "pachacamac.jpg",
+            "url": "pachacamac",
+            "categoria": "hike"
+        }
+    ]
+}

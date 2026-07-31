@@ -1,0 +1,198 @@
+{
+    "title": "City tour em Cusco meio dia",
+    "short_description": "Descubra a grandeza da capital inca visitando Qorikancha, Sacsayhuamán, Qenqo, Puka Pukara e Tambomachay em um fascinante passeio cultural.",
+    "long_description": "O City Tour Cusco – Meio Dia é um passeio cultural que convida você a conhecer os principais monumentos históricos e arqueológicos da antiga capital de Tahuantinsuyo. Através deste circuito você conhecerá alguns dos espaços mais representativos do legado Inca, onde a arquitetura, a engenharia e a visão de mundo andina ainda permanecem presentes.<br/><br/>A experiência começa com uma visita ao Qorikancha, considerado o templo mais importante do Império Inca e antigo centro de culto dedicado ao Sol. Posteriormente, o passeio continua pelos complexos arqueológicos de Sacsayhuamán, Qenqo, Puka Pukara e Tambomachay, localizados nos arredores da cidade de Cusco e intimamente relacionados com a organização política, religiosa e cerimonial do mundo andino.<br/><br/>Acompanhado por um guia profissional, você conhecerá a história, o significado e a importância de cada local enquanto desfruta de um passeio que combina patrimônio arqueológico, paisagens andinas e cultura viva. É uma excelente opção para quem visita Cusco pela primeira vez e quer compreender a grandeza da civilização Inca através dos seus monumentos mais emblemáticos.",
+    "duration": "Meio dia (5 horas)",
+    "image_cover": "city-tour/city-tour-md/hero.webp",
+    "gallery": [
+        "city-tour/city-tour-md/galeria1.webp",
+        "city-tour/city-tour-md/galeria2.webp",
+        "city-tour/city-tour-md/galeria3.webp",
+        "city-tour/city-tour-md/galeria4.webp"
+    ],
+    "price": "0",
+    "price_note": "Inclui retirada no hotel, transporte turístico e guia profissional bilíngue. Não inclui ingressos nem Bilhete Turístico de Cusco (BTC).",
+    "seo_title": "City Tour Cusco Meio Dia - Qorikancha e Sacsayhuamán | GT Peru Viagens",
+    "seo_description": "Explore os principais complexos arqueológicos de Cusco em meio dia: Qorikancha, Sacsayhuamán, Qenqo, Puka Pukara e Tambomachay com um guia profissional.",
+    "seo_keywords": "city tour cusco, qorikancha, sacsayhuaman, qenqo, puka pukara, tambomachay, bilhete turístico de cusco, passeio arqueológico de cusco, gt peru travel",
+    "resumen": {
+        "ubicacion": "Cidade de Cusco e parque arqueológico circundante, região de Cusco",
+        "lugar_recojo": "Hotéis localizados no Centro Histórico de Cusco",
+        "lugar_finalizacion": "Centro Histórico de Cusco",
+        "idiomas": [
+            "Espanhol",
+            "Inglês",
+            "Português"
+        ],
+        "transporte": [
+            "Transporte turístico durante todo o passeio"
+        ],
+        "alimentacion": "Não inclui",
+        "alojamiento": "Não inclui",
+        "altitud": "3.700 m acima. n. m."
+    },
+    "caracteristicas": [
+        {
+            "icono": "fa-person-hiking",
+            "label": "Dificuldade",
+            "valor": "Fácil"
+        },
+        {
+            "icono": "fa-clock",
+            "label": "Duração",
+            "valor": "Meio dia"
+        },
+        {
+            "icono": "fa-people-group",
+            "label": "Serviço",
+            "valor": "Grupo / Privado"
+        },
+        {
+            "icono": "fa-mountain",
+            "label": "Altitude Máxima",
+            "valor": "3.700 metros acima do nível do mar"
+        }
+    ],
+    "actividades": [
+        "Visita guiada ao lendário Templo do Sol (Qorikancha)",
+        "Passeio pelas imponentes muralhas megalíticas de Sacsayhuamán",
+        "Exploração do centro cerimonial e labirinto de Qenqo",
+        "Visita à fortaleza inca e posto de controle de Puka Pukara",
+        "Observação de fontes de água e engenharia hidráulica em Tambomachay"
+    ],
+    "days": [
+        {
+            "title": "Dia 1: Qorikancha – Sacsayhuamán – Qenqo – Puka Pukara – Tambomachay",
+            "lugar": "Cusco → Qorikancha → Sacsayhuamán → Tambomachay → Cusco",
+            "text": "O passeio começa com o embarque em seu hotel para ir a Qorikancha, antigo Templo do Sol e um dos centros religiosos mais importantes do Império Inca. Durante a visita conheceremos a importância que este local teve dentro da visão de mundo andina, além de apreciar a integração entre a arquitetura inca e colonial que caracteriza este emblemático monumento.<br/><br/>Mais tarde passaremos para Sacsayhuamán, um dos complexos arqueológicos mais representativos de Cusco, reconhecido por suas impressionantes paredes de pedra e sua extraordinária engenharia de construção. Continuaremos em direção a Qenqo, centro cerimonial associado às atividades religiosas e rituais da época Inca.<br/><br/>O passeio continua com uma visita a Puka Pukara, antigo posto de controle estrategicamente localizado na entrada da cidade de Cusco. Finalmente visitaremos Tambomachay, sítio arqueológico famoso por seus canais e fontes de água, considerado um dos melhores exemplos da engenharia hidráulica desenvolvida pelos Incas.<br/><br/>Ao final da visita retornaremos à cidade de Cusco, concluindo um passeio que nos permite conhecer alguns dos principais monumentos arqueológicos que fizeram parte do legado histórico e cultural do antigo Império Inca."
+        }
+    ],
+    "includes": [
+        "Pick up em hotéis localizados no Centro Histórico de Cusco (de acordo com o serviço contratado)",
+        "Transporte turístico durante todo o passeio",
+        "Guia profissional bilíngue (espanhol e inglês)",
+        "Assistência permanente durante o passeio"
+    ],
+    "not_includes": [
+        "Bilhete Turístico de Cusco (BTC), necessário para Sacsayhuamán, Qenqo, Puka Pukara e Tambomachay",
+        "Bilhete de entrada para Qorikancha",
+        "Alimentos e bebidas",
+        "Despesas pessoais e gorjetas",
+        "seguro de viagem",
+        "Serviços não mencionados expressamente no programa"
+    ],
+    "recommendations": [
+        {
+            "img": "pasaporte.webp",
+            "nombre": "Documento de identidade original ou passaporte"
+        },
+        {
+            "img": "boleto-turistico.webp",
+            "nombre": "Bilhete Turístico de Cusco e entrada para Qorikancha"
+        },
+        {
+            "img": "casaca-ligera.webp",
+            "nombre": "Casaco leve ou impermeável dependendo da estação"
+        },
+        {
+            "img": "calzado-deportivo.webp",
+            "nombre": "Sapatos confortáveis para caminhar"
+        },
+        {
+            "img": "gorra.webp",
+            "nombre": "Chapéu ou boné de sol"
+        },
+        {
+            "img": "bloqueador.webp",
+            "nombre": "Protetor solar e óculos de sol"
+        },
+        {
+            "img": "botella-agua.webp",
+            "nombre": "Garrafa de água reutilizável"
+        },
+        {
+            "img": "dinero-efectivo.webp",
+            "nombre": "Dinheiro (Soles) para receitas e compras"
+        }
+    ],
+    "recomendaciones_generales": {
+        "antes_de_viajar": [
+            "Recomenda-se fazer este passeio durante seus primeiros dias em Cusco para uma adequada aclimatação.",
+            "Certifique-se de ter o Bilhete Turístico de Cusco (BTC) e a entrada para Qorikancha",
+            "Use roupa confortável e calçado adequado para caminhadas curtas em caminhos de pedra",
+            "Mantenha-se hidratado e caminhe em um ritmo confortável durante o passeio",
+            "Respeite as estruturas Incas evitando tocar ou subir nas paredes de pedra"
+        ]
+    },
+    "faq": [
+        {
+            "pregunta": "Quais lugares são visitados durante o City Tour em Cusco?",
+            "respuesta": "O passeio inclui uma visita ao Templo Qorikancha, Sacsayhuamán, Qenqo, Puka Pukara e Tambomachay."
+        },
+        {
+            "pregunta": "Quanto tempo dura o City Tour?",
+            "respuesta": "O passeio dura aproximadamente 5 horas e pode ser feito no turno da manhã (8h30) ou da tarde (13h)."
+        },
+        {
+            "pregunta": "É necessário comprar o Bilhete Turístico de Cusco?",
+            "respuesta": "Sim. O Bilhete Turístico de Cusco (BTC) é obrigatório para entrar em Sacsayhuamán, Qenqo, Puka Pukara e Tambomachay. O ingresso para o Qorikancha é adquirido separadamente, diretamente na entrada."
+        },
+        {
+            "pregunta": "O passeio é recomendado para crianças e idosos?",
+            "respuesta": "Sim. Graças ao seu baixo nível de dificuldade e às caminhadas curtas, é uma atividade adequada para toda a família."
+        },
+        {
+            "pregunta": "Que roupas devo usar para o passeio?",
+            "respuesta": "Recomenda-se o uso de roupas confortáveis em camadas, calçado de caminhada, protetor solar, chapéu e jaqueta leve ou à prova de vento."
+        },
+        {
+            "pregunta": "Quais idiomas estão disponíveis durante o passeio?",
+            "respuesta": "O passeio é oferecido com guia profissional em espanhol, inglês ou português."
+        },
+        {
+            "pregunta": "Qual o melhor horário para fazer o City Tour?",
+            "respuesta": "Está disponível durante todo o ano, embora a estação seca (abril a outubro) ofereça dias mais claros."
+        },
+        {
+            "pregunta": "O que torna o City Tour em Cusco especial?",
+            "respuesta": "Oferece a introdução perfeita à história Inca, permitindo explorar em apenas algumas horas os mais importantes templos e centros administrativos que cercam a cidade sagrada de Cusco."
+        }
+    ],
+    "tours_relacionados": [
+        {
+            "title": "Tour Vale Sagrado dos Incas",
+            "description": "Explore Pisac, Ollantaytambo e Chinchero em uma excursão de dia inteiro.",
+            "price": "0",
+            "duracion": "Dia inteiro",
+            "image": "valle-sagrado/valle-sagrado-cover.jpg",
+            "url": "valle-sagrado-full-day"
+        },
+        {
+            "title": "Excursão Vale Sul de Cusco",
+            "description": "Conheça Tipón, Pikillacta e a igreja colonial de Andahuaylillas.",
+            "price": "0",
+            "duracion": "Meio dia",
+            "image": "valle-sur/valle-sur-cover.jpg",
+            "url": "valle-sur-cusco"
+        }
+    ],
+    "brochure": "",
+    "map": "",
+    "video": "",
+    "categories": {
+        "grupal": {
+            "titulo": "CITY TOUR CUSCO MEIO DIA - SERVIÇO DE GRUPO",
+            "precio": "0",
+            "descripcion": "Serviço compartilhado com outros viajantes.",
+            "nota": "Inclui coleta, transporte turístico e guia profissional bilíngue",
+            "descuento": 0
+        },
+        "privado": {
+            "titulo": "CITY TOUR CUSCO MEIO DIA - SERVIÇO PRIVADO",
+            "precio": "0",
+            "descripcion": "Atendimento exclusivo apenas para o seu grupo.",
+            "nota": "Inclui retirada no hotel, transporte privado e guia oficial exclusivo",
+            "descuento": 0
+        }
+    }
+}

@@ -1,0 +1,174 @@
+{
+    "title": "Tour Místico em Cusco Dia Inteiro",
+    "short_description": "Explore a Morada dos Deuses, o Vale dos Duendes, o Pântano Huasao e o Parque de los Ents em um passeio alternativo cheio de arte, escultura monumental e natureza.",
+    "long_description": "O Passeio Místico em Cusco – Dia Inteiro é uma experiência que combina arte, natureza e tradições andinas através de um passeio por alguns dos lugares mais singulares da cidade. Este programa convida você a descobrir espaços que refletem a riqueza cultural de Cusco sob uma perspectiva diferente, ideal para quem quer fugir dos roteiros turísticos convencionais.<br/><br/>Durante o passeio você visitará a Morada dos Deuses (Apukunaq Tianan), um impressionante conjunto de esculturas monumentais esculpidas na rocha que representam divindades e personagens da visão de mundo andina. A experiência continua no Vale dos Duendes, um local rodeado de paisagens naturais, e depois segue para o Pantanal Huasao e o Parque de los Ents, dois espaços que combinam natureza, arte e lazer num ambiente tranquilo.<br/><br/>Acompanhado por um guia profissional, você conhecerá a história e o significado de cada lugar enquanto desfruta de um passeio pensado para se conectar com a essência cultural e natural de Cusco.",
+    "duration": "1 dia",
+    "image_cover": "mistico/mistico-fd/hero.webp",
+    "gallery": [
+        "mistico/mistico-fd/galeria1.webp",
+        "mistico/mistico-fd/galeria2.webp",
+        "mistico/mistico-fd/galeria3.webp",
+        "mistico/mistico-fd/galeria4.webp"
+    ],
+    "price": "0",
+    "price_note": "Inclui transporte turístico, guia profissional bilíngue, almoço em restaurante local, kit de primeiros socorros e oxigênio portátil.",
+    "seo_title": "Tour Místico em Cusco Dia Inteiro - Morada dos Deuses e Huasao | GT Peru Viagens",
+    "seo_description": "Descubra o passeio místico em Cusco: Apukunaq Tianan, Vale dos Duendes, Pantanal Huasao e Parque de los Ents. Uma rota alternativa cultural e natural.",
+    "seo_keywords": "tour místico de cusco, morada dos deuses, apukunaq tianan, vale dos duendes, pantanal de huasao, parque dos ents, turismo alternativo cusco, gt peru travel",
+    "resumen": {
+        "ubicacion": "Arredores do Vale Sul e Cusco, Região de Cusco",
+        "lugar_recojo": "Hotéis localizados no Centro Histórico de Cusco ou ponto coordenado",
+        "lugar_finalizacion": "Centro Histórico de Cusco",
+        "idiomas": [
+            "Espanhol",
+            "Inglês",
+            "Português"
+        ],
+        "transporte": [
+            "Transporte turístico durante todo o passeio"
+        ],
+        "alimentacion": "Almoço em restaurante local (de acordo com programa contratado)",
+        "alojamiento": "Não inclui",
+        "altitud": "3.950 m acima do nível do mar n. m."
+    },
+    "caracteristicas": [
+        {
+            "icono": "fa-person-hiking",
+            "label": "Dificuldade",
+            "valor": "Fácil"
+        },
+        {
+            "icono": "fa-clock",
+            "label": "Duração",
+            "valor": "Dia inteiro"
+        },
+        {
+            "icono": "fa-people-group",
+            "label": "Serviço",
+            "valor": "Privado"
+        },
+        {
+            "icono": "fa-mountain",
+            "label": "Altitude Máxima",
+            "valor": "3.950 metros acima do nível do mar"
+        }
+    ],
+    "actividades": [
+        "Tour pelas gigantescas esculturas da Morada dos Deuses (Apukunaq Tianan)",
+        "Caminhe pelas formações do Vale dos Duendes",
+        "Observação de flora e fauna no Pantanal de Huasao",
+        "Visita temática ao Parque Ents",
+        "Fotografia artística e de paisagem em ambientes naturais"
+    ],
+    "days": [
+        {
+            "title": "Dia 1: Morada dos Deuses – Vale dos Duendes – Pantanal Huasao – Parque de los Ents",
+            "lugar": "Cusco → Apukunaq Tianan → Huasao → Cusco",
+            "text": "O passeio começa com o embarque em seu hotel ou no ponto de encontro previamente coordenado na cidade de Cusco. Nossa primeira visita será à Morada dos Deuses (Apukunaq Tianan), um espaço artístico onde enormes esculturas esculpidas na rocha representam personagens e divindades da cosmovisão andina. Durante o passeio, o guia compartilhará informações sobre o significado dessas obras e você terá tempo para passear pelo local e tirar fotos.<br/><br/>Continuaremos em direção ao Vale dos Duendes, um atrativo rodeado de natureza que se destaca pelas suas formações e pelo ambiente tranquilo que o caracteriza. Após a visita iremos a um restaurante local para almoçar e continuaremos o passeio.<br/><br/>À tarde visitaremos o Pantanal Huasao, um ecossistema natural reconhecido pela sua biodiversidade e por ser um importante refúgio para diversas espécies de flora e fauna. Por fim, visitaremos o Parque de los Ents, um espaço temático inspirado em personagens fantásticos, onde a arte e a natureza se integram num ambiente ideal para explorar, relaxar e tirar fotografias.<br/><br/>Ao final das atividades retornaremos à cidade de Cusco, concluindo esta experiência com a chegada ao Centro Histórico à tarde."
+        }
+    ],
+    "includes": [
+        "Pick up em hotéis localizados no Centro Histórico de Cusco ou ponto coordenado",
+        "Transporte turístico durante todo o passeio",
+        "Guia profissional em espanhol ou inglês (português mediante solicitação)",
+        "Almoço em restaurante local (de acordo com programa contratado)",
+        "Kit básico de primeiros socorros",
+        "Oxigênio portátil para cuidados preventivos",
+        "Assistência permanente ao longo da experiência"
+    ],
+    "not_includes": [
+        "Bilhetes de entrada nas atrações turísticas visitadas",
+        "Bebidas e alimentos não especificados no programa",
+        "despesas pessoais",
+        "Dicas",
+        "seguro de viagem",
+        "Serviços não mencionados expressamente no programa"
+    ],
+    "recommendations": [
+        {
+            "img": "pasaporte.webp",
+            "nombre": "Documento de identidade original ou passaporte"
+        },
+        {
+            "img": "casaca-ligera.webp",
+            "nombre": "Roupas confortáveis e jaqueta leve ou impermeável"
+        },
+        {
+            "img": "calzado-deportivo.webp",
+            "nombre": "Calçados esportivos ou leves para trekking"
+        },
+        {
+            "img": "gorra.webp",
+            "nombre": "Chapéu ou boné de sol"
+        },
+        {
+            "img": "bloqueador.webp",
+            "nombre": "Protetor solar e óculos de sol"
+        },
+        {
+            "img": "botella-agua.webp",
+            "nombre": "Garrafa de água reutilizável"
+        },
+        {
+            "img": "camara.webp",
+            "nombre": "Câmera ou celular"
+        },
+        {
+            "img": "dinero-efectivo.webp",
+            "nombre": "Dinheiro para renda e compras"
+        }
+    ],
+    "recomendaciones_generales": {
+        "antes_de_viajar": [
+            "Recomenda-se passar pelo menos um dia em Cusco para aclimatação prévia.",
+            "Use roupas confortáveis adequadas para caminhadas curtas ao ar livre",
+            "Mantenha hidratação constante durante toda a viagem",
+            "Traga bateria suficiente em sua câmera ou telefone para fotografar as esculturas",
+            "Respeite a natureza e não deixe resíduos nos destinos visitados"
+        ]
+    },
+    "faq": [
+        {
+            "pregunta": "O passeio tem um alto nível de dificuldade?",
+            "respuesta": "O percurso tem um nível de dificuldade fácil, pelo que é adequado a pessoas de diferentes idades que possam realizar caminhadas curtas e de pouca procura."
+        },
+        {
+            "pregunta": "Os ingressos para as atrações estão incluídos?",
+            "respuesta": "Não. As entradas para as diferentes atrações turísticas são adquiridas separadamente em cada posto de controle e não fazem parte do preço do passeio, salvo indicação em contrário."
+        },
+        {
+            "pregunta": "Que roupa é recomendada para usar?",
+            "respuesta": "Recomenda-se usar roupas confortáveis, calçados esportivos ou leves para trekking, além de levar jaqueta para mudanças de temperatura, chapéu ou boné, protetor solar e garrafa de água."
+        }
+    ],
+    "tours_relacionados": [
+        {
+            "title": "Excursão Vale Sul de Cusco",
+            "description": "Explore Tipón, Pikillacta e a Capela Sistina da América em Andahuaylillas.",
+            "price": "0",
+            "duracion": "Meio dia",
+            "image": "valle-sur/valle-sur-cover.jpg",
+            "url": "valle-sur-cusco"
+        },
+        {
+            "title": "City Tour Cusco",
+            "description": "Visite Sacsayhuamán, Qenqo, Puka Pukara, Tambomachay e Coricancha.",
+            "price": "0",
+            "duracion": "Meio dia",
+            "image": "city-tour/city-tour-cover.jpg",
+            "url": "city-tour-cusco"
+        }
+    ],
+    "brochure": "",
+    "map": "",
+    "video": "",
+    "categories": {
+        "privado": {
+            "titulo": "TOUR MÍSTICO EM CUSCO DIA INTEIRO - SERVIÇO PRIVADO",
+            "precio": "0",
+            "descripcion": "Atendimento exclusivo apenas para o seu grupo (mínimo 2 pessoas).",
+            "nota": "Inclui transporte privado, guia bilíngue, almoço e kit de saúde preventiva",
+            "descuento": 0
+        }
+    }
+}

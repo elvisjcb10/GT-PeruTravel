@@ -10,7 +10,7 @@ $form = json_decode(file_get_contents($form_path), true);
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.21/css/intlTelInput.css">
 
 
-<form id="formulario-contacto" action="/mail/enviar.php" method="POST" class="bg-gray-50 p-6 rounded-2xl shadow-lg">
+<form id="formulario-contacto" action="/mail/enviar.php" method="POST" class="tour-contact-form min-w-0 bg-gray-50 p-4 sm:p-6 rounded-2xl shadow-lg">
 
     <input type="hidden" name="tipo_formulario" value="<?= $tipo_formulario ?>">
     <input type="hidden" name="paquete" value="<?= $data['title'] ?? '' ?>">
@@ -30,42 +30,42 @@ $form = json_decode(file_get_contents($form_path), true);
             <?= $form['nombre'] ?>
         </label>
         <input name="nombre" type="text" placeholder="<?= $form['nombre-placeholder'] ?>"
-            class="text-gray-900 border border-gray-300 p-2 rounded-md w-full focus:ring-2 focus:ring-[#ff9300] focus:outline-none font-poppins">
+            class="min-h-11 text-base text-gray-900 border border-gray-300 px-3 py-2 rounded-md w-full focus:ring-2 focus:ring-[#ff9300] focus:outline-none font-poppins">
 
         <label class="text-sm text-gray-600 font-medium font-poppins">
             <?= $form['numero'] ?>
         </label>
         <input id="telefono" name="numero" type="tel" autocomplete="tel" placeholder="<?= $form['numero-placeholder'] ?>"
-            class="text-gray-900 border border-gray-300 p-2 rounded-md w-full focus:ring-2 focus:ring-[#ff9300] focus:outline-none font-poppins">
+            class="min-h-11 text-base text-gray-900 border border-gray-300 px-3 py-2 rounded-md w-full focus:ring-2 focus:ring-[#ff9300] focus:outline-none font-poppins">
 
         <label class="text-sm text-gray-600 font-medium font-poppins">
             <?= $form['correo'] ?>
         </label>
         <input name="correo" type="email" placeholder="<?= $form['correo-placeholder'] ?>"
-            class="text-gray-900 border border-gray-300 p-2 rounded-md w-full focus:ring-2 focus:ring-[#ff9300] focus:outline-none font-poppins">
+            class="min-h-11 text-base text-gray-900 border border-gray-300 px-3 py-2 rounded-md w-full focus:ring-2 focus:ring-[#ff9300] focus:outline-none font-poppins">
 
         <label class="text-sm text-gray-600 font-medium font-poppins">
             <?= $form['fecha'] ?>
         </label>
         <input id="fecha" name="fecha" type="date"
-            class="border border-gray-300 p-2 rounded-md w-full focus:ring-2 focus:ring-[#ff9300] focus:outline-none text-black font-poppins">
+            class="min-h-11 text-base border border-gray-300 px-3 py-2 rounded-md w-full focus:ring-2 focus:ring-[#ff9300] focus:outline-none text-black font-poppins">
 
         <label class="text-sm text-gray-600 font-medium font-poppins">
             <?= $form['mensaje'] ?>
         </label>
         <textarea name="mensaje" placeholder="<?= $form['mensaje-placeholder'] ?>"
-            class="text-gray-900 border border-gray-300 p-2 rounded-md w-full focus:ring-2 focus:ring-[#ff9300] focus:outline-none font-poppins"></textarea>
+            class="min-h-28 resize-y text-base text-gray-900 border border-gray-300 px-3 py-2 rounded-md w-full focus:ring-2 focus:ring-[#ff9300] focus:outline-none font-poppins"></textarea>
 
     </div>
 
     <!-- Google reCAPTCHA -->
-    <div class="w-full flex justify-center mt-4">
+    <div class="contact-recaptcha w-full flex justify-center mt-4 overflow-hidden">
         <div class="g-recaptcha" data-sitekey="6LdyCx4sAAAAAELQ_dpHqqj8_LjMaqWA4wa4ZiTF"></div>
     </div>
 
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-    <button class="bg-[#ff9300] hover:bg-[#ff7a00] text-white w-full mt-5 py-3 rounded-md  font-poppins font-bold transition">
+    <button type="submit" class="min-h-12 bg-[#ff9300] hover:bg-[#ff7a00] text-white w-full mt-5 px-4 py-3 rounded-md font-poppins font-bold transition">
         <?= $form['boton'] ?>
     </button>
 

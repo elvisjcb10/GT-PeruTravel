@@ -1,4 +1,0 @@
-[11-May-2025 02:10:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/sunrenpj/gtperutravel.com/blog/wp-admin/includes/file.php:16
-Stack trace:
-#0 {main}
-  thrown in /home/sunrenpj/gtperutravel.com/blog/wp-admin/includes/file.php on line 16

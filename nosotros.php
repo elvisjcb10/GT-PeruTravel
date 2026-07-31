@@ -9,6 +9,11 @@ if (!in_array($idioma, $allowed)) {
 }
 
 $base_url = ".";
+$about_meta = [
+    'es' => ['title' => 'Sobre nosotros | GT Peru Travel', 'description' => 'Conoce a GT Peru Travel, nuestra historia, equipo, misión, visión y certificaciones.'],
+    'en' => ['title' => 'About Us | GT Peru Travel', 'description' => 'Meet GT Peru Travel and discover our story, team, mission, vision and certifications.'],
+    'pt' => ['title' => 'Sobre nós | GT Peru Travel', 'description' => 'Conheça a GT Peru Travel, nossa história, equipe, missão, visão e certificações.'],
+][$idioma];
 
 $nosotros_path = __DIR__ . "/locale/$idioma/nosotros.json";
 if (!file_exists($nosotros_path)) {
@@ -24,8 +29,8 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Nosotros | GT Peru Travel</title>
-    <meta name="description" content="Conoce a GT Peru Travel, agencia de turismo autorizada con sede en Cusco. Nuestra historia, equipo, misión y certificaciones.">
+    <title><?= htmlspecialchars($about_meta['title']) ?></title>
+    <meta name="description" content="<?= htmlspecialchars($about_meta['description']) ?>">
     <meta name="keywords" content="sobre nosotros, gt peru travel, agencia de turismo cusco, quienes somos, certificaciones turismo peru">
 
     <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
@@ -64,7 +69,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
         <!-- ******************** 
              HERO
          *********************** -->
-        <section class="responsive-hero relative w-full h-[82vh] min-h-[650px] bg-black overflow-hidden">
+        <section class="page-hero page-hero--with-stats responsive-hero relative w-full bg-black overflow-hidden">
 
             <img src="<?= $base_url . $nosotros['hero']['background'] ?>"
                  alt="<?= htmlspecialchars($nosotros['hero']['title_primary'] . ' ' . $nosotros['hero']['title_highlight']) ?>"
@@ -73,7 +78,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
             <div class="absolute inset-0 bg-gradient-to-r from-black/85 via-black/50 to-black/10"></div>
             <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10"></div>
 
-            <div class="relative z-10 h-full flex items-center">
+            <div class="page-hero-content relative z-10 h-full flex items-center">
                 <div class="container-custom px-20 w-full">
                     <div class="max-w-2xl">
 
@@ -95,14 +100,14 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
             </div>
 
             <!-- Trip awards -->
-            <div class="absolute z-10 bottom-24 md:bottom-28 right-4 md:right-10 flex items-center gap-3">
+            <div class="page-hero-awards absolute z-10 bottom-24 md:bottom-28 right-4 md:right-10 flex items-center gap-3">
                 <?php foreach ($nosotros['hero']['trip_awards'] as $award): ?>
                     <img src="<?= $base_url . $award['img'] ?>" alt="<?= htmlspecialchars($award['alt']) ?>" class="h-16 md:h-24">
                 <?php endforeach; ?>
             </div>
 
             <!-- barra de estadísticas -->
-            <div class="absolute bottom-0 left-0 w-full z-10 bg-black/20 backdrop-blur-sm">
+            <div class="page-hero-stats absolute bottom-0 left-0 w-full z-10 bg-black/20 backdrop-blur-sm">
                 <div class="container-custom mx-auto py-5 relative">
                     <div class="flex flex-wrap justify-center gap-y-4 gap-x-20">
                         <?php foreach ($nosotros['hero']['stats'] as $stat): ?>
@@ -175,7 +180,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
         <section class="bg-white py-16">
             <div class="container-custom mx-auto px-4 md:px-20 text-center">
 
-                <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['equipo']['kicker'] ?></p>
+                <p class="section-kicker section-kicker-center text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['equipo']['kicker'] ?></p>
                 <h2 class="text-3xl md:text-4xl font-anton mb-3">
                     <span class="text-gray-900"><?= $nosotros['equipo']['title_primary'] ?></span>
                     <span class="text-orange-custom"><?= $nosotros['equipo']['title_secondary'] ?></span>
@@ -206,7 +211,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
         <section class="bg-[#faf9f7] py-16">
             <div class="container-custom mx-auto px-4 md:px-20 text-center">
 
-                <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['ventajas']['kicker'] ?></p>
+                <p class="section-kicker section-kicker-center text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['ventajas']['kicker'] ?></p>
                 <h2 class="text-3xl md:text-4xl font-anton mb-3">
                     <span class="text-gray-900"><?= $nosotros['ventajas']['title_primary'] ?></span>
                     <span class="text-orange-custom"><?= $nosotros['ventajas']['title_secondary'] ?></span>
@@ -240,7 +245,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
             <div class="relative z-10 container-custom mx-auto px-4 md:px-20">
 
                 <div class="text-center mb-12">
-                    <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['historia']['kicker'] ?></p>
+                    <p class="section-kicker section-kicker-center text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['historia']['kicker'] ?></p>
                     <h2 class="text-3xl md:text-4xl font-anton mb-3">
                         <span class="text-white"><?= $nosotros['historia']['title_primary'] ?></span>
                         <span class="text-orange-custom"><?= $nosotros['historia']['title_highlight'] ?></span>
@@ -279,7 +284,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
         <section class="bg-white py-16">
             <div class="container-custom mx-auto px-4 md:px-20 text-center">
 
-                <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['mision_vision']['kicker'] ?></p>
+                <p class="section-kicker section-kicker-center text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['mision_vision']['kicker'] ?></p>
                 <h2 class="text-3xl md:text-4xl font-anton mb-3">
                     <span class="text-gray-900"><?= $nosotros['mision_vision']['title_primary'] ?></span>
                     <span class="text-orange-custom"><?= $nosotros['mision_vision']['title_highlight'] ?></span>
@@ -320,8 +325,73 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
         $our_brands_json_path = __DIR__ . "/locale/$idioma/our_brands.json";
         $our_brands = file_exists($our_brands_json_path) ? json_decode(file_get_contents($our_brands_json_path), true) : null;
         ?>
-        <?php if ($company): ?>
-        <!-- Inserta aquí tu bloque de "nuestras-marcas" + "company" ya construido en el home.php -->
+        <?php
+        $alianzas_textos = [
+            'es' => ['kicker' => 'Trabajamos juntos', 'titulo_1' => 'Nuestras', 'titulo_2' => 'Alianzas', 'descripcion' => 'Colaboramos con marcas especializadas que comparten nuestros valores de calidad, seguridad y compromiso.'],
+            'en' => ['kicker' => 'We work together', 'titulo_1' => 'Our', 'titulo_2' => 'Partners', 'descripcion' => 'We collaborate with specialized brands that share our values of quality, safety and commitment.'],
+            'pt' => ['kicker' => 'Trabalhamos juntos', 'titulo_1' => 'Nossas', 'titulo_2' => 'Parcerias', 'descripcion' => 'Colaboramos com marcas especializadas que compartilham nossos valores de qualidade, segurança e compromisso.'],
+        ][$idioma] ?? null;
+        $alianzas_logos = [
+            'palcoyo' => '/images/palcoyo-trekking-logo.png',
+            'gt' => '/images/gt-peru-travel-logo-2.svg',
+            'sunrise' => '/images/logo-sunriseexperiencecusco.png',
+        ];
+        $alianzas_links = [
+            'palcoyo' => 'https://palcoyotrekking.com/',
+            'gt' => 'https://www.gtperutravel.com/',
+            'sunrise' => 'https://sunriseexperiencecusco.com/',
+        ];
+        ?>
+        <?php if ($company && $alianzas_textos): ?>
+        <section class="relative w-full overflow-hidden py-16 md:py-20">
+            <img src="<?= $base_url ?>/images/nosotros/hero.jpg"
+                alt="<?= htmlspecialchars($alianzas_textos['titulo_1'] . ' ' . $alianzas_textos['titulo_2']) ?>"
+                class="absolute inset-0 h-full w-full object-cover">
+            <div class="absolute inset-0 bg-black/75"></div>
+
+            <div class="relative z-10 container-custom mx-auto px-4 sm:px-6 md:px-10 lg:px-20">
+                <div class="mx-auto mb-9 max-w-2xl text-center">
+                    <p class="section-kicker section-kicker-center mb-2 font-poppins text-xs font-bold uppercase tracking-[0.14em] text-orange-custom sm:text-sm">
+                        <?= htmlspecialchars($alianzas_textos['kicker']) ?>
+                    </p>
+                    <h2 class="mb-3 font-anton text-3xl leading-tight text-white md:text-4xl">
+                        <?= htmlspecialchars($alianzas_textos['titulo_1']) ?>
+                        <span class="text-orange-custom"><?= htmlspecialchars($alianzas_textos['titulo_2']) ?></span>
+                    </h2>
+                    <p class="mx-auto max-w-xl font-poppins text-sm leading-6 text-white/70">
+                        <?= htmlspecialchars($alianzas_textos['descripcion']) ?>
+                    </p>
+                </div>
+
+                <div class="mx-auto grid max-w-5xl grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+                    <?php foreach ($company['brands'] as $brand_key => $brand): ?>
+                        <a href="<?= htmlspecialchars($alianzas_links[$brand_key]) ?>"
+                            target="_blank" rel="noopener noreferrer"
+                            aria-label="Visitar <?= htmlspecialchars($brand['title']) ?>"
+                            class="group flex h-full flex-col overflow-hidden rounded-xl border border-white/10 bg-[#242424]/95 shadow-xl transition duration-300 hover:-translate-y-1 hover:border-orange-custom/70 hover:shadow-2xl focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-custom focus-visible:ring-offset-2 focus-visible:ring-offset-black">
+                            <div class="flex h-36 items-center justify-center bg-white p-6 sm:h-40">
+                                <img src="<?= $base_url . ($alianzas_logos[$brand_key] ?? '') ?>"
+                                    alt="<?= htmlspecialchars($brand['title']) ?>"
+                                    class="max-h-24 max-w-full object-contain transition-transform duration-300 group-hover:scale-105">
+                            </div>
+                            <div class="flex flex-1 flex-col p-5 text-center">
+                                <h3 class="mb-2 font-anton text-lg tracking-wide text-orange-custom">
+                                    <?= htmlspecialchars($brand['title']) ?>
+                                </h3>
+                                <p class="mb-5 flex-1 font-poppins text-xs leading-5 text-white/65">
+                                    <?= htmlspecialchars($brand['description']) ?>
+                                </p>
+                                <div class="border-t border-white/10 pt-4">
+                                    <p class="font-poppins text-[0.68rem] text-white/45">
+                                        <?= htmlspecialchars($brand['footer']) ?>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </section>
         <?php endif; ?>
 
         <!-- ******************** 
@@ -334,7 +404,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
 
             <div class="relative z-10 container-custom mx-auto px-4 md:px-20 text-center">
 
-                <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['certificaciones']['kicker'] ?></p>
+                <p class="section-kicker section-kicker-center text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2"><?= $nosotros['certificaciones']['kicker'] ?></p>
                 <h2 class="text-3xl md:text-4xl font-anton mb-3">
                     <span class="text-gray-900"><?= $nosotros['certificaciones']['title_primary'] ?></span>
                     <span class="text-orange-custom"><?= $nosotros['certificaciones']['title_secondary'] ?></span>
@@ -362,7 +432,52 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
         $reconocimientos = file_exists($reconocimientos_json_path) ? json_decode(file_get_contents($reconocimientos_json_path), true) : null;
         ?>
         <?php if ($reconocimientos): ?>
-        <!-- Inserta aquí tu sección "reconocimientos" ya construida previamente -->
+        <section id="reconocimientos" class="relative w-full py-16 md:py-20 overflow-hidden">
+            <img src="<?= $base_url . $reconocimientos['background_img'] ?>"
+                alt="<?= htmlspecialchars($reconocimientos['title_primary'] . ' ' . $reconocimientos['title_secondary']) ?>"
+                class="absolute inset-0 w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black/45"></div>
+
+            <div class="relative z-10 container-custom mx-auto px-4 sm:px-6 md:px-10 lg:px-20">
+                <div class="text-center mb-10 reveal">
+                    <p class="section-kicker section-kicker-center text-orange-custom text-sm md:text-base font-bold font-poppins mb-2">
+                        <?= htmlspecialchars($reconocimientos['kicker']) ?>
+                    </p>
+                    <h2 class="text-3xl md:text-5xl font-anton leading-tight">
+                        <span class="text-white"><?= htmlspecialchars($reconocimientos['title_primary']) ?></span>
+                        <span class="text-orange-custom"><?= htmlspecialchars($reconocimientos['title_secondary']) ?></span>
+                    </h2>
+                </div>
+
+                <div class="flex flex-wrap justify-center gap-6 md:gap-8 mb-12">
+                    <?php foreach ($reconocimientos['certificados'] as $i => $cert): ?>
+                        <div class="flex flex-col items-center w-32 sm:w-36 md:w-40 reveal reveal-delay-<?= ($i % 5) + 1 ?>">
+                            <div class="bg-white rounded-lg shadow-xl overflow-hidden w-full aspect-[3/4]">
+                                <img src="<?= $base_url . $cert['img'] ?>"
+                                    alt="<?= htmlspecialchars($cert['label']) ?>"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <p class="text-orange-custom text-sm md:text-base font-bold font-poppins mt-3 text-center">
+                                <?= htmlspecialchars($cert['label']) ?>
+                            </p>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+
+                <div class="flex flex-wrap items-center justify-center gap-4">
+                    <span class="text-white/70 text-sm font-poppins uppercase tracking-wide text-center">
+                        <?= htmlspecialchars($reconocimientos['pagos']['texto']) ?>
+                    </span>
+                    <div class="flex flex-wrap items-center justify-center gap-3">
+                        <?php foreach ($reconocimientos['pagos']['metodos'] as $metodo): ?>
+                            <img src="<?= $base_url . $metodo['img'] ?>"
+                                alt="<?= htmlspecialchars($metodo['nombre']) ?>"
+                                class="h-8 md:h-9 rounded shadow-sm">
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            </div>
+        </section>
         <?php endif; ?>
 
     </main>
@@ -372,6 +487,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/mobile-menu.js"></script>
     <script src="js/mega-menu.js"></script>
+    <script src="js/scroll-reveal.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,71 @@
+{
+    "background": "/images/machupicchu/hero.webp",
+    "badge": "Destino",
+    "titulo": "Passeios para Machu Picchu",
+    "descripcion": "Descubra a cidadela inca de Machu Picchu com diferentes rotas e experiências: clássico, trem panorâmico, trem de luxo ou rota amazônica.",
+    "stats": [
+        {
+            "icono": "fa-mountain",
+            "numero": "4+",
+            "titulo": "Rotas"
+        },
+        {
+            "icono": "fa-people-group",
+            "numero": "Mais de 15 mil",
+            "titulo": "Viajantes"
+        },
+        {
+            "icono": "fa-star",
+            "numero": "4.9",
+            "titulo": "Avaliação"
+        },
+        {
+            "icono": "fa-globe",
+            "numero": "10+",
+            "titulo": "Anos de Exp."
+        }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.9",
+        "texto": "+300 viajantes"
+    },
+    "filtros": [],
+    "tours": [
+        {
+            "title": "Tour Clássico Machu Picchu",
+            "description": "Descubra os impressionantes laboratórios agrícolas dos Incas em Moray e viva uma experiência gastronómica ancestral única cozinhando no subsolo.",
+            "price": "0",
+            "duracion": "o dia todo",
+            "image": "tours/machupicchu/clasico/card.webp",
+            "url": "CZ-machupicchu-clasico",
+            "categoria": "tradicional"
+        },
+        {
+            "title": "Excursão de trem panorâmico em Machu Picchu Observatório Vistadome",
+            "description": "Combine a viagem a Machu Picchu com um passeio ferroviário panorâmico que mostra as impressionantes paisagens do Vale Sagrado dos Incas.",
+            "price": "0",
+            "duracion": "o dia todo",
+            "image": "tours/machupicchu/panoramico/card.webp",
+            "url": "CZ-machupicchu-panoramico",
+            "categoria": "tradicional"
+        },
+        {
+            "title": "Excursão Machu Picchu pelo trem de luxo Hiram Bingham",
+            "description": "Viva uma experiência exclusiva a bordo do trem mais prestigiado da América do Sul, combinando conforto premium, gastronomia e uma visita a Machu Picchu.",
+            "price": "0",
+            "duracion": "o dia todo",
+            "image": "tours/machupicchu/hiram/card.webp",
+            "url": "CZ-machupicchu-hiram",
+            "categoria": "prêmio"
+        },
+        {
+            "title": "Tour Machu Picchu pela Rota Amazônica",
+            "description": "Chegue a Machu Picchu por uma rota alternativa que combina uma viagem rodoviária, uma caminhada ao longo do rio Vilcanota e paisagens de selva.",
+            "price": "0",
+            "duracion": "2Dias / 1Noites",
+            "image": "tours/machupicchu/amazonico/card.webp",
+            "url": "CZ-machupicchu-amazonico",
+            "categoria": "aventura"
+        }
+    ]
+}

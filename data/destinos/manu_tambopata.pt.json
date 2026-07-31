@@ -1,0 +1,53 @@
+{
+    "background": "/images/destinos/manu/hero.webp",
+    "badge": "Destino",
+    "titulo": "Passeios em Manu Tambopata",
+    "descripcion": "Entre na selva amazônica peruana, uma das reservas da biosfera com maior biodiversidade do planeta.",
+    "stats": [
+        {
+            "icono": "fa-mountain",
+            "numero": "15+",
+            "titulo": "Destinos"
+        },
+        {
+            "icono": "fa-people-group",
+            "numero": "4K+",
+            "titulo": "Viajantes"
+        },
+        {
+            "icono": "fa-star",
+            "numero": "4.9",
+            "titulo": "Avaliação"
+        },
+        {
+            "icono": "fa-globe",
+            "numero": "10+",
+            "titulo": "Anos de Exp."
+        }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.8",
+        "texto": "+90 viajantes"
+    },
+    "filtros": [],
+    "tours": [
+        {
+            "title": "Parque Nacional Manu 4D/3N",
+            "description": "Viaje dos Andes à Amazônia: floresta nublada, rio Alto Madre de Dios, lago Machuwasi e lambedor de argila do papagaio em uma expedição de 4 dias.",
+            "price": "0",
+            "duracion": "4Dias / 3Noites",
+            "image": "tours/manu/manu4d/card.webp",
+            "url": "MN-parque-nacional-manu-4d",
+            "categoria": "aventura"
+        },
+        {
+            "title": "Parque Nacional Manu 3D/2N",
+            "description": "Descubra a extraordinária biodiversidade da Amazônia peruana em uma expedição de 3 dias e 2 noites que conecta os Andes à floresta tropical.",
+            "price": "0",
+            "duracion": "3Dias / 2Noites",
+            "image": "tours/manu/manu3d/card.webp",
+            "url": "MN-parque-nacional-manu-3d",
+            "categoria": "aventura"
+        }
+    ]
+}

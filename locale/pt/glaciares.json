@@ -1,0 +1,39 @@
+{
+    "background_img": "/images/glaciares/bg_home.webp",
+    "kicker": "Maravilhas Naturais",
+    "title_primary": "Conheça o",
+    "title_secondary": "Geleiras",
+    "description": "As geleiras dos Andes peruanos são ecossistemas únicos que correm o risco de desaparecer. Testemunhe sua beleza majestosa antes que seja tarde demais.",
+    "stats": {
+        "altitud": {
+            "numero": "4.800 m",
+            "titulo": "Altitude Pastoruri"
+        },
+        "glaciares": {
+            "numero": "18+",
+            "titulo": "Geleiras Ativas"
+        },
+        "eco": {
+            "numero": "100%",
+            "titulo": "Eco-Responsável"
+        }
+    },
+    "boton_primario": "Veja passeios nas geleiras",
+    "boton_secundario": "Ver Experiências",
+    "cards": [
+        {
+            "img": "/images/tours/glaciares/ausangate/card.webp",
+            "nombre": "Ausangate",
+            "descripcion": "A geleira tropical mais acessível do Peru. Uma experiência avassaladora a 4.800 metros acima do nível do mar.",
+            "link_text": "Ver más",
+            "url": "glaciar-ausangate"
+        },
+        {
+            "img": "/images/tours/glaciares/quelccaya/img_header.webp",
+            "nombre": "Quelccaya",
+            "descripcion": "A geleira tropical mais acessível do Peru. Uma experiência avassaladora a 4.800 metros acima do nível do mar.",
+            "link_text": "Ver más",
+            "url": "glaciar-quelccaya"
+        }
+    ]
+}

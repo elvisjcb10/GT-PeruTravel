@@ -1,0 +1,186 @@
+{
+    "title": "Machu Picchu Classic Full Day",
+    "short_description": "Get to know one of the Seven Wonders of the Modern World in a single day. Tour Machu Picchu combining a scenic train trip and a guided tour of its legendary Inca citadel.",
+    "long_description": "The Machu Picchu Classic Full Day Tour is the ideal option for those who want to see one of the most important archaeological wonders in the world in a single day. This tour combines a train ride through the Sacred Valley of the Incas with a guided visit to the Historic Sanctuary of Machu Picchu, declared a UNESCO World Heritage Site and recognized as one of the Seven Wonders of the Modern World.<br/><br/>During the experience you will tour the main sectors open to the assigned circuit, accompanied by a professional guide who will explain the history, architecture and legacy of the Inca civilization. In addition to discovering one of the most emblematic destinations in Peru, you will enjoy impressive Andean landscapes during the train ride and the charm of the town of Machu Picchu Pueblo (Aguas Calientes).",
+    "duration": "1 Day",
+    "image_cover": "machupicchu/clasico/hero.webp",
+    "gallery": [
+        "machupicchu/clasico/galeria1.webp",
+        "machupicchu/clasico/galeria2.webp",
+        "machupicchu/clasico/galeria3.webp",
+        "machupicchu/clasico/galeria4.webp",
+        "machupicchu/clasico/galeria5.webp",
+        "machupicchu/clasico/galeria6.webp"
+    ],
+    "price": "0",
+    "price_note": "Includes tourist transportation, round-trip train tickets, pick-up and drop-off bus, entrance ticket and professional guide.",
+    "seo_title": "Full Day Classic Machu Picchu Tour - Excursion from Cusco | GT Peru Travel",
+    "seo_description": "Discover the Historical Sanctuary of Machu Picchu on a Full Day tour from Cusco. Includes train, Consettur bus, entrance ticket and professional guide.",
+    "seo_keywords": "Machu Picchu full day, Machu Picchu classic tour, train to Machu Picchu, trip to Machu Picchu from Cusco, Aguas Calientes, Peru tourism, GT Peru travel",
+    "resumen": {
+        "ubicacion": "Department of Cusco, Historical Sanctuary of Machu Picchu",
+        "lugar_recojo": "Hotel located within the Historic Center of Cusco",
+        "lugar_finalizacion": "Historic Center of Cusco",
+        "idiomas": [
+            "Spanish",
+            "English",
+            "Portuguese"
+        ],
+        "transporte": [
+            "Tourist transportation Cusco – train station – Cusco",
+            "Round trip tourist train",
+            "Bus up and down between Aguas Calientes and Machu Picchu"
+        ],
+        "alimentacion": "Does not include",
+        "alojamiento": "Does not include",
+        "altitud": "2,430 m above. n. m."
+    },
+    "caracteristicas": [
+        {
+            "icono": "fa-person-hiking",
+            "label": "Difficulty",
+            "valor": "Moderate"
+        },
+        {
+            "icono": "fa-clock",
+            "label": "Duration",
+            "valor": "Full Day"
+        },
+        {
+            "icono": "fa-people-group",
+            "label": "Service",
+            "valor": "Group / Private"
+        },
+        {
+            "icono": "fa-mountain",
+            "label": "Maximum Altitude",
+            "valor": "2,430 meters above sea level"
+        }
+    ],
+    "actividades": [
+        "Train trip through the Sacred Valley of the Incas",
+        "Walk through the town of Aguas Calientes",
+        "Ascent by ecological bus to the citadel",
+        "Guided tour of the Historic Sanctuary of Machu Picchu",
+        "Visit to the main viewpoints and archaeological sectors"
+    ],
+    "days": [
+        {
+            "title": "Day 1: Cusco – Ollantaytambo / Poroy – Aguas Calientes – Machu Picchu – Cusco",
+            "lugar": "Cusco → Machu Picchu → Cusco",
+            "text": "The tour begins with pickup from your hotel in the city of Cusco to transfer to the Ollantaytambo or Poroy train station, depending on the service confirmed at the time of booking. From there we will begin a rail trip considered one of the most scenic in Peru, following the course of the Vilcanota River while the landscape gradually changes from the Andean valleys to the montane forest that surrounds Machu Picchu.<br/><br/>Upon arriving at Machu Picchu Pueblo (Aguas Calientes), our staff will provide the necessary assistance to board the tourist bus that ascends to the entrance of the Historic Sanctuary of Machu Picchu. The trip lasts approximately 25 minutes and runs along a mountain road with panoramic views of the valley.<br/><br/>Once at the citadel, we will begin a guided tour of the circuit assigned to you on your entrance ticket. During the tour we will learn about the history of the archaeological site, its urban planning, the main Inca constructions and the importance that Machu Picchu had within Tahuantinsuyo. The guide will also explain various aspects related to the architecture, engineering and conservation of this extraordinary cultural heritage.<br/><br/>Once the guided tour is over, you will have time to take photographs and enjoy the surroundings before descending back to Aguas Calientes. At the indicated time we will board the return train to the corresponding station, where our tourist transportation will be waiting to take you back to the city of Cusco, thus concluding this experience."
+        }
+    ],
+    "includes": [
+        "Pick up from hotels located in the Historic Center of Cusco",
+        "Tourist transportation between Cusco and the train station",
+        "Round trip train tickets",
+        "Tourist bus up and down between Aguas Calientes and Machu Picchu",
+        "Official entry ticket to Machu Picchu (depending on availability and confirmed circuit)",
+        "Guided tour with professional guide in Spanish or English",
+        "Permanent assistance during the development of the tour"
+    ],
+    "not_includes": [
+        "Food",
+        "personal expenses",
+        "Tips",
+        "Services not specified in the program"
+    ],
+    "recommendations": [
+        {
+            "img": "pasaporte.webp",
+            "nombre": "Original identity document or passport"
+        },
+        {
+            "img": "boleto-ingreso.webp",
+            "nombre": "Printed entry and train ticket"
+        },
+        {
+            "img": "repelente.webp",
+            "nombre": "Insect repellent"
+        },
+        {
+            "img": "bloqueador.webp",
+            "nombre": "Sunscreen"
+        },
+        {
+            "img": "gorra.webp",
+            "nombre": "Hat or cap"
+        },
+        {
+            "img": "poncho-lluvia.webp",
+            "nombre": "Raincoat or rain poncho"
+        },
+        {
+            "img": "calzado-trekking.webp",
+            "nombre": "Comfortable shoes or trekking shoes"
+        },
+        {
+            "img": "botella-agua.webp",
+            "nombre": "Reusable water bottle"
+        },
+        {
+            "img": "dinero-efectivo.webp",
+            "nombre": "Cash (Soles)"
+        }
+    ],
+    "recomendaciones_generales": {
+        "antes_de_viajar": [
+            "Book well in advance due to the limited availability of tickets to Machu Picchu",
+            "Bring the original passport or mandatory identification document with which the reservation was made",
+            "Arrive early at the train and bus boarding points",
+            "Respect the conservation regulations of the Historical Sanctuary of Machu Picchu"
+        ]
+    },
+    "faq": [
+        {
+            "pregunta": "How far in advance should I book this tour?",
+            "respuesta": "It is recommended to reserve several months in advance, since entrance tickets to Machu Picchu and spaces on the train have limited spaces per day."
+        },
+        {
+            "pregunta": "What document should I bring on the day of the tour?",
+            "respuesta": "It is mandatory to bring your original identification document or passport with which you made the reservation. Entry into the citadel with photocopies is not permitted."
+        },
+        {
+            "pregunta": "Does the tour include food?",
+            "respuesta": "The standard program does not include food, but in Aguas Calientes you will have options and free time to have lunch before or after the tour of the citadel."
+        },
+        {
+            "pregunta": "Is it suitable for all ages?",
+            "respuesta": "Yes, the Machu Picchu tour is suitable for people of all ages. The walks within the assigned circuit are of a moderate level."
+        }
+    ],
+    "tours_relacionados": [
+        {
+            "title": "Machu Picchu Panoramic Train Tour Vistadome Observatory",
+            "description": "Combine the trip to Machu Picchu with a panoramic railway tour that shows the impressive landscapes of the Sacred Valley of the Incas.",
+            "price": "0",
+            "duracion": "all day",
+            "image": "tours/machupicchu/panoramico/card.webp",
+            "url": "CZ-machupicchu-panoramico",
+            "categoria": "traditional"
+        },
+        {
+            "title": "Machu Picchu Tour by Hiram Bingham Luxury Train",
+            "description": "Live an exclusive experience aboard the most prestigious train in South America, combining premium comfort, gastronomy and a visit to Machu Picchu.",
+            "price": "0",
+            "duracion": "all day",
+            "image": "tours/machupicchu/hiram/card.webp",
+            "url": "CZ-machupicchu-hiram",
+            "categoria": "premium"
+        },
+        {
+            "title": "Machu Picchu Tour along the Amazon Route",
+            "description": "Reach Machu Picchu via an alternative route that combines a road trip, a hike along the Vilcanota River and jungle landscapes.",
+            "price": "0",
+            "duracion": "2Days / 1Nights",
+            "image": "tours/machupicchu/amazonico/card.webp",
+            "url": "CZ-machupicchu-amazonico",
+            "categoria": "adventure"
+        }
+    ],
+    "brochure": "",
+    "map": "",
+    "video": "",
+    "categories": {}
+}

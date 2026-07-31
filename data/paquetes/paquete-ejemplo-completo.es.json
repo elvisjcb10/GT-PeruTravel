@@ -1,0 +1,104 @@
+{
+    "title": "Perú Esencial: Costa, Andes y Machu Picchu",
+    "long_description": "Descubre la diversidad del Perú en un viaje completo que combina historia, cultura, gastronomía y paisajes inolvidables. Comenzaremos en Lima, continuaremos por el corazón de los Andes y culminaremos con una visita guiada a Machu Picchu. Este paquete ha sido creado como ejemplo para mostrar todos los elementos disponibles dentro del template.",
+    "short_description": "Un recorrido completo por Lima, Cusco, Valle Sagrado y Machu Picchu con servicios organizados de principio a fin.",
+    "duration": "7 días / 6 noches",
+    "image_cover": "promocion-peru-maravilloso-7d-6n-2025.jpg",
+    "gallery": [
+        "promocion-peru-maravilloso-7d-6n-2025.jpg",
+        "cusco-magico.jpg",
+        "valle-sagrado-machupicchu.jpg",
+        "montana-colores-cusco-peru.jpg",
+        "peru-premium.jpg"
+    ],
+    "price": "899",
+    "price_note": "Precio por persona en habitación doble. Aplican condiciones según la fecha del viaje y la disponibilidad.",
+    "seo_title": "Paquete Perú Esencial 7 días | Ejemplo completo",
+    "seo_description": "Ejemplo completo de un paquete turístico por Lima, Cusco, Valle Sagrado y Machu Picchu.",
+    "seo_keywords": "paquete peru, machu picchu, cusco, valle sagrado, ejemplo paquete completo",
+    "technical_sheet": "<b>Duración:</b> 7 días / 6 noches.<br><b>Destinos:</b> Lima, Cusco, Valle Sagrado y Machu Picchu.<br><b>Tipo de viaje:</b> Cultural, naturaleza y aventura ligera.<br><b>Altitud máxima:</b> 3,762 m s. n. m.<br><b>Dificultad:</b> Moderada.<br><b>Servicio:</b> Compartido, con opción privada.<br><b>Recomendado para:</b> Parejas, familias y grupos de amigos.",
+    "includes": "• Recojo y traslado desde los aeropuertos.<br>• 6 noches de alojamiento con desayuno.<br>• Transporte turístico durante las excursiones.<br>• Guía profesional bilingüe.<br>• Tren turístico a Machu Picchu.<br>• Bus de subida y bajada a la ciudadela.<br>• Entradas a los atractivos indicados.<br>• Asistencia permanente durante el viaje.",
+    "not_includes": "• Vuelos nacionales e internacionales.<br>• Alimentación no mencionada en el itinerario.<br>• Seguro de viaje.<br>• Gastos personales y propinas.<br>• Servicios adicionales no especificados.",
+    "days": [
+        {
+            "title": "Día 1: Llegada a Lima",
+            "text": "Recepción en el aeropuerto y traslado al hotel. De acuerdo con la hora de llegada, tendrás tiempo libre para descansar o recorrer los alrededores. Por la tarde realizaremos una breve orientación sobre el programa."
+        },
+        {
+            "title": "Día 2: Lima histórica y gastronómica",
+            "text": "Visitaremos el Centro Histórico de Lima, la Plaza Mayor, la Catedral y el Convento de San Francisco. Continuaremos hacia Miraflores para conocer el Parque del Amor y disfrutar de una experiencia gastronómica peruana."
+        },
+        {
+            "title": "Día 3: Vuelo a Cusco y aclimatación",
+            "text": "Traslado al aeropuerto para viajar a Cusco. A la llegada te llevaremos al hotel y tendrás tiempo para aclimatarte. Por la tarde recorreremos la Plaza de Armas, calles tradicionales y el mercado de San Pedro."
+        },
+        {
+            "title": "Día 4: Valle Sagrado de los Incas",
+            "text": "Recorreremos Pisac, sus miradores y mercado artesanal. Después del almuerzo continuaremos hacia Ollantaytambo para explorar su complejo arqueológico y conocer uno de los mejores ejemplos del urbanismo inca."
+        },
+        {
+            "title": "Día 5: Machu Picchu",
+            "text": "Abordaremos el tren hacia Aguas Calientes y luego el bus hacia Machu Picchu. Un guía profesional nos acompañará durante el recorrido por la ciudadela. Al finalizar retornaremos en tren y transporte turístico a Cusco."
+        },
+        {
+            "title": "Día 6: Montaña de Colores",
+            "text": "Salida temprano hacia el sur del Cusco. Después del desayuno iniciaremos la caminata hacia Vinicunca, disfrutando de paisajes altoandinos y vistas del nevado Ausangate. Retornaremos a Cusco por la tarde."
+        },
+        {
+            "title": "Día 7: Despedida y traslado",
+            "text": "Desayuno en el hotel y tiempo libre según el horario del vuelo. A la hora coordinada realizaremos el traslado al aeropuerto de Cusco, dando por finalizados nuestros servicios."
+        }
+    ],
+    "brochure": "",
+    "map": "mapa-paquete-peru-maravilloso-7d-6n-es.jpg",
+    "video": "https://www.youtube.com/shorts/7-jiRFm2L3U",
+    "faq": [
+        {
+            "pregunta": "¿Con cuánto tiempo de anticipación debo reservar este paquete?",
+            "respuesta": "Recomendamos reservar con al menos 30 días de anticipación. Para temporada alta, entre mayo y agosto, lo ideal es reservar de 60 a 90 días antes debido a la disponibilidad de entradas y trenes a Machu Picchu."
+        },
+        {
+            "pregunta": "¿El paquete incluye vuelos nacionales o internacionales?",
+            "respuesta": "No. El precio no incluye vuelos nacionales ni internacionales, pero podemos ayudarte a elegir horarios compatibles con el itinerario y coordinar todos los traslados desde el aeropuerto."
+        },
+        {
+            "pregunta": "¿Qué tipo de alojamiento está incluido?",
+            "respuesta": "El alojamiento depende del plan seleccionado. El plan Clásico utiliza hoteles de categoría turista, el plan Confort hoteles superiores y el plan Premium hoteles de categoría premium."
+        },
+        {
+            "pregunta": "¿Puedo personalizar el itinerario?",
+            "respuesta": "Sí. Podemos modificar la duración, los hoteles, el tipo de tren, los servicios privados y las excursiones de acuerdo con tus fechas, intereses y presupuesto."
+        },
+        {
+            "pregunta": "¿Es necesario aclimatarse antes de las excursiones?",
+            "respuesta": "Sí. El programa reserva tiempo de aclimatación al llegar a Cusco. Recomendamos descansar, hidratarse bien, comer ligero y seguir las indicaciones del guía antes de realizar actividades en altura."
+        },
+        {
+            "pregunta": "¿Cuál es la política de cancelación?",
+            "respuesta": "Las condiciones dependen de la fecha de cancelación y de los servicios ya emitidos. Las entradas a Machu Picchu, los boletos de tren y algunos hoteles pueden ser no reembolsables. Recibirás las condiciones exactas antes de confirmar la reserva."
+        }
+    ],
+    "categories": {
+        "clasico": {
+            "titulo": "PLAN CLÁSICO",
+            "precio": "899",
+            "descripcion": "Hoteles seleccionados de categoría turista y tren Expedition.",
+            "nota": "Precio por persona en habitación doble para grupos de 2 personas o más.",
+            "descuento": 5
+        },
+        "confort": {
+            "titulo": "PLAN CONFORT",
+            "precio": "1099",
+            "descripcion": "Hoteles de categoría superior y tren panorámico Vistadome.",
+            "nota": "Incluye mejoras de alojamiento y almuerzo buffet en el Valle Sagrado.",
+            "descuento": 8
+        },
+        "premium": {
+            "titulo": "PLAN PREMIUM",
+            "precio": "1399",
+            "descripcion": "Hoteles premium, servicios privados seleccionados y tren panorámico.",
+            "nota": "Ideal para viajeros que buscan mayor comodidad y atención personalizada.",
+            "descuento": 10
+        }
+    }
+}

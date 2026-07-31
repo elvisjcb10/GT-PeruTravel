@@ -1,0 +1,181 @@
+{
+    "title": "Machu Picchu Tour by Hiram Bingham Luxury Train",
+    "short_description": "Live an exclusive experience aboard the most prestigious train in South America, combining premium comfort, gastronomy and a visit to Machu Picchu.",
+    "long_description": "The Machu Picchu Tour by Hiram Bingham Full Day Luxury Train offers an exclusive experience that combines the comfort of one of the most prestigious trains in South America with a visit to the Historical Sanctuary of Machu Picchu. Every detail of the tour has been designed to provide a first-class service, where personalized attention, gastronomy and the impressive landscapes of the Sacred Valley are part of an unforgettable experience.<br/><br/>In addition to touring one of the wonders of the world, you will enjoy a trip aboard PeruRail's emblematic Hiram Bingham, recognized for its elegance, its premium service and its atmosphere inspired by the golden age of train travel.",
+    "duration": "Full Day",
+    "image_cover": "machupicchu/hiram/hero.webp",
+    "gallery": [
+        "machupicchu/hiram/galeria1.webp",
+        "machupicchu/hiram/galeria2.webp",
+        "machupicchu/hiram/galeria3.webp",
+        "machupicchu/hiram/galeria4.webp"
+    ],
+    "price": "89",
+    "price_note": "Includes Hiram Bingham luxury train, tourist bus, entrance to Machu Picchu, food on board and professional guide.",
+    "seo_title": "Machu Picchu Hiram Bingham Luxury Train Tour Full Day | GT Peru Travel",
+    "seo_description": "Experience Machu Picchu aboard PeruRail's exclusive Hiram Bingham Train: gastronomy, live music and premium service. Full day tour from Cusco.",
+    "seo_keywords": "hiram bingham train, machu picchu luxury train, perurail hiram bingham, machu picchu premium tour, cusco machu picchu luxury tour, gt peru travel",
+    "resumen": {
+        "ubicacion": "Historic Sanctuary of Machu Picchu",
+        "lugar_recojo": "Hotel in the Historic Center of Cusco",
+        "lugar_finalizacion": "Hotel in Cusco",
+        "idiomas": [
+            "Spanish",
+            "English"
+        ],
+        "transporte": [
+            "Tourist transport",
+            "Hiram Bingham Luxury Train (round trip)",
+            "Tourist bus between Machu Picchu Pueblo and the citadel"
+        ],
+        "entrada": "Official entry ticket to Machu Picchu",
+        "altitud": "2,430 meters above sea level",
+        "temporada": "all year round"
+    },
+    "caracteristicas": [
+        {
+            "icono": "fa-person-hiking",
+            "label": "Difficulty",
+            "valor": "Moderate"
+        },
+        {
+            "icono": "fa-clock",
+            "label": "Duration",
+            "valor": "Full Day"
+        },
+        {
+            "icono": "fa-people-group",
+            "label": "Service",
+            "valor": "Premium"
+        },
+        {
+            "icono": "fa-mountain",
+            "label": "Maximum Altitude",
+            "valor": "2,430 meters above sea level"
+        }
+    ],
+    "days": [
+        {
+            "title": "Day 1: Cusco – Hiram Bingham Luxury Train – Machu Picchu – Cusco",
+            "lugar": "Cusco → Machu Picchu → Cusco",
+            "text": "The tour begins with transfer from your hotel to the train station, where you will board the exclusive PeruRail Hiram Bingham. During the trip you will enjoy a premium service that combines elegant carriages, personalized attention, first-class cuisine and live music, while traveling through the landscapes of the Sacred Valley towards Machu Picchu Pueblo.<br/><br/>Upon arrival, a tourist bus will take you to the Historical Sanctuary of Machu Picchu, where you will take a guided tour of the authorized circuit, discovering the history, architecture and legacy of one of the most extraordinary works of the Inca Empire.<br/><br/>After the tour you will have free time before boarding the Hiram Bingham Train again to return to Cusco, enjoying the exclusive services on board until this luxury experience concludes."
+        }
+    ],
+    "includes": [
+        "Pick up and return to the hotel",
+        "Hiram Bingham Luxury Train (round trip)",
+        "Hop-on hop-off tourist bus",
+        "Entrance ticket to Machu Picchu",
+        "Guided tour with professional guide",
+        "Food and services included on board the train, according to the PeruRail program",
+        "Permanent assistance during the tour"
+    ],
+    "not_includes": [
+        "personal expenses",
+        "Tips",
+        "travel insurance",
+        "Services not specified in the program"
+    ],
+    "recommendations": [
+        {
+            "img": "pasaporte.webp",
+            "nombre": "Identity document or passport"
+        },
+        {
+            "img": "camara.webp",
+            "nombre": "photographic camera"
+        },
+        {
+            "img": "bloqueador.webp",
+            "nombre": "Sunscreen"
+        },
+        {
+            "img": "gorra.webp",
+            "nombre": "Hat or cap"
+        },
+        {
+            "img": "poncho-lluvia.webp",
+            "nombre": "Light or waterproof jacket"
+        },
+        {
+            "img": "botella-agua.webp",
+            "nombre": "Reusable water bottle"
+        }
+    ],
+    "recomendaciones_generales": {
+        "antes_de_viajar": [
+            "Book early, as the Hiram Bingham Train has limited seating",
+            "Bring your passport or original identification document",
+            "The tour schedule is subject to the official PeruRail programming",
+            "Wear comfortable clothing and appropriate footwear to walk inside Machu Picchu"
+        ],
+        "tips": [
+            "Enjoy the panoramic spaces and the observatory car during the tour",
+            "Arrive early enough at the pick-up point for smooth boarding",
+            "Follow the instructions of the train staff and the guide throughout the experience"
+        ]
+    },
+    "faq": [
+        {
+            "pregunta": "What makes the Hiram Bingham Train different?",
+            "respuesta": "It is PeruRail's highest category railway service, recognized for its personalized attention, gastronomy, live music and exclusive classic-style carriages."
+        },
+        {
+            "pregunta": "Does the tour include food?",
+            "respuesta": "Yes. The service includes food and attention on board the train, in accordance with the official PeruRail program."
+        },
+        {
+            "pregunta": "How long does the guided tour to Machu Picchu last?",
+            "respuesta": "The guided tour lasts approximately 2 to 3 hours, depending on the assigned circuit."
+        },
+        {
+            "pregunta": "Is it necessary to reserve in advance?",
+            "respuesta": "Yes. Due to high demand and limited number of places, it is recommended to reserve several months in advance."
+        },
+        {
+            "pregunta": "What documents should I present?",
+            "respuesta": "It is essential to present the original passport or identification document used to book the tour."
+        }
+    ],
+    "tours_relacionados": [
+        {
+            "title": "Machu Picchu Classic Tour",
+            "description": "Discover the impressive agricultural laboratories of the Incas in Moray and live a unique ancestral gastronomic experience cooking underground.",
+            "price": "0",
+            "duracion": "all day",
+            "image": "tours/machupicchu/clasico/card.webp",
+            "url": "CZ-machupicchu-clasico",
+            "categoria": "traditional"
+        },
+        {
+            "title": "Machu Picchu Panoramic Train Tour Vistadome Observatory",
+            "description": "Combine the trip to Machu Picchu with a panoramic railway tour that shows the impressive landscapes of the Sacred Valley of the Incas.",
+            "price": "0",
+            "duracion": "all day",
+            "image": "tours/machupicchu/panoramico/card.webp",
+            "url": "CZ-machupicchu-panoramico",
+            "categoria": "traditional"
+        },
+        {
+            "title": "Machu Picchu Tour along the Amazon Route",
+            "description": "Reach Machu Picchu via an alternative route that combines a road trip, a hike along the Vilcanota River and jungle landscapes.",
+            "price": "0",
+            "duracion": "2Days / 1Nights",
+            "image": "tours/machupicchu/amazonico/card.webp",
+            "url": "CZ-machupicchu-amazonico",
+            "categoria": "adventure"
+        }
+    ],
+    "brochure": "",
+    "map": "",
+    "video": "",
+    "categories": {
+        "premium": {
+            "titulo": "HIRAM BINGHAM TRAIN - PREMIUM SERVICE",
+            "precio": "89",
+            "descripcion": "Exclusive luxury service with personalized attention.",
+            "nota": "Includes luxury train, food on board, professional guide and transportation",
+            "descuento": 0
+        }
+    }
+}

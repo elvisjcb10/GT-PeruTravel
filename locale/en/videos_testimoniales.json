@@ -1,0 +1,27 @@
+{
+    "background_img": "/images/videos/background.webp",
+    "kicker": "Relive the Experience",
+    "title": "Testimonial Videos",
+    "videos": [
+        {
+            "thumbnail": "/images/videos/1.webp",
+            "video_url": "https://youtu.be/b0DtwUq386Y",
+            "titulo": "Urubamba River"
+        },
+        {
+            "thumbnail": "/images/videos/1.webp",
+            "video_url": "https://www.youtube.com/watch?v=XXXXXXXXX",
+            "titulo": "Lake Titicaca"
+        },
+        {
+            "thumbnail": "/images/videos/1.webp",
+            "video_url": "https://www.youtube.com/watch?v=XXXXXXXXX",
+            "titulo": "Plaza de Armas Cusco"
+        },
+        {
+            "thumbnail": "/images/videos/1.webp",
+            "video_url": "https://www.youtube.com/watch?v=XXXXXXXXX",
+            "titulo": "Plaza de Armas Cusco"
+        }
+    ]
+}

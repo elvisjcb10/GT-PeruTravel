@@ -1,0 +1,53 @@
+{
+    "background": "/images/glaciares/hero.webp",
+    "badge": "Destination",
+    "titulo": "Glaciers in Cusco",
+    "descripcion": "Explore the imposing masses of perpetual ice in the mountain ranges of Cusco, challenging routes with unparalleled high Andean landscapes.",
+    "stats": [
+        {
+            "icono": "fa-mountain",
+            "numero": "2+",
+            "titulo": "Glaciers"
+        },
+        {
+            "icono": "fa-people-group",
+            "numero": "3K+",
+            "titulo": "Travelers"
+        },
+        {
+            "icono": "fa-star",
+            "numero": "4.8",
+            "titulo": "Rating"
+        },
+        {
+            "icono": "fa-globe",
+            "numero": "10+",
+            "titulo": "Years of Exp."
+        }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.8",
+        "texto": "+80 Travelers"
+    },
+    "filtros": [],
+    "tours": [
+        {
+            "title": "Quelccaya Glacier Tour",
+            "description": "Explore the largest tropical glacier in the world surrounded by wetlands, glacial lagoons and the imposing Sibinacocha Lagoon.",
+            "price": "0",
+            "duracion": "Full Day",
+            "image": "glaciares/quelccaya/img_header.webp",
+            "url": "glaciar-quelccaya",
+            "categoria": "hike"
+        },
+        {
+            "title": "Ausangate Glaciers Tour",
+            "description": "Tour the majestic and imposing glaciers that surround the sacred Apu Ausangate.",
+            "price": "0",
+            "duracion": "Full Day",
+            "image": "glaciares/ausangate/card.webp",
+            "url": "glaciar-ausangate",
+            "categoria": "hike"
+        }
+    ]
+}

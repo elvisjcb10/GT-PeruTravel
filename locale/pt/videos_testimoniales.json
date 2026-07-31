@@ -1,0 +1,27 @@
+{
+    "background_img": "/images/videos/background.webp",
+    "kicker": "Reviva a experiência",
+    "title": "Vídeos de depoimentos",
+    "videos": [
+        {
+            "thumbnail": "/images/videos/1.webp",
+            "video_url": "https://youtu.be/b0DtwUq386Y",
+            "titulo": "Rio Urubamba"
+        },
+        {
+            "thumbnail": "/images/videos/1.webp",
+            "video_url": "https://www.youtube.com/watch?v=XXXXXXXXX",
+            "titulo": "Lago Titicaca"
+        },
+        {
+            "thumbnail": "/images/videos/1.webp",
+            "video_url": "https://www.youtube.com/watch?v=XXXXXXXXX",
+            "titulo": "Praça de Armas Cusco"
+        },
+        {
+            "thumbnail": "/images/videos/1.webp",
+            "video_url": "https://www.youtube.com/watch?v=XXXXXXXXX",
+            "titulo": "Praça de Armas Cusco"
+        }
+    ]
+}

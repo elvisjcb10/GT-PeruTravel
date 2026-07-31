@@ -1,0 +1,174 @@
+{
+    "title": "Mystical Tour in Cusco Full Day",
+    "short_description": "Explore the Abode of the Gods, the Valley of the Goblins, the Huasao Wetland and the Parque de los Ents on an alternative tour full of art, monumental sculpture and nature.",
+    "long_description": "The Mystical Tour in Cusco – Full Day is an experience that combines art, nature and Andean traditions through a tour of some of the most unique places around the city. This program invites you to discover spaces that reflect the cultural richness of Cusco from a different perspective, ideal for those looking to get away from conventional tourist routes.<br/><br/>During the tour you will visit the Abode of the Gods (Apukunaq Tianan), an impressive set of monumental sculptures carved in rock that represent deities and characters from the Andean worldview. The experience continues in the Valley of the Duendes, a place surrounded by natural landscapes, and then heads to the Huasao Wetland and the Parque de los Ents, two spaces that combine nature, art and recreation in a quiet environment.<br/><br/>Accompanied by a professional guide, you will learn the history and meaning of each place while enjoying a tour designed to connect with the cultural and natural essence of Cusco.",
+    "duration": "1 Day",
+    "image_cover": "mistico/mistico-fd/hero.webp",
+    "gallery": [
+        "mistico/mistico-fd/galeria1.webp",
+        "mistico/mistico-fd/galeria2.webp",
+        "mistico/mistico-fd/galeria3.webp",
+        "mistico/mistico-fd/galeria4.webp"
+    ],
+    "price": "0",
+    "price_note": "Includes tourist transportation, professional bilingual guide, lunch at a local restaurant, first aid kit, and portable oxygen.",
+    "seo_title": "Mystical Tour in Cusco Full Day - Abode of the Gods and Huasao | GT Peru Travel",
+    "seo_description": "Discover the Mystical Tour in Cusco: Apukunaq Tianan, Valley of the Duendes, Huasao Wetland and Parque de los Ents. An alternative cultural and natural route.",
+    "seo_keywords": "cusco mystical tour, abode of the gods, apukunaq tianan, valley of the duendes, huasao wetland, park of the ents, alternative tourism cusco, gt peru travel",
+    "resumen": {
+        "ubicacion": "Surroundings of the South Valley and Cusco, Cusco Region",
+        "lugar_recojo": "Hotels located in the Historic Center of Cusco or coordinated point",
+        "lugar_finalizacion": "Historic Center of Cusco",
+        "idiomas": [
+            "Spanish",
+            "English",
+            "Portuguese"
+        ],
+        "transporte": [
+            "Tourist transportation throughout the tour"
+        ],
+        "alimentacion": "Lunch at a local restaurant (according to the contracted program)",
+        "alojamiento": "Does not include",
+        "altitud": "3,950 m above sea level n. m."
+    },
+    "caracteristicas": [
+        {
+            "icono": "fa-person-hiking",
+            "label": "Difficulty",
+            "valor": "Easy"
+        },
+        {
+            "icono": "fa-clock",
+            "label": "Duration",
+            "valor": "Full Day"
+        },
+        {
+            "icono": "fa-people-group",
+            "label": "Service",
+            "valor": "Private"
+        },
+        {
+            "icono": "fa-mountain",
+            "label": "Maximum Altitude",
+            "valor": "3,950 meters above sea level"
+        }
+    ],
+    "actividades": [
+        "Tour of the gigantic sculptures of the Abode of the Gods (Apukunaq Tianan)",
+        "Walk through the formations of the Valley of the Duendes",
+        "Observation of flora and fauna in the Huasao Wetland",
+        "Thematic visit to the Ents Park",
+        "Artistic and landscape photography in natural environments"
+    ],
+    "days": [
+        {
+            "title": "Day 1: Abode of the Gods – Valley of the Goblins – Huasao Wetland – Parque de los Ents",
+            "lugar": "Cusco → Apukunaq Tianan → Huasao → Cusco",
+            "text": "The tour begins with pickup from your hotel or from the previously coordinated meeting point in the city of Cusco. Our first visit will be to the Abode of the Gods (Apukunaq Tianan), an artistic space where enormous sculptures carved in rock represent characters and deities from the Andean worldview. During the tour, the guide will share information about the meaning of these works and you will have time to walk around the place and take photographs.<br/><br/>We will continue towards the Valley of the Duendes, an attraction surrounded by nature that stands out for its formations and the quiet atmosphere that characterizes it. After the visit we will go to a local restaurant to enjoy lunch and continue with the tour.<br/><br/>In the afternoon we will visit the Huasao Wetland, a natural ecosystem recognized for its biodiversity and for being an important refuge for various species of flora and fauna. Finally, we will visit the Parque de los Ents, a thematic space inspired by fantastic characters, where art and nature are integrated in an ideal environment to explore, relax and capture photographs.<br/><br/>At the end of the activities we will return to the city of Cusco, concluding this experience with the arrival at the Historic Center in the afternoon."
+        }
+    ],
+    "includes": [
+        "Pick up from hotels located in the Historic Center of Cusco or coordinated point",
+        "Tourist transportation throughout the tour",
+        "Professional guide in Spanish or English (Portuguese upon request)",
+        "Lunch at a local restaurant (according to the contracted program)",
+        "Basic first aid kit",
+        "Portable oxygen for preventive care",
+        "Permanent assistance throughout the experience"
+    ],
+    "not_includes": [
+        "Entrance tickets to the tourist attractions visited",
+        "Drinks and food not specified in the program",
+        "personal expenses",
+        "Tips",
+        "travel insurance",
+        "Services not expressly mentioned in the program"
+    ],
+    "recommendations": [
+        {
+            "img": "pasaporte.webp",
+            "nombre": "Original identity document or passport"
+        },
+        {
+            "img": "casaca-ligera.webp",
+            "nombre": "Comfortable clothing and a light or waterproof jacket"
+        },
+        {
+            "img": "calzado-deportivo.webp",
+            "nombre": "Sports or light trekking shoes"
+        },
+        {
+            "img": "gorra.webp",
+            "nombre": "Hat or sun cap"
+        },
+        {
+            "img": "bloqueador.webp",
+            "nombre": "Sunscreen and sunglasses"
+        },
+        {
+            "img": "botella-agua.webp",
+            "nombre": "Reusable water bottle"
+        },
+        {
+            "img": "camara.webp",
+            "nombre": "Camera or mobile phone"
+        },
+        {
+            "img": "dinero-efectivo.webp",
+            "nombre": "Cash for income and purchases"
+        }
+    ],
+    "recomendaciones_generales": {
+        "antes_de_viajar": [
+            "It is recommended to spend at least one day in Cusco for prior acclimatization.",
+            "Wear comfortable clothing suitable for short walks outdoors",
+            "Maintain constant hydration throughout the journey",
+            "Bring enough battery in your camera or phone to photograph the sculptures",
+            "Respect nature and do not leave waste in the destinations visited"
+        ]
+    },
+    "faq": [
+        {
+            "pregunta": "Does the tour have a high level of difficulty?",
+            "respuesta": "No. The route has an easy level of difficulty, so it is suitable for people of different ages who can take short, low-demand walks."
+        },
+        {
+            "pregunta": "Are entrance tickets to the attractions included?",
+            "respuesta": "No. Entrance fees to the different tourist attractions are purchased separately at each checkpoint and are not part of the tour price, unless otherwise specified."
+        },
+        {
+            "pregunta": "What clothing is recommended to wear?",
+            "respuesta": "It is recommended to wear comfortable clothing, sports shoes or light trekking shoes, as well as bringing a jacket for temperature changes, a hat or cap, sunscreen and a bottle of water."
+        }
+    ],
+    "tours_relacionados": [
+        {
+            "title": "Cusco South Valley Tour",
+            "description": "Explore Tipón, Pikillacta and the Sistine Chapel of America in Andahuaylillas.",
+            "price": "0",
+            "duracion": "Half Day",
+            "image": "valle-sur/valle-sur-cover.jpg",
+            "url": "valle-sur-cusco"
+        },
+        {
+            "title": "City Tour Cusco",
+            "description": "Visit Sacsayhuamán, Qenqo, Puka Pukara, Tambomachay and Coricancha.",
+            "price": "0",
+            "duracion": "Half Day",
+            "image": "city-tour/city-tour-cover.jpg",
+            "url": "city-tour-cusco"
+        }
+    ],
+    "brochure": "",
+    "map": "",
+    "video": "",
+    "categories": {
+        "privado": {
+            "titulo": "MYSTIC TOUR IN CUSCO FULL DAY - PRIVATE SERVICE",
+            "precio": "0",
+            "descripcion": "Exclusive service only for your group (minimum 2 people).",
+            "nota": "Includes private transportation, bilingual guide, lunch and preventive health kit",
+            "descuento": 0
+        }
+    }
+}

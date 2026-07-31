@@ -1,0 +1,244 @@
+{
+    "title": "Machu Picchu Tour along the Amazon Route",
+    "short_description": "Reach Machu Picchu via an alternative route that combines a road trip, a hike along the Vilcanota River and jungle landscapes.",
+    "long_description": "The Machu Picchu Tour along the Amazon Route 2 Days / 1 Night is an excellent alternative for those who want to reach the Inca citadel through a different route, combining road travel, hiking and natural landscapes that connect the Andes with the Peruvian jungle.<br/><br/>During the expedition you will tour the Sacred Valley of the Incas, cross the Abra Málaga and continue towards Santa Teresa and Hidroeléctrica, the point from where a walk surrounded by abundant vegetation begins, next to the Vilcanota River and the railway line that leads to Machu Picchu Pueblo (Aguas Calientes).<br/><br/>The next day you will visit the Historical Sanctuary of Machu Picchu, where a professional guide will accompany you to discover the history, architecture and importance of one of the most emblematic archaeological sites in the world. This program is aimed at travelers looking for a more active experience, enjoying not only Machu Picchu, but also the route and impressive landscapes offered by the Amazon Route.",
+    "duration": "2 Days / 1 Night",
+    "image_cover": "machupicchu/amazonico/hero.webp",
+    "gallery": [
+        "machupicchu/amazonico/galeria1.webp",
+        "machupicchu/amazonico/galeria2.webp",
+        "machupicchu/amazonico/galeria3.webp",
+        "machupicchu/amazonico/galeria4.webp",
+        "machupicchu/amazonico/galeria5.webp",
+        "machupicchu/amazonico/galeria6.webp"
+    ],
+    "price": "59",
+    "price_note": "Includes tourist transportation, 1 night of accommodation in Machu Picchu Pueblo, food according to itinerary, entrance to Machu Picchu and professional guide.",
+    "seo_title": "Tour Machu Picchu Amazon Route 2D/1N - Hydroelectric | GT Peru Travel",
+    "seo_description": "Reach Machu Picchu via the Amazon Route: Sacred Valley, Abra Málaga, Santa Teresa, Hydroelectric and walk along the Vilcanota River. 2-day tour from Cusco.",
+    "seo_keywords": "Machu Picchu Amazon route, Machu Picchu hydroelectric tour, Machu Picchu 2 days, Santa Teresa Cusco, Machu Picchu hike, Cusco economic tour, GT Peru Travel",
+    "resumen": {
+        "ubicacion": "Historic Sanctuary of Machu Picchu",
+        "lugar_recojo": "Hotels in the Historic Center of Cusco",
+        "lugar_finalizacion": "Plaza San Francisco or Historic Center of Cusco",
+        "hora_inicio": "Between 06:30 a.m. and 07:30 a.m. (approximate)",
+        "hora_retorno": "Between 09:00 p.m. and 10:00 p.m. of the second day",
+        "idiomas": [
+            "Spanish",
+            "English",
+            "Portuguese (private service or upon request)"
+        ],
+        "transporte": [
+            "Tourist transportation Cusco – Hydroelectric – Cusco",
+            "Tourist bus down from Machu Picchu (according to contracted program)"
+        ],
+        "alimentacion": "1 breakfast, 1 lunch, 1 dinner",
+        "alojamiento": "1 night in Machu Picchu Pueblo (Aguas Calientes)",
+        "altitud_maxima": "4,350 meters above sea level (Abra Málaga)",
+        "altitud_minima": "1,800 meters above sea level (Santa Teresa)",
+        "altitud_machupicchu": "2,430 meters above sea level",
+        "edad_recomendada": "From 12 years old",
+        "temporada": "Available all year round"
+    },
+    "caracteristicas": [
+        {
+            "icono": "fa-person-hiking",
+            "label": "Difficulty",
+            "valor": "Moderate"
+        },
+        {
+            "icono": "fa-clock",
+            "label": "Duration",
+            "valor": "2 Days / 1 Night"
+        },
+        {
+            "icono": "fa-people-group",
+            "label": "Service",
+            "valor": "Group / Private"
+        },
+        {
+            "icono": "fa-mountain",
+            "label": "Maximum Altitude",
+            "valor": "4,350 meters above sea level"
+        }
+    ],
+    "days": [
+        {
+            "title": "Day 1: Cusco – Sacred Valley – Abra Málaga – Santa Teresa – Hydroelectric – Machu Picchu Pueblo",
+            "lugar": "Cusco → Machu Picchu Town",
+            "text": "The adventure begins with pickup from your hotel in the city of Cusco to begin the road trip to Hidroeléctrica. During the trip we will cross the Sacred Valley of the Incas and Abra Málaga, the highest point of the route, from where impressive Andean landscapes can be seen before descending towards the edge of the jungle, where the climate and vegetation change noticeably.<br/><br/>We will continue to Santa Teresa, where we will enjoy lunch, and then move to Hidroeléctrica, the starting point of the walk. From here we will travel approximately 11 kilometers following the railway and the Vilcanota River, crossing an environment surrounded by abundant vegetation until we reach Machu Picchu Pueblo (Aguas Calientes). At the end of the tour we will settle into the accommodation, enjoy dinner and receive the guide's instructions for the visit to Machu Picchu the next day."
+        },
+        {
+            "title": "Day 2: Machu Picchu Pueblo – Machu Picchu Historical Sanctuary – Hydroelectric – Cusco",
+            "lugar": "Machu Picchu Town → Cusco",
+            "text": "Very early we will begin the ascent to the Historical Sanctuary of Machu Picchu, where we will take a guided tour of the authorized circuit. During the tour we will learn about the history, architecture and the main sectors of one of the most representative works of the Inca civilization, in addition to having time to take photographs and enjoy the surroundings.<br/><br/>After the visit, we will return to Machu Picchu Pueblo to continue the journey to Hidroeléctrica, where we will board our tourist transportation back to the city of Cusco. During the trip we will once again travel through the landscapes of the jungle and the Andean mountain range, thus concluding this experience along the Amazon Route to Machu Picchu."
+        }
+    ],
+    "includes": [
+        "Pick up from hotels located in the Historic Center of Cusco",
+        "Tourist transportation Cusco – Hydroelectric – Cusco",
+        "Entrance ticket to the Historic Sanctuary of Machu Picchu (according to the confirmed circuit)",
+        "Guided tour of Machu Picchu with professional guide",
+        "1 night accommodation in Machu Picchu Pueblo (Aguas Calientes)",
+        "1 breakfast",
+        "1 lunch",
+        "1 dinner",
+        "Basic first aid kit during the tour",
+        "Permanent assistance during the development of the tour"
+    ],
+    "not_includes": [
+        "Food not specified in the program",
+        "Train tickets (optional service for the Hydroelectric – Machu Picchu Pueblo section or vice versa, according to the passenger's preference)",
+        "Entrance ticket to Huayna Picchu mountain",
+        "travel insurance",
+        "personal expenses",
+        "Tips",
+        "Services not expressly mentioned in the program"
+    ],
+    "recommendations": [
+        {
+            "img": "pasaporte.webp",
+            "nombre": "Passport or original identity document"
+        },
+        {
+            "img": "mochila.webp",
+            "nombre": "Small backpack for daily use"
+        },
+        {
+            "img": "ropa-comoda.webp",
+            "nombre": "Comfortable and light clothing for hiking"
+        },
+        {
+            "img": "poncho-lluvia.webp",
+            "nombre": "Waterproof jacket or rain poncho"
+        },
+        {
+            "img": "calzado-trekking.webp",
+            "nombre": "Trekking shoes or sneakers with good grip"
+        },
+        {
+            "img": "bloqueador.webp",
+            "nombre": "Sunscreen"
+        },
+        {
+            "img": "repelente.webp",
+            "nombre": "Insect repellent"
+        },
+        {
+            "img": "gorra.webp",
+            "nombre": "Hat or cap"
+        },
+        {
+            "img": "lentes-sol.webp",
+            "nombre": "sunglasses"
+        },
+        {
+            "img": "botella-agua.webp",
+            "nombre": "Reusable water bottle"
+        }
+    ],
+    "recomendaciones_generales": {
+        "antes_de_viajar": [
+            "The Amazon Route includes hikes of moderate difficulty, so it is recommended to have adequate physical condition",
+            "The tour schedule may vary depending on weather conditions, traffic, and availability of entry to Machu Picchu.",
+            "Always carry your passport or original identification document, as it will be requested during the tour and upon entering the Historical Sanctuary of Machu Picchu",
+            "It is recommended to travel with light luggage for greater comfort during the walk between Hidroeléctrica and Machu Picchu Pueblo"
+        ],
+        "tips": [
+            "Book your tour in advance to ensure availability of entry to Machu Picchu",
+            "Maintain a constant pace during the walk and take breaks when necessary",
+            "Respect the guide's instructions and the conservation rules of the Historic Sanctuary of Machu Picchu",
+            "Don't forget to bring your camera or phone with enough battery to capture the landscapes of the Amazon Route and the Inca citadel"
+        ]
+    },
+    "faq": [
+        {
+            "pregunta": "What is the Amazon Route to Machu Picchu?",
+            "respuesta": "It is an alternative route that combines tourist transportation and a walk from Hidroeléctrica to Machu Picchu Pueblo, allowing you to enjoy natural landscapes between the jungle and the Vilcanota River before visiting the Inca citadel."
+        },
+        {
+            "pregunta": "What is the difficulty level of the tour?",
+            "respuesta": "The tour has a moderate level of difficulty, since it includes an approximate 11 km walk between Hidroeléctrica and Machu Picchu Pueblo, in addition to the ascent or transfer to the citadel the next day."
+        },
+        {
+            "pregunta": "Is it mandatory to do the walk from Hidroeléctrica?",
+            "respuesta": "No. Passengers who prefer it can choose to travel this section by train (optional service with additional cost), subject to availability."
+        },
+        {
+            "pregunta": "What type of accommodation does the tour include?",
+            "respuesta": "The program includes 1 night of accommodation in Machu Picchu Pueblo (Aguas Calientes), in a tourist establishment with basic services for a comfortable rest before visiting the citadel."
+        },
+        {
+            "pregunta": "Which Machu Picchu circuit will I visit?",
+            "respuesta": "The circuit will depend on the entry ticket confirmed at the time of reservation and the availability established by the authorities of the Historical Sanctuary of Machu Picchu."
+        },
+        {
+            "pregunta": "Do I need trekking experience to take this tour?",
+            "respuesta": "It is not necessary to have previous experience. However, it is recommended to have adequate physical condition to take walks of several hours on natural terrain."
+        },
+        {
+            "pregunta": "What documents should I present during the trip?",
+            "respuesta": "It is essential to carry the original passport or identification document used to make the reservation, as it will be requested during the tour and upon entering Machu Picchu."
+        },
+        {
+            "pregunta": "What is the best time to do the Amazon Route?",
+            "respuesta": "The tour operates throughout the year. However, the months between April and October usually offer better weather conditions to enjoy the walk and the landscapes along the route."
+        },
+        {
+            "pregunta": "Can I add the entrance to Huayna Picchu?",
+            "respuesta": "Yes. Entry to Huayna Picchu can be requested as an additional service, as long as there is availability at the time of booking."
+        },
+        {
+            "pregunta": "How far in advance should I reserve?",
+            "respuesta": "It is recommended to reserve several weeks or months in advance, especially in high season, since entry tickets to Machu Picchu have limited availability."
+        }
+    ],
+    "tours_relacionados": [
+        {
+            "title": "Machu Picchu Classic Tour",
+            "description": "Discover the impressive agricultural laboratories of the Incas in Moray and live a unique ancestral gastronomic experience cooking underground.",
+            "price": "0",
+            "duracion": "all day",
+            "image": "tours/machupicchu/clasico/card.webp",
+            "url": "CZ-machupicchu-clasico",
+            "categoria": "traditional"
+        },
+        {
+            "title": "Machu Picchu Panoramic Train Tour Vistadome Observatory",
+            "description": "Combine the trip to Machu Picchu with a panoramic railway tour that shows the impressive landscapes of the Sacred Valley of the Incas.",
+            "price": "0",
+            "duracion": "all day",
+            "image": "tours/machupicchu/panoramico/card.webp",
+            "url": "CZ-machupicchu-panoramico",
+            "categoria": "traditional"
+        },
+        {
+            "title": "Machu Picchu Tour by Hiram Bingham Luxury Train",
+            "description": "Live an exclusive experience aboard the most prestigious train in South America, combining premium comfort, gastronomy and a visit to Machu Picchu.",
+            "price": "0",
+            "duracion": "all day",
+            "image": "tours/machupicchu/hiram/card.webp",
+            "url": "CZ-machupicchu-hiram",
+            "categoria": "premium"
+        }
+    ],
+    "brochure": "",
+    "map": "",
+    "video": "",
+    "categories": {
+        "grupal": {
+            "titulo": "AMAZON ROUTE - GROUP SERVICE",
+            "precio": "59",
+            "descripcion": "Service shared with other travelers.",
+            "nota": "Includes transportation, accommodation, food, entrance fee and professional guide",
+            "descuento": 0
+        },
+        "privado": {
+            "titulo": "AMAZON ROUTE - PRIVATE SERVICE",
+            "precio": "59",
+            "descripcion": "Exclusive service only for your group, also available in Portuguese.",
+            "nota": "Includes transportation, accommodation, food, entrance fee and professional guide",
+            "descuento": 0
+        }
+    }
+}

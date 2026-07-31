@@ -1,0 +1,178 @@
+{
+    "background": "/images/destinos/cusco/hero.webp",
+    "badge": "Destino",
+    "titulo": "Passeios em Cusco",
+    "descripcion": "Guias de viagem, conselhos práticos e experiências autênticas dos Andes do Peru. Tudo o que você precisa saber antes de partir.",
+    "stats": [
+        {
+            "icono": "fa-mountain",
+            "numero": "150+",
+            "titulo": "Destinos"
+        },
+        {
+            "icono": "fa-people-group",
+            "numero": "Mais de 12 mil",
+            "titulo": "Viajantes"
+        },
+        {
+            "icono": "fa-star",
+            "numero": "4.9",
+            "titulo": "Avaliação"
+        },
+        {
+            "icono": "fa-globe",
+            "numero": "10+",
+            "titulo": "Anos de Exp."
+        }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.7",
+        "texto": "+200 viajantes"
+    },
+    "filtros": [
+        {
+            "id": "todos",
+            "label": "tudo"
+        },
+        {
+            "id": "tradicionales",
+            "label": "Tradicional"
+        },
+        {
+            "id": "aventura",
+            "label": "Aventura"
+        },
+        {
+            "id": "caminata",
+            "label": "Caminhada"
+        }
+    ],
+    "tours": [
+        {
+            "title": "Excursão pela montanha Pallay Punchu",
+            "description": "Descubra uma das formações geológicas mais impressionantes de Cusco: listras coloridas e picos pontiagudos que lembram um tradicional Punchu andino.",
+            "price": "0",
+            "duracion": "Dia inteiro",
+            "image": "tours/cusco/pallay-punchu/card.webp",
+            "url": "CZ-pallay_punchu",
+            "categoria": "caminhada"
+        },
+        {
+            "title": "Tour Místico em Cusco",
+            "description": "Descubra a Morada dos Deuses, o Vale dos Duendes, o Pantanal Huasao e o Parque de los Ents em uma rota alternativa e cultural.",
+            "price": "0",
+            "duracion": "Dia inteiro",
+            "image": "tours/cusco/mistico/card.webp",
+            "url": "CZ-cusco-mistico",
+            "categoria": "tradicional"
+        },
+        {
+            "title": "City Tour Cusco",
+            "description": "Explore os tesouros do antigo Império Inca: Qorikancha, Sacsayhuamán, Qenqo, Puka Pukara e Tambomachay.",
+            "price": "0",
+            "duracion": "Meio dia",
+            "image": "tours/cusco/city-tour/card.webp",
+            "url": "CZ-cusco-city",
+            "categoria": "tradicional"
+        },
+        {
+            "title": "Vale Sagrado + Machu Picchu",
+            "description": "Explore o Vale Sagrado dos Incas e culmine a experiência na majestosa cidadela de Machu Picchu.",
+            "price": "389",
+            "duracion": "2Dias / 1Noites",
+            "image": "valle-sagrado-cusco-peru.jpg",
+            "url": "vallesagrado-machupicchu",
+            "categoria": "tradicional"
+        },
+        {
+            "title": "Trilha Inca Curta",
+            "description": "Viva a mística da curta Trilha Inca e chegue a Machu Picchu pela antiga Trilha Inca.",
+            "price": "449",
+            "duracion": "2Dias / 1Noites",
+            "image": "camino-inca-corto-cusco-peru-machupicchu.jpg",
+            "url": "short-inca-trail",
+            "categoria": "caminhada"
+        },
+        {
+            "title": "Cusco Expresso",
+            "description": "Fuja para Cusco e Machu Picchu, o destino ideal para descobrir a história Inca, a magia dos Andes e a essência cultural do Peru.",
+            "price": "345",
+            "duracion": "3Dias / 2Noites",
+            "image": "card-6.jpg",
+            "url": "cusco-express",
+            "categoria": "tradicional"
+        },
+        {
+            "title": "Montanha das Cores + 7 Lagoas",
+            "description": "Aventura andina à Montanha das Cores e às 7 Lagoas Ausangate.",
+            "price": "125",
+            "duracion": "2Dias / 1Noites",
+            "image": "montana-colores-cusco-peru-card-01.jpg",
+            "url": "montanacolores-7lagunas",
+            "categoria": "aventura"
+        },
+        {
+            "title": "Cusco Mágico",
+            "description": "Experimente Machu Picchu e o Vale Sagrado em uma aventura curta, mas inesquecível. Explore templos, montanhas e a essência viva dos Andes.",
+            "price": "579",
+            "duracion": "5Dias / 4Noites",
+            "image": "card-5.jpg",
+            "url": "cusco-magico",
+            "categoria": "aventura"
+        },
+        {
+            "title": "Cusco Mágico",
+            "description": "Experimente Machu Picchu e o Vale Sagrado em uma aventura curta, mas inesquecível. Explore templos, montanhas e a essência viva dos Andes.",
+            "price": "579",
+            "duracion": "5Dias / 4Noites",
+            "image": "card-5.jpg",
+            "url": "cusco-magico",
+            "categoria": "aventura"
+        },
+        {
+            "title": "Cusco Mágico",
+            "description": "Experimente Machu Picchu e o Vale Sagrado em uma aventura curta, mas inesquecível. Explore templos, montanhas e a essência viva dos Andes.",
+            "price": "579",
+            "duracion": "5Dias / 4Noites",
+            "image": "card-5.jpg",
+            "url": "cusco-magico",
+            "categoria": "aventura"
+        },
+        {
+            "title": "Cusco Mágico",
+            "description": "Experimente Machu Picchu e o Vale Sagrado em uma aventura curta, mas inesquecível. Explore templos, montanhas e a essência viva dos Andes.",
+            "price": "579",
+            "duracion": "5Dias / 4Noites",
+            "image": "card-5.jpg",
+            "url": "cusco-magico",
+            "categoria": "aventura"
+        },
+        {
+            "title": "Cusco Mágico",
+            "description": "Experimente Machu Picchu e o Vale Sagrado em uma aventura curta, mas inesquecível. Explore templos, montanhas e a essência viva dos Andes.",
+            "price": "579",
+            "duracion": "5Dias / 4Noites",
+            "image": "card-5.jpg",
+            "url": "cusco-magico",
+            "categoria": "aventura"
+        },
+        {
+            "title": "Cusco Mágico",
+            "description": "Experimente Machu Picchu e o Vale Sagrado em uma aventura curta, mas inesquecível. Explore templos, montanhas e a essência viva dos Andes.",
+            "price": "579",
+            "duracion": "5Dias / 4Noites",
+            "image": "card-5.jpg",
+            "url": "cusco-magico",
+            "categoria": "aventura"
+        },
+        {
+            "title": "Cusco Mágico",
+            "description": "Experimente Machu Picchu e o Vale Sagrado em uma aventura curta, mas inesquecível. Explore templos, montanhas e a essência viva dos Andes.",
+            "price": "579",
+            "duracion": "5Dias / 4Noites",
+            "image": "card-5.jpg",
+            "url": "cusco-magico",
+            "categoria": "aventura"
+        }
+    ]
+}

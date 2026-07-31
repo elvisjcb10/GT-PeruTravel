@@ -1,0 +1,71 @@
+{
+    "background": "/images/experiencias_unicas/experiencias-hero.webp",
+    "badge": "Destino",
+    "titulo": "Experiências únicas",
+    "descripcion": "Conecte-se com a cultura andina através de cerimônias místicas e delícias gastronômicas tradicionais preparadas no subsolo.",
+    "stats": [
+        {
+            "icono": "fa-mountain",
+            "numero": "4+",
+            "titulo": "Experiências"
+        },
+        {
+            "icono": "fa-people-group",
+            "numero": "5K+",
+            "titulo": "Viajantes"
+        },
+        {
+            "icono": "fa-star",
+            "numero": "4.9",
+            "titulo": "Avaliação"
+        },
+        {
+            "icono": "fa-globe",
+            "numero": "10+",
+            "titulo": "Anos de Exp."
+        }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.9",
+        "texto": "+100 viajantes"
+    },
+    "filtros": [],
+    "tours": [
+        {
+            "title": "Experiência mística meio dia",
+            "description": "Viva um dia de introspecção e conexão espiritual com rituais ancestrais guiados.",
+            "price": "39",
+            "duracion": "Meio dia",
+            "image": "misticas/img_header.webp",
+            "url": "misticas",
+            "categoria": "místico"
+        },
+        {
+            "title": "Tour Maras Moray + pachamanca andina dia inteiro",
+            "description": "Combine a maravilha dos laboratórios incas com um tradicional banquete andino preparado no subsolo.",
+            "price": "99",
+            "duracion": "Dia inteiro",
+            "image": "maras_pachamanca/img_header.webp",
+            "url": "tour_maras_pachamanca",
+            "categoria": "gastronomia"
+        },
+        {
+            "title": "Pachamanca Andina meio dia",
+            "description": "Aproveite o processo de preparação e degustação da tradicional Pachamanca ancestral.",
+            "price": "49",
+            "duracion": "Meio dia",
+            "image": "pachamanca/img_header.webp",
+            "url": "pachamanca_medio_dia",
+            "categoria": "gastronomia"
+        },
+        {
+            "title": "Ritual andino oferecendo meio dia",
+            "description": "Participe ativamente de uma autêntica oferta de gratidão à Pachamama (Mãe Terra).",
+            "price": "35",
+            "duracion": "Meio dia",
+            "image": "ritual_andino/img_header.webp",
+            "url": "ritual_andino",
+            "categoria": "místico"
+        }
+    ]
+}

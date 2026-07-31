@@ -4,6 +4,12 @@
  * Diseño: Frame_427318309.png
  * Stack: Tailwind CSS + Font Awesome + PHP data binding
  */
+$footer_language = $idioma ?? ($GLOBALS['lang'] ?? 'es');
+$footer_ui = [
+    'es' => ['hours' => 'Horario', 'phone' => 'Teléfono', 'address' => 'Dirección', 'email' => 'Correo', 'payments' => 'Pagos seguros'],
+    'en' => ['hours' => 'Hours', 'phone' => 'Phone', 'address' => 'Address', 'email' => 'Email', 'payments' => 'Secure payments'],
+    'pt' => ['hours' => 'Horário', 'phone' => 'Telefone', 'address' => 'Endereço', 'email' => 'E-mail', 'payments' => 'Pagamentos seguros'],
+][$footer_language] ?? ['hours' => 'Horario', 'phone' => 'Teléfono', 'address' => 'Dirección', 'email' => 'Correo', 'payments' => 'Pagos seguros'];
 ?>
 
 <footer class="bg-[#2b2b2b] text-white pt-14 pb-8">
@@ -123,7 +129,7 @@
 
             <!-- Horario -->
             <div>
-                <p class="text-xs    tracking-wide mb-1">Horario</p>
+                <p class="text-xs    tracking-wide mb-1"><?= htmlspecialchars($footer_ui['hours']) ?></p>
                 <p class="flex items-center gap-1.5 text-sm text-gray-400 font-poppins">
                     <i class="far fa-clock text-gray-500 text-xs"></i>
                     <?= htmlspecialchars($footer['horario']) ?>
@@ -132,7 +138,7 @@
 
             <!-- Teléfono / WhatsApp -->
             <div>
-                <p class="text-xs   tracking-wide mb-1">Teléfono</p>
+                <p class="text-xs   tracking-wide mb-1"><?= htmlspecialchars($footer_ui['phone']) ?></p>
                 <a href="https://wa.me/<?= htmlspecialchars($footer['whatsapp']) ?>"
                    target="_blank" rel="noopener"
                    class="flex items-center gap-1.5 text-sm text-gray-400 font-poppins hover:text-[#ff9300] transition-colors">
@@ -143,7 +149,7 @@
 
             <!-- Dirección -->
             <div>
-                <p class="text-xs    tracking-wide mb-1">Dirección</p>
+                <p class="text-xs    tracking-wide mb-1"><?= htmlspecialchars($footer_ui['address']) ?></p>
                 <p class="flex items-start gap-1.5 text-sm text-gray-400 font-poppins leading-snug">
                     <i class="far fa-map-marker-alt text-gray-500 text-xs mt-0.5 flex-shrink-0"></i>
                     <?= htmlspecialchars($footer['direccion']) ?>
@@ -152,7 +158,7 @@
 
             <!-- Correo -->
             <div>
-                <p class="text-xs   tracking-wide mb-1">Correo</p>
+                <p class="text-xs   tracking-wide mb-1"><?= htmlspecialchars($footer_ui['email']) ?></p>
                 <a href="mailto:<?= htmlspecialchars($footer['email']) ?>"
                    class="flex items-center gap-1.5 text-sm text-gray-400 font-poppins hover:text-[#ff9300] transition-colors">
                     <i class="far fa-envelope text-gray-500 text-xs"></i>
@@ -162,7 +168,7 @@
 
             <!-- Pagos seguros -->
             <div>
-                <p class="text-xs text-gray-500 font-poppins uppercase tracking-wide mb-2">Pagos seguros</p>
+                <p class="text-xs text-gray-500 font-poppins uppercase tracking-wide mb-2"><?= htmlspecialchars($footer_ui['payments']) ?></p>
                 <div class="flex items-center gap-2 flex-wrap">
                     <span class="rounded px-2 py-1 flex items-center">
                         <img src="<?= $base_url ?>/images/visa.png" alt="Visa" class="h-5 w-auto">

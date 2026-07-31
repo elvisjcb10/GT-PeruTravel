@@ -1,0 +1,16 @@
+{
+    "background_img": "/images/cta.webp",
+    "kicker": "Pronto para ir?",
+    "title_primary": "Sua aventura nos Andes",
+    "title_secondary": "Comece",
+    "title_highlight": "Hoje",
+    "description": "Passeios autênticos com guias locais especializados. Da Trilha Inca às geleiras inexploradas – experiências que transcendem as viagens comuns.",
+    "boton_whatsapp": {
+        "texto": "Consulte pelo WhatsApp",
+        "numero": "51987654321"
+    },
+    "boton_contacto": {
+        "texto": "Ver formulário de contato",
+        "url": "#contacto"
+    }
+}

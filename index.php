@@ -1,6 +1,32 @@
 <?php
 // para cargar promociones
-$idioma = $_GET['lang'] ?? 'es'; // lenguaje actual
+$idioma = $_GET['lang'] ?? 'es';
+if (!in_array($idioma, ['es', 'en', 'pt'], true)) {
+    $idioma = 'es';
+}
+$GLOBALS['lang'] = $idioma;
+$site_meta = [
+    'es' => [
+        'title' => 'GT Peru Travel | Tours a Machu Picchu, Cusco y experiencias únicas en Perú',
+        'description' => 'Descubre los mejores tours en Cusco y Machu Picchu con GT Peru Travel. Experiencias auténticas, guías expertos y aventuras inolvidables en los Andes.',
+        'keywords' => 'tours a Machu Picchu, turismo en Cusco, viajes a Perú, paquetes turísticos',
+    ],
+    'en' => [
+        'title' => 'GT Peru Travel | Machu Picchu and Cusco Tours',
+        'description' => 'Discover the best Cusco and Machu Picchu tours with GT Peru Travel. Authentic experiences, expert guides and unforgettable adventures in Peru.',
+        'keywords' => 'Machu Picchu tours, Cusco tourism, Peru travel, Peru packages',
+    ],
+    'pt' => [
+        'title' => 'GT Peru Travel | Tours para Machu Picchu e Cusco',
+        'description' => 'Descubra os melhores tours em Cusco e Machu Picchu com a GT Peru Travel. Experiências autênticas, guias especializados e aventuras inesquecíveis no Peru.',
+        'keywords' => 'tours Machu Picchu, turismo Cusco, viagens Peru, pacotes Peru',
+    ],
+][$idioma];
+$site_ui = [
+    'es' => ['from' => 'desde'],
+    'en' => ['from' => 'from'],
+    'pt' => ['from' => 'a partir de'],
+][$idioma];
 
 $json = file_get_contents(__DIR__ . "/promotions/promotions.json");
 $promotions = json_decode($json, true)['promotions'];
@@ -158,14 +184,14 @@ $data = json_decode($data_json, true);
 
 
 <!DOCTYPE html>
-<html lang="es">
+<html lang="<?= htmlspecialchars($idioma) ?>">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GT Peru Travel | Tours a Machu Picchu, Cusco y Experiencias Únicas en Perú</title>
-    <meta name="description" content="Descubre los mejores tours en Cusco y Machu Picchu con GT Peru Travel. Experiencias auténticas, guías expertos y aventuras inolvidables en los Andes. Reserva ahora.">
-    <meta name="keywords" content="tours a Machu Picchu, turismo en Cusco, viajes a Perú, paquetes turísticos, GT Peru Travel">
+    <title><?= htmlspecialchars($site_meta['title']) ?></title>
+    <meta name="description" content="<?= htmlspecialchars($site_meta['description']) ?>">
+    <meta name="keywords" content="<?= htmlspecialchars($site_meta['keywords']) ?>">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17034229022"></script>

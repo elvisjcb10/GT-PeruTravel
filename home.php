@@ -1,9 +1,9 @@
 <!-- home -->
 <main>
-    <!-- ******************** 
+    <!-- ********************
           Hero
      *********************** -->
-    <section id="video" class="relative w-full h-[92vh] sm:h-[85vh] md:h-[82vh] min-h-[600px] sm:min-h-[650px] bg-black overflow-hidden">
+    <section id="video" class="page-hero page-hero--with-stats relative w-full bg-black overflow-hidden">
 
         <!-- imagen de fondo -->
         <img class="absolute top-0 left-0 w-full h-full object-cover"
@@ -15,7 +15,7 @@
         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10"></div>
 
         <!-- contenido principal -->
-        <div class="relative z-10 h-full flex items-center justify-center pb-28 sm:pb-0">
+        <div class="page-hero-content home-hero-content relative z-10 h-full flex items-center justify-center">
             <div class="container-custom px-5 sm:px-8 md:px-20 w-full">
                 <div class="max-w-2xl">
 
@@ -41,19 +41,18 @@
 
                     </div>
 
+                    <div class="home-hero-awards">
+                        <img src="<?= $base_url ?>/images/tripadvisor/sticker2024.png" alt="Tripadvisor Travelers' Choice">
+                        <img src="<?= $base_url ?>/images/tripadvisor/sticker2025.png" alt="Tripadvisor Travelers' Choice">
+                        <img src="<?= $base_url ?>/images/tripadvisor/sticker2026.png" alt="Tripadvisor Travelers' Choice">
+                    </div>
+
                 </div>
             </div>
         </div>
 
-        <!-- logo tripadvisor (visible en todos los tamaños, más chico en mobile) -->
-        <div class="flex absolute z-10 bottom-28 left-1/2 -translate-x-1/2 sm:left-auto sm:right-10 sm:translate-x-0 gap-1 sm:gap-2">
-            <img src="<?= $base_url ?>/images/tripadvisor/sticker2024.png" alt="Tripadvisor Travelers' Choice" class="h-20 sm:h-20 md:h-28">
-            <img src="<?= $base_url ?>/images/tripadvisor/sticker2025.png" alt="Tripadvisor Travelers' Choice" class="h-20 sm:h-20 md:h-28">
-            <img src="<?= $base_url ?>/images/tripadvisor/sticker2026.png" alt="Tripadvisor Travelers' Choice" class="h-20 sm:h-20 md:h-28">
-        </div>
-
         <!-- barra de estadísticas -->
-        <div class="absolute bottom-0 left-0 w-full z-10 bg-black/30 sm:bg-black/20 backdrop-blur-sm">
+        <div class="page-hero-stats absolute bottom-0 left-0 w-full z-10 bg-black/30 sm:bg-black/20 backdrop-blur-sm">
             <div class="container-custom mx-auto px-4 sm:px-6 py-3 sm:py-5">
                 <div class="grid grid-cols-2 sm:flex sm:flex-wrap sm:justify-center gap-y-3 gap-x-4 sm:gap-x-10 md:gap-x-16 lg:gap-x-20">
 
@@ -94,7 +93,7 @@
         </div>
 
     </section>
-    <!-- ******************** 
+    <!-- ********************
          nosotros - empresa
      *********************** -->
     <section class="container-custom mx-auto px-5 sm:px-8 md:px-20 py-12 sm:py-16 md:py-20">
@@ -161,17 +160,17 @@
 
         </div>
     </section>
-    <!-- ************************ 
-        mejores TOURS 
+    <!-- ************************
+        mejores TOURS
     *********************** -->
-    <section id="tours" class="py-12 bg-white">
+    <section id="tours" class="bg-white py-12 sm:py-16 md:py-20">
 
         <div class="container-custom mx-auto px-5 sm:px-8 md:px-20 space-y-6 sm:space-y-8 reveal">
 
             <!-- Titulo -->
-            <div class="container-custom mx-auto px-0">
+            <div>
 
-                <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-2">
+                <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                     <?= $tours_text['kicker'] ?>
                 </p>
 
@@ -186,11 +185,11 @@
 
             </div>
 
-            <!-- ************************ 
+            <!-- ************************
                 CARRUSEL DE TOURS
             *********************** -->
             <div class="swiper-outer">
-                <div class="auto-swiper relative" data-desktop="3" data-tablet="2" data-mobile="1" data-gap="24">
+                <div class="auto-swiper relative" data-desktop="3" data-tablet="2" data-mobile="1" data-gap-mobile="16" data-gap-tablet="20" data-gap-desktop="24">
                     <div class="swiper-wrapper">
 
                         <?php foreach ($tours as $t) : ?>
@@ -231,7 +230,7 @@
                                     <!-- PRECIO + BOTON -->
                                     <div class="flex items-center justify-between p-4 pb-4">
                                         <div>
-                                            <span class="block text-[0.65rem] text-gray-400 font-poppins leading-none">desde</span>
+                                            <span class="block text-[0.65rem] text-gray-400 font-poppins leading-none"><?= htmlspecialchars($site_ui['from']) ?></span>
                                             <span class="text-2xl sm:text-3xl font-bold text-orange-custom"><?= $t['price'] ?></span>
                                         </div>
 
@@ -251,7 +250,7 @@
 
         </div>
     </section>
-     <!-- ******************** 
+     <!-- ********************
         nuestros destinos
     *********************** -->
     <section id="destinos" class="container-custom mx-auto px-5 sm:px-8 md:px-20 py-12 sm:py-16 md:py-20">
@@ -374,10 +373,10 @@
         </div>
 
     </section>
-<!-- ******************** 
+<!-- ********************
      glaciares
     *********************** -->
-    <section id="glaciares" class="relative w-full py-12 sm:py-16 md:py-16 px-5 sm:px-8 md:px-20 overflow-hidden">
+    <section id="glaciares" class="relative w-full overflow-hidden py-12 sm:py-16 md:py-20">
 
         <!-- IMAGEN DE FONDO -->
         <img src="<?= $base_url . $glaciares['background_img'] ?>"
@@ -387,17 +386,17 @@
         <!-- OVERLAY OSCURO -->
         <div class="absolute inset-0 bg-gradient-to-r from-black/85 via-black/60 to-black/30"></div>
         <!-- CONTENIDO -->
-        <div class="relative z-10 container-custom mx-auto px-0 sm:px-4">
+        <div class="relative z-10 container-custom mx-auto px-5 sm:px-8 md:px-20">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 items-center">
 
                 <!-- COLUMNA IZQUIERDA: TEXTO -->
                 <div class="reveal-left">
 
-                    <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2 sm:mb-3">
+                    <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                         <?= $glaciares['kicker'] ?>
                     </p>
 
-                    <h2 class="text-3xl sm:text-4xl md:text-5xl font-anton leading-tight mb-3 sm:mb-4">
+                    <h2 class="text-2xl sm:text-3xl md:text-5xl font-anton leading-tight mb-3 sm:mb-4">
                         <span class="text-white"><?= $glaciares['title_primary'] ?></span><br>
                         <span class="text-orange-custom"><?= $glaciares['title_secondary'] ?></span>
                     </h2>
@@ -423,12 +422,12 @@
                     <!-- BOTONES -->
                     <div class="flex flex-wrap items-center gap-4">
 
-                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=glaciares&lang=<?= $idioma ?>" 
+                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=glaciares&lang=<?= $idioma ?>"
                         class="hover:scale-105 inline-flex items-center px-6 sm:px-7 py-3 sm:py-3.5 text-sm md:text-base bg-orange-custom text-white font-bold font-poppins rounded-full transition duration-300 ease-in-out hover:bg-[#c2660a] shadow-md">
                             <?= $glaciares['boton_primario'] ?>
                         </a>
 
-                       
+
                     </div>
 
                 </div>
@@ -438,7 +437,7 @@
                 <!-- MOBILE: CARRUSEL (solo visible en mobile) -->
                 <div class="md:hidden reveal-right">
                     <div class="swiper-outer">
-                        <div class="auto-swiper relative" data-desktop="1" data-tablet="1" data-mobile="1" data-gap="16">
+                        <div class="auto-swiper relative" data-desktop="1" data-tablet="1" data-mobile="1" data-gap-mobile="16" data-gap-tablet="20" data-gap-desktop="24">
                             <div class="swiper-wrapper">
 
                                 <?php foreach ($glaciares['cards'] as $card): ?>
@@ -511,15 +510,15 @@
         </div>
 
     </section>
-        <!-- ******************** 
+        <!-- ********************
      Titulo Paquetes mas populares
      *********************** -->
 
-    <section id="paquetes-populares" class="py-6 sm:py-8 bg-white">
+    <section id="paquetes-populares" class="bg-white pt-12 sm:pt-16 md:pt-20">
         <div class="container-custom mx-auto px-5 sm:px-8 md:px-20">
 
             <!-- TITULO + VER TODOS -->
-            <div class="flex flex-wrap items-end justify-between gap-3 sm:gap-4 mb-6 sm:mb-8 reveal">
+            <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-5 sm:mb-8 reveal">
                 <div>
                     <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                         <?= $popular_text['kicker'] ?>
@@ -531,8 +530,8 @@
                     </h2>
                 </div>
 
-                <a href="<?= $base_url ?>/destino/template-destino.php?destino=paquete-peru&lang=<?= $idioma ?>" 
-                class="inline-flex items-center gap-2 text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide hover:text-[#c2660a] transition">
+                <a href="<?= $base_url ?>/destino/template-destino.php?destino=paquete-peru&lang=<?= $idioma ?>"
+                class="inline-flex min-h-10 items-center gap-2 self-start sm:self-auto text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide hover:text-[#c2660a] transition">
                     <?= $popular_text['ver_todos'] ?>
                     <i class="fa-solid fa-arrow-right text-xs"></i>
                 </a>
@@ -540,7 +539,7 @@
 
         </div>
     </section>
-        <!-- ************************ 
+        <!-- ************************
         carrusel paquetes mas populares
     *********************** -->
     <?php
@@ -549,16 +548,16 @@
     });
     ?>
 
-    <div class="mx-auto px-5 sm:px-8 md:px-20 pb-6 sm:pb-10 md:pb-16 reveal">
+    <div class="container-custom mx-auto px-5 pb-12 sm:px-8 sm:pb-16 md:px-20 md:pb-20 reveal">
         <div class="swiper-outer">
-            <div class="auto-swiper relative" data-desktop="3" data-tablet="2" data-mobile="1" data-gap="24">
+            <div class="auto-swiper relative" data-desktop="3" data-tablet="2" data-mobile="1" data-gap-mobile="16" data-gap-tablet="20" data-gap-desktop="24">
                 <div class="swiper-wrapper">
 
                     <?php foreach ($promo_packages as $p) : ?>
                         <div class="swiper-slide h-auto">
 
                             <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=<?= $p['url'] ?>&lang=<?= $idioma ?>"
-                            class="block bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full">
+                            class="flex h-full flex-col bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
 
                                 <!-- IMAGEN -->
                                 <?php
@@ -567,25 +566,27 @@
                                     $imagenes = is_array($p['image']) ? $p['image'] : [$p['image']];
                                 }
                                 ?>
-                                <div class="relative h-56 sm:h-64 md:h-80 w-full overflow-hidden px-1 pt-1">
+                                <div class="relative h-56 sm:h-72 md:h-80 w-full flex-shrink-0 overflow-hidden px-1 pt-1">
 
                                     <?php if (count($imagenes) > 1): ?>
                                         <div class="card-slider relative w-full h-full">
                                             <?php foreach ($imagenes as $i => $img): ?>
                                                 <img src="<?= $base_url ?>/images/<?= $img ?>"
+                                                    alt="<?= htmlspecialchars($p['title']) ?>"
                                                     class="absolute rounded-lg inset-0 w-full h-full object-cover transition-opacity duration-1000 <?= $i === 0 ? 'opacity-100' : 'opacity-0' ?>">
                                             <?php endforeach; ?>
                                         </div>
                                     <?php else: ?>
                                         <img src="<?= $base_url ?>/images/<?= $imagenes[0] ?>"
+                                            alt="<?= htmlspecialchars($p['title']) ?>"
                                             class="relative inset-0 w-full rounded-lg h-full object-cover">
                                     <?php endif; ?>
 
-                                    
+
                                 </div>
 
                                 <!-- CONTENIDO -->
-                                <div class="px-4 pt-4">
+                                <div class="flex-1 px-4 pt-4">
 
                                     <!-- TITULO -->
                                     <h3 class="text-sm sm:text-base font-bold font-poppins text-gray-900 leading-snug mb-1">
@@ -626,19 +627,19 @@
                                 <div class="border-t border-gray-200 mx-4"></div>
 
                                 <!-- PRECIO + BOTON -->
-                                <div class="flex items-center justify-between px-4 py-3 sm:py-4 gap-2">
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between px-4 py-3 sm:py-4 gap-3">
                                     <div>
-                                        <span class="block text-[0.65rem] sm:text-xs text-gray-400 font-poppins leading-none mb-1">desde</span>
+                                        <span class="block text-[0.65rem] sm:text-xs text-gray-400 font-poppins leading-none mb-1"><?= htmlspecialchars($site_ui['from']) ?></span>
 
                                         <?php if (isset($p['promo']['active']) && $p['promo']['active'] && isset($p['promo']['old_price'])): ?>
-                                            <span class="text-xl sm:text-2xl md:text-3xl line-through text-gray-300 mr-1"><?= $p['promo']['old_price'] ?></span>
+                                            <span class="block text-sm sm:text-base line-through text-gray-400"><?= $p['promo']['old_price'] ?></span>
                                         <?php endif; ?>
 
-                                        <span class="text-xl sm:text-2xl md:text-3xl font-bold text-orange-custom">
+                                        <span class="text-2xl sm:text-3xl font-bold text-orange-custom">
                                             $<?= $p['price'] ?> <span class="text-xs sm:text-sm text-gray-700 font-semibold"><?= $p['moneda'] ?? 'USD' ?></span>
                                         </span>
                                     </div>
-                                    <span class="font-poppins bg-orange-custom hover:bg-[#c2660a] text-white text-xs sm:text-sm font-bold px-4 sm:px-5 py-2 sm:py-2.5 rounded-lg transition uppercase whitespace-nowrap">
+                                    <span class="inline-flex min-h-10 w-full sm:w-auto items-center justify-center font-poppins bg-orange-custom hover:bg-[#c2660a] text-white text-xs sm:text-sm font-bold px-4 sm:px-5 py-2 sm:py-2.5 rounded-lg transition uppercase whitespace-nowrap">
                                         <?= $p['reservar'] ?>
                                     </span>
                                 </div>
@@ -651,21 +652,21 @@
             </div>
         </div>
     </div>
-    <!-- ******************** 
+    <!-- ********************
         experiencias unicas
     *********************** -->
-    <section id="experiencias" class="bg-white py-14">
+    <section id="experiencias" class="bg-white py-12 sm:py-16 md:py-20">
         <div class="container-custom mx-auto px-5 sm:px-8 md:px-20">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 items-center">
 
                 <!-- COLUMNA IZQUIERDA: TEXTO -->
                 <div class="reveal-left">
 
-                    <p class="section-kicker text-orange-custom text-sm font-bold font-poppins uppercase tracking-wide mb-3">
+                    <p class="section-kicker text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                         <?= $experiencias_text['kicker'] ?>
                     </p>
 
-                    <h2 class="text-3xl sm:text-4xl md:text-5xl font-anton leading-tight mb-4">
+                    <h2 class="text-2xl sm:text-3xl md:text-5xl font-anton leading-tight mb-3 sm:mb-4">
                         <span class="text-gray-900"><?= $experiencias_text['title_primary'] ?></span>
                         <span class="text-orange-custom"><?= $experiencias_text['title_secondary'] ?></span>
                     </h2>
@@ -717,7 +718,7 @@
 
                     <!-- CARRUSEL DE LAS DEMAS EXPERIENCIAS -->
                     <div class="swiper-outer">
-                        <div class="auto-swiper relative" data-desktop="1" data-tablet="1" data-mobile="1" data-gap="20">
+                        <div class="auto-swiper relative" data-desktop="1" data-tablet="1" data-mobile="1" data-gap-mobile="16" data-gap-tablet="20" data-gap-desktop="24">
                             <div class="swiper-wrapper">
 
                                 <?php foreach ($secundarias as $e): ?>
@@ -753,7 +754,7 @@
                                             <!-- PRECIO + BOTON -->
                                             <div class="flex items-center justify-between p-4">
                                                 <div>
-                                                    <span class="block text-[0.65rem] text-gray-400 font-poppins leading-none">desde</span>
+                                                    <span class="block text-[0.65rem] text-gray-400 font-poppins leading-none"><?= htmlspecialchars($site_ui['from']) ?></span>
                                                     <span class="text-xl sm:text-2xl font-bold text-orange-custom"><?= $e['precio'] ?></span>
                                                 </div>
                                                 <span class="inline-flex items-center px-5 py-2 text-sm bg-orange-custom text-white font-bold font-poppins rounded-lg transition duration-300 ease-in-out hover:bg-[#c2660a] shadow-md">
@@ -775,8 +776,7 @@
         </div>
     </section>
 
-
-    <!-- ******************** 
+    <!-- ********************
         cta - aventura en los andes
     *********************** -->
     <section id="cta-aventura" class="relative w-full py-16 sm:py-24 md:py-32 overflow-hidden">
@@ -793,11 +793,11 @@
         <div class="relative z-10 container-custom mx-auto px-5 sm:px-8">
             <div class="max-w-3xl mx-auto text-center reveal-zoom">
 
-                <p class="section-kicker section-kicker-center text-orange-custom text-xs sm:text-sm md:text-base font-bold font-poppins mb-3">
+                <p class="section-kicker section-kicker-center text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                     <?= $cta['kicker'] ?>
                 </p>
 
-                <h2 class="text-2xl sm:text-4xl md:text-5xl font-anton leading-tight mb-4 sm:mb-6">
+                <h2 class="text-2xl sm:text-3xl md:text-5xl font-anton leading-tight mb-3 sm:mb-4">
                     <span class="text-white"><?= $cta['title_primary'] ?></span><br>
                     <span class="text-white"><?= $cta['title_secondary'] ?></span>
                     <span class="text-orange-custom"><?= $cta['title_highlight'] ?></span>
@@ -831,10 +831,10 @@
 
     </section>
 
-    <!-- ******************** 
+    <!-- ********************
         trip-advisor
     *********************** -->
-    <section id="trip-advisor" class="bg-white py-10 sm:py-14">
+    <section id="trip-advisor" class="bg-white py-12 sm:py-16 md:py-20">
         <div class="container-custom mx-auto px-5 sm:px-8 md:px-20">
 
             <!-- TITULO + VER TODOS -->
@@ -931,7 +931,63 @@
             </div>
         </div>
     </section>
-    <!-- ******************** 
+    <!-- ********************
+        videos testimoniales
+    *********************** -->
+    <section id="videos-testimoniales" class="relative w-full overflow-hidden py-12 sm:py-16 md:py-20">
+
+        <!-- IMAGEN DE FONDO -->
+        <img src="<?= $base_url . $videos_test['background_img'] ?>"
+            alt="<?= $videos_test['title'] ?>"
+            class="absolute inset-0 w-full h-full object-cover">
+
+        <!-- OVERLAY OSCURO -->
+        <div class="absolute inset-0 bg-black/50"></div>
+
+        <!-- CONTENIDO -->
+        <div class="relative z-10 container-custom mx-auto px-5 sm:px-8 md:px-20">
+
+            <!-- TITULO CENTRADO -->
+            <div class="text-center mb-8 sm:mb-10 reveal">
+                <p class="section-kicker section-kicker-center text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
+                    <?= $videos_test['kicker'] ?>
+                </p>
+
+                <h2 class="text-2xl sm:text-3xl md:text-5xl font-anton text-white leading-tight">
+                    <?= $videos_test['title'] ?>
+                </h2>
+            </div>
+
+            <!-- CARRUSEL DE VIDEOS -->
+            <div class="swiper-outer mx-auto max-w-6xl reveal">
+                <div class="auto-swiper relative" data-desktop="3" data-tablet="2" data-mobile="1" data-gap-mobile="16" data-gap-tablet="20" data-gap-desktop="24" data-autoplay="true">
+                    <div class="swiper-wrapper">
+                        <?php foreach ($videos_test['videos'] as $i => $video): ?>
+                            <div class="swiper-slide h-auto">
+                                <button type="button"
+                                        class="video-trigger group relative block h-52 w-full overflow-hidden rounded-xl shadow-lg sm:h-56 md:h-64"
+                                        data-video-url="<?= htmlspecialchars($video['video_url']) ?>"
+                                        aria-label="Reproducir <?= htmlspecialchars($video['titulo']) ?>">
+                                    <img src="<?= $base_url . $video['thumbnail'] ?>"
+                                        alt="<?= htmlspecialchars($video['titulo']) ?>"
+                                        class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                    <span class="absolute inset-0 bg-black/10 transition-colors duration-300 group-hover:bg-black/20"></span>
+                                    <span class="absolute inset-0 flex items-center justify-center">
+                                        <span class="flex h-12 w-12 items-center justify-center rounded-full bg-orange-custom shadow-lg transition-transform duration-300 group-hover:scale-110 sm:h-14 sm:w-14 md:h-16 md:w-16">
+                                            <i class="fa-solid fa-play ml-1 text-base text-white sm:text-lg md:text-xl"></i>
+                                        </span>
+                                    </span>
+                                </button>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ********************
         MODAL DE VIDEO
     *********************** -->
     <div id="video-modal" class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/80 px-4">
@@ -951,10 +1007,10 @@
             </div>
         </div>
     </div>
-    <!-- ******************** 
+    <!-- ********************
         blog de viajeros
     *********************** -->
-    <section id="blog" class="bg-white py-10 sm:py-14">
+    <section id="blog" class="bg-white py-12 sm:py-16 md:py-20">
         <div class="container-custom mx-auto px-5 sm:px-8 md:px-20">
 
             <!-- TITULO + VER TODOS -->
@@ -974,7 +1030,7 @@
                     </p>
                 </div>
 
-                <a href="<?= $base_url ?>/blog/template-blog.php?lang=<?= $idioma ?>"
+                <a href="<?= $base_url ?>/blog.php?lang=<?= $idioma ?>"
                 class="inline-flex items-center gap-2 text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide hover:text-[#c2660a] transition">
                     <?= $blog_text['ver_todos'] ?>
                     <i class="fa-solid fa-arrow-right text-xs"></i>
@@ -983,12 +1039,12 @@
 
             <!-- CARRUSEL DE POSTS -->
             <div class="swiper-outer reveal">
-                <div class="auto-swiper relative" data-desktop="3" data-tablet="2" data-mobile="1" data-gap="24">
+                <div class="auto-swiper relative" data-desktop="3" data-tablet="2" data-mobile="1" data-gap-mobile="16" data-gap-tablet="20" data-gap-desktop="24">
                     <div class="swiper-wrapper">
 
                         <?php foreach ($blog_posts as $post): ?>
                             <div class="swiper-slide h-auto">
-                                <a href="<?= $base_url ?>/blog/template-articulo.php?articulo=<?= $post['url'] ?>&lang=<?= $idioma ?>"
+                                <a href="<?= $base_url ?>/blog.php?lang=<?= $idioma ?>#<?= urlencode($post['url']) ?>"
                                 class="block bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full">
 
                                     <!-- IMAGEN -->
@@ -1030,10 +1086,10 @@
 
         </div>
     </section>
-    <!-- ******************** 
+    <!-- ********************
         reconocimientos y licencias
     *********************** -->
-    <section id="reconocimientos" class="relative w-full py-16 md:py-20 overflow-hidden">
+    <section id="reconocimientos" class="relative w-full overflow-hidden py-12 sm:py-16 md:py-20">
 
         <!-- IMAGEN DE FONDO -->
         <img src="<?= $base_url . $reconocimientos['background_img'] ?>"
@@ -1044,15 +1100,15 @@
         <div class="absolute inset-0 bg-black/45"></div>
 
         <!-- CONTENIDO -->
-        <div class="relative z-10 container-custom mx-auto px-4">
+        <div class="relative z-10 container-custom mx-auto px-5 sm:px-8 md:px-20">
 
             <!-- TITULO CENTRADO -->
             <div class="text-center mb-10 reveal">
-                <p class="section-kicker section-kicker-center text-orange-custom text-sm md:text-base font-bold font-poppins mb-2">
+                <p class="section-kicker section-kicker-center text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide mb-2">
                     <?= $reconocimientos['kicker'] ?>
                 </p>
 
-                <h2 class="text-3xl md:text-5xl font-anton leading-tight">
+                <h2 class="text-2xl sm:text-3xl md:text-5xl font-anton leading-tight">
                     <span class="text-white"><?= $reconocimientos['title_primary'] ?></span>
                     <span class="text-orange-custom"><?= $reconocimientos['title_secondary'] ?></span>
                 </h2>

@@ -1,5 +1,6 @@
 {
-    "cards": [{
+    "cards": [
+        {
             "title": "DISCOVER PERU",
             "subtitle": "8 DAYS / 7 NIGHTS",
             "description": "Explore Peru in a complete experience from Lima to Cusco...",
@@ -10,7 +11,15 @@
             "promo": {
                 "active": true,
                 "label": "FULL EXPERIENCE"
-            }
+            },
+            "ubicacion": "Cusco · Sacred Valley",
+            "max_personas": "12",
+            "categorias": [
+                "Trekking",
+                "archeology",
+                "Gastronomy"
+            ],
+            "moneda": "USD"
         },
         {
             "title": "RAINBOW MOUNTAIN + 7 LAGOONS",
@@ -22,7 +31,15 @@
                 "montana-colores-cusco-peru-card-01.jpg"
             ],
             "url": "montanacolores-7lagunas",
-            "reservar": "BOOK NOW"
+            "reservar": "BOOK NOW",
+            "ubicacion": "Cusco · Sacred Valley",
+            "max_personas": "12",
+            "categorias": [
+                "Trekking",
+                "archeology",
+                "Gastronomy"
+            ],
+            "moneda": "USD"
         },
         {
             "title": "RAINBOW MOUNTAIN + QUELCCAYA GLACIER",
@@ -38,7 +55,15 @@
             "promo": {
                 "active": true,
                 "label": "ANDEAN EXPEDITION"
-            }
+            },
+            "ubicacion": "Cusco · Sacred Valley",
+            "max_personas": "12",
+            "categorias": [
+                "Trekking",
+                "archeology",
+                "Gastronomy"
+            ],
+            "moneda": "USD"
         },
         {
             "title": "SACRED VALLEY + MACHU PICCHU",
@@ -50,7 +75,19 @@
                 "machupicchu-cusco-peru.jpg"
             ],
             "url": "vallesagrado-machupicchu",
-            "reservar": "BOOK NOW"
+            "reservar": "BOOK NOW",
+            "ubicacion": "Cusco · Sacred Valley",
+            "max_personas": "12",
+            "categorias": [
+                "Trekking",
+                "archeology",
+                "Gastronomy"
+            ],
+            "moneda": "USD",
+            "promo": {
+                "active": true,
+                "label": "ANDEAN EXPEDITION"
+            }
         },
         {
             "title": "SHORT INCA TRAIL",
@@ -62,7 +99,19 @@
                 "machupicchu-camino-inca-corto-cusco-peru.jpg"
             ],
             "url": "short-inca-trail",
-            "reservar": "BOOK NOW"
+            "reservar": "BOOK NOW",
+            "ubicacion": "Cusco · Sacred Valley",
+            "max_personas": "12",
+            "categorias": [
+                "Trekking",
+                "archeology",
+                "Gastronomy"
+            ],
+            "moneda": "USD",
+            "promo": {
+                "active": true,
+                "label": "ANDEAN EXPEDITION"
+            }
         },
         {
             "title": "CUSCO EXPRESS",

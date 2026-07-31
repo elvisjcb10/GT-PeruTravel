@@ -1,0 +1,88 @@
+{
+    "background": "/images/destinos/arequipa/arequipa.webp",
+    "badge": "Destination",
+    "titulo": "Tours in Arequipa",
+    "descripcion": "Explore the White City, its colonial ashlar architecture, and the imposing Colca Canyon, one of the deepest in the world.",
+    "stats": [
+        {
+            "icono": "fa-mountain",
+            "numero": "30+",
+            "titulo": "Destinations"
+        },
+        {
+            "icono": "fa-people-group",
+            "numero": "7K+",
+            "titulo": "Travelers"
+        },
+        {
+            "icono": "fa-star",
+            "numero": "4.8",
+            "titulo": "Rating"
+        },
+        {
+            "icono": "fa-globe",
+            "numero": "10+",
+            "titulo": "Years of Exp."
+        }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.7",
+        "texto": "+140 Travelers"
+    },
+    "filtros": [
+        {
+            "id": "todos",
+            "label": "all"
+        },
+        {
+            "id": "tradicionales",
+            "label": "Traditional"
+        },
+        {
+            "id": "aventura",
+            "label": "Adventure"
+        },
+        {
+            "id": "caminata",
+            "label": "Hike"
+        }
+    ],
+    "tours": [
+        {
+            "title": "Colonial Arequipa City Tour",
+            "description": "Tour the historic center of the White City, the Monastery of Santa Catalina and the Plaza de Armas.",
+            "price": "30",
+            "duracion": "1Day / 0Nights",
+            "image": "arequipa-colonial.jpg",
+            "url": "arequipa-colonial",
+            "categoria": "traditional"
+        },
+        {
+            "title": "Colca Canyon 2 Days",
+            "description": "Watch the flight of the Andean condor at the Cruz del Cóndor and explore the traditional villages of the Colca Valley.",
+            "price": "95",
+            "duracion": "2Days / 1Nights",
+            "image": "canon-colca.jpg",
+            "url": "canon-colca",
+            "categoria": "traditional"
+        },
+        {
+            "title": "Colca Canyon Trekking",
+            "description": "Descend to the bottom of the second deepest canyon in the world and enjoy the Sangalle oasis.",
+            "price": "120",
+            "duracion": "3Days / 2Nights",
+            "image": "trekking-colca.jpg",
+            "url": "trekking-colca",
+            "categoria": "hike"
+        },
+        {
+            "title": "Salinas and Aguada Blanca Reserve",
+            "description": "See vicuñas, Andean flamingos and volcanoes in this nature reserve near Arequipa.",
+            "price": "55",
+            "duracion": "1Day / 0Nights",
+            "image": "salinas-aguada-blanca.jpg",
+            "url": "salinas-aguada-blanca",
+            "categoria": "adventure"
+        }
+    ]
+}

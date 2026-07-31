@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function openMenu() {
         panel.classList.remove("translate-x-full");
         overlay.classList.remove("hidden");
+        document.body.classList.add("mobile-menu-open");
         document.body.style.overflow = "hidden";
         menuBtn?.setAttribute("aria-expanded", "true");
         panel?.setAttribute("aria-hidden", "false");
@@ -16,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function closeMenu() {
         panel.classList.add("translate-x-full");
         overlay.classList.add("hidden");
+        document.body.classList.remove("mobile-menu-open");
         document.body.style.overflow = "";
         menuBtn?.setAttribute("aria-expanded", "false");
         panel?.setAttribute("aria-hidden", "true");

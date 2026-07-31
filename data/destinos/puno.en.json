@@ -1,0 +1,88 @@
+{
+    "background": "/images/destinos/puno/puno.webp",
+    "badge": "Destination",
+    "titulo": "Tours in Puno",
+    "descripcion": "Sail Lake Titicaca, the highest navigable lake in the world, and meet the living communities of the Uros, Taquile and Amantaní.",
+    "stats": [
+        {
+            "icono": "fa-mountain",
+            "numero": "25+",
+            "titulo": "Destinations"
+        },
+        {
+            "icono": "fa-people-group",
+            "numero": "6K+",
+            "titulo": "Travelers"
+        },
+        {
+            "icono": "fa-star",
+            "numero": "4.9",
+            "titulo": "Rating"
+        },
+        {
+            "icono": "fa-globe",
+            "numero": "10+",
+            "titulo": "Years of Exp."
+        }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.8",
+        "texto": "+120 Travelers"
+    },
+    "filtros": [
+        {
+            "id": "todos",
+            "label": "all"
+        },
+        {
+            "id": "tradicionales",
+            "label": "Traditional"
+        },
+        {
+            "id": "aventura",
+            "label": "Adventure"
+        },
+        {
+            "id": "caminata",
+            "label": "Hike"
+        }
+    ],
+    "tours": [
+        {
+            "title": "Uros and Taquile Islands",
+            "description": "Sail Lake Titicaca and see the floating reed islands of the Uros, as well as the island of Taquile and its textile industry.",
+            "price": "45",
+            "duracion": "1Day / 0Nights",
+            "image": "uros-taquile.jpg",
+            "url": "uros-taquile",
+            "categoria": "traditional"
+        },
+        {
+            "title": "Experiential Amantani Island",
+            "description": "Live a unique experience staying with local families on Amantani Island, in the middle of Lake Titicaca.",
+            "price": "75",
+            "duracion": "2Days / 1Nights",
+            "image": "isla-amantani.jpg",
+            "url": "isla-amantani",
+            "categoria": "traditional"
+        },
+        {
+            "title": "Sillustani Full Day",
+            "description": "Explore the imposing pre-Inca funerary chullpas of Sillustani, overlooking Lake Umayo.",
+            "price": "35",
+            "duracion": "1Day / 0Nights",
+            "image": "sillustani.jpg",
+            "url": "sillustani",
+            "categoria": "hike"
+        },
+        {
+            "title": "Titicaca 2 Days 1 Night",
+            "description": "Combine Uros, Taquile and Amantani in a complete 2-day experience sailing the sacred lake of the Incas.",
+            "price": "95",
+            "duracion": "2Days / 1Nights",
+            "image": "titicaca-2dias.jpg",
+            "url": "titicaca-2dias",
+            "categoria": "adventure"
+        }
+    ]
+}

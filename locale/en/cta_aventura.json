@@ -1,0 +1,16 @@
+{
+    "background_img": "/images/cta.webp",
+    "kicker": "Ready to go?",
+    "title_primary": "Your Adventure in the Andes",
+    "title_secondary": "Get started",
+    "title_highlight": "Today",
+    "description": "Authentic tours with expert local guides. From the Inca Trail to unexplored glaciers — experiences that transcend ordinary travel.",
+    "boton_whatsapp": {
+        "texto": "Consult by WhatsApp",
+        "numero": "51987654321"
+    },
+    "boton_contacto": {
+        "texto": "See contact form",
+        "url": "#contacto"
+    }
+}

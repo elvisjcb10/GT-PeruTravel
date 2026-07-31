@@ -1,0 +1,53 @@
+{
+    "background": "/images/glaciares/hero.webp",
+    "badge": "Destino",
+    "titulo": "Geleiras em Cusco",
+    "descripcion": "Explore as imponentes massas de gelo perpétuo nas cordilheiras de Cusco, rotas desafiadoras com paisagens andinas incomparáveis.",
+    "stats": [
+        {
+            "icono": "fa-mountain",
+            "numero": "2+",
+            "titulo": "Geleiras"
+        },
+        {
+            "icono": "fa-people-group",
+            "numero": "3K+",
+            "titulo": "Viajantes"
+        },
+        {
+            "icono": "fa-star",
+            "numero": "4.8",
+            "titulo": "Avaliação"
+        },
+        {
+            "icono": "fa-globe",
+            "numero": "10+",
+            "titulo": "Anos de Exp."
+        }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.8",
+        "texto": "+80 viajantes"
+    },
+    "filtros": [],
+    "tours": [
+        {
+            "title": "Passeio pela Geleira Quelccaya",
+            "description": "Explore a maior geleira tropical do mundo cercada por pântanos, lagoas glaciais e a imponente Lagoa Sibinacocha.",
+            "price": "0",
+            "duracion": "Dia inteiro",
+            "image": "glaciares/quelccaya/img_header.webp",
+            "url": "glaciar-quelccaya",
+            "categoria": "caminhada"
+        },
+        {
+            "title": "Excursão às Geleiras Ausangate",
+            "description": "Passeie pelas majestosas e imponentes geleiras que cercam o sagrado Apu Ausangate.",
+            "price": "0",
+            "duracion": "Dia inteiro",
+            "image": "glaciares/ausangate/card.webp",
+            "url": "glaciar-ausangate",
+            "categoria": "caminhada"
+        }
+    ]
+}

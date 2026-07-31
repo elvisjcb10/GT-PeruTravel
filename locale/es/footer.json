@@ -13,7 +13,7 @@
     "enlaces_title": "enlaces útiles",
     "enlaces": [{
             "name": "Blog",
-            "url": "blog"
+            "url": "blog.php?lang=es"
         },
         {
             "name": "Testimonios",

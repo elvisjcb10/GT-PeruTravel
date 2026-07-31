@@ -8,7 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
         const desktop  = parseInt(el.dataset.desktop)  || 3;
         const tablet   = parseInt(el.dataset.tablet)   || 2;
         const mobile   = parseInt(el.dataset.mobile)   || 1;
-        const gap      = parseInt(el.dataset.gap)      || 20;
+        const gap        = parseInt(el.dataset.gap)        || 20;
+        const gapMobile  = parseInt(el.dataset.gapMobile)  || gap;
+        const gapTablet  = parseInt(el.dataset.gapTablet)  || gap;
+        const gapDesktop = parseInt(el.dataset.gapDesktop) || gap;
         const loop     = el.dataset.loop === "true";
         const autoplay = el.dataset.autoplay === "true";
         const showNav  = el.dataset.nav !== "false";   // true por defecto
@@ -45,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Inicializar Swiper
         new Swiper(`.${uid}`, {
             slidesPerView: mobile,
-            spaceBetween: gap,
+            spaceBetween: gapMobile,
             loop: loop,
             autoplay: autoplay ? { delay: 4000, disableOnInteraction: false } : false,
             navigation: showNav ? {
@@ -59,9 +62,11 @@ document.addEventListener("DOMContentLoaded", () => {
             breakpoints: {
                 640: {
                     slidesPerView: tablet,
+                    spaceBetween: gapTablet,
                 },
                 1024: {
                     slidesPerView: desktop,
+                    spaceBetween: gapDesktop,
                 },
             },
         });

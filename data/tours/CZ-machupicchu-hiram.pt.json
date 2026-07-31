@@ -1,0 +1,181 @@
+{
+    "title": "Excursão Machu Picchu pelo trem de luxo Hiram Bingham",
+    "short_description": "Viva uma experiência exclusiva a bordo do trem mais prestigiado da América do Sul, combinando conforto premium, gastronomia e uma visita a Machu Picchu.",
+    "long_description": "O Tour Machu Picchu pelo Trem de Luxo de Dia Inteiro Hiram Bingham oferece uma experiência exclusiva que combina o conforto de um dos trens mais prestigiados da América do Sul com uma visita ao Santuário Histórico de Machu Picchu. Cada detalhe do passeio foi pensado para oferecer um serviço de primeira classe, onde o atendimento personalizado, a gastronomia e as impressionantes paisagens do Vale Sagrado fazem parte de uma experiência inesquecível.<br/><br/>Além de percorrer uma das maravilhas do mundo, você desfrutará de uma viagem a bordo do emblemático Hiram Bingham da PeruRail, reconhecido por sua elegância, seu serviço premium e sua atmosfera inspirada na época de ouro das viagens ferroviárias.",
+    "duration": "Dia inteiro",
+    "image_cover": "machupicchu/hiram/hero.webp",
+    "gallery": [
+        "machupicchu/hiram/galeria1.webp",
+        "machupicchu/hiram/galeria2.webp",
+        "machupicchu/hiram/galeria3.webp",
+        "machupicchu/hiram/galeria4.webp"
+    ],
+    "price": "89",
+    "price_note": "Inclui trem de luxo Hiram Bingham, ônibus turístico, entrada em Machu Picchu, alimentação a bordo e guia profissional.",
+    "seo_title": "Machu Picchu Hiram Bingham Excursão de Trem de Luxo Dia Inteiro | GT Peru Viagens",
+    "seo_description": "Experimente Machu Picchu a bordo do trem Hiram Bingham exclusivo da PeruRail: gastronomia, música ao vivo e serviço premium. Excursão de dia inteiro saindo de Cusco.",
+    "seo_keywords": "trem hiram bingham, trem de luxo machu picchu, perurail hiram bingham, passeio premium machu picchu, passeio de luxo cusco machu picchu, viagens gt peru",
+    "resumen": {
+        "ubicacion": "Santuário Histórico de Machu Picchu",
+        "lugar_recojo": "Hotel no Centro Histórico de Cusco",
+        "lugar_finalizacion": "Hotel em Cusco",
+        "idiomas": [
+            "Espanhol",
+            "Inglês"
+        ],
+        "transporte": [
+            "Transporte turístico",
+            "Trem de luxo Hiram Bingham (ida e volta)",
+            "Ônibus turístico entre Machu Picchu Pueblo e a cidadela"
+        ],
+        "entrada": "Ingresso oficial de entrada para Machu Picchu",
+        "altitud": "2.430 metros acima do nível do mar",
+        "temporada": "o ano todo"
+    },
+    "caracteristicas": [
+        {
+            "icono": "fa-person-hiking",
+            "label": "Dificuldade",
+            "valor": "Moderado"
+        },
+        {
+            "icono": "fa-clock",
+            "label": "Duração",
+            "valor": "Dia inteiro"
+        },
+        {
+            "icono": "fa-people-group",
+            "label": "Serviço",
+            "valor": "Prêmio"
+        },
+        {
+            "icono": "fa-mountain",
+            "label": "Altitude Máxima",
+            "valor": "2.430 metros acima do nível do mar"
+        }
+    ],
+    "days": [
+        {
+            "title": "Dia 1: Cusco – Trem de luxo Hiram Bingham – Machu Picchu – Cusco",
+            "lugar": "Cusco → Machu Picchu → Cusco",
+            "text": "O passeio começa com o traslado do seu hotel até a estação ferroviária, onde você embarcará no exclusivo PeruRail Hiram Bingham. Durante a viagem você desfrutará de um serviço premium que combina carruagens elegantes, atendimento personalizado, gastronomia de primeira classe e música ao vivo, enquanto viaja pelas paisagens do Vale Sagrado em direção a Machu Picchu Pueblo.<br/><br/>Na chegada, um ônibus turístico o levará ao Santuário Histórico de Machu Picchu, onde fará uma visita guiada pelo circuito autorizado, descobrindo a história, a arquitetura e o legado de uma das obras mais extraordinárias do Império Inca.<br/><br/>Após o passeio você terá tempo livre antes de embarcar novamente no Trem Hiram Bingham para retornar a Cusco, desfrutando dos serviços exclusivos a bordo até que esta experiência de luxo termine."
+        }
+    ],
+    "includes": [
+        "Recolha e regresso ao hotel",
+        "Trem de luxo Hiram Bingham (ida e volta)",
+        "Ônibus turístico hop-on hop-off",
+        "Bilhete de entrada para Machu Picchu",
+        "Visita guiada com guia profissional",
+        "Alimentação e serviços incluídos a bordo do trem, conforme programa PeruRail",
+        "Assistência permanente durante o passeio"
+    ],
+    "not_includes": [
+        "despesas pessoais",
+        "Dicas",
+        "seguro de viagem",
+        "Serviços não especificados no programa"
+    ],
+    "recommendations": [
+        {
+            "img": "pasaporte.webp",
+            "nombre": "Documento de identidade ou passaporte"
+        },
+        {
+            "img": "camara.webp",
+            "nombre": "câmera fotográfica"
+        },
+        {
+            "img": "bloqueador.webp",
+            "nombre": "Protetor solar"
+        },
+        {
+            "img": "gorra.webp",
+            "nombre": "Chapéu ou boné"
+        },
+        {
+            "img": "poncho-lluvia.webp",
+            "nombre": "Jaqueta leve ou impermeável"
+        },
+        {
+            "img": "botella-agua.webp",
+            "nombre": "Garrafa de água reutilizável"
+        }
+    ],
+    "recomendaciones_generales": {
+        "antes_de_viajar": [
+            "Reserve com antecedência, pois o trem Hiram Bingham tem assentos limitados",
+            "Traga seu passaporte ou documento de identificação original",
+            "A programação do passeio está sujeita à programação oficial do PeruRail",
+            "Use roupas confortáveis e calçados adequados para caminhar dentro de Machu Picchu"
+        ],
+        "tips": [
+            "Aproveite os espaços panorâmicos e o carro-observatório durante o passeio",
+            "Chegue cedo o suficiente no ponto de embarque para um embarque tranquilo",
+            "Siga as instruções da equipe do trem e do guia durante toda a experiência"
+        ]
+    },
+    "faq": [
+        {
+            "pregunta": "O que torna o trem Hiram Bingham diferente?",
+            "respuesta": "É o serviço ferroviário de categoria mais alta da PeruRail, reconhecido por seu atendimento personalizado, gastronomia, música ao vivo e vagões exclusivos de estilo clássico."
+        },
+        {
+            "pregunta": "O passeio inclui alimentação?",
+            "respuesta": "Sim. O serviço inclui alimentação e atendimento a bordo do trem, de acordo com o programa oficial PeruRail."
+        },
+        {
+            "pregunta": "Quanto tempo dura a visita guiada a Machu Picchu?",
+            "respuesta": "A visita guiada dura aproximadamente 2 a 3 horas, dependendo do circuito designado."
+        },
+        {
+            "pregunta": "É necessário reservar com antecedência?",
+            "respuesta": "Sim. Devido à grande procura e ao número limitado de vagas, recomenda-se reservar com vários meses de antecedência."
+        },
+        {
+            "pregunta": "Que documentos devo apresentar?",
+            "respuesta": "É imprescindível a apresentação do passaporte original ou documento de identificação utilizado para reserva do passeio."
+        }
+    ],
+    "tours_relacionados": [
+        {
+            "title": "Tour Clássico Machu Picchu",
+            "description": "Descubra os impressionantes laboratórios agrícolas dos Incas em Moray e viva uma experiência gastronómica ancestral única cozinhando no subsolo.",
+            "price": "0",
+            "duracion": "o dia todo",
+            "image": "tours/machupicchu/clasico/card.webp",
+            "url": "CZ-machupicchu-clasico",
+            "categoria": "tradicional"
+        },
+        {
+            "title": "Excursão de trem panorâmico em Machu Picchu Observatório Vistadome",
+            "description": "Combine a viagem a Machu Picchu com um passeio ferroviário panorâmico que mostra as impressionantes paisagens do Vale Sagrado dos Incas.",
+            "price": "0",
+            "duracion": "o dia todo",
+            "image": "tours/machupicchu/panoramico/card.webp",
+            "url": "CZ-machupicchu-panoramico",
+            "categoria": "tradicional"
+        },
+        {
+            "title": "Tour Machu Picchu pela Rota Amazônica",
+            "description": "Chegue a Machu Picchu por uma rota alternativa que combina uma viagem rodoviária, uma caminhada ao longo do rio Vilcanota e paisagens de selva.",
+            "price": "0",
+            "duracion": "2Dias / 1Noites",
+            "image": "tours/machupicchu/amazonico/card.webp",
+            "url": "CZ-machupicchu-amazonico",
+            "categoria": "aventura"
+        }
+    ],
+    "brochure": "",
+    "map": "",
+    "video": "",
+    "categories": {
+        "premium": {
+            "titulo": "TREM HIRAM BINGHAM - SERVIÇO PREMIUM",
+            "precio": "89",
+            "descripcion": "Serviço de luxo exclusivo com atenção personalizada.",
+            "nota": "Inclui trem de luxo, comida a bordo, guia profissional e transporte",
+            "descuento": 0
+        }
+    }
+}

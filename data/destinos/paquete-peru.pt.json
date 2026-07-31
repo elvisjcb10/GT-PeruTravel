@@ -1,0 +1,108 @@
+{
+    "background": "/images/paquetes/paquetes-hero.webp",
+    "badge": "Destino",
+    "titulo": "Pacotes Peru",
+    "descripcion": "Experimente todo o Peru em uma única viagem: Cusco, Machu Picchu, Vale Sagrado e muito mais em experiências de vários dias projetadas para você.",
+    "stats": [
+        {
+            "icono": "fa-mountain",
+            "numero": "7+",
+            "titulo": "Pacotes"
+        },
+        {
+            "icono": "fa-people-group",
+            "numero": "Mais de 10 mil",
+            "titulo": "Viajantes"
+        },
+        {
+            "icono": "fa-star",
+            "numero": "4.9",
+            "titulo": "Avaliação"
+        },
+        {
+            "icono": "fa-globe",
+            "numero": "10+",
+            "titulo": "Anos de Exp."
+        }
+    ],
+    "badge_flotante": {
+        "calificacion": "4.9",
+        "texto": "+250 viajantes"
+    },
+    "filtros": [],
+    "tours": [
+        {
+            "title": "Peru essencial: Costa, Andes e Machu Picchu",
+            "description": "Exemplo completo com vídeo, ficha técnica, roteiro, inclui, mapa, galeria e três planos de preços.",
+            "price": "899",
+            "duracion": "7 dias / 6 noites",
+            "image": "promocion-peru-maravilloso-7d-6n-2025.jpg",
+            "url": "paquete-ejemplo-completo",
+            "tipo": "pacote",
+            "categoria": "completo"
+        },
+        {
+            "title": "Pacote Expresso Cusco",
+            "description": "Fuja para Cusco e Machu Picchu, o destino ideal para descobrir a história Inca, a magia dos Andes e a essência cultural do Peru.",
+            "price": "345",
+            "duracion": "3Dias / 2Noites",
+            "image": "cusco-express.jpg",
+            "url": "cusco_express",
+            "categoria": "curto"
+        },
+        {
+            "title": "Pacote Imperial Cusco",
+            "description": "Experimente Machu Picchu e o Vale Sagrado em uma aventura curta, mas inesquecível. Explore templos, montanhas e a essência viva dos Andes.",
+            "price": "579",
+            "duracion": "5Dias / 4Noites",
+            "image": "cusco-imperial.jpg",
+            "url": "cusco_imperial",
+            "categoria": "curto"
+        },
+        {
+            "title": "Pacote Místico Peru",
+            "description": "Viva Machupicchu e o Vale Sagrado. Conecte-se com a energia dos Andes e com a grandeza do legado Inca a cada passo.",
+            "price": "720",
+            "duracion": "7Dias / 6Noites",
+            "image": "peru-mistico.jpg",
+            "url": "peru_mistico",
+            "categoria": "completo"
+        },
+        {
+            "title": "Maravilhoso Pacote Peru",
+            "description": "Explore o Peru em uma experiência completa de Lima a Cusco, vivenciando a história, cultura e natureza do país.",
+            "price": "819",
+            "duracion": "8Dias / 7Noites",
+            "image": "peru-maravilloso.jpg",
+            "url": "peru_maravilloso",
+            "categoria": "completo"
+        },
+        {
+            "title": "Pacote Peru Mágico",
+            "description": "Cusco e a Montanha das 7 Cores esperam por você. Desfrute de passeios incríveis, paisagens de sonho e a melhor experiência de viagem no Peru.",
+            "price": "809",
+            "duracion": "9Dias / 8Noites",
+            "image": "peru-magico.jpg",
+            "url": "peru_magico",
+            "categoria": "completo"
+        },
+        {
+            "title": "Pacote Peru Milenar",
+            "description": "Experimente o melhor do Peru em uma única viagem, visitando destinos antigos cheios de história e cultura ancestral.",
+            "price": "1150",
+            "duracion": "12Dias / 11Noites",
+            "image": "peru-milenario.jpg",
+            "url": "peru_milenario",
+            "categoria": "completo"
+        },
+        {
+            "title": "Pacote Peru 360",
+            "description": "Viva a melhor aventura do Peru, percorrendo todos os cantos do país em uma experiência completa e inesquecível.",
+            "price": "1359",
+            "duracion": "15Dias / 14Noites",
+            "image": "peru-360.jpg",
+            "url": "peru_360",
+            "categoria": "completo"
+        }
+    ]
+}

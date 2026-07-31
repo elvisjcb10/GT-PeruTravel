@@ -1,0 +1,104 @@
+{
+    "title": "Essential Peru: Coast, Andes and Machu Picchu",
+    "long_description": "Discover the diversity of Peru on a complete trip that combines history, culture, gastronomy and unforgettable landscapes. We will start in Lima, continue through the heart of the Andes and culminate with a guided tour of Machu Picchu. This package has been created as an example to show all the elements available within the template.",
+    "short_description": "A complete tour of Lima, Cusco, Sacred Valley and Machu Picchu with organized services from start to finish.",
+    "duration": "7 days / 6 nights",
+    "image_cover": "promocion-peru-maravilloso-7d-6n-2025.jpg",
+    "gallery": [
+        "promocion-peru-maravilloso-7d-6n-2025.jpg",
+        "cusco-magico.jpg",
+        "valle-sagrado-machupicchu.jpg",
+        "montana-colores-cusco-peru.jpg",
+        "peru-premium.jpg"
+    ],
+    "price": "899",
+    "price_note": "Price per person in a double room. Conditions apply depending on travel date and availability.",
+    "seo_title": "Peru Essential Package 7 days | Complete example",
+    "seo_description": "Complete example of a tourist package for Lima, Cusco, Sacred Valley and Machu Picchu.",
+    "seo_keywords": "Peru package, Machu Picchu, Cusco, Sacred Valley, complete package example",
+    "technical_sheet": "<b>Duration:</b> 7 days / 6 nights.<br/><b>Destinations:</b> Lima, Cusco, Sacred Valley and Machu Picchu.<br/><b>Trip type:</b> Cultural, nature and light adventure.<br/><b>Maximum altitude:</b> 3,762 m s. n. m.<br/><b>Difficulty:</b> Moderate.<br/><b>Service:</b> Shared, with private option.<br/><b>Recommended for:</b> Couples, families and groups of friends.",
+    "includes": "• Pick up and transfer from airports.<br/>• 6 nights accommodation with breakfast.<br/>• Tourist transportation during excursions.<br/>• Professional bilingual guide.<br/>• Tourist train to Machu Picchu.<br/>• Bus up and down to the citadel.<br/>• Tickets to the indicated attractions.<br/>• Permanent assistance during the trip.",
+    "not_includes": "• National and international flights.<br/>• Food not mentioned in the itinerary.<br/>• Travel insurance.<br/>• Personal expenses and tips.<br/>• Additional services not specified.",
+    "days": [
+        {
+            "title": "Day 1: Arrival in Lima",
+            "text": "Reception at the airport and transfer to the hotel. Depending on your arrival time, you will have free time to rest or explore the surroundings. In the afternoon we will have a brief orientation about the program."
+        },
+        {
+            "title": "Day 2: Historical and gastronomic Lima",
+            "text": "We will visit the Historical Center of Lima, the Plaza Mayor, the Cathedral and the Convent of San Francisco. We will continue to Miraflores to visit the Parque del Amor and enjoy a Peruvian gastronomic experience."
+        },
+        {
+            "title": "Day 3: Flight to Cusco and acclimatization",
+            "text": "Transfer to the airport to travel to Cusco. Upon arrival we will take you to the hotel and you will have time to acclimatize. In the afternoon we will visit the Plaza de Armas, traditional streets and the San Pedro market."
+        },
+        {
+            "title": "Day 4: Sacred Valley of the Incas",
+            "text": "We will visit Pisac, its viewpoints and artisan market. After lunch we will continue to Ollantaytambo to explore its archaeological complex and see one of the best examples of Inca urbanism."
+        },
+        {
+            "title": "Day 5: Machu Picchu",
+            "text": "We will board the train to Aguas Calientes and then the bus to Machu Picchu. A professional guide will accompany us during the tour of the citadel. At the end we will return by train and tourist transportation to Cusco."
+        },
+        {
+            "title": "Day 6: Mountain of Colors",
+            "text": "Early departure to the south of Cusco. After breakfast we will begin the walk towards Vinicunca, enjoying high Andean landscapes and views of the snow-capped Ausangate. We will return to Cusco in the afternoon."
+        },
+        {
+            "title": "Day 7: Farewell and transfer",
+            "text": "Breakfast at the hotel and free time according to the flight schedule. At the coordinated time we will transfer to the Cusco airport, ending our services."
+        }
+    ],
+    "brochure": "",
+    "map": "mapa-paquete-peru-maravilloso-7d-6n-es.jpg",
+    "video": "https://www.youtube.com/shorts/7-jiRFm2L3U",
+    "faq": [
+        {
+            "pregunta": "How far in advance should I reserve this package?",
+            "respuesta": "We recommend booking at least 30 days in advance. For high season, between May and August, the ideal is to book 60 to 90 days in advance due to the availability of tickets and trains to Machu Picchu."
+        },
+        {
+            "pregunta": "Does the package include domestic or international flights?",
+            "respuesta": "No. The price does not include domestic or international flights, but we can help you choose times compatible with the itinerary and coordinate all transfers from the airport."
+        },
+        {
+            "pregunta": "What type of accommodation is included?",
+            "respuesta": "Accommodation depends on the plan selected. The Classic plan uses tourist category hotels, the Comfort plan uses superior hotels, and the Premium plan uses premium category hotels."
+        },
+        {
+            "pregunta": "Can I customize the itinerary?",
+            "respuesta": "Yes. We can modify the duration, hotels, type of train, private services and excursions according to your dates, interests and budget."
+        },
+        {
+            "pregunta": "Is it necessary to acclimatize before excursions?",
+            "respuesta": "Yes. The program reserves acclimatization time upon arrival in Cusco. We recommend resting, hydrating well, eating lightly and following the guide's instructions before carrying out activities at altitude."
+        },
+        {
+            "pregunta": "What is the cancellation policy?",
+            "respuesta": "The conditions depend on the cancellation date and the services already issued. Entrance fees to Machu Picchu, train tickets and some hotels may be non-refundable. You will receive the exact conditions before confirming the reservation."
+        }
+    ],
+    "categories": {
+        "clasico": {
+            "titulo": "CLASSIC PLAN",
+            "precio": "899",
+            "descripcion": "Selected tourist category hotels and Expedition train.",
+            "nota": "Price per person in a double room for groups of 2 people or more.",
+            "descuento": 5
+        },
+        "confort": {
+            "titulo": "COMFORT PLAN",
+            "precio": "1099",
+            "descripcion": "Upscale hotels and Vistadome scenic train.",
+            "nota": "Includes accommodation upgrades and buffet lunch in the Sacred Valley.",
+            "descuento": 8
+        },
+        "premium": {
+            "titulo": "PREMIUM PLAN",
+            "precio": "1399",
+            "descripcion": "Premium hotels, selected private services and panoramic train.",
+            "nota": "Ideal for travelers looking for greater comfort and personalized attention.",
+            "descuento": 10
+        }
+    }
+}

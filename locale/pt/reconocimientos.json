@@ -1,0 +1,41 @@
+{
+    "background_img": "/images/inicio/bg-licencias.webp",
+    "kicker": "Pronto para ir?",
+    "title_primary": "Reconhecimentos",
+    "title_secondary": "e licenças",
+    "certificados": [
+        {
+            "img": "/images/certificaciones/licencia-constancia-gercetur.jpg",
+            "label": "Constância Gercetur"
+        },
+        {
+            "img": "/images/certificaciones/licencia-defensa-civil.jpg",
+            "label": "Defesa Civil"
+        },
+        {
+            "img": "/images/certificaciones/licencia-funcionamiento.jpg",
+            "label": "Licença operacional"
+        },
+        {
+            "img": "/images/certificaciones/consulta-ruc.jpg",
+            "label": "Sunat"
+        }
+    ],
+    "pagos": {
+        "texto": "Pagamentos seguros com",
+        "metodos": [
+            {
+                "img": "/images/visa.png",
+                "nombre": "Visto"
+            },
+            {
+                "img": "/images/mastercard.png",
+                "nombre": "Mastercard"
+            },
+            {
+                "img": "/images/amex.png",
+                "nombre": "Expresso Americano"
+            }
+        ]
+    }
+}

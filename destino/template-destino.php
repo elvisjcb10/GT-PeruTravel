@@ -1,17 +1,25 @@
 
 <?php
 $idioma = $_GET['lang'] ?? 'es';
-$destino_slug = $_GET['destino'] ?? null;
+if (!in_array($idioma, ['es', 'en', 'pt'], true)) {
+    $idioma = 'es';
+}
+$GLOBALS['lang'] = $idioma;
+$destination_ui = [
+    'es' => ['missing' => 'Destino no especificado', 'not_found' => 'Destino no encontrado', 'from' => 'desde'],
+    'en' => ['missing' => 'Destination not specified', 'not_found' => 'Destination not found', 'from' => 'from'],
+    'pt' => ['missing' => 'Destino não especificado', 'not_found' => 'Destino não encontrado', 'from' => 'a partir de'],
+][$idioma];
+$destino_slug = preg_replace('/[^a-zA-Z0-9_-]/', '', (string) ($_GET['destino'] ?? ''));
 
-
-if (!$destino_slug) {
-    die("Destino no especificado");
+if ($destino_slug === '') {
+    exit($destination_ui['missing']);
 }
 
 $destino_file = __DIR__ . "/../data/destinos/{$destino_slug}.{$idioma}.json";
 
 if (!file_exists($destino_file)) {
-    die("Destino no encontrado");
+    exit($destination_ui['not_found']);
 }
 
 $destino_json = file_get_contents($destino_file);
@@ -102,7 +110,7 @@ $hero_text = json_decode($hero, true);
     <!-- ******************** 
          HERO DEL DESTINO
      *********************** -->
-    <section class="responsive-hero relative w-full h-[82vh] min-h-[650px] bg-black overflow-hidden">
+    <section class="page-hero page-hero--with-stats responsive-hero relative w-full bg-black overflow-hidden">
 
         <img src="<?= $base_url . $destino['background'] ?>"
             alt="<?= $destino['titulo'] ?>"
@@ -112,7 +120,7 @@ $hero_text = json_decode($hero, true);
         <!-- <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10"></div> -->
 
         <!-- CONTENIDO -->
-        <div class="relative z-10  h-full flex items-center justify-center">
+        <div class="page-hero-content relative z-10 h-full flex items-center justify-center">
             <div class="container-custom  px-20    w-full">
                 <div class="max-w-2xl">
                     <!-- BADGE DESTI¿NO -->
@@ -130,14 +138,14 @@ $hero_text = json_decode($hero, true);
             </div>
         </div>
         <!-- logo tripadvisor -->
-        <div class="absolute z-10 bottom-24 md:bottom-28 right-4 md:right-10 flex justify-end">
+        <div class="page-hero-awards absolute z-10 bottom-24 md:bottom-28 right-4 md:right-10 flex justify-end">
             <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
             <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
             <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
             <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
         </div>
         <!-- barra de estadísticas -->
-        <div class="absolute bottom-0 left-0 w-full z-10 bg-black/20 backdrop-blur-sm ">
+        <div class="page-hero-stats absolute bottom-0 left-0 w-full z-10 bg-black/20 backdrop-blur-sm">
             <div class="container-custom mx-auto  py-5">
                 <div class="flex flex-wrap justify-center gap-y-4   gap-x-20">
 
@@ -202,11 +210,16 @@ $hero_text = json_decode($hero, true);
         <div id="grid-tours" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
             <?php foreach ($destino['tours'] as $t): ?>
+                <?php
+                    $tipo_ficha = ($t['tipo'] ?? 'tour') === 'paquete' ? 'paquete' : 'tour';
+                    $parametro_ficha = $tipo_ficha === 'paquete' ? 'paquete' : 'tour';
+                    $url_ficha = "{$base_url}/{$tipo_ficha}/template-{$tipo_ficha}.php?{$parametro_ficha}=" . urlencode($t['url']) . "&lang=" . urlencode($idioma);
+                ?>
                 <div class="tour-card bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300"
                     data-categoria="<?= $t['categoria'] ?>">
 
                     <!-- Link envolvente -->
-                    <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $t['url'] ?>&lang=<?= $idioma ?>" class="block">
+                    <a href="<?= htmlspecialchars($url_ficha) ?>" class="block">
 
                         <!-- IMAGEN -->
                         <div class="relative h-72 md:h-80 w-full overflow-hidden px-1 pt-1">
@@ -244,11 +257,11 @@ $hero_text = json_decode($hero, true);
                     <!-- PRECIO + BOTON -->
                     <div class="flex items-center justify-between p-4 pb-4">
                         <div>
-                            <span class="block text-[0.65rem] text-gray-400 font-poppins leading-none">desde</span>
+                            <span class="block text-[0.65rem] text-gray-400 font-poppins leading-none"><?= htmlspecialchars($destination_ui['from']) ?></span>
                             <span class="text-3xl font-bold text-orange-custom">$<?= $t['price'] ?></span>
                         </div>
 
-                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $t['url'] ?>&lang=<?= $idioma ?>"
+                        <a href="<?= htmlspecialchars($url_ficha) ?>"
                         class="inline-flex items-center px-6 py-2 text-sm md:text-base bg-orange-custom text-white font-bold font-poppins rounded-lg transition duration-300 ease-in-out hover:bg-[#c2660a] shadow-md">
                             Reservar
                         </a>

@@ -18,6 +18,16 @@
     ],
     "tours": [
         {
+            "title": "Perú Esencial: Costa, Andes y Machu Picchu",
+            "description": "Ejemplo completo con video, ficha técnica, itinerario, incluye, mapa, galería y tres planes de precios.",
+            "price": "899",
+            "duracion": "7 Días / 6 Noches",
+            "image": "promocion-peru-maravilloso-7d-6n-2025.jpg",
+            "url": "paquete-ejemplo-completo",
+            "tipo": "paquete",
+            "categoria": "completos"
+        },
+        {
             "title": "Paquete Cusco Express",
             "description": "Escápate a Cusco y Machu Picchu, el destino ideal para descubrir la historia inca, la magia de los Andes y la esencia cultural del Perú.",
             "price": "345",

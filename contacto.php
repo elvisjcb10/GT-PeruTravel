@@ -9,6 +9,16 @@ if (!in_array($idioma, $allowed)) {
 }
 
 $base_url = ".";
+$contact_meta = [
+    'es' => ['title' => 'Contáctanos | GT Peru Travel', 'description' => 'Contáctanos y planifica tu próxima aventura por el Perú con GT Peru Travel.'],
+    'en' => ['title' => 'Contact Us | GT Peru Travel', 'description' => 'Contact GT Peru Travel and start planning your next adventure in Peru.'],
+    'pt' => ['title' => 'Entre em contato | GT Peru Travel', 'description' => 'Entre em contato com a GT Peru Travel e planeje sua próxima aventura no Peru.'],
+][$idioma];
+$traveler_options = [
+    'es' => ['Seleccionar', '1 persona', '2 personas', '3 a 5 personas', '6 o más personas'],
+    'en' => ['Select', '1 traveler', '2 travelers', '3 to 5 travelers', '6 or more travelers'],
+    'pt' => ['Selecionar', '1 pessoa', '2 pessoas', '3 a 5 pessoas', '6 ou mais pessoas'],
+][$idioma];
 
 $contacto_json = file_get_contents(__DIR__ . "/locale/$idioma/contacto.json");
 $contacto = json_decode($contacto_json, true);
@@ -23,8 +33,8 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contáctanos | GT Peru Travel</title>
-    <meta name="description" content="Contáctanos y planifica tu próxima aventura por el Perú con GT Peru Travel.">
+    <title><?= htmlspecialchars($contact_meta['title']) ?></title>
+    <meta name="description" content="<?= htmlspecialchars($contact_meta['description']) ?>">
     <meta name="keywords" content="contacto, nosotros, about, email, correo, contact, tours a Machu Picchu, turismo en Cusco, viajes a Perú, paquetes turísticos, GT Peru Travel">
 
     <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
@@ -66,7 +76,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
         <!-- ******************** 
              HERO CONTACTO
          *********************** -->
-        <section class="responsive-hero relative w-full h-[75vh] min-h-[550px] bg-black overflow-hidden">
+        <section class="page-hero page-hero--centered responsive-hero relative w-full bg-black overflow-hidden">
 
             <img src="<?= $base_url . $contacto['hero']['background'] ?>"
                  alt="<?= htmlspecialchars($contacto['hero']['title_primary'] . ' ' . $contacto['hero']['title_secondary']) ?>"
@@ -74,7 +84,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
 
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/30"></div>
 
-            <div class="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">
+            <div class="page-hero-content relative z-10 h-full flex flex-col items-center justify-center text-center px-4">
 
                 <span class="inline-block bg-orange-custom/20 border border-orange-custom text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide px-4 py-1.5 rounded-full mb-4">
                     <?= $contacto['hero']['kicker'] ?>
@@ -177,11 +187,11 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
                                     </label>
                                     <select name="personas"
                                             class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg font-poppins text-sm focus:outline-none focus:border-orange-custom transition text-gray-500">
-                                        <option value="">Seleccionar</option>
-                                        <option value="1">1 persona</option>
-                                        <option value="2">2 personas</option>
-                                        <option value="3-5">3 a 5 personas</option>
-                                        <option value="6+">6 o más personas</option>
+                                        <option value=""><?= htmlspecialchars($traveler_options[0]) ?></option>
+                                        <option value="1"><?= htmlspecialchars($traveler_options[1]) ?></option>
+                                        <option value="2"><?= htmlspecialchars($traveler_options[2]) ?></option>
+                                        <option value="3-5"><?= htmlspecialchars($traveler_options[3]) ?></option>
+                                        <option value="6+"><?= htmlspecialchars($traveler_options[4]) ?></option>
                                     </select>
                                 </div>
                             </div>
@@ -358,18 +368,26 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
                     <span class="text-orange-custom"><?= htmlspecialchars($contacto['faq']['title_secondary']) ?></span>
                 </h2>
 
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <?php foreach ($contacto['faq']['preguntas'] as $item): ?>
-                        <div class="faq-contacto-item border border-gray-200 rounded-xl overflow-hidden">
-                            <button type="button" class="faq-contacto-toggle w-full flex items-center justify-between gap-3 p-4 text-left hover:bg-gray-50 transition">
-                                <span class="font-bold font-poppins text-gray-900 text-sm"><?= htmlspecialchars($item['pregunta']) ?></span>
-                                <i class="fa-solid fa-chevron-down text-orange-custom text-sm faq-contacto-icon transition-transform flex-shrink-0"></i>
-                            </button>
-                            <?php if (!empty($item['respuesta'])): ?>
-                                <div class="faq-contacto-panel hidden px-4 pb-4">
-                                    <p class="text-gray-500 text-sm font-poppins leading-relaxed"><?= htmlspecialchars($item['respuesta']) ?></p>
+                <?php
+                $faq_items = $contacto['faq']['preguntas'];
+                $faq_columns = array_chunk($faq_items, (int) ceil(count($faq_items) / 2));
+                ?>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:items-start">
+                    <?php foreach ($faq_columns as $column): ?>
+                        <div class="space-y-4">
+                            <?php foreach ($column as $item): ?>
+                                <div class="faq-contacto-item border border-gray-200 rounded-xl overflow-hidden">
+                                    <button type="button"
+                                            class="faq-contacto-toggle w-full flex items-center justify-between gap-3 p-4 text-left hover:bg-gray-50 transition"
+                                            aria-expanded="false">
+                                        <span class="font-bold font-poppins text-gray-900 text-sm"><?= htmlspecialchars($item['pregunta']) ?></span>
+                                        <i class="fa-solid fa-chevron-down text-orange-custom text-sm faq-contacto-icon transition-transform flex-shrink-0"></i>
+                                    </button>
+                                    <div class="faq-contacto-panel hidden px-4 pb-4">
+                                        <p class="text-gray-500 text-sm font-poppins leading-relaxed"><?= htmlspecialchars($item['respuesta']) ?></p>
+                                    </div>
                                 </div>
-                            <?php endif; ?>
+                            <?php endforeach; ?>
                         </div>
                     <?php endforeach; ?>
                 </div>

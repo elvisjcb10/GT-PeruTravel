@@ -19,46 +19,61 @@
     },
     "mega_menu": {
         "destinos": {
-            "lima":           { "nombre": "Lima",          "img": "/images/destinos/lima/lima.webp" },
-            "manu_tambopata": { "nombre": "Manu Tambopata", "img": "/images/destinos/manu/manu.webp" },
-            "puno":           { "nombre": "Puno",           "img": "/images/destinos/puno/puno.webp" },
-            "arequipa":       { "nombre": "Arequipa",       "img": "/images/destinos/arequipa/arequipa.webp" },
-            "huaraz":         { "nombre": "Huaraz",         "img": "/images/destinos/huaraz/huaraz.webp" }
+            "lima": {
+                "nombre": "Lima",
+                "img": "/images/destinos/lima/lima.webp"
+            },
+            "manu_tambopata": {
+                "nombre": "Manu Tambopata",
+                "img": "/images/destinos/manu/manu.webp"
+            },
+            "puno": {
+                "nombre": "Puno",
+                "img": "/images/destinos/puno/puno.webp"
+            },
+            "arequipa": {
+                "nombre": "Arequipa",
+                "img": "/images/destinos/arequipa/arequipa.webp"
+            },
+            "huaraz": {
+                "nombre": "Huaraz",
+                "img": "/images/destinos/huaraz/huaraz.webp"
+            }
         },
         "tour_cusco": {
             "tradicionales": {
                 "title": "Traditional Tours",
                 "links": {
-                    "tour_mistico":              "Mystic Tour – Full Day",
-                    "city_tour":                 "Cusco City Tour – Half Day",
-                    "walking_tour":              "Walking Tour – Half Day",
-                    "super_valle_sagrado":       "Super Sacred Valley Tour – Full Day",
+                    "tour_mistico": "Mystic Tour – Full Day",
+                    "city_tour": "Cusco City Tour – Half Day",
+                    "walking_tour": "Walking Tour – Half Day",
+                    "super_valle_sagrado": "Super Sacred Valley Tour – Full Day",
                     "valle_sagrado_tradicional": "Traditional Sacred Valley Tour – Full Day",
-                    "tour_valle_sur":            "South Valley Tour – Full Day",
-                    "salineras_moray":           "Salineras & Moray Tour – Half Day"
+                    "tour_valle_sur": "South Valley Tour – Full Day",
+                    "salineras_moray": "Salineras & Moray Tour – Half Day"
                 }
             },
             "caminata": {
                 "title": "Hiking Tours",
                 "links": {
-                    "montana_colores":       "Rainbow Mountain Tour",
-                    "pallay_poncho":         "Pallay Poncho Mountain Tour",
-                    "laguna_humantay":       "Humantay Lake Tour",
-                    "waqrapukara":           "Waqrapukara Tour",
-                    "palcoyo":               "Palcoyo Rainbow Mountain Tour",
-                    "ultimo_puente_inca":    "Last Inca Bridge Tour – Q'eswachaka",
-                    "7_lagunas_ausangate":   "7 Ausangate Lakes Tour – Full Day",
-                    "programa_salkantay":    "Salkantay Trek Program",
-                    "programa_camino_inca":  "Inca Trail Program"
+                    "montana_colores": "Rainbow Mountain Tour",
+                    "pallay_poncho": "Pallay Poncho Mountain Tour",
+                    "laguna_humantay": "Humantay Lake Tour",
+                    "waqrapukara": "Waqrapukara Tour",
+                    "palcoyo": "Palcoyo Rainbow Mountain Tour",
+                    "ultimo_puente_inca": "Last Inca Bridge Tour – Q'eswachaka",
+                    "7_lagunas_ausangate": "7 Ausangate Lakes Tour – Full Day",
+                    "programa_salkantay": "Salkantay Trek Program",
+                    "programa_camino_inca": "Inca Trail Program"
                 }
             },
             "aventura": {
                 "title": "Adventure Tours",
                 "links": {
-                    "cuatrimotos_maras_moray":          "ATV Tour Maras Moray – Half Day",
-                    "cuatrimoto_montana_colores":        "ATV Tour Rainbow Mountain – Full Day",
-                    "cuatrimoto_vinicunca_vallerojo":    "ATV Tour Vinicunca & Red Valley – Full Day",
-                    "morada_dioses":                     "Abode of the Gods Tour – 4 to 5 hours"
+                    "cuatrimotos_maras_moray": "ATV Tour Maras Moray – Half Day",
+                    "cuatrimoto_montana_colores": "ATV Tour Rainbow Mountain – Full Day",
+                    "cuatrimoto_vinicunca_vallerojo": "ATV Tour Vinicunca & Red Valley – Full Day",
+                    "morada_dioses": "Abode of the Gods Tour – 4 to 5 hours"
                 }
             }
         },
@@ -66,46 +81,54 @@
             "nombre": "Machupicchu Tours",
             "descripcion": "Discover the breathtaking Inca citadel with unique experiences designed for every type of traveler.",
             "imgs": {
-                "pr":   "/images/machupicchu/principal.jpg",
+                "pr": "/images/machupicchu/principal.jpg",
                 "sec1": "/images/machupicchu/sec1.webp",
                 "sec2": "/images/machupicchu/sec2.webp"
             },
             "links": {
                 "clasico": {
-                    "img":        "/images/machupicchu/clasico/img_header.webp",
-                    "nombre":     "Classic Machu Picchu Tour",
-                    "descripcion":"Explore the iconic Inca citadel with a professional guide on this unforgettable full-day journey.",
-                    "precio":     "49",
-                    "tiempo":     "Full Day",
+                    "img": "/images/machupicchu/clasico/img_header.webp",
+                    "nombre": "Classic Machu Picchu Tour",
+                    "descripcion": "Explore the iconic Inca citadel with a professional guide on this unforgettable full-day journey.",
+                    "precio": "49",
+                    "tiempo": "Full Day",
                     "dificultad": "Easy",
-                    "transporte": "Included"
+                    "transporte": "Included",
+                    "url": "CZ-machupicchu-classic",
+                    "nombre2": "Machu Picchu Classic Tour"
                 },
                 "tren_panoramico": {
-                    "img":        "/images/machupicchu/panoramico/img_header.webp",
-                    "nombre":     "Machu Picchu Tour with Panoramic Observatory Train",
-                    "descripcion":"Travel aboard the scenic panoramic train and enjoy breathtaking views of the Sacred Valley.",
-                    "precio":     "19",
-                    "tiempo":     "Full Day",
+                    "img": "/images/machupicchu/panoramico/img_header.webp",
+                    "nombre": "Machu Picchu Tour with Panoramic Observatory Train",
+                    "descripcion": "Travel aboard the scenic panoramic train and enjoy breathtaking views of the Sacred Valley.",
+                    "precio": "19",
+                    "tiempo": "Full Day",
                     "dificultad": "Easy",
-                    "transporte": "Included"
+                    "transporte": "Included",
+                    "url": "CZ-machupicchu-panoramic",
+                    "nombre2": "Tou Machu Picchur with panoramic train observatory view"
                 },
                 "tren_hiram": {
-                    "img":        "/images/machupicchu/hiram/img_header.webp",
-                    "nombre":     "Machu Picchu Tour on the Hiram Bingham Luxury Train",
-                    "descripcion":"Experience the ultimate luxury journey aboard the legendary Hiram Bingham train to Machu Picchu.",
-                    "precio":     "89",
-                    "tiempo":     "Full Day",
+                    "img": "/images/machupicchu/hiram/img_header.webp",
+                    "nombre": "Machu Picchu Tour on the Hiram Bingham Luxury Train",
+                    "descripcion": "Experience the ultimate luxury journey aboard the legendary Hiram Bingham train to Machu Picchu.",
+                    "precio": "89",
+                    "tiempo": "Full Day",
                     "dificultad": "Easy",
-                    "transporte": "Included"
+                    "transporte": "Included",
+                    "url": "CZ-machupicchu-hiram",
+                    "nombre2": "Machu Picchu tour by Hiram Bingham luxury train"
                 },
                 "ruta_amazonica": {
-                    "img":        "/images/machupicchu/amazonica/img_header.webp",
-                    "nombre":     "Machu Picchu Amazon Route Tour",
-                    "descripcion":"Combine the wonder of Machu Picchu with the lush landscapes of the Amazonian gateway.",
-                    "precio":     "59",
-                    "tiempo":     "2D/1N",
+                    "img": "/images/machupicchu/amazonica/img_header.webp",
+                    "nombre": "Machu Picchu Amazon Route Tour",
+                    "descripcion": "Combine the wonder of Machu Picchu with the lush landscapes of the Amazonian gateway.",
+                    "precio": "59",
+                    "tiempo": "2D/1N",
                     "dificultad": "Easy",
-                    "transporte": "Included"
+                    "transporte": "Included",
+                    "url": "CZ-machupicchu-amazonico",
+                    "nombre2": "Machu Picchu Amazon Tour"
                 }
             }
         },
@@ -113,28 +136,32 @@
             "nombre": "Discover the Glaciers",
             "descripcion": "Explore the imposing eternal ice masses in the Cusco mountain ranges, challenging routes with unmatched high-Andean scenery.",
             "imgs": {
-                "pr":   "/images/glaciares/principal.webp",
+                "pr": "/images/glaciares/principal.webp",
                 "sec1": "/images/glaciares/sec1.webp",
                 "sec2": "/images/glaciares/sec2.webp"
             },
             "links": {
                 "quelccaya": {
-                    "img":        "/images/glaciares/quelccaya/img_header.webp",
-                    "nombre":     "Quelccaya Glacier Tour",
-                    "descripcion":"Venture to the world's largest tropical glacier, a natural gem in the Peruvian Andes.",
-                    "precio":     "89",
-                    "tiempo":     "Full Day",
+                    "img": "/images/glaciares/quelccaya/img_header.webp",
+                    "nombre": "Quelccaya Glacier Tour",
+                    "descripcion": "Venture to the world's largest tropical glacier, a natural gem in the Peruvian Andes.",
+                    "precio": "89",
+                    "tiempo": "Full Day",
                     "dificultad": "High",
-                    "transporte": "Included"
+                    "transporte": "Included",
+                    "url": "glacier-quelccaya",
+                    "nombre2": "Quelccaya Glacier Tour"
                 },
                 "ausangate": {
-                    "img":        "/images/glaciares/ausangate/img_header.webp",
-                    "nombre":     "Ausangate Glaciers Tour",
-                    "descripcion":"Trek through the majestic glaciers surrounding the sacred Apu Ausangate.",
-                    "precio":     "79",
-                    "tiempo":     "Full Day",
+                    "img": "/images/glaciares/ausangate/img_header.webp",
+                    "nombre": "Ausangate Glaciers Tour",
+                    "descripcion": "Trek through the majestic glaciers surrounding the sacred Apu Ausangate.",
+                    "precio": "79",
+                    "tiempo": "Full Day",
                     "dificultad": "High",
-                    "transporte": "Included"
+                    "transporte": "Included",
+                    "url": "glacier-ausangate",
+                    "nombre2": "Ausangate Glaciers Tour"
                 }
             }
         },
@@ -142,59 +169,67 @@
             "nombre": "Unique Experiences",
             "descripcion": "Connect with Andean culture through mystical ceremonies and traditional gastronomy prepared underground.",
             "imgs": {
-                "pr":   "/images/experiencias_unicas/principal.webp",
+                "pr": "/images/experiencias_unicas/principal.webp",
                 "sec1": "/images/experiencias_unicas/sec1.webp",
                 "sec2": "/images/experiencias_unicas/sec2.webp"
             },
             "links": {
                 "misticas": {
-                    "img":        "/images/experiencias_unicas/misticas/img_header.webp",
-                    "nombre":     "Mystical Experience – Half Day",
-                    "descripcion":"Live a journey of introspection and spiritual connection through guided ancestral rituals.",
-                    "precio":     "39",
-                    "tiempo":     "Half Day",
+                    "img": "/images/experiencias_unicas/misticas/img_header.webp",
+                    "nombre": "Mystical Experience – Half Day",
+                    "descripcion": "Live a journey of introspection and spiritual connection through guided ancestral rituals.",
+                    "precio": "39",
+                    "tiempo": "Half Day",
                     "dificultad": "Easy",
-                    "transporte": "Included"
+                    "transporte": "Included",
+                    "url": "",
+                    "nombre2": "Mystical experience half days"
                 },
                 "tour_maras_pachamanca": {
-                    "img":        "/images/experiencias_unicas/maras_pachamanca/img_header.webp",
-                    "nombre":     "Maras Moray Tour + Andean Pachamanca – Full Day",
-                    "descripcion":"Combine the wonder of the Inca labs with a traditional Andean feast cooked underground.",
-                    "precio":     "99",
-                    "tiempo":     "Full Day",
+                    "img": "/images/experiencias_unicas/maras_pachamanca/img_header.webp",
+                    "nombre": "Maras Moray Tour + Andean Pachamanca – Full Day",
+                    "descripcion": "Combine the wonder of the Inca labs with a traditional Andean feast cooked underground.",
+                    "precio": "99",
+                    "tiempo": "Full Day",
                     "dificultad": "Easy",
-                    "transporte": "Included"
+                    "transporte": "Included",
+                    "url": "",
+                    "nombre2": "Maras Moray tour + Andean pachamanca full day"
                 },
                 "pachamanca_medio_dia": {
-                    "img":        "/images/experiencias_unicas/pachamanca/img_header.webp",
-                    "nombre":     "Andean Pachamanca – Half Day",
-                    "descripcion":"Enjoy the preparation and tasting of the traditional ancestral Pachamanca.",
-                    "precio":     "49",
-                    "tiempo":     "Half Day",
+                    "img": "/images/experiencias_unicas/pachamanca/img_header.webp",
+                    "nombre": "Andean Pachamanca – Half Day",
+                    "descripcion": "Enjoy the preparation and tasting of the traditional ancestral Pachamanca.",
+                    "precio": "49",
+                    "tiempo": "Half Day",
                     "dificultad": "Easy",
-                    "transporte": "Included"
+                    "transporte": "Included",
+                    "url": "",
+                    "nombre2": "Pachamancaandino half day"
                 },
                 "ritual_andino": {
-                    "img":        "/images/experiencias_unicas/ritual_andino/img_header.webp",
-                    "nombre":     "Andean Ritual Offering – Half Day",
-                    "descripcion":"Actively participate in an authentic offering of gratitude to Pachamama (Mother Earth).",
-                    "precio":     "35",
-                    "tiempo":     "Half Day",
+                    "img": "/images/experiencias_unicas/ritual_andino/img_header.webp",
+                    "nombre": "Andean Ritual Offering – Half Day",
+                    "descripcion": "Actively participate in an authentic offering of gratitude to Pachamama (Mother Earth).",
+                    "precio": "35",
+                    "tiempo": "Half Day",
                     "dificultad": "Easy",
-                    "transporte": "Included"
+                    "transporte": "Included",
+                    "url": "",
+                    "nombre2": "Andean ritual offering half day"
                 }
             }
         },
         "paquete_peru": {
             "title": "Peru Packages",
             "links": {
-                "cusco_express":    "Cusco Express Package – 3 Days / 2 Nights",
-                "cusco_imperial":   "Imperial Cusco Package – 5 Days / 4 Nights",
-                "peru_mistico":     "Mystic Peru Package – 7 Days / 6 Nights",
+                "cusco_express": "Cusco Express Package – 3 Days / 2 Nights",
+                "cusco_imperial": "Imperial Cusco Package – 5 Days / 4 Nights",
+                "peru_mistico": "Mystic Peru Package – 7 Days / 6 Nights",
                 "peru_maravilloso": "Wonderful Peru Package – 8 Days / 7 Nights",
-                "peru_magico":      "Magic Peru Package – 9 Days / 8 Nights",
-                "peru_milenario":   "Millenary Peru Package – 12 Days / 11 Nights",
-                "peru_360":         "Peru 360 Package – 15 Days / 14 Nights"
+                "peru_magico": "Magic Peru Package – 9 Days / 8 Nights",
+                "peru_milenario": "Millenary Peru Package – 12 Days / 11 Nights",
+                "peru_360": "Peru 360 Package – 15 Days / 14 Nights"
             }
         }
     }

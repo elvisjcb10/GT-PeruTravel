@@ -1,0 +1,153 @@
+{
+    "hero": {
+        "background": "/images/inicio/hero.webp",
+        "kicker": "We are here to help you",
+        "title_primary": "Let's talk about you",
+        "title_secondary": "next adventure",
+        "description": "Our team of expert guides is ready to advise you and design the perfect trip through Peru.",
+        "badges": [
+            "Response in less than 2 hours",
+            "Certified local operator",
+            "4.9/5 in satisfaction"
+        ]
+    },
+    "formulario": {
+        "kicker": "Contact Form",
+        "title_primary": "You tell us",
+        "title_secondary": "ideal trip",
+        "description": "Complete the form and we will contact you in less than 2 business hours.",
+        "campos": {
+            "nombre": {
+                "label": "Name",
+                "placeholder": "Your full name"
+            },
+            "apellido": {
+                "label": "Surname",
+                "placeholder": "Your last name"
+            },
+            "whatsapp": {
+                "label": "Whatsapp / Telephone",
+                "placeholder": "+51 987 000 000"
+            },
+            "email": {
+                "label": "Email",
+                "placeholder": "tu@email.com"
+            },
+            "fecha": {
+                "label": "Travel Date",
+                "placeholder": ""
+            },
+            "personas": {
+                "label": "No. of People",
+                "placeholder": "Select"
+            },
+            "mensaje": {
+                "label": "Message",
+                "placeholder": "Tell us more about your trip: dates, approximate budget, if you are traveling as a family, couple, group..."
+            }
+        },
+        "boton": "Send message",
+        "nota_privacidad": "Your information is private and will never be shared with third parties."
+    },
+    "info_contacto": {
+        "kicker": "Contact Information",
+        "asesores": [
+            {
+                "nombre": "Carolina Ancco",
+                "cargo": "Sales Advisor",
+                "telefono": "+51 987 370",
+                "whatsapp": "51987370201",
+                "foto": "/images/nosotros/carmen.jpg"
+            },
+            {
+                "nombre": "Carolina Ancco",
+                "cargo": "Sales Advisor",
+                "telefono": "+51 987 370",
+                "whatsapp": "51987370202",
+                "foto": "/images/nosotros/carmen.jpg"
+            }
+        ],
+        "email": {
+            "titulo": "Email",
+            "valor": "info@perutravel.pe",
+            "nota": "Response in less than 2 hours"
+        },
+        "oficina": {
+            "titulo": "Office in Cusco",
+            "direccion": "Av. El Sol 345, Cusco",
+            "nota": "2 blocks from the Plaza de Armas"
+        },
+        "redes": {
+            "titulo": "follow us",
+            "facebook": "https://www.facebook.com/gtperutravel",
+            "instagram": "https://www.instagram.com/gtperutravel_oficial/",
+            "tiktok": "https://www.tiktok.com/@gt_peru_travel",
+            "youtube": "https://www.youtube.com/@gtperutravel9213",
+            "threads": "#"
+        },
+        "mapa": {
+            "titulo": "Our Location",
+            "embed_url": "https://www.google.com/maps/embed?pb=REEMPLAZAR_CON_EMBED_REAL"
+        },
+        "horario": {
+            "titulo": "Office Hours",
+            "items": [
+                {
+                    "dias": "Monday – Friday",
+                    "horas": "9:00 – 18:00"
+                },
+                {
+                    "dias": "Saturday",
+                    "horas": "9:00 – 14:00"
+                },
+                {
+                    "dias": "Sunday",
+                    "horas": "Closed"
+                },
+                {
+                    "dias": "WhatsApp",
+                    "horas": "7:00 – 21:00",
+                    "destacado": true
+                }
+            ]
+        }
+    },
+    "whatsapp_banner": {
+        "titulo_primary": "Do you prefer",
+        "titulo_secondary": "WhatsApp",
+        "descripcion": "Write to us directly and we will respond instantly. Our team is available every day from 7am to 9pm to answer your questions.",
+        "boton": "Chat now",
+        "numero": "51987370201"
+    },
+    "faq": {
+        "kicker": "Frequently Asked Questions",
+        "title_primary": "What we most",
+        "title_secondary": "they ask",
+        "preguntas": [
+            {
+                "pregunta": "How far in advance should I book my tour?",
+                "respuesta": "We recommend booking at least 2 to 4 weeks in advance. For Machu Picchu, the Inca Trail and high demand seasons, the ideal is to do it between 1 and 3 months in advance, since tickets and trains have limited spaces."
+            },
+            {
+                "pregunta": "Do you offer private tours or only group tours?",
+                "respuesta": "We offer both options. You can choose a group tour with scheduled departures or request a private service with flexible hours and personalized attention for your family or group."
+            },
+            {
+                "pregunta": "What does the price of the packages include?",
+                "respuesta": "Inclusions depend on each program and may include transportation, guide, accommodation, entrance fees and some meals. In the itinerary of each package you will find the exact details of what is included and not included."
+            },
+            {
+                "pregunta": "What is the cancellation policy like?",
+                "respuesta": "Conditions vary depending on the tour and cancellation date. Some services, such as entrance fees to Machu Picchu and train tickets, may be non-refundable. We will send you the specific conditions before confirming the reservation."
+            },
+            {
+                "pregunta": "Do you do tours in English or Portuguese?",
+                "respuesta": "Yes. We have guides in Spanish, English and Portuguese, subject to availability. Please indicate the language you need when requesting the reservation so that we can assign you the appropriate guide."
+            },
+            {
+                "pregunta": "What payment methods do you accept?",
+                "respuesta": "We accept credit or debit cards, bank transfers and other authorized payment methods. Our team will indicate the available options and send you the corresponding confirmation."
+            }
+        ]
+    }
+}

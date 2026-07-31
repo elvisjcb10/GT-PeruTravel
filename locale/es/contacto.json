@@ -90,12 +90,30 @@
         "title_primary": "Lo que más nos",
         "title_secondary": "preguntan",
         "preguntas": [
-            { "pregunta": "¿Con cuánta anticipación debo reservar mi tour?" },
-            { "pregunta": "¿Ofrecen tours privados o solo grupales?" },
-            { "pregunta": "¿Qué incluye el precio de los paquetes?" },
-            { "pregunta": "¿Cómo es la política de cancelación?" },
-            { "pregunta": "¿Hacen tours en inglés o portugués?" },
-            { "pregunta": "¿Qué métodos de pago aceptan?" }
+            {
+                "pregunta": "¿Con cuánta anticipación debo reservar mi tour?",
+                "respuesta": "Recomendamos reservar con al menos 2 a 4 semanas de anticipación. Para Machu Picchu, Camino Inca y temporadas de alta demanda, lo ideal es hacerlo entre 1 y 3 meses antes, ya que los ingresos y trenes tienen cupos limitados."
+            },
+            {
+                "pregunta": "¿Ofrecen tours privados o solo grupales?",
+                "respuesta": "Ofrecemos ambas opciones. Puedes elegir un tour grupal con salidas programadas o solicitar un servicio privado con horario flexible y atención personalizada para tu familia o grupo."
+            },
+            {
+                "pregunta": "¿Qué incluye el precio de los paquetes?",
+                "respuesta": "Las inclusiones dependen de cada programa y pueden contemplar transporte, guía, alojamiento, entradas y algunas comidas. En el itinerario de cada paquete encontrarás el detalle exacto de lo incluido y no incluido."
+            },
+            {
+                "pregunta": "¿Cómo es la política de cancelación?",
+                "respuesta": "Las condiciones varían según el tour y la fecha de cancelación. Algunos servicios, como entradas a Machu Picchu y boletos de tren, pueden ser no reembolsables. Te enviaremos las condiciones específicas antes de confirmar la reserva."
+            },
+            {
+                "pregunta": "¿Hacen tours en inglés o portugués?",
+                "respuesta": "Sí. Contamos con guías en español, inglés y portugués, sujetos a disponibilidad. Indica el idioma que necesitas al solicitar la reserva para poder asignarte el guía adecuado."
+            },
+            {
+                "pregunta": "¿Qué métodos de pago aceptan?",
+                "respuesta": "Aceptamos tarjetas de crédito o débito, transferencias bancarias y otros medios de pago autorizados. Nuestro equipo te indicará las opciones disponibles y te enviará la confirmación correspondiente."
+            }
         ]
     }
 }

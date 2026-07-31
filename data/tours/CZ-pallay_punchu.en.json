@@ -1,0 +1,219 @@
+{
+    "title": "Pallay Punchu Mountain Tour",
+    "short_description": "Discover one of the most impressive geological formations in Cusco: colorful stripes and sharp peaks reminiscent of a traditional Andean Punchu.",
+    "long_description": "The Pallay Punchu Mountain Tour – Full Day is an adventure and nature experience that will take you to discover one of the most impressive geological formations in the Cusco region. Located in the province of Canas, this mountain stands out for its unique colored stripes and sharp peaks, whose appearance is reminiscent of a carefully woven Andean Punchu, the origin of its name.<br/><br/>During the excursion you will travel through spectacular high Andean landscapes, surrounded by mountains, extensive pampas and the imposing Laguna Langui-Layo, considered one of the largest in Cusco. The walk to the main viewpoint allows you to appreciate the natural beauty of the environment while learning about the geographical and cultural importance of this area of ​​the Peruvian Andes.<br/><br/>Accompanied by a professional guide, you will enjoy a route designed for those looking for a different experience, combining unique landscapes, contact with nature and panoramic views that make Pallay Punchu one of the most surprising emerging destinations in southern Peru. It is an excellent alternative for travelers who want to explore new attractions beyond the traditional routes of Cusco.",
+    "duration": "Full Day (14 to 15 hours approx.)",
+    "image_cover": "cusco/pallay-punchu/hero.webp",
+    "gallery": [
+        "cusco/pallay-punchu/galeria1.webp",
+        "cusco/pallay-punchu/galeria2.webp",
+        "cusco/pallay-punchu/galeria3.webp",
+        "cusco/pallay-punchu/galeria4.webp",
+        "cusco/pallay-punchu/galeria5.webp",
+        "cusco/pallay-punchu/card.webp"
+    ],
+    "price": "0",
+    "price_note": "Includes tourist transportation, professional bilingual guide, breakfast, buffet lunch and permanent assistance.",
+    "seo_title": "Pallay Punchu Full Day Mountain Tour - Cusco | GT Peru Travel",
+    "seo_description": "Discover Pallay Punchu Mountain and Langui-Layo Lagoon on a full-day tour from Cusco. Unique high Andean landscapes and professional guide included.",
+    "seo_keywords": "pallay Punchu mountain, pallay punchu apu tacllo, langui-layo lagoon, mountain of colors cusco, tour canas cusco, trekking cusco, gt peru travel",
+    "resumen": {
+        "ubicacion": "Layo District, Canas Province, Cusco",
+        "lugar_recojo": "Hotels in the Historic Center of Cusco",
+        "lugar_finalizacion": "Historic Center of Cusco",
+        "hora_inicio": "4:00 a.m. – 4:30 a.m. (depending on hotel location)",
+        "idiomas": [
+            "Spanish",
+            "English",
+            "Portuguese (reservation required)"
+        ],
+        "transporte": [
+            "Tourist transportation throughout the tour"
+        ],
+        "lugares_a_visitar": [
+            "Pallay Punchu Mountain",
+            "Langui-Layo Lagoon",
+            "High Andean landscapes of the province of Canas"
+        ],
+        "altitud_maxima": "4,790 meters above sea level",
+        "tiempo_caminata": "1 hour 30 min to 2 hours (one way)",
+        "edad_recomendada": "From 12 years old",
+        "temporada": "All year round (best time: April to October)"
+    },
+    "caracteristicas": [
+        {
+            "icono": "fa-person-hiking",
+            "label": "Difficulty",
+            "valor": "Moderate"
+        },
+        {
+            "icono": "fa-clock",
+            "label": "Duration",
+            "valor": "Full Day"
+        },
+        {
+            "icono": "fa-people-group",
+            "label": "Service",
+            "valor": "Group / Private"
+        },
+        {
+            "icono": "fa-mountain",
+            "label": "Maximum Altitude",
+            "valor": "4,790 meters above sea level"
+        }
+    ],
+    "days": [
+        {
+            "title": "Day 1: Cusco – Cusipata – Layo – Pallay Punchu Mountain – Langui-Layo Lagoon – Cusco",
+            "lugar": "Cusco → Pallay Punchu → Cusco",
+            "text": "Our adventure begins very early with pickup from your hotel in the city of Cusco to embark on a trip along the southern route of the Vilcanota Valley. During the tour we will cross various Andean towns until we reach the city of Cusipata, where we will enjoy breakfast before continuing to the Layo district, access point to the Pallay Punchu Mountain.<br/><br/>Upon arriving at the trailhead, the guide will give an informative talk before beginning the hike. The ascent, lasting approximately one to two hours, allows you to contemplate extensive high Andean landscapes, herds of alpacas and llamas, as well as the impressive views of the Langui-Layo Lagoon, one of the most important bodies of water in the south of Cusco.<br/><br/>Upon reaching the main viewpoint, located at 4,790 m above sea level. n. m., we will enjoy enough time to tour the different panoramic points, take photographs and appreciate the unique multicolored rock formations of Pallay Punchu or Pallay Punchu del Apu T'acllo, whose appearance is reminiscent of a traditional Andean Punchu. Our guide will share information about the geological origin of the mountain and the natural importance of this newly discovered landscape for tourism.<br/><br/>After enjoying this spectacular scenery, we will begin the descent along the same route to our transportation. Later we will go to the restaurant to enjoy a buffet lunch and finally we will begin the return trip to the city of Cusco, concluding an unforgettable experience among some of the most surprising landscapes of the Peruvian Andes."
+        }
+    ],
+    "includes": [
+        "Pick up from hotels located in the Historic Center of Cusco (according to the contracted service)",
+        "Tourist transportation throughout the tour",
+        "Professional bilingual guide (Spanish and English)",
+        "Breakfast",
+        "Buffet lunch",
+        "First aid kit",
+        "Emergency oxygen cylinder",
+        "Permanent assistance during the tour"
+    ],
+    "not_includes": [
+        "Entrance ticket to Pallay Punchu Mountain (if applicable depending on the type of service)",
+        "Walking poles (available upon request or rental)",
+        "Horses for ascent or descent (available in the community and subject to availability)",
+        "Additional drinks and snacks",
+        "personal expenses",
+        "Tips",
+        "travel insurance",
+        "Services not expressly mentioned in the program"
+    ],
+    "recommendations": [
+        {
+            "img": "pasaporte.webp",
+            "nombre": "Identity document or passport"
+        },
+        {
+            "img": "ropa-abrigo.webp",
+            "nombre": "Comfortable and warm clothing"
+        },
+        {
+            "img": "Punchu-lluvia.webp",
+            "nombre": "Waterproof jacket or Punchu for rain"
+        },
+        {
+            "img": "calzado-trekking.webp",
+            "nombre": "Trekking shoes or shoes with good traction"
+        },
+        {
+            "img": "gorra.webp",
+            "nombre": "Hat or cap"
+        },
+        {
+            "img": "bloqueador.webp",
+            "nombre": "Sunscreen"
+        },
+        {
+            "img": "lentes-sol.webp",
+            "nombre": "sunglasses"
+        },
+        {
+            "img": "camara.webp",
+            "nombre": "Camera or mobile phone"
+        }
+    ],
+    "recomendaciones_generales": {
+        "antes_de_viajar": [
+            "It is recommended to stay at least 1 or 2 days in Cusco before the tour for adequate acclimatization to the altitude",
+            "The walk takes place above 4,700 m above sea level. n. m., so it is important to maintain a constant pace during the ascent",
+            "The weather in the mountains can change quickly; It is recommended to dress in layers",
+            "Follow the guide's instructions at all times and respect the natural environment, avoiding leaving waste during the tour"
+        ],
+        "tips": [
+            "Rest well the night before and avoid consuming alcoholic beverages before the tour",
+            "Stay hydrated throughout the hike and walk at your own pace to best enjoy the experience",
+            "Bring a portable battery for your cell phone or camera, as low temperatures can reduce battery life",
+            "Help us conserve this impressive natural landscape by respecting the established trails and following the recommendations of our guide"
+        ]
+    },
+    "faq": [
+        {
+            "pregunta": "Where is Pallay Punchu Mountain located?",
+            "respuesta": "The Pallay Punchu Mountain, also known as Pallay Punchu del Apu T'acllo, is located in the district of Layo, province of Canas, south of the Cusco region, at an approximate altitude of 4,790 m above sea level. n. m., very close to the Langui-Layo Lagoon."
+        },
+        {
+            "pregunta": "How long is the walk to the viewpoint?",
+            "respuesta": "The walk from the starting point to the main viewpoint usually takes between 1 hour and 30 minutes and 2 hours, depending on the pace of the group, the route used and the physical conditions of each traveler."
+        },
+        {
+            "pregunta": "Is it necessary to acclimatize before taking the tour?",
+            "respuesta": "Yes. Because the route exceeds 4,700 m above sea level. n. m., it is recommended to stay at least 1 or 2 days in Cusco before taking the excursion to adapt to the altitude and better enjoy the experience."
+        },
+        {
+            "pregunta": "When is the best time to visit Pallay Punchu?",
+            "respuesta": "The best season is between April and October, during the dry season, when clear skies predominate and conditions are more favorable for hiking and photography. The tour can also take place in the rainy season, although weather conditions may vary."
+        },
+        {
+            "pregunta": "What level of difficulty is the tour?",
+            "respuesta": "The tour has a moderate level of difficulty, mainly due to the altitude and some ascent sections. It does not require previous experience in trekking, but it does require adequate physical condition to walk in the high mountains."
+        },
+        {
+            "pregunta": "What makes Pallay Punchu different from other colorful mountains?",
+            "respuesta": "Unlike other colorful mountains in Cusco, Pallay Punchu stands out for its sharp ridges and mineral stripes that recall the weaving of an Andean Punchu. In addition, being a less crowded destination, it offers a quieter experience and privileged views of the Langui-Layo Lagoon."
+        },
+        {
+            "pregunta": "What clothing and equipment is recommended to bring?",
+            "respuesta": "It is recommended to bring warm clothing, a waterproof or windproof jacket, trekking shoes with good traction, a hat or cap, sunscreen, sunglasses, water, snacks and a small backpack for greater comfort during the walk."
+        },
+        {
+            "pregunta": "Is this tour recommended for the whole family?",
+            "respuesta": "The tour is ideal for people who enjoy nature and high mountain hikes. Due to the altitude and the physical effort required, it is recommended for travelers with adequate acclimatization and a physical condition that allows them to carry out the walk comfortably."
+        }
+    ],
+    "tours_relacionados": [
+        {
+            "title": "Colored Mountain Tour + 7 Lagoons",
+            "description": "Andean adventure to the Mountain of Colors and the 7 Ausangate Lagoons.",
+            "price": "125",
+            "duracion": "2Days / 1Nights",
+            "image": "montana-colores-cusco-peru-card-01.jpg",
+            "url": "montanacolores-7lagunas"
+        },
+        {
+            "title": "Quelccaya Glacier Tour",
+            "description": "Venture to the largest tropical glacier in the world, a jewel of nature in the Peruvian Andes.",
+            "price": "65",
+            "duracion": "1 Day",
+            "image": "quelccaya/img_header.webp",
+            "url": "quelccaya"
+        },
+        {
+            "title": "Waqrapukara Tour",
+            "description": "Explore the impressive horn-shaped Inca fortress that rises above the Apurímac canyon.",
+            "price": "90",
+            "duracion": "1 Day",
+            "image": "waqrapukara-card.jpg",
+            "url": "waqrapukara"
+        }
+    ],
+    "brochure": "",
+    "map": "",
+    "video": "",
+    "categories": {
+        "grupal": {
+            "titulo": "PALLAY Punchu - GROUP SERVICE",
+            "precio": "0",
+            "descripcion": "Service shared with other travelers.",
+            "nota": "Includes transportation, professional guide, breakfast and buffet lunch",
+            "descuento": 0
+        },
+        "privado": {
+            "titulo": "PALLAY Punchu - PRIVATE SERVICE",
+            "precio": "0",
+            "descripcion": "Exclusive service only for your group, also available in Portuguese.",
+            "nota": "Includes transportation, professional guide, breakfast and buffet lunch",
+            "descuento": 0
+        }
+    }
+}

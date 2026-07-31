@@ -61,7 +61,15 @@ require_once __DIR__ . "/config/environment.php";
     ---------------------->
     <?php
     // Idioma actual (viene de cookie, sesión, GET, etc.)
-    $idioma = $GLOBALS['lang'] ?? ($_GET['lang'] ?? "es");
+    $idioma = $GLOBALS['lang'] ?? ($_GET['lang'] ?? 'es');
+if (!in_array($idioma, ['es', 'en', 'pt'], true)) {
+    $idioma = 'es';
+}
+$header_ui = [
+    'es' => ['from' => 'Desde'],
+    'en' => ['from' => 'From'],
+    'pt' => ['from' => 'A partir de'],
+][$idioma];
 
     // Ruta del archivo JSON del idioma elegido
     $ruta = __DIR__ . "/locale/$idioma/header.json";
@@ -192,7 +200,7 @@ require_once __DIR__ . "/config/environment.php";
                 <!-- Links (solo desktop) -->
                 <div class="hidden lg:flex items-center gap-8 text-sm font-medium text-[#333]"> 
 
-                    <a href="https://www.gtperutravel.com/blog" 
+                    <a href="<?= $base_url ?>/blog.php?lang=<?= $idioma ?>"
                     class="group flex items-center gap-1 hover:text-[#ff9300] transition duration-300">
                         <?= $header_text['banner_social']['extra_links']['blog'] ?>
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition"
@@ -201,7 +209,7 @@ require_once __DIR__ . "/config/environment.php";
                         </svg>
                     </a>
 
-                    <a href="https://www.gtperutravel.com/recomendaciones" target="_blank"
+                    <a href="<?= $base_url ?>/?lang=<?= urlencode($idioma) ?>#trip-advisor"
                     class="group flex items-center gap-1 hover:text-[#ff9300] transition duration-300">
                         <?= $header_text['banner_social']['extra_links']['testimonios'] ?>
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition"
@@ -475,7 +483,7 @@ require_once __DIR__ . "/config/environment.php";
                         </li>
                         <!-- MACHU PICCHU -->
                         <li class="group" data-megamenu>
-                            <a href="<?= $base_url ?>/destino/template-destino.php?destino=machupicchu&lang=<?= $idioma ?>"" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
+                            <a href="<?= $base_url ?>/destino/template-destino.php?destino=machupicchu&lang=<?= $idioma ?>" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
                                 <?= $header_text['menu']['machupicchu'] ?>
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     class="w-5 h-5 opacity-80 transition-transform duration-300 group-hover:rotate-180"
@@ -498,7 +506,7 @@ require_once __DIR__ . "/config/environment.php";
                                         <!-- LEFT: lista de tours -->
                                         <div class="flex flex-col gap-1">
                                             <?php foreach($header_text['mega_menu']['machupicchu']['links'] as $key => $tour): ?>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $tour['url'] ?>&lang=<?= $idioma ?>"
+                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= htmlspecialchars($tour['url'] ?? $key) ?>&lang=<?= $idioma ?>"
                                                     class="tour-item group/item flex items-center justify-between gap-2 p-4 rounded-xl hover:bg-[#FFF7EF] transition duration-200 cursor-pointer"
                                                     data-title="<?= htmlspecialchars($tour['nombre']) ?>"
                                                     data-desc="<?= htmlspecialchars($tour['descripcion']) ?>"
@@ -509,7 +517,7 @@ require_once __DIR__ . "/config/environment.php";
                                                     data-img="<?= $base_url ?><?= htmlspecialchars($tour['img']) ?>">
 
                                                     <span class=" transition duration-200 font-medium">
-                                                        <?= $tour['nombre2'] ?>
+                                                        <?= htmlspecialchars($tour['nombre2'] ?? $tour['nombre'] ?? $key) ?>
                                                     </span>
 
                                                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -620,7 +628,7 @@ require_once __DIR__ . "/config/environment.php";
                                                     </div>
 
                                                     <div data-preview="price-wrap" class="hidden mt-auto pt-3 border-t border-gray-100">
-                                                        <p class="text-xs text-gray-400 uppercase tracking-wide mb-0.5">Desde</p>
+                                                        <p class="text-xs text-gray-400 uppercase tracking-wide mb-0.5"><?= htmlspecialchars($header_ui['from']) ?></p>
                                                         <p class="text-2xl font-bold text-orange-500">
                                                             USD <span data-preview="price"></span>
                                                         </p>
@@ -665,18 +673,18 @@ require_once __DIR__ . "/config/environment.php";
                                         <!-- LEFT: lista de tours -->
                                         <div class="flex flex-col gap-1">
                                             <?php foreach($header_text['mega_menu']['glaciares']['links'] as $key => $tour): ?>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $tour['url'] ?>&lang=<?= $idioma ?>"
+                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= htmlspecialchars($tour['url'] ?? $key) ?>&lang=<?= $idioma ?>"
                                                     class="tour-item group/item flex items-center justify-between gap-2 p-4 rounded-xl hover:bg-[#FFF7EF] transition duration-200 cursor-pointer"
                                                     data-title="<?= htmlspecialchars($tour['nombre']) ?>"
                                                     data-desc="<?= htmlspecialchars($tour['descripcion']) ?>"
                                                     data-price="<?= htmlspecialchars($tour['precio']) ?>"
                                                     data-time="<?= htmlspecialchars($tour['tiempo']) ?>"
-                                       s             data-difficulty="<?= htmlspecialchars($tour['dificultad']) ?>"
+                                                     data-difficulty="<?= htmlspecialchars($tour['dificultad']) ?>"
                                                     data-transport="<?= htmlspecialchars($tour['transporte']) ?>"
                                                     data-img="<?= $base_url ?><?= htmlspecialchars($tour['img']) ?>">
 
                                                     <span class=" transition duration-200 font-medium">
-                                                        <?= $tour['nombre2'] ?>
+                                                        <?= htmlspecialchars($tour['nombre2'] ?? $tour['nombre'] ?? $key) ?>
                                                     </span>
 
                                                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -787,7 +795,7 @@ require_once __DIR__ . "/config/environment.php";
                                                     </div>
 
                                                     <div data-preview="price-wrap" class="hidden mt-auto pt-3 border-t border-gray-100">
-                                                        <p class="text-xs text-gray-400 uppercase tracking-wide mb-0.5">Desde</p>
+                                                        <p class="text-xs text-gray-400 uppercase tracking-wide mb-0.5"><?= htmlspecialchars($header_ui['from']) ?></p>
                                                         <p class="text-2xl font-bold text-orange-500">
                                                             USD <span data-preview="price"></span>
                                                         </p>
@@ -831,7 +839,7 @@ require_once __DIR__ . "/config/environment.php";
                                         <!-- LEFT: lista de tours -->
                                         <div class="flex flex-col gap-1">
                                             <?php foreach($header_text['mega_menu']['experiencias_unicas']['links'] as $key => $tour): ?>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $tour['url'] ?>&lang=<?= $idioma ?>"
+                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= htmlspecialchars($tour['url'] ?? $key) ?>&lang=<?= $idioma ?>"
                                                     class="tour-item group/item flex items-center justify-between gap-2 p-4 rounded-xl hover:bg-[#FFF7EF] transition duration-200 cursor-pointer"
                                                     data-title="<?= htmlspecialchars($tour['nombre']) ?>"
                                                     data-desc="<?= htmlspecialchars($tour['descripcion']) ?>"
@@ -842,7 +850,7 @@ require_once __DIR__ . "/config/environment.php";
                                                     data-img="<?= $base_url ?><?= htmlspecialchars($tour['img']) ?>">
 
                                                     <span class=" transition duration-200 font-medium">
-                                                        <?= $tour['nombre2'] ?>
+                                                        <?= htmlspecialchars($tour['nombre2'] ?? $tour['nombre'] ?? $key) ?>
                                                     </span>
 
                                                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -953,7 +961,7 @@ require_once __DIR__ . "/config/environment.php";
                                                     </div>
 
                                                     <div data-preview="price-wrap" class="hidden mt-auto pt-3 border-t border-gray-100">
-                                                        <p class="text-xs text-gray-400 uppercase tracking-wide mb-0.5">Desde</p>
+                                                        <p class="text-xs text-gray-400 uppercase tracking-wide mb-0.5"><?= htmlspecialchars($header_ui['from']) ?></p>
                                                         <p class="text-2xl font-bold text-orange-500">
                                                             USD <span data-preview="price"></span>
                                                         </p>
@@ -1027,10 +1035,10 @@ require_once __DIR__ . "/config/environment.php";
    <!-- ============================================
      MENU MOBILE (panel deslizable + overlay)
      ============================================ -->
-    <div id="mobile-menu-overlay" class="fixed inset-0 bg-black/50 z-[9998] hidden lg:hidden"></div>
+    <div id="mobile-menu-overlay" class="fixed inset-0 bg-black/50 z-[10000] hidden lg:hidden"></div>
 
     <div id="mobile-menu-panel"
-        class="fixed top-0 right-0 h-full w-[85%] max-w-sm bg-white z-[9999] shadow-2xl
+        class="fixed top-0 right-0 h-full w-[85%] max-w-sm bg-white z-[10001] shadow-2xl
                 transform translate-x-full transition-transform duration-300 ease-in-out
                 overflow-y-auto lg:hidden">
 
@@ -1046,12 +1054,12 @@ require_once __DIR__ . "/config/environment.php";
 
         <!-- Links principales del sitio (los que estaban en banner-social) -->
         <div class="p-4 border-b border-gray-200 space-y-1">
-            <a href="https://www.gtperutravel.com/blog" target="_blank"
+            <a href="<?= $base_url ?>/blog.php?lang=<?= $idioma ?>"
             class="flex items-center justify-between py-3 px-2 text-gray-700 font-medium text-sm hover:bg-gray-50 rounded-lg">
                 <?= $header_text['banner_social']['extra_links']['blog'] ?>
                 <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-400"></i>
             </a>
-            <a href="https://www.gtperutravel.com/recomendaciones" target="_blank"
+            <a href="<?= $base_url ?>/?lang=<?= urlencode($idioma) ?>#trip-advisor"
             class="flex items-center justify-between py-3 px-2 text-gray-700 font-medium text-sm hover:bg-gray-50 rounded-lg">
                 <?= $header_text['banner_social']['extra_links']['testimonios'] ?>
                 <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-400"></i>

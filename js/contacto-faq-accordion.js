@@ -4,8 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
             const panel = btn.nextElementSibling;
             const icon = btn.querySelector(".faq-contacto-icon");
             if (!panel) return;
-            panel.classList.toggle("hidden");
+            const isOpen = !panel.classList.toggle("hidden");
             icon.classList.toggle("rotate-180");
+            btn.setAttribute("aria-expanded", String(isOpen));
         });
     });
 });

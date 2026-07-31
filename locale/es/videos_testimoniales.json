@@ -17,6 +17,11 @@
             "thumbnail": "/images/videos/1.webp",
             "video_url": "https://www.youtube.com/watch?v=XXXXXXXXX",
             "titulo": "Plaza de Armas Cusco"
+        },
+        {
+            "thumbnail": "/images/videos/1.webp",
+            "video_url": "https://www.youtube.com/watch?v=XXXXXXXXX",
+            "titulo": "Plaza de Armas Cusco"
         }
     ]
 }

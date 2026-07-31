@@ -1,0 +1,239 @@
+{
+    "hero": {
+        "background": "/images/nosotros/hero.jpg",
+        "kicker": "Authorized Agency · Cusco, Peru",
+        "title_primary": "100% Tour",
+        "title_highlight": "Local",
+        "title_secondary": "from Cusco",
+        "description": "We are an authorized tourism agency based in Cusco, Peru. With a team of passionate professionals, our goal is for you to experience Peru in an authentic and unforgettable way.",
+        "trip_awards": [
+            {
+                "img": "/images/tripadvisor-video.png",
+                "alt": "Tripadvisor Travelers Choice Awards 2025"
+            },
+            {
+                "img": "/images/tripadvisor-video.png",
+                "alt": "Tripadvisor Travelers Choice 2026"
+            }
+        ],
+        "stats": [
+            {
+                "icono": "fa-mountain",
+                "numero": "150+",
+                "titulo": "Destinations"
+            },
+            {
+                "icono": "fa-people-group",
+                "numero": "12K+",
+                "titulo": "Travelers"
+            },
+            {
+                "icono": "fa-star",
+                "numero": "4.9",
+                "titulo": "Rating"
+            },
+            {
+                "icono": "fa-globe",
+                "numero": "10+",
+                "titulo": "Years of Exp."
+            }
+        ],
+        "badge_flotante": {
+            "calificacion": "4.7",
+            "texto": "+200 Travelers"
+        }
+    },
+    "quienes_somos": {
+        "img": "/images/nosotros/hero.jpg",
+        "badge_img": "Tour 100% Local",
+        "kicker": "Who We Are",
+        "title_primary": "Agency",
+        "title_secondary": "Authorized",
+        "title_tertiary": "based in Cusco",
+        "description_1": "We are an authorized tourism agency based in Cusco, Peru, with a team of tourism professionals, our main objective is to fully satisfy visitors who decide to discover this region of the world.",
+        "description_2": "We operate mainly in the Cusco area, where we offer a wide variety of tours: from conventional tours to expeditions to the Peruvian Amazon jungle and the Salkantay Trek. We offer a visit to the Machu Picchu sanctuary and a tour of the city of Cusco, where you can delight in the wonderful festivals, cultures and natural landscapes of this region.",
+        "stats": [
+            {
+                "numero": "10+",
+                "titulo": "Years of Exp."
+            },
+            {
+                "numero": "12K+",
+                "titulo": "Travelers"
+            },
+            {
+                "numero": "4.9★",
+                "titulo": "Rating"
+            },
+            {
+                "numero": "100%",
+                "titulo": "Local"
+            }
+        ]
+    },
+    "equipo": {
+        "kicker": "Our Team",
+        "title_primary": "Professionals",
+        "title_secondary": "Passionate",
+        "description": "Committed to your perfect experience. Each advisor is verified and available on WhatsApp.",
+        "asesores": [
+            {
+                "nombre": "Carmen",
+                "cargo": "Travel Advisor",
+                "foto": "/images/nosotros/carmen.jpg",
+                "whatsapp": "51987370201"
+            },
+            {
+                "nombre": "Carmen",
+                "cargo": "Travel Advisor",
+                "foto": "/images/nosotros/carmen.jpg",
+                "whatsapp": "51987370202"
+            },
+            {
+                "nombre": "Carmen",
+                "cargo": "Travel Advisor",
+                "foto": "/images/nosotros/carmen.jpg",
+                "whatsapp": "51987370203"
+            },
+            {
+                "nombre": "Carmen",
+                "cargo": "Travel Advisor",
+                "foto": "/images/nosotros/carmen.jpg",
+                "whatsapp": "51987370204"
+            },
+            {
+                "nombre": "Carmen",
+                "cargo": "Travel Advisor",
+                "foto": "/images/nosotros/carmen.jpg",
+                "whatsapp": "51987370205"
+            }
+        ]
+    },
+    "ventajas": {
+        "kicker": "Our Advantages",
+        "title_primary": "Why choose",
+        "title_secondary": "PeruTravel?",
+        "description": "Commitment, quality and experience in every adventure we undertake together.",
+        "items": [
+            {
+                "icono": "fa-flag",
+                "titulo": "100% Local",
+                "descripcion": "Expert native guides who know every corner and secret of our Andean land."
+            },
+            {
+                "icono": "fa-route",
+                "titulo": "Personalized Tours",
+                "descripcion": "We tailor each experience to specific travel needs and preferences."
+            },
+            {
+                "icono": "fa-graduation-cap",
+                "titulo": "Professionals",
+                "descripcion": "Specialized team with international certifications and more than 10 years of experience."
+            },
+            {
+                "icono": "fa-headset",
+                "titulo": "24/7 Support",
+                "descripcion": "Complete support before, during and after your trip via WhatsApp."
+            },
+            {
+                "icono": "fa-shield-halved",
+                "titulo": "Secure Operator",
+                "descripcion": "Registered with MINCETUR and DIRCETUR. Your safety and peace of mind is our priority."
+            },
+            {
+                "icono": "fa-language",
+                "titulo": "Multilingual",
+                "descripcion": "Attention and guides in Spanish, English and Portuguese for travelers from all over the world."
+            },
+            {
+                "icono": "fa-leaf",
+                "titulo": "Sustainable Tourism",
+                "descripcion": "We practice tourism that takes care of the environment and supports local communities."
+            }
+        ]
+    },
+    "historia": {
+        "background": "/images/nosotros/historia.webp",
+        "kicker": "Our History",
+        "title_primary": "A trip of",
+        "title_highlight": "passion",
+        "title_secondary": "for Peru",
+        "description": "From our beginnings in Cusco to becoming one of the most reliable agencies in the country.",
+        "hitos": [
+            {
+                "etiqueta": "Foundation · Our Beginnings",
+                "titulo": "We are born from the passion for Peru",
+                "descripcion": "PerúTravel was born from the passion to share the wonders of Peru with travelers from all over the world. We begin in Cusco, taking the first visitors to discover the magic of the Inca city."
+            },
+            {
+                "etiqueta": "Expansion · Regional Growth",
+                "titulo": "We expand horizons",
+                "descripcion": "We expanded our services to destinations such as the Sacred Valley, Machu Picchu, the Amazon jungle and the famous Inca Trail, bringing experiences and travelers from more countries."
+            },
+            {
+                "etiqueta": "Certification · Official Recognition",
+                "titulo": "Endorsed by large institutions",
+                "descripcion": "We obtained certifications from CALTUR, DIRCETUR, MINCETUR and membership in ATTA (Adventure Travel Trade Association), consolidating ourselves as a trusted tour operator on the national and international scene."
+            },
+            {
+                "etiqueta": "News · Leaders in Tourism",
+                "titulo": "Today we are a reference in Cusco",
+                "descripcion": "Today we are one of the most trusted agencies in Cusco, with thousands of satisfied travelers from all over the world committed to the excellence, sustainability and authenticity of tourism in Peru."
+            }
+        ]
+    },
+    "mision_vision": {
+        "kicker": "Our Essence",
+        "title_primary": "Mission, Vision",
+        "title_highlight": "&",
+        "title_secondary": "Values",
+        "description": "The principles that guide every tour, every decision and every experience we create.",
+        "mision": {
+            "icono": "fa-bullseye",
+            "titulo": "Our Mission",
+            "descripcion": "Provide exceptional tourist experiences that connect travelers with the rich history, culture and nature of Peru, exceeding their expectations at every moment of the trip."
+        },
+        "vision": {
+            "icono": "fa-eye",
+            "titulo": "Our Vision",
+            "descripcion": "To be the leading tourism agency in Cusco and Peru, internationally recognized for our quality of service, social commitment and sustainable and responsible tourism practices."
+        }
+    },
+    "certificaciones": {
+        "background": "/images/nosotros/fondo-alianzas.webp",
+        "kicker": "Officially Certified Company",
+        "title_primary": "Certifications",
+        "title_secondary": "and Associations",
+        "description": "Endorsed by the main tourism institutions of Peru and international organizations.",
+        "items": [
+            {
+                "logo": "/images/organizaciones/caltur-190x100.webp",
+                "nombre": "CALTUR Certificate"
+            },
+            {
+                "logo": "/images/organizaciones/dircetur-190x100.png",
+                "nombre": "Registered DIRCETUR"
+            },
+            {
+                "logo": "/images/organizaciones/esnna-190x100.webp",
+                "nombre": "ESNNA Code of Conduct"
+            },
+            {
+                "logo": "/images/organizaciones/mincetur-190x100.png",
+                "nombre": "Authorized MINCETUR"
+            },
+            {
+                "logo": "/images/organizaciones/peru-brand-190x120.png",
+                "nombre": "Peru Brand"
+            },
+            {
+                "logo": "/images/organizaciones/sello-agencia-registrada-mincetur-190x100.png",
+                "nombre": "MINCETUR Registered Agency"
+            },
+            {
+                "logo": "/images/organizaciones/sernanp-190x100.png",
+                "nombre": "Authorized SERNANP"
+            }
+        ]
+    }
+}

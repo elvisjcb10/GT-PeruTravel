@@ -8,6 +8,10 @@ tambien agregar aca.
 <?php
 // 1. Idioma actual
 $idioma = $_GET['lang'] ?? 'es';
+if (!in_array($idioma, ['es', 'en', 'pt'], true)) {
+    $idioma = 'es';
+}
+$GLOBALS['lang'] = $idioma;
 
 // 2. Documento solicitado
 $doc = $_GET['doc'] ?? 'quienes-somos';
@@ -36,7 +40,11 @@ $page = $legal_json[$doc];
 
 <?php
 // para cargar promociones
-$idioma = $_GET['lang'] ?? 'es'; // lenguaje actual
+$idioma = $_GET['lang'] ?? 'es';
+if (!in_array($idioma, ['es', 'en', 'pt'], true)) {
+    $idioma = 'es';
+}
+$GLOBALS['lang'] = $idioma; // lenguaje actual
 
 $json = file_get_contents(__DIR__ . "/promotions/promotions.json");
 $promotions = json_decode($json, true)['promotions'];
@@ -133,6 +141,10 @@ $footer = json_decode($footer_json, true);
 <!-- TOURS IDIOMA PLANTILLA -->
 <?php
 $idioma = $_GET['lang'] ?? 'es';
+if (!in_array($idioma, ['es', 'en', 'pt'], true)) {
+    $idioma = 'es';
+}
+$GLOBALS['lang'] = $idioma;
 $slug = 'machupicchu';
 
 $data_json = file_get_contents(__DIR__ . "/data/tours/{$slug}.{$idioma}.json");
@@ -142,7 +154,7 @@ $data = json_decode($data_json, true);
 
 
 <!DOCTYPE html>
-<html lang="es">
+<html lang="<?= htmlspecialchars($idioma) ?>">
 
 <!DOCTYPE html>
 <html lang="<?php echo $idioma; ?>">

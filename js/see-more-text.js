@@ -1,11 +1,17 @@
-// ver mas texto
+document.addEventListener("DOMContentLoaded", () => {
+    const button = document.getElementById("verMasBtn");
+    const extraDays = document.getElementById("dias-extra");
+    if (!button || !extraDays) return;
 
-const verMasBtn = document.getElementById('verMasBtn');
-const diasExtra = document.getElementById('dias-extra');
+    const language = document.documentElement.lang || "es";
+    const labels = {
+        es: { more: "Ver más días", less: "Ver menos días" },
+        en: { more: "See more days", less: "See fewer days" },
+        pt: { more: "Ver mais dias", less: "Ver menos dias" },
+    }[language] || { more: "Ver más días", less: "Ver menos días" };
 
-verMasBtn.addEventListener('click', () => {
-    diasExtra.classList.toggle('hidden');
-    verMasBtn.textContent = diasExtra.classList.contains('hidden') ?
-        'Ver más días' :
-        'Ver menos días';
+    button.addEventListener("click", () => {
+        extraDays.classList.toggle("hidden");
+        button.textContent = extraDays.classList.contains("hidden") ? labels.more : labels.less;
+    });
 });
