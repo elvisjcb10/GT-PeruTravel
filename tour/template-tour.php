@@ -1,7 +1,6 @@
+<?php require_once __DIR__ . '/../config/bootstrap.php'; ?>
 <!-- VERIFICACIONES DE ERRORES EN PHP -->
 <?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
 ?>
 
 <!-- VARIABLES DE PROMOCIONES - HEADER -->
@@ -14,14 +13,13 @@ $promotions = file_exists($promotions_path)
 
 <!-- CARGANDO TOUR + IDIOMA -->
 <?php
-$tour = $_GET['tour'] ?? 'machupicchu';
-$lang = $_GET['lang'] ?? 'es';
-$idioma = $lang; // alias usado en otras partes del sitio
-$GLOBALS['lang'] = $lang;
-
-$allowed = ['es', 'en', 'pt'];
-if (!in_array($lang, $allowed, true)) {
+$lang = (string) ($_GET['lang'] ?? 'es');
+if (!in_array($lang, ['es', 'en', 'pt'], true)) {
     $lang = 'es';
+}
+$tour = (string) ($_GET['tour'] ?? 'machupicchu');
+if (!preg_match('/\A[a-zA-Z0-9_-]{1,120}\z/D', $tour)) {
+    app_redirect('/404.php?lang=' . rawurlencode($lang));
 }
 $idioma = $lang;
 $GLOBALS['lang'] = $lang;
@@ -34,11 +32,11 @@ $template_ui = [
 $json_file = __DIR__ . "/../data/tours/{$tour}.{$lang}.json";
 
 if (!file_exists($json_file)) {
-    header("Location: /404.php");
-    exit;
+    app_redirect('/404.php?lang=' . rawurlencode($lang));
 }
 
 $data = json_decode(file_get_contents($json_file), true);
+route_redirect_legacy('tour', $lang, $tour);
 
 $meta_title = $data['seo_title'] ?? $data['title'];
 $meta_description = $data['seo_description'] ?? $data['short_description'];
@@ -77,42 +75,31 @@ $base_url = "..";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
 
-    <title><?= htmlspecialchars($meta_title) ?></title>
-    <meta name="description" content="<?= htmlspecialchars($meta_description) ?>">
+    <title><?= htmlspecialchars(seo_clean_text((string)$meta_title, 65)) ?></title>
+    <meta name="description" content="<?= htmlspecialchars(seo_clean_text((string)$meta_description, 160)) ?>">
+    <?php seo_render([
+        'title' => $meta_title, 'description' => $meta_description,
+        'path' => route_path('tour', $lang, $tour), 'params' => [], 'language' => $lang,
+        'image' => '/images/tours/' . basename((string)($data['image_cover'] ?? 'template-image-tour.jpg')),
+        'alternates' => route_alternates('tour', $tour),
+        'schema_type' => 'TouristTrip', 'tourist_type' => 'Cultural and adventure tourism',
+        'robots' => $tour === 'short-inca-trail' ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
+    ]); ?>
     <meta name="keywords" content="<?= htmlspecialchars($meta_keywords) ?>">
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17034229022"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'AW-17034229022');
-    </script>
 
     <link rel="icon" href="../assets/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        poppins: ['Poppins', 'sans-serif'],
-                        anton: ['Anton', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="/css/tailwind.min.css">
     <link rel="stylesheet" href="../css/style.css">
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -152,7 +139,7 @@ $base_url = "..";
         <section id="video" class="tour-hero relative w-full h-[92vh] sm:h-[85vh] md:h-[82vh] min-h-[680px] sm:min-h-[650px] bg-black overflow-hidden">
 
             <!-- imagen de fondo -->
-            <img class="hero-bg absolute top-0 left-0 w-full h-full object-cover"
+            <img class="hero-bg absolute top-0 left-0 w-full h-full object-cover" loading="eager" fetchpriority="high" decoding="async"
                 src="<?= htmlspecialchars($base_url . '/' . $imgPath) ?>"
                 alt="<?= ($data['title']) ?>">
 
@@ -175,19 +162,19 @@ $base_url = "..";
 
                         <!-- Reconocimientos integrados al contenido en móvil y tablet -->
                         <div class="tour-hero-awards flex lg:hidden items-center gap-2 sm:gap-3 mt-5 sm:mt-6">
-                            <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-16 sm:h-20 w-auto">
-                            <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-16 sm:h-20 w-auto">
-                            <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-16 sm:h-20 w-auto">
+                            <img src="<?= $base_url ?>/images/tripadvisor/sticker2024.png" alt="Tripadvisor Travelers' Choice 2024" class="h-16 sm:h-20 w-auto">
+                            <img src="<?= $base_url ?>/images/tripadvisor/sticker2025.png" alt="Tripadvisor Travelers' Choice 2025" class="h-16 sm:h-20 w-auto">
+                            <img src="<?= $base_url ?>/images/tripadvisor/sticker2026.png" alt="Tripadvisor Travelers' Choice 2026" class="h-16 sm:h-20 w-auto">
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Reconocimientos en escritorio -->
-            <div class="hidden lg:flex absolute z-10 bottom-28 right-10 gap-2">
-                <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-28 w-auto">
-                <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-28 w-auto">
-                <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-28 w-auto">
+            <div class="hero-awards-standard hidden lg:flex absolute z-10 bottom-28 right-10 gap-2">
+                <img src="<?= $base_url ?>/images/tripadvisor/sticker2024.png" alt="Tripadvisor Travelers' Choice 2024">
+                <img src="<?= $base_url ?>/images/tripadvisor/sticker2025.png" alt="Tripadvisor Travelers' Choice 2025">
+                <img src="<?= $base_url ?>/images/tripadvisor/sticker2026.png" alt="Tripadvisor Travelers' Choice 2026">
             </div>
 
             <!-- barra de estadísticas del tour -->
@@ -701,7 +688,7 @@ $base_url = "..";
                         <div class="swiper-wrapper">
                     <?php foreach ($data['tours_relacionados'] as $t): ?>
                         <div class="swiper-slide h-auto">
-                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $t['url'] ?>&lang=<?= $lang ?>"
+                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)($t['url'])) ?>"
                         class="flex flex-col bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300 h-full">
 
                             <div class="relative h-56 w-full overflow-hidden">
@@ -767,7 +754,7 @@ $base_url = "..";
         <!-- Imagen -->
         <div class="max-w-5xl w-full px-8 sm:px-12">
             <img id="gallery-image" src="" alt="Galería"
-                class="w-full max-h-[75svh] sm:max-h-[80vh] object-contain rounded-lg mx-auto">
+                class="w-full max-h-[75svh] sm:max-h-[80vh] object-contain rounded-lg mx-auto" loading="lazy" decoding="async">
             <p id="gallery-counter" class="text-center text-white/70 text-sm font-poppins mt-4"></p>
         </div>
 
@@ -779,7 +766,7 @@ $base_url = "..";
 
     </div>
     <!-- SCRIPTS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
     <script src="../js/mobile-menu.js"></script>
     <script src="../js/swiper-trip-comments.js"></script>
     <script src="../js/auto-swiper.js"></script>

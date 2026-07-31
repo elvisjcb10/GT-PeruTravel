@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config/bootstrap.php'; ?>
 <!-- PLANTILLA COPIADA DEL INDEX PARA FUNCIONAR EN LEGAL
 tener en cuenta cuando se agregue a index algo 
 tambien agregar aca. 
@@ -30,10 +31,11 @@ $legal_json = json_decode(file_get_contents($legal_file), true);
 
 // 4. Verificar que exista la sección dentro del JSON
 if (!isset($legal_json[$doc])) {
-    die("El documento legal solicitado no existe: $doc");
+    http_response_code(404); require __DIR__ . '/404.php'; exit;
 }
 
 $page = $legal_json[$doc];
+if (PHP_SAPI !== 'cli' && str_ends_with((string)(parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH) ?? ''), '.php')) { header('Location: ' . route_legal_path($doc, $idioma), true, 301); exit; }
 ?>
 
 <!-- end solo para legal.php estos datos  -->
@@ -162,22 +164,18 @@ $data = json_decode($data_json, true);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
     <title><?php echo $page['title']; ?> | GT Peru Travel</title>
     <meta name="description" content="<?php echo $page['desc']; ?>">
+    <?php seo_render([
+        'title' => (string)$page['title'] . ' | GT Peru Travel', 'description' => (string)$page['desc'],
+        'path' => route_legal_path($doc, $idioma), 'params' => [], 'language' => $idioma,
+        'alternates' => route_legal_alternates($doc),
+    ]); ?>
     <meta name="keywords" content="<?php echo $page['keywords']; ?>">
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17034229022"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'AW-17034229022');
-    </script>
 
 
     <!-- faviicon -->
@@ -190,7 +188,7 @@ $data = json_decode($data_json, true);
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!-- Tailwind CSS (CDN) -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    
 
     <!-- google fonts ANTON - 1 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -203,6 +201,7 @@ $data = json_decode($data_json, true);
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!-- styles -->
+    <link rel="stylesheet" href="/css/tailwind.min.css">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- COMPILADO PARA CARGAR VANDERAS PARA TELEFONO -->
@@ -371,7 +370,7 @@ $data = json_decode($data_json, true);
     <!-- // scrips // -->
 
     <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
 
     <!-- Mobile menu -->
     <script src="js/mobile-menu.js"></script>

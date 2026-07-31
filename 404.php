@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config/bootstrap.php'; ?>
 <?php
 http_response_code(404);
 $idioma = $_GET['lang'] ?? 'es';
@@ -15,6 +16,7 @@ $text = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
     <title>404 — <?= htmlspecialchars($text['title']) ?> | GT Peru Travel</title>
     <meta name="robots" content="noindex, follow">
     <style>
@@ -29,7 +31,7 @@ $text = [
     <main>
         <h1>404</h1>
         <p><?= htmlspecialchars($text['message']) ?></p>
-        <a href="/?lang=<?= rawurlencode($idioma) ?>"><?= htmlspecialchars($text['back']) ?></a>
+        <a href="<?= route_static_path('home', $idioma) ?>"><?= htmlspecialchars($text['back']) ?></a>
     </main>
 </body>
 </html>

@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/config/bootstrap.php'; ?>
 <?php
 // para cargar promociones
 $idioma = $_GET['lang'] ?? 'es';
@@ -5,6 +6,7 @@ if (!in_array($idioma, ['es', 'en', 'pt'], true)) {
     $idioma = 'es';
 }
 $GLOBALS['lang'] = $idioma;
+route_redirect_static('home', $idioma);
 $site_meta = [
     'es' => [
         'title' => 'GT Peru Travel | Tours a Machu Picchu, Cusco y experiencias únicas en Perú',
@@ -174,7 +176,7 @@ $footer = json_decode($footer_json, true);
 
 <!-- TOURS IDIOMA PLANTILLA -->
 <?php
-$idioma = $_GET['lang'] ?? 'es';
+
 $slug = 'machupicchu';
 
 $data_json = file_get_contents(__DIR__ . "/data/tours/{$slug}.{$idioma}.json");
@@ -189,22 +191,18 @@ $data = json_decode($data_json, true);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= htmlspecialchars($site_meta['title']) ?></title>
+    <base href="/">
+    <title><?= htmlspecialchars(seo_clean_text((string)$site_meta['title'], 65)) ?></title>
     <meta name="description" content="<?= htmlspecialchars($site_meta['description']) ?>">
+    <?php seo_render([
+        'title' => $site_meta['title'], 'description' => $site_meta['description'],
+        'path' => route_static_path('home', $idioma), 'params' => [], 'language' => $idioma,
+        'alternates' => route_static_alternates('home'),
+    ]); ?>
     <meta name="keywords" content="<?= htmlspecialchars($site_meta['keywords']) ?>">
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17034229022"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'AW-17034229022');
-    </script>
 
 
     <!-- faviicon -->
@@ -217,20 +215,6 @@ $data = json_decode($data_json, true);
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!-- Tailwind CSS (CDN) -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        poppins: ['Poppins', 'sans-serif'],
-                        anton: ['Anton', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
 
     <!-- google fonts ANTON - 1 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -243,6 +227,7 @@ $data = json_decode($data_json, true);
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
 
     <!-- styles -->
+    <link rel="stylesheet" href="/css/tailwind.min.css">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- COMPILADO PARA CARGAR VANDERAS PARA TELEFONO -->
@@ -306,7 +291,6 @@ $data = json_decode($data_json, true);
 
         });
     </script>
-    <script src="js/scroll-reveal.js"></script>
     <script src="js/auto-swiper.js"></script>
 </body>
 

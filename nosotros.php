@@ -1,6 +1,5 @@
+<?php require_once __DIR__ . '/config/bootstrap.php'; ?>
 <?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
 
 $idioma = $_GET['lang'] ?? 'es';
 $allowed = ['es', 'en', 'pt'];
@@ -9,6 +8,7 @@ if (!in_array($idioma, $allowed)) {
 }
 
 $base_url = ".";
+route_redirect_static('nosotros', $idioma);
 $about_meta = [
     'es' => ['title' => 'Sobre nosotros | GT Peru Travel', 'description' => 'Conoce a GT Peru Travel, nuestra historia, equipo, misión, visión y certificaciones.'],
     'en' => ['title' => 'About Us | GT Peru Travel', 'description' => 'Meet GT Peru Travel and discover our story, team, mission, vision and certifications.'],
@@ -29,32 +29,26 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
     <title><?= htmlspecialchars($about_meta['title']) ?></title>
     <meta name="description" content="<?= htmlspecialchars($about_meta['description']) ?>">
+    <?php seo_render([
+        'title' => $about_meta['title'], 'description' => $about_meta['description'],
+        'path' => route_static_path('nosotros', $idioma), 'params' => [], 'language' => $idioma,
+        'image' => (string)($nosotros['hero']['background'] ?? '/images/gt-peru-travel.png'),
+        'alternates' => route_static_alternates('nosotros'),
+    ]); ?>
     <meta name="keywords" content="sobre nosotros, gt peru travel, agencia de turismo cusco, quienes somos, certificaciones turismo peru">
 
     <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        poppins: ['Poppins', 'sans-serif'],
-                        anton: ['Anton', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="/css/tailwind.min.css">
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -71,7 +65,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
          *********************** -->
         <section class="page-hero page-hero--with-stats responsive-hero relative w-full bg-black overflow-hidden">
 
-            <img src="<?= $base_url . $nosotros['hero']['background'] ?>"
+            <img src="<?= $base_url . $nosotros['hero']['background'] ?>" loading="eager" fetchpriority="high" decoding="async"
                  alt="<?= htmlspecialchars($nosotros['hero']['title_primary'] . ' ' . $nosotros['hero']['title_highlight']) ?>"
                  class="absolute inset-0 w-full h-full object-cover">
 
@@ -82,9 +76,10 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
                 <div class="container-custom px-20 w-full">
                     <div class="max-w-2xl">
 
-                        <span class="inline-block bg-orange-custom/90 text-white text-xs font-bold font-poppins uppercase tracking-wide px-4 py-1.5 rounded-full mb-4">
-                            <?= htmlspecialchars($nosotros['hero']['kicker']) ?>
-                        </span>
+                        <div class="hero-section-kicker mb-4">
+                            <span class="hero-section-kicker__line" aria-hidden="true"></span>
+                            <span><?= htmlspecialchars($nosotros['hero']['kicker']) ?></span>
+                        </div>
 
                         <h1 class="text-white text-[2.6rem] sm:text-5xl md:text-6xl lg:text-[4.2rem] font-anton font-black leading-[1.05] drop-shadow-lg">
                             <?= htmlspecialchars($nosotros['hero']['title_primary']) ?> <span class="text-orange-custom"><?= htmlspecialchars($nosotros['hero']['title_highlight']) ?></span><br>
@@ -100,10 +95,10 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
             </div>
 
             <!-- Trip awards -->
-            <div class="page-hero-awards absolute z-10 bottom-24 md:bottom-28 right-4 md:right-10 flex items-center gap-3">
-                <?php foreach ($nosotros['hero']['trip_awards'] as $award): ?>
-                    <img src="<?= $base_url . $award['img'] ?>" alt="<?= htmlspecialchars($award['alt']) ?>" class="h-16 md:h-24">
-                <?php endforeach; ?>
+            <div class="page-hero-awards hero-awards-standard absolute z-10 bottom-24 md:bottom-28 right-4 md:right-10 flex items-center gap-2">
+                <img src="<?= $base_url ?>/images/tripadvisor/sticker2024.png" alt="Tripadvisor Travelers Choice 2024">
+                <img src="<?= $base_url ?>/images/tripadvisor/sticker2025.png" alt="Tripadvisor Travelers Choice 2025">
+                <img src="<?= $base_url ?>/images/tripadvisor/sticker2026.png" alt="Tripadvisor Travelers Choice 2026">
             </div>
 
             <!-- barra de estadísticas -->
@@ -119,11 +114,6 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
                                 </div>
                             </div>
                         <?php endforeach; ?>
-                    </div>
-
-                    <div class="hidden md:flex absolute right-4 top-1/2 -translate-y-1/2 items-center gap-2 bg-orange-custom text-white text-sm font-bold font-poppins px-4 py-2 rounded-full shadow-lg">
-                        <i class="fa-solid fa-star"></i>
-                        <?= $nosotros['hero']['badge_flotante']['calificacion'] ?> <?= $nosotros['hero']['badge_flotante']['texto'] ?>
                     </div>
                 </div>
             </div>
@@ -484,10 +474,9 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
 
     <?php include('footer.php') ?>
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
     <script src="js/mobile-menu.js"></script>
     <script src="js/mega-menu.js"></script>
-    <script src="js/scroll-reveal.js"></script>
 
 </body>
 </html>

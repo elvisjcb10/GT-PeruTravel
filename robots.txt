@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /config/
+Disallow: /data/
+Disallow: /includes/
+Disallow: /lang/
+Disallow: /locale/
+Disallow: /mail/
+Disallow: /scripts/
+
+Sitemap: https://www.gtperutravel.com/sitemap.xml

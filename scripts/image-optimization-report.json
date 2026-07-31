@@ -1,0 +1,1766 @@
+{
+  "settings": {
+    "max_size": [
+      1920,
+      1920
+    ],
+    "webp_quality": 82
+  },
+  "before": {
+    "files": 540,
+    "bytes": 343574258
+  },
+  "after": {
+    "files": 170,
+    "bytes": 35412786
+  },
+  "saved_bytes": 308161472,
+  "converted": [],
+  "recompressed": [
+    {
+      "file": "images/blog/posts/3-lugares-imperdibles-en-cusco-ausangate-siete-lagunas-y-montana-de-colores.webp",
+      "before": 238758,
+      "after": 231196
+    },
+    {
+      "file": "images/blog/posts/3-lugares-imperdiveis-em-cusco-ausangate-sete-lagoas-e-montanha-colorida.webp",
+      "before": 238758,
+      "after": 231196
+    },
+    {
+      "file": "images/blog/posts/3-must-visit-places-in-cusco-ausangate-seven-lakes-rainbow-mountain.webp",
+      "before": 238758,
+      "after": 231196
+    },
+    {
+      "file": "images/blog/posts/653-2.webp",
+      "before": 398988,
+      "after": 389620
+    },
+    {
+      "file": "images/blog/posts/7-day-cusco-itinerary-the-best-route-to-visit-machu-picchu.webp",
+      "before": 398988,
+      "after": 389620
+    },
+    {
+      "file": "images/blog/posts/a-que-hora-debo-llegar-para-conseguir-entradas-a-machu-picchu.webp",
+      "before": 138224,
+      "after": 134734
+    },
+    {
+      "file": "images/blog/posts/a-que-horas-devo-chegar-para-conseguir-ingressos-para-machu-picchu.webp",
+      "before": 138224,
+      "after": 134734
+    },
+    {
+      "file": "images/blog/posts/adventure-tourism-in-cusco-the-complete-guide-for-travelers.webp",
+      "before": 259278,
+      "after": 247382
+    },
+    {
+      "file": "images/blog/posts/airport-experiences-what-no-one-tells-you-before-traveling.webp",
+      "before": 81024,
+      "after": 76366
+    },
+    {
+      "file": "images/blog/posts/amazonia-peruana-desde-puerto-maldonado-tudo-o-que-voce-precisa-para-planejar-sua-viagem-perfeita.webp",
+      "before": 227950,
+      "after": 217920
+    },
+    {
+      "file": "images/blog/posts/ancient-discovery-in-cusco-gold-pieces-and-an-inca-complex-linked-to-ancocagua-found.webp",
+      "before": 87314,
+      "after": 84586
+    },
+    {
+      "file": "images/blog/posts/ancocagua-inca-complex-additional-information-and-key-facts-you-should-know-before-visiting-this-archaeological-site-in-peru.webp",
+      "before": 125940,
+      "after": 122608
+    },
+    {
+      "file": "images/blog/posts/aventuras-en-el-amazonas-explorando-la-flora-y-fauna-unica-del-peru.webp",
+      "before": 80938,
+      "after": 78960
+    },
+    {
+      "file": "images/blog/posts/best-footwear-for-machu-picchu-complete-guide.webp",
+      "before": 112312,
+      "after": 108596
+    },
+    {
+      "file": "images/blog/posts/best-tours-to-see-the-spectacled-bear-in-peru-comparing-experiences-for-2026.webp",
+      "before": 155660,
+      "after": 149584
+    },
+    {
+      "file": "images/blog/posts/bosque-de-pedras-de-choqolaqa-o-destino-oculto-que-parece-de-outro-planeta.webp",
+      "before": 224592,
+      "after": 211626
+    },
+    {
+      "file": "images/blog/posts/calles-con-siete-en-su-nombre-en-cusco-y-su-significado.webp",
+      "before": 101366,
+      "after": 95432
+    },
+    {
+      "file": "images/blog/posts/caminatas-nocturnas-en-cusco-historia-y-misterio-bajo-las-estrellas.webp",
+      "before": 54896,
+      "after": 51890
+    },
+    {
+      "file": "images/blog/posts/camino-inca-vs-salkantay-cual-trek-elegir.webp",
+      "before": 170848,
+      "after": 169384
+    },
+    {
+      "file": "images/blog/posts/carnaval-de-cusco-2026-kacharpari-o-grande-encerramento-da-festa.webp",
+      "before": 455042,
+      "after": 432838
+    },
+    {
+      "file": "images/blog/posts/carnival-in-cusco-2026-kacharpari-the-grand-farewell-to-the-festival.webp",
+      "before": 455042,
+      "after": 432838
+    },
+    {
+      "file": "images/blog/posts/chiriuchu-a-historia-a-tradicao-e-o-sabor-do-prato-mais-emblematico-de-cusco.webp",
+      "before": 135474,
+      "after": 130614
+    },
+    {
+      "file": "images/blog/posts/chiriuchu-la-historia-tradicion-y-sabor-del-plato-mas-emblematico-de-cusco.webp",
+      "before": 135474,
+      "after": 130614
+    },
+    {
+      "file": "images/blog/posts/chiriuchu-the-history-tradition-and-flavor-of-cuscos-most-iconic-dish.webp",
+      "before": 135474,
+      "after": 130614
+    },
+    {
+      "file": "images/blog/posts/choqolaqa-stone-forest-the-hidden-destination-that-looks-like-another-planet.webp",
+      "before": 224592,
+      "after": 211626
+    },
+    {
+      "file": "images/blog/posts/choquequirao-a-alternativa-sustentavel-a-machu-picchu-que-poucos-conhecem.webp",
+      "before": 253370,
+      "after": 250220
+    },
+    {
+      "file": "images/blog/posts/choquequirao-la-alternativa-sostenible-a-machu-picchu-que-pocos-conocen.webp",
+      "before": 253370,
+      "after": 250220
+    },
+    {
+      "file": "images/blog/posts/choquequirao-the-sustainable-alternative-to-machu-picchu-few-travelers-know-about.webp",
+      "before": 253370,
+      "after": 250220
+    },
+    {
+      "file": "images/blog/posts/clima-em-machu-picchu-melhor-epoca-para-viajar-em-2026.webp",
+      "before": 184688,
+      "after": 175152
+    },
+    {
+      "file": "images/blog/posts/clima-en-machu-picchu-mejor-temporada-para-viajar-en-2026.webp",
+      "before": 184688,
+      "after": 175152
+    },
+    {
+      "file": "images/blog/posts/como-aclimatarse-a-la-altura-en-cusco-y-evitar-el-soroche.webp",
+      "before": 90220,
+      "after": 87756
+    },
+    {
+      "file": "images/blog/posts/como-chegar-a-machu-picchu-rotas-opcoes-e-qual-escolher-em-2026.webp",
+      "before": 450042,
+      "after": 437316
+    },
+    {
+      "file": "images/blog/posts/como-llegar-a-machu-picchu-rutas-opciones-y-cual-elegir-en-2026.webp",
+      "before": 450042,
+      "after": 437316
+    },
+    {
+      "file": "images/blog/posts/como-planejar-sua-viagem-ao-peru-saindo-dos-estados-unidos-europa-ou-america-do-sul-em-2026-2.webp",
+      "before": 65576,
+      "after": 63296
+    },
+    {
+      "file": "images/blog/posts/como-planejar-sua-viagem-ao-peru-saindo-dos-estados-unidos-europa-ou-america-do-sul-em-2026-3.webp",
+      "before": 247658,
+      "after": 231414
+    },
+    {
+      "file": "images/blog/posts/como-preparar-tu-cuerpo-para-una-caminata-a-mas-de-4000-metros-de-altura.webp",
+      "before": 71588,
+      "after": 69890
+    },
+    {
+      "file": "images/blog/posts/como-visitar-machu-picchu-em-2026-ingressos-rotas-e-melhores-datas-para-evitar-multidoes.webp",
+      "before": 123642,
+      "after": 121342
+    },
+    {
+      "file": "images/blog/posts/como-visitar-machu-picchu-en-2026-entradas-rutas-y-mejores-fechas-para-evitar-aglomeraciones.webp",
+      "before": 123642,
+      "after": 121342
+    },
+    {
+      "file": "images/blog/posts/complejo-inca-de-ancocagua-informacion-adicional-y-datos-que-debes-conocer-antes-de-visitar-este-sitio-arqueologico-en-peru.webp",
+      "before": 125940,
+      "after": 122608
+    },
+    {
+      "file": "images/blog/posts/complete-travel-guide-how-to-get-to-machu-picchu-in-2026.webp",
+      "before": 206830,
+      "after": 200812
+    },
+    {
+      "file": "images/blog/posts/complexo-inca-de-ancocagua-informacoes-adicionais-e-dados-que-voce-deve-conhecer-antes-de-visitar-este-sitio-arqueologico-no-peru.webp",
+      "before": 125940,
+      "after": 122608
+    },
+    {
+      "file": "images/blog/posts/conoce-tu-proximo-boleto-turistico-de-cusco-en-peru-guia-para-viajeros-2025.webp",
+      "before": 138700,
+      "after": 135290
+    },
+    {
+      "file": "images/blog/posts/corpus-christi-en-cusco-historia-tradicion-y-significado.webp",
+      "before": 393744,
+      "after": 378062
+    },
+    {
+      "file": "images/blog/posts/corpus-christi-en-cusco-una-fiesta-de-fe-cultura-y-tradicion-andina.webp",
+      "before": 270778,
+      "after": 258240
+    },
+    {
+      "file": "images/blog/posts/cruz-velacuy-el-encuentro-mistico-entre-lo-andino-y-lo-cristiano-en-cusco.webp",
+      "before": 77932,
+      "after": 75702
+    },
+    {
+      "file": "images/blog/posts/cuanto-cuesta-visitar-machu-picchu-en-2026.webp",
+      "before": 230010,
+      "after": 220366
+    },
+    {
+      "file": "images/blog/posts/cuantos-dias-necesito-para-conocer-machu-picchu-guia-para-planificar-tu-viaje.webp",
+      "before": 320450,
+      "after": 310804
+    },
+    {
+      "file": "images/blog/posts/cusco-2026-celebrando-el-dia-de-la-madre-en-el-corazon-del-mundo-andino.webp",
+      "before": 65576,
+      "after": 63296
+    },
+    {
+      "file": "images/blog/posts/cusco-2026-celebrating-mothers-day-in-the-heart-of-the-andes-2.webp",
+      "before": 65576,
+      "after": 63296
+    },
+    {
+      "file": "images/blog/posts/cusco-airport-transfer-why-you-should-book-transportation-in-advance.webp",
+      "before": 91550,
+      "after": 87310
+    },
+    {
+      "file": "images/blog/posts/cusco-alem-de-machu-picchu-joias-escondidas-que-voce-precisa-conhecer-2.webp",
+      "before": 292160,
+      "after": 284940
+    },
+    {
+      "file": "images/blog/posts/cusco-alem-de-machu-picchu-joias-escondidas-que-voce-precisa-conhecer.webp",
+      "before": 292160,
+      "after": 284940
+    },
+    {
+      "file": "images/blog/posts/cusco-en-temporada-de-lluvias-es-buena-idea-visitarlo.webp",
+      "before": 36804,
+      "after": 34704
+    },
+    {
+      "file": "images/blog/posts/cusco-festivities-tradition-culture-and-celebrations-in-the-capital-of-the-inca-empire.webp",
+      "before": 125696,
+      "after": 125358
+    },
+    {
+      "file": "images/blog/posts/cusco-mas-alla-de-machu-picchu-joyas-ocultas-que-debes-conocer.webp",
+      "before": 292160,
+      "after": 284940
+    },
+    {
+      "file": "images/blog/posts/cusco-subterraneo-e-misterioso-descubra-o-que-poucos-viajantes-ousam-explorar-em-2026.webp",
+      "before": 153598,
+      "after": 148566
+    },
+    {
+      "file": "images/blog/posts/cusco-subterraneo-y-misterioso-descubre-lo-que-pocos-viajeros-se-atreven-a-explorar-en-2026.webp",
+      "before": 153598,
+      "after": 148566
+    },
+    {
+      "file": "images/blog/posts/cusco-underground-mysterious-discover-what-few-travelers-dare-to-explore-in-2026.webp",
+      "before": 153598,
+      "after": 148566
+    },
+    {
+      "file": "images/blog/posts/de-arequipa-a-puno-un-viaje-inolvidable-por-el-sur-del-peru.webp",
+      "before": 78660,
+      "after": 75108
+    },
+    {
+      "file": "images/blog/posts/del-vaticano-a-los-andes-el-mensaje-del-papa-que-conecta-con-cusco.webp",
+      "before": 59340,
+      "after": 57344
+    },
+    {
+      "file": "images/blog/posts/descoberta-milenar-em-cusco-encontram-pecas-de-ouro-e-um-complexo-inca-ligado-a-ancocagua.webp",
+      "before": 87314,
+      "after": 84586
+    },
+    {
+      "file": "images/blog/posts/descubre-el-inti-raymi-la-gran-fiesta-inca-del-sol-en-el-corazon-del-peru.webp",
+      "before": 181496,
+      "after": 167204
+    },
+    {
+      "file": "images/blog/posts/disfruta-la-gastronomia-en-peru-y-cusco-con-amigos-el-viaje-que-nunca-olvidaras.webp",
+      "before": 184490,
+      "after": 175674
+    },
+    {
+      "file": "images/blog/posts/does-the-pre-ticket-guarantee-entry-to-machu-picchu.webp",
+      "before": 138224,
+      "after": 134734
+    },
+    {
+      "file": "images/blog/posts/donde-cambiar-dinero-en-peru-lo-que-nadie-te-cuenta-antes-de-viajar.webp",
+      "before": 80040,
+      "after": 75016
+    },
+    {
+      "file": "images/blog/posts/e29ca8e29c88efb88f-como-planificar-tu-viaje-a-peru-desde-estados-unidos-europa-o-sudamerica-en-2026.webp",
+      "before": 247658,
+      "after": 231414
+    },
+    {
+      "file": "images/blog/posts/e29ca8f09f8c99-2026-night-tourism-guide-in-peru-unique-experiences-after-sunset.webp",
+      "before": 59548,
+      "after": 57986
+    },
+    {
+      "file": "images/blog/posts/e29ca8f09f8c99-guia-2026-de-turismo-nocturno-en-peru-experiencias-unicas-despues-del-atardecer.webp",
+      "before": 59548,
+      "after": 57986
+    },
+    {
+      "file": "images/blog/posts/e29ca8f09f8c99-guia-2026-de-turismo-noturno-no-peru-experiencias-unicas-depois-do-por-do-sol.webp",
+      "before": 59548,
+      "after": 57986
+    },
+    {
+      "file": "images/blog/posts/el-autentico-lomo-saltado-en-cusco-peru-un-sabor-peruano-que-debes-probar.webp",
+      "before": 115544,
+      "after": 102384
+    },
+    {
+      "file": "images/blog/posts/el-mejor-itinerario-para-conocer-cusco-en-5-dias.webp",
+      "before": 134302,
+      "after": 128242
+    },
+    {
+      "file": "images/blog/posts/el-pre-ticket-garantiza-el-ingreso-a-machu-picchu.webp",
+      "before": 138224,
+      "after": 134734
+    },
+    {
+      "file": "images/blog/posts/exchange-rate-in-peru-how-it-affects-your-trip-and-how-to-make-the-most-of-your-money.webp",
+      "before": 89634,
+      "after": 85462
+    },
+    {
+      "file": "images/blog/posts/experiencias-en-el-aeropuerto-lo-que-nadie-te-cuenta-antes-de-viajar.webp",
+      "before": 81024,
+      "after": 76366
+    },
+    {
+      "file": "images/blog/posts/experiencias-no-aeroporto-o-que-ninguem-te-conta-antes-de-viajar.webp",
+      "before": 81024,
+      "after": 76366
+    },
+    {
+      "file": "images/blog/posts/experiencias-unicas-que-solo-puedes-vivir-en-peru.webp",
+      "before": 456592,
+      "after": 429268
+    },
+    {
+      "file": "images/blog/posts/experiencias-unicas-que-voce-so-pode-viver-no-peru.webp",
+      "before": 456592,
+      "after": 429268
+    },
+    {
+      "file": "images/blog/posts/f09f8c84-los-mejores-tours-desde-cusco-para-2026-guia-completa-de-experiencias-unicas.webp",
+      "before": 222496,
+      "after": 211124
+    },
+    {
+      "file": "images/blog/posts/f09f8c84-vale-sagrado-dos-incas-lugares-imperdiveis-precos-e-como-organizar-seu-dia-saindo-de-cusco.webp",
+      "before": 262270,
+      "after": 254242
+    },
+    {
+      "file": "images/blog/posts/f09f8c84sacred-valley-of-the-incas-must-see-places-prices-and-how-to-plan-your-day-from-cusco.webp",
+      "before": 261174,
+      "after": 253710
+    },
+    {
+      "file": "images/blog/posts/f09f8c88-montanas-de-colores-en-peru-guia-completa-de-los-paisajes-mas-sorprendentes.webp",
+      "before": 411808,
+      "after": 401592
+    },
+    {
+      "file": "images/blog/posts/f09f8c88-montanhas-arco-iris-no-peru-guia-completo-das-paisagens-mais-impressionantes.webp",
+      "before": 411808,
+      "after": 401592
+    },
+    {
+      "file": "images/blog/posts/f09f8c88-rainbow-mountains-in-peru-complete-guide-to-the-most-stunning-landscapes.webp",
+      "before": 411808,
+      "after": 401592
+    },
+    {
+      "file": "images/blog/posts/f09f8c8e-rutas-top-2026-para-viajar-a-peru.webp",
+      "before": 398988,
+      "after": 389620
+    },
+    {
+      "file": "images/blog/posts/f09f8cbf-peruvian-amazon-from-puerto-maldonado-everything-you-need-to-plan-your-perfect-trip.webp",
+      "before": 227950,
+      "after": 217920
+    },
+    {
+      "file": "images/blog/posts/f09f8e89-huaypo-the-hidden-lake-near-cusco-you-need-to-discover.webp",
+      "before": 245994,
+      "after": 240262
+    },
+    {
+      "file": "images/blog/posts/f09f8e89carnaval-cusqueno-2026-kacharpari-el-gran-cierre-que-despide-la-fiesta-con-tradicion-viva.webp",
+      "before": 456970,
+      "after": 433568
+    },
+    {
+      "file": "images/blog/posts/f09f8e9fefb88f-cusco-tourist-tickets-the-ultimate-guide-to-travel-smart-and-save-money.webp",
+      "before": 240624,
+      "after": 233500
+    },
+    {
+      "file": "images/blog/posts/f09f8eab-tipos-de-bilhetes-turisticos-de-cusco-escolha-bem-e-poupe.webp",
+      "before": 240624,
+      "after": 233500
+    },
+    {
+      "file": "images/blog/posts/f09f8eab-tipos-de-boletos-turisticos-del-cusco-elige-bien-y-ahorra.webp",
+      "before": 240624,
+      "after": 233500
+    },
+    {
+      "file": "images/blog/posts/f09f8f94efb88f-como-se-adaptar-a-altitude-de-cusco-rapido-e-sem-complicacoes.webp",
+      "before": 248988,
+      "after": 238638
+    },
+    {
+      "file": "images/blog/posts/f09f8f94efb88f-how-to-adapt-to-cuscos-altitude-quickly-and-without-complications.webp",
+      "before": 248988,
+      "after": 238638
+    },
+    {
+      "file": "images/blog/posts/f09f8f94efb88f-o-que-torna-o-caminho-inca-tao-especial.webp",
+      "before": 417868,
+      "after": 402590
+    },
+    {
+      "file": "images/blog/posts/f09f938cdocumentos-obrigatorios-para-entrar-no-peru.webp",
+      "before": 274730,
+      "after": 261730
+    },
+    {
+      "file": "images/blog/posts/f09f97baefb88f-mapas-turisticos-em-cusco-a-ferramenta-secreta-para-explorar-como-um-especialista.webp",
+      "before": 581036,
+      "after": 573122
+    },
+    {
+      "file": "images/blog/posts/f09f97baefb88f-mapas-turisticos-en-cusco-la-herramienta-secreta-para-explorar-como-un-experto.webp",
+      "before": 581036,
+      "after": 573122
+    },
+    {
+      "file": "images/blog/posts/f09f97baefb88f-tourist-maps-in-cusco-the-secret-tool-to-explore-like-an-expert.webp",
+      "before": 581036,
+      "after": 573122
+    },
+    {
+      "file": "images/blog/posts/f09f9a86-dois-trens-um-destino-como-chegar-a-machu-picchu.webp",
+      "before": 229212,
+      "after": 216152
+    },
+    {
+      "file": "images/blog/posts/f09f9a86-dos-trenes-un-destino-como-llegar-a-machu-picchu.webp",
+      "before": 229212,
+      "after": 216152
+    },
+    {
+      "file": "images/blog/posts/f09f9a86-estas-sao-as-opcoes-para-viajar-a-machu-picchu-de-trem.webp",
+      "before": 202878,
+      "after": 193238
+    },
+    {
+      "file": "images/blog/posts/f09f9a86-que-tren-tomar-a-machu-picchu-guia-completa-de-empresas-y-servicios-disponibles.webp",
+      "before": 218598,
+      "after": 207630
+    },
+    {
+      "file": "images/blog/posts/f09f9a86-these-are-your-options-to-travel-to-machu-picchu-by-train.webp",
+      "before": 202878,
+      "after": 193238
+    },
+    {
+      "file": "images/blog/posts/f09f9a86-tienes-estas-opciones-para-ir-a-machu-picchu-en-tren.webp",
+      "before": 202878,
+      "after": 193238
+    },
+    {
+      "file": "images/blog/posts/f09f9a86-trenes-a-machu-picchu-empresas-horarios-y-como-elegir-la-mejor-opcionf09f8f94efb88f-guia-completa-para-viajar-en-tren-a-machu-picchu.webp",
+      "before": 229576,
+      "after": 223258
+    },
+    {
+      "file": "images/blog/posts/f09f9a86-trens-para-machu-picchu-empresas-horarios-e-como-escolher-a-melhor-opcaof09f8f94efb88f-guia-completo-para-viajar-de-trem-ate-machu-picchu.webp",
+      "before": 229576,
+      "after": 223258
+    },
+    {
+      "file": "images/blog/posts/f09fa5be-camino-inca-2026-permisos-disponibilidad-y-como-asegurar-tu-lugar-antes-de-que-se-agote.webp",
+      "before": 417868,
+      "after": 402590
+    },
+    {
+      "file": "images/blog/posts/f09fa5be-inca-trail-2026-permits-availability-how-to-secure-your-spot-before-it-sells-out.webp",
+      "before": 417868,
+      "after": 402590
+    },
+    {
+      "file": "images/blog/posts/f09fa78a-glaciar-de-quelccaya-como-visitar-el-glaciar-tropical-mas-grande-del-mundo-desde-cusco.webp",
+      "before": 119546,
+      "after": 112892
+    },
+    {
+      "file": "images/blog/posts/f09fa78a-glaciar-de-quelccaya-como-visitar-o-maior-glaciar-tropical-do-mundo-a-partir-de-cusco.webp",
+      "before": 119546,
+      "after": 112892
+    },
+    {
+      "file": "images/blog/posts/f09fa78a-quelccaya-glacier-how-to-visit-the-largest-tropical-glacier-in-the-world-from-cusco.webp",
+      "before": 119546,
+      "after": 112892
+    },
+    {
+      "file": "images/blog/posts/fauna-de-los-andes-peruanos-animales-que-puedes-observar-durante-un-viaje-por-cusco.webp",
+      "before": 92088,
+      "after": 91110
+    },
+    {
+      "file": "images/blog/posts/festas-de-cusco-tradicao-cultura-e-celebracoes-na-capital-do-imperio-inca.webp",
+      "before": 125696,
+      "after": 125358
+    },
+    {
+      "file": "images/blog/posts/fiestas-del-cusco-en-peru-tradicion-color-y-cultura-viva.webp",
+      "before": 210404,
+      "after": 198782
+    },
+    {
+      "file": "images/blog/posts/fiestas-del-cusco-tradicion-cultura-y-celebraciones-en-la-capital-del-imperio-inca-2.webp",
+      "before": 125696,
+      "after": 125358
+    },
+    {
+      "file": "images/blog/posts/fiestas-patrias-del-peru-cultura-tradicion-y-un-viaje-inolvidable.webp",
+      "before": 143412,
+      "after": 133642
+    },
+    {
+      "file": "images/blog/posts/fiestas-y-festivales-peruanos-que-no-te-puedes-perder-en-2025.webp",
+      "before": 91760,
+      "after": 89314
+    },
+    {
+      "file": "images/blog/posts/gastronomia-cultura-y-tecnologia-bienvenidos-al-nuevo-aeropuerto-jorge-chavez-en-peru.webp",
+      "before": 238762,
+      "after": 222602
+    },
+    {
+      "file": "images/blog/posts/guia-completa-para-viajar-a-peru-en-2025.webp",
+      "before": 109090,
+      "after": 105542
+    },
+    {
+      "file": "images/blog/posts/guia-completa-para-viajeros-como-llegar-a-machu-picchu-en-2026.webp",
+      "before": 206830,
+      "after": 200812
+    },
+    {
+      "file": "images/blog/posts/guia-completa-para-visitar-machu-picchu-en-2025.webp",
+      "before": 109352,
+      "after": 107004
+    },
+    {
+      "file": "images/blog/posts/guia-completo-para-viajantes-como-chegar-a-machu-picchu-em-2026.webp",
+      "before": 206830,
+      "after": 200812
+    },
+    {
+      "file": "images/blog/posts/hallazgo-milenario-en-cusco-descubren-piezas-de-oro-y-un-complejo-inca-vinculado-a-ancocagua.webp",
+      "before": 87314,
+      "after": 84586
+    },
+    {
+      "file": "images/blog/posts/hay-tren-a-machu-picchu-estado-actual-del-servicio-actualizado-abril-2026.webp",
+      "before": 202878,
+      "after": 193238
+    },
+    {
+      "file": "images/blog/posts/how-many-days-do-i-need-to-visit-cusco-and-machu-picchu.webp",
+      "before": 129404,
+      "after": 124532
+    },
+    {
+      "file": "images/blog/posts/how-to-get-to-machu-picchu-routes-options-and-which-one-to-choose-in-2026.webp",
+      "before": 450042,
+      "after": 437316
+    },
+    {
+      "file": "images/blog/posts/how-to-visit-machu-picchu-in-2026-tickets-routes-and-best-dates-to-avoid-crowds.webp",
+      "before": 123642,
+      "after": 121342
+    },
+    {
+      "file": "images/blog/posts/huaraz-trekking-and-lakes-of-the-cordillera-blanca.webp",
+      "before": 437216,
+      "after": 426444
+    },
+    {
+      "file": "images/blog/posts/huaraz-trekking-e-lagoas-da-cordilheira-branca.webp",
+      "before": 437216,
+      "after": 426444
+    },
+    {
+      "file": "images/blog/posts/huatia-en-cusco-historia-preparacion-y-significado-de-una-tradicion-ancestral-andina.webp",
+      "before": 172352,
+      "after": 171112
+    },
+    {
+      "file": "images/blog/posts/huaypo-a-lagoa-escondida-perto-de-cusco-que-voce-precisa-conhecer.webp",
+      "before": 245994,
+      "after": 240262
+    },
+    {
+      "file": "images/blog/posts/internet-and-sim-cards-in-peru-options-for-tourists.webp",
+      "before": 241940,
+      "after": 223872
+    },
+    {
+      "file": "images/blog/posts/internet-y-sim-en-peru-opciones-para-turistas.webp",
+      "before": 241940,
+      "after": 223872
+    },
+    {
+      "file": "images/blog/posts/is-it-worth-hiring-a-travel-agency-for-machu-picchu-in-2026.webp",
+      "before": 39300,
+      "after": 37482
+    },
+    {
+      "file": "images/blog/posts/itinerario-de-7-dias-en-cusco-la-mejor-ruta-para-conocer-machu-picchu.webp",
+      "before": 427564,
+      "after": 413314
+    },
+    {
+      "file": "images/blog/posts/junio-en-cusco-el-mes-mas-festivo-del-ano-y-una-experiencia-inolvidable.webp",
+      "before": 151130,
+      "after": 143960
+    },
+    {
+      "file": "images/blog/posts/las-10-mejores-experiencias-de-aventura-en-cusco.webp",
+      "before": 93048,
+      "after": 90396
+    },
+    {
+      "file": "images/blog/posts/las-montanas-de-colores-en-cusco-vinicunca-vs-palccoyo.webp",
+      "before": 132812,
+      "after": 129440
+    },
+    {
+      "file": "images/blog/posts/last-day-in-cusco-activities-places-useful-tips.webp",
+      "before": 458460,
+      "after": 443196
+    },
+    {
+      "file": "images/blog/posts/lord-of-qoyllur-riti-how-to-plan-your-trip-and-understand-this-andean-tradition-in-2026.webp",
+      "before": 138080,
+      "after": 134854
+    },
+    {
+      "file": "images/blog/posts/los-balnearios-mas-hermosos-del-peru-para-una-escapada-perfecta.webp",
+      "before": 83296,
+      "after": 81774
+    },
+    {
+      "file": "images/blog/posts/los-mejores-tours-no-tan-conocidos-en-cusco.webp",
+      "before": 98316,
+      "after": 96200
+    },
+    {
+      "file": "images/blog/posts/machu-picchu-nunca-esteve-perdida-manuscritos-coloniais-poderiam-mudar-a-historia.webp",
+      "before": 594336,
+      "after": 565386
+    },
+    {
+      "file": "images/blog/posts/machu-picchu-nunca-estuvo-perdida-manuscritos-coloniales-podrian-cambiar-la-historia-2.webp",
+      "before": 594336,
+      "after": 565386
+    },
+    {
+      "file": "images/blog/posts/machu-picchu-prices-and-how-to-save-by-booking-in-advance-in-2026.webp",
+      "before": 102578,
+      "after": 99766
+    },
+    {
+      "file": "images/blog/posts/machu-picchu-ticket-types-and-circuits-how-to-choose-the-right-one-in-2026.webp",
+      "before": 367510,
+      "after": 356574
+    },
+    {
+      "file": "images/blog/posts/mejores-tours-para-ver-el-oso-de-anteojos-en-peru-comparativa-de-experiencias-2026.webp",
+      "before": 155660,
+      "after": 149584
+    },
+    {
+      "file": "images/blog/posts/melhor-calcado-para-machu-picchu-guia-completo.webp",
+      "before": 112312,
+      "after": 108596
+    },
+    {
+      "file": "images/blog/posts/melhores-tours-para-ver-o-urso-de-oculos-no-peru-comparacao-de-experiencias-2026.webp",
+      "before": 155660,
+      "after": 149584
+    },
+    {
+      "file": "images/blog/posts/mercados-de-cusco-que-ver-que-comer-y-que-comprar-durante-tu-viaje.webp",
+      "before": 170140,
+      "after": 168694
+    },
+    {
+      "file": "images/blog/posts/mes-jubilar-del-cusco-historia-tradiciones-y-celebraciones-que-hacen-unica-a-la-capital-historica-del-peru.webp",
+      "before": 231446,
+      "after": 224512
+    },
+    {
+      "file": "images/blog/posts/migration-requirements-and-documentation-to-travel-to-machu-picchu-2026.webp",
+      "before": 110222,
+      "after": 102704
+    },
+    {
+      "file": "images/blog/posts/mitos-y-leyendas-de-los-andes-peruanos-historias-que-debes-conocer.webp",
+      "before": 74520,
+      "after": 71410
+    },
+    {
+      "file": "images/blog/posts/nazca-lines-flyover-what-you-should-know-before-experiencing-this-adventure-in-peru.webp",
+      "before": 126824,
+      "after": 118372
+    },
+    {
+      "file": "images/blog/posts/nuevo-terminal-aereo-en-lima-peru-lo-que-debes-saber-para-tu-viaje-a-cusco-en-2025.webp",
+      "before": 183404,
+      "after": 174472
+    },
+    {
+      "file": "images/blog/posts/o-pre-ticket-garante-a-entrada-em-machu-picchu.webp",
+      "before": 138224,
+      "after": 134734
+    },
+    {
+      "file": "images/blog/posts/o-que-e-um-pre-ticket-para-machu-picchu.webp",
+      "before": 138224,
+      "after": 134734
+    },
+    {
+      "file": "images/blog/posts/o-que-levar-na-sua-mochila-para-machu-picchu-checklist-completo.webp",
+      "before": 78764,
+      "after": 74930
+    },
+    {
+      "file": "images/blog/posts/o-que-usar-em-machu-picchu-guia-completo-para-viajar-com-conforto-e-preparado.webp",
+      "before": 233528,
+      "after": 222566
+    },
+    {
+      "file": "images/blog/posts/o-que-vestir-em-machu-picchu-de-acordo-com-a-temporada.webp",
+      "before": 148840,
+      "after": 144366
+    },
+    {
+      "file": "images/blog/posts/o-que-visitar-no-peru-se-voce-ja-conhece-machu-picchu.webp",
+      "before": 119952,
+      "after": 115034
+    },
+    {
+      "file": "images/blog/posts/onde-trocar-dinheiro-no-peru-o-que-ninguem-te-conta-antes-de-viajar.webp",
+      "before": 80040,
+      "after": 75016
+    },
+    {
+      "file": "images/blog/posts/opciones-para-llegar-a-machu-picchu-cual-elegir-segun-tu-tipo-de-viaje-en-2026.webp",
+      "before": 386394,
+      "after": 376066
+    },
+    {
+      "file": "images/blog/posts/opcoes-para-chegar-a-machu-picchu-qual-escolher-de-acordo-com-seu-estilo-de-viagem-em-2026.webp",
+      "before": 386394,
+      "after": 376066
+    },
+    {
+      "file": "images/blog/posts/opcoes-que-exigem-reserva-antecipada.webp",
+      "before": 178856,
+      "after": 175284
+    },
+    {
+      "file": "images/blog/posts/options-that-require-advance-booking.webp",
+      "before": 178856,
+      "after": 175284
+    },
+    {
+      "file": "images/blog/posts/oso-de-anteojos-el-tesoro-oculto-de-los-andes-que-pocos-viajeros-conocen.webp",
+      "before": 148568,
+      "after": 134954
+    },
+    {
+      "file": "images/blog/posts/oso-de-anteojos-en-peru-como-planificar-tu-experiencia-y-vivir-este-encuentro-unico-en-2026.webp",
+      "before": 135284,
+      "after": 131042
+    },
+    {
+      "file": "images/blog/posts/pachamama-significado-historia-e-importancia-en-la-cosmovision-andina.webp",
+      "before": 99568,
+      "after": 95236
+    },
+    {
+      "file": "images/blog/posts/peru-2026-one-of-the-best-destinations-in-south-america.webp",
+      "before": 187272,
+      "after": 177336
+    },
+    {
+      "file": "images/blog/posts/peru-2026-um-dos-melhores-destinos-da-america-do-sul.webp",
+      "before": 187272,
+      "after": 177336
+    },
+    {
+      "file": "images/blog/posts/peru-2026-uno-de-los-mejores-destinos-de-sudamerica.webp",
+      "before": 187272,
+      "after": 177336
+    },
+    {
+      "file": "images/blog/posts/peru-alem-de-machu-picchu-ideias-para-sua-segunda-viagem-em-2026.webp",
+      "before": 162876,
+      "after": 157510
+    },
+    {
+      "file": "images/blog/posts/peru-beyond-machu-picchu-ideas-for-your-second-trip-in-2026.webp",
+      "before": 162876,
+      "after": 157510
+    },
+    {
+      "file": "images/blog/posts/peru-donde-cada-rincon-guarda-historia-hallan-momia-de-1-000-anos-por-accidente.webp",
+      "before": 172994,
+      "after": 168828
+    },
+    {
+      "file": "images/blog/posts/peru-mas-alla-de-machu-picchu-ideas-para-tu-segundo-viaje-en-2026.webp",
+      "before": 162876,
+      "after": 157510
+    },
+    {
+      "file": "images/blog/posts/plan-your-machu-picchu-trip-in-the-best-season.webp",
+      "before": 83860,
+      "after": 78448
+    },
+    {
+      "file": "images/blog/posts/planeje-sua-viagem-para-machu-picchu-na-melhor-epoca.webp",
+      "before": 83860,
+      "after": 78448
+    },
+    {
+      "file": "images/blog/posts/planifica-tu-viaje-a-machu-picchu-en-la-mejor-temporada.webp",
+      "before": 83860,
+      "after": 78448
+    },
+    {
+      "file": "images/blog/posts/por-que-o-glaciar-quelccaya-esta-derretendo-o-que-voce-precisa-saber-antes-de-visitar-esse-gigante-de-gelo.webp",
+      "before": 486000,
+      "after": 469210
+    },
+    {
+      "file": "images/blog/posts/por-que-se-esta-derritiendo-el-glaciar-quelccaya-lo-que-debes-saber-antes-de-visitar-este-gigante-de-hielo.webp",
+      "before": 486000,
+      "after": 469210
+    },
+    {
+      "file": "images/blog/posts/precios-de-machu-picchu-y-como-ahorrar-reservando-con-anticipacion-en-2026.webp",
+      "before": 102578,
+      "after": 99766
+    },
+    {
+      "file": "images/blog/posts/precos-de-machu-picchu-e-como-economizar-reservando-com-antecedencia-em-2026.webp",
+      "before": 102578,
+      "after": 99766
+    },
+    {
+      "file": "images/blog/posts/pueblos-fantasmas-en-peru-historia-misterio-y-paisajes-unicos.webp",
+      "before": 99292,
+      "after": 96784
+    },
+    {
+      "file": "images/blog/posts/qual-e-a-melhor-epoca-para-viajar-a-cusco.webp",
+      "before": 82794,
+      "after": 77952
+    },
+    {
+      "file": "images/blog/posts/qual-trem-pegar-para-machu-picchu-guia-completo-das-empresas-e-servicos-disponiveis.webp",
+      "before": 218598,
+      "after": 207630
+    },
+    {
+      "file": "images/blog/posts/quantos-dias-preciso-para-visitar-cusco-e-machu-picchu.webp",
+      "before": 129404,
+      "after": 124532
+    },
+    {
+      "file": "images/blog/posts/que-documentos-necesito-para-viajar-a-cusco-y-machu-picchu-guia-actualizada-2026.webp",
+      "before": 274730,
+      "after": 261730
+    },
+    {
+      "file": "images/blog/posts/que-hacer-en-cusco-de-noche-guia-completa-de-actividades-gastronomia-y-cultura.webp",
+      "before": 408994,
+      "after": 392188
+    },
+    {
+      "file": "images/blog/posts/que-hacer-en-cusco-en-3-5-y-7-dias-itinerarios-recomendados.webp",
+      "before": 180292,
+      "after": 179540
+    },
+    {
+      "file": "images/blog/posts/que-llevar-en-tu-mochila-para-machu-picchu-checklist-completo.webp",
+      "before": 130196,
+      "after": 125218
+    },
+    {
+      "file": "images/blog/posts/que-ropa-llevar-a-machu-picchu-segun-la-temporada.webp",
+      "before": 148840,
+      "after": 144366
+    },
+    {
+      "file": "images/blog/posts/que-ropa-usar-en-machu-picchu-guia-completa-para-viajar-comodo-y-preparado.webp",
+      "before": 233528,
+      "after": 222566
+    },
+    {
+      "file": "images/blog/posts/que-visitar-en-peru-si-ya-conoces-machu-picchu.webp",
+      "before": 119952,
+      "after": 115034
+    },
+    {
+      "file": "images/blog/posts/rahuanqui-cusco-el-mejor-amanecer-en-los-andes-peruanos.webp",
+      "before": 504940,
+      "after": 498546
+    },
+    {
+      "file": "images/blog/posts/requisitos-migratorios-e-documentacao-para-viajar-a-machu-picchu-2026.webp",
+      "before": 110222,
+      "after": 102704
+    },
+    {
+      "file": "images/blog/posts/reservas-anticipadas-para-machu-picchu-evita-quedarte-sin-entrada-en-2026.webp",
+      "before": 178856,
+      "after": 175284
+    },
+    {
+      "file": "images/blog/posts/roteiro-de-7-dias-em-cusco-a-melhor-rota-para-conhecer-machu-picchu.webp",
+      "before": 398988,
+      "after": 389620
+    },
+    {
+      "file": "images/blog/posts/sabores-del-peru-la-increible-variedad-de-comidas-en-cusco-que-no-puedes-dejar-de-probar.webp",
+      "before": 276382,
+      "after": 261872
+    },
+    {
+      "file": "images/blog/posts/sacred-valley-of-the-incas-must-see-places-prices-and-how-to-organize-your-day-from-cusco.webp",
+      "before": 261174,
+      "after": 253710
+    },
+    {
+      "file": "images/blog/posts/sacred-valley-of-the-incas-must-see-places-prices-and-how-to-plan-your-day-from-cusco.webp",
+      "before": 261174,
+      "after": 253710
+    },
+    {
+      "file": "images/blog/posts/sacred-valley-of-the-incas-must-visit-villages-and-recommended-tours.webp",
+      "before": 427564,
+      "after": 413314
+    },
+    {
+      "file": "images/blog/posts/sacsayhuaman-la-fortaleza-sagrada-de-cusco-peru.webp",
+      "before": 148842,
+      "after": 145546
+    },
+    {
+      "file": "images/blog/posts/salkantay-o-choquequirao-cual-trekking-elegir-en-2026.webp",
+      "before": 369052,
+      "after": 362938
+    },
+    {
+      "file": "images/blog/posts/salkantay-ou-choquequirao-qual-trekking-escolher-em-2026.webp",
+      "before": 369052,
+      "after": 362938
+    },
+    {
+      "file": "images/blog/posts/se-voce-esta-planejando-viajar-para-o-peru-ha-algo-importante-que-voce-precisa-saber.webp",
+      "before": 341434,
+      "after": 327780
+    },
+    {
+      "file": "images/blog/posts/seguro-de-viagem-para-o-peru-e-obrigatorio-guia-completo-2026.webp",
+      "before": 138986,
+      "after": 127408
+    },
+    {
+      "file": "images/blog/posts/seguro-de-viaje-para-peru-es-obligatorio-guia-completa-2026.webp",
+      "before": 138986,
+      "after": 127408
+    },
+    {
+      "file": "images/blog/posts/semana-santa-en-cusco-el-mejor-destino-espiritual-y-cultural-del-peru-2025.webp",
+      "before": 211838,
+      "after": 209182
+    },
+    {
+      "file": "images/blog/posts/semana-santa-en-cusco-tradicion-cultura-y-fe-en-los-andes.webp",
+      "before": 181382,
+      "after": 174052
+    },
+    {
+      "file": "images/blog/posts/senhor-de-qoyllur-riti-como-planejar-sua-viagem-e-entender-esta-tradicao-andina-em-2026.webp",
+      "before": 138080,
+      "after": 134854
+    },
+    {
+      "file": "images/blog/posts/senor-de-qoylloriti-como-planificar-tu-viaje-y-entender-esta-tradicion-andina-en-2026.webp",
+      "before": 138080,
+      "after": 134854
+    },
+    {
+      "file": "images/blog/posts/si-estas-planeando-viajar-a-peru-hay-algo-importante-que-debes-saber.webp",
+      "before": 341434,
+      "after": 327780
+    },
+    {
+      "file": "images/blog/posts/size-and-population-differences-between-cusco-and-lima-you-should-know-before-traveling-to-peru.webp",
+      "before": 204326,
+      "after": 201232
+    },
+    {
+      "file": "images/blog/posts/sobrevoo-nas-linhas-de-nazca-o-que-voce-precisa-saber-antes-de-viver-essa-experiencia-no-peru.webp",
+      "before": 126824,
+      "after": 118372
+    },
+    {
+      "file": "images/blog/posts/sobrevuelo-en-las-lineas-de-nazca-lo-que-debes-saber-antes-de-vivir-esta-experiencia-en-peru.webp",
+      "before": 126824,
+      "after": 118372
+    },
+    {
+      "file": "images/blog/posts/spectacled-bear-in-peru-how-to-plan-your-experience-and-enjoy-this-unique-encounter-in-2026.webp",
+      "before": 135284,
+      "after": 131042
+    },
+    {
+      "file": "images/blog/posts/spectacled-bear-the-hidden-treasure-of-the-andes-few-travelers-know-about.webp",
+      "before": 148568,
+      "after": 134954
+    },
+    {
+      "file": "images/blog/posts/sua-viagem-dos-sonhos-ao-peru-guia-para-montar-o-pacote-perfeito.webp",
+      "before": 446812,
+      "after": 431564
+    },
+    {
+      "file": "images/blog/posts/surf-en-peru-mejores-playas-y-temporadas.webp",
+      "before": 250198,
+      "after": 239262
+    },
+    {
+      "file": "images/blog/posts/surf-in-peru-best-beaches-and-seasons.webp",
+      "before": 250198,
+      "after": 239262
+    },
+    {
+      "file": "images/blog/posts/surf-no-peru-melhores-praias-e-temporadas.webp",
+      "before": 250198,
+      "after": 239262
+    },
+    {
+      "file": "images/blog/posts/tamanho-e-populacao-diferencas-entre-cusco-e-lima-que-voce-deve-conhecer-antes-de-viajar-ao-peru.webp",
+      "before": 204326,
+      "after": 201232
+    },
+    {
+      "file": "images/blog/posts/tamano-y-poblacion-diferencias-entre-cusco-y-lima-que-debes-conocer-antes-de-viajar-a-peru.webp",
+      "before": 204326,
+      "after": 201232
+    },
+    {
+      "file": "images/blog/posts/taxa-de-cambio-no-peru-como-ela-afeta-sua-viagem-e-como-aproveitar-melhor-o-seu-dinheiro.webp",
+      "before": 89634,
+      "after": 85462
+    },
+    {
+      "file": "images/blog/posts/templos-de-cusco-historia-viva-y-espiritu-andino.webp",
+      "before": 112986,
+      "after": 111034
+    },
+    {
+      "file": "images/blog/posts/the-best-tours-from-cusco-for-2026-completeguide-to-unique-experiences.webp",
+      "before": 222496,
+      "after": 211124
+    },
+    {
+      "file": "images/blog/posts/tipo-de-cambio-en-peru-como-afecta-tu-viaje-y-como-aprovechar-mejor-tu-dinero.webp",
+      "before": 89634,
+      "after": 85462
+    },
+    {
+      "file": "images/blog/posts/tipos-de-entradas-a-machu-picchu-y-circuitos-como-elegir-correctamente-en-2026.webp",
+      "before": 367510,
+      "after": 356574
+    },
+    {
+      "file": "images/blog/posts/tipos-de-ingressos-para-machu-picchu-e-circuitos-como-escolher-corretamente-em-2026.webp",
+      "before": 367510,
+      "after": 356574
+    },
+    {
+      "file": "images/blog/posts/tipos-de-moeda-no-peru.webp",
+      "before": 47360,
+      "after": 44982
+    },
+    {
+      "file": "images/blog/posts/tipos-de-moneda-en-peru.webp",
+      "before": 47360,
+      "after": 44982
+    },
+    {
+      "file": "images/blog/posts/tiwanaku-la-civilizacion-ancestral-que-desafia-el-tiempo-en-los-andes.webp",
+      "before": 216150,
+      "after": 206156
+    },
+    {
+      "file": "images/blog/posts/trains-to-machu-picchu-companies-schedules-and-how-to-choose-the-best-option-complete-guide-to-traveling-by-train-to-machu-picchu.webp",
+      "before": 229576,
+      "after": 223258
+    },
+    {
+      "file": "images/blog/posts/transportation-at-cusco-airport-how-to-choose-the-best-option-for-your-trip.webp",
+      "before": 81720,
+      "after": 77182
+    },
+    {
+      "file": "images/blog/posts/transporte-en-el-aeropuerto-de-cusco-como-elegir-la-mejor-opcion-para-tu-viaje.webp",
+      "before": 81720,
+      "after": 77182
+    },
+    {
+      "file": "images/blog/posts/transporte-no-aeroporto-de-cusco-como-escolher-a-melhor-opcao-para-sua-viagem.webp",
+      "before": 81720,
+      "after": 77182
+    },
+    {
+      "file": "images/blog/posts/traslado-aeropuerto-cusco-por-que-reservar-transporte-con-anticipacion.webp",
+      "before": 91550,
+      "after": 87310
+    },
+    {
+      "file": "images/blog/posts/traslado-do-aeroporto-de-cusco-por-que-reservar-transporte-com-antecedencia.webp",
+      "before": 91550,
+      "after": 87310
+    },
+    {
+      "file": "images/blog/posts/travel-to-cusco-and-take-home-more-than-memories-discover-its-ancestral-jewelry.webp",
+      "before": 160360,
+      "after": 153910
+    },
+    {
+      "file": "images/blog/posts/tu-viaje-sonado-a-peru-guia-para-armar-el-paquete-perfecto.webp",
+      "before": 446812,
+      "after": 431564
+    },
+    {
+      "file": "images/blog/posts/turismo-de-aventura-em-cusco-o-guia-completo-para-viajantes.webp",
+      "before": 259278,
+      "after": 247382
+    },
+    {
+      "file": "images/blog/posts/turismo-de-aventura-en-cusco-guia-completa-para-viajeros.webp",
+      "before": 259278,
+      "after": 247382
+    },
+    {
+      "file": "images/blog/posts/turismo-de-misterio-en-cusco-leyendas-y-lugares-sobrenaturales.webp",
+      "before": 62752,
+      "after": 58846
+    },
+    {
+      "file": "images/blog/posts/turismo-gastronomico-en-cusco-10-platos-que-debes-probar.webp",
+      "before": 79214,
+      "after": 77436
+    },
+    {
+      "file": "images/blog/posts/two-trains-one-destination-how-to-get-to-machu-picchu.webp",
+      "before": 229212,
+      "after": 216152
+    },
+    {
+      "file": "images/blog/posts/types-of-currency-in-peru.webp",
+      "before": 47360,
+      "after": 44982
+    },
+    {
+      "file": "images/blog/posts/ultimo-dia-em-cusco-atividades-lugares-e-dicas-uteis.webp",
+      "before": 458460,
+      "after": 443196
+    },
+    {
+      "file": "images/blog/posts/ultimo-dia-en-cusco-actividades-lugares-y-consejos-utiles.webp",
+      "before": 458460,
+      "after": 443196
+    },
+    {
+      "file": "images/blog/posts/un-viaje-inolvidable-al-lago-titicaca-las-sorprendentes-islas-flotantes-y-su-cultura-viva.webp",
+      "before": 109564,
+      "after": 106922
+    },
+    {
+      "file": "images/blog/posts/unique-experiences-you-can-only-have-in-peru.webp",
+      "before": 456592,
+      "after": 429268
+    },
+    {
+      "file": "images/blog/posts/urso-de-oculos-no-peru-como-planejar-sua-experiencia-e-viver-este-encontro-unico-em-2026.webp",
+      "before": 135284,
+      "after": 131042
+    },
+    {
+      "file": "images/blog/posts/urso-de-oculos-o-tesouro-escondido-dos-andes-que-poucos-viajantes-conhecem.webp",
+      "before": 148568,
+      "after": 134954
+    },
+    {
+      "file": "images/blog/posts/vale-a-pena-contratar-uma-agencia-para-machu-picchu-em-2026.webp",
+      "before": 39300,
+      "after": 37482
+    },
+    {
+      "file": "images/blog/posts/vale-la-pena-contratar-una-agencia-para-machu-picchu-en-2026.webp",
+      "before": 39300,
+      "after": 37482
+    },
+    {
+      "file": "images/blog/posts/vale-la-pena-visitar-el-valle-sagrado-de-los-incas-descubre-por-que-es-uno-de-los-destinos-imprescindibles-de-cusco.webp",
+      "before": 599050,
+      "after": 593044
+    },
+    {
+      "file": "images/blog/posts/vale-sagrado-dos-incas-povoados-imperdiveis-e-tours-recomendados.webp",
+      "before": 427564,
+      "after": 413314
+    },
+    {
+      "file": "images/blog/posts/valle-rojo-de-cusco-una-impresionante-alternativa-a-la-montana-de-colores.webp",
+      "before": 314264,
+      "after": 301846
+    },
+    {
+      "file": "images/blog/posts/valle-sagrado-de-los-incas-lugares-imperdibles-precios-y-como-organizar-tu-dia-saliendo-de-cusco.webp",
+      "before": 261174,
+      "after": 253710
+    },
+    {
+      "file": "images/blog/posts/valle-sagrado-de-los-incas-lugares-imperdibles-y-consejos-utiles.webp",
+      "before": 147250,
+      "after": 143552
+    },
+    {
+      "file": "images/blog/posts/valle-sagrado-de-los-incas-pueblos-imperdibles-y-tours-recomendados.webp",
+      "before": 427564,
+      "after": 413314
+    },
+    {
+      "file": "images/blog/posts/viaja-a-cusco-y-lleva-mas-que-recuerdos-descubre-su-joyeria-ancestral.webp",
+      "before": 160360,
+      "after": 153910
+    },
+    {
+      "file": "images/blog/posts/viaje-para-cusco-e-leve-mais-do-que-lembrancas-descubra-sua-joalheria-ancestral.webp",
+      "before": 160360,
+      "after": 153910
+    },
+    {
+      "file": "images/blog/posts/was-machu-picchu-never-lost-colonial-manuscripts-could-change-history.webp",
+      "before": 594336,
+      "after": 565386
+    },
+    {
+      "file": "images/blog/posts/ways-to-get-to-machu-picchu-which-option-is-best-for-your-travel-style-in-2026.webp",
+      "before": 386394,
+      "after": 376066
+    },
+    {
+      "file": "images/blog/posts/weather-in-machu-picchu-best-time-to-visit-in-2026.webp",
+      "before": 184688,
+      "after": 175152
+    },
+    {
+      "file": "images/blog/posts/what-is-a-pre-ticket-for-machu-picchu.webp",
+      "before": 138224,
+      "after": 134734
+    },
+    {
+      "file": "images/blog/posts/what-is-the-best-time-to-travel-to-cusco.webp",
+      "before": 82794,
+      "after": 77952
+    },
+    {
+      "file": "images/blog/posts/what-time-should-i-arrive-to-get-tickets-for-machu-picchu.webp",
+      "before": 138224,
+      "after": 134734
+    },
+    {
+      "file": "images/blog/posts/what-to-bring-in-your-backpack-for-machu-picchu-complete-checklist.webp",
+      "before": 78764,
+      "after": 74930
+    },
+    {
+      "file": "images/blog/posts/what-to-visit-in-peru-if-youve-already-been-to-machu-picchu.webp",
+      "before": 119952,
+      "after": 115034
+    },
+    {
+      "file": "images/blog/posts/what-to-wear-in-machu-picchu-a-complete-guide-for-a-comfortable-and-prepared-trip.webp",
+      "before": 233528,
+      "after": 222566
+    },
+    {
+      "file": "images/blog/posts/where-to-exchange-money-in-peru-what-no-one-tells-you-before-traveling.webp",
+      "before": 80040,
+      "after": 75016
+    },
+    {
+      "file": "images/blog/posts/why-is-the-quelccaya-glacier-melting-what-you-need-to-know-before-visiting-this-giant-of-ice.webp",
+      "before": 486000,
+      "after": 469210
+    },
+    {
+      "file": "images/blog/posts/your-dream-trip-to-peru-a-guide-to-building-the-perfect-travel-package.webp",
+      "before": 446812,
+      "after": 431564
+    }
+  ],
+  "duplicates_removed": [
+    {
+      "from": "images/blog/posts/roteiro-de-7-dias-em-cusco-a-melhor-rota-para-conhecer-machu-picchu.webp",
+      "to": "images/blog/posts/653-2.webp",
+      "bytes": 389620
+    },
+    {
+      "from": "images/blog/posts/adventure-tourism-in-cusco-the-complete-guide-for-travelers.webp",
+      "to": "images/blog/posts/turismo-de-aventura-en-cusco-guia-completa-para-viajeros.webp",
+      "bytes": 247382
+    },
+    {
+      "from": "images/blog/posts/turismo-de-aventura-em-cusco-o-guia-completo-para-viajantes.webp",
+      "to": "images/blog/posts/turismo-de-aventura-en-cusco-guia-completa-para-viajeros.webp",
+      "bytes": 247382
+    },
+    {
+      "from": "images/blog/posts/clima-em-machu-picchu-melhor-epoca-para-viajar-em-2026.webp",
+      "to": "images/blog/posts/weather-in-machu-picchu-best-time-to-visit-in-2026.webp",
+      "bytes": 175152
+    },
+    {
+      "from": "images/blog/posts/traslado-aeropuerto-cusco-por-que-reservar-transporte-con-anticipacion.webp",
+      "to": "images/blog/posts/cusco-airport-transfer-why-you-should-book-transportation-in-advance.webp",
+      "bytes": 87310
+    },
+    {
+      "from": "images/blog/posts/traslado-do-aeroporto-de-cusco-por-que-reservar-transporte-com-antecedencia.webp",
+      "to": "images/blog/posts/cusco-airport-transfer-why-you-should-book-transportation-in-advance.webp",
+      "bytes": 87310
+    },
+    {
+      "from": "images/blog/posts/where-to-exchange-money-in-peru-what-no-one-tells-you-before-traveling.webp",
+      "to": "images/blog/posts/donde-cambiar-dinero-en-peru-lo-que-nadie-te-cuenta-antes-de-viajar.webp",
+      "bytes": 75016
+    },
+    {
+      "from": "images/blog/posts/exchange-rate-in-peru-how-it-affects-your-trip-and-how-to-make-the-most-of-your-money.webp",
+      "to": "images/blog/posts/tipo-de-cambio-en-peru-como-afecta-tu-viaje-y-como-aprovechar-mejor-tu-dinero.webp",
+      "bytes": 85462
+    },
+    {
+      "from": "images/blog/posts/taxa-de-cambio-no-peru-como-ela-afeta-sua-viagem-e-como-aproveitar-melhor-o-seu-dinheiro.webp",
+      "to": "images/blog/posts/tipo-de-cambio-en-peru-como-afecta-tu-viaje-y-como-aprovechar-mejor-tu-dinero.webp",
+      "bytes": 85462
+    },
+    {
+      "from": "images/blog/posts/experiencias-unicas-que-solo-puedes-vivir-en-peru.webp",
+      "to": "images/blog/posts/unique-experiences-you-can-only-have-in-peru.webp",
+      "bytes": 429268
+    },
+    {
+      "from": "images/blog/posts/f09f8c84-los-mejores-tours-desde-cusco-para-2026-guia-completa-de-experiencias-unicas.webp",
+      "to": "images/blog/posts/the-best-tours-from-cusco-for-2026-completeguide-to-unique-experiences.webp",
+      "bytes": 211124
+    },
+    {
+      "from": "images/blog/posts/sacred-valley-of-the-incas-must-see-places-prices-and-how-to-organize-your-day-from-cusco.webp",
+      "to": "images/blog/posts/sacred-valley-of-the-incas-must-see-places-prices-and-how-to-plan-your-day-from-cusco.webp",
+      "bytes": 253710
+    },
+    {
+      "from": "images/blog/posts/f09f8c84sacred-valley-of-the-incas-must-see-places-prices-and-how-to-plan-your-day-from-cusco.webp",
+      "to": "images/blog/posts/sacred-valley-of-the-incas-must-see-places-prices-and-how-to-plan-your-day-from-cusco.webp",
+      "bytes": 253710
+    },
+    {
+      "from": "images/blog/posts/valle-sagrado-de-los-incas-lugares-imperdibles-precios-y-como-organizar-tu-dia-saliendo-de-cusco.webp",
+      "to": "images/blog/posts/sacred-valley-of-the-incas-must-see-places-prices-and-how-to-plan-your-day-from-cusco.webp",
+      "bytes": 253710
+    },
+    {
+      "from": "images/blog/posts/f09f9a86-dois-trens-um-destino-como-chegar-a-machu-picchu.webp",
+      "to": "images/blog/posts/two-trains-one-destination-how-to-get-to-machu-picchu.webp",
+      "bytes": 216152
+    },
+    {
+      "from": "images/blog/posts/f09f9a86-trenes-a-machu-picchu-empresas-horarios-y-como-elegir-la-mejor-opcionf09f8f94efb88f-guia-completa-para-viajar-en-tren-a-machu-picchu.webp",
+      "to": "images/blog/posts/trains-to-machu-picchu-companies-schedules-and-how-to-choose-the-best-option-complete-guide-to-traveling-by-train-to-machu-picchu.webp",
+      "bytes": 223258
+    },
+    {
+      "from": "images/blog/posts/vale-a-pena-contratar-uma-agencia-para-machu-picchu-em-2026.webp",
+      "to": "images/blog/posts/is-it-worth-hiring-a-travel-agency-for-machu-picchu-in-2026.webp",
+      "bytes": 37482
+    },
+    {
+      "from": "images/blog/posts/vale-la-pena-contratar-una-agencia-para-machu-picchu-en-2026.webp",
+      "to": "images/blog/posts/is-it-worth-hiring-a-travel-agency-for-machu-picchu-in-2026.webp",
+      "bytes": 37482
+    },
+    {
+      "from": "images/blog/posts/valle-sagrado-de-los-incas-pueblos-imperdibles-y-tours-recomendados.webp",
+      "to": "images/blog/posts/vale-sagrado-dos-incas-povoados-imperdiveis-e-tours-recomendados.webp",
+      "bytes": 413314
+    },
+    {
+      "from": "images/blog/posts/sacred-valley-of-the-incas-must-visit-villages-and-recommended-tours.webp",
+      "to": "images/blog/posts/vale-sagrado-dos-incas-povoados-imperdiveis-e-tours-recomendados.webp",
+      "bytes": 413314
+    },
+    {
+      "from": "images/blog/posts/itinerario-de-7-dias-en-cusco-la-mejor-ruta-para-conocer-machu-picchu.webp",
+      "to": "images/blog/posts/vale-sagrado-dos-incas-povoados-imperdiveis-e-tours-recomendados.webp",
+      "bytes": 413314
+    },
+    {
+      "from": "images/blog/posts/ultimo-dia-em-cusco-atividades-lugares-e-dicas-uteis.webp",
+      "to": "images/blog/posts/last-day-in-cusco-activities-places-useful-tips.webp",
+      "bytes": 443196
+    },
+    {
+      "from": "images/blog/posts/ultimo-dia-en-cusco-actividades-lugares-y-consejos-utiles.webp",
+      "to": "images/blog/posts/last-day-in-cusco-activities-places-useful-tips.webp",
+      "bytes": 443196
+    },
+    {
+      "from": "images/blog/posts/lord-of-qoyllur-riti-how-to-plan-your-trip-and-understand-this-andean-tradition-in-2026.webp",
+      "to": "images/blog/posts/senor-de-qoylloriti-como-planificar-tu-viaje-y-entender-esta-tradicion-andina-en-2026.webp",
+      "bytes": 134854
+    },
+    {
+      "from": "images/blog/posts/senhor-de-qoyllur-riti-como-planejar-sua-viagem-e-entender-esta-tradicao-andina-em-2026.webp",
+      "to": "images/blog/posts/senor-de-qoylloriti-como-planificar-tu-viaje-y-entender-esta-tradicion-andina-en-2026.webp",
+      "bytes": 134854
+    },
+    {
+      "from": "images/blog/posts/machu-picchu-nunca-esteve-perdida-manuscritos-coloniais-poderiam-mudar-a-historia.webp",
+      "to": "images/blog/posts/was-machu-picchu-never-lost-colonial-manuscripts-could-change-history.webp",
+      "bytes": 565386
+    },
+    {
+      "from": "images/blog/posts/tipos-de-entradas-a-machu-picchu-y-circuitos-como-elegir-correctamente-en-2026.webp",
+      "to": "images/blog/posts/machu-picchu-ticket-types-and-circuits-how-to-choose-the-right-one-in-2026.webp",
+      "bytes": 356574
+    },
+    {
+      "from": "images/blog/posts/tipos-de-ingressos-para-machu-picchu-e-circuitos-como-escolher-corretamente-em-2026.webp",
+      "to": "images/blog/posts/machu-picchu-ticket-types-and-circuits-how-to-choose-the-right-one-in-2026.webp",
+      "bytes": 356574
+    },
+    {
+      "from": "images/blog/posts/turismo-sostenible-en-cusco-guia-completa-para-viajar-de-forma-responsable-en-peru.jpg",
+      "to": "images/blog/posts/mejor-epoca-para-visitar-cusco-y-peru-guia-completa-para-planificar-tu-viaje.jpg",
+      "bytes": 281749
+    },
+    {
+      "from": "images/blog/posts/turismo-sustentavel-em-cusco-guia-completo-para-viajar-de-forma-responsavel-no-peru.jpg",
+      "to": "images/blog/posts/mejor-epoca-para-visitar-cusco-y-peru-guia-completa-para-planificar-tu-viaje.jpg",
+      "bytes": 281749
+    },
+    {
+      "from": "images/blog/posts/migration-requirements-and-documentation-to-travel-to-machu-picchu-2026.webp",
+      "to": "images/blog/posts/requisitos-migratorios-e-documentacao-para-viajar-a-machu-picchu-2026.webp",
+      "bytes": 102704
+    },
+    {
+      "from": "images/blog/posts/sobrevuelo-en-las-lineas-de-nazca-lo-que-debes-saber-antes-de-vivir-esta-experiencia-en-peru.webp",
+      "to": "images/blog/posts/nazca-lines-flyover-what-you-should-know-before-experiencing-this-adventure-in-peru.webp",
+      "bytes": 118372
+    },
+    {
+      "from": "images/blog/posts/sobrevoo-nas-linhas-de-nazca-o-que-voce-precisa-saber-antes-de-viver-essa-experiencia-no-peru.webp",
+      "to": "images/blog/posts/nazca-lines-flyover-what-you-should-know-before-experiencing-this-adventure-in-peru.webp",
+      "bytes": 118372
+    },
+    {
+      "from": "images/blog/posts/o-que-e-um-pre-ticket-para-machu-picchu.webp",
+      "to": "images/blog/posts/what-is-a-pre-ticket-for-machu-picchu.webp",
+      "bytes": 134734
+    },
+    {
+      "from": "images/blog/posts/what-time-should-i-arrive-to-get-tickets-for-machu-picchu.webp",
+      "to": "images/blog/posts/what-is-a-pre-ticket-for-machu-picchu.webp",
+      "bytes": 134734
+    },
+    {
+      "from": "images/blog/posts/what-to-bring-in-your-backpack-for-machu-picchu-complete-checklist.webp",
+      "to": "images/blog/posts/o-que-levar-na-sua-mochila-para-machu-picchu-checklist-completo.webp",
+      "bytes": 74930
+    },
+    {
+      "from": "images/blog/posts/o-que-usar-em-machu-picchu-guia-completo-para-viajar-com-conforto-e-preparado.webp",
+      "to": "images/blog/posts/que-ropa-usar-en-machu-picchu-guia-completa-para-viajar-comodo-y-preparado.webp",
+      "bytes": 222566
+    },
+    {
+      "from": "images/blog/posts/what-to-wear-in-machu-picchu-a-complete-guide-for-a-comfortable-and-prepared-trip.webp",
+      "to": "images/blog/posts/que-ropa-usar-en-machu-picchu-guia-completa-para-viajar-comodo-y-preparado.webp",
+      "bytes": 222566
+    },
+    {
+      "from": "images/blog/posts/o-que-vestir-em-machu-picchu-de-acordo-com-a-temporada.webp",
+      "to": "images/blog/posts/que-ropa-llevar-a-machu-picchu-segun-la-temporada.webp",
+      "bytes": 144366
+    },
+    {
+      "from": "images/blog/posts/o-que-visitar-no-peru-se-voce-ja-conhece-machu-picchu.webp",
+      "to": "images/blog/posts/que-visitar-en-peru-si-ya-conoces-machu-picchu.webp",
+      "bytes": 115034
+    },
+    {
+      "from": "images/blog/posts/what-to-visit-in-peru-if-youve-already-been-to-machu-picchu.webp",
+      "to": "images/blog/posts/que-visitar-en-peru-si-ya-conoces-machu-picchu.webp",
+      "bytes": 115034
+    },
+    {
+      "from": "images/blog/posts/ways-to-get-to-machu-picchu-which-option-is-best-for-your-travel-style-in-2026.webp",
+      "to": "images/blog/posts/opciones-para-llegar-a-machu-picchu-cual-elegir-segun-tu-tipo-de-viaje-en-2026.webp",
+      "bytes": 376066
+    },
+    {
+      "from": "images/blog/posts/opcoes-para-chegar-a-machu-picchu-qual-escolher-de-acordo-com-seu-estilo-de-viagem-em-2026.webp",
+      "to": "images/blog/posts/opciones-para-llegar-a-machu-picchu-cual-elegir-segun-tu-tipo-de-viaje-en-2026.webp",
+      "bytes": 376066
+    },
+    {
+      "from": "images/blog/posts/options-that-require-advance-booking.webp",
+      "to": "images/blog/posts/opcoes-que-exigem-reserva-antecipada.webp",
+      "bytes": 175284
+    },
+    {
+      "from": "images/blog/posts/reservas-anticipadas-para-machu-picchu-evita-quedarte-sin-entrada-en-2026.webp",
+      "to": "images/blog/posts/opcoes-que-exigem-reserva-antecipada.webp",
+      "bytes": 175284
+    },
+    {
+      "from": "images/blog/posts/spectacled-bear-the-hidden-treasure-of-the-andes-few-travelers-know-about.webp",
+      "to": "images/blog/posts/oso-de-anteojos-el-tesoro-oculto-de-los-andes-que-pocos-viajeros-conocen.webp",
+      "bytes": 134954
+    },
+    {
+      "from": "images/blog/posts/urso-de-oculos-o-tesouro-escondido-dos-andes-que-poucos-viajantes-conhecem.webp",
+      "to": "images/blog/posts/oso-de-anteojos-el-tesoro-oculto-de-los-andes-que-pocos-viajeros-conocen.webp",
+      "bytes": 134954
+    },
+    {
+      "from": "images/blog/posts/oso-de-anteojos-en-peru-como-planificar-tu-experiencia-y-vivir-este-encuentro-unico-en-2026.webp",
+      "to": "images/blog/posts/urso-de-oculos-no-peru-como-planejar-sua-experiencia-e-viver-este-encontro-unico-em-2026.webp",
+      "bytes": 131042
+    },
+    {
+      "from": "images/blog/posts/spectacled-bear-in-peru-how-to-plan-your-experience-and-enjoy-this-unique-encounter-in-2026.webp",
+      "to": "images/blog/posts/urso-de-oculos-no-peru-como-planejar-sua-experiencia-e-viver-este-encontro-unico-em-2026.webp",
+      "bytes": 131042
+    },
+    {
+      "from": "images/blog/posts/peru-2026-um-dos-melhores-destinos-da-america-do-sul.webp",
+      "to": "images/blog/posts/peru-2026-uno-de-los-mejores-destinos-de-sudamerica.webp",
+      "bytes": 177336
+    },
+    {
+      "from": "images/blog/posts/peru-2026-one-of-the-best-destinations-in-south-america.webp",
+      "to": "images/blog/posts/peru-2026-uno-de-los-mejores-destinos-de-sudamerica.webp",
+      "bytes": 177336
+    },
+    {
+      "from": "images/blog/posts/peru-alem-de-machu-picchu-ideias-para-sua-segunda-viagem-em-2026.webp",
+      "to": "images/blog/posts/peru-beyond-machu-picchu-ideas-for-your-second-trip-in-2026.webp",
+      "bytes": 157510
+    },
+    {
+      "from": "images/blog/posts/peru-mas-alla-de-machu-picchu-ideas-para-tu-segundo-viaje-en-2026.webp",
+      "to": "images/blog/posts/peru-beyond-machu-picchu-ideas-for-your-second-trip-in-2026.webp",
+      "bytes": 157510
+    },
+    {
+      "from": "images/blog/posts/planeje-sua-viagem-para-machu-picchu-na-melhor-epoca.webp",
+      "to": "images/blog/posts/plan-your-machu-picchu-trip-in-the-best-season.webp",
+      "bytes": 78448
+    },
+    {
+      "from": "images/blog/posts/planifica-tu-viaje-a-machu-picchu-en-la-mejor-temporada.webp",
+      "to": "images/blog/posts/plan-your-machu-picchu-trip-in-the-best-season.webp",
+      "bytes": 78448
+    },
+    {
+      "from": "images/blog/posts/por-que-o-glaciar-quelccaya-esta-derretendo-o-que-voce-precisa-saber-antes-de-visitar-esse-gigante-de-gelo.webp",
+      "to": "images/blog/posts/why-is-the-quelccaya-glacier-melting-what-you-need-to-know-before-visiting-this-giant-of-ice.webp",
+      "bytes": 469210
+    },
+    {
+      "from": "images/blog/posts/por-que-se-esta-derritiendo-el-glaciar-quelccaya-lo-que-debes-saber-antes-de-visitar-este-gigante-de-hielo.webp",
+      "to": "images/blog/posts/why-is-the-quelccaya-glacier-melting-what-you-need-to-know-before-visiting-this-giant-of-ice.webp",
+      "bytes": 469210
+    },
+    {
+      "from": "images/blog/posts/qual-e-a-melhor-epoca-para-viajar-a-cusco.webp",
+      "to": "images/blog/posts/what-is-the-best-time-to-travel-to-cusco.webp",
+      "bytes": 77952
+    },
+    {
+      "from": "images/blog/posts/salkantay-ou-choquequirao-qual-trekking-escolher-em-2026.webp",
+      "to": "images/blog/posts/salkantay-o-choquequirao-cual-trekking-elegir-en-2026.webp",
+      "bytes": 362938
+    },
+    {
+      "from": "images/blog/posts/se-voce-esta-planejando-viajar-para-o-peru-ha-algo-importante-que-voce-precisa-saber.webp",
+      "to": "images/blog/posts/si-estas-planeando-viajar-a-peru-hay-algo-importante-que-debes-saber.webp",
+      "bytes": 327780
+    },
+    {
+      "from": "images/blog/posts/seguro-de-viagem-para-o-peru-e-obrigatorio-guia-completo-2026.webp",
+      "to": "images/blog/posts/seguro-de-viaje-para-peru-es-obligatorio-guia-completa-2026.webp",
+      "bytes": 127408
+    },
+    {
+      "from": "images/blog/posts/size-and-population-differences-between-cusco-and-lima-you-should-know-before-traveling-to-peru.webp",
+      "to": "images/blog/posts/tamano-y-poblacion-diferencias-entre-cusco-y-lima-que-debes-conocer-antes-de-viajar-a-peru.webp",
+      "bytes": 201232
+    },
+    {
+      "from": "images/blog/posts/tamanho-e-populacao-diferencas-entre-cusco-e-lima-que-voce-deve-conhecer-antes-de-viajar-ao-peru.webp",
+      "to": "images/blog/posts/tamano-y-poblacion-diferencias-entre-cusco-y-lima-que-debes-conocer-antes-de-viajar-a-peru.webp",
+      "bytes": 201232
+    },
+    {
+      "from": "images/blog/posts/sua-viagem-dos-sonhos-ao-peru-guia-para-montar-o-pacote-perfeito.webp",
+      "to": "images/blog/posts/tu-viaje-sonado-a-peru-guia-para-armar-el-paquete-perfecto.webp",
+      "bytes": 431564
+    },
+    {
+      "from": "images/blog/posts/your-dream-trip-to-peru-a-guide-to-building-the-perfect-travel-package.webp",
+      "to": "images/blog/posts/tu-viaje-sonado-a-peru-guia-para-armar-el-paquete-perfecto.webp",
+      "bytes": 431564
+    },
+    {
+      "from": "images/blog/posts/surf-en-peru-mejores-playas-y-temporadas.webp",
+      "to": "images/blog/posts/surf-in-peru-best-beaches-and-seasons.webp",
+      "bytes": 239262
+    },
+    {
+      "from": "images/blog/posts/surf-no-peru-melhores-praias-e-temporadas.webp",
+      "to": "images/blog/posts/surf-in-peru-best-beaches-and-seasons.webp",
+      "bytes": 239262
+    },
+    {
+      "from": "images/blog/posts/tipos-de-moneda-en-peru.webp",
+      "to": "images/blog/posts/tipos-de-moeda-no-peru.webp",
+      "bytes": 44982
+    },
+    {
+      "from": "images/blog/posts/types-of-currency-in-peru.webp",
+      "to": "images/blog/posts/tipos-de-moeda-no-peru.webp",
+      "bytes": 44982
+    },
+    {
+      "from": "images/blog/posts/transporte-no-aeroporto-de-cusco-como-escolher-a-melhor-opcao-para-sua-viagem.webp",
+      "to": "images/blog/posts/transportation-at-cusco-airport-how-to-choose-the-best-option-for-your-trip.webp",
+      "bytes": 77182
+    },
+    {
+      "from": "images/blog/posts/transporte-en-el-aeropuerto-de-cusco-como-elegir-la-mejor-opcion-para-tu-viaje.webp",
+      "to": "images/blog/posts/transportation-at-cusco-airport-how-to-choose-the-best-option-for-your-trip.webp",
+      "bytes": 77182
+    },
+    {
+      "from": "images/blog/posts/travel-to-cusco-and-take-home-more-than-memories-discover-its-ancestral-jewelry.webp",
+      "to": "images/blog/posts/viaja-a-cusco-y-lleva-mas-que-recuerdos-descubre-su-joyeria-ancestral.webp",
+      "bytes": 153910
+    },
+    {
+      "from": "images/blog/posts/viaje-para-cusco-e-leve-mais-do-que-lembrancas-descubra-sua-joalheria-ancestral.webp",
+      "to": "images/blog/posts/viaja-a-cusco-y-lleva-mas-que-recuerdos-descubre-su-joyeria-ancestral.webp",
+      "bytes": 153910
+    }
+  ],
+  "retained_because_referenced": [],
+  "json_files_updated": 80,
+  "errors": [
+    {
+      "file": "images/blog/posts/salkantay-or-choquequirao-which-trek-should-you-choose-in-2026.png",
+      "error": "unrecognized data stream contents when reading image file"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "changed_files": 9,
+  "repaired_paths": 3,
+  "mapping": {
+    "images/experiencias_unicas/experiencias-hero.webp": "images/experiencias_unicas/principal.webp",
+    "images/nosotros/fondo-alianzas.webp": "images/inicio/bg-licencias.webp",
+    "images/paquetes/paquetes-hero.webp": "images/paquetes.jpg"
+  }
+}

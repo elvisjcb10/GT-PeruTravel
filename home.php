@@ -6,7 +6,7 @@
     <section id="video" class="page-hero page-hero--with-stats relative w-full bg-black overflow-hidden">
 
         <!-- imagen de fondo -->
-        <img class="absolute top-0 left-0 w-full h-full object-cover"
+        <img class="absolute top-0 left-0 w-full h-full object-cover" loading="eager" fetchpriority="high" decoding="async"
             src="<?= $base_url ?>/images/inicio/hero.webp"
             alt="Machu Picchu - GT Peru Travel">
 
@@ -29,7 +29,7 @@
 
                     <div class="mt-6 sm:mt-8 flex flex-wrap items-center gap-3 sm:gap-4">
 
-                        <a href="paquete/template-paquete.php?paquete=peru-mistico&lang=<?= htmlspecialchars($idioma) ?>"
+                        <a href="<?= route_path('paquete', $idioma, 'peru-mistico') ?>"
                             class="inline-flex items-center px-5 sm:px-7 py-3 sm:py-3.5 text-sm md:text-base bg-orange-custom text-white font-bold font-poppins rounded-full transition duration-300 ease-in-out hover:bg-[#c2660a] shadow-md">
                             <?= html_entity_decode($hero_text['boton1']) ?>
                         </a>
@@ -152,7 +152,7 @@
                     <?php endforeach; ?>
                 </div>
 
-                <a href="<?= $base_url ?>/nosotros.php?lang=<?= $idioma ?>"
+                <a href="<?= route_static_path('nosotros', $idioma) ?>"
                 class="hover:scale-105 inline-flex items-center w-full sm:w-auto justify-center px-6 sm:px-7 py-3 text-sm md:text-base bg-orange-custom text-white font-bold font-poppins rounded-full transition duration-300 ease-in-out hover:bg-[#c2660a] shadow-md">
                     <?= $about_text['boton'] ?>
                 </a>
@@ -197,7 +197,7 @@
                                 <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300 h-full flex flex-col">
 
                                     <!-- Link envolvente -->
-                                    <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $t['url'] ?>&lang=<?= $idioma ?>" class="block">
+                                    <a href="<?= route_path('tour', $idioma ?? $lang, (string)($t['url'])) ?>" class="block">
 
                                         <!-- IMAGEN -->
                                         <div class="relative h-56 sm:h-72 md:h-80 w-full overflow-hidden px-1 pt-1">
@@ -234,7 +234,7 @@
                                             <span class="text-2xl sm:text-3xl font-bold text-orange-custom"><?= $t['price'] ?></span>
                                         </div>
 
-                                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $t['url'] ?>&lang=<?= $idioma ?>"
+                                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)($t['url'])) ?>"
                                         class="inline-flex items-center px-5 sm:px-6 py-2 text-sm md:text-base bg-orange-custom text-white font-bold font-poppins rounded-lg transition duration-300 ease-in-out hover:bg-[#c2660a] shadow-md">
                                             <?= $t['reservar'] ?>
                                         </a>
@@ -272,7 +272,7 @@
 
             <!-- CUSCO - grande, ocupa 2 columnas y 2 filas -->
             <div class="relative md:col-span-2 md:row-span-2 rounded-xl overflow-hidden group h-64 sm:h-80 md:h-full reveal-zoom">
-                <a href="<?= $base_url ?>/destino/template-destino.php?destino=cusco&lang=<?= $idioma ?>">
+                <a href="<?= route_path('destino', $idioma, 'cusco') ?>">
                     <img src="<?= $base_url . $destinos['cusco']['img'] ?>"
                         alt="<?= $destinos['cusco']['nombre'] ?>"
                         class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
@@ -295,7 +295,7 @@
 
             <!-- LIMA -->
             <div class="relative rounded-xl overflow-hidden group h-48 sm:h-56 md:h-full reveal reveal-delay-1">
-                <a href="<?= $base_url ?>/destino/template-destino.php?destino=lima&lang=<?= $idioma ?>">
+                <a href="<?= route_path('destino', $idioma, 'lima') ?>">
                     <img src="<?= $base_url . $destinos['lima']['img'] ?>"
                         alt="<?= $destinos['lima']['nombre'] ?>"
                         class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
@@ -318,7 +318,7 @@
 
             <!-- PUNO -->
             <div class="relative rounded-xl overflow-hidden group h-48 sm:h-56 md:h-full reveal reveal-delay-1">
-                <a href="<?= $base_url ?>/destino/template-destino.php?destino=puno&lang=<?= $idioma ?>">
+                <a href="<?= route_path('destino', $idioma, 'puno') ?>">
                     <img src="<?= $base_url . $destinos['puno']['img'] ?>"
                         alt="<?= $destinos['puno']['nombre'] ?>"
                         class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
@@ -348,7 +348,7 @@
             $bottom = ['manu', 'arequipa', 'huaraz'];
             foreach ($bottom as $idx => $key): ?>
                 <div class="relative rounded-xl overflow-hidden group h-48 sm:h-56 reveal reveal-delay-<?= $idx + 1 ?>">
-                    <a href="<?= $base_url ?>/destino/template-destino.php?destino=<?= $key ?>&lang=<?= $idioma ?>">
+                    <a href="<?= route_path('destino', $idioma, (string)($key)) ?>">
                         <img src="<?= $base_url . $destinos[$key]['img'] ?>"
                             alt="<?= $destinos[$key]['nombre'] ?>"
                             class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
@@ -422,7 +422,7 @@
                     <!-- BOTONES -->
                     <div class="flex flex-wrap items-center gap-4">
 
-                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=glaciares&lang=<?= $idioma ?>"
+                        <a href="<?= route_path('destino', $idioma, 'glaciares') ?>"
                         class="hover:scale-105 inline-flex items-center px-6 sm:px-7 py-3 sm:py-3.5 text-sm md:text-base bg-orange-custom text-white font-bold font-poppins rounded-full transition duration-300 ease-in-out hover:bg-[#c2660a] shadow-md">
                             <?= $glaciares['boton_primario'] ?>
                         </a>
@@ -442,7 +442,7 @@
 
                                 <?php foreach ($glaciares['cards'] as $card): ?>
                                     <div class="swiper-slide h-auto">
-                                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $card['url'] ?>&lang=<?= $idioma ?>"
+                                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)($card['url'])) ?>"
                                         class="block rounded-xl overflow-hidden shadow-lg group h-full">
 
                                             <!-- IMAGEN -->
@@ -478,7 +478,7 @@
                 <div class="hidden md:flex flex-col gap-5 reveal-right">
 
                     <?php foreach ($glaciares['cards'] as $card): ?>
-                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $card['url'] ?>&lang=<?= $idioma ?>"
+                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)($card['url'])) ?>"
                         class="block rounded-xl overflow-hidden shadow-lg group">
 
                             <!-- IMAGEN -->
@@ -530,7 +530,7 @@
                     </h2>
                 </div>
 
-                <a href="<?= $base_url ?>/destino/template-destino.php?destino=paquete-peru&lang=<?= $idioma ?>"
+                <a href="<?= route_path('destino', $idioma, 'paquete-peru') ?>"
                 class="inline-flex min-h-10 items-center gap-2 self-start sm:self-auto text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide hover:text-[#c2660a] transition">
                     <?= $popular_text['ver_todos'] ?>
                     <i class="fa-solid fa-arrow-right text-xs"></i>
@@ -556,7 +556,7 @@
                     <?php foreach ($promo_packages as $p) : ?>
                         <div class="swiper-slide h-auto">
 
-                            <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=<?= $p['url'] ?>&lang=<?= $idioma ?>"
+                            <a href="<?= route_path('paquete', $idioma ?? $lang, (string)($p['url'])) ?>"
                             class="flex h-full flex-col bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
 
                                 <!-- IMAGEN -->
@@ -691,7 +691,7 @@
 
                     <!-- BOTON -->
                     <div class="flex flex-wrap items-center gap-4">
-                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=experiencias-unicas&lang=<?= $idioma ?>"
+                        <a href="<?= route_path('destino', $idioma, 'experiencias-unicas') ?>"
                         class="hover:scale-105 inline-flex items-center px-6 sm:px-7 py-3 sm:py-3.5 text-sm md:text-base bg-orange-custom text-white font-bold font-poppins rounded-full transition duration-300 ease-in-out hover:bg-[#c2660a] shadow-md">
                             <?= $experiencias_text['ver_todos'] ?>
                             <i class="fa-solid fa-arrow-right text-xs ml-2"></i>
@@ -723,7 +723,7 @@
 
                                 <?php foreach ($secundarias as $e): ?>
                                     <div class="swiper-slide h-auto">
-                                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $e['url'] ?>&lang=<?= $idioma ?>"
+                                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)($e['url'])) ?>"
                                         class="tour-card block bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300 h-full">
 
                                             <!-- IMAGEN -->
@@ -819,7 +819,7 @@
                     </a>
 
                     <!-- BOTON CONTACTO -->
-                    <a href="<?= $base_url ?>/contacto.php?lang=<?= $idioma ?>"
+                    <a href="<?= route_static_path('contacto', $idioma) ?>"
                     class="inline-flex items-center px-5 sm:px-7 py-3 sm:py-3.5 text-sm md:text-base border-2 border-white/70 text-white font-bold font-poppins rounded-full transition duration-300 ease-in-out hover:bg-white hover:text-black">
                         <?= $cta['boton_contacto']['texto'] ?>
                     </a>
@@ -1030,7 +1030,7 @@
                     </p>
                 </div>
 
-                <a href="<?= $base_url ?>/blog.php?lang=<?= $idioma ?>"
+                <a href="<?= route_static_path('blog', $idioma) ?>"
                 class="inline-flex items-center gap-2 text-orange-custom text-xs sm:text-sm font-bold font-poppins uppercase tracking-wide hover:text-[#c2660a] transition">
                     <?= $blog_text['ver_todos'] ?>
                     <i class="fa-solid fa-arrow-right text-xs"></i>
@@ -1044,7 +1044,7 @@
 
                         <?php foreach ($blog_posts as $post): ?>
                             <div class="swiper-slide h-auto">
-                                <a href="<?= $base_url ?>/blog.php?lang=<?= $idioma ?>#<?= urlencode($post['url']) ?>"
+                                <a href="<?= route_static_path('blog', $idioma) ?>#<?= urlencode($post['url']) ?>"
                                 class="block bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full">
 
                                     <!-- IMAGEN -->

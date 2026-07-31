@@ -1,7 +1,5 @@
+<?php require_once __DIR__ . '/config/bootstrap.php'; ?>
 <?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-
 $idioma = $_GET['lang'] ?? 'es';
 if (!in_array($idioma, ['es', 'en', 'pt'], true)) {
     $idioma = 'es';
@@ -9,6 +7,7 @@ if (!in_array($idioma, ['es', 'en', 'pt'], true)) {
 
 $base_url = '.';
 $GLOBALS['lang'] = $idioma;
+route_redirect_static('blog', $idioma);
 
 $footer_path = __DIR__ . "/locale/{$idioma}/footer.json";
 if (!file_exists($footer_path)) {
@@ -94,7 +93,7 @@ $unique_posts = [];
 $seen_post_titles = [];
 foreach ($posts as $post) {
     $title_key = trim(mb_strtolower(html_entity_decode(strip_tags((string) ($post['title'] ?? '')), ENT_QUOTES | ENT_HTML5, 'UTF-8'), 'UTF-8'));
-    $title_key = preg_replace('/s+/u', ' ', $title_key);
+    $title_key = preg_replace('/\s+/u', ' ', $title_key);
     if ($title_key === '' || isset($seen_post_titles[$title_key])) {
         continue;
     }
@@ -132,32 +131,88 @@ $featured = $posts[0];
 $secondary_featured = array_slice($posts, 1, 3);
 $recent_posts = array_slice($posts, 4);
 $detail_slug = $featured['slug'];
+
+$selected_category = trim((string) ($_GET['category'] ?? 'all'));
+if ($selected_category !== 'all' && !in_array($selected_category, $categories, true)) {
+    $selected_category = 'all';
+}
+
+$page = filter_var($_GET['page'] ?? 1, FILTER_VALIDATE_INT, [
+    'options' => ['default' => 1, 'min_range' => 1],
+]);
+if (!is_int($page) || $page < 1) {
+    $page = 1;
+}
+
+$pagination_source = $selected_category === 'all'
+    ? $recent_posts
+    : array_values(array_filter($posts, static fn(array $post): bool => ($post['category'] ?? '') === $selected_category));
+
+$posts_per_page = 9;
+$total_articles = count($pagination_source);
+$total_pages = max(1, (int) ceil($total_articles / $posts_per_page));
+$page = min($page, $total_pages);
+$page_posts = array_slice($pagination_source, ($page - 1) * $posts_per_page, $posts_per_page);
+$show_featured = $selected_category === 'all' && $page === 1;
+
+$pagination_text = [
+    'es' => ['previous' => 'Anterior', 'next' => 'Siguiente', 'page' => 'Página', 'empty' => 'No hay artículos en esta categoría.', 'filter' => 'Filtrar artículos'],
+    'en' => ['previous' => 'Previous', 'next' => 'Next', 'page' => 'Page', 'empty' => 'There are no articles in this category.', 'filter' => 'Filter articles'],
+    'pt' => ['previous' => 'Anterior', 'next' => 'Próxima', 'page' => 'Página', 'empty' => 'Não há artigos nesta categoria.', 'filter' => 'Filtrar artigos'],
+][$idioma];
+
+function blog_page_url(string $base_url, string $language, string $category, int $page): string
+{
+    $query = ['lang' => $language];
+    if ($category !== 'all') {
+        $query['category'] = $category;
+    }
+    if ($page > 1) {
+        $query['page'] = $page;
+    }
+    unset($query['lang']);
+    return route_static_path('blog', $language) . ($query ? '?' . http_build_query($query) : '') . '#blog-recent-section';
+}
+
+function blog_pagination_items(int $current, int $total): array
+{
+    if ($total <= 5) {
+        return range(1, $total);
+    }
+    $items = [1];
+    $start = max(2, $current - 1);
+    $end = min($total - 1, $current + 1);
+    if ($start > 2) $items[] = null;
+    for ($number = $start; $number <= $end; $number++) $items[] = $number;
+    if ($end < $total - 1) $items[] = null;
+    $items[] = $total;
+    return $items;
+}
 ?>
 <!DOCTYPE html>
 <html lang="<?= htmlspecialchars($idioma) ?>">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= htmlspecialchars($textos['meta_title']) ?></title>
+    <base href="/">
+    <title><?= htmlspecialchars(seo_clean_text((string)$textos['meta_title'], 65)) ?></title>
     <meta name="description" content="<?= htmlspecialchars($textos['meta_description']) ?>">
+    <?php
+    $blog_seo_params = ['lang' => $idioma];
+    if ($selected_category !== 'all') $blog_seo_params['category'] = $selected_category;
+    if ($page > 1) $blog_seo_params['page'] = $page;
+    seo_render([
+        'title' => $textos['meta_title'], 'description' => $textos['meta_description'],
+        'path' => route_static_path('blog', $idioma), 'params' => array_diff_key($blog_seo_params, ['lang' => true]), 'language' => $idioma,
+        'image' => '/images/glaciares/hero.webp',
+        'alternates' => $selected_category === 'all' ? route_static_alternates('blog', $page > 1 ? ['page' => $page] : []) : [],
+    ]); ?>
     <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        poppins: ['Poppins', 'sans-serif'],
-                        anton: ['Anton', 'sans-serif']
-                    }
-                }
-            }
-        }
-    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/tailwind.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-white">
@@ -165,7 +220,7 @@ $detail_slug = $featured['slug'];
 
     <main>
         <section class="page-hero page-hero--with-stats responsive-hero relative w-full overflow-hidden bg-black">
-            <img src="<?= $base_url ?>/images/glaciares/hero.webp"
+            <img src="<?= $base_url ?>/images/glaciares/hero.webp" loading="eager" fetchpriority="high" decoding="async"
                 alt="<?= htmlspecialchars($textos['hero_title_1'] . ' ' . $textos['hero_title_2']) ?>"
                 class="absolute inset-0 h-full w-full object-cover">
             <div class="absolute inset-0 bg-gradient-to-r from-black/85 via-black/50 to-black/20"></div>
@@ -174,9 +229,10 @@ $detail_slug = $featured['slug'];
             <div class="page-hero-content relative z-10 flex h-full items-center">
                 <div class="container-custom mx-auto w-full px-4 sm:px-6 md:px-10 lg:px-20">
                     <div class="max-w-2xl">
-                        <span class="mb-4 inline-flex rounded-md border border-orange-400/30 bg-orange-500/20 px-4 py-2 font-poppins text-xs font-bold uppercase tracking-[0.16em] text-orange-300 backdrop-blur-sm">
-                            <?= htmlspecialchars($textos['hero_kicker']) ?>
-                        </span>
+                        <div class="hero-section-kicker mb-4">
+                            <span class="hero-section-kicker__line" aria-hidden="true"></span>
+                            <span><?= htmlspecialchars($textos['hero_kicker']) ?></span>
+                        </div>
                         <h1 class="font-anton text-4xl leading-[1.05] text-white sm:text-5xl md:text-6xl lg:text-7xl">
                             <?= htmlspecialchars($textos['hero_title_1']) ?><br>
                             <span class="text-orange-custom"><?= htmlspecialchars($textos['hero_title_2']) ?></span>
@@ -211,10 +267,10 @@ $detail_slug = $featured['slug'];
             </div>
         </section>
 
-        <section id="blog-featured-section" class="py-12 sm:py-14 lg:py-16">
+        <section id="blog-featured-section" class="<?= $show_featured ? 'py-12 sm:py-14 lg:py-16' : 'pt-8 pb-0 sm:pt-10' ?>">
             <div class="container-custom mx-auto px-4 sm:px-6 md:px-10 lg:px-20">
                 <div id="blog-filter-toolbar" class="mb-8 flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
-                    <div id="blog-featured-heading" class="order-2 lg:order-1">
+                    <div id="blog-featured-heading" class="<?= $show_featured ? 'order-2 lg:order-1' : 'hidden' ?>">
                         <p class="section-kicker font-poppins text-xs font-bold uppercase tracking-wide text-orange-custom sm:text-sm">
                             <?= htmlspecialchars($textos['featured_kicker']) ?>
                         </p>
@@ -224,21 +280,24 @@ $detail_slug = $featured['slug'];
                         </h2>
                     </div>
 
-                    <div class="blog-filter-list order-1 flex gap-2 overflow-x-auto pb-2 lg:order-2 lg:ml-auto lg:justify-end lg:pb-0" role="group" aria-label="Filtrar artículos">
-                        <button type="button" class="blog-filter active shrink-0 rounded-full bg-orange-custom px-5 py-2.5 font-poppins text-xs font-semibold text-white" data-filter="all">
+                    <div class="blog-filter-list order-1 flex gap-2 overflow-x-auto pb-2 lg:order-2 lg:ml-auto lg:justify-end lg:pb-0" role="group" aria-label="<?= htmlspecialchars($pagination_text['filter']) ?>">
+                        <a href="<?= htmlspecialchars(route_static_path('blog', $idioma)) ?>"
+                            class="blog-filter shrink-0 rounded-full px-5 py-2.5 font-poppins text-xs font-semibold transition <?= $selected_category === 'all' ? 'bg-orange-custom text-white' : 'border border-gray-200 bg-white text-gray-600 hover:border-orange-300 hover:text-orange-custom' ?>">
                             <?= htmlspecialchars($textos['all']) ?>
-                        </button>
+                        </a>
                         <?php foreach ($categories as $category): ?>
-                            <button type="button" class="blog-filter shrink-0 rounded-full border border-gray-200 bg-white px-5 py-2.5 font-poppins text-xs font-semibold text-gray-600 transition hover:border-orange-300 hover:text-orange-custom" data-filter="<?= htmlspecialchars($category) ?>">
+                            <a href="<?= htmlspecialchars(blog_page_url($base_url, $idioma, $category, 1)) ?>"
+                                class="blog-filter shrink-0 rounded-full px-5 py-2.5 font-poppins text-xs font-semibold transition <?= $selected_category === $category ? 'bg-orange-custom text-white' : 'border border-gray-200 bg-white text-gray-600 hover:border-orange-300 hover:text-orange-custom' ?>">
                                 <?= htmlspecialchars($category) ?>
-                            </button>
+                            </a>
                         <?php endforeach; ?>
                     </div>
                 </div>
 
+                <?php if ($show_featured): ?>
                 <div id="blog-featured-content" class="grid grid-cols-1 gap-5 lg:grid-cols-[1.65fr_1fr]">
                     <article class="group relative min-h-[360px] overflow-hidden rounded-2xl bg-gray-900 sm:min-h-[430px]" data-blog-card data-category="<?= htmlspecialchars($featured['category']) ?>">
-                        <a href="<?= $base_url ?>/blog/template-articulo.php?articulo=<?= urlencode($featured['slug']) ?>&lang=<?= urlencode($idioma) ?>"
+                        <a href="<?= route_path('blog', $idioma, (string)($featured['slug'])) ?>"
                             class="absolute inset-0 z-20"
                             aria-label="<?= htmlspecialchars($textos['read'] . ': ' . $featured['title']) ?>"></a>
                         <img src="<?= blog_listing_image($featured, $base_url) ?>" alt="<?= htmlspecialchars($featured['title']) ?>"
@@ -268,7 +327,7 @@ $detail_slug = $featured['slug'];
                     <div class="grid gap-4">
                         <?php foreach ($secondary_featured as $post): ?>
                             <article class="group relative grid min-h-[125px] grid-cols-[120px_1fr] overflow-hidden rounded-xl border border-gray-200 bg-white transition hover:border-orange-200 hover:shadow-md sm:grid-cols-[155px_1fr]" data-blog-card data-category="<?= htmlspecialchars($post['category']) ?>">
-                                <a href="<?= $base_url ?>/blog/template-articulo.php?articulo=<?= urlencode($post['slug']) ?>&lang=<?= urlencode($idioma) ?>" class="absolute inset-0 z-10" aria-label="<?= htmlspecialchars($textos['read'] . ': ' . $post['title']) ?>"></a>
+                                <a href="<?= route_path('blog', $idioma, (string)($post['slug'])) ?>" class="absolute inset-0 z-10" aria-label="<?= htmlspecialchars($textos['read'] . ': ' . $post['title']) ?>"></a>
                                 <div class="overflow-hidden">
                                     <img src="<?= blog_listing_image($post, $base_url) ?>" alt="<?= htmlspecialchars($post['title']) ?>"
                                         loading="lazy" class="h-full w-full object-cover transition duration-500 group-hover:scale-105">
@@ -282,12 +341,13 @@ $detail_slug = $featured['slug'];
                         <?php endforeach; ?>
                     </div>
                 </div>
+                <?php endif; ?>
             </div>
         </section>
 
         <section id="blog-recent-section" class="bg-[#fafafa] py-12 sm:py-14 lg:py-16">
             <div class="container-custom mx-auto px-4 sm:px-6 md:px-10 lg:px-20">
-                <div id="blog-recent-heading">
+                <div id="blog-recent-heading" class="<?= $selected_category === 'all' ? '' : 'hidden' ?>">
                 <p class="section-kicker font-poppins text-xs font-bold uppercase tracking-wide text-orange-custom sm:text-sm">
                     <?= htmlspecialchars($textos['recent_kicker']) ?>
                 </p>
@@ -298,9 +358,9 @@ $detail_slug = $featured['slug'];
                 </div>
 
                 <div id="blog-grid" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                    <?php foreach ($recent_posts as $post): ?>
+                    <?php foreach ($page_posts as $post): ?>
                         <article id="<?= htmlspecialchars($post['slug']) ?>" class="blog-card group relative flex h-full flex-col overflow-hidden rounded-xl border border-gray-200 bg-white transition duration-300 hover:-translate-y-1 hover:border-orange-200 hover:shadow-lg" data-blog-card data-category="<?= htmlspecialchars($post['category']) ?>">
-                            <a href="<?= $base_url ?>/blog/template-articulo.php?articulo=<?= urlencode($post['slug']) ?>&lang=<?= urlencode($idioma) ?>" class="absolute inset-0 z-20" aria-label="<?= htmlspecialchars($textos['read'] . ': ' . $post['title']) ?>"></a>
+                            <a href="<?= route_path('blog', $idioma, (string)($post['slug'])) ?>" class="absolute inset-0 z-20" aria-label="<?= htmlspecialchars($textos['read'] . ': ' . $post['title']) ?>"></a>
                             <div class="relative h-52 overflow-hidden sm:h-56">
                                 <img src="<?= blog_listing_image($post, $base_url) ?>" alt="<?= htmlspecialchars($post['title']) ?>"
                                     loading="lazy" class="h-full w-full object-cover transition duration-500 group-hover:scale-105">
@@ -323,19 +383,39 @@ $detail_slug = $featured['slug'];
                         </article>
                     <?php endforeach; ?>
                 </div>
-                <p id="blog-empty" class="hidden py-12 text-center font-poppins text-sm text-gray-500">No hay artículos en esta categoría.</p>
+                <p id="blog-empty" class="<?= $total_articles > 0 ? 'hidden' : '' ?> py-12 text-center font-poppins text-sm text-gray-500"><?= htmlspecialchars($pagination_text['empty']) ?></p>
+                <?php if ($total_pages > 1): ?>
+                <nav id="blog-pagination" class="mt-10 flex flex-wrap items-center justify-center gap-2" aria-label="<?= htmlspecialchars($pagination_text['page']) ?>">
+                    <?php if ($page > 1): ?>
+                        <a href="<?= htmlspecialchars(blog_page_url($base_url, $idioma, $selected_category, $page - 1)) ?>"
+                            class="inline-flex h-10 items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-4 font-poppins text-xs font-semibold text-gray-600 transition hover:border-orange-custom hover:text-orange-custom">
+                            <i class="fa-solid fa-chevron-left text-[0.65rem]"></i>
+                            <span class="hidden sm:inline"><?= htmlspecialchars($pagination_text['previous']) ?></span>
+                        </a>
+                    <?php endif; ?>
 
-                <nav id="blog-pagination" class="mt-10 flex flex-wrap items-center justify-center gap-2" aria-label="Paginación del blog">
-                    <button id="blog-page-prev" type="button" class="inline-flex h-10 items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-4 font-poppins text-xs font-semibold text-gray-600 transition hover:border-orange-custom hover:text-orange-custom disabled:cursor-not-allowed disabled:opacity-40">
-                        <i class="fa-solid fa-chevron-left text-[0.65rem]"></i>
-                        <span class="hidden sm:inline"><?= $idioma === 'en' ? 'Previous' : 'Anterior' ?></span>
-                    </button>
-                    <div id="blog-page-numbers" class="flex items-center gap-2"></div>
-                    <button id="blog-page-next" type="button" class="inline-flex h-10 items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-4 font-poppins text-xs font-semibold text-gray-600 transition hover:border-orange-custom hover:text-orange-custom disabled:cursor-not-allowed disabled:opacity-40">
-                        <span class="hidden sm:inline"><?= $idioma === 'en' ? 'Next' : ($idioma === 'pt' ? 'Próxima' : 'Siguiente') ?></span>
-                        <i class="fa-solid fa-chevron-right text-[0.65rem]"></i>
-                    </button>
+                    <?php foreach (blog_pagination_items($page, $total_pages) as $page_number): ?>
+                        <?php if ($page_number === null): ?>
+                            <span class="flex h-10 min-w-6 items-center justify-center font-poppins text-xs text-gray-400">…</span>
+                        <?php else: ?>
+                            <a href="<?= htmlspecialchars(blog_page_url($base_url, $idioma, $selected_category, $page_number)) ?>"
+                                aria-label="<?= htmlspecialchars($pagination_text['page'] . ' ' . $page_number) ?>"
+                                <?= $page_number === $page ? 'aria-current="page"' : '' ?>
+                                class="flex h-10 min-w-10 items-center justify-center rounded-full px-3 font-poppins text-xs font-semibold transition <?= $page_number === $page ? 'bg-orange-custom font-bold text-white shadow-sm' : 'border border-gray-200 bg-white text-gray-600 hover:border-orange-custom hover:text-orange-custom' ?>">
+                                <?= $page_number ?>
+                            </a>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
+
+                    <?php if ($page < $total_pages): ?>
+                        <a href="<?= htmlspecialchars(blog_page_url($base_url, $idioma, $selected_category, $page + 1)) ?>"
+                            class="inline-flex h-10 items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-4 font-poppins text-xs font-semibold text-gray-600 transition hover:border-orange-custom hover:text-orange-custom">
+                            <span class="hidden sm:inline"><?= htmlspecialchars($pagination_text['next']) ?></span>
+                            <i class="fa-solid fa-chevron-right text-[0.65rem]"></i>
+                        </a>
+                    <?php endif; ?>
                 </nav>
+                <?php endif; ?>
             </div>
         </section>
     </main>
@@ -344,6 +424,5 @@ $detail_slug = $featured['slug'];
 
     <script src="js/mobile-menu.js"></script>
     <script src="js/mega-menu.js"></script>
-    <script src="js/blog-filters.js"></script>
 </body>
 </html>

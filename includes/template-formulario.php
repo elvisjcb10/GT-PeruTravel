@@ -13,7 +13,8 @@ $form = json_decode(file_get_contents($form_path), true);
 <form id="formulario-contacto" action="/mail/enviar.php" method="POST" class="tour-contact-form min-w-0 bg-gray-50 p-4 sm:p-6 rounded-2xl shadow-lg">
 
     <input type="hidden" name="tipo_formulario" value="<?= $tipo_formulario ?>">
-    <input type="hidden" name="paquete" value="<?= $data['title'] ?? '' ?>">
+            <input type="text" name="website" value="" tabindex="-1" autocomplete="off" aria-hidden="true" class="absolute -left-[9999px] h-px w-px overflow-hidden">
+            <input type="hidden" name="form_started" value="<?= time() ?>">    <input type="hidden" name="paquete" value="<?= $data['title'] ?? '' ?>">
     <input type="hidden" name="lang" value="<?= $lang ?>">
 
     <h3 class="text-xl font-bold text-gray-900 mb-2 text-center font-poppins">

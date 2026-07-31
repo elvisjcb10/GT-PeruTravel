@@ -88,7 +88,7 @@ $footer_ui = [
                 <?php foreach ($footer['enlaces'] as $enlace): ?>
                 <li class="flex items-center gap-2">
 
-                    <a href="<?= $base_url ?>/<?= htmlspecialchars($enlace['url']) ?>"
+                    <a href="<?= htmlspecialchars(route_content_url((string)$enlace['url'], $idioma ?? $lang)) ?>"
                        class="text-sm text-gray-300 font-poppins hover:text-[#ff9300] transition-colors duration-200">
                         <?= htmlspecialchars($enlace['name']) ?>
                     </a>
@@ -109,7 +109,7 @@ $footer_ui = [
             <ul class="space-y-3">
                 <?php foreach ($footer['destinos'] as $destino): ?>
                 <li class="flex items-center gap-2">
-                    <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= htmlspecialchars($destino['url']) ?>&lang=<?= $idioma ?>"
+                    <a href="<?= route_path('tour', $idioma ?? $lang, (string)$destino['url']) ?>"
                        class="text-sm text-gray-300 font-poppins hover:text-[#ff9300] transition-colors duration-200">
                         <?= htmlspecialchars($destino['name']) ?>
                     </a>
@@ -208,7 +208,8 @@ $footer_ui = [
 
 
 <!-- ── Scripts externos ──────────────────────────── -->
-<script src="<?= $base_url ?>/js/whatsapp-floating.js" defer></script>
+<script src="<?= $base_url ?>/js/scroll-reveal.js?v=<?= filemtime(__DIR__ . '/js/scroll-reveal.js') ?>" defer></script>
+<script src="<?= $base_url ?>/js/whatsapp-floating.js?v=<?= filemtime(__DIR__ . '/js/whatsapp-floating.js') ?>" defer></script>
 
 <!-- Analytics -->
 <?php include __DIR__ . '/includes/analytics.php'; ?>

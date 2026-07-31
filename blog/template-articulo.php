@@ -1,11 +1,13 @@
+<?php require_once __DIR__ . '/../config/bootstrap.php'; ?>
 <?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-
-$articulo = preg_replace('/[^a-zA-Z0-9_-]/', '', $_GET['articulo'] ?? 'como-llegar-a-machu-picchu-guia-completa');
-$idioma = $_GET['lang'] ?? 'es';
+$idioma = (string) ($_GET['lang'] ?? 'es');
 if (!in_array($idioma, ['es', 'en', 'pt'], true)) {
     $idioma = 'es';
+}
+$articulo = (string) ($_GET['articulo'] ?? 'como-llegar-a-machu-picchu-guia-completa');
+if (!preg_match('/\A[a-zA-Z0-9_-]{1,220}\z/D', $articulo)) {
+    app_redirect('../404.php?lang=' . rawurlencode($idioma));
+    exit;
 }
 $GLOBALS['lang'] = $idioma;
 $blog_labels = [
@@ -61,14 +63,15 @@ if (!file_exists($article_path)) {
         ? __DIR__ . "/../data/blog/{$translated_slug}.{$idioma}.json"
         : '';
     if ($translated_slug && file_exists($translated_path)) {
-        header('Location: template-articulo.php?articulo=' . rawurlencode($translated_slug) . '&lang=' . rawurlencode($idioma));
+        app_redirect(route_path('blog', $idioma, $translated_slug), 301);
         exit;
     }
-    header('Location: ../blog.php?lang=' . rawurlencode($idioma));
+    app_redirect(route_static_path('blog', $idioma));
     exit;
 }
 
 $data = json_decode(file_get_contents($article_path), true);
+route_redirect_legacy('blog', $idioma, $articulo);
 if (!is_array($data)) {
     http_response_code(500);
     exit($labels['load_error']);
@@ -84,10 +87,10 @@ if ($article_language === '') {
 if ($article_language !== $idioma) {
     $translated_slug = $find_translation($articulo, $idioma);
     if ($translated_slug) {
-        header('Location: template-articulo.php?articulo=' . rawurlencode($translated_slug) . '&lang=' . rawurlencode($idioma));
+        app_redirect(route_path('blog', $idioma, $translated_slug), 301);
         exit;
     }
-    header('Location: ../blog.php?lang=' . rawurlencode($idioma));
+    app_redirect(route_static_path('blog', $idioma));
     exit;
 }
 
@@ -151,10 +154,19 @@ if (empty($data['more_articles'])) {
 }
 
 if (!empty($data['content_html'])) {
+    $data['content_html'] = preg_replace('~<h1(\s[^>]*)?>~i', '<h2$1>', $data['content_html']);
+    $data['content_html'] = preg_replace('~</h1>~i', '</h2>', $data['content_html']);
     $data['content_html'] = preg_replace_callback(
         '~href="https?://(?:www\.)?gtperutravel\.com/blog/(?:en/|pt/)?([^/"#?]+)/*(?:[?#][^"]*)?"~i',
-        static function ($matches) use ($lang) {
-            return 'href="template-articulo.php?articulo=' . rawurlencode($matches[1]) . '&amp;lang=' . rawurlencode($lang) . '"';
+        static function ($matches) use ($idioma) {
+            return 'href="' . route_path('blog', $idioma, (string)$matches[1]) . '"';
+        },
+        $data['content_html']
+    );
+    $data['content_html'] = preg_replace_callback(
+        '~href="(https?://(?:www\.)?gtperutravel\.com/(?:tour|paquete|destino)/template-[^"]+\.php\?[^"]+)"~i',
+        static function ($matches) use ($idioma) {
+            return 'href="' . route_content_url((string)$matches[1], $idioma) . '"';
         },
         $data['content_html']
     );
@@ -184,27 +196,22 @@ $seo_description = $data['seo']['description'] ?? $data['excerpt'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= htmlspecialchars($seo_title) ?></title>
-    <meta name="description" content="<?= htmlspecialchars($seo_description) ?>">
+    <base href="/">
+    <title><?= htmlspecialchars(seo_clean_text((string)$seo_title, 65)) ?></title>
+    <meta name="description" content="<?= htmlspecialchars(seo_clean_text((string)$seo_description, 160)) ?>">
+    <?php seo_render([
+        'title' => $seo_title, 'description' => $seo_description,
+        'path' => route_path('blog', $idioma, $articulo), 'params' => [], 'language' => $idioma,
+        'image' => (string)($data['hero_image'] ?? '/images/gt-peru-travel.png'), 'type' => 'article',
+        'date_published' => (string)($data['date_iso'] ?? ''), 'date_modified' => (string)($data['modified_iso'] ?? $data['date_iso'] ?? ''), 'alternates' => route_blog_alternates($articulo, $idioma),
+    ]); ?>
     <link rel="icon" href="../assets/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        poppins: ['Poppins', 'sans-serif'],
-                        anton: ['Anton', 'sans-serif']
-                    }
-                }
-            }
-        }
-    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/tailwind.min.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="bg-white text-gray-900">
@@ -212,7 +219,7 @@ $seo_description = $data['seo']['description'] ?? $data['excerpt'];
 
     <main>
         <section class="relative flex min-h-[410px] items-end overflow-hidden bg-gray-950 sm:min-h-[480px] lg:min-h-[540px]">
-            <img src="<?= htmlspecialchars(blog_image_url($data['hero_image'], $base_url)) ?>"
+            <img src="<?= htmlspecialchars(blog_image_url($data['hero_image'], $base_url)) ?>" loading="eager" fetchpriority="high" decoding="async"
                 alt="<?= htmlspecialchars($data['title']) ?>"
                 class="absolute inset-0 h-full w-full object-cover">
             <div class="absolute inset-0 bg-gradient-to-r from-black/85 via-black/55 to-black/20"></div>
@@ -220,9 +227,10 @@ $seo_description = $data['seo']['description'] ?? $data['excerpt'];
 
             <div class="relative z-10 container-custom mx-auto w-full px-4 pb-9 pt-20 sm:px-6 sm:pb-12 sm:pt-24 md:px-10 lg:px-20 lg:pb-16">
                 <div class="max-w-3xl">
-                    <span class="inline-flex rounded bg-orange-custom px-4 py-2 font-poppins text-[0.65rem] font-bold uppercase tracking-[0.15em] text-white">
-                        <?= htmlspecialchars($data['category']) ?>
-                    </span>
+                    <div class="hero-section-kicker">
+                        <span class="hero-section-kicker__line" aria-hidden="true"></span>
+                        <span><?= htmlspecialchars($data['category']) ?></span>
+                    </div>
                     <h1 class="mt-4 font-poppins text-2xl font-bold leading-tight text-white min-[420px]:text-3xl sm:mt-5 sm:text-4xl md:text-5xl">
                         <?= htmlspecialchars($data['title']) ?>
                     </h1>
@@ -420,7 +428,7 @@ $seo_description = $data['seo']['description'] ?? $data['excerpt'];
                                     <p class="font-poppins text-[0.65rem] font-bold uppercase tracking-[0.14em] text-orange-custom"><?= htmlspecialchars($labels['related']) ?></p>
                                     <div class="mt-4 space-y-4">
                                         <?php foreach ($data['related'] as $related): ?>
-                                            <a href="template-articulo.php?articulo=<?= rawurlencode($related['slug'] ?? '') ?>&amp;lang=<?= rawurlencode($lang) ?>" class="grid grid-cols-[70px_1fr] gap-3 rounded-lg transition hover:bg-gray-50">
+                                            <a href="<?= route_path('blog', $idioma, (string)($related['slug'] ?? '')) ?>" class="grid grid-cols-[70px_1fr] gap-3 rounded-lg transition hover:bg-gray-50">
                                                 <img src="<?= htmlspecialchars(blog_image_url($related['image'], $base_url)) ?>"
                                                     alt="<?= htmlspecialchars($related['title']) ?>"
                                                     class="h-16 w-full rounded-lg object-cover">
@@ -454,7 +462,7 @@ $seo_description = $data['seo']['description'] ?? $data['excerpt'];
                             <div class="swiper-wrapper">
                                 <?php foreach ($data['more_articles'] as $item): ?>
                                     <div class="swiper-slide h-auto">
-                                        <a href="template-articulo.php?articulo=<?= rawurlencode($item['slug'] ?? '') ?>&amp;lang=<?= rawurlencode($lang) ?>" class="group block h-full overflow-hidden rounded-xl border border-gray-200 bg-white transition hover:-translate-y-1 hover:shadow-lg">
+                                        <a href="<?= route_path('blog', $idioma, (string)($item['slug'] ?? '')) ?>" class="group block h-full overflow-hidden rounded-xl border border-gray-200 bg-white transition hover:-translate-y-1 hover:shadow-lg">
                                             <div class="h-44 overflow-hidden">
                                                 <img src="<?= htmlspecialchars(blog_image_url($item['image'], $base_url)) ?>"
                                                     alt="<?= htmlspecialchars($item['title']) ?>"

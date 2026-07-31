@@ -1,6 +1,5 @@
+<?php require_once __DIR__ . '/config/bootstrap.php'; ?>
 <?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
 
 $idioma = $_GET['lang'] ?? 'es';
 $allowed = ['es', 'en', 'pt'];
@@ -9,6 +8,7 @@ if (!in_array($idioma, $allowed)) {
 }
 
 $base_url = ".";
+route_redirect_static('contacto', $idioma);
 $contact_meta = [
     'es' => ['title' => 'Contáctanos | GT Peru Travel', 'description' => 'Contáctanos y planifica tu próxima aventura por el Perú con GT Peru Travel.'],
     'en' => ['title' => 'Contact Us | GT Peru Travel', 'description' => 'Contact GT Peru Travel and start planning your next adventure in Peru.'],
@@ -33,8 +33,14 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
     <title><?= htmlspecialchars($contact_meta['title']) ?></title>
     <meta name="description" content="<?= htmlspecialchars($contact_meta['description']) ?>">
+    <?php seo_render([
+        'title' => $contact_meta['title'], 'description' => $contact_meta['description'],
+        'path' => route_static_path('contacto', $idioma), 'params' => [], 'language' => $idioma,
+        'alternates' => route_static_alternates('contacto'),
+    ]); ?>
     <meta name="keywords" content="contacto, nosotros, about, email, correo, contact, tours a Machu Picchu, turismo en Cusco, viajes a Perú, paquetes turísticos, GT Peru Travel">
 
     <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
@@ -42,24 +48,11 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        poppins: ['Poppins', 'sans-serif'],
-                        anton: ['Anton', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="/css/tailwind.min.css">
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -78,7 +71,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
          *********************** -->
         <section class="page-hero page-hero--centered responsive-hero relative w-full bg-black overflow-hidden">
 
-            <img src="<?= $base_url . $contacto['hero']['background'] ?>"
+            <img src="<?= $base_url . $contacto['hero']['background'] ?>" loading="eager" fetchpriority="high" decoding="async"
                  alt="<?= htmlspecialchars($contacto['hero']['title_primary'] . ' ' . $contacto['hero']['title_secondary']) ?>"
                  class="absolute inset-0 w-full h-full object-cover">
 
@@ -133,7 +126,11 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
                             <?= htmlspecialchars($contacto['formulario']['description']) ?>
                         </p>
 
-                        <form id="form-contacto" class="space-y-5">
+                        <form id="form-contacto" action="/mail/enviar.php" method="POST" class="space-y-5">
+                            <input type="hidden" name="tipo_formulario" value="contacto">
+            <input type="text" name="website" value="" tabindex="-1" autocomplete="off" aria-hidden="true" class="absolute -left-[9999px] h-px w-px overflow-hidden">
+            <input type="hidden" name="form_started" value="<?= time() ?>">                            <input type="hidden" name="lang" value="<?= htmlspecialchars($idioma) ?>">
+                            <input type="hidden" name="paquete" value="Contacto general">
 
                             <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
                                 <div>
@@ -159,7 +156,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
                                     <label class="block text-xs font-bold font-poppins uppercase tracking-wide text-gray-700 mb-2">
                                         <?= $contacto['formulario']['campos']['whatsapp']['label'] ?>
                                     </label>
-                                    <input type="tel" name="whatsapp" required
+                                    <input type="tel" name="numero" required
                                            placeholder="<?= $contacto['formulario']['campos']['whatsapp']['placeholder'] ?>"
                                            class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg font-poppins text-sm focus:outline-none focus:border-orange-custom transition">
                                 </div>
@@ -167,7 +164,7 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
                                     <label class="block text-xs font-bold font-poppins uppercase tracking-wide text-gray-700 mb-2">
                                         <?= $contacto['formulario']['campos']['email']['label'] ?>
                                     </label>
-                                    <input type="email" name="email" required
+                                    <input type="email" name="correo" required
                                            placeholder="<?= $contacto['formulario']['campos']['email']['placeholder'] ?>"
                                            class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg font-poppins text-sm focus:outline-none focus:border-orange-custom transition">
                                 </div>
@@ -178,14 +175,14 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
                                     <label class="block text-xs font-bold font-poppins uppercase tracking-wide text-gray-700 mb-2">
                                         <?= $contacto['formulario']['campos']['fecha']['label'] ?>
                                     </label>
-                                    <input type="date" name="fecha_viaje"
+                                    <input type="date" name="fecha"
                                            class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg font-poppins text-sm focus:outline-none focus:border-orange-custom transition">
                                 </div>
                                 <div>
                                     <label class="block text-xs font-bold font-poppins uppercase tracking-wide text-gray-700 mb-2">
                                         <?= $contacto['formulario']['campos']['personas']['label'] ?>
                                     </label>
-                                    <select name="personas"
+                                    <select name="categoria_servicio"
                                             class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg font-poppins text-sm focus:outline-none focus:border-orange-custom transition text-gray-500">
                                         <option value=""><?= htmlspecialchars($traveler_options[0]) ?></option>
                                         <option value="1"><?= htmlspecialchars($traveler_options[1]) ?></option>
@@ -204,6 +201,11 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
                                           placeholder="<?= $contacto['formulario']['campos']['mensaje']['placeholder'] ?>"
                                           class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg font-poppins text-sm focus:outline-none focus:border-orange-custom transition resize-none"></textarea>
                             </div>
+
+                            <div class="contact-recaptcha flex justify-center overflow-hidden">
+                                <div class="g-recaptcha" data-sitekey="6LdyCx4sAAAAAELQ_dpHqqj8_LjMaqWA4wa4ZiTF"></div>
+                            </div>
+                            <div id="contacto-form-status" class="text-center text-sm font-poppins" aria-live="polite"></div>
 
                             <button type="submit"
                                     class="w-full bg-orange-custom hover:bg-[#c2660a] text-white font-bold font-poppins py-3.5 rounded-lg transition">
@@ -399,13 +401,14 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
 
     <?php include('footer.php') ?>
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
     <script src="js/mobile-menu.js"></script>
     <script src="js/mega-menu.js"></script>
 
     <!-- FAQ acordeon (contacto) -->
     <script src="js/contacto-faq-accordion.js"></script>
     <!-- Envío del formulario -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="js/contacto-form.js"></script>
 
 </body>

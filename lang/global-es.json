@@ -1,5 +1,5 @@
 {
-    "descripcion":  "DescripciÃ³n",
+    "descripcion":  "Descripción",
     "itinerario":  "Itinerario",
     "desde":  "Desde:",
     "reserva_titulo":  "Reserva tu lugar",
@@ -8,7 +8,7 @@
     "incluye":  "Incluye",
     "no_incluye":  "No Incluye",
     "ver_mapa":  "Ver mapa en grande",
-    "ver_mas_dias":  "Ver mÃ¡s dÃ­as",
+    "ver_mas_dias":  "Ver más días",
     "sobre_el_paquete":  "Sobre El Paquete",
     "que":  "Que",
     "dia_a_dia":  "Dia A Dia",
@@ -32,8 +32,8 @@
     "ver_detalles":  "Ver Detalles",
     "tours":  "Tours",
     "relacionados":  "Relacionados",
-    "duracion":  "DuraciÃ³n",
+    "duracion":  "Duración",
     "dificultad":  "Dificultad",
-    "altitud_maxima":  "Altitud MÃ¡xima",
+    "altitud_maxima":  "Altitud Máxima",
     "tipo_servicio":  "Tipo de servicio"
 }

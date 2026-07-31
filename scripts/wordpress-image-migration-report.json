@@ -1,0 +1,3032 @@
+{
+    "settings":  {
+                     "max_size":  [
+                                      1400,
+                                      1400
+                                  ],
+                     "quality":  78
+                 },
+    "remote_urls_found":  934,
+    "canonical_groups":  301,
+    "groups_migrated":  301,
+    "groups_failed":  0,
+    "json_files_updated":  739,
+    "downloaded_bytes":  268142094,
+    "optimized_bytes":  37756682,
+    "saved_transfer_bytes":  230385412,
+    "remaining_remote_urls":  [
+
+                              ],
+    "migrated":  [
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/02/Valle-sagrado-de-los-incas-lugares-imperdibles-y-consejos-utiles.jpg",
+                         "local":  "images/blog/content/valle-sagrado-de-los-incas-lugares-imperdibles-y-consejos-utiles-da4c0ac9bd.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  191359,
+                         "bytes":  124638,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/02/camino-inca-vs.-salkantay-Â¿Cual-trek-elegir.jpg",
+                         "local":  "images/blog/content/camino-inca-vs--salkantay--cual-trek-elegir-3e52996587.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  187569,
+                         "bytes":  149796,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/02/como-aclimatarse-a-la-altura-en-cusco-y-evitar-el-soroche.jpg",
+                         "local":  "images/blog/content/como-aclimatarse-a-la-altura-en-cusco-y-evitar-el-soroche-045708590b.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  163708,
+                         "bytes":  77654,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/02/cual-es-la-mejor-epoca-para-viajar-a-cusco-y-machu-picchu.jpg",
+                         "local":  "images/blog/content/cual-es-la-mejor-epoca-para-viajar-a-cusco-y-machu-picchu-f69f31f38f.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  177898,
+                         "bytes":  90450,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/02/las-10-mejores-experiencias-de-aventura-en-cusco.jpg",
+                         "local":  "images/blog/content/las-10-mejores-experiencias-de-aventura-en-cusco-2b83f9193c.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  127368,
+                         "bytes":  79908,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/02/los-mejores-tours-no-tan-conocidos-en-cusco.jpg",
+                         "local":  "images/blog/content/los-mejores-tours-no-tan-conocidos-en-cusco-0ede798d34.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  168601,
+                         "bytes":  85074,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/02/machupicchu-guia-completa-2025.jpg",
+                         "local":  "images/blog/content/machupicchu-guia-completa-2025-3af6fb85d8.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  144434,
+                         "bytes":  95076,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/02/que-hacer-en-cusco-en-3-5-y-7-dias-itinerarios-recomendados.jpg",
+                         "local":  "images/blog/content/que-hacer-en-cusco-en-3-5-y-7-dias-itinerarios-recomendados-45c166815b.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  255891,
+                         "bytes":  158846,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/02/turismo-gastronomico-en-cusco-10-platos-que-debes-probar.jpg",
+                         "local":  "images/blog/content/turismo-gastronomico-en-cusco-10-platos-que-debes-probar-8e22548d08.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  152405,
+                         "bytes":  68260,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/02/vinicunca-vs-palcoyo.jpg",
+                         "local":  "images/blog/content/vinicunca-vs-palcoyo-dc8d8b4aaa.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  207678,
+                         "bytes":  111752,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Aventuras-en-el-Amazonas-Explorando-la-Flora-y-Fauna-Unica-del-Peru.jpg",
+                         "local":  "images/blog/content/aventuras-en-el-amazonas-explorando-la-flora-y-fauna-unica-del-peru-e77dc3f3e6.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  90363,
+                         "bytes":  69090,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Calles-con-Siete-en-su-Nombre-en-Cusco-y-su-Significado.jpg",
+                         "local":  "images/blog/content/calles-con-siete-en-su-nombre-en-cusco-y-su-significado-fa082b8d8f.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  117662,
+                         "bytes":  87644,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Caminatas-Cortas-en-Cusco-Miradores-y-Calles-con-Historia.jpg",
+                         "local":  "images/blog/content/caminatas-cortas-en-cusco-miradores-y-calles-con-historia-d56d38d1b2.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  110063,
+                         "bytes":  109812,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Caminatas-Nocturnas-en-Cusco-Historia-y-Misterio-Bajo-las-Estrellas.jpg",
+                         "local":  "images/blog/content/caminatas-nocturnas-en-cusco-historia-y-misterio-bajo-las-estrellas-c1460dc5e5.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  66602,
+                         "bytes":  46774,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Como-aclimatarse-a-la-altura-en-Cusco-y-evitar-el-mal-de-altura.jpg",
+                         "local":  "images/blog/content/como-aclimatarse-a-la-altura-en-cusco-y-evitar-el-mal-de-altura-1726f025e5.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  133519,
+                         "bytes":  134922,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Como-hacer-el-Camino-Inca-a-Machu-Picchu-Guia-completa-para-2025.jpg",
+                         "local":  "images/blog/content/como-hacer-el-camino-inca-a-machu-picchu-guia-completa-para-2025-6ce8c5a3f9.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  117398,
+                         "bytes":  107514,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Como-organizar-un-viaje-familiar-a-Cusco-con-ninos.jpg",
+                         "local":  "images/blog/content/como-organizar-un-viaje-familiar-a-cusco-con-ninos-24e5bd73dc.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  151606,
+                         "bytes":  146100,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Como-preparar-tu-cuerpo-para-una-caminata-a-mas-de-4000-metros-de-altura.jpg",
+                         "local":  "images/blog/content/como-preparar-tu-cuerpo-para-una-caminata-a-mas-de-4000-metros-de-altura-c54deaac24.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  80961,
+                         "bytes":  60078,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Consejos-para-viajar-en-tren-a-Machu-Picchu-Opciones-y-recomendaciones.jpg",
+                         "local":  "images/blog/content/consejos-para-viajar-en-tren-a-machu-picchu-opciones-y-recomendaciones-3db65c892b.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  136186,
+                         "bytes":  140994,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Cusco-en-3-5-o-7-dias-Itinerarios-segun-tu-tiempo-y-presupuesto.jpg",
+                         "local":  "images/blog/content/cusco-en-3-5-o-7-dias-itinerarios-segun-tu-tiempo-y-presupuesto-9154f0ce86.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  133969,
+                         "bytes":  146742,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Cusco-en-temporada-de-lluvias-Es-buena-idea-visitarlo.jpg",
+                         "local":  "images/blog/content/cusco-en-temporada-de-lluvias-es-buena-idea-visitarlo-76c406dbc6.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  45343,
+                         "bytes":  31764,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/De-Arequipa-0a-Puno-Un-viaje-inolvidable-por-el-sur-del-Peru.jpg",
+                         "local":  "images/blog/content/de-arequipa-0a-puno-un-viaje-inolvidable-por-el-sur-del-peru-0f6a6d503c.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  83837,
+                         "bytes":  67964,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/De-Lima-a-Cusco-La-ruta-perfecta-para-un-viaje-inolvidable.jpg",
+                         "local":  "images/blog/content/de-lima-a-cusco-la-ruta-perfecta-para-un-viaje-inolvidable-e9afa3a22d.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  128931,
+                         "bytes":  130728,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Descubre-el-encanto-de-Cusco-Mas-alla-de-Machu-Picchu.jpg",
+                         "local":  "images/blog/content/descubre-el-encanto-de-cusco-mas-alla-de-machu-picchu-872a772a6d.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  102370,
+                         "bytes":  89306,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Escapadas-Romanticas-en-Peru-Destinos-Perfectos-para-Parejas.jpg",
+                         "local":  "images/blog/content/escapadas-romanticas-en-peru-destinos-perfectos-para-parejas-e59b3a17ff.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  98579,
+                         "bytes":  90116,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Escapadas-de-Fin-de-Semana-Desde-Lima-Playas-Montanas-y-Mas.jpg",
+                         "local":  "images/blog/content/escapadas-de-fin-de-semana-desde-lima-playas-montanas-y-mas-c60d6981ee.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  115703,
+                         "bytes":  111392,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Explorando-el-Valle-Rojo-La-joya-escondida-junto-a-Vinicunca.jpg",
+                         "local":  "images/blog/content/explorando-el-valle-rojo-la-joya-escondida-junto-a-vinicunca-b2bfdde51d.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  100083,
+                         "bytes":  88434,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Festividades-gastronomicas-en-Peru-Â¿Cuando-y-donde-probar-lo-mejor-de-la-cocina-peruana.jpg",
+                         "local":  "images/blog/content/festividades-gastronomicas-en-peru--cuando-y-donde-probar-lo-mejor-de-la-cocina-peruana-df5ab1eed6.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  107524,
+                         "bytes":  95998,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Fiestas-y-festivales-peruanos-que-no-te-puedes-perder-en-2025.jpg",
+                         "local":  "images/blog/content/fiestas-y-festivales-peruanos-que-no-te-puedes-perder-en-2025-137c1b874a.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  92742,
+                         "bytes":  78820,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Guia-definitiva-para-recorrer-el-Valle-Sagrado-de-los-Incas.jpg",
+                         "local":  "images/blog/content/guia-definitiva-para-recorrer-el-valle-sagrado-de-los-incas-bbdf1b73e2.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  107201,
+                         "bytes":  95382,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Guia-definitiva-para-visitar-la-Montana-de-7-Colores-sin-morir-en-el-intento.jpg",
+                         "local":  "images/blog/content/guia-definitiva-para-visitar-la-montana-de-7-colores-sin-morir-en-el-intento-532c1830d7.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  123236,
+                         "bytes":  120982,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Huacachina-de-Noche-Sandboarding-Buggy-y-Leyendas-Bajo-las-Estrellas.jpg",
+                         "local":  "images/blog/content/huacachina-de-noche-sandboarding-buggy-y-leyendas-bajo-las-estrellas-edd965890a.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  115703,
+                         "bytes":  111392,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Las-Mejores-Aguas-Termales-en-Peru-para-Relajarte-Despues-de-una-Aventura.jpg",
+                         "local":  "images/blog/content/las-mejores-aguas-termales-en-peru-para-relajarte-despues-de-una-aventura-00e27a7abb.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  164942,
+                         "bytes":  183862,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Las-Mejores-Experiencias-de-Turismo-Astronomico-en-el-Valle-Sagrado.jpg",
+                         "local":  "images/blog/content/las-mejores-experiencias-de-turismo-astronomico-en-el-valle-sagrado-7510f07bc5.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  102734,
+                         "bytes":  89028,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Las-Mejores-Rutas-en-Moto-por-Cusco-Aventura-Sobre-Ruedas.jpg",
+                         "local":  "images/blog/content/las-mejores-rutas-en-moto-por-cusco-aventura-sobre-ruedas-abd25255ae.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  132787,
+                         "bytes":  130816,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Las-mejores-experiencias-de-turismo-vivencial-en-los-Andes-peruanos.jpg",
+                         "local":  "images/blog/content/las-mejores-experiencias-de-turismo-vivencial-en-los-andes-peruanos-0bbbd348a0.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  86828,
+                         "bytes":  80100,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Las-mejores-rutas-de-trekking-en-Cusco-Desde-Salkantay-hasta-Choquequirao.jpg",
+                         "local":  "images/blog/content/las-mejores-rutas-de-trekking-en-cusco-desde-salkantay-hasta-choquequirao-dc01c819ef.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  143600,
+                         "bytes":  160056,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Los-5-Mejores-Trekking-en-Peru-que-Todo-Aventurero-Debe-Hacer.jpg",
+                         "local":  "images/blog/content/los-5-mejores-trekking-en-peru-que-todo-aventurero-debe-hacer-3e606e9f67.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  87918,
+                         "bytes":  75432,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Los-Balnearios-Mas-Hermosos-del-Peru-para-una-Escapada-Perfecta.jpg",
+                         "local":  "images/blog/content/los-balnearios-mas-hermosos-del-peru-para-una-escapada-perfecta-b7920976af.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  84497,
+                         "bytes":  71538,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Los-Museos-Mas-Fascinantes-de-Cusco-que-No-Puedes-Perderte.jpg",
+                         "local":  "images/blog/content/los-museos-mas-fascinantes-de-cusco-que-no-puedes-perderte-d2f4d2921f.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  96256,
+                         "bytes":  90060,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Machu-Picchu-en-un-dia-Vale-la-pena-o-es-mejor-quedarse-mas-tiempo.jpg",
+                         "local":  "images/blog/content/machu-picchu-en-un-dia-vale-la-pena-o-es-mejor-quedarse-mas-tiempo-3b62842515.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  109540,
+                         "bytes":  106644,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Mitos-y-leyendas-de-los-Andes-peruanos-Historias-que-debes-conocer.jpg",
+                         "local":  "images/blog/content/mitos-y-leyendas-de-los-andes-peruanos-historias-que-debes-conocer-a878465997.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  81844,
+                         "bytes":  64538,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Pueblos-Fantasmas-en-Peru-Historia-Misterio-y-Paisajes-Unicos.jpg",
+                         "local":  "images/blog/content/pueblos-fantasmas-en-peru-historia-misterio-y-paisajes-unicos-03d70aec86.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  102000,
+                         "bytes":  84772,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Ruta-gastronomica-Descubre-los-mejores-platos-peruanos-en-cada-region.jpg",
+                         "local":  "images/blog/content/ruta-gastronomica-descubre-los-mejores-platos-peruanos-en-cada-region-9d343ded1e.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  124744,
+                         "bytes":  118944,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Rutas-en-tren-por-Peru-Viajes-escenicos-para-los-amantes-del-paisaje.jpg",
+                         "local":  "images/blog/content/rutas-en-tren-por-peru-viajes-escenicos-para-los-amantes-del-paisaje-6143f8331f.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  110455,
+                         "bytes":  96656,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Turismo-de-Misterio-en-Cusco-Leyendas-y-Lugares-Sobrenaturales.jpg",
+                         "local":  "images/blog/content/turismo-de-misterio-en-cusco-leyendas-y-lugares-sobrenaturales-7afe3e9aaf.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  74361,
+                         "bytes":  52654,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Turismo-de-aventura-en-Peru-5-experiencias-extremas-para-los-mas-atrevidos.jpg",
+                         "local":  "images/blog/content/turismo-de-aventura-en-peru-5-experiencias-extremas-para-los-mas-atrevidos-46671358b0.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  130363,
+                         "bytes":  131874,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Turismo-de-lujo-en-Peru-Hoteles-y-experiencias-exclusivas.jpg",
+                         "local":  "images/blog/content/turismo-de-lujo-en-peru-hoteles-y-experiencias-exclusivas-7e2b3eab6e.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  84264,
+                         "bytes":  68618,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Un-viaje-inolvidable-al-Lago-Titicaca-Las-sorprendentes-islas-flotantes-y-su-cultura-viva.jpg",
+                         "local":  "images/blog/content/un-viaje-inolvidable-al-lago-titicaca-las-sorprendentes-islas-flotantes-y-su-cultura-viva-f28b9407ba.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  119381,
+                         "bytes":  94378,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/Viajar-solo-a-Cusco-Consejos-y-experiencias-para-aventureros.jpg",
+                         "local":  "images/blog/content/viajar-solo-a-cusco-consejos-y-experiencias-para-aventureros-d2e01a29b7.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  117391,
+                         "bytes":  119892,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/carnavales-cusco-peru-2025.jpg",
+                         "local":  "images/blog/content/carnavales-cusco-peru-2025-a62ab26f5b.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  113869,
+                         "bytes":  89342,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/03/sacsehuman-cusco-peru.jpg",
+                         "local":  "images/blog/content/sacsehuman-cusco-peru-cb9c752386.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  172168,
+                         "bytes":  128262,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/04/papa-francisco-peru-cusco.jpg",
+                         "local":  "images/blog/content/papa-francisco-peru-cusco-251f34e72a.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  95302,
+                         "bytes":  50278,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/04/semana-santa-cusco-peru-2025.png",
+                         "local":  "images/blog/content/semana-santa-cusco-peru-2025-ee1d2789c2.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  449661,
+                         "bytes":  187074,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/04/templos-cusco-peru-religion.jpg",
+                         "local":  "images/blog/content/templos-cusco-peru-religion-872a397f0c.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  112991,
+                         "bytes":  99236,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/05/boleto-turistico-cusco-peru.jpg",
+                         "local":  "images/blog/content/boleto-turistico-cusco-peru-1c71fb0a70.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  167933,
+                         "bytes":  121126,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/05/cruz-velacuy-cusco-peru-1.jpg",
+                         "local":  "images/blog/content/cruz-velacuy-cusco-peru-1-0804c2ddbb.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  112595,
+                         "bytes":  67146,
+                         "width":  1200,
+                         "height":  546
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/05/el-mejor-itinerario-para-conocer-cusco-en-5-dias.jpg",
+                         "local":  "images/blog/content/el-mejor-itinerario-para-conocer-cusco-en-5-dias-d70e647a95.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  151088,
+                         "bytes":  81052,
+                         "width":  1400,
+                         "height":  787
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/05/felices-fiestas-del-cusco-peru.jpg",
+                         "local":  "images/blog/content/felices-fiestas-del-cusco-peru-20e6bccd98.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  425672,
+                         "bytes":  121398,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/05/nuevo-terminal-aereo-en-lima-peru-lo-que-debes-saber-para-tu-viaje-a-cusco-en-2025-descripcion.jpg",
+                         "local":  "images/blog/content/nuevo-terminal-aereo-en-lima-peru-lo-que-debes-saber-para-tu-viaje-a-cusco-en-2025-descrip-3136f5bf5c.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  333765,
+                         "bytes":  191168,
+                         "width":  1326,
+                         "height":  1400
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/05/nuevo-terminal-aereo-en-lima-peru-lo-que-debes-saber-para-tu-viaje-a-cusco-en-2025.jpg",
+                         "local":  "images/blog/content/nuevo-terminal-aereo-en-lima-peru-lo-que-debes-saber-para-tu-viaje-a-cusco-en-2025-6ee1e6fdf3.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  200531,
+                         "bytes":  111132,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/05/palcoyo-lugar-hermoso-cusco-peru.jpg",
+                         "local":  "images/blog/content/palcoyo-lugar-hermoso-cusco-peru-e80b7576e7.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  278616,
+                         "bytes":  175316,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/06/corpus-christi-en-cusco-una-fiesta-de-fe-cultura-y-tradicion-andina.jpg",
+                         "local":  "images/blog/content/corpus-christi-en-cusco-una-fiesta-de-fe-cultura-y-tradicion-andina-216c4ee8b7.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  287501,
+                         "bytes":  155474,
+                         "width":  1400,
+                         "height":  787
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/06/corpus-christi-sincretismo-andino-y-catolico.jpg",
+                         "local":  "images/blog/content/corpus-christi-sincretismo-andino-y-catolico-1d73bb9036.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  293017,
+                         "bytes":  198478,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/06/disfruta-peru-y-cusco-con-amigos-el-viaje-que-nunca-olvidaras-gastronomia-peruana.jpg",
+                         "local":  "images/blog/content/disfruta-peru-y-cusco-con-amigos-el-viaje-que-nunca-olvidaras-gastronomia-peruana-fd993bbc00.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  189642,
+                         "bytes":  111888,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/06/inti-raymi-cusco-peru.jpg",
+                         "local":  "images/blog/content/inti-raymi-cusco-peru-bd7de501ce.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  225597,
+                         "bytes":  106362,
+                         "width":  1400,
+                         "height":  787
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/06/inti-raymi-en-cusco-2025-vive-la-fiesta-del-sol-en-el-corazon-del-imperio-inca.jpg",
+                         "local":  "images/blog/content/inti-raymi-en-cusco-2025-vive-la-fiesta-del-sol-en-el-corazon-del-imperio-inca-20735c1780.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  343840,
+                         "bytes":  207002,
+                         "width":  1400,
+                         "height":  787
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/06/junio-en-cusco-el-mes-mas-festivo-del-ano-y-una-experiencia-inolvidable.jpg",
+                         "local":  "images/blog/content/junio-en-cusco-el-mes-mas-festivo-del-ano-y-una-experiencia-inolvidable-4cb08744e9.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  167613,
+                         "bytes":  91824,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/06/las-fiestas-del-cusco-tradicion-viva-en-el-corazon-de-los-andes.jpg",
+                         "local":  "images/blog/content/las-fiestas-del-cusco-tradicion-viva-en-el-corazon-de-los-andes-0b82b44cc5.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  184306,
+                         "bytes":  110536,
+                         "width":  1400,
+                         "height":  785
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/06/lomo-saltado-gastronomia-cusco-peru-food.jpg",
+                         "local":  "images/blog/content/lomo-saltado-gastronomia-cusco-peru-food-33a0f7feb3.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  163056,
+                         "bytes":  61276,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/06/variedad-de-comidas-en-cusco-peru-food.jpg",
+                         "local":  "images/blog/content/variedad-de-comidas-en-cusco-peru-food-7deb70c1cd.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  331383,
+                         "bytes":  153946,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/07/10-razones-para-visitar-peru-al-menos-una-vez-en-la-vida.jpg",
+                         "local":  "images/blog/content/10-razones-para-visitar-peru-al-menos-una-vez-en-la-vida-0d2b59b075.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  420815,
+                         "bytes":  238162,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/07/fiestas-patrias-del-peru-cultura-tradicion-y-un-viaje-inolvidable.jpg",
+                         "local":  "images/blog/content/fiestas-patrias-del-peru-cultura-tradicion-y-un-viaje-inolvidable-95f52faad5.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  157379,
+                         "bytes":  84194,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/07/gastronomia-cultura-y-tecnologia-bienvenidos-al-nuevo-aeropuerto-jorge-chavez-en-peru.jpg",
+                         "local":  "images/blog/content/gastronomia-cultura-y-tecnologia-bienvenidos-al-nuevo-aeropuerto-jorge-chavez-en-peru-ede59b5678.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  356195,
+                         "bytes":  128124,
+                         "width":  1400,
+                         "height":  933
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/07/guia-completa-para-viajar-a-peru-en-2025.jpg",
+                         "local":  "images/blog/content/guia-completa-para-viajar-a-peru-en-2025-f56f322c91.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  119470,
+                         "bytes":  64810,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/07/lima-peru-la-ciudad-que-combina-historia-mar-y-sabor-en-cada-rincon.jpg",
+                         "local":  "images/blog/content/lima-peru-la-ciudad-que-combina-historia-mar-y-sabor-en-cada-rincon-938c32049a.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  229277,
+                         "bytes":  148550,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/07/peru-donde-cada-rincon-guarda-historia-hallan-momia-de-1000-anos-por-accidente.jpg",
+                         "local":  "images/blog/content/peru-donde-cada-rincon-guarda-historia-hallan-momia-de-1000-anos-por-accidente-24a7e7a3c4.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  181622,
+                         "bytes":  104630,
+                         "width":  1400,
+                         "height":  787
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/07/rahuanqui-cusco-el-mejor-amanecer-en-los-andes-peruanos.jpg",
+                         "local":  "images/blog/content/rahuanqui-cusco-el-mejor-amanecer-en-los-andes-peruanos-a281a28c8a.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  550373,
+                         "bytes":  241202,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/07/unidos-por-la-aventura-descubriendo-peru-con-amigos-de-todo-el-mundo.jpg",
+                         "local":  "images/blog/content/unidos-por-la-aventura-descubriendo-peru-con-amigos-de-todo-el-mundo-cbb4d0fadc.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  209152,
+                         "bytes":  134114,
+                         "width":  1072,
+                         "height":  602
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2025/08/mejor-epoca-para-visitar-cusco-y-peru-guia-completa-para-planificar-tu-viaje.jpg",
+                         "local":  "images/blog/content/mejor-epoca-para-visitar-cusco-y-peru-guia-completa-para-planificar-tu-viaje-dd25a26332.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  281749,
+                         "bytes":  180542,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/01/215881_f2RqCsqi.jpg",
+                         "local":  "images/blog/content/215881_f2rqcsqi-90cfbb4f60.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  244634,
+                         "bytes":  198204,
+                         "width":  1400,
+                         "height":  747
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/01/Trenes-a-Machu-Picchu-empresas-horarios-y-como-elegir-la-mejor-opcion.-Guia-completa-para-viajar-en-tren-a-Machu-Picchu-1.webp",
+                         "local":  "images/blog/content/trenes-a-machu-picchu-empresas-horarios-y-como-elegir-la-mejor-opcion--guia-completa-para--ea1fbc0d62.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  283504,
+                         "bytes":  119534,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/01/Trenes-a-Machu-Picchu-empresas-horarios-y-como-elegir-la-mejor-opcion.-Guia-completa-para-viajar-en-tren-a-Machu-Picchu.webp",
+                         "local":  "images/blog/content/trenes-a-machu-picchu-empresas-horarios-y-como-elegir-la-mejor-opcion--guia-completa-para--2797bda1fa.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  283504,
+                         "bytes":  119534,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/01/glaciar-de-quelccaya.jpg",
+                         "local":  "images/blog/content/glaciar-de-quelccaya-72d9ca9eba.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  183844,
+                         "bytes":  98282,
+                         "width":  1200,
+                         "height":  800
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/01/image-1.png",
+                         "local":  "images/blog/content/image-1-cb288635bd.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  970180,
+                         "bytes":  108270,
+                         "width":  900,
+                         "height":  503
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/01/tienes-estas-opciones-para-ir-a-machupicchu-en-tren-.jpg",
+                         "local":  "images/blog/content/tienes-estas-opciones-para-ir-a-machupicchu-en-tren-2aa979a21f.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  1245271,
+                         "bytes":  123232,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/01/viajerosacusco-1.jpg",
+                         "local":  "images/blog/content/viajerosacusco-1-1857b59633.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  95087,
+                         "bytes":  122814,
+                         "width":  1080,
+                         "height":  810
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/01/viajerosacusco.jpg",
+                         "local":  "images/blog/content/viajerosacusco-4c70f1d5dc.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  95087,
+                         "bytes":  122814,
+                         "width":  1080,
+                         "height":  810
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/01/Â¿que-tren-tomar-a-machu-picchu-guia-completa-de-empresas-y-servicios-disponibles.jpg",
+                         "local":  "images/blog/content/que-tren-tomar-a-machu-picchu-guia-completa-de-empresas-y-servicios-disponibles-e041b88e5c.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  325331,
+                         "bytes":  127366,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/01/ðŸŒ„-los-mejores-tours-desde-Cusco-para-2026-guia-completa-de-experiencias-unicas.jpg",
+                         "local":  "images/blog/content/los-mejores-tours-desde-cusco-para-2026-guia-completa-de-experiencias-unicas-57f717c387.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  1410490,
+                         "bytes":  127364,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/2HGY6RGHONGLPCZ7WAVYG26R4M.png",
+                         "local":  "images/blog/content/2hgy6rghonglpcz7wavyg26r4m-745eaa45af.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  2936910,
+                         "bytes":  136782,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/7273639476_703fd9a3ca_c-compressed-1.jpg",
+                         "local":  "images/blog/content/7273639476_703fd9a3ca_c-compressed-1-d197cd5736.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  56456,
+                         "bytes":  95838,
+                         "width":  800,
+                         "height":  530
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/7273639476_703fd9a3ca_c-compressed-2.jpg",
+                         "local":  "images/blog/content/7273639476_703fd9a3ca_c-compressed-2-1d7cc6afe8.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  56456,
+                         "bytes":  95838,
+                         "width":  800,
+                         "height":  530
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/7273639476_703fd9a3ca_c-compressed.jpg",
+                         "local":  "images/blog/content/7273639476_703fd9a3ca_c-compressed-631d318cff.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  56456,
+                         "bytes":  95838,
+                         "width":  800,
+                         "height":  530
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/Guia-2026-de-turismo-nocturno-en-Peru-experiencias-unicas-despues-del-atardecer.webp",
+                         "local":  "images/blog/content/guia-2026-de-turismo-nocturno-en-peru-experiencias-unicas-despues-del-atardecer-7f72f9b9f8.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  62510,
+                         "bytes":  54174,
+                         "width":  1024,
+                         "height":  646
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/IMG_7421-01-2.jpg",
+                         "local":  "images/blog/content/img_7421-01-2-45b28b81ac.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  1106248,
+                         "bytes":  214318,
+                         "width":  1200,
+                         "height":  763
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/Laguna-de-Huaypo-Cusco-1.jpg",
+                         "local":  "images/blog/content/laguna-de-huaypo-cusco-1-3871ce7b3d.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  82943,
+                         "bytes":  58968,
+                         "width":  1200,
+                         "height":  750
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/Laguna-de-Huaypo-Cusco-2.jpg",
+                         "local":  "images/blog/content/laguna-de-huaypo-cusco-2-556b5d918e.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  82943,
+                         "bytes":  58968,
+                         "width":  1200,
+                         "height":  750
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/Laguna-de-Huaypo-Cusco.jpg",
+                         "local":  "images/blog/content/laguna-de-huaypo-cusco-109fe1faf9.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  82943,
+                         "bytes":  58968,
+                         "width":  1200,
+                         "height":  750
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/Valle-Sagrado-del-Inca-lugares-imprescindibles-precios-y-como-organizar-tu-dia-desde-Cusco-1.jpg",
+                         "local":  "images/blog/content/valle-sagrado-del-inca-lugares-imprescindibles-precios-y-como-organizar-tu-dia-desde-cusco-5693700aa8.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  283044,
+                         "bytes":  201550,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/Valle-Sagrado-del-Inca-lugares-imprescindibles-precios-y-como-organizar-tu-dia-desde-Cusco.jpg",
+                         "local":  "images/blog/content/valle-sagrado-del-inca-lugares-imprescindibles-precios-y-como-organizar-tu-dia-desde-cusco-ae9c2a873c.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  283044,
+                         "bytes":  201550,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/aventura-extrema-en-cusco.png",
+                         "local":  "images/blog/content/aventura-extrema-en-cusco-83958fe25f.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  2939479,
+                         "bytes":  170322,
+                         "width":  1400,
+                         "height":  993
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/boletos-turisticos-del-cusco.png",
+                         "local":  "images/blog/content/boletos-turisticos-del-cusco-bc7983e03e.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  4210613,
+                         "bytes":  161010,
+                         "width":  1400,
+                         "height":  993
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/camino-inca-cusco-machupicchu.png",
+                         "local":  "images/blog/content/camino-inca-cusco-machupicchu-1d9aaed58b.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  4635481,
+                         "bytes":  243502,
+                         "width":  1400,
+                         "height":  993
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/caption-1.jpg",
+                         "local":  "images/blog/content/caption-1-6477498786.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  126349,
+                         "bytes":  86708,
+                         "width":  900,
+                         "height":  500
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/caption-2.jpg",
+                         "local":  "images/blog/content/caption-2-1953be74ea.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  126349,
+                         "bytes":  86708,
+                         "width":  900,
+                         "height":  500
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/caption.jpg",
+                         "local":  "images/blog/content/caption-7a0419721b.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  126349,
+                         "bytes":  86708,
+                         "width":  900,
+                         "height":  500
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/carnaval_cusco_2025_38-scaled-1.jpg",
+                         "local":  "images/blog/content/carnaval_cusco_2025_38-scaled-1-cc5fbc0999.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  1178595,
+                         "bytes":  246216,
+                         "width":  1400,
+                         "height":  954
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/destinos-top-peru-.png",
+                         "local":  "images/blog/content/destinos-top-peru-33e5bd82fc.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  3569498,
+                         "bytes":  248784,
+                         "width":  1400,
+                         "height":  993
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/documnetos-de-viaje-a-peru-.png",
+                         "local":  "images/blog/content/documnetos-de-viaje-a-peru-fdd31b6ea5.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  4622156,
+                         "bytes":  179716,
+                         "width":  1400,
+                         "height":  993
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/dos-trenes-un-destino-Â¿como-llegar-a-machupicchu.png",
+                         "local":  "images/blog/content/dos-trenes-un-destino--como-llegar-a-machupicchu-55a6b2daf8.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  4846071,
+                         "bytes":  147460,
+                         "width":  1400,
+                         "height":  993
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/guia-para-armar-tu-paquete-perfecto.png",
+                         "local":  "images/blog/content/guia-para-armar-tu-paquete-perfecto-47a33eef03.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  5240995,
+                         "bytes":  266340,
+                         "width":  1400,
+                         "height":  993
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/huaypo-1.webp",
+                         "local":  "images/blog/content/huaypo-1-63357bddd9.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  158926,
+                         "bytes":  80946,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/huaypo-2.webp",
+                         "local":  "images/blog/content/huaypo-2-47d944d424.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  158926,
+                         "bytes":  80946,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/huaypo.webp",
+                         "local":  "images/blog/content/huaypo-8e8b055aac.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  158926,
+                         "bytes":  80946,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/image-2.png",
+                         "local":  "images/blog/content/image-2-69e09bd965.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  4938547,
+                         "bytes":  215794,
+                         "width":  1400,
+                         "height":  932
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/image.png",
+                         "local":  "images/blog/content/image-1536edd8e4.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  3964447,
+                         "bytes":  190402,
+                         "width":  1400,
+                         "height":  934
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/joyas-ocultas-del-cusco.png",
+                         "local":  "images/blog/content/joyas-ocultas-del-cusco-ab4be33647.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  4260783,
+                         "bytes":  185346,
+                         "width":  1400,
+                         "height":  993
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/montana-colores-en-peru.png",
+                         "local":  "images/blog/content/montana-colores-en-peru-8709c03b06.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  6811894,
+                         "bytes":  223648,
+                         "width":  1400,
+                         "height":  990
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/places-to-visit-south-america-photo4.jpg",
+                         "local":  "images/blog/content/places-to-visit-south-america-photo4-99ffb7b4c1.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  408996,
+                         "bytes":  158906,
+                         "width":  1200,
+                         "height":  800
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/salkantay-vs-choquequirao.png",
+                         "local":  "images/blog/content/salkantay-vs-choquequirao-2c44982dfe.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  3544361,
+                         "bytes":  249234,
+                         "width":  1400,
+                         "height":  993
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/sobrevivencia-al-mal-de-altura-en-cusco-.png",
+                         "local":  "images/blog/content/sobrevivencia-al-mal-de-altura-en-cusco-ccd2116a27.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  5027685,
+                         "bytes":  167136,
+                         "width":  1400,
+                         "height":  993
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/tuneles-subterraneos-en-cusco-1.jpg",
+                         "local":  "images/blog/content/tuneles-subterraneos-en-cusco-1-b87f8c7dab.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  260577,
+                         "bytes":  117602,
+                         "width":  1400,
+                         "height":  933
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/tuneles-subterraneos-en-cusco-2.jpg",
+                         "local":  "images/blog/content/tuneles-subterraneos-en-cusco-2-9fbb803009.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  260577,
+                         "bytes":  117602,
+                         "width":  1400,
+                         "height":  933
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/tuneles-subterraneos-en-cusco-4.jpg",
+                         "local":  "images/blog/content/tuneles-subterraneos-en-cusco-4-f1422370ed.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  260577,
+                         "bytes":  117602,
+                         "width":  1400,
+                         "height":  933
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/02/ultimo-dia-en-cusco-actividades-lugares-y-consejos-utiles.jpg",
+                         "local":  "images/blog/content/ultimo-dia-en-cusco-actividades-lugares-y-consejos-utiles-7e6ca4d569.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  524727,
+                         "bytes":  232644,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/250px-Curandero_andino_Asencio_Noa_leyendo_la_hoja_de_coca.jpg",
+                         "local":  "images/blog/content/250px-curandero_andino_asencio_noa_leyendo_la_hoja_de_coca-2f9fbf9d3a.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  35880,
+                         "bytes":  22234,
+                         "width":  250,
+                         "height":  375
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/3-lugares-imperdibles-en-cusco.png",
+                         "local":  "images/blog/content/3-lugares-imperdibles-en-cusco-34600ef5b6.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  2662016,
+                         "bytes":  162092,
+                         "width":  1400,
+                         "height":  993
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/83920905_04658d29-81c4-42ce-8e38-3709df6a473d.jpg",
+                         "local":  "images/blog/content/83920905_04658d29-81c4-42ce-8e38-3709df6a473d-9a34d6e1e4.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  93455,
+                         "bytes":  72390,
+                         "width":  976,
+                         "height":  549
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/D_NQ_NP_621326-MPE86626415307_062025-O.webp",
+                         "local":  "images/blog/content/d_nq_np_621326-mpe86626415307_062025-o-fbe86a4097.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  31052,
+                         "bytes":  28950,
+                         "width":  500,
+                         "height":  490
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/Mamas-1000x600-1.jpg",
+                         "local":  "images/blog/content/mamas-1000x600-1-2f662a01d9.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  101521,
+                         "bytes":  55546,
+                         "width":  1000,
+                         "height":  600
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/Mapas-folleto.png",
+                         "local":  "images/blog/content/mapas-folleto-a4f9386e44.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  4405748,
+                         "bytes":  434126,
+                         "width":  1400,
+                         "height":  933
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/Mate_de_coca_boliviano-scaled.jpg",
+                         "local":  "images/blog/content/mate_de_coca_boliviano-scaled-4c2bab71c8.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  349413,
+                         "bytes":  34414,
+                         "width":  1400,
+                         "height":  934
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/Mate_de_coca_boliviano.jpg",
+                         "local":  "images/blog/content/mate_de_coca_boliviano-e829c3906b.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  23355864,
+                         "bytes":  34252,
+                         "width":  1400,
+                         "height":  933
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/amazonia-peruana.png",
+                         "local":  "images/blog/content/amazonia-peruana-c5a235136d.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  4592922,
+                         "bytes":  144682,
+                         "width":  1400,
+                         "height":  993
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/coca-propiedades1-b9ecb1c9c8693ed82f15780222205778-1024-1024.webp",
+                         "local":  "images/blog/content/coca-propiedades1-b9ecb1c9c8693ed82f15780222205778-1024-1024-a5df4ce97a.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  74412,
+                         "bytes":  59282,
+                         "width":  958,
+                         "height":  1024
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/experiencias-unicas-que-puedes-vivir-en-peru.png",
+                         "local":  "images/blog/content/experiencias-unicas-que-puedes-vivir-en-peru-5d3df83514.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  5679839,
+                         "bytes":  268258,
+                         "width":  1400,
+                         "height":  993
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/fiestas-del-cusco-peru.jpg",
+                         "local":  "images/blog/content/fiestas-del-cusco-peru-621d2cb1ac.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  146553,
+                         "bytes":  112862,
+                         "width":  800,
+                         "height":  533
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/hoja-coca-amazon-andes-1.jpg",
+                         "local":  "images/blog/content/hoja-coca-amazon-andes-1-65ee42651b.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  147767,
+                         "bytes":  79848,
+                         "width":  1200,
+                         "height":  1200
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/huaraz-cordillera-blanca.png",
+                         "local":  "images/blog/content/huaraz-cordillera-blanca-5beead898f.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  3553812,
+                         "bytes":  260738,
+                         "width":  1400,
+                         "height":  993
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/image-1.png",
+                         "local":  "images/blog/content/image-1-15c1e07e7a.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  1210055,
+                         "bytes":  128296,
+                         "width":  960,
+                         "height":  640
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/internet-en-peru-datos-y.wifi_.png",
+                         "local":  "images/blog/content/internet-en-peru-datos-y-wifi_-619c045ba1.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  2601287,
+                         "bytes":  146460,
+                         "width":  1400,
+                         "height":  993
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/lecturacoca1.webp",
+                         "local":  "images/blog/content/lecturacoca1-dd3a226f10.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  179210,
+                         "bytes":  186138,
+                         "width":  1024,
+                         "height":  682
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/mejores-surf-en-peru.png",
+                         "local":  "images/blog/content/mejores-surf-en-peru-442381e841.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  3852333,
+                         "bytes":  145658,
+                         "width":  1400,
+                         "height":  993
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/seguro-de-viaje-en-peru.png",
+                         "local":  "images/blog/content/seguro-de-viaje-en-peru-b1a9a4e095.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  3477095,
+                         "bytes":  85134,
+                         "width":  1400,
+                         "height":  993
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/semana-santa-cusco-peru.jpg",
+                         "local":  "images/blog/content/semana-santa-cusco-peru-5c798a5a27.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  237232,
+                         "bytes":  108886,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/03/valle-sagrado-imperdibles-.png",
+                         "local":  "images/blog/content/valle-sagrado-imperdibles-2b53f768e2.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  5578158,
+                         "bytes":  267586,
+                         "width":  1400,
+                         "height":  993
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/Climas-en-Machu-Picchu-Waman-Adventures-cusco-peru-planifica.jpg",
+                         "local":  "images/blog/content/climas-en-machu-picchu-waman-adventures-cusco-peru-planifica-a2feca9225.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  112688,
+                         "bytes":  70974,
+                         "width":  865,
+                         "height":  400
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/El-Clima-en-Machu-Picchu-mejor-temporada-viajar.jpg",
+                         "local":  "images/blog/content/el-clima-en-machu-picchu-mejor-temporada-viajar-6a8668a8bd.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  203589,
+                         "bytes":  108824,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/calzado-machupicchu-cusco-peru.jpg",
+                         "local":  "images/blog/content/calzado-machupicchu-cusco-peru-bb5d3dc011.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  156774,
+                         "bytes":  95716,
+                         "width":  1280,
+                         "height":  720
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/cambio-dinero-peru-1.jpg",
+                         "local":  "images/blog/content/cambio-dinero-peru-1-0ad4df3b13.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  131390,
+                         "bytes":  68538,
+                         "width":  1280,
+                         "height":  720
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/camino-inca.jpg",
+                         "local":  "images/blog/content/camino-inca-fb525522cf.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  304097,
+                         "bytes":  123760,
+                         "width":  787,
+                         "height":  1400
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/cerro-siete-colores-agencia-gt-peru-travel.jpg",
+                         "local":  "images/blog/content/cerro-siete-colores-agencia-gt-peru-travel-915c586a1b.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  62313,
+                         "bytes":  33178,
+                         "width":  720,
+                         "height":  480
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/circuito-machupicchu-entrada-tipos.jpg",
+                         "local":  "images/blog/content/circuito-machupicchu-entrada-tipos-41525a5eed.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  498199,
+                         "bytes":  220338,
+                         "width":  1400,
+                         "height":  934
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/como-afecta-tipo-cambio-viaje.jpg",
+                         "local":  "images/blog/content/como-afecta-tipo-cambio-viaje-46230f0e06.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  138444,
+                         "bytes":  74306,
+                         "width":  1280,
+                         "height":  720
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/cual-es-la-mejor-epoca-para-viajar-a-cusco.jpeg",
+                         "local":  "images/blog/content/cual-es-la-mejor-epoca-para-viajar-a-cusco-1379ba68a7.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  218085,
+                         "bytes":  59254,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/cuanto-cuesta-visitar-machu-picchu-en-2026.jpeg",
+                         "local":  "images/blog/content/cuanto-cuesta-visitar-machu-picchu-en-2026-6c6899d002.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  307734,
+                         "bytes":  125876,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/cuantos-dias-necesito-para-visitar-cusco-y-machu-picchu.jpg",
+                         "local":  "images/blog/content/cuantos-dias-necesito-para-visitar-cusco-y-machu-picchu-34ec603698.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  317618,
+                         "bytes":  92898,
+                         "width":  1400,
+                         "height":  1050
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/experiencias-aeropuertos-1.jpg",
+                         "local":  "images/blog/content/experiencias-aeropuertos-1-eaa6342d18.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  143211,
+                         "bytes":  69908,
+                         "width":  1194,
+                         "height":  825
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/experiencias-machu-picchu-travel-tips-peru-cusco.jpg",
+                         "local":  "images/blog/content/experiencias-machu-picchu-travel-tips-peru-cusco-97f18ca07f.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  219942,
+                         "bytes":  196442,
+                         "width":  1200,
+                         "height":  675
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/guia-completa-para-viajeros.jpg",
+                         "local":  "images/blog/content/guia-completa-para-viajeros-11a5cb49fc.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  260808,
+                         "bytes":  181712,
+                         "width":  1080,
+                         "height":  1093
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/inti-raymi-2026-cusco-peru.jpg",
+                         "local":  "images/blog/content/inti-raymi-2026-cusco-peru-862d9a49e3.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  245472,
+                         "bytes":  188916,
+                         "width":  1400,
+                         "height":  934
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/intiraymi-2026-cusco-peru1.jpg",
+                         "local":  "images/blog/content/intiraymi-2026-cusco-peru1-52f64652ad.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  406051,
+                         "bytes":  232346,
+                         "width":  1400,
+                         "height":  1399
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/mejores-tours-ver-oso-anteojos-peru-experiencias.jpg",
+                         "local":  "images/blog/content/mejores-tours-ver-oso-anteojos-peru-experiencias-995769e397.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  279736,
+                         "bytes":  89418,
+                         "width":  1400,
+                         "height":  544
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/mochila-machupicchu-llevar-cusco-1.jpg",
+                         "local":  "images/blog/content/mochila-machupicchu-llevar-cusco-1-61df41a473.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  166457,
+                         "bytes":  112328,
+                         "width":  1280,
+                         "height":  720
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/mochila-machupicchu-llevar-cusco-peru.jpg",
+                         "local":  "images/blog/content/mochila-machupicchu-llevar-cusco-peru-0d6c61cbdb.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  111727,
+                         "bytes":  67356,
+                         "width":  1024,
+                         "height":  576
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/opciones-llegar-machupicchu-tipo-viajes-.jpg",
+                         "local":  "images/blog/content/opciones-llegar-machupicchu-tipo-viajes-1d381a622d.webp",
+                         "variants":  6,
+                         "cached":  false,
+                         "downloaded_bytes":  524369,
+                         "bytes":  218196,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/oso-anteojo-machupicchu-cusco-peru.jpg",
+                         "local":  "images/blog/content/oso-anteojo-machupicchu-cusco-peru-205487bdef.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  246626,
+                         "bytes":  74356,
+                         "width":  1400,
+                         "height":  664
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/oso-anteojo-peru-planificar-experiencia-vivir-encunetro-unico-2026.jpg",
+                         "local":  "images/blog/content/oso-anteojo-peru-planificar-experiencia-vivir-encunetro-unico-2026-89226d8f90.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  164492,
+                         "bytes":  115430,
+                         "width":  1300,
+                         "height":  715
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/peru-machupicchu-viaje.jpg",
+                         "local":  "images/blog/content/peru-machupicchu-viaje-6af7a8089b.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  201720,
+                         "bytes":  139412,
+                         "width":  1280,
+                         "height":  720
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/precio-machupicchu-ahorro-reserva.jpg",
+                         "local":  "images/blog/content/precio-machupicchu-ahorro-reserva-f055389a85.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  138226,
+                         "bytes":  88818,
+                         "width":  1100,
+                         "height":  733
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/qoylloriti-tradicion-andina-cusco-peru-1.jpg",
+                         "local":  "images/blog/content/qoylloriti-tradicion-andina-cusco-peru-1-9a96df297b.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  238361,
+                         "bytes":  118864,
+                         "width":  1176,
+                         "height":  782
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/requisitos-documentacion-migratorios.jpg",
+                         "local":  "images/blog/content/requisitos-documentacion-migratorios-9c2c92a163.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  177270,
+                         "bytes":  94816,
+                         "width":  1294,
+                         "height":  894
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/reservas-anticipadas-machupicchu-evita-quedarte-entradas.jpg",
+                         "local":  "images/blog/content/reservas-anticipadas-machupicchu-evita-quedarte-entradas-c2bfaca2a9.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  218533,
+                         "bytes":  153876,
+                         "width":  1280,
+                         "height":  720
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/ropa-temporada-cusco-machupicchu-edited.jpg",
+                         "local":  "images/blog/content/ropa-temporada-cusco-machupicchu-edited-fd7c78c3b9.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  191890,
+                         "bytes":  125888,
+                         "width":  1197,
+                         "height":  674
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/tipos-billetes-peru-1.jpg",
+                         "local":  "images/blog/content/tipos-billetes-peru-1-26ac32a77b.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  74937,
+                         "bytes":  39638,
+                         "width":  806,
+                         "height":  522
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/tiwanaku-cultura-america-travel-historia.jpg",
+                         "local":  "images/blog/content/tiwanaku-cultura-america-travel-historia-febdcd2670.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  329046,
+                         "bytes":  184508,
+                         "width":  1280,
+                         "height":  853
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/transporte-aeropuerto-cusco-mejor-opcion-viaje.jpg",
+                         "local":  "images/blog/content/transporte-aeropuerto-cusco-mejor-opcion-viaje-2821a4d744.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  132032,
+                         "bytes":  68458,
+                         "width":  1280,
+                         "height":  720
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/traslado-aeropuerto-cusco-reservar-transporte-anticipacion.jpg",
+                         "local":  "images/blog/content/traslado-aeropuerto-cusco-reservar-transporte-anticipacion-c60d699900.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  138069,
+                         "bytes":  77864,
+                         "width":  1280,
+                         "height":  720
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/tren-rumbo-aguas-calientes-machupicchu-cusco-peru.jpg",
+                         "local":  "images/blog/content/tren-rumbo-aguas-calientes-machupicchu-cusco-peru-a19d642503.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  490365,
+                         "bytes":  255084,
+                         "width":  1400,
+                         "height":  934
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/visitar-cusco-machupicchu.jpg",
+                         "local":  "images/blog/content/visitar-cusco-machupicchu-91d01388cd.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  161256,
+                         "bytes":  102732,
+                         "width":  1280,
+                         "height":  720
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/bosque-de-piedras-de-choqolaqa-arequipa-peru.jpg",
+                         "local":  "images/blog/content/bosque-de-piedras-de-choqolaqa-arequipa-peru-b5c74137d0.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  243504,
+                         "bytes":  135264,
+                         "width":  1400,
+                         "height":  933
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/choquequirao-cusco-peru-travel-inca.jpg",
+                         "local":  "images/blog/content/choquequirao-cusco-peru-travel-inca-03a9317da2.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  309451,
+                         "bytes":  222846,
+                         "width":  1250,
+                         "height":  735
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/diferencia-cusco-lima-conocer-viajar-peru.jpg",
+                         "local":  "images/blog/content/diferencia-cusco-lima-conocer-viajar-peru-af352d73de.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  242364,
+                         "bytes":  178272,
+                         "width":  1280,
+                         "height":  720
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/glacial-quelccaya-estamos-visitar-gigante-hielo-cusco.jpg",
+                         "local":  "images/blog/content/glacial-quelccaya-estamos-visitar-gigante-hielo-cusco-1722bedd32.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  103550,
+                         "bytes":  42732,
+                         "width":  1080,
+                         "height":  1080
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/hallazgo-milenario-en-cusco-ancocagua.jpg",
+                         "local":  "images/blog/content/hallazgo-milenario-en-cusco-ancocagua-bba7f3e22a.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  148260,
+                         "bytes":  74098,
+                         "width":  992,
+                         "height":  558
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-1.png",
+                         "local":  "images/blog/content/image-1-39387d9c32.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  445493,
+                         "bytes":  17992,
+                         "width":  900,
+                         "height":  500
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-10.png",
+                         "local":  "images/blog/content/image-10-26d383d0ae.webp",
+                         "variants":  6,
+                         "cached":  false,
+                         "downloaded_bytes":  4122732,
+                         "bytes":  65332,
+                         "width":  1400,
+                         "height":  1400
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-11.png",
+                         "local":  "images/blog/content/image-11-0826bd9585.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  720436,
+                         "bytes":  55542,
+                         "width":  674,
+                         "height":  900
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-17.png",
+                         "local":  "images/blog/content/image-17-847db1c5d4.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  1245364,
+                         "bytes":  137886,
+                         "width":  1280,
+                         "height":  678
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-18.png",
+                         "local":  "images/blog/content/image-18-da7bb8d7a9.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  69076,
+                         "bytes":  14646,
+                         "width":  275,
+                         "height":  183
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-19.png",
+                         "local":  "images/blog/content/image-19-c56bf55270.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  1153341,
+                         "bytes":  92986,
+                         "width":  1013,
+                         "height":  675
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-2.png",
+                         "local":  "images/blog/content/image-2-da9270ad3b.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  930350,
+                         "bytes":  56208,
+                         "width":  800,
+                         "height":  800
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-20.png",
+                         "local":  "images/blog/content/image-20-214e2d31ea.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  314397,
+                         "bytes":  24374,
+                         "width":  500,
+                         "height":  375
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-21.png",
+                         "local":  "images/blog/content/image-21-552bdd9034.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  701241,
+                         "bytes":  63688,
+                         "width":  940,
+                         "height":  492
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-22.png",
+                         "local":  "images/blog/content/image-22-ff4b05a097.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  231403,
+                         "bytes":  66540,
+                         "width":  512,
+                         "height":  306
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-23.png",
+                         "local":  "images/blog/content/image-23-996d082077.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  2835201,
+                         "bytes":  224236,
+                         "width":  1400,
+                         "height":  786
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-24.png",
+                         "local":  "images/blog/content/image-24-20d24771d4.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  1677525,
+                         "bytes":  154790,
+                         "width":  1250,
+                         "height":  735
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-25.png",
+                         "local":  "images/blog/content/image-25-e56292749a.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  337456,
+                         "bytes":  76810,
+                         "width":  580,
+                         "height":  415
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-26.png",
+                         "local":  "images/blog/content/image-26-1d105e6b60.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  845898,
+                         "bytes":  88832,
+                         "width":  800,
+                         "height":  533
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-27.png",
+                         "local":  "images/blog/content/image-27-1906f99852.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  1050924,
+                         "bytes":  127176,
+                         "width":  800,
+                         "height":  600
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-28.png",
+                         "local":  "images/blog/content/image-28-f1ea389635.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  1718710,
+                         "bytes":  193682,
+                         "width":  1024,
+                         "height":  768
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-4.png",
+                         "local":  "images/blog/content/image-4-efb66c3ec0.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  452834,
+                         "bytes":  40862,
+                         "width":  1001,
+                         "height":  1001
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-5.png",
+                         "local":  "images/blog/content/image-5-de22024e95.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  603030,
+                         "bytes":  29490,
+                         "width":  1000,
+                         "height":  600
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-6.png",
+                         "local":  "images/blog/content/image-6-807745ccfd.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  190055,
+                         "bytes":  9724,
+                         "width":  500,
+                         "height":  750
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-7.png",
+                         "local":  "images/blog/content/image-7-5630f6a58e.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  672383,
+                         "bytes":  45932,
+                         "width":  1200,
+                         "height":  1200
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-8.png",
+                         "local":  "images/blog/content/image-8-a2f5870f55.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  472928,
+                         "bytes":  20998,
+                         "width":  1024,
+                         "height":  576
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image-9.png",
+                         "local":  "images/blog/content/image-9-5c54130a4f.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  188213,
+                         "bytes":  26590,
+                         "width":  800,
+                         "height":  800
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/image.png",
+                         "local":  "images/blog/content/image-15fd0a5d88.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  503259,
+                         "bytes":  38754,
+                         "width":  900,
+                         "height":  506
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/manuscritos-coloniales-Machupichu-perdida-scaled.png",
+                         "local":  "images/blog/content/manuscritos-coloniales-machupichu-perdida-scaled-ecad1ae8c5.webp",
+                         "variants":  1,
+                         "cached":  false,
+                         "downloaded_bytes":  2848777,
+                         "bytes":  289092,
+                         "width":  1400,
+                         "height":  934
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/manuscritos-coloniales-Machupichu-perdida.png",
+                         "local":  "images/blog/content/manuscritos-coloniales-machupichu-perdida-8639f0062d.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  3465717,
+                         "bytes":  298482,
+                         "width":  1400,
+                         "height":  933
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/planeando-viajar-peru-importante-saber-1.jpg",
+                         "local":  "images/blog/content/planeando-viajar-peru-importante-saber-1-6f77dd5295.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  431724,
+                         "bytes":  181386,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/planeando-viajar-peru-importante-saber.jpg",
+                         "local":  "images/blog/content/planeando-viajar-peru-importante-saber-f0877b278a.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  431724,
+                         "bytes":  181386,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/que-es-un-pre-ticket-para-machu-picchu.jpg",
+                         "local":  "images/blog/content/que-es-un-pre-ticket-para-machu-picchu-3ff0a46b15.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  252008,
+                         "bytes":  112950,
+                         "width":  1400,
+                         "height":  787
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/quelccaya-gigante-hielo-visitar.jpg",
+                         "local":  "images/blog/content/quelccaya-gigante-hielo-visitar-4dd33bfddc.webp",
+                         "variants":  6,
+                         "cached":  false,
+                         "downloaded_bytes":  1057102,
+                         "bytes":  278280,
+                         "width":  1400,
+                         "height":  1400
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/ropa-machupicchu.jpg",
+                         "local":  "images/blog/content/ropa-machupicchu-e79e3670e9.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  564211,
+                         "bytes":  202636,
+                         "width":  1080,
+                         "height":  1350
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/sobrevuelo-nazca-peru.jpg",
+                         "local":  "images/blog/content/sobrevuelo-nazca-peru-a4110d9997.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  384570,
+                         "bytes":  98940,
+                         "width":  1280,
+                         "height":  754
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/taqrachullo-national-geographic-cusco-peru.jpg",
+                         "local":  "images/blog/content/taqrachullo-national-geographic-cusco-peru-d6f17e41ef.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  526349,
+                         "bytes":  111416,
+                         "width":  800,
+                         "height":  450
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/05/viaja-cusco-revuerdos-joyeria-ancestral-peru.jpg",
+                         "local":  "images/blog/content/viaja-cusco-revuerdos-joyeria-ancestral-peru-6814a3c22d.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  232790,
+                         "bytes":  137822,
+                         "width":  1200,
+                         "height":  1035
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/Corpus-Christi-in-Cusco-historias-tradicion-significado.jpg",
+                         "local":  "images/blog/content/corpus-christi-in-cusco-historias-tradicion-significado-75cf6ab3b5.webp",
+                         "variants":  6,
+                         "cached":  false,
+                         "downloaded_bytes":  650638,
+                         "bytes":  232112,
+                         "width":  1400,
+                         "height":  933
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/Diseno-sin-titulo-1.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-1-7c743343cb.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  274840,
+                         "bytes":  103382,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/Diseno-sin-titulo-2.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-2-e89e638303.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  368233,
+                         "bytes":  134176,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/Diseno-sin-titulo-3.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-3-de048b1ae6.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  336303,
+                         "bytes":  127446,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/Diseno-sin-titulo-4.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-4-bdcefc238a.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  502277,
+                         "bytes":  212582,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/Diseno-sin-titulo-5.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-5-70c5cd992b.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  322817,
+                         "bytes":  115134,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/Diseno-sin-titulo-6.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-6-434d8f61d8.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  416173,
+                         "bytes":  160920,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/Diseno-sin-titulo-7.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-7-aa31bbf063.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  444503,
+                         "bytes":  173832,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/Diseno-sin-titulo.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-0b6c00b653.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  281230,
+                         "bytes":  91506,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/Fiesta-del-Inti-Raymi-cusco.webp",
+                         "local":  "images/blog/content/fiesta-del-inti-raymi-cusco-2765c77e7e.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  67180,
+                         "bytes":  65344,
+                         "width":  770,
+                         "height":  390
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/Huatia-mes-jubilar-cusco.webp",
+                         "local":  "images/blog/content/huatia-mes-jubilar-cusco-c2b29a827e.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  190360,
+                         "bytes":  151738,
+                         "width":  850,
+                         "height":  495
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/Inti-Raymi-Cusco.jpg",
+                         "local":  "images/blog/content/inti-raymi-cusco-eff4be4c99.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  309049,
+                         "bytes":  118860,
+                         "width":  1400,
+                         "height":  676
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/Red-and-Orange-Bold-Fight-Boxing-Recap-YouTube-Thumbnail-1-1.jpg",
+                         "local":  "images/blog/content/red-and-orange-bold-fight-boxing-recap-youtube-thumbnail-1-1-f40d8afcce.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  154961,
+                         "bytes":  94666,
+                         "width":  1280,
+                         "height":  720
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/centro-historico-cusco-peru.jpg",
+                         "local":  "images/blog/content/centro-historico-cusco-peru-1141217c4b.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  601521,
+                         "bytes":  219402,
+                         "width":  1400,
+                         "height":  1120
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/chiriuchu-cuy-cochayuyo-queso-huevera-torreja-de-maiz.jpg",
+                         "local":  "images/blog/content/chiriuchu-cuy-cochayuyo-queso-huevera-torreja-de-maiz-3969299a6a.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  188678,
+                         "bytes":  118412,
+                         "width":  1280,
+                         "height":  720
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/fauna-alto-andina.webp",
+                         "local":  "images/blog/content/fauna-alto-andina-c14e625d6e.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  93774,
+                         "bytes":  85814,
+                         "width":  1000,
+                         "height":  669
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-1.png",
+                         "local":  "images/blog/content/image-1-3735a74a80.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  1706654,
+                         "bytes":  120048,
+                         "width":  1200,
+                         "height":  800
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-10.png",
+                         "local":  "images/blog/content/image-10-e7f427a321.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  551160,
+                         "bytes":  74388,
+                         "width":  630,
+                         "height":  355
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-13.png",
+                         "local":  "images/blog/content/image-13-fb2faef2ae.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  362743,
+                         "bytes":  19092,
+                         "width":  600,
+                         "height":  396
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-14.png",
+                         "local":  "images/blog/content/image-14-0c84d2197b.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  551160,
+                         "bytes":  74388,
+                         "width":  630,
+                         "height":  355
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-15.png",
+                         "local":  "images/blog/content/image-15-6d96061995.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  362743,
+                         "bytes":  19092,
+                         "width":  600,
+                         "height":  396
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-19.png",
+                         "local":  "images/blog/content/image-19-d370d8d7b4.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  317883,
+                         "bytes":  26262,
+                         "width":  500,
+                         "height":  333
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-21.png",
+                         "local":  "images/blog/content/image-21-9d1a7ca17c.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  6542581,
+                         "bytes":  204332,
+                         "width":  1400,
+                         "height":  1050
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-22.png",
+                         "local":  "images/blog/content/image-22-4d9e2910a3.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  2402443,
+                         "bytes":  223244,
+                         "width":  1200,
+                         "height":  800
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-23.png",
+                         "local":  "images/blog/content/image-23-5598440974.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  765997,
+                         "bytes":  71614,
+                         "width":  800,
+                         "height":  533
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-26.png",
+                         "local":  "images/blog/content/image-26-7dddd0fc46.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  2644343,
+                         "bytes":  91800,
+                         "width":  1400,
+                         "height":  934
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-28.png",
+                         "local":  "images/blog/content/image-28-7994170e4a.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  2373416,
+                         "bytes":  242628,
+                         "width":  1350,
+                         "height":  900
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-29.png",
+                         "local":  "images/blog/content/image-29-69b95b733f.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  1132729,
+                         "bytes":  99172,
+                         "width":  1000,
+                         "height":  667
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-30.png",
+                         "local":  "images/blog/content/image-30-1792116b5e.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  1205188,
+                         "bytes":  155038,
+                         "width":  1315,
+                         "height":  400
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-31.png",
+                         "local":  "images/blog/content/image-31-9d54779c3d.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  2640876,
+                         "bytes":  149870,
+                         "width":  1400,
+                         "height":  589
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-32.png",
+                         "local":  "images/blog/content/image-32-a51f496f02.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  767792,
+                         "bytes":  73484,
+                         "width":  752,
+                         "height":  470
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-33.png",
+                         "local":  "images/blog/content/image-33-56f80edf75.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  668439,
+                         "bytes":  82482,
+                         "width":  676,
+                         "height":  453
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-34.png",
+                         "local":  "images/blog/content/image-34-f983e8a528.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  2402443,
+                         "bytes":  223244,
+                         "width":  1200,
+                         "height":  800
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-36.png",
+                         "local":  "images/blog/content/image-36-ebfed723e1.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  3250422,
+                         "bytes":  192372,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-38.png",
+                         "local":  "images/blog/content/image-38-f3e70d4e53.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  4903035,
+                         "bytes":  226634,
+                         "width":  1400,
+                         "height":  934
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-39.png",
+                         "local":  "images/blog/content/image-39-3ad62a8840.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  491295,
+                         "bytes":  87180,
+                         "width":  760,
+                         "height":  507
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-40.png",
+                         "local":  "images/blog/content/image-40-df39130072.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  863538,
+                         "bytes":  45440,
+                         "width":  1024,
+                         "height":  535
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-42.png",
+                         "local":  "images/blog/content/image-42-d9f7ec8022.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  675362,
+                         "bytes":  48286,
+                         "width":  760,
+                         "height":  450
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-46.png",
+                         "local":  "images/blog/content/image-46-f9a71927cd.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  768477,
+                         "bytes":  86140,
+                         "width":  900,
+                         "height":  499
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-47.png",
+                         "local":  "images/blog/content/image-47-1e6d7450ac.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  916849,
+                         "bytes":  113396,
+                         "width":  860,
+                         "height":  484
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-48.png",
+                         "local":  "images/blog/content/image-48-29fd14d094.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  3293721,
+                         "bytes":  199694,
+                         "width":  1400,
+                         "height":  933
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-5.png",
+                         "local":  "images/blog/content/image-5-f39d295898.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  1563273,
+                         "bytes":  102510,
+                         "width":  1200,
+                         "height":  800
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-50.png",
+                         "local":  "images/blog/content/image-50-d9e467603d.webp",
+                         "variants":  4,
+                         "cached":  false,
+                         "downloaded_bytes":  1956883,
+                         "bytes":  154762,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-51.png",
+                         "local":  "images/blog/content/image-51-6b41377722.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  780269,
+                         "bytes":  68818,
+                         "width":  820,
+                         "height":  500
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-53.png",
+                         "local":  "images/blog/content/image-53-875986137c.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  1160387,
+                         "bytes":  103822,
+                         "width":  920,
+                         "height":  620
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-55.png",
+                         "local":  "images/blog/content/image-55-223aefe517.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  2489811,
+                         "bytes":  83850,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-56.png",
+                         "local":  "images/blog/content/image-56-8da0b4f1e8.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  754416,
+                         "bytes":  56570,
+                         "width":  900,
+                         "height":  500
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-57.png",
+                         "local":  "images/blog/content/image-57-4a15b6ae1e.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  797396,
+                         "bytes":  76342,
+                         "width":  800,
+                         "height":  533
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-58.png",
+                         "local":  "images/blog/content/image-58-44ed2d0d5c.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  641946,
+                         "bytes":  54910,
+                         "width":  865,
+                         "height":  400
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-59.png",
+                         "local":  "images/blog/content/image-59-9bd1d9e298.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  3726360,
+                         "bytes":  203580,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-6.png",
+                         "local":  "images/blog/content/image-6-b977d59c14.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  891446,
+                         "bytes":  65848,
+                         "width":  800,
+                         "height":  450
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-62.png",
+                         "local":  "images/blog/content/image-62-a859807029.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  265723,
+                         "bytes":  53496,
+                         "width":  549,
+                         "height":  364
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-63.png",
+                         "local":  "images/blog/content/image-63-411c84030d.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  1289626,
+                         "bytes":  79058,
+                         "width":  1024,
+                         "height":  683
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-67.png",
+                         "local":  "images/blog/content/image-67-0c55e15400.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  570716,
+                         "bytes":  59556,
+                         "width":  629,
+                         "height":  486
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-7.png",
+                         "local":  "images/blog/content/image-7-4dd3e8de60.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  492843,
+                         "bytes":  55956,
+                         "width":  604,
+                         "height":  340
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-8.png",
+                         "local":  "images/blog/content/image-8-472f35dd68.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  926539,
+                         "bytes":  71796,
+                         "width":  960,
+                         "height":  540
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/image-9.png",
+                         "local":  "images/blog/content/image-9-9b6ae0add9.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  362743,
+                         "bytes":  19092,
+                         "width":  600,
+                         "height":  396
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/mercado-cusco-tradicional.jpg",
+                         "local":  "images/blog/content/mercado-cusco-tradicional-342a0df5f3.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  188177,
+                         "bytes":  153080,
+                         "width":  900,
+                         "height":  500
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/mes-jubilar-cusco-historia-tradiciones-celebraciones-peru.jpg",
+                         "local":  "images/blog/content/mes-jubilar-cusco-historia-tradiciones-celebraciones-peru-80f9194c10.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  344918,
+                         "bytes":  134596,
+                         "width":  1400,
+                         "height":  676
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/pachamama-cusco-peru.jpg",
+                         "local":  "images/blog/content/pachamama-cusco-peru-50fe116ca5.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  133497,
+                         "bytes":  84920,
+                         "width":  1024,
+                         "height":  682
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/pachamama-significado-historia-importancia.webp",
+                         "local":  "images/blog/content/pachamama-significado-historia-importancia-c57285211b.webp",
+                         "variants":  3,
+                         "cached":  false,
+                         "downloaded_bytes":  106870,
+                         "bytes":  98336,
+                         "width":  800,
+                         "height":  450
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/06/valle-rojo-cusco-peru.jpg",
+                         "local":  "images/blog/content/valle-rojo-cusco-peru-529e954109.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  377878,
+                         "bytes":  152830,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/Diseno-sin-titulo-10.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-10-ca091f3627.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  514140,
+                         "bytes":  229834,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/Diseno-sin-titulo-11.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-11-f3511c5bc5.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  469702,
+                         "bytes":  209530,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/Diseno-sin-titulo-12.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-12-5a50d0b894.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  561097,
+                         "bytes":  261132,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/Diseno-sin-titulo-13.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-13-3ca80aaad1.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  542515,
+                         "bytes":  256640,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/Diseno-sin-titulo-14.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-14-14bab43a3a.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  713787,
+                         "bytes":  332532,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/Diseno-sin-titulo-15.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-15-40583b3ddb.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  494302,
+                         "bytes":  226618,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/Diseno-sin-titulo-16.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-16-7a70bf061e.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  540122,
+                         "bytes":  249622,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/Diseno-sin-titulo-17.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-17-3a5bd445cd.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  323806,
+                         "bytes":  131378,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/Diseno-sin-titulo-18.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-18-f0a989a09c.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  343203,
+                         "bytes":  139486,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/Diseno-sin-titulo-19.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-19-c4f69df7c3.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  183709,
+                         "bytes":  53140,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/Diseno-sin-titulo-20.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-20-b6bd428fb6.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  328534,
+                         "bytes":  124908,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/Diseno-sin-titulo-21-1.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-21-1-aec328614b.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  538951,
+                         "bytes":  258526,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/Diseno-sin-titulo-21.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-21-6c734e67a2.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  538951,
+                         "bytes":  258526,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/Diseno-sin-titulo-8-1.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-8-1-9c1fb0a92e.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  514140,
+                         "bytes":  229834,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/Diseno-sin-titulo-9.jpg",
+                         "local":  "images/blog/content/diseno-sin-titulo-9-8452660f50.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  373033,
+                         "bytes":  164462,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/Machupicchu-guia-viaje.jpg",
+                         "local":  "images/blog/content/machupicchu-guia-viaje-c72f2e5ded.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  383039,
+                         "bytes":  160916,
+                         "width":  1400,
+                         "height":  788
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/flora-fauna-centro-historica-Machupicchu.jpeg",
+                         "local":  "images/blog/content/flora-fauna-centro-historica-machupicchu-44f1fcf146.webp",
+                         "variants":  2,
+                         "cached":  false,
+                         "downloaded_bytes":  40001,
+                         "bytes":  38588,
+                         "width":  668,
+                         "height":  459
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/image-1.png",
+                         "local":  "images/blog/content/image-1-d1029d15bd.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  3747661,
+                         "bytes":  297174,
+                         "width":  1400,
+                         "height":  1050
+                     },
+                     {
+                         "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/07/valle-sagrado-incas.jpg",
+                         "local":  "images/blog/content/valle-sagrado-incas-c3557bcf71.webp",
+                         "variants":  5,
+                         "cached":  false,
+                         "downloaded_bytes":  619013,
+                         "bytes":  269588,
+                         "width":  1400,
+                         "height":  788
+                     }
+                 ],
+    "failures":  [
+
+                 ],
+    "fallbacks":  [
+                      {
+                          "source":  "https://www.gtperutravel.com/blog/wp-content/uploads/2026/04/experiencias-aeropuertos-3-1024x708.jpg",
+                          "local":  "images/blog/content/experiencias-aeropuertos-1-eaa6342d18.webp",
+                          "reason":  "WordPress original and resized variant returned 404; equivalent image from translated article used"
+                      }
+                  ]
+}

@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/../config/bootstrap.php'; ?>
 
 <?php
 $idioma = $_GET['lang'] ?? 'es';
@@ -10,7 +11,10 @@ $destination_ui = [
     'en' => ['missing' => 'Destination not specified', 'not_found' => 'Destination not found', 'from' => 'from'],
     'pt' => ['missing' => 'Destino não especificado', 'not_found' => 'Destino não encontrado', 'from' => 'a partir de'],
 ][$idioma];
-$destino_slug = preg_replace('/[^a-zA-Z0-9_-]/', '', (string) ($_GET['destino'] ?? ''));
+$destino_slug = (string) ($_GET['destino'] ?? '');
+if ($destino_slug !== '' && !preg_match('/\A[a-zA-Z0-9_-]{1,120}\z/D', $destino_slug)) {
+    app_redirect('/404.php?lang=' . rawurlencode($idioma));
+}
 
 if ($destino_slug === '') {
     exit($destination_ui['missing']);
@@ -24,6 +28,7 @@ if (!file_exists($destino_file)) {
 
 $destino_json = file_get_contents($destino_file);
 $destino = json_decode($destino_json, true);
+route_redirect_legacy('destino', $idioma, $destino_slug);
 
 $footer_json = file_get_contents(__DIR__ . "/../locale/$idioma/footer.json");
 $footer = json_decode($footer_json, true);
@@ -37,19 +42,19 @@ $hero_text = json_decode($hero, true);
 <html lang="<?= $idioma ?>">
 <head>
     <meta charset="UTF-8">
-    <title><?= $destino['titulo'] ?> - Tours | GT Peru Travel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+    <title><?= htmlspecialchars(seo_clean_text((string)$destino['titulo'] . ' - Tours | GT Peru Travel', 65)) ?></title>
+    <meta name="description" content="<?= htmlspecialchars(seo_clean_text((string)($destino['descripcion'] ?? ''), 160)) ?>">
+    <?php seo_render([
+        'title' => (string)$destino['titulo'] . ' - Tours | GT Peru Travel',
+        'description' => (string)($destino['descripcion'] ?? ''),
+        'path' => route_path('destino', $idioma, $destino_slug), 'params' => [], 'language' => $idioma,
+        'image' => (string)($destino['background'] ?? '/images/gt-peru-travel.png'),
+        'alternates' => route_alternates('destino', $destino_slug),
+    ]); ?>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17034229022"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'AW-17034229022');
-    </script>
 
 
     <!-- faviicon -->
@@ -62,20 +67,6 @@ $hero_text = json_decode($hero, true);
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!-- Tailwind CSS (CDN) -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        poppins: ['Poppins', 'sans-serif'],
-                        anton: ['Anton', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
 
     <!-- google fonts ANTON - 1 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -88,6 +79,7 @@ $hero_text = json_decode($hero, true);
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
 
     <!-- styles -->
+    <link rel="stylesheet" href="/css/tailwind.min.css">
     <link rel="stylesheet" href="../css/style.css">
 
     <!-- COMPILADO PARA CARGAR VANDERAS PARA TELEFONO -->
@@ -112,7 +104,7 @@ $hero_text = json_decode($hero, true);
      *********************** -->
     <section class="page-hero page-hero--with-stats responsive-hero relative w-full bg-black overflow-hidden">
 
-        <img src="<?= $base_url . $destino['background'] ?>"
+        <img src="<?= $base_url . $destino['background'] ?>" loading="eager" fetchpriority="high" decoding="async"
             alt="<?= $destino['titulo'] ?>"
             class="hero-bg absolute inset-0 w-full h-full object-cover">
         <!-- overlay -->
@@ -124,9 +116,10 @@ $hero_text = json_decode($hero, true);
             <div class="container-custom  px-20    w-full">
                 <div class="max-w-2xl">
                     <!-- BADGE DESTI¿NO -->
-                    <span class="inline-flex items-center gap-2 bg-orange-500/50 text-white text-xs font-bold font-poppins uppercase tracking-wide px-4 py-1.5 rounded-md mb-4">
-                        <?= $destino['badge'] ?? 'Destino' ?>
-                    </span>
+                    <div class="hero-section-kicker mb-4" aria-label="<?= htmlspecialchars($destino['badge'] ?? 'Destino') ?>">
+                        <span class="hero-section-kicker__line" aria-hidden="true"></span>
+                        <span><?= htmlspecialchars($destino['badge'] ?? 'Destino') ?></span>
+                    </div>
                     <h1 class="text-white text-[2.6rem] sm:text-5xl md:text-6xl lg:text-[4.2rem] font-anton font-black leading-[1.05] drop-shadow-lg">
                         <?= $destino['titulo'] ?>
                     </h1>
@@ -138,11 +131,10 @@ $hero_text = json_decode($hero, true);
             </div>
         </div>
         <!-- logo tripadvisor -->
-        <div class="page-hero-awards absolute z-10 bottom-24 md:bottom-28 right-4 md:right-10 flex justify-end">
-            <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
-            <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
-            <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
-            <img src="<?= $base_url ?>/images/tripadvisor-video.png" alt="Tripadvisor Travelers' Choice" class="h-20 md:h-28">
+        <div class="page-hero-awards hero-awards-standard absolute z-10 bottom-24 md:bottom-28 right-4 md:right-10 flex justify-end">
+                <img src="<?= $base_url ?>/images/tripadvisor/sticker2024.png" alt="Tripadvisor Travelers' Choice 2024">
+                <img src="<?= $base_url ?>/images/tripadvisor/sticker2025.png" alt="Tripadvisor Travelers' Choice 2025">
+                <img src="<?= $base_url ?>/images/tripadvisor/sticker2026.png" alt="Tripadvisor Travelers' Choice 2026">
         </div>
         <!-- barra de estadísticas -->
         <div class="page-hero-stats absolute bottom-0 left-0 w-full z-10 bg-black/20 backdrop-blur-sm">
@@ -212,8 +204,10 @@ $hero_text = json_decode($hero, true);
             <?php foreach ($destino['tours'] as $t): ?>
                 <?php
                     $tipo_ficha = ($t['tipo'] ?? 'tour') === 'paquete' ? 'paquete' : 'tour';
-                    $parametro_ficha = $tipo_ficha === 'paquete' ? 'paquete' : 'tour';
-                    $url_ficha = "{$base_url}/{$tipo_ficha}/template-{$tipo_ficha}.php?{$parametro_ficha}=" . urlencode($t['url']) . "&lang=" . urlencode($idioma);
+                    if (route_public_slug($tipo_ficha, $idioma, (string)$t['url']) === null) {
+                        $tipo_ficha = route_public_slug('paquete', $idioma, (string)$t['url']) !== null ? 'paquete' : 'tour';
+                    }
+                    $url_ficha = route_path($tipo_ficha, $idioma, (string)$t['url']);
                 ?>
                 <div class="tour-card bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300"
                     data-categoria="<?= $t['categoria'] ?>">

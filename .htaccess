@@ -1,0 +1,56 @@
+RewriteEngine On
+
+# Dominio can?nico y HTTPS en producci?n
+RewriteCond %{HTTP_HOST} !^localhost$ [NC]
+RewriteCond %{HTTP_HOST} !^127\.0\.0\.1$ [NC]
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^www\.gtperutravel\.com$ [NC]
+RewriteRule ^ https://www.gtperutravel.com%{REQUEST_URI} [R=301,L]
+
+# Conservar archivos y recursos existentes
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Todas las rutas p?blicas son resueltas por PHP
+RewriteRule ^ router.php [L,QSA]
+
+Options -Indexes
+
+# Bloquear archivos privados y metadatos del repositorio
+<FilesMatch "^(?:\.env(?:\..*)?|\.git.*|error_log|composer\.(?:json|lock)|package-lock\.json)$">
+    Require all denied
+</FilesMatch>
+
+# Estas carpetas son internas y nunca deben servirse directamente
+RewriteRule ^(?:config|data|includes|lang|locale|scripts)(?:/|$) - [R=404,L,NC]
+RewriteRule ^(?:\.git|\.env(?:\..*)?|error_log)(?:/|$) - [R=404,L,NC]
+
+# Compresión de texto
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript application/javascript application/json application/xml image/svg+xml
+</IfModule>
+
+# Caché de recursos estáticos
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/avif "access plus 6 months"
+    ExpiresByType image/webp "access plus 6 months"
+    ExpiresByType image/jpeg "access plus 6 months"
+    ExpiresByType image/png "access plus 6 months"
+    ExpiresByType image/gif "access plus 6 months"
+    ExpiresByType image/svg+xml "access plus 6 months"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains" "expr=%{HTTPS} == 'on'"
+    <FilesMatch "\.(?:css|js|jpg|jpeg|png|gif|webp|avif|svg|woff2)$">
+        Header set Cache-Control "public, max-age=2592000, immutable"
+    </FilesMatch>
+</IfModule>

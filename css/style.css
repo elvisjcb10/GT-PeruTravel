@@ -134,11 +134,6 @@ body {
 
 
 
-/* color backgroud global */
-.bg-orange-custom {
-    color: #ff9300;
-}
-
 /* text color global */
 .text-orange-custom {
     color: #ff9300 !important;
@@ -1387,4 +1382,291 @@ main .tour-section-title {
     .page-hero-stats > .container-custom > div {
         gap: 1rem 3rem !important;
     }
+}
+
+/* Reconocimientos uniformes en los heroes internos */
+.hero-awards-standard {
+    align-items: center;
+    gap: 0.5rem !important;
+}
+
+.hero-awards-standard img {
+    width: auto !important;
+    height: 5.25rem !important;
+    object-fit: contain;
+}
+
+@media (max-width: 767px) {
+    .hero-awards-standard img {
+        height: 4rem !important;
+        max-width: calc((100vw - 4rem) / 3) !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero-awards-standard img {
+        height: 5.75rem !important;
+    }
+}
+/* Kicker lineal de los heroes */
+.hero-section-kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.85rem;
+    color: #ff9300;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.hero-section-kicker__line {
+    display: block;
+    width: 3rem;
+    height: 3px;
+    flex: 0 0 auto;
+    border-radius: 999px;
+    background: #ff9300;
+}
+
+@media (max-width: 639px) {
+    .hero-section-kicker {
+        gap: 0.65rem;
+        font-size: 0.75rem;
+        letter-spacing: 0.1em;
+    }
+
+    .hero-section-kicker__line {
+        width: 2.25rem;
+        height: 2px;
+    }
+}
+/* GLOBAL MOTION SYSTEM */
+.gt-motion-ready .gt-reveal {
+    opacity: 0;
+    transform: translate3d(0, 1.5rem, 0);
+    transition:
+        opacity 650ms cubic-bezier(.22, 1, .36, 1),
+        transform 650ms cubic-bezier(.22, 1, .36, 1);
+    transition-delay: var(--gt-reveal-delay, 0ms);
+    will-change: opacity, transform;
+}
+
+.gt-motion-ready .gt-reveal.reveal-visible {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    will-change: auto;
+}
+
+/* Entrada elegante del contenido del hero */
+.page-hero-content h1,
+.tour-hero-content h1 {
+    animation: gtHeroEnter 750ms 100ms both cubic-bezier(.22, 1, .36, 1);
+}
+
+.page-hero-content p,
+.tour-hero-content p {
+    animation: gtHeroEnter 750ms 210ms both cubic-bezier(.22, 1, .36, 1);
+}
+
+.page-hero-content .hero-section-kicker,
+.tour-hero-content .hero-section-kicker {
+    animation: gtHeroEnter 650ms 30ms both cubic-bezier(.22, 1, .36, 1);
+}
+
+.page-hero-awards,
+.tour-hero-awards,
+.hero-awards-standard {
+    animation: gtHeroEnter 700ms 330ms both cubic-bezier(.22, 1, .36, 1);
+}
+
+.page-hero-stats {
+    animation: gtStatsEnter 700ms 380ms both cubic-bezier(.22, 1, .36, 1);
+}
+
+@keyframes gtHeroEnter {
+    from { opacity: 0; transform: translate3d(0, 1.25rem, 0); }
+    to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+@keyframes gtStatsEnter {
+    from { opacity: 0; transform: translate3d(0, 100%, 0); }
+    to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+/* Microinteracciones: botones, tarjetas e imágenes */
+main a.rounded-full,
+main a.rounded-lg,
+main a.rounded-md,
+main button,
+footer a.rounded-md {
+    transition: transform 220ms ease, box-shadow 220ms ease, background-color 220ms ease, color 220ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    main a.rounded-full:hover,
+    main a.rounded-lg:hover,
+    main a.rounded-md:hover,
+    main button:hover,
+    footer a.rounded-md:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 0.75rem 1.75rem rgba(15, 23, 42, 0.14);
+    }
+
+    main article,
+    main .group\/card,
+    main details,
+    main .faq-item {
+        transition: transform 260ms cubic-bezier(.22, 1, .36, 1), box-shadow 260ms ease, border-color 260ms ease;
+    }
+
+    main article:hover,
+    main .group\/card:hover,
+    main details:hover,
+    main .faq-item:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 1rem 2.25rem rgba(15, 23, 42, 0.11);
+    }
+
+    main article img,
+    main .group\/card img {
+        transition: transform 500ms cubic-bezier(.22, 1, .36, 1), filter 300ms ease;
+    }
+
+    main article:hover img,
+    main .group\/card:hover img {
+        transform: scale(1.035);
+        filter: saturate(1.05);
+    }
+
+    .hero-section-kicker__line {
+        transition: width 280ms ease;
+    }
+
+    .hero-section-kicker:hover .hero-section-kicker__line {
+        width: 3.65rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .gt-motion-ready .gt-reveal,
+    .page-hero-content h1,
+    .page-hero-content p,
+    .tour-hero-content h1,
+    .tour-hero-content p,
+    .page-hero-awards,
+    .tour-hero-awards,
+    .hero-awards-standard,
+    .page-hero-stats {
+        opacity: 1 !important;
+        transform: none !important;
+        animation: none !important;
+        transition: none !important;
+    }
+}
+@media (hover: hover) and (pointer: fine) {
+    .gt-motion-ready main article.gt-reveal.reveal-visible:hover,
+    .gt-motion-ready main details.gt-reveal.reveal-visible:hover,
+    .gt-motion-ready main .faq-item.gt-reveal.reveal-visible:hover,
+    .gt-motion-ready main .group\/card.gt-reveal.reveal-visible:hover {
+        transform: translate3d(0, -4px, 0);
+    }
+}
+/* ENHANCED CARD MOTION */
+.gt-motion-card {
+    --gt-card-rx: 0deg;
+    --gt-card-ry: 0deg;
+    --gt-card-x: 50%;
+    --gt-card-y: 50%;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition:
+        transform 320ms cubic-bezier(.22, 1, .36, 1),
+        box-shadow 320ms ease,
+        border-color 260ms ease;
+}
+
+.gt-motion-card::after {
+    display: none;
+}
+
+.gt-motion-card img {
+    transition: transform 550ms cubic-bezier(.22, 1, .36, 1), filter 350ms ease !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .gt-motion-card:hover,
+    .gt-motion-ready .gt-motion-card.gt-reveal.reveal-visible:hover {
+        z-index: 3;
+        transform: perspective(900px) translate3d(0, -3px, 0) rotateX(var(--gt-card-rx)) rotateY(var(--gt-card-ry));
+        box-shadow: 0 0.65rem 1.5rem rgba(15, 23, 42, 0.09);
+    }
+
+    .gt-motion-card:hover img {
+        transform: scale(1.02);
+        filter: saturate(1.02);
+    }
+}
+
+@media (hover: none) {
+    .gt-motion-card:active {
+        transform: scale(0.985);
+        transition-duration: 120ms;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .gt-motion-card,
+    .gt-motion-card img {
+        transform: none !important;
+        transition: none !important;
+    }
+
+    .gt-motion-card::after {
+    display: none;
+}
+}
+/* STATIC INTERACTIVE CONTROLS */
+.tour-tabs-nav .tab-tour-btn,
+.blog-filter-list .blog-filter,
+.tour-faq .faq-item,
+.tour-faq .faq-toggle,
+.tour-tabs-nav .tab-tour-btn:hover,
+.tour-tabs-nav .tab-tour-btn:focus-visible,
+.blog-filter-list .blog-filter:hover,
+.blog-filter-list .blog-filter:focus-visible,
+.tour-faq .faq-item:hover,
+.tour-faq .faq-item:focus-within,
+.tour-faq .faq-toggle:hover,
+.tour-faq .faq-toggle:focus-visible,
+.gt-motion-ready main .tour-faq .faq-item.gt-reveal.reveal-visible:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+.tour-faq .faq-item::after,
+.tour-tabs-nav .tab-tour-btn::after,
+.blog-filter-list .blog-filter::after {
+    display: none !important;
+}
+/* STATIC ITINERARY ACCORDION */
+.itinerario-item,
+.itinerario-item:hover,
+.itinerario-item:focus-within,
+.itinerario-toggle,
+.itinerario-toggle:hover,
+.itinerario-toggle:focus-visible,
+.gt-motion-ready main .itinerario-item.gt-reveal.reveal-visible:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+.itinerario-item::after,
+.itinerario-toggle::after {
+    display: none !important;
 }

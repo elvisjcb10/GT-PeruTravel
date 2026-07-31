@@ -15,9 +15,7 @@ require_once __DIR__ . "/config/environment.php";
     // función para reconstruir URL con lang cambiado
     function cambiarIdioma($lang)
     {
-        $q = $_GET;
-        $q['lang'] = $lang;
-        return strtok($_SERVER['REQUEST_URI'], '?') . '?' . http_build_query($q);
+        return route_language_switch((string) $lang);
     }
     ?>
      <!---------------------- 
@@ -190,7 +188,7 @@ $header_ui = [
 
                 <!-- Logo -->
                 <div class="shrink-0">
-                    <a href="<?= $base_url ?>?lang=<?= $idioma ?>">
+                    <a href="<?= route_static_path('home', $idioma) ?>">
                         <img src="<?= $base_url ?>/images/gt-peru-travel.png"
                             alt="GT Peru Travel"
                             class="w-20 sm:w-24 md:w-32 hover:scale-105 transition duration-300">
@@ -200,7 +198,7 @@ $header_ui = [
                 <!-- Links (solo desktop) -->
                 <div class="hidden lg:flex items-center gap-8 text-sm font-medium text-[#333]"> 
 
-                    <a href="<?= $base_url ?>/blog.php?lang=<?= $idioma ?>"
+                    <a href="<?= route_static_path('blog', $idioma) ?>"
                     class="group flex items-center gap-1 hover:text-[#ff9300] transition duration-300">
                         <?= $header_text['banner_social']['extra_links']['blog'] ?>
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition"
@@ -209,7 +207,7 @@ $header_ui = [
                         </svg>
                     </a>
 
-                    <a href="<?= $base_url ?>/?lang=<?= urlencode($idioma) ?>#trip-advisor"
+                    <a href="<?= route_static_path('home', $idioma) ?>#trip-advisor"
                     class="group flex items-center gap-1 hover:text-[#ff9300] transition duration-300">
                         <?= $header_text['banner_social']['extra_links']['testimonios'] ?>
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition"
@@ -218,7 +216,7 @@ $header_ui = [
                         </svg>
                     </a>
 
-                    <a href="<?= $base_url ?>/nosotros.php?lang=<?= $idioma ?>"
+                    <a href="<?= route_static_path('nosotros', $idioma) ?>"
                     class="group flex items-center gap-1 hover:text-[#ff9300] transition duration-300">
                         <?= $header_text['banner_social']['extra_links']['nosotros'] ?>
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition"
@@ -227,7 +225,7 @@ $header_ui = [
                         </svg>
                     </a>
 
-                    <a href="<?= $base_url ?>/contacto.php?lang=<?= $idioma ?>"
+                    <a href="<?= route_static_path('contacto', $idioma) ?>"
                     class="inline-flex items-center gap-2 bg-[#ff9300] hover:bg-[#ff7a00] hover:shadow-lg hover:-translate-y-0.5
                             transition duration-300 text-white px-5 py-2.5 rounded-lg font-semibold group">
                         <?= $header_text['banner_social']['extra_links']['impacto'] ?>
@@ -241,7 +239,7 @@ $header_ui = [
 
                 <!-- Botón CTA visible en mobile/tablet + botón hamburguesa -->
                 <div class="flex items-center gap-3 lg:hidden">
-                    <a href="<?= $base_url ?>/contacto.php?lang=<?= $idioma ?>"
+                    <a href="<?= route_static_path('contacto', $idioma) ?>"
                     class="hidden sm:inline-flex items-center gap-1.5 bg-[#ff9300] hover:bg-[#ff7a00] transition text-white text-xs px-4 py-2 rounded-lg font-semibold">
                         <?= $header_text['banner_social']['extra_links']['impacto'] ?>
                     </a>
@@ -268,7 +266,7 @@ $header_ui = [
                         <!-- DESTINOS -->
                        <!-- DESTINOS -->
                         <li class="group/menu">
-                            <a href="<?= $base_url ?>/?lang=<?= $idioma ?>"
+                            <a href="<?= route_static_path('home', $idioma) ?>"
                             class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
                                 
                                 <?= $header_text['menu']['destinos'] ?>
@@ -296,7 +294,7 @@ $header_ui = [
                                     <div class="grid grid-cols-5 gap-6">
 
                                         <!-- lima-->
-                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=lima&lang=<?= $idioma ?>" class="group/card block rounded-xl overflow-hidden shadow-md">
+                                        <a href="<?= route_path('destino', $idioma, 'lima') ?>" class="group/card block rounded-xl overflow-hidden shadow-md">
                                             <div class="relative h-48 overflow-hidden">
                                                 <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['lima']['img'] ?>"
                                                     alt="Lima"
@@ -311,7 +309,7 @@ $header_ui = [
                                         </a>
 
                                         <!-- Manu -->
-                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=manu_tambopata&lang=<?= $idioma ?>" class="group/card block rounded-xl overflow-hidden shadow-md">
+                                        <a href="<?= route_path('destino', $idioma, 'manu_tambopata') ?>" class="group/card block rounded-xl overflow-hidden shadow-md">
                                             <div class="relative h-48 overflow-hidden">
                                                 <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['manu_tambopata']['img'] ?>"
                                                     alt="Manu Tambopata"
@@ -326,7 +324,7 @@ $header_ui = [
                                         </a>
 
                                         <!-- Arequipa -->
-                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=arequipa&lang=<?= $idioma ?>" class="group/card block rounded-xl overflow-hidden shadow-md">
+                                        <a href="<?= route_path('destino', $idioma, 'arequipa') ?>" class="group/card block rounded-xl overflow-hidden shadow-md">
                                             <div class="relative h-48 overflow-hidden">
                                                 <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['arequipa']['img'] ?>"
                                                     alt="Arequipa"
@@ -341,7 +339,7 @@ $header_ui = [
                                         </a>
 
                                         <!-- Puno -->
-                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=puno&lang=<?= $idioma ?>" class="group/card block rounded-xl overflow-hidden shadow-md">
+                                        <a href="<?= route_path('destino', $idioma, 'puno') ?>" class="group/card block rounded-xl overflow-hidden shadow-md">
                                             <div class="relative h-48 overflow-hidden">
                                                 <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['puno']['img'] ?>"
                                                     alt="Puno"
@@ -356,7 +354,7 @@ $header_ui = [
                                         </a>
 
                                         <!-- Huaraz -->
-                                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=huaraz&lang=<?= $idioma ?>" class="group/card block rounded-xl overflow-hidden shadow-md">
+                                        <a href="<?= route_path('destino', $idioma, 'huaraz') ?>" class="group/card block rounded-xl overflow-hidden shadow-md">
                                             <div class="relative h-48 overflow-hidden">
                                                 <img src="<?= $base_url ?><?= $header_text['mega_menu']['destinos']['huaraz']['img'] ?>"
                                                     alt="Huaraz"
@@ -376,7 +374,7 @@ $header_ui = [
                         </li>
                         <!-- TOURS CUSCO -->
                         <li class="group">
-                            <a href="<?= $base_url ?>/destino/template-destino.php?destino=cusco&lang=<?= $idioma ?>" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
+                            <a href="<?= route_path('destino', $idioma, 'cusco') ?>" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
                                 <?= $header_text['menu']['tour_cusco'] ?>
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     class="w-5 h-5 opacity-80 transition-transform duration-300 group-hover:rotate-180"
@@ -483,7 +481,7 @@ $header_ui = [
                         </li>
                         <!-- MACHU PICCHU -->
                         <li class="group" data-megamenu>
-                            <a href="<?= $base_url ?>/destino/template-destino.php?destino=machupicchu&lang=<?= $idioma ?>" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
+                            <a href="<?= route_path('destino', $idioma, 'machupicchu') ?>" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
                                 <?= $header_text['menu']['machupicchu'] ?>
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     class="w-5 h-5 opacity-80 transition-transform duration-300 group-hover:rotate-180"
@@ -506,7 +504,7 @@ $header_ui = [
                                         <!-- LEFT: lista de tours -->
                                         <div class="flex flex-col gap-1">
                                             <?php foreach($header_text['mega_menu']['machupicchu']['links'] as $key => $tour): ?>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= htmlspecialchars($tour['url'] ?? $key) ?>&lang=<?= $idioma ?>"
+                                                <a href="<?= route_path('tour', $idioma ?? $lang, (string)(htmlspecialchars($tour['url'] ?? $key))) ?>"
                                                     class="tour-item group/item flex items-center justify-between gap-2 p-4 rounded-xl hover:bg-[#FFF7EF] transition duration-200 cursor-pointer"
                                                     data-title="<?= htmlspecialchars($tour['nombre']) ?>"
                                                     data-desc="<?= htmlspecialchars($tour['descripcion']) ?>"
@@ -638,7 +636,7 @@ $header_ui = [
                                                 <!-- Imagen del tour -->
                                                 <div class="rounded-xl overflow-hidden bg-gray-100 h-full max-h-[300px]">
                                                     <img data-preview="img" src="" alt="Tour preview"
-                                                        class="w-full h-full object-cover" style="display:none">
+                                                        class="w-full h-full object-cover" style="display:none" loading="lazy" decoding="async">
                                                 </div>
 
                                             </div>
@@ -650,7 +648,7 @@ $header_ui = [
                         </li>
                         <!-- GLACIARES -->
                         <li class="group" data-megamenu>
-                            <a href="<?= $base_url ?>/destino/template-destino.php?destino=glaciares&lang=<?= $idioma ?>" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
+                            <a href="<?= route_path('destino', $idioma, 'glaciares') ?>" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
                                 <?= $header_text['menu']['glaciares_cusco'] ?>
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     class="w-5 h-5 opacity-80 transition-transform duration-300 group-hover:rotate-180"
@@ -673,7 +671,7 @@ $header_ui = [
                                         <!-- LEFT: lista de tours -->
                                         <div class="flex flex-col gap-1">
                                             <?php foreach($header_text['mega_menu']['glaciares']['links'] as $key => $tour): ?>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= htmlspecialchars($tour['url'] ?? $key) ?>&lang=<?= $idioma ?>"
+                                                <a href="<?= route_path('tour', $idioma ?? $lang, (string)(htmlspecialchars($tour['url'] ?? $key))) ?>"
                                                     class="tour-item group/item flex items-center justify-between gap-2 p-4 rounded-xl hover:bg-[#FFF7EF] transition duration-200 cursor-pointer"
                                                     data-title="<?= htmlspecialchars($tour['nombre']) ?>"
                                                     data-desc="<?= htmlspecialchars($tour['descripcion']) ?>"
@@ -805,7 +803,7 @@ $header_ui = [
                                                 <!-- Imagen del tour -->
                                                 <div class="rounded-xl overflow-hidden bg-gray-100 h-full max-h-[300px]">
                                                     <img data-preview="img" src="" alt="Tour preview"
-                                                        class="w-full h-full object-cover" style="display:none">
+                                                        class="w-full h-full object-cover" style="display:none" loading="lazy" decoding="async">
                                                 </div>
 
                                             </div>
@@ -817,7 +815,7 @@ $header_ui = [
                         </li>
                         <!-- EXPERIENCIA UNICAS -->
                         <li class="group" data-megamenu>
-                            <a href="<?= $base_url ?>/destino/template-destino.php?destino=experiencias-unicas&lang=<?= $idioma ?>" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
+                            <a href="<?= route_path('destino', $idioma, 'experiencias-unicas') ?>" class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
                                 <?= $header_text['menu']['experiencia_unica'] ?>
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     class="w-5 h-5 opacity-80 transition-transform duration-300 group-hover:rotate-180"
@@ -839,7 +837,7 @@ $header_ui = [
                                         <!-- LEFT: lista de tours -->
                                         <div class="flex flex-col gap-1">
                                             <?php foreach($header_text['mega_menu']['experiencias_unicas']['links'] as $key => $tour): ?>
-                                                <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= htmlspecialchars($tour['url'] ?? $key) ?>&lang=<?= $idioma ?>"
+                                                <a href="<?= route_path('tour', $idioma ?? $lang, (string)(htmlspecialchars($tour['url'] ?? $key))) ?>"
                                                     class="tour-item group/item flex items-center justify-between gap-2 p-4 rounded-xl hover:bg-[#FFF7EF] transition duration-200 cursor-pointer"
                                                     data-title="<?= htmlspecialchars($tour['nombre']) ?>"
                                                     data-desc="<?= htmlspecialchars($tour['descripcion']) ?>"
@@ -971,7 +969,7 @@ $header_ui = [
                                                 <!-- Imagen del tour -->
                                                 <div class="rounded-xl overflow-hidden bg-gray-100 h-full max-h-[300px]">
                                                     <img data-preview="img" src="" alt="Tour preview"
-                                                        class="w-full h-full object-cover" style="display:none">
+                                                        class="w-full h-full object-cover" style="display:none" loading="lazy" decoding="async">
                                                 </div>
 
                                             </div>
@@ -983,7 +981,7 @@ $header_ui = [
                         </li>
                         <!-- PAQUETES PERU -->
                         <li class="group">
-                            <a href="<?= $base_url ?>/destino/template-destino.php?destino=paquete-peru&lang=<?= $idioma ?>"  class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
+                            <a href="<?= route_path('destino', $idioma, 'paquete-peru') ?>"  class="group flex items-center gap-1 px-2 hover:text-orange-200 transition">
                                 <?= $header_text['menu']['paquete_peru'] ?>
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     class="w-5 h-5 opacity-80 transition-transform duration-300 group-hover:rotate-180"
@@ -1054,17 +1052,17 @@ $header_ui = [
 
         <!-- Links principales del sitio (los que estaban en banner-social) -->
         <div class="p-4 border-b border-gray-200 space-y-1">
-            <a href="<?= $base_url ?>/blog.php?lang=<?= $idioma ?>"
+            <a href="<?= route_static_path('blog', $idioma) ?>"
             class="flex items-center justify-between py-3 px-2 text-gray-700 font-medium text-sm hover:bg-gray-50 rounded-lg">
                 <?= $header_text['banner_social']['extra_links']['blog'] ?>
                 <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-400"></i>
             </a>
-            <a href="<?= $base_url ?>/?lang=<?= urlencode($idioma) ?>#trip-advisor"
+            <a href="<?= route_static_path('home', $idioma) ?>#trip-advisor"
             class="flex items-center justify-between py-3 px-2 text-gray-700 font-medium text-sm hover:bg-gray-50 rounded-lg">
                 <?= $header_text['banner_social']['extra_links']['testimonios'] ?>
                 <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-400"></i>
             </a>
-            <a href="<?= $base_url ?>/nosotros.php?lang=<?= $idioma ?>"
+            <a href="<?= route_static_path('nosotros', $idioma) ?>"
             class="flex items-center justify-between py-3 px-2 text-gray-700 font-medium text-sm hover:bg-gray-50 rounded-lg">
                 <?= $header_text['banner_social']['extra_links']['nosotros'] ?>
             </a>
@@ -1083,7 +1081,7 @@ $header_ui = [
                     <?php
                     $destinos_menu = ['lima', 'manu_tambopata', 'arequipa', 'puno', 'huaraz'];
                     foreach ($destinos_menu as $d): ?>
-                        <a href="<?= $base_url ?>/destino/template-destino.php?destino=<?= $d ?>&lang=<?= $idioma ?>"
+                        <a href="<?= route_path('destino', $idioma, (string)($d)) ?>"
                         class="block py-2 text-gray-600 text-sm hover:text-orange-custom">
                             <?= $header_text['mega_menu']['destinos'][$d]['nombre'] ?>
                         </a>
@@ -1100,17 +1098,17 @@ $header_ui = [
                 <div class=" font-poppins mobile-accordion-panel hidden pl-2 pb-2">
                     <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mt-2 mb-1"><?= $header_text['mega_menu']['tour_cusco']['tradicionales']['title'] ?></p>
                     <?php foreach ($header_text['mega_menu']['tour_cusco']['tradicionales']['links'] as $key => $nombre): ?>
-                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $key ?>&lang=<?= $idioma ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $nombre ?></a>
+                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)($key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $nombre ?></a>
                     <?php endforeach; ?>
 
                     <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mt-3 mb-1"><?= $header_text['mega_menu']['tour_cusco']['caminata']['title'] ?></p>
                     <?php foreach ($header_text['mega_menu']['tour_cusco']['caminata']['links'] as $key => $nombre): ?>
-                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $key ?>&lang=<?= $idioma ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $nombre ?></a>
+                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)($key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $nombre ?></a>
                     <?php endforeach; ?>
 
                     <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mt-3 mb-1"><?= $header_text['mega_menu']['tour_cusco']['aventura']['title'] ?></p>
                     <?php foreach ($header_text['mega_menu']['tour_cusco']['aventura']['links'] as $key => $nombre): ?>
-                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $key ?>&lang=<?= $idioma ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $nombre ?></a>
+                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)($key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $nombre ?></a>
                     <?php endforeach; ?>
                 </div>
             </div>
@@ -1123,7 +1121,7 @@ $header_ui = [
                 </button>
                 <div class=" font-poppins mobile-accordion-panel hidden pl-2 pb-2 space-y-1">
                     <?php foreach ($header_text['mega_menu']['machupicchu']['links'] as $key => $tour): ?>
-                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $key ?>&lang=<?= $idioma ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $tour['nombre'] ?></a>
+                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)($key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $tour['nombre'] ?></a>
                     <?php endforeach; ?>
                 </div>
             </div>
@@ -1136,7 +1134,7 @@ $header_ui = [
                 </button>
                 <div class=" font-poppins mobile-accordion-panel hidden pl-2 pb-2 space-y-1">
                     <?php foreach ($header_text['mega_menu']['glaciares']['links'] as $key => $tour): ?>
-                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $key ?>&lang=<?= $idioma ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $tour['nombre'] ?></a>
+                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)($key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $tour['nombre'] ?></a>
                     <?php endforeach; ?>
                 </div>
             </div>
@@ -1149,7 +1147,7 @@ $header_ui = [
                 </button>
                 <div class=" font-poppins mobile-accordion-panel hidden pl-2 pb-2 space-y-1">
                     <?php foreach ($header_text['mega_menu']['experiencias_unicas']['links'] as $key => $tour): ?>
-                        <a href="<?= $base_url ?>/tour/template-tour.php?tour=<?= $key ?>&lang=<?= $idioma ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $tour['nombre'] ?></a>
+                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)($key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $tour['nombre'] ?></a>
                     <?php endforeach; ?>
                 </div>
             </div>
@@ -1162,7 +1160,7 @@ $header_ui = [
                 </button>
                 <div class="mobile-accordion-panel hidden pl-2 pb-2 space-y-1 font-poppins ">
                     <?php foreach ($header_text['mega_menu']['paquete_peru']['links'] as $key => $nombre): ?>
-                        <a href="<?= $base_url ?>/paquete/template-paquete.php?paquete=<?= $key ?>&lang=<?= $idioma ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $nombre ?></a>
+                        <a href="<?= route_path('paquete', $idioma ?? $lang, (string)($key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $nombre ?></a>
                     <?php endforeach; ?>
                 </div>
             </div>
@@ -1171,7 +1169,7 @@ $header_ui = [
 
         <!-- CTA + idiomas al final del panel -->
         <div class="p-4 border-t border-gray-200">
-            <a href="<?= $base_url ?>/contacto.php?lang=<?= $idioma ?>"
+            <a href="<?= route_static_path('contacto', $idioma) ?>"
             class="flex items-center justify-center gap-2 bg-orange-custom hover:bg-[#ff7a00] transition text-white font-medium text-sm px-5 py-3 rounded-lg mb-4">
                 <?= $header_text['banner_social']['extra_links']['impacto'] ?>
             </a>

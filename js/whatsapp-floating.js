@@ -132,16 +132,6 @@ ${url}`;
         link.href = `https://wa.me/${randomPhone}?text=${message}`;
         link.target = "_blank";
         link.rel = "noopener";
-
-        // ===== TRACKING GOOGLE ADS =====
-        link.addEventListener('click', function() {
-            if (typeof gtag === 'function') {
-                gtag('event', 'conversion', {
-                    'send_to': 'AW-XXXXXXXXX/ABCDEF12345',
-                    'event_category': 'WhatsApp',
-                    'event_label': label, // usa [HOME], [TOUR], etc.
-                    'value': 1
-                });
             }
         });
 
