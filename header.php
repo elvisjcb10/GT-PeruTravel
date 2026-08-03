@@ -504,7 +504,7 @@ $header_ui = [
                                         <!-- LEFT: lista de tours -->
                                         <div class="flex flex-col gap-1">
                                             <?php foreach($header_text['mega_menu']['machupicchu']['links'] as $key => $tour): ?>
-                                                <a href="<?= route_path('tour', $idioma ?? $lang, (string)(htmlspecialchars($tour['url'] ?? $key))) ?>"
+                                                <a href="<?= route_path((string)($tour['type'] ?? 'tour'), $idioma ?? $lang, (string)(($tour['url'] ?? '') ?: $key)) ?>"
                                                     class="tour-item group/item flex items-center justify-between gap-2 p-4 rounded-xl hover:bg-[#FFF7EF] transition duration-200 cursor-pointer"
                                                     data-title="<?= htmlspecialchars($tour['nombre']) ?>"
                                                     data-desc="<?= htmlspecialchars($tour['descripcion']) ?>"
@@ -671,7 +671,7 @@ $header_ui = [
                                         <!-- LEFT: lista de tours -->
                                         <div class="flex flex-col gap-1">
                                             <?php foreach($header_text['mega_menu']['glaciares']['links'] as $key => $tour): ?>
-                                                <a href="<?= route_path('tour', $idioma ?? $lang, (string)(htmlspecialchars($tour['url'] ?? $key))) ?>"
+                                                <a href="<?= route_path((string)($tour['type'] ?? 'tour'), $idioma ?? $lang, (string)(($tour['url'] ?? '') ?: $key)) ?>"
                                                     class="tour-item group/item flex items-center justify-between gap-2 p-4 rounded-xl hover:bg-[#FFF7EF] transition duration-200 cursor-pointer"
                                                     data-title="<?= htmlspecialchars($tour['nombre']) ?>"
                                                     data-desc="<?= htmlspecialchars($tour['descripcion']) ?>"
@@ -837,7 +837,7 @@ $header_ui = [
                                         <!-- LEFT: lista de tours -->
                                         <div class="flex flex-col gap-1">
                                             <?php foreach($header_text['mega_menu']['experiencias_unicas']['links'] as $key => $tour): ?>
-                                                <a href="<?= route_path('tour', $idioma ?? $lang, (string)(htmlspecialchars($tour['url'] ?? $key))) ?>"
+                                                <a href="<?= route_path((string)($tour['type'] ?? 'tour'), $idioma ?? $lang, (string)(($tour['url'] ?? '') ?: $key)) ?>"
                                                     class="tour-item group/item flex items-center justify-between gap-2 p-4 rounded-xl hover:bg-[#FFF7EF] transition duration-200 cursor-pointer"
                                                     data-title="<?= htmlspecialchars($tour['nombre']) ?>"
                                                     data-desc="<?= htmlspecialchars($tour['descripcion']) ?>"
@@ -1147,7 +1147,7 @@ $header_ui = [
                 </button>
                 <div class=" font-poppins mobile-accordion-panel hidden pl-2 pb-2 space-y-1">
                     <?php foreach ($header_text['mega_menu']['experiencias_unicas']['links'] as $key => $tour): ?>
-                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)($key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $tour['nombre'] ?></a>
+                        <a href="<?= route_path((string)($tour['type'] ?? 'tour'), $idioma ?? $lang, (string)(($tour['url'] ?? '') ?: $key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $tour['nombre'] ?></a>
                     <?php endforeach; ?>
                 </div>
             </div>
