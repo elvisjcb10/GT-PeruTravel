@@ -18,7 +18,9 @@
 
     const shouldSkip = (element) =>
         element.closest('[hidden], .swiper-slide-duplicate') ||
-        element.matches('.swiper, .swiper-wrapper, .swiper-slide, script, style');
+        element.matches('.swiper, .swiper-wrapper, .swiper-slide, script, style') ||
+        (document.body.classList.contains('blog-article-page') &&
+            element.matches('main article, main article *, main aside, main aside *'));
 
     const prepare = (root = document) => {
         const elements = [...root.querySelectorAll(selector)].filter((element) => !shouldSkip(element));
@@ -34,6 +36,9 @@
     };
 
     const start = () => {
+        if (document.body.classList.contains('blog-page') ||
+            document.body.classList.contains('blog-article-page')) return;
+
         document.documentElement.classList.add('gt-motion-ready');
         const elements = prepare();
         if (reduceMotion || !('IntersectionObserver' in window)) {
@@ -50,6 +55,12 @@
         }, { threshold: 0.08, rootMargin: '0px 0px -35px 0px' });
 
         elements.forEach((element) => observer.observe(element));
+
+        // La animacion es una mejora visual: nunca debe poder ocultar contenido
+        // si el navegador no entrega una notificacion del observer a tiempo.
+        window.setTimeout(() => {
+            elements.forEach((element) => element.classList.add('reveal-visible'));
+        }, 1600);
 
         const mutations = new MutationObserver((records) => {
             records.forEach((record) => record.addedNodes.forEach((node) => {
@@ -104,6 +115,9 @@
     };
 
     const startCards = () => {
+        if (document.body.classList.contains('blog-page') ||
+            document.body.classList.contains('blog-article-page')) return;
+
         decorateCards();
         const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
         const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

@@ -214,7 +214,7 @@ $seo_description = $data['seo']['description'] ?? $data['excerpt'];
     <link rel="stylesheet" href="/css/tailwind.min.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body class="bg-white text-gray-900">
+<body class="blog-article-page bg-white text-gray-900">
     <?php include __DIR__ . '/../header.php'; ?>
 
     <main>
@@ -402,7 +402,7 @@ $seo_description = $data['seo']['description'] ?? $data['excerpt'];
                                     <?php foreach ($toc_items as $index => $section): ?>
                                         <li>
                                             <a href="#<?= htmlspecialchars($section['id']) ?>"
-                                                class="group flex gap-3 border-b border-gray-100 py-2.5 font-poppins text-xs leading-5 text-gray-500 transition hover:text-orange-custom">
+                                                class="group flex gap-3 border-b border-gray-100 py-2.5 font-poppins text-xs leading-5 text-gray-500 transition ">
                                                 <span class="w-6 shrink-0 whitespace-nowrap font-bold text-orange-custom"><?= str_pad((string) ($index + 1), 2, '0', STR_PAD_LEFT) ?></span>
                                                 <span class="min-w-0"><?= htmlspecialchars($section['title']) ?></span>
                                             </a>
@@ -417,7 +417,7 @@ $seo_description = $data['seo']['description'] ?? $data['excerpt'];
                                     <h2 class="mt-4 font-poppins text-base font-bold"><?= htmlspecialchars($data['cta']['title']) ?></h2>
                                     <p class="mt-2 font-poppins text-xs leading-5 text-white/60"><?= htmlspecialchars($data['cta']['text']) ?></p>
                                     <a href="<?= htmlspecialchars(blog_link_url($data['cta']['url'], $base_url)) ?>"
-                                        class="mt-5 inline-flex w-full items-center justify-center rounded-lg bg-orange-custom px-4 py-3 font-poppins text-xs font-bold text-white transition hover:bg-[#d97700]">
+                                        class="mt-5 inline-flex w-full items-center justify-center rounded-lg bg-orange-custom px-4 py-3 font-poppins text-xs font-bold text-white transition ">
                                         <?= htmlspecialchars($data['cta']['button']) ?>
                                     </a>
                                 </div>
@@ -428,7 +428,7 @@ $seo_description = $data['seo']['description'] ?? $data['excerpt'];
                                     <p class="font-poppins text-[0.65rem] font-bold uppercase tracking-[0.14em] text-orange-custom"><?= htmlspecialchars($labels['related']) ?></p>
                                     <div class="mt-4 space-y-4">
                                         <?php foreach ($data['related'] as $related): ?>
-                                            <a href="<?= route_path('blog', $idioma, (string)($related['slug'] ?? '')) ?>" class="grid grid-cols-[70px_1fr] gap-3 rounded-lg transition hover:bg-gray-50">
+                                            <a href="<?= route_path('blog', $idioma, (string)($related['slug'] ?? '')) ?>" class="grid grid-cols-[70px_1fr] gap-3 rounded-lg transition ">
                                                 <img src="<?= htmlspecialchars(blog_image_url($related['image'], $base_url)) ?>"
                                                     alt="<?= htmlspecialchars($related['title']) ?>"
                                                     class="h-16 w-full rounded-lg object-cover">
@@ -462,11 +462,11 @@ $seo_description = $data['seo']['description'] ?? $data['excerpt'];
                             <div class="swiper-wrapper">
                                 <?php foreach ($data['more_articles'] as $item): ?>
                                     <div class="swiper-slide h-auto">
-                                        <a href="<?= route_path('blog', $idioma, (string)($item['slug'] ?? '')) ?>" class="group block h-full overflow-hidden rounded-xl border border-gray-200 bg-white transition hover:-translate-y-1 hover:shadow-lg">
+                                        <a href="<?= route_path('blog', $idioma, (string)($item['slug'] ?? '')) ?>" class="group block h-full overflow-hidden rounded-xl border border-gray-200 bg-white transition  ">
                                             <div class="h-44 overflow-hidden">
                                                 <img src="<?= htmlspecialchars(blog_image_url($item['image'], $base_url)) ?>"
                                                     alt="<?= htmlspecialchars($item['title']) ?>"
-                                                    class="h-full w-full object-cover transition duration-500 group-hover:scale-105">
+                                                    class="h-full w-full object-cover transition duration-500 ">
                                             </div>
                                             <div class="p-4">
                                                 <p class="font-poppins text-[0.6rem] font-bold uppercase tracking-[0.12em] text-orange-custom"><?= htmlspecialchars($item['category']) ?></p>

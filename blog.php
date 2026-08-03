@@ -215,7 +215,7 @@ function blog_pagination_items(int $current, int $total): array
     <link rel="stylesheet" href="/css/tailwind.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bg-white">
+<body class="blog-page bg-white">
     <?php include __DIR__ . '/header.php'; ?>
 
     <main>
@@ -282,12 +282,12 @@ function blog_pagination_items(int $current, int $total): array
 
                     <div class="blog-filter-list order-1 flex gap-2 overflow-x-auto pb-2 lg:order-2 lg:ml-auto lg:justify-end lg:pb-0" role="group" aria-label="<?= htmlspecialchars($pagination_text['filter']) ?>">
                         <a href="<?= htmlspecialchars(route_static_path('blog', $idioma)) ?>"
-                            class="blog-filter shrink-0 rounded-full px-5 py-2.5 font-poppins text-xs font-semibold transition <?= $selected_category === 'all' ? 'bg-orange-custom text-white' : 'border border-gray-200 bg-white text-gray-600 hover:border-orange-300 hover:text-orange-custom' ?>">
+                            class="blog-filter shrink-0 rounded-full px-5 py-2.5 font-poppins text-xs font-semibold transition <?= $selected_category === 'all' ? 'bg-orange-custom text-white' : 'border border-gray-200 bg-white text-gray-600  ' ?>">
                             <?= htmlspecialchars($textos['all']) ?>
                         </a>
                         <?php foreach ($categories as $category): ?>
                             <a href="<?= htmlspecialchars(blog_page_url($base_url, $idioma, $category, 1)) ?>"
-                                class="blog-filter shrink-0 rounded-full px-5 py-2.5 font-poppins text-xs font-semibold transition <?= $selected_category === $category ? 'bg-orange-custom text-white' : 'border border-gray-200 bg-white text-gray-600 hover:border-orange-300 hover:text-orange-custom' ?>">
+                                class="blog-filter shrink-0 rounded-full px-5 py-2.5 font-poppins text-xs font-semibold transition <?= $selected_category === $category ? 'bg-orange-custom text-white' : 'border border-gray-200 bg-white text-gray-600  ' ?>">
                                 <?= htmlspecialchars($category) ?>
                             </a>
                         <?php endforeach; ?>
@@ -301,7 +301,7 @@ function blog_pagination_items(int $current, int $total): array
                             class="absolute inset-0 z-20"
                             aria-label="<?= htmlspecialchars($textos['read'] . ': ' . $featured['title']) ?>"></a>
                         <img src="<?= blog_listing_image($featured, $base_url) ?>" alt="<?= htmlspecialchars($featured['title']) ?>"
-                            class="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-105">
+                            class="absolute inset-0 h-full w-full object-cover transition duration-700 ">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/25 to-transparent"></div>
                         <div class="absolute inset-x-0 bottom-0 p-5 sm:p-7">
                             <span class="inline-flex rounded-md bg-orange-custom px-3 py-1.5 font-poppins text-[0.65rem] font-bold text-white">
@@ -326,11 +326,11 @@ function blog_pagination_items(int $current, int $total): array
 
                     <div class="grid gap-4">
                         <?php foreach ($secondary_featured as $post): ?>
-                            <article class="group relative grid min-h-[125px] grid-cols-[120px_1fr] overflow-hidden rounded-xl border border-gray-200 bg-white transition hover:border-orange-200 hover:shadow-md sm:grid-cols-[155px_1fr]" data-blog-card data-category="<?= htmlspecialchars($post['category']) ?>">
+                            <article class="group relative grid min-h-[125px] grid-cols-[120px_1fr] overflow-hidden rounded-xl border border-gray-200 bg-white transition   sm:grid-cols-[155px_1fr]" data-blog-card data-category="<?= htmlspecialchars($post['category']) ?>">
                                 <a href="<?= route_path('blog', $idioma, (string)($post['slug'])) ?>" class="absolute inset-0 z-10" aria-label="<?= htmlspecialchars($textos['read'] . ': ' . $post['title']) ?>"></a>
                                 <div class="overflow-hidden">
                                     <img src="<?= blog_listing_image($post, $base_url) ?>" alt="<?= htmlspecialchars($post['title']) ?>"
-                                        loading="lazy" class="h-full w-full object-cover transition duration-500 group-hover:scale-105">
+                                        loading="lazy" class="h-full w-full object-cover transition duration-500 ">
                                 </div>
                                 <div class="flex min-w-0 flex-col justify-center p-4">
                                     <p class="font-poppins text-[0.62rem] font-bold uppercase tracking-[0.12em] text-orange-custom"><?= htmlspecialchars($post['category']) ?></p>
@@ -359,11 +359,11 @@ function blog_pagination_items(int $current, int $total): array
 
                 <div id="blog-grid" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
                     <?php foreach ($page_posts as $post): ?>
-                        <article id="<?= htmlspecialchars($post['slug']) ?>" class="blog-card group relative flex h-full flex-col overflow-hidden rounded-xl border border-gray-200 bg-white transition duration-300 hover:-translate-y-1 hover:border-orange-200 hover:shadow-lg" data-blog-card data-category="<?= htmlspecialchars($post['category']) ?>">
+                        <article id="<?= htmlspecialchars($post['slug']) ?>" class="blog-card group relative flex h-full flex-col overflow-hidden rounded-xl border border-gray-200 bg-white transition duration-300   " data-blog-card data-category="<?= htmlspecialchars($post['category']) ?>">
                             <a href="<?= route_path('blog', $idioma, (string)($post['slug'])) ?>" class="absolute inset-0 z-20" aria-label="<?= htmlspecialchars($textos['read'] . ': ' . $post['title']) ?>"></a>
                             <div class="relative h-52 overflow-hidden sm:h-56">
                                 <img src="<?= blog_listing_image($post, $base_url) ?>" alt="<?= htmlspecialchars($post['title']) ?>"
-                                    loading="lazy" class="h-full w-full object-cover transition duration-500 group-hover:scale-105">
+                                    loading="lazy" class="h-full w-full object-cover transition duration-500 ">
                                 <span class="absolute left-3 top-3 rounded-md bg-orange-custom px-3 py-1.5 font-poppins text-[0.65rem] font-bold text-white">
                                     <?= htmlspecialchars($textos['new']) ?>
                                 </span>
@@ -388,7 +388,7 @@ function blog_pagination_items(int $current, int $total): array
                 <nav id="blog-pagination" class="mt-10 flex flex-wrap items-center justify-center gap-2" aria-label="<?= htmlspecialchars($pagination_text['page']) ?>">
                     <?php if ($page > 1): ?>
                         <a href="<?= htmlspecialchars(blog_page_url($base_url, $idioma, $selected_category, $page - 1)) ?>"
-                            class="inline-flex h-10 items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-4 font-poppins text-xs font-semibold text-gray-600 transition hover:border-orange-custom hover:text-orange-custom">
+                            class="inline-flex h-10 items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-4 font-poppins text-xs font-semibold text-gray-600 transition  ">
                             <i class="fa-solid fa-chevron-left text-[0.65rem]"></i>
                             <span class="hidden sm:inline"><?= htmlspecialchars($pagination_text['previous']) ?></span>
                         </a>
@@ -401,7 +401,7 @@ function blog_pagination_items(int $current, int $total): array
                             <a href="<?= htmlspecialchars(blog_page_url($base_url, $idioma, $selected_category, $page_number)) ?>"
                                 aria-label="<?= htmlspecialchars($pagination_text['page'] . ' ' . $page_number) ?>"
                                 <?= $page_number === $page ? 'aria-current="page"' : '' ?>
-                                class="flex h-10 min-w-10 items-center justify-center rounded-full px-3 font-poppins text-xs font-semibold transition <?= $page_number === $page ? 'bg-orange-custom font-bold text-white shadow-sm' : 'border border-gray-200 bg-white text-gray-600 hover:border-orange-custom hover:text-orange-custom' ?>">
+                                class="flex h-10 min-w-10 items-center justify-center rounded-full px-3 font-poppins text-xs font-semibold transition <?= $page_number === $page ? 'bg-orange-custom font-bold text-white shadow-sm' : 'border border-gray-200 bg-white text-gray-600  ' ?>">
                                 <?= $page_number ?>
                             </a>
                         <?php endif; ?>
@@ -409,7 +409,7 @@ function blog_pagination_items(int $current, int $total): array
 
                     <?php if ($page < $total_pages): ?>
                         <a href="<?= htmlspecialchars(blog_page_url($base_url, $idioma, $selected_category, $page + 1)) ?>"
-                            class="inline-flex h-10 items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-4 font-poppins text-xs font-semibold text-gray-600 transition hover:border-orange-custom hover:text-orange-custom">
+                            class="inline-flex h-10 items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-4 font-poppins text-xs font-semibold text-gray-600 transition  ">
                             <span class="hidden sm:inline"><?= htmlspecialchars($pagination_text['next']) ?></span>
                             <i class="fa-solid fa-chevron-right text-[0.65rem]"></i>
                         </a>

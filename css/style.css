@@ -1670,3 +1670,14 @@ footer a.rounded-md {
 .itinerario-toggle::after {
     display: none !important;
 }
+/* BLOG: contenido estatico, sin animaciones ni transiciones */
+.blog-page main *,
+.blog-article-page main * {
+    animation: none !important;
+    transition: none !important;
+}
+
+.blog-page main *:hover,
+.blog-article-page main *:hover {
+    transform: none !important;
+}
