@@ -82,6 +82,60 @@
                 "active": true,
                 "label": "EXPEDICION ANDINA"
             }
+        },
+        {
+            "title": "CUSCO EXPRESS",
+            "subtitle": "3 DÍAS / 2 NOCHES",
+            "ubicacion": "Cusco · Machu Picchu",
+            "max_personas": "12",
+            "categorias": ["Cultura", "Arqueología", "Machu Picchu"],
+            "description": "Descubre Cusco y Machu Picchu en una experiencia corta e intensa, ideal para viajeros con tiempo limitado.",
+            "price": "309",
+            "moneda": "USD",
+            "image": "paquetes/cusco-express-hero.jpg",
+            "url": "cusco-express",
+            "reservar": "VER PAQUETE",
+            "promo": {"active": true, "label": "VIAJE EXPRESS"}
+        },
+        {
+            "title": "CUSCO IMPERIAL",
+            "subtitle": "5 DÍAS / 4 NOCHES",
+            "ubicacion": "Cusco · Valle Sagrado · Machu Picchu",
+            "max_personas": "12",
+            "categorias": ["Cultura", "Trekking", "Arqueología"],
+            "description": "Vive Cusco, Machu Picchu, Laguna Humantay y Montaña de 7 Colores en una experiencia completa.",
+            "price": "485",
+            "moneda": "USD",
+            "image": "paquetes/cusco-imperial-hero.jpg",
+            "url": "cusco-imperial",
+            "reservar": "VER PAQUETE",
+            "promo": {"active": true, "label": "AVENTURA IMPERIAL"}
+        },
+        {
+            "title": "PERÚ MÍSTICO",
+            "subtitle": "7 DÍAS / 6 NOCHES",
+            "ubicacion": "Lima · Paracas · Cusco",
+            "max_personas": "12",
+            "categorias": ["Cultura", "Naturaleza", "Aventura"],
+            "description": "Descubre Lima, Paracas, Huacachina, Cusco, Machu Picchu, Laguna Humantay y Montaña de 7 Colores.",
+            "price": "519",
+            "moneda": "USD",
+            "image": "paquetes/peru-mistico-hero.jpg",
+            "url": "peru-mistico",
+            "reservar": "VER PAQUETE",
+            "promo": {"active": true, "label": "COSTA Y ANDES"}
+        },
+        {
+            "title":"PERÚ MARAVILLOSO","subtitle":"8 DÍAS / 7 NOCHES","ubicacion":"Lima · Paracas · Cusco","max_personas":"12","categorias":["Cultura","Naturaleza","Aventura"],"description":"Conoce la costa, el Valle Sagrado, Machu Picchu, Humantay y Montaña de 7 Colores.","price":"559","moneda":"USD","image":"paquetes/peru-maravilloso-hero.jpg","url":"peru-maravilloso","reservar":"VER PAQUETE","promo":{"active":true,"label":"EXPERIENCIA COMPLETA"}
+        },
+        {
+            "title":"PERÚ MÁGICO","subtitle":"9 DÍAS / 8 NOCHES","ubicacion":"Lima · Paracas · Cusco","max_personas":"12","categorias":["Cultura","Naturaleza","Aventura"],"description":"Descubre Machu Picchu, Humantay, Morada de los Dioses y Montaña de 7 Colores.","price":"569","moneda":"USD","image":"paquetes/peru-magico-hero.jpg","url":"peru-magico","reservar":"VER PAQUETE","promo":{"active":true,"label":"PERÚ COMPLETO"}
+        },
+        {
+            "title":"PERÚ MILENARIO","subtitle":"12 DÍAS / 11 NOCHES","description":"Recorre Machu Picchu, Q’eswachaka y el Lago Titicaca.","price":"739","moneda":"USD","image":"paquetes/peru-milenario-hero.jpg","url":"peru-milenario","reservar":"VER PAQUETE"
+        },
+        {
+            "title":"PERÚ 360","subtitle":"15 DÍAS / 14 NOCHES","description":"Descubre Nazca, Machu Picchu, Titicaca, Arequipa y el Cañón del Colca.","price":"1059","moneda":"USD","image":"paquetes/peru-360-hero.jpg","url":"peru-360","reservar":"VER PAQUETE"
         }
     ]
 }

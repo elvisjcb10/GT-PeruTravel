@@ -1,0 +1,33 @@
+{
+  "title": "Imperial Cusco",
+  "short_description": "Experience Cusco, the City Tour, Sacred Valley, Machu Picchu, Humantay Lake and Rainbow Mountain in 5 days of history, culture and adventure.",
+  "long_description": "Welcome to the historic capital of the <strong>Inca Empire</strong>. Cusco awaits with ancient charm, historic streets and spectacular landscapes.<br><br>During this <strong>5-day, 4-night</strong> journey, explore Cusco's archaeological sites, the <strong>Sacred Valley</strong>, <strong>Machu Picchu</strong>, <strong>Humantay Lake</strong> and <strong>Rainbow Mountain</strong>.",
+  "duration": "5 Days / 4 Nights", "image_cover": "cusco-imperial-hero.jpg",
+  "gallery": ["cusco-imperial/galeria-01.jpg", "cusco-imperial/galeria-02.jpg", "cusco-imperial/galeria-03.jpg", "cusco-imperial/galeria-04.jpg", "cusco-imperial/galeria-05.jpg", "cusco-imperial/galeria-06.jpg", "cusco-imperial/galeria-07.jpg", "cusco-imperial/galeria-08.jpg", "cusco-imperial/galeria-09.jpg"],
+  "price": "485", "price_note": "From USD 485 per person. Subject to availability.",
+  "seo_title": "Imperial Cusco 5 Days / 4 Nights | Machu Picchu | GT Peru Travel",
+  "seo_description": "Discover Cusco, Sacred Valley, Machu Picchu, Humantay Lake and Rainbow Mountain with the 5-day Imperial Cusco package.",
+  "seo_keywords": "imperial cusco, 5 day cusco package, machu picchu, sacred valley, humantay lake, rainbow mountain, gt peru travel",
+  "days": [
+    {"title": "Day 1: Cusco City Tour", "text": "Explore Cusco's historic center, Cathedral and <strong>Qorikancha</strong>, followed by <strong>Sacsayhuamán</strong>, <strong>Qenqo</strong>, <strong>Puka Pukara</strong> and <strong>Tambomachay</strong>. Return near Cusco's main square."},
+    {"title": "Day 2: Sacred Valley – Ollantaytambo", "text": "Travel from Cusco to <strong>Chinchero</strong>, <strong>Moray</strong> and the <strong>Maras Salt Mines</strong>. Enjoy a buffet lunch in Urubamba and visit <strong>Ollantaytambo</strong> before boarding the train."},
+    {"title": "Day 3: Machu Picchu", "text": "Travel by tourist train to <strong>Aguas Calientes</strong>. Our guide accompanies you by bus to <strong>Machu Picchu</strong> for the assigned circuit. After free time, return by train and tourist transportation to Cusco."},
+    {"title": "Day 4: Humantay Lake", "text": "Depart early for <strong>Humantay Lake</strong>. After breakfast, begin a 1.5-to-2-hour hike. Enjoy the scenery and guide's explanation, followed by buffet lunch and return to Cusco."},
+    {"title": "Day 5: Rainbow Mountain – Departure", "text": "Travel to Cusipata for breakfast and hike to <strong>Rainbow Mountain</strong>. After the visit and lunch, return to Cusco. Airport transfer must be coordinated according to the flight schedule."}
+  ],
+  "includes": ["Airport–Hotel–Airport transfer", "Tourist transportation", "Official tour guide", "Cusco City Tour", "Sacred Valley tour", "Maras and Ollantaytambo admissions", "Sacred Valley buffet lunch", "Round-trip Expedition or Voyager train", "Consettur bus", "Machu Picchu admission", "Humantay Lake tour, breakfast, lunch and admission", "Rainbow Mountain tour, breakfast, lunch and admission", "Spanish/English guide"],
+  "not_includes": ["Domestic and international flights", "Accommodation", "City Tour admission fees", "Unspecified meals", "Personal expenses", "Tips", "Travel insurance", "Unmentioned services"],
+  "technical_sheet": "Duration: 5 days / 4 nights<br>Destinations: Cusco, Sacred Valley, Machu Picchu, Humantay Lake and Rainbow Mountain<br>Service type: Travel package<br>Difficulty: Moderate<br>Maximum altitude: Approximately 5,000 meters above sea level<br>Train: Expedition or Voyager<br>Guide: Spanish or English<br>Accommodation: Not included in the base service<br>Start and end: Cusco city",
+  "faq": [
+    {"pregunta": "Is acclimatization in Cusco necessary?", "respuesta": "Yes. Rest, stay hydrated and avoid intense effort upon arrival, especially before Humantay Lake and Rainbow Mountain."},
+    {"pregunta": "Does the package include Machu Picchu?", "respuesta": "Yes. It includes train, Consettur bus, admission and professional guide according to availability and assigned circuit."},
+    {"pregunta": "Can the package be customized?", "respuesta": "Yes. Dates, hotels, train category, private services and additional activities can be adapted."},
+    {"pregunta": "What is the difficulty level?", "respuesta": "Moderate. Humantay Lake and Rainbow Mountain are the most demanding activities due to distance and altitude."},
+    {"pregunta": "What is the maximum altitude?", "respuesta": "The program reaches nearly 5,000 meters above sea level at Rainbow Mountain."},
+    {"pregunta": "Is accommodation included?", "respuesta": "It is not included in the base service, but it can be added with a travel advisor."},
+    {"pregunta": "Which meals are included?", "respuesta": "Sacred Valley buffet lunch and breakfast and lunch during the Humantay Lake and Rainbow Mountain excursions."},
+    {"pregunta": "Which languages are available?", "respuesta": "Guiding is available in Spanish and English. Other languages are subject to availability."},
+    {"pregunta": "Is the airport transfer included?", "respuesta": "Yes, with prior coordination according to the flight schedule."}
+  ],
+  "brochure": "", "map": "mapa-paquete-cusco-imperial-5d-4n.jpg", "video": "", "categories": {}
+}

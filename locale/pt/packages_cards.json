@@ -116,11 +116,22 @@
         {
             "title": "CUSCO EXPRESS",
             "subtitle": "3 DIAS / 2 NOITES",
-            "description": "Fuja para Cusco e Machu Picchu, o destino ideal para descobrir a história inca, a magia dos Andes e a essência cultural do Peru.",
-            "price": "$345",
-            "image": "card-6.jpg",
+            "description": "Descubra Cusco e Machu Picchu em uma viagem curta e intensa, ideal para viajantes com pouco tempo.",
+            "price": "$309",
+            "image": "paquetes/cusco-express-hero.jpg",
             "url": "cusco-express",
-            "reservar": "RESERVAR"
+            "reservar": "RESERVAR",
+            "promo": {"active": true, "label": "VIAGEM EXPRESS"}
+        },
+        {
+            "title": "CUSCO IMPERIAL",
+            "subtitle": "5 DIAS / 4 NOITES",
+            "description": "Viva Cusco, Machu Picchu, Lagoa Humantay e Montanha Colorida em uma viagem completa.",
+            "price": "$485",
+            "image": "paquetes/cusco-imperial-hero.jpg",
+            "url": "cusco-imperial",
+            "reservar": "RESERVAR",
+            "promo": {"active": true, "label": "AVENTURA IMPERIAL"}
         },
         {
             "title": "CUSCO MÁGICO",
@@ -147,23 +158,23 @@
         {
             "title": "PERU MÁGICO",
             "subtitle": "9 DIAS / 8 NOITES",
-            "description": "Cusco e a Montanha das 7 Cores aguardam por você. Desfrute de tours incríveis, paisagens de sonho e a melhor experiência de viagem no Peru.",
-            "price": "$809",
-            "image": "card-3.jpg",
+            "description": "Conheça Machu Picchu, Lagoa Humantay, Morada dos Deuses e Montanha Colorida.",
+            "price": "$569",
+            "image": "paquetes/peru-magico-hero.jpg",
             "url": "peru-magico",
             "reservar": "RESERVAR"
         },
         {
             "title": "PERU MÍSTICO",
-            "subtitle": "12 DIAS / 11 NOITES",
-            "description": "Experimente o melhor do Peru em uma única viagem...",
-            "price": "$1150",
-            "image": "card-2.jpg",
+            "subtitle": "7 DIAS / 6 NOITES",
+            "description": "Descubra Lima, Paracas, Huacachina, Cusco, Machu Picchu, Lagoa Humantay e Montanha Colorida.",
+            "price": "$519",
+            "image": "paquetes/peru-mistico-hero.jpg",
             "url": "peru-mistico",
             "reservar": "RESERVAR",
             "promo": {
                 "active": true,
-                "label": "EXPERIÊNCIA ANDINA"
+                "label": "COSTA E ANDES"
             }
         },
         {
@@ -174,6 +185,15 @@
             "image": "card-1-tour-machupicchu.jpg",
             "url": "peru-premium",
             "reservar": "RESERVAR"
+        },
+        {
+            "title":"PERU MARAVILHOSO","subtitle":"8 DIAS / 7 NOITES","description":"Conheça a costa, Vale Sagrado, Machu Picchu, Lagoa Humantay e Montanha Colorida.","price":"$559","image":"paquetes/peru-maravilloso-hero.jpg","url":"peru-maravilloso","reservar":"RESERVAR","promo":{"active":true,"label":"EXPERIÊNCIA COMPLETA"}
+        },
+        {
+            "title":"PERU MILENAR","subtitle":"12 DIAS / 11 NOITES","description":"Conheça Machu Picchu, Q’eswachaka e o Lago Titicaca.","price":"$739","image":"paquetes/peru-milenario-hero.jpg","url":"peru-milenario","reservar":"RESERVAR"
+        },
+        {
+            "title":"PERU 360","subtitle":"15 DIAS / 14 NOITES","description":"Conheça Nazca, Machu Picchu, Titicaca, Arequipa e o Cânion do Colca.","price":"$1059","image":"paquetes/peru-360-hero.jpg","url":"peru-360","reservar":"RESERVAR"
         }
     ]
 }

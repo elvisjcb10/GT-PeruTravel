@@ -116,11 +116,22 @@
         {
             "title": "CUSCO EXPRESS",
             "subtitle": "3 DAYS / 2 NIGHTS",
-            "description": "Escape to Cusco and Machu Picchu, the ideal destination to discover Inca history, the magic of the Andes, and Peru's cultural essence.",
-            "price": "$345",
-            "image": "card-6.jpg",
+            "description": "Discover Cusco and Machu Picchu on an intense short journey, ideal for travelers with limited time.",
+            "price": "$309",
+            "image": "paquetes/cusco-express-hero.jpg",
             "url": "cusco-express",
-            "reservar": "BOOK NOW"
+            "reservar": "BOOK NOW",
+            "promo": {"active": true, "label": "EXPRESS JOURNEY"}
+        },
+        {
+            "title": "IMPERIAL CUSCO",
+            "subtitle": "5 DAYS / 4 NIGHTS",
+            "description": "Experience Cusco, Machu Picchu, Humantay Lake and Rainbow Mountain on a complete journey.",
+            "price": "$485",
+            "image": "paquetes/cusco-imperial-hero.jpg",
+            "url": "cusco-imperial",
+            "reservar": "BOOK NOW",
+            "promo": {"active": true, "label": "IMPERIAL ADVENTURE"}
         },
         {
             "title": "MAGICAL CUSCO",
@@ -147,23 +158,23 @@
         {
             "title": "MAGICAL PERU",
             "subtitle": "9 DAYS / 8 NIGHTS",
-            "description": "Cusco and the Rainbow Mountain await you. Enjoy incredible tours, dreamlike landscapes, and the best travel experience in Peru.",
-            "price": "$809",
-            "image": "card-3.jpg",
+            "description": "Discover Machu Picchu, Humantay Lake, Abode of the Gods and Rainbow Mountain.",
+            "price": "$569",
+            "image": "paquetes/peru-magico-hero.jpg",
             "url": "peru-magico",
             "reservar": "BOOK NOW"
         },
         {
             "title": "MYSTICAL PERU",
-            "subtitle": "12 DAYS / 11 NIGHTS",
-            "description": "Experience the best of Peru in a single journey...",
-            "price": "$1150",
-            "image": "card-2.jpg",
+            "subtitle": "7 DAYS / 6 NIGHTS",
+            "description": "Discover Lima, Paracas, Huacachina, Cusco, Machu Picchu, Humantay Lake and Rainbow Mountain.",
+            "price": "$519",
+            "image": "paquetes/peru-mistico-hero.jpg",
             "url": "peru-mistico",
             "reservar": "BOOK NOW",
             "promo": {
                 "active": true,
-                "label": "ANDEAN EXPERIENCE"
+                "label": "COAST & ANDES"
             }
         },
         {
@@ -174,6 +185,15 @@
             "image": "card-1-tour-machupicchu.jpg",
             "url": "peru-premium",
             "reservar": "BOOK NOW"
+        },
+        {
+            "title":"WONDERFUL PERU","subtitle":"8 DAYS / 7 NIGHTS","description":"Discover the coast, Sacred Valley, Machu Picchu, Humantay Lake and Rainbow Mountain.","price":"$559","image":"paquetes/peru-maravilloso-hero.jpg","url":"peru-maravilloso","reservar":"BOOK NOW","promo":{"active":true,"label":"COMPLETE EXPERIENCE"}
+        },
+        {
+            "title":"ANCIENT PERU","subtitle":"12 DAYS / 11 NIGHTS","description":"Explore Machu Picchu, Q’eswachaka and Lake Titicaca.","price":"$739","image":"paquetes/peru-milenario-hero.jpg","url":"peru-milenario","reservar":"BOOK NOW"
+        },
+        {
+            "title":"PERU 360","subtitle":"15 DAYS / 14 NIGHTS","description":"Discover Nazca, Machu Picchu, Titicaca, Arequipa and Colca Canyon.","price":"$1059","image":"paquetes/peru-360-hero.jpg","url":"peru-360","reservar":"BOOK NOW"
         }
     ]
 }

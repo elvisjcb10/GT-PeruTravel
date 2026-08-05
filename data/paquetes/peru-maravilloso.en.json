@@ -1,79 +1,9 @@
 {
-    "title": "Wonderful Peru",
-    "long_description": "<b>Wonderful Peru 7D/6N</b> - Complete tour package. Discover the best of Peru on an unforgettable 7-day, 6-night journey. This full program combines culture, nature and adventure, including visits to the country’s most iconic destinations. Enjoy authentic experiences, breathtaking landscapes and the historical richness that make Peru a unique place in the world. Ideal for travelers seeking an all-inclusive package with accommodation, transfers, professional guiding and full organization. Book now and enjoy a week full of history, tradition and unforgettable moments.",
-    "short_description": "City Tour Cusco - Sacred Valley - Machupicchu and other tourist attractions.",
-    "duration": "7 Days / 6 Nights",
-    "image_cover": "promocion-peru-maravilloso-7d-6n-2025.jpg",
-    "gallery": ["machu1.jpg", "machu2.jpg"],
-    "price": "700",
-    "price_note": "Includes transportation, entrance tickets and professional guide.",
-
-    "seo_title": "Wonderful Peru 2025 Promotion - GT Peru Travel",
-    "seo_description": "Explore the Inca citadel of Machupicchu with expert guides and a complete tour.",
-    "seo_keywords": "machupicchu tour, travel to Peru, tourism in Cusco, Cusco tours, GT Peru Travel",
-
-    "days": [{
-            "title": "Day 1",
-            "text": "Discover the history and charm of the City of Kings, exploring its plazas, churches and colonial mansions. Experience the contrast between ancient and modern Lima in one tour. We will visit Miraflores, San Isidro, and the Historic Center, including the Main Square, the Cathedral, the Government Palace and the San Francisco Convent with its famous catacombs. Enjoy a panoramic view of the Huaca Pucllana, an ancient pre-Inca temple."
-        },
-        {
-            "title": "Day 2",
-            "text": "Enjoy an unforgettable adventure on the southern coast of Peru. We begin the trip to Paracas, where we will take a boat ride to the Ballestas Islands, home to sea lions, penguins and guano birds. Then we continue to Ica to visit the Huacachina Oasis, surrounded by impressive dunes where you can experience pure adrenaline with dune buggies and sandboarding. The dune buggy and sandboarding activity is included."
-        },
-        {
-            "title": "Day 3",
-            "text": "We begin the day by visiting the Qoricancha Temple, or Temple of the Sun, one of the most sacred Inca sites where Inca and Colonial architecture merge. We continue to the imposing archaeological centers of Sacsayhuamán, famous for its massive stone walls, Q'enqo, Puca Pucara and Tambomachay, all surrounded by nature and mystery."
-        },
-        {
-            "title": "Day 4",
-            "text": "Throughout the day you will discover the greatness of one of the world's most fascinating civilizations, surrounded by stunning Andean landscapes and traditional communities. We start with a visit to Chinchero, a colorful textile village, then continue to the circular terraces of Moray and the impressive Maras Salt Mines. We finish by exploring Ollantaytambo, a living Inca town and architectural jewel."
-        },
-        {
-            "title": "Day 5",
-            "text": "We start early heading to the town of Ollantaytambo/Poroy, where we will board the train to Aguas Calientes, enjoying beautiful Andean landscapes throughout the journey. Upon arrival, we take the bus up to the Machu Picchu citadel, where a specialized guide will reveal the secrets, history and mysticism of this wonderful archaeological site. You will have free time to explore before returning to Cusco by train and tourist transport."
-        },
-        {
-            "title": "Day 6",
-            "text": "We leave early from Cusco towards Soraypampa, the starting point of the hike. The ascent, about 1 hour and a half, takes you through spectacular Andean scenery until reaching Humantay Lake, famous for its intense turquoise color and mystical energy. Enjoy panoramic views, nature and time for unforgettable photos before returning. A perfect day for nature and adventure lovers."
-        },
-        {
-            "title": "Day 7",
-            "text": "We leave very early from Cusco heading south, enjoying a beautiful Andean sunrise and amazing landscapes. After a typical breakfast, we begin the hike to Rainbow Mountain (Vinicunca), located over 5,000 m.a.s.l. During the ascent you will see llamas, alpacas and the impressive glaciers of Ausangate, the sacred mountain of Cusco. At the summit, you will witness a natural show of red, yellow and turquoise colors painted by mineral sediments."
-        }
-    ],
-
-    "brochure": "peru-maravilloso-promocion-en.pdf",
-    "map": "mapa-paquete-peru-maravilloso-7d-6n-en.jpg",
-    "video": "https://www.youtube.com/shorts/7-jiRFm2L3U",
-
-    "categories": {
-        "tour": {
-            "titulo": "MACHUPICCHU TOUR - STANDARD",
-            "precio": "700",
-            "descripcion": "Classic option with Expedition train.",
-            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
-            "descuento": 10
-        },
-        "confort": {
-            "titulo": "MACHUPICCHU TOUR - COMFORT",
-            "precio": "800",
-            "descripcion": "Includes Vistadome train and buffet lunch.",
-            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
-            "descuento": 8
-        },
-        "premium": {
-            "titulo": "MACHUPICCHU TOUR - PREMIUM",
-            "precio": "900",
-            "descripcion": "Includes Vistadome train and buffet lunch.",
-            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
-            "descuento": 8
-        },
-        "elite": {
-            "titulo": "MACHUPICCHU TOUR - ELITE",
-            "precio": "1000",
-            "descripcion": "Includes Vistadome train and buffet lunch.",
-            "nota": "Includes tourist transportation, professional guide, hotel accommodation, and scheduled visits. Price per person (applies to groups of 2 or more people).",
-            "descuento": 8
-        }
-    }
+  "title":"Wonderful Peru","short_description":"Discover Lima, Paracas, Ica, Huacachina, Cusco, the Sacred Valley, Machu Picchu, Humantay Lake and Rainbow Mountain in 8 days.","long_description":"Enjoy an unforgettable 8-day, 7-night journey through <strong>Peru</strong>.<br><br>Begin in <strong>Lima</strong> and continue through <strong>Paracas, the Ballestas Islands, Ica and Huacachina</strong>. Then travel to the Andes for <strong>Cusco</strong>, the <strong>Sacred Valley</strong>, <strong>Machu Picchu</strong>, <strong>Humantay Lake</strong> and <strong>Rainbow Mountain</strong>.",
+  "duration":"8 Days / 7 Nights","image_cover":"peru-maravilloso-hero.jpg","gallery":["peru-maravilloso/galeria-01.jpg","peru-maravilloso/galeria-02.jpg","peru-maravilloso/galeria-03.jpg","peru-maravilloso/galeria-04.jpg","peru-maravilloso/galeria-05.jpg","peru-maravilloso/galeria-06.jpg","peru-maravilloso/galeria-07.jpg"],"price":"559","price_note":"From USD 559 per person. Subject to availability.","seo_title":"Wonderful Peru 8 Days / 7 Nights | GT Peru Travel","seo_description":"Discover Lima, Paracas, Huacachina, Cusco, the Sacred Valley, Machu Picchu, Humantay and Rainbow Mountain.","seo_keywords":"wonderful peru, 8 day peru package, lima, cusco, machu picchu, sacred valley, huacachina, humantay, rainbow mountain",
+  "days":[{"title":"Day 1: Arrival in Lima","text":"Airport reception and transfer. Free time to explore Miraflores, its boardwalk and Pacific views."},{"title":"Day 2: Paracas – Ica – Huacachina","text":"Boat tour of the <strong>Ballestas Islands</strong>, Ica wine tasting and lunch, and a <strong>Huacachina</strong> adventure with dune buggies and sandboarding. Return to Lima."},{"title":"Day 3: Lima – Cusco","text":"Travel to <strong>Cusco</strong>, airport reception and transfer. Free day to acclimatize at approximately 3,400 m."},{"title":"Day 4: Sacred Valley","text":"Visit <strong>Chinchero, Moray, Maras Salt Mines, Urubamba, Ollantaytambo and Pisac</strong>, with buffet lunch."},{"title":"Day 5: Machu Picchu","text":"Train to Aguas Calientes, bus and guided visit to <strong>Machu Picchu</strong> on the assigned circuit. Return to Cusco."},{"title":"Day 6: Humantay Lake","text":"Breakfast and a 1.5 to 2-hour hike to <strong>Humantay Lake</strong>, guided visit, lunch and return to Cusco."},{"title":"Day 7: Rainbow Mountain","text":"Breakfast in Cusipata and a 1.5 to 2-hour hike to <strong>Vinicunca</strong>. Lunch and return to Cusco."},{"title":"Day 8: Farewell","text":"Free time according to your flight and coordinated transfer to <strong>Cusco Airport</strong>."}],
+  "includes":["Lima Airport transfer","Lima – Paracas – Ica – Huacachina – Lima transport","Ballestas Islands boat tour and admission","Huacachina admission, dune buggies and sandboarding","Wine tasting and lunch","Spanish / English guide","Transfers in Lima and Cusco","Sacred Valley tour and transport","Maras and Ollantaytambo admissions","Sacred Valley buffet lunch","Round-trip Expedition or Voyager train","Consettur bus, Machu Picchu admission and guide","Humantay tour, breakfast, lunch and admission","Rainbow Mountain tour, breakfast, lunch and admission","Cusco Airport transfer"],"not_includes":["International flights","Lima – Cusco flight","Accommodation","Meals not specified","Additional beverages","Personal expenses","Tips","Travel insurance","Services not mentioned"],
+  "technical_sheet":"Duration: 8 days / 7 nights<br>Destinations: Lima, Paracas, Ica, Huacachina, Cusco, Sacred Valley, Machu Picchu, Humantay Lake and Rainbow Mountain<br>Type: Travel package<br>Difficulty: Moderate<br>Maximum altitude: Approximately 5,036 m / 16,522 ft<br>Train: Expedition or Voyager<br>Guiding: Spanish or English<br>Accommodation: Not included<br>Start: Lima<br>Finish: Cusco",
+  "faq":[{"pregunta":"How long is Wonderful Peru?","respuesta":"8 days and 7 nights, starting in Lima and finishing in Cusco."},{"pregunta":"Is Machu Picchu included?","respuesta":"Yes. Admission, train, Consettur bus and professional guide are included."},{"pregunta":"Is the Sacred Valley included?","respuesta":"Yes, visiting Chinchero, Moray, Maras, Urubamba, Ollantaytambo and Pisac."},{"pregunta":"What is visited in Paracas and Ica?","respuesta":"Ballestas Islands, Ica, Huacachina, dune buggies, sandboarding and wine tasting."},{"pregunta":"Is acclimatization necessary?","respuesta":"Yes. Day 3 is mainly reserved for arrival and acclimatization in Cusco."},{"pregunta":"What is the difficulty level?","respuesta":"Moderate because of the Humantay and Rainbow Mountain hikes."},{"pregunta":"How long are the hikes?","respuesta":"Each ascent takes approximately 1.5 to 2 hours."},{"pregunta":"Is the Lima – Cusco flight included?","respuesta":"No. It must be quoted separately."},{"pregunta":"Is accommodation included?","respuesta":"No. It can be added upon request."},{"pregunta":"Which meals are included?","respuesta":"Lunch in Paracas and Ica, Sacred Valley lunch, and breakfast and lunch at Humantay and Rainbow Mountain."},{"pregunta":"Which languages are available?","respuesta":"Spanish and English; others subject to availability."},{"pregunta":"Can it be customized?","respuesta":"Yes, subject to availability and quotation."}],
+  "brochure":"","map":"","video":"","categories":{"tour":{"titulo":"WONDERFUL PERU – TOURS ONLY","precio":"559","descripcion":"Tours and services without accommodation.","nota":"From USD 559 per person.","descuento":0},"confort":{"titulo":"WONDERFUL PERU – COMFORT","precio":"0","descripcion":"Program with upgraded accommodation option.","nota":"Ask for availability and price.","descuento":0},"premium":{"titulo":"WONDERFUL PERU – PREMIUM","precio":"0","descripcion":"Program with premium services and accommodation.","nota":"Ask for availability and price.","descuento":0}}
 }

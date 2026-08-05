@@ -1,0 +1,33 @@
+{
+  "title": "Cusco Imperial",
+  "short_description": "Viva Cusco, City Tour, Vale Sagrado, Machu Picchu, Lagoa Humantay e Montanha Colorida em 5 dias de história, cultura e aventura.",
+  "long_description": "Bem-vindo à capital histórica do <strong>Império Inca</strong>. Cusco espera por você com charme ancestral, ruas históricas e paisagens espetaculares.<br><br>Nesta viagem de <strong>5 dias e 4 noites</strong>, conheça os sítios arqueológicos de Cusco, o <strong>Vale Sagrado</strong>, <strong>Machu Picchu</strong>, a <strong>Lagoa Humantay</strong> e a <strong>Montanha Colorida</strong>.",
+  "duration": "5 Dias / 4 Noites", "image_cover": "cusco-imperial-hero.jpg",
+  "gallery": ["cusco-imperial/galeria-01.jpg", "cusco-imperial/galeria-02.jpg", "cusco-imperial/galeria-03.jpg", "cusco-imperial/galeria-04.jpg", "cusco-imperial/galeria-05.jpg", "cusco-imperial/galeria-06.jpg", "cusco-imperial/galeria-07.jpg", "cusco-imperial/galeria-08.jpg", "cusco-imperial/galeria-09.jpg"],
+  "price": "485", "price_note": "A partir de USD 485 por pessoa. Sujeito à disponibilidade.",
+  "seo_title": "Cusco Imperial 5 Dias / 4 Noites | Machu Picchu | GT Peru Travel",
+  "seo_description": "Conheça Cusco, Vale Sagrado, Machu Picchu, Lagoa Humantay e Montanha Colorida com o pacote Cusco Imperial de 5 dias.",
+  "seo_keywords": "cusco imperial, pacote cusco 5 dias, machu picchu, vale sagrado, lagoa humantay, montanha colorida, gt peru travel",
+  "days": [
+    {"title": "Dia 1: City Tour em Cusco", "text": "Conheça o centro histórico, a Catedral e o <strong>Qorikancha</strong>, seguidos por <strong>Sacsayhuamán</strong>, <strong>Qenqo</strong>, <strong>Puka Pukara</strong> e <strong>Tambomachay</strong>. Retorno próximo à Praça de Armas."},
+    {"title": "Dia 2: Vale Sagrado – Ollantaytambo", "text": "Visite <strong>Chinchero</strong>, <strong>Moray</strong> e as <strong>Salineiras de Maras</strong>. Desfrute de almoço buffet em Urubamba e conheça <strong>Ollantaytambo</strong> antes de embarcar no trem."},
+    {"title": "Dia 3: Machu Picchu", "text": "Viaje de trem para <strong>Aguas Calientes</strong>. Nosso guia acompanhará você de ônibus a <strong>Machu Picchu</strong> para o circuito atribuído. Depois, retorno de trem e transporte turístico a Cusco."},
+    {"title": "Dia 4: Lagoa Humantay", "text": "Saída cedo para a <strong>Lagoa Humantay</strong>. Após o café da manhã, caminhada de 1,5 a 2 horas. Tempo para fotos e explicação do guia, almoço buffet e retorno a Cusco."},
+    {"title": "Dia 5: Montanha Colorida – Retorno", "text": "Viagem a Cusipata para café da manhã e caminhada até a <strong>Montanha Colorida</strong>. Após a visita e almoço, retorno a Cusco. O traslado ao aeroporto deve ser coordenado conforme o voo."}
+  ],
+  "includes": ["Traslado Aeroporto–Hotel–Aeroporto", "Transporte turístico", "Guia oficial", "City Tour em Cusco", "Tour Vale Sagrado", "Ingressos Maras e Ollantaytambo", "Almoço buffet no Vale Sagrado", "Trem Expedition ou Voyager ida e volta", "Ônibus Consettur", "Ingresso Machu Picchu", "Tour, café da manhã, almoço e ingresso Lagoa Humantay", "Tour, café da manhã, almoço e ingresso Montanha Colorida", "Guia em espanhol/inglês"],
+  "not_includes": ["Voos nacionais e internacionais", "Hospedagem", "Ingressos do City Tour", "Refeições não especificadas", "Despesas pessoais", "Gorjetas", "Seguro viagem", "Serviços não mencionados"],
+  "technical_sheet": "Duração: 5 dias / 4 noites<br>Destinos: Cusco, Vale Sagrado, Machu Picchu, Lagoa Humantay e Montanha Colorida<br>Tipo de serviço: Pacote turístico<br>Dificuldade: Moderada<br>Altitude máxima: Aproximadamente 5.000 metros acima do nível do mar<br>Trem: Expedition ou Voyager<br>Guia: Espanhol ou inglês<br>Hospedagem: Não incluída no serviço base<br>Início e término: Cidade de Cusco",
+  "faq": [
+    {"pregunta": "É necessário aclimatar-se em Cusco?", "respuesta": "Sim. Descanse, hidrate-se e evite esforço intenso, especialmente antes da Lagoa Humantay e Montanha Colorida."},
+    {"pregunta": "O pacote inclui Machu Picchu?", "respuesta": "Sim. Inclui trem, ônibus Consettur, ingresso e guia profissional conforme disponibilidade e circuito atribuído."},
+    {"pregunta": "O pacote pode ser personalizado?", "respuesta": "Sim. Datas, hotéis, categoria de trem, serviços privados e atividades adicionais podem ser adaptados."},
+    {"pregunta": "Qual é o nível de dificuldade?", "respuesta": "Moderado. Lagoa Humantay e Montanha Colorida são as atividades mais exigentes pela distância e altitude."},
+    {"pregunta": "Qual é a altitude máxima?", "respuesta": "O programa chega a cerca de 5.000 metros acima do nível do mar na Montanha Colorida."},
+    {"pregunta": "A hospedagem está incluída?", "respuesta": "Não está incluída no serviço base, mas pode ser adicionada com um assessor."},
+    {"pregunta": "Quais refeições estão incluídas?", "respuesta": "Almoço buffet no Vale Sagrado e café da manhã e almoço durante Lagoa Humantay e Montanha Colorida."},
+    {"pregunta": "Quais idiomas estão disponíveis?", "respuesta": "O guia está disponível em espanhol e inglês. Outros idiomas dependem de disponibilidade."},
+    {"pregunta": "O traslado ao aeroporto está incluído?", "respuesta": "Sim, mediante coordenação prévia conforme o horário do voo."}
+  ],
+  "brochure": "", "map": "mapa-paquete-cusco-imperial-5d-4n.jpg", "video": "", "categories": {}
+}

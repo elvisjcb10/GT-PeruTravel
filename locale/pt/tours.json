@@ -81,6 +81,15 @@
                 "label": "PROMOÇÃO PARA VIAJANTES",
                 "old_price": "$100"
             }
+        },
+        {
+            "title": "SUPER VALE SAGRADO",
+            "subtitle": "CHINCHERO, MORAY, MARAS, OLLANTAYTAMBO E PISAC",
+            "description": "Descubra cinco lugares imperdíveis do Vale Sagrado dos Incas em uma experiência cultural de dia inteiro.",
+            "image": "tours/super-valle-sagrado/hero.jpg",
+            "url": "super-valle-sagrado",
+            "reservar": "RESERVAR",
+            "price": "$0"
         }
     ]
 }

@@ -1,79 +1,9 @@
 {
-    "title": "Peru Maravilhoso",
-    "long_description": "<b>Peru Maravilhoso 7D/6N</b> - Pacote turístico completo. Descubra o melhor do Peru em uma viagem inesquecível de 7 dias e 6 noites. Este programa completo combina cultura, natureza e aventura, incluindo visitas aos destinos mais representativos do país. Desfrute de experiências autênticas, paisagens impressionantes e da riqueza histórica que fazem do Peru um lugar único no mundo. Ideal para viajantes que buscam um pacote tudo incluído, com hospedagem, traslados, guia profissional e organização integral. Reserve agora e viva uma semana cheia de história, tradição e momentos inesquecíveis.",
-    "short_description": "City Tour Cusco - Vale Sagrado - Machupicchu e outros pontos turísticos.",
-    "duration": "7 Dias / 6 Noites",
-    "image_cover": "promocion-peru-maravilloso-7d-6n-2025.jpg",
-    "gallery": ["machu1.jpg", "machu2.jpg"],
-    "price": "700",
-    "price_note": "Inclui transporte, ingressos e guia profissional.",
-
-    "seo_title": "Peru Maravilhoso 2025 Promoção - GT Peru Travel",
-    "seo_description": "Explore a cidadela inca de Machupicchu com guias especializados e um tour completo.",
-    "seo_keywords": "tour machupicchu, viajar ao Peru, turismo em Cusco, tours Cusco, GT Peru Travel",
-
-    "days": [{
-            "title": "Dia 1",
-            "text": "Descubra a história e o encanto da Cidade dos Reis, percorrendo suas praças, igrejas e mansões coloniais. Viva o contraste entre a Lima antiga e moderna em um único tour. Visitaremos Miraflores, San Isidro e o Centro Histórico, incluindo a Praça Maior, a Catedral, o Palácio do Governo e o Convento de San Francisco com suas famosas catacumbas. Também desfrute de uma vista panorâmica da Huaca Pucllana, antigo templo pré-inca."
-        },
-        {
-            "title": "Dia 2",
-            "text": "Viva uma aventura inesquecível na costa sul do Peru. Começamos a viagem para Paracas, onde faremos um passeio de barco pelas Ilhas Ballestas, lar de leões-marinhos, pinguins e aves guaneras. Depois seguimos para Ica para visitar o Oasis de Huacachina, rodeado por impressionantes dunas onde você poderá aproveitar muita adrenalina com buggies e sandboard. O passeio de buggy e sandboard está incluído."
-        },
-        {
-            "title": "Dia 3",
-            "text": "Iniciamos o dia visitando o Templo de Qoricancha, ou Templo do Sol, um dos locais mais sagrados dos incas, onde a arquitetura inca e colonial se fundem. Continuamos para os impressionantes centros arqueológicos de Sacsayhuamán, famoso por seus enormes muros de pedra, Q'enqo, Puca Pucara e Tambomachay."
-        },
-        {
-            "title": "Dia 4",
-            "text": "Ao longo do dia você conhecerá a grandeza de uma das civilizações mais fascinantes do mundo, rodeado por paisagens andinas impressionantes e comunidades tradicionais. Começamos com uma visita a Chinchero, um povoado têxtil colorido, depois seguimos às terrazas circulares de Moray e às impressionantes Salineras de Maras. Finalizamos explorando Ollantaytambo, uma joia arquitetônica inca viva."
-        },
-        {
-            "title": "Dia 5",
-            "text": "Começamos cedo rumo a Ollantaytambo/Poroy, onde embarcaremos no trem para Aguas Calientes, desfrutando de belas paisagens andinas ao longo do caminho. Ao chegar, tomaremos o ônibus até a cidadela inca de Machu Picchu, onde um guia especializado revelará os segredos, a história e o misticismo deste maravilhoso sítio arqueológico. Você terá tempo livre antes do retorno a Cusco."
-        },
-        {
-            "title": "Dia 6",
-            "text": "Partimos cedo de Cusco em direção a Soraypampa, ponto de início da caminhada. A subida, de aproximadamente 1 hora e meia, leva você por paisagens andinas espetaculares até a Laguna Humantay, famosa por sua cor turquesa intensa e energia mística. Aproveite vistas panorâmicas, natureza e momentos perfeitos para fotos inesquecíveis."
-        },
-        {
-            "title": "Dia 7",
-            "text": "Saímos muito cedo de Cusco rumo ao sul, desfrutando de um lindo amanhecer andino. Após um café da manhã típico, iniciamos a caminhada até a Montanha Colorida (Vinicunca), situada a mais de 5.000 m de altitude. Durante a subida você verá lhamas, alpacas e os impressionantes glaciares do Ausangate. No topo, você contemplará um espetáculo natural de cores vermelhas, amarelas e turquesas."
-        }
-    ],
-
-    "brochure": "peru-maravilloso-promocion-pt.pdf",
-    "map": "mapa-paquete-peru-maravilloso-7d-6n-pt.jpg",
-    "video": "https://www.youtube.com/shorts/7-jiRFm2L3U",
-
-    "categories": {
-        "tour": {
-            "titulo": "TOUR MACHUPICCHU - BÁSICO",
-            "precio": "700",
-            "descripcion": "Opção clássica com trem Expedition.",
-            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
-            "descuento": 10
-        },
-        "confort": {
-            "titulo": "TOUR MACHUPICCHU - CONFORTO",
-            "precio": "800",
-            "descripcion": "Inclui trem Vistadome e almoço buffet.",
-            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
-            "descuento": 8
-        },
-        "premium": {
-            "titulo": "TOUR MACHUPICCHU - PREMIUM",
-            "precio": "900",
-            "descripcion": "Inclui trem Vistadome e almoço buffet.",
-            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
-            "descuento": 8
-        },
-        "elite": {
-            "titulo": "TOUR MACHUPICCHU - ELITE",
-            "precio": "1000",
-            "descripcion": "Inclui trem Vistadome e almoço buffet.",
-            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
-            "descuento": 8
-        }
-    }
+  "title":"Peru Maravilhoso","short_description":"Descubra Lima, Paracas, Ica, Huacachina, Cusco, Vale Sagrado, Machu Picchu, Lagoa Humantay e Montanha Colorida em 8 dias.","long_description":"Viva uma viagem inesquecível de 8 dias e 7 noites pelo <strong>Peru</strong>.<br><br>Comece em <strong>Lima</strong> e continue por <strong>Paracas, Ilhas Ballestas, Ica e Huacachina</strong>. Depois viaje aos Andes para conhecer <strong>Cusco</strong>, o <strong>Vale Sagrado</strong>, <strong>Machu Picchu</strong>, a <strong>Lagoa Humantay</strong> e a <strong>Montanha Colorida</strong>.",
+  "duration":"8 Dias / 7 Noites","image_cover":"peru-maravilloso-hero.jpg","gallery":["peru-maravilloso/galeria-01.jpg","peru-maravilloso/galeria-02.jpg","peru-maravilloso/galeria-03.jpg","peru-maravilloso/galeria-04.jpg","peru-maravilloso/galeria-05.jpg","peru-maravilloso/galeria-06.jpg","peru-maravilloso/galeria-07.jpg"],"price":"559","price_note":"A partir de USD 559 por pessoa. Sujeito à disponibilidade.","seo_title":"Peru Maravilhoso 8 Dias / 7 Noites | GT Peru Travel","seo_description":"Conheça Lima, Paracas, Huacachina, Cusco, Vale Sagrado, Machu Picchu, Humantay e Montanha Colorida.","seo_keywords":"peru maravilhoso, pacote peru 8 dias, lima, cusco, machu picchu, vale sagrado, huacachina, humantay, montanha colorida",
+  "days":[{"title":"Dia 1: Chegada a Lima","text":"Recepção no aeroporto e traslado. Tempo livre para conhecer Miraflores, seu calçadão e as vistas do Pacífico."},{"title":"Dia 2: Paracas – Ica – Huacachina","text":"Passeio pelas <strong>Ilhas Ballestas</strong>, degustação e almoço em Ica, e aventura em <strong>Huacachina</strong> com buggies e sandboard. Retorno a Lima."},{"title":"Dia 3: Lima – Cusco","text":"Viagem a <strong>Cusco</strong>, recepção e traslado. Dia livre para aclimatação a aproximadamente 3.400 m."},{"title":"Dia 4: Vale Sagrado","text":"Visita a <strong>Chinchero, Moray, Salineras de Maras, Urubamba, Ollantaytambo e Pisac</strong>, com almoço buffet."},{"title":"Dia 5: Machu Picchu","text":"Trem a Águas Calientes, ônibus e visita guiada a <strong>Machu Picchu</strong> no circuito designado. Retorno a Cusco."},{"title":"Dia 6: Lagoa Humantay","text":"Café da manhã e caminhada de 1,5 a 2 horas até a <strong>Lagoa Humantay</strong>, visita, almoço e retorno."},{"title":"Dia 7: Montanha Colorida","text":"Café da manhã em Cusipata e caminhada de 1,5 a 2 horas até <strong>Vinicunca</strong>. Almoço e retorno."},{"title":"Dia 8: Despedida","text":"Tempo livre conforme o voo e traslado ao <strong>Aeroporto de Cusco</strong>."}],
+  "includes":["Traslado no Aeroporto de Lima","Transporte Lima – Paracas – Ica – Huacachina – Lima","Passeio e ingresso nas Ilhas Ballestas","Ingresso, buggies e sandboard em Huacachina","Degustação de vinhos e almoço","Guia em espanhol / inglês","Traslados em Lima e Cusco","Tour e transporte no Vale Sagrado","Ingressos em Maras e Ollantaytambo","Almoço buffet no Vale Sagrado","Trem Expedition ou Voyager ida e volta","Ônibus Consettur, ingresso e guia em Machu Picchu","Tour, café da manhã, almoço e ingresso em Humantay","Tour, café da manhã, almoço e ingresso na Montanha Colorida","Traslado ao Aeroporto de Cusco"],"not_includes":["Voos internacionais","Voo Lima – Cusco","Hospedagem","Refeições não especificadas","Bebidas adicionais","Despesas pessoais","Gorjetas","Seguro de viagem","Serviços não mencionados"],
+  "technical_sheet":"Duração: 8 dias / 7 noites<br>Destinos: Lima, Paracas, Ica, Huacachina, Cusco, Vale Sagrado, Machu Picchu, Lagoa Humantay e Montanha Colorida<br>Tipo: Pacote turístico<br>Dificuldade: Moderada<br>Altitude máxima: Aproximadamente 5.036 m<br>Trem: Expedition ou Voyager<br>Guia: Espanhol ou inglês<br>Hospedagem: Não incluída<br>Início: Lima<br>Término: Cusco",
+  "faq":[{"pregunta":"Quanto dura o Peru Maravilhoso?","respuesta":"8 dias e 7 noites, começando em Lima e terminando em Cusco."},{"pregunta":"Machu Picchu está incluído?","respuesta":"Sim. Inclui ingresso, trem, ônibus Consettur e guia profissional."},{"pregunta":"O Vale Sagrado está incluído?","respuesta":"Sim, com Chinchero, Moray, Maras, Urubamba, Ollantaytambo e Pisac."},{"pregunta":"O que é visitado em Paracas e Ica?","respuesta":"Ilhas Ballestas, Ica, Huacachina, buggies, sandboard e degustação de vinhos."},{"pregunta":"É necessário aclimatar-se?","respuesta":"Sim. O dia 3 é reservado principalmente à chegada e aclimatação em Cusco."},{"pregunta":"Qual é a dificuldade?","respuesta":"Moderada pelas caminhadas de Humantay e Montanha Colorida."},{"pregunta":"Quanto duram as caminhadas?","respuesta":"Cada subida dura aproximadamente 1,5 a 2 horas."},{"pregunta":"O voo Lima – Cusco está incluído?","respuesta":"Não. Deve ser cotado separadamente."},{"pregunta":"A hospedagem está incluída?","respuesta":"Não. Pode ser adicionada mediante solicitação."},{"pregunta":"Quais refeições estão incluídas?","respuesta":"Almoço em Paracas e Ica, no Vale Sagrado, e café da manhã e almoço em Humantay e Montanha Colorida."},{"pregunta":"Quais idiomas estão disponíveis?","respuesta":"Espanhol e inglês; outros sujeitos a disponibilidade."},{"pregunta":"Pode ser personalizado?","respuesta":"Sim, sujeito a disponibilidade e cotação."}],
+  "brochure":"","map":"","video":"","categories":{"tour":{"titulo":"PERU MARAVILHOSO – SOMENTE PASSEIOS","precio":"559","descripcion":"Passeios e serviços sem hospedagem.","nota":"A partir de USD 559 por pessoa.","descuento":0},"confort":{"titulo":"PERU MARAVILHOSO – CONFORTO","precio":"0","descripcion":"Programa com opção de hospedagem superior.","nota":"Consulte disponibilidade e preço.","descuento":0},"premium":{"titulo":"PERU MARAVILHOSO – PREMIUM","precio":"0","descripcion":"Programa com serviços e hospedagem premium.","nota":"Consulte disponibilidade e preço.","descuento":0}}
 }

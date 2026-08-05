@@ -1,0 +1,35 @@
+{
+  "title": "Tour Super Vale Sagrado dos Incas Full Day",
+  "short_description": "Viva uma experiência completa por Chinchero, Moray, as Salineiras de Maras, Ollantaytambo e Pisac em um único dia.",
+  "long_description": "Descubra a grandeza do <strong>Vale Sagrado dos Incas</strong>, um dos destinos culturais mais impressionantes de Cusco.<br><br>Conheça importantes sítios históricos cercados por paisagens andinas e comunidades tradicionais: <strong>Chinchero</strong>, os terraços circulares de <strong>Moray</strong>, as <strong>Salineiras de Maras</strong>, a fortaleza de <strong>Ollantaytambo</strong> e o complexo arqueológico de <strong>Pisac</strong>.",
+  "duration": "1 Dia",
+  "image_cover": "super-valle-sagrado/hero.jpg",
+  "gallery": ["super-valle-sagrado/galeria-01.jpg", "super-valle-sagrado/galeria-02.jpg", "super-valle-sagrado/galeria-03.jpg", "super-valle-sagrado/galeria-04.jpg", "super-valle-sagrado/galeria-05.jpg"],
+  "price": "0",
+  "price_note": "Preço por pessoa no serviço em grupo. Sujeito à disponibilidade.",
+  "seo_title": "Tour Super Vale Sagrado Full Day saindo de Cusco | GT Peru Travel",
+  "seo_description": "Conheça Chinchero, Moray, Maras, Ollantaytambo e Pisac no Tour Super Vale Sagrado Full Day saindo de Cusco com guia profissional.",
+  "seo_keywords": "super vale sagrado, tour vale sagrado, chinchero, moray, maras, ollantaytambo, pisac, tour cusco, gt peru travel",
+  "resumen": {"ubicacion": "Vale Sagrado dos Incas, Região de Cusco", "lugar_recojo": "Hotel localizado em Cusco", "lugar_finalizacion": "Cusco", "idiomas": ["Espanhol", "Inglês", "Português"], "transporte": ["Transporte turístico durante todo o percurso"], "alimentacion": "Almoço buffet", "alojamiento": "Não inclui", "altitud": "2.800–3.700 msnm"},
+  "caracteristicas": [
+    {"icono": "fa-person-hiking", "label": "Dificultad", "valor": "Moderada"},
+    {"icono": "fa-clock", "label": "Duración", "valor": "Full Day"},
+    {"icono": "fa-people-group", "label": "Servicio", "valor": "Grupo / Privado"},
+    {"icono": "fa-mountain", "label": "Altitud Máxima", "valor": "3.700 msnm"}
+  ],
+  "actividades": ["Visita cultural a Chinchero", "Visita aos terraços circulares de Moray", "Passeio pelas Salineiras de Maras", "Visita a Ollantaytambo", "Visita a Pisac", "Almoço buffet e guia profissional"],
+  "days": [{"title": "Dia 1: Cusco – Chinchero – Moray – Maras – Ollantaytambo – Pisac – Cusco", "lugar": "Cusco → Chinchero → Moray → Maras → Ollantaytambo → Pisac → Cusco", "text": "Partiremos de Cusco em direção ao <strong>Vale Sagrado dos Incas</strong>.<br><br>Nossa primeira visita será <strong>Chinchero</strong>, povoado andino conhecido por seus tecidos e legado histórico. Seguiremos para <strong>Moray</strong> para conhecer seus terraços agrícolas circulares e depois visitaremos as famosas <strong>Salineiras de Maras</strong>.<br><br>Após o almoço, exploraremos o complexo arqueológico de <strong>Ollantaytambo</strong>. Finalmente visitaremos <strong>Pisac</strong>, com seus terraços e construções incas sobre o vale, antes de retornar a Cusco."}],
+  "includes": ["Transporte turístico", "Guia profissional", "Almoço buffet", "Ingressos"],
+  "not_includes": ["Despesas pessoais", "Gorjetas", "Bebidas adicionais", "Serviços não mencionados no programa"],
+  "recommendations": [
+    {"img": "pasaporte.webp", "nombre": "Documento de identidade ou passaporte"}, {"img": "calzado-trekking.webp", "nombre": "Calçado confortável para caminhar"}, {"img": "casaca-impermeable.webp", "nombre": "Casaco impermeável e roupa de frio"}, {"img": "poncho-lluvia.webp", "nombre": "Poncho de chuva"}, {"img": "bloqueador.webp", "nombre": "Protetor solar e óculos de sol"}, {"img": "botella-agua.webp", "nombre": "Água em garrafa reutilizável"}, {"img": "sombrero.webp", "nombre": "Chapéu ou boné"}, {"img": "mochila.webp", "nombre": "Mochila pequena"}
+  ],
+  "recomendaciones_generales": {"antes_de_viajar": ["Levar roupa confortável para mudanças de temperatura", "Usar calçado confortável", "Levar protetor solar, água e identificação", "Levar dinheiro em espécie para despesas pessoais"]},
+  "faq": [
+    {"pregunta": "Quais lugares visitaremos?", "respuesta": "Visitaremos Chinchero, Moray, as Salineiras de Maras, Ollantaytambo e Pisac."},
+    {"pregunta": "O que o tour inclui?", "respuesta": "Inclui transporte turístico, guia profissional, almoço buffet e ingressos conforme o programa."},
+    {"pregunta": "É adequado para crianças ou idosos?", "respuesta": "Sim. A dificuldade é moderada, mas recomendamos avaliar a condição física de cada viajante."},
+    {"pregunta": "Em quais idiomas é oferecido?", "respuesta": "Está disponível em espanhol, inglês e português, sujeito à disponibilidade."}
+  ],
+  "tours_relacionados": [], "brochure": "", "map": "", "video": "", "categories": {}
+}

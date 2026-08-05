@@ -81,6 +81,15 @@
                 "label": "TRAVELER PROMO",
                 "old_price": "$100"
             }
+        },
+        {
+            "title": "SUPER SACRED VALLEY",
+            "subtitle": "CHINCHERO, MORAY, MARAS, OLLANTAYTAMBO AND PISAC",
+            "description": "Discover five must-see sites in the Sacred Valley of the Incas on a full-day cultural experience.",
+            "image": "tours/super-valle-sagrado/hero.jpg",
+            "url": "super-valle-sagrado",
+            "reservar": "BOOK NOW",
+            "price": "$0"
         }
     ]
 }

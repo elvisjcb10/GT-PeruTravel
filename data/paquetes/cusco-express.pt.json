@@ -1,65 +1,37 @@
 {
-    "title": "Cusco Express",
-    "short_description": "Cusco – Vale Sagrado – Ollantaytambo – Machu Picchu",
-    "long_description": "Viva uma experiência intensa em Cusco, a histórica capital do Império Inca. Em apenas 3 dias você visitará os principais atrativos, incluindo a cidade, o Vale Sagrado e a impressionante Machu Picchu.",
-    "duration": "3 Dias / 2 Noites",
-
-    "image_cover": "cusco-express.jpg",
-    "gallery": ["machu1.jpg", "machu2.jpg"],
-
-    "price": "345",
-    "price_note": "Inclui transporte, ingressos e guia profissional.",
-
-    "seo_title": "Cusco Express 3D/2N – Machu Picchu e Vale Sagrado | GT Peru Travel",
-    "seo_description": "Tour Cusco Express 3 dias: Cusco, Vale Sagrado e Machu Picchu. Pacote ideal para viagens rápidas com ingressos, transporte e guia profissional.",
-    "seo_keywords": "cusco express, tour cusco 3 dias, machu picchu express, vale sagrado peru, pacote cusco rapido, viagem cusco, gt peru travel",
-
-    "days": [{
-            "title": "Dia 1: Chegada a Cusco e Aclimatação",
-            "text": "Recepção no aeroporto e traslado ao hotel. Tarde livre para aclimatação. Opcional visitar o Centro Qosqo de Arte Nativa para apreciar danças típicas."
-        },
-        {
-            "title": "Dia 2: Machu Picchu",
-            "text": "Saída cedo para Ollantaytambo e embarque no trem panorâmico rumo a Aguas Calientes. Subida de ônibus até Machu Picchu para visita guiada pelos pontos mais importantes. Tempo livre e retorno a Cusco à tarde."
-        },
-        {
-            "title": "Dia 3: Traslado ao Aeroporto",
-            "text": "Café da manhã no hotel. No horário programado, traslado ao aeroporto para seu voo de saída. Fim dos serviços."
-        }
-    ],
-
-    "brochure": "",
-    "map": "mapa-paquete-cusco-express-3d-2n-pt.jpg",
-    "video": "",
-
-    "categories": {
-        "tour": {
-            "titulo": "TOUR MACHU PICCHU – STANDARD",
-            "precio": "345",
-            "descripcion": "Opção clássica com trem Expedition.",
-            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
-            "descuento": 0
-        },
-        "confort": {
-            "titulo": "TOUR MACHU PICCHU – CONFORTO",
-            "precio": "345",
-            "descripcion": "Inclui trem Vistadome e almoço buffet.",
-            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
-            "descuento": 0
-        },
-        "premium": {
-            "titulo": "TOUR MACHU PICCHU – PREMIUM",
-            "precio": "345",
-            "descripcion": "Trem Vistadome + experiências adicionais.",
-            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
-            "descuento": 0
-        },
-        "elite": {
-            "titulo": "TOUR MACHU PICCHU – ELITE",
-            "precio": "345",
-            "descripcion": "Experiência completa com máximo conforto.",
-            "nota": "Inclui transporte turístico, guia profissional, hospedagem em hotel e visitas programadas. Preço por pessoa (aplica-se a grupos de 2 pessoas ou mais).",
-            "descuento": 0
-        }
-    }
+  "title": "Cusco Express",
+  "short_description": "Descubra Cusco e Machu Picchu em uma experiência intensa de 3 dias e 2 noites, ideal para conhecer o essencial da antiga capital inca.",
+  "long_description": "Viva a magia de <strong>Cusco</strong>, a histórica capital do Império Inca. Em apenas 3 dias, conheça alguns dos principais atrativos da região e a maravilha mundial de <strong>Machu Picchu</strong>.<br><br>Este pacote foi criado para viajantes com pouco tempo. Inclui recepção na chegada, tempo para aclimatação, excursão completa a Machu Picchu e traslado de saída.",
+  "duration": "3 Dias / 2 Noites",
+  "image_cover": "cusco-express-hero.jpg",
+  "gallery": ["cusco-express/galeria-01.jpg", "cusco-express/galeria-02.jpg", "cusco-express/galeria-03.jpg", "cusco-express/galeria-04.jpg"],
+  "price": "309",
+  "price_note": "Preço por pessoa na opção Somente Tours. Valores em dólares americanos.",
+  "seo_title": "Cusco Express 3 Dias / 2 Noites | Machu Picchu | GT Peru Travel",
+  "seo_description": "Descubra Cusco e Machu Picchu no pacote Cusco Express de 3 dias, com traslados, trem, ingresso e guia profissional.",
+  "seo_keywords": "cusco express, pacote cusco 3 dias, machu picchu 3 dias, pacote machu picchu, viagem cusco, gt peru travel",
+  "days": [
+    {"title": "Dia 1: Chegada a Cusco e aclimatação", "text": "Estaremos esperando por você no <strong>Aeroporto de Cusco</strong>. Este dia será dedicado à aclimatação na Cidade Imperial, localizada a aproximadamente 3.400 metros acima do nível do mar.<br><br>Entre ruas de pedra, impressionantes muros incas e praças cheias de vida, você encontrará uma cidade onde passado e presente convivem em harmonia. A tarde será livre para descansar, aclimatar-se ou realizar atividades opcionais."},
+    {"title": "Dia 2: Machu Picchu", "text": "Partiremos cedo em direção a <strong>Ollantaytambo</strong>, onde embarcaremos no trem turístico para <strong>Aguas Calientes</strong>.<br><br>Nosso guia profissional nos acompanhará até a cidadela de <strong>Machu Picchu</strong>. Visitaremos seus principais setores conforme o circuito atribuído.<br><br>Após a visita, retornaremos a Aguas Calientes e teremos tempo livre antes de embarcar no trem para Ollantaytambo e seguir em transporte turístico até Cusco."},
+    {"title": "Dia 3: Despedida e fim da viagem", "text": "O dia ficará disponível de acordo com o horário do seu voo para compras, passeios pela cidade ou atividades adicionais.<br><br>Finalmente, faremos o traslado da sua hospedagem ao <strong>Aeroporto de Cusco</strong> no horário combinado, encerrando nossos serviços."}
+  ],
+  "includes": ["Traslado do Aeroporto de Cusco à hospedagem", "Traslado da hospedagem ao Aeroporto de Cusco", "Transporte turístico Cusco – Ollantaytambo – Cusco", "Trem turístico Expedition ou Voyager de ida e volta", "Ônibus Consettur Aguas Calientes – Machu Picchu – Aguas Calientes", "Ingresso para Machu Picchu", "Guia Oficial de Turismo em espanhol/inglês"],
+  "not_includes": ["Voos nacionais e internacionais", "Refeições não especificadas", "Gorjetas", "Despesas pessoais", "Serviços não mencionados no programa"],
+  "brochure": "", "technical_sheet": "Duração: 3 dias / 2 noites<br>Principais destinos: Cusco, Ollantaytambo, Aguas Calientes e Machu Picchu<br>Tipo de serviço: Pacote turístico<br>Modalidade: Somente Tours ou com hospedagem<br>Traslados incluídos: Aeroporto e rota Cusco – Ollantaytambo – Cusco<br>Trem incluído: Expedition ou Voyager de ida e volta<br>Guia: Guia Oficial de Turismo em espanhol ou inglês<br>Hospedagem: Conforme a categoria escolhida<br>Altitude máxima: 3.400 metros acima do nível do mar em Cusco<br>Ponto de início e término: Cidade de Cusco", "map": "mapa-paquete-cusco-express-3d-2n.jpg", "video": "",
+  "faq": [
+    {"pregunta": "Com quanta antecedência devo reservar o Cusco Express?", "respuesta": "Recomendamos reservar com pelo menos 30 dias de antecedência. Entre maio e agosto, o ideal é reservar de 60 a 90 dias antes devido à alta procura por ingressos e trens para Machu Picchu."},
+    {"pregunta": "O pacote inclui hospedagem?", "respuesta": "A opção Somente Tours não inclui hospedagem. As categorias Hotel 3 Estrelas, 3 Estrelas Superior e 4 Estrelas incluem duas noites com café da manhã e taxas, conforme a opção contratada."},
+    {"pregunta": "Quais serviços estão incluídos para Machu Picchu?", "respuesta": "Inclui transporte Cusco–Ollantaytambo–Cusco, trem Expedition ou Voyager, ônibus Consettur, ingresso para Machu Picchu e guia oficial em espanhol ou inglês."},
+    {"pregunta": "Os voos estão incluídos?", "respuesta": "Não. Os voos nacionais e internacionais não estão incluídos. O viajante deve chegar a Cusco por conta própria, onde nossa equipe fará a recepção e o traslado."},
+    {"pregunta": "Terei tempo para me aclimatar em Cusco?", "respuesta": "Sim. O primeiro dia é reservado para chegada e aclimatação. Recomendamos descansar, manter-se hidratado, comer alimentos leves e evitar esforço físico intenso."},
+    {"pregunta": "Qual circuito de Machu Picchu será utilizado?", "respuesta": "O circuito depende da disponibilidade oficial no momento da confirmação. Nossa equipe escolherá a melhor opção disponível e informará o horário e o circuito atribuídos."},
+    {"pregunta": "O que devo levar para Machu Picchu?", "respuesta": "Leve passaporte ou documento original, mochila pequena, água, protetor solar, repelente, boné, poncho de chuva e calçado confortável. A franquia de bagagem no trem é limitada."},
+    {"pregunta": "O pacote pode ser personalizado?", "respuesta": "Sim. Podemos adaptar a categoria do hotel, o tipo de trem, o serviço privado e as atividades adicionais conforme disponibilidade e orçamento."}
+  ],
+  "categories": {
+    "tour": {"titulo": "CUSCO EXPRESS – SOMENTE TOURS", "precio": "309", "descripcion": "Programa de tours e serviços sem hospedagem.", "nota": "Preço por pessoa. Hospedagem não incluída.", "descuento": 0},
+    "hotel_3_estrellas": {"titulo": "CUSCO EXPRESS – HOTEL 3 ESTRELAS", "precio": "385", "descripcion": "Programa de tours com hospedagem em hotel 3 estrelas.", "nota": "Preço por pessoa. Café da manhã e taxas incluídos.", "descuento": 0},
+    "hotel_3_estrellas_superior": {"titulo": "CUSCO EXPRESS – HOTEL 3 ESTRELAS SUPERIOR", "precio": "419", "descripcion": "Programa de tours com hospedagem em hotel 3 estrelas superior.", "nota": "Preço por pessoa. Café da manhã e taxas incluídos.", "descuento": 0},
+    "hotel_4_estrellas": {"titulo": "CUSCO EXPRESS – HOTEL 4 ESTRELAS", "precio": "469", "descripcion": "Programa de tours com hospedagem em hotel 4 estrelas.", "nota": "Preço por pessoa. Café da manhã e taxas incluídos.", "descuento": 0}
+  }
 }

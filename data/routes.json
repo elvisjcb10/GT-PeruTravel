@@ -21,7 +21,8 @@
           "montana-de-7-colores": "montana-colores",
           "puente-inca-qeswachaka": "puente-inca",
           "parque-nacional-del-manu-2": "short-inca-trail",
-          "valle-sagrado": "valle-sagrado"
+          "valle-sagrado": "valle-sagrado",
+          "tour-super-valle-sagrado": "super-valle-sagrado"
         },
         "internal_to_public": {
           "CZ-cusco-city": "city-tour-cusco-medio-dia",
@@ -41,7 +42,8 @@
           "montana-colores": "montana-de-7-colores",
           "puente-inca": "puente-inca-qeswachaka",
           "short-inca-trail": "parque-nacional-del-manu-2",
-          "valle-sagrado": "valle-sagrado"
+          "valle-sagrado": "valle-sagrado",
+          "super-valle-sagrado": "tour-super-valle-sagrado"
         }
       },
       "en": {
@@ -63,7 +65,8 @@
           "rainbow-mountain": "montana-colores",
           "inca-bridge-qeswachaka": "puente-inca",
           "manu-national-park-2": "short-inca-trail",
-          "sacred-valley": "valle-sagrado"
+          "sacred-valley": "valle-sagrado",
+          "super-sacred-valley-tour": "super-valle-sagrado"
         },
         "internal_to_public": {
           "CZ-cusco-city": "cusco-city-tour-half-day",
@@ -83,7 +86,8 @@
           "montana-colores": "rainbow-mountain",
           "puente-inca": "inca-bridge-qeswachaka",
           "short-inca-trail": "manu-national-park-2",
-          "valle-sagrado": "sacred-valley"
+          "valle-sagrado": "sacred-valley",
+          "super-valle-sagrado": "super-sacred-valley-tour"
         }
       },
       "pt": {
@@ -105,7 +109,8 @@
           "montanha-arco-iris": "montana-colores",
           "ponte-inca-qeswachaka": "puente-inca",
           "parque-nacional-manu": "short-inca-trail",
-          "vale-sagrado": "valle-sagrado"
+          "vale-sagrado": "valle-sagrado",
+          "tour-super-vale-sagrado": "super-valle-sagrado"
         },
         "internal_to_public": {
           "CZ-cusco-city": "city-tour-em-cusco-meio-dia",
@@ -125,7 +130,8 @@
           "montana-colores": "montanha-arco-iris",
           "puente-inca": "ponte-inca-qeswachaka",
           "short-inca-trail": "parque-nacional-manu",
-          "valle-sagrado": "vale-sagrado"
+          "valle-sagrado": "vale-sagrado",
+          "super-valle-sagrado": "tour-super-vale-sagrado"
         }
       }
     },
@@ -134,6 +140,7 @@
         "public_to_internal": {
           "cusco-express": "cusco-express",
           "cusco-magico": "cusco-magico",
+          "cusco-imperial": "cusco-imperial",
           "ano-nuevo-en-cusco-2025": "cusco-peru-2026",
           "descubre-peru": "descubre-peru",
           "montana-de-colores-7-lagunas-de-ausangate": "montanacolores-7lagunas",
@@ -141,8 +148,10 @@
           "peru-esencial-costa-andes-y-machu-picchu": "paquete-ejemplo-completo",
           "peru-magico": "peru-magico",
           "peru-maravilloso": "peru-maravilloso",
+          "peru-milenario": "peru-milenario",
           "peru-mistico": "peru-mistico",
           "peru-premium": "peru-premium",
+          "peru-360": "peru-360",
           "peru-prime": "peru-prime",
           "camino-inca-corto": "short-inca-trail",
           "valle-sagrado-machupicchu": "vallesagrado-machupicchu"
@@ -150,6 +159,7 @@
         "internal_to_public": {
           "cusco-express": "cusco-express",
           "cusco-magico": "cusco-magico",
+          "cusco-imperial": "cusco-imperial",
           "cusco-peru-2026": "ano-nuevo-en-cusco-2025",
           "descubre-peru": "descubre-peru",
           "montanacolores-7lagunas": "montana-de-colores-7-lagunas-de-ausangate",
@@ -157,8 +167,10 @@
           "paquete-ejemplo-completo": "peru-esencial-costa-andes-y-machu-picchu",
           "peru-magico": "peru-magico",
           "peru-maravilloso": "peru-maravilloso",
+          "peru-milenario": "peru-milenario",
           "peru-mistico": "peru-mistico",
           "peru-premium": "peru-premium",
+          "peru-360": "peru-360",
           "peru-prime": "peru-prime",
           "short-inca-trail": "camino-inca-corto",
           "vallesagrado-machupicchu": "valle-sagrado-machupicchu"
@@ -168,6 +180,7 @@
         "public_to_internal": {
           "cusco-express": "cusco-express",
           "magical-cusco": "cusco-magico",
+          "imperial-cusco": "cusco-imperial",
           "new-year-in-cusco-2025": "cusco-peru-2026",
           "discover-peru": "descubre-peru",
           "rainbow-mountain-7-ausangate-lagoons": "montanacolores-7lagunas",
@@ -175,8 +188,10 @@
           "essential-peru-coast-andes-and-machu-picchu": "paquete-ejemplo-completo",
           "magical-peru": "peru-magico",
           "wonderful-peru": "peru-maravilloso",
+          "ancient-peru": "peru-milenario",
           "mystical-peru": "peru-mistico",
           "peru-premium": "peru-premium",
+          "peru-360": "peru-360",
           "peru-prime": "peru-prime",
           "short-inca-trail": "short-inca-trail",
           "sacred-valley-machu-picchu": "vallesagrado-machupicchu"
@@ -184,6 +199,7 @@
         "internal_to_public": {
           "cusco-express": "cusco-express",
           "cusco-magico": "magical-cusco",
+          "cusco-imperial": "imperial-cusco",
           "cusco-peru-2026": "new-year-in-cusco-2025",
           "descubre-peru": "discover-peru",
           "montanacolores-7lagunas": "rainbow-mountain-7-ausangate-lagoons",
@@ -191,8 +207,10 @@
           "paquete-ejemplo-completo": "essential-peru-coast-andes-and-machu-picchu",
           "peru-magico": "magical-peru",
           "peru-maravilloso": "wonderful-peru",
+          "peru-milenario": "ancient-peru",
           "peru-mistico": "mystical-peru",
           "peru-premium": "peru-premium",
+          "peru-360": "peru-360",
           "peru-prime": "peru-prime",
           "short-inca-trail": "short-inca-trail",
           "vallesagrado-machupicchu": "sacred-valley-machu-picchu"
@@ -202,6 +220,7 @@
         "public_to_internal": {
           "cusco-express": "cusco-express",
           "cusco-magico": "cusco-magico",
+          "cusco-imperial": "cusco-imperial",
           "ano-novo-em-cusco-2025": "cusco-peru-2026",
           "descubra-o-peru": "descubre-peru",
           "montanha-colorida-7-lagoas-de-ausangate": "montanacolores-7lagunas",
@@ -209,8 +228,10 @@
           "peru-essencial-costa-andes-e-machu-picchu": "paquete-ejemplo-completo",
           "peru-magico": "peru-magico",
           "peru-maravilhoso": "peru-maravilloso",
+          "peru-milenar": "peru-milenario",
           "peru-mistico": "peru-mistico",
           "peru-premium": "peru-premium",
+          "peru-360": "peru-360",
           "peru-prime": "peru-prime",
           "caminho-inca-curto": "short-inca-trail",
           "vale-sagrado-machu-picchu": "vallesagrado-machupicchu"
@@ -218,6 +239,7 @@
         "internal_to_public": {
           "cusco-express": "cusco-express",
           "cusco-magico": "cusco-magico",
+          "cusco-imperial": "cusco-imperial",
           "cusco-peru-2026": "ano-novo-em-cusco-2025",
           "descubre-peru": "descubra-o-peru",
           "montanacolores-7lagunas": "montanha-colorida-7-lagoas-de-ausangate",
@@ -225,8 +247,10 @@
           "paquete-ejemplo-completo": "peru-essencial-costa-andes-e-machu-picchu",
           "peru-magico": "peru-magico",
           "peru-maravilloso": "peru-maravilhoso",
+          "peru-milenario": "peru-milenar",
           "peru-mistico": "peru-mistico",
           "peru-premium": "peru-premium",
+          "peru-360": "peru-360",
           "peru-prime": "peru-prime",
           "short-inca-trail": "caminho-inca-curto",
           "vallesagrado-machupicchu": "vale-sagrado-machu-picchu"

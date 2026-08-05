@@ -1,0 +1,35 @@
+{
+  "title": "Cusco Imperial",
+  "short_description": "Vive Cusco, City Tour, Valle Sagrado, Machu Picchu, Laguna Humantay y Montaña de 7 Colores en 5 días de historia, cultura y aventura.",
+  "long_description": "¡Bienvenidos a la capital histórica del <strong>Imperio Inca</strong>! Cusco te espera con su encanto ancestral, calles llenas de historia y paisajes impresionantes.<br><br>Durante este recorrido de <strong>5 días y 4 noches</strong> explorarás los atractivos arqueológicos de Cusco, el <strong>Valle Sagrado</strong>, <strong>Machu Picchu</strong>, la <strong>Laguna Humantay</strong> y la <strong>Montaña de 7 Colores</strong>.",
+  "duration": "5 Días / 4 Noches",
+  "image_cover": "cusco-imperial-hero.jpg",
+  "gallery": ["cusco-imperial/galeria-01.jpg", "cusco-imperial/galeria-02.jpg", "cusco-imperial/galeria-03.jpg", "cusco-imperial/galeria-04.jpg", "cusco-imperial/galeria-05.jpg", "cusco-imperial/galeria-06.jpg", "cusco-imperial/galeria-07.jpg", "cusco-imperial/galeria-08.jpg", "cusco-imperial/galeria-09.jpg"],
+  "price": "485",
+  "price_note": "Precio desde USD 485 por persona. Sujeto a disponibilidad.",
+  "seo_title": "Cusco Imperial 5 Días / 4 Noches | Machu Picchu | GT Peru Travel",
+  "seo_description": "Descubre Cusco, Valle Sagrado, Machu Picchu, Laguna Humantay y Montaña de 7 Colores con Cusco Imperial 5 días y 4 noches.",
+  "seo_keywords": "cusco imperial, paquete cusco 5 dias, machu picchu, valle sagrado, laguna humantay, montaña de 7 colores, gt peru travel",
+  "days": [
+    {"title": "Día 1: Cusco – City Tour", "text": "Iniciaremos el recorrido por el centro histórico de <strong>Cusco</strong>, visitando la Catedral y el <strong>Qorikancha</strong>.<br><br>Continuaremos hacia <strong>Sacsayhuamán</strong>, <strong>Qenqo</strong>, <strong>Puka Pukara</strong> y <strong>Tambomachay</strong>. Finalmente retornaremos cerca de la Plaza de Armas de Cusco."},
+    {"title": "Día 2: Valle Sagrado – Ollantaytambo", "text": "Saldremos de Cusco hacia <strong>Chinchero</strong>, las terrazas de <strong>Moray</strong> y las <strong>Salineras de Maras</strong>.<br><br>Disfrutaremos de un almuerzo buffet en Urubamba y luego visitaremos <strong>Ollantaytambo</strong>. Al finalizar nos dirigiremos a la estación para abordar el tren."},
+    {"title": "Día 3: Machu Picchu", "text": "Continuaremos en tren turístico hacia <strong>Aguas Calientes</strong>. Nuestro guía nos acompañará en bus hasta <strong>Machu Picchu</strong> para realizar el recorrido según el circuito asignado.<br><br>Después tendremos tiempo libre en Aguas Calientes antes de retornar en tren a Ollantaytambo y transporte turístico a Cusco."},
+    {"title": "Día 4: Laguna Humantay", "text": "Saldremos temprano hacia la <strong>Laguna Humantay</strong>. Después del desayuno buffet iniciaremos una caminata de aproximadamente 1.5 a 2 horas.<br><br>Al llegar tendremos tiempo para fotografías y la explicación del guía. Finalmente disfrutaremos del almuerzo buffet antes de retornar a Cusco."},
+    {"title": "Día 5: Montaña de 7 Colores – Retorno", "text": "Viajaremos hacia Cusipata, donde disfrutaremos del desayuno antes de iniciar la caminata hacia la <strong>Montaña de 7 Colores – Vinicunca</strong>.<br><br>Después de la visita retornaremos para almorzar y regresar a Cusco. El traslado al aeropuerto deberá coordinarse según el horario del vuelo."}
+  ],
+  "includes": ["Traslado Aeropuerto – Hotel – Aeropuerto", "Transporte turístico", "Guía Oficial de Turismo", "City Tour en Cusco", "Tour por el Valle Sagrado", "Ingresos Maras – Ollantaytambo", "Almuerzo buffet en el Valle Sagrado", "Tren Expedition o Voyager ida y vuelta", "Bus Consettur", "Ingreso a Machu Picchu", "Tour, desayuno, almuerzo e ingreso a Laguna Humantay", "Tour, desayuno, almuerzo e ingreso a Montaña de 7 Colores", "Guía en español / inglés"],
+  "not_includes": ["Vuelos nacionales e internacionales", "Alojamiento", "Ingresos del City Tour", "Comidas no especificadas", "Gastos personales", "Propinas", "Seguro de viaje", "Servicios no mencionados"],
+  "technical_sheet": "Duración: 5 días / 4 noches<br>Destinos: Cusco, Valle Sagrado, Machu Picchu, Laguna Humantay y Montaña de 7 Colores<br>Tipo de servicio: Paquete turístico<br>Dificultad: Moderada<br>Altitud máxima: Aproximadamente 5,000 m s. n. m.<br>Tren: Expedition o Voyager<br>Guiado: Español o inglés<br>Alojamiento: No incluido en el servicio base<br>Inicio y finalización: Ciudad de Cusco",
+  "faq": [
+    {"pregunta": "¿Es necesario aclimatarse en Cusco?", "respuesta": "Sí. Recomendamos descansar, hidratarse y evitar esfuerzos intensos al llegar, especialmente antes de Humantay y la Montaña de 7 Colores."},
+    {"pregunta": "¿El paquete incluye Machu Picchu?", "respuesta": "Sí. Incluye tren, bus Consettur, ticket de ingreso y guía profesional según disponibilidad y circuito asignado."},
+    {"pregunta": "¿Se puede personalizar el paquete?", "respuesta": "Sí. Podemos adaptar fechas, hoteles, categoría de tren, servicios privados y actividades adicionales."},
+    {"pregunta": "¿Qué nivel de dificultad tiene?", "respuesta": "Es moderado. Las actividades más exigentes son las caminatas a Laguna Humantay y Montaña de 7 Colores por la distancia y altitud."},
+    {"pregunta": "¿Cuál es la altitud máxima?", "respuesta": "Se alcanzan cerca de 5,000 metros sobre el nivel del mar durante la excursión a la Montaña de 7 Colores."},
+    {"pregunta": "¿El alojamiento está incluido?", "respuesta": "No está incluido en el servicio base. Puede añadirse previa coordinación con un asesor."},
+    {"pregunta": "¿Qué comidas están incluidas?", "respuesta": "Incluye almuerzo buffet en Valle Sagrado y desayuno y almuerzo durante Humantay y Montaña de 7 Colores."},
+    {"pregunta": "¿En qué idiomas se ofrece?", "respuesta": "El guiado está disponible en español e inglés. Otros idiomas están sujetos a disponibilidad."},
+    {"pregunta": "¿El traslado al aeropuerto está incluido?", "respuesta": "Sí, previa coordinación con el asesor según el horario del vuelo."}
+  ],
+  "brochure": "", "map": "mapa-paquete-cusco-imperial-5d-4n.jpg", "video": "", "categories": {}
+}

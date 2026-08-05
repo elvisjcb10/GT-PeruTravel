@@ -1,178 +1,75 @@
 {
-    "background": "/images/destinos/cusco/hero.webp",
-    "badge": "Destination",
-    "titulo": "Tours in Cusco",
-    "descripcion": "Travel guides, practical advice and authentic experiences from the Andes of Peru. Everything you need to know before you leave.",
-    "stats": [
-        {
-            "icono": "fa-mountain",
-            "numero": "150+",
-            "titulo": "Destinations"
-        },
-        {
-            "icono": "fa-people-group",
-            "numero": "12K+",
-            "titulo": "Travelers"
-        },
-        {
-            "icono": "fa-star",
-            "numero": "4.9",
-            "titulo": "Rating"
-        },
-        {
-            "icono": "fa-globe",
-            "numero": "10+",
-            "titulo": "Years of Exp."
-        }
-    ],
-    "badge_flotante": {
-        "calificacion": "4.7",
-        "texto": "+200 Travelers"
+  "background": "/images/destinos/cusco/hero.webp",
+  "badge": "Destination",
+  "titulo": "Tours in Cusco",
+  "descripcion": "Travel guides, practical advice and authentic experiences from the Peruvian Andes. Everything you need to know before your journey.",
+  "stats": [
+    {"icono": "fa-mountain", "numero": "150+", "titulo": "Destinations"},
+    {"icono": "fa-people-group", "numero": "12K+", "titulo": "Travelers"},
+    {"icono": "fa-star", "numero": "4.9", "titulo": "Rating"},
+    {"icono": "fa-globe", "numero": "10+", "titulo": "Years of Experience"}
+  ],
+  "badge_flotante": {"calificacion": "4.7", "texto": "+200 Travelers"},
+  "filtros": [
+    {"id": "todos", "label": "All"},
+    {"id": "tradicionales", "label": "Traditional"},
+    {"id": "aventura", "label": "Adventure"},
+    {"id": "caminata", "label": "Hiking"}
+  ],
+  "tours": [
+    {
+      "title": "Super Sacred Valley Tour",
+      "description": "Explore Chinchero, Moray, the Maras Salt Mines, Ollantaytambo and Pisac on a full-day cultural experience.",
+      "price": "0",
+      "duracion": "Full Day",
+      "image": "tours/super-valle-sagrado/hero.jpg",
+      "url": "super-valle-sagrado",
+      "categoria": "tradicionales"
     },
-    "filtros": [
-        {
-            "id": "todos",
-            "label": "all"
-        },
-        {
-            "id": "tradicionales",
-            "label": "Traditional"
-        },
-        {
-            "id": "aventura",
-            "label": "Adventure"
-        },
-        {
-            "id": "caminata",
-            "label": "Hike"
-        }
-    ],
-    "tours": [
-        {
-            "title": "Pallay Punchu Mountain Tour",
-            "description": "Discover one of the most impressive geological formations in Cusco: colorful stripes and sharp peaks reminiscent of a traditional Andean Punchu.",
-            "price": "0",
-            "duracion": "Full Day",
-            "image": "tours/cusco/pallay-punchu/card.webp",
-            "url": "CZ-pallay_punchu",
-            "categoria": "hike"
-        },
-        {
-            "title": "Mystical Tour in Cusco",
-            "description": "Discover the Abode of the Gods, the Valley of the Goblins, the Huasao Wetland and the Parque de los Ents on an alternative and cultural route.",
-            "price": "0",
-            "duracion": "Full Day",
-            "image": "tours/cusco/mistico/card.webp",
-            "url": "CZ-cusco-mistico",
-            "categoria": "traditional"
-        },
-        {
-            "title": "City Tour Cusco",
-            "description": "Explore the treasures of the ancient Inca Empire: Qorikancha, Sacsayhuamán, Qenqo, Puka Pukara and Tambomachay.",
-            "price": "0",
-            "duracion": "Half Day",
-            "image": "tours/cusco/city-tour/card.webp",
-            "url": "CZ-cusco-city",
-            "categoria": "traditional"
-        },
-        {
-            "title": "Sacred Valley + Machu Picchu",
-            "description": "Explore the Sacred Valley of the Incas and culminate the experience in the majestic citadel of Machu Picchu.",
-            "price": "389",
-            "duracion": "2Days / 1Nights",
-            "image": "valle-sagrado-cusco-peru.jpg",
-            "url": "vallesagrado-machupicchu",
-            "categoria": "traditional"
-        },
-        {
-            "title": "Short Inca Trail",
-            "description": "Live the mystique of the short Inca Trail and reach Machu Picchu along the ancient Inca trail.",
-            "price": "449",
-            "duracion": "2Days / 1Nights",
-            "image": "camino-inca-corto-cusco-peru-machupicchu.jpg",
-            "url": "short-inca-trail",
-            "categoria": "hike"
-        },
-        {
-            "title": "Cusco Express",
-            "description": "Escape to Cusco and Machu Picchu, the ideal destination to discover Inca history, the magic of the Andes and the cultural essence of Peru.",
-            "price": "345",
-            "duracion": "3Days / 2Nights",
-            "image": "card-6.jpg",
-            "url": "cusco-express",
-            "categoria": "traditional"
-        },
-        {
-            "title": "Mountain of Colors + 7 Lagoons",
-            "description": "Andean adventure to the Mountain of Colors and the 7 Ausangate Lagoons.",
-            "price": "125",
-            "duracion": "2Days / 1Nights",
-            "image": "montana-colores-cusco-peru-card-01.jpg",
-            "url": "montanacolores-7lagunas",
-            "categoria": "adventure"
-        },
-        {
-            "title": "Magical Cusco",
-            "description": "Experience Machu Picchu and the Sacred Valley in a short but unforgettable adventure. Explore temples, mountains and the living essence of the Andes.",
-            "price": "579",
-            "duracion": "5Days / 4Nights",
-            "image": "card-5.jpg",
-            "url": "cusco-magico",
-            "categoria": "adventure"
-        },
-        {
-            "title": "Magical Cusco",
-            "description": "Experience Machu Picchu and the Sacred Valley in a short but unforgettable adventure. Explore temples, mountains and the living essence of the Andes.",
-            "price": "579",
-            "duracion": "5Days / 4Nights",
-            "image": "card-5.jpg",
-            "url": "cusco-magico",
-            "categoria": "adventure"
-        },
-        {
-            "title": "Magical Cusco",
-            "description": "Experience Machu Picchu and the Sacred Valley in a short but unforgettable adventure. Explore temples, mountains and the living essence of the Andes.",
-            "price": "579",
-            "duracion": "5Days / 4Nights",
-            "image": "card-5.jpg",
-            "url": "cusco-magico",
-            "categoria": "adventure"
-        },
-        {
-            "title": "Magical Cusco",
-            "description": "Experience Machu Picchu and the Sacred Valley in a short but unforgettable adventure. Explore temples, mountains and the living essence of the Andes.",
-            "price": "579",
-            "duracion": "5Days / 4Nights",
-            "image": "card-5.jpg",
-            "url": "cusco-magico",
-            "categoria": "adventure"
-        },
-        {
-            "title": "Magical Cusco",
-            "description": "Experience Machu Picchu and the Sacred Valley in a short but unforgettable adventure. Explore temples, mountains and the living essence of the Andes.",
-            "price": "579",
-            "duracion": "5Days / 4Nights",
-            "image": "card-5.jpg",
-            "url": "cusco-magico",
-            "categoria": "adventure"
-        },
-        {
-            "title": "Magical Cusco",
-            "description": "Experience Machu Picchu and the Sacred Valley in a short but unforgettable adventure. Explore temples, mountains and the living essence of the Andes.",
-            "price": "579",
-            "duracion": "5Days / 4Nights",
-            "image": "card-5.jpg",
-            "url": "cusco-magico",
-            "categoria": "adventure"
-        },
-        {
-            "title": "Magical Cusco",
-            "description": "Experience Machu Picchu and the Sacred Valley in a short but unforgettable adventure. Explore temples, mountains and the living essence of the Andes.",
-            "price": "579",
-            "duracion": "5Days / 4Nights",
-            "image": "card-5.jpg",
-            "url": "cusco-magico",
-            "categoria": "adventure"
-        }
-    ]
+    {
+      "title": "Pallay Punchu Mountain Tour",
+      "description": "Discover one of Cusco's most impressive geological formations, with colorful stripes and sharp peaks resembling a traditional Andean poncho.",
+      "price": "0", "duracion": "Full Day", "image": "tours/cusco/pallay-punchu/card.webp", "url": "CZ-pallay_punchu", "categoria": "caminata"
+    },
+    {
+      "title": "Mystical Cusco Tour",
+      "description": "Discover the Abode of the Gods, Goblin Valley, Huasao Wetland and Ents Park on an alternative cultural route.",
+      "price": "0", "duracion": "Full Day", "image": "tours/cusco/mistico/card.webp", "url": "CZ-cusco-mistico", "categoria": "tradicionales"
+    },
+    {
+      "title": "Cusco City Tour",
+      "description": "Explore the treasures of the Inca Empire: Qorikancha, Sacsayhuamán, Qenqo, Puka Pukara and Tambomachay.",
+      "price": "0", "duracion": "Half Day", "image": "tours/cusco/city-tour/card.webp", "url": "CZ-cusco-city", "categoria": "tradicionales"
+    },
+    {
+      "title": "Sacred Valley + Machu Picchu",
+      "description": "Explore the Sacred Valley of the Incas and complete the experience at the majestic citadel of Machu Picchu.",
+      "price": "389", "duracion": "2 Days / 1 Night", "image": "valle-sagrado-cusco-peru.jpg", "url": "vallesagrado-machupicchu", "categoria": "tradicionales"
+    },
+    {
+      "title": "Short Inca Trail",
+      "description": "Experience the mysticism of the short Inca Trail and reach Machu Picchu along the ancient Inca path.",
+      "price": "449", "duracion": "2 Days / 1 Night", "image": "camino-inca-corto-cusco-peru-machupicchu.jpg", "url": "short-inca-trail", "categoria": "caminata"
+    },
+    {
+      "title": "Cusco Express",
+      "description": "Escape to Cusco and Machu Picchu to discover Inca history, the magic of the Andes and Peru's cultural essence.",
+      "price": "309", "duracion": "3 Days / 2 Nights", "image": "paquetes/cusco-express-hero.jpg", "url": "cusco-express", "tipo": "paquete", "categoria": "tradicionales"
+    },
+    {
+      "title": "Rainbow Mountain + 7 Lakes",
+      "description": "An Andean adventure to Rainbow Mountain and the Seven Lakes of Ausangate.",
+      "price": "125", "duracion": "2 Days / 1 Night", "image": "montana-colores-cusco-peru-card-01.jpg", "url": "montanacolores-7lagunas", "categoria": "aventura"
+    },
+    {
+      "title": "Magical Cusco",
+      "description": "Experience Machu Picchu and the Sacred Valley on a short but unforgettable adventure through temples, mountains and living Andean culture.",
+      "price": "579", "duracion": "5 Days / 4 Nights", "image": "card-5.jpg", "url": "cusco-magico", "categoria": "aventura"
+    },
+    {
+      "title": "Imperial Cusco",
+      "description": "Experience Cusco, Sacred Valley, Machu Picchu, Humantay Lake and Rainbow Mountain in five days.",
+      "price": "485", "duracion": "5 Days / 4 Nights", "image": "paquetes/cusco-imperial-hero.jpg", "url": "cusco-imperial", "tipo": "paquete", "categoria": "aventura"
+    }
+  ]
 }

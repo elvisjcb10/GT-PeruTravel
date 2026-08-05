@@ -1,101 +1,38 @@
 {
-    "title": "Perú Místico",
-    "short_description": "Cusco - Coricancha - Sacsayhuamán - Pisac - Urubamba - Ollantaytambo - Chinchero - Machu Picchu - Montaña Arcoíris",
-    "long_description": "¡Bienvenido a Perú! Tu llegada será en Lima, donde nuestro equipo te recibirá y acompañará para iniciar esta gran experiencia por la costa, los Andes y el mundo inca.",
-    "duration": "12 Días / 11 Noches",
-
-    "image_cover": "peru-mistico.jpg",
-    "gallery": ["machu1.jpg", "machu2.jpg"],
-
-    "price": "1150",
-    "price_note": "Incluye transporte, tickets de ingreso y guía profesional.",
-
-    "seo_title": "Perú Místico 12D/11N - Lima, Cusco, Machu Picchu y Lago Titicaca | GT Peru Travel",
-    "seo_description": "Tour Perú Místico 12 días: Lima, Paracas, Ica, Cusco, Valle Sagrado, Machu Picchu, Montaña Arcoíris, Ruta del Sol y Lago Titicaca. Viaje completo con GT Peru Travel.",
-    "seo_keywords": "peru mistico, tour peru completo, viaje cusco machu picchu, valle sagrado, lago titicaca, ruta del sol, humantay, vinicunca, gt peru travel",
-
-    "days": [{
-            "title": "Día 1",
-            "text": "Llegada a Lima y traslado al hotel. Tiempo libre para descansar. Si tu vuelo llega temprano, podrás realizar un city tour opcional por la capital. Alojamiento en Lima."
-        },
-        {
-            "title": "Día 2",
-            "text": "Full Day Paracas + Ica: Tour Islas Ballestas, avistamiento de fauna marina, visita a viñedo con degustación de vinos y piscos, y aventura en Huacachina con buggies y sandboarding. Retorno a Lima por la noche."
-        },
-        {
-            "title": "Día 3",
-            "text": "Vuelo Lima - Cusco. Recepción en el aeropuerto y traslado al hotel. Tarde libre para aclimatación. Recomendado visitar el Centro Qosqo de Arte Nativo."
-        },
-        {
-            "title": "Día 4",
-            "text": "City Tour Cusco + Morada de los Dioses: Visitamos Coricancha, Sacsayhuamán, Qenqo, Puca Pucara y Tambomachay. Finalizamos en la Morada de los Dioses, un espacio artístico inspirado en la cosmovisión andina."
-        },
-        {
-            "title": "Día 5",
-            "text": "Tour Moray + Salineras + Chinchero: Visita a las terrazas circulares de Moray, las minas de sal de Maras y los centros textiles tradicionales de Chinchero. Retorno a Cusco por la tarde."
-        },
-        {
-            "title": "Día 6",
-            "text": "Tour Valle Sagrado: Paradas en Cochahuasi (opcional), mirador de Taray, Pisac con su complejo arqueológico y platerías, almuerzo buffet en Urubamba y visita final a Ollantaytambo. Noche en Ollantaytambo."
-        },
-        {
-            "title": "Día 7",
-            "text": "Machu Picchu - El Gran Día: Tren temprano a Aguas Calientes y ascenso a Machu Picchu. Tour guiado y tiempo libre. Retorno a Cusco en tren y movilidad privada."
-        },
-        {
-            "title": "Día 8",
-            "text": "Laguna Humantay: Viaje a Soraypampa y caminata hacia la laguna turquesa. Tiempo libre para fotos. Almuerzo buffet en Mollepata antes del retorno a Cusco por la tarde."
-        },
-        {
-            "title": "Día 9",
-            "text": "Montaña Arcoíris: Desayuno en Cusipata, caminata hacia Vinicunca con vistas al nevado Ausangate, fauna altoandina y paisajes únicos. Almuerzo buffet y retorno a Cusco."
-        },
-        {
-            "title": "Día 10",
-            "text": "Ruta del Sol (Cusco - Puno): Visitas a Andahuaylillas, Raqchi, almuerzo en Sicuani, mirador de La Raya y Pukara. Llegada a Puno por la tarde."
-        },
-        {
-            "title": "Día 11",
-            "text": "Uros + Sillustani: Navegación hacia las Islas Uros, visita cultural y retorno a Puno. Por la tarde recorrido por las chullpas de Sillustani frente a la Laguna Umayo."
-        },
-        {
-            "title": "Día 12",
-            "text": "Traslado al aeropuerto según itinerario. Fin del servicio."
-        }
-    ],
-
-    "brochure": "",
-    "map": "mapa-paquete-peru-mistico-12d-11n-es.jpg",
-    "video": "",
-
-    "categories": {
-        "tour": {
-            "titulo": "TOUR MACHUPICCHU - SOLO",
-            "precio": "1150",
-            "descripcion": "Opción clásica con tren Expedition.",
-            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
-            "descuento": 0
-        },
-        "confort": {
-            "titulo": "TOUR MACHUPICCHU - CONFORT",
-            "precio": "1150",
-            "descripcion": "Incluye tren Vistadome y almuerzo buffet.",
-            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
-            "descuento": 0
-        },
-        "premium": {
-            "titulo": "TOUR MACHUPICCHU - PREMIUM",
-            "precio": "1150",
-            "descripcion": "Incluye tren Vistadome y almuerzo buffet.",
-            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
-            "descuento": 0
-        },
-        "elite": {
-            "titulo": "TOUR MACHUPICCHU - ELITE",
-            "precio": "1150",
-            "descripcion": "Incluye tren Vistadome y almuerzo buffet.",
-            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
-            "descuento": 0
-        }
-    }
+  "title": "Perú Místico",
+  "short_description": "Descubre lo mejor de Perú en 7 días recorriendo Lima, Paracas, Ica, Huacachina, Cusco, Machu Picchu, Laguna Humantay y la Montaña de 7 Colores.",
+  "long_description": "Explora lo mejor de <strong>Perú</strong> en una experiencia de 7 días y 6 noches que combina historia, cultura, naturaleza y aventura.<br><br>Comenzaremos en <strong>Lima</strong>, seguiremos por la fauna marina de <strong>Paracas</strong> y las dunas de <strong>Huacachina</strong>. La experiencia continuará en los Andes con <strong>Cusco</strong>, <strong>Machu Picchu</strong>, la <strong>Laguna Humantay</strong> y la <strong>Montaña de 7 Colores</strong>.",
+  "duration": "7 Días / 6 Noches",
+  "image_cover": "peru-mistico-hero.jpg",
+  "gallery": ["peru-mistico/galeria-01.jpg", "peru-mistico/galeria-02.jpg", "peru-mistico/galeria-03.jpg", "peru-mistico/galeria-04.jpg", "peru-mistico/galeria-05.jpg", "peru-mistico/galeria-06.jpg"],
+  "price": "519",
+  "price_note": "Precio desde USD 519 por persona. Incluye transporte, tickets de ingreso y guía profesional. Sujeto a disponibilidad.",
+  "seo_title": "Perú Místico 7 Días / 6 Noches | Machu Picchu | GT Peru Travel",
+  "seo_description": "Descubre Lima, Paracas, Huacachina, Cusco, Machu Picchu, Laguna Humantay y Montaña de 7 Colores con Perú Místico.",
+  "seo_keywords": "peru mistico, paquete peru 7 dias, machu picchu, paracas, huacachina, laguna humantay, montaña de 7 colores",
+  "days": [
+    {"title":"Día 1: Llegada a Lima","text":"Recepción en el <strong>Aeropuerto de Lima</strong> y traslado al alojamiento. Según el horario de llegada, tendrás tiempo libre para conocer Miraflores, su malecón, parques y vistas del Océano Pacífico."},
+    {"title":"Día 2: Paracas – Ica – Huacachina","text":"Salida temprana hacia <strong>Paracas</strong> y paseo en lancha por las <strong>Islas Ballestas</strong>. Continuaremos a Ica para una cata de vinos y luego al oasis de <strong>Huacachina</strong>, con tubulares y sandboarding. Retorno a Lima."},
+    {"title":"Día 3: Lima – Cusco","text":"Traslado para continuar el viaje hacia <strong>Cusco</strong>. Recepción en el aeropuerto y traslado al alojamiento. El resto del día estará destinado a la aclimatación a aproximadamente 3,400 m s. n. m."},
+    {"title":"Día 4: Machu Picchu","text":"Traslado a Ollantaytambo y tren turístico a <strong>Aguas Calientes</strong>. Subiremos en bus a <strong>Machu Picchu</strong> para la visita guiada según el circuito asignado. Retorno en tren y transporte turístico a Cusco."},
+    {"title":"Día 5: Laguna Humantay","text":"Salida temprana, desayuno buffet y caminata de aproximadamente 1.5 a 2 horas hacia la <strong>Laguna Humantay</strong>. Tiempo para fotografías y explicación del guía. Almuerzo buffet y retorno a Cusco."},
+    {"title":"Día 6: Montaña de 7 Colores","text":"Salida hacia Cusipata, desayuno buffet y caminata de 1.5 a 2 horas hacia la <strong>Montaña de 7 Colores – Vinicunca</strong>. Después de la visita disfrutaremos del almuerzo y retornaremos a Cusco."},
+    {"title":"Día 7: Despedida y fin de viaje","text":"Tiempo libre según el horario del vuelo. A la hora coordinada realizaremos el traslado desde el alojamiento hacia el <strong>Aeropuerto de Cusco</strong>."}
+  ],
+  "includes": ["Traslado Aeropuerto de Lima – alojamiento", "Transporte Lima – Paracas – Ica – Huacachina – Lima", "Paseo e ingreso a Islas Ballestas", "Tubulares y sandboarding en Huacachina", "Cata de vinos y almuerzo en Ica", "Guía en español / inglés", "Traslados en Lima y Cusco", "Transporte Cusco – Ollantaytambo – Cusco", "Tren Expedition o Voyager ida y vuelta", "Bus Consettur e ingreso a Machu Picchu", "Guía profesional en Machu Picchu", "Tour, desayuno, almuerzo e ingreso a Laguna Humantay", "Tour, desayuno, almuerzo e ingreso a Montaña de 7 Colores", "Traslado alojamiento – Aeropuerto de Cusco"],
+  "not_includes": ["Vuelos internacionales", "Vuelo Lima – Cusco", "Alojamiento", "Comidas no especificadas", "Bebidas adicionales", "Gastos personales", "Propinas", "Seguro de viaje", "Servicios no mencionados"],
+  "technical_sheet": "Duración: 7 días / 6 noches<br>Destinos: Lima, Paracas, Ica, Huacachina, Cusco, Machu Picchu, Laguna Humantay y Montaña de 7 Colores<br>Tipo: Paquete turístico<br>Dificultad: Moderada<br>Altitud máxima: 5,036 m s. n. m.<br>Tren: Expedition o Voyager<br>Guiado: Español o inglés<br>Alojamiento: No incluido<br>Inicio: Lima<br>Finalización: Cusco",
+  "faq": [
+    {"pregunta":"¿Es necesario aclimatarse en Cusco?","respuesta":"Sí. Recomendamos descansar, hidratarse y evitar esfuerzos intensos durante las primeras horas."},
+    {"pregunta":"¿El paquete incluye Machu Picchu?","respuesta":"Sí. Incluye ingreso, tren Expedition o Voyager, bus Consettur y guía profesional."},
+    {"pregunta":"¿Se puede personalizar el paquete?","respuesta":"Sí. El programa puede adaptarse a tus fechas, disponibilidad y servicios adicionales."},
+    {"pregunta":"¿El vuelo de Lima a Cusco está incluido?","respuesta":"No. Debe cotizarse por separado."},
+    {"pregunta":"¿El alojamiento está incluido?","respuesta":"No. Puede añadirse previa coordinación con un asesor."},
+    {"pregunta":"¿Qué actividades se realizan en Paracas e Ica?","respuesta":"Islas Ballestas, cata de vinos, Huacachina, tubulares y sandboarding."},
+    {"pregunta":"¿Qué nivel de dificultad tiene?","respuesta":"Moderado. Humantay y Montaña de 7 Colores son las caminatas más exigentes por la altitud."},
+    {"pregunta":"¿Cuál es la altitud máxima?","respuesta":"Aproximadamente 5,036 m s. n. m. en la Montaña de 7 Colores."},
+    {"pregunta":"¿Qué comidas están incluidas?","respuesta":"Almuerzo en Ica y Paracas, y desayuno y almuerzo en Humantay y Montaña de 7 Colores."},
+    {"pregunta":"¿En qué idiomas se ofrece?","respuesta":"Español e inglés; portugués sujeto a disponibilidad."}
+  ],
+  "brochure": "", "map": "", "video": "", "categories": {"tour":{"titulo":"PERÚ MÍSTICO – SOLO TOURS","precio":"519","descripcion":"Programa de tours y servicios sin alojamiento.","nota":"No incluye alojamiento ni vuelo Lima – Cusco.","descuento":0}}
 }

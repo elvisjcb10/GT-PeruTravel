@@ -1,0 +1,35 @@
+{
+  "title": "Super Sacred Valley of the Incas Full Day Tour",
+  "short_description": "Enjoy a complete journey through Chinchero, Moray, the Maras Salt Mines, Ollantaytambo and Pisac in a single day.",
+  "long_description": "Discover the grandeur of the <strong>Sacred Valley of the Incas</strong>, one of Cusco's most impressive cultural destinations.<br><br>Explore major historic sites surrounded by Andean landscapes and traditional communities: <strong>Chinchero</strong>, the circular terraces of <strong>Moray</strong>, the <strong>Maras Salt Mines</strong>, the fortress of <strong>Ollantaytambo</strong> and the archaeological complex of <strong>Pisac</strong>.",
+  "duration": "1 Day",
+  "image_cover": "super-valle-sagrado/hero.jpg",
+  "gallery": ["super-valle-sagrado/galeria-01.jpg", "super-valle-sagrado/galeria-02.jpg", "super-valle-sagrado/galeria-03.jpg", "super-valle-sagrado/galeria-04.jpg", "super-valle-sagrado/galeria-05.jpg"],
+  "price": "0",
+  "price_note": "Price per person for group service. Subject to availability.",
+  "seo_title": "Super Sacred Valley Full Day Tour from Cusco | GT Peru Travel",
+  "seo_description": "Discover Chinchero, Moray, Maras, Ollantaytambo and Pisac on a full-day Super Sacred Valley tour from Cusco with a professional guide.",
+  "seo_keywords": "super sacred valley, sacred valley tour, chinchero, moray, maras, ollantaytambo, pisac, cusco tour, gt peru travel",
+  "resumen": {"ubicacion": "Sacred Valley of the Incas, Cusco Region", "lugar_recojo": "Hotel located in Cusco", "lugar_finalizacion": "Cusco", "idiomas": ["Spanish", "English", "Portuguese"], "transporte": ["Tourist transportation throughout the route"], "alimentacion": "Buffet lunch", "alojamiento": "Not included", "altitud": "2,800–3,700 masl"},
+  "caracteristicas": [
+    {"icono": "fa-person-hiking", "label": "Dificultad", "valor": "Moderate"},
+    {"icono": "fa-clock", "label": "Duración", "valor": "Full Day"},
+    {"icono": "fa-people-group", "label": "Servicio", "valor": "Group / Private"},
+    {"icono": "fa-mountain", "label": "Altitud Máxima", "valor": "3,700 masl"}
+  ],
+  "actividades": ["Cultural visit to Chinchero", "Visit to Moray's circular terraces", "Tour of the Maras Salt Mines", "Visit to Ollantaytambo", "Visit to Pisac", "Buffet lunch and professional guide"],
+  "days": [{"title": "Day 1: Cusco – Chinchero – Moray – Maras – Ollantaytambo – Pisac – Cusco", "lugar": "Cusco → Chinchero → Moray → Maras → Ollantaytambo → Pisac → Cusco", "text": "We depart from Cusco toward the <strong>Sacred Valley of the Incas</strong>.<br><br>Our first stop is <strong>Chinchero</strong>, a traditional Andean town known for its textiles and historic legacy. We continue to <strong>Moray</strong> to see its circular agricultural terraces and then visit the famous <strong>Maras Salt Mines</strong>.<br><br>After lunch, we explore the archaeological complex of <strong>Ollantaytambo</strong>. Finally, we visit <strong>Pisac</strong>, with its Inca terraces and buildings overlooking the valley, before returning to Cusco."}],
+  "includes": ["Tourist transportation", "Professional guide", "Buffet lunch", "Entrance fees"],
+  "not_includes": ["Personal expenses", "Tips", "Additional drinks", "Services not mentioned in the itinerary"],
+  "recommendations": [
+    {"img": "pasaporte.webp", "nombre": "ID document or passport"}, {"img": "calzado-trekking.webp", "nombre": "Comfortable walking shoes"}, {"img": "casaca-impermeable.webp", "nombre": "Waterproof jacket and warm clothing"}, {"img": "poncho-lluvia.webp", "nombre": "Rain poncho"}, {"img": "bloqueador.webp", "nombre": "Sunscreen and sunglasses"}, {"img": "botella-agua.webp", "nombre": "Water in a reusable bottle"}, {"img": "sombrero.webp", "nombre": "Hat or cap"}, {"img": "mochila.webp", "nombre": "Small backpack"}
+  ],
+  "recomendaciones_generales": {"antes_de_viajar": ["Bring comfortable clothing for temperature changes", "Wear comfortable shoes", "Bring sunscreen, water and identification", "Carry cash for personal expenses"]},
+  "faq": [
+    {"pregunta": "Which places will we visit?", "respuesta": "We visit Chinchero, Moray, the Maras Salt Mines, Ollantaytambo and Pisac."},
+    {"pregunta": "What does the tour include?", "respuesta": "It includes tourist transportation, a professional guide, buffet lunch and entrance fees according to the itinerary."},
+    {"pregunta": "Is it suitable for children or older adults?", "respuesta": "Yes. The difficulty is moderate, although each traveler's physical condition should be considered."},
+    {"pregunta": "In which languages is it offered?", "respuesta": "It is available in Spanish, English and Portuguese, subject to availability."}
+  ],
+  "tours_relacionados": [], "brochure": "", "map": "", "video": "", "categories": {}
+}

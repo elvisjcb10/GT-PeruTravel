@@ -67,6 +67,15 @@
             "url": "fortaleza-cuernos",
             "reservar": "Reservar",
             "price": "$80"
+        },
+        {
+            "title": "SÚPER VALLE SAGRADO",
+            "subtitle": "CHINCHERO, MORAY, MARAS, OLLANTAYTAMBO Y PISAC",
+            "description": "Descubre cinco lugares imprescindibles del Valle Sagrado de los Incas en una experiencia cultural de día completo.",
+            "image": "tours/super-valle-sagrado/hero.jpg",
+            "url": "super-valle-sagrado",
+            "reservar": "Reservar",
+            "price": "$0"
         }
     ]
 }

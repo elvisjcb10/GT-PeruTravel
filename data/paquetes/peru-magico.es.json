@@ -1,89 +1,9 @@
 {
-    "title": "Perú Mágico",
-    "short_description": "Lima – Cusco – Qoricancha – Sacsayhuamán – Valle Sagrado – Machu Picchu – Montaña Arcoíris – Laguna Humantay.",
-    "long_description": "Descubre Perú en un viaje completo que combina historia, naturaleza y cultura. Inicia en Lima y continúa hacia Cusco, la capital histórica del Imperio Inca.",
-    "duration": "9 Días / 8 Noches",
-
-    "image_cover": "peru-magico.jpg",
-    "gallery": ["machu1.jpg", "machu2.jpg"],
-
-    "price": "809",
-    "price_note": "Incluye transporte, tickets de ingreso y guía profesional.",
-
-    "seo_title": "Perú Mágico 9D/8N – Lima, Cusco, Machu Picchu y Atractivos Imperdibles | GT Peru Travel",
-    "seo_description": "Perú Mágico 9 días: Lima, Paracas, Ica, Cusco, Valle Sagrado, Machu Picchu, Laguna Humantay y Montaña Arcoíris. Tour completo con traslados, ingresos y guía profesional.",
-    "seo_keywords": "perú mágico, tour perú 9 días, viaje lima cusco machu picchu, perú completo, valle sagrado, montaña arcoiris, humantay, gt peru travel",
-
-    "days": [{
-            "title": "Día 1: Llegada a Lima",
-            "text": "Recepción en el aeropuerto y traslado a tu hotel. Check-in a partir de las 14:00. Si llegas por la mañana, puedes realizar un City Tour opcional en Lima. Noche en la capital."
-        },
-        {
-            "title": "Día 2: Paracas + Islas Ballestas + Ica + Huacachina",
-            "text": "Salida a Paracas para visitar las Islas Ballestas y su fauna marina. Continuamos hacia Ica para conocer un viñedo con degustación de vinos y piscos. Luego visitamos el Oasis de Huacachina y realizamos bugguies y sandboarding. Retorno a Lima por la noche."
-        },
-        {
-            "title": "Día 3: Vuelo Lima – Cusco",
-            "text": "Traslado al aeropuerto y vuelo a Cusco. Recepción y traslado al hotel. Tarde libre para aclimatar, descansar o asistir al show típico del Centro Qosqo de Arte Nativo."
-        },
-        {
-            "title": "Día 4: City Tour + Morada de los Dioses",
-            "text": "Visita al Qoricancha, Sacsayhuamán, Qenqo y la Morada de los Dioses. Descubre arquitectura inca, arte ancestral y miradores perfectos para fotografías."
-        },
-        {
-            "title": "Día 5: Machu Picchu",
-            "text": "Viaje en tren a Aguas Calientes y ascenso en bus a Machu Picchu. Recorrido guiado por los templos y miradores más importantes. Tiempo libre, retorno en tren y traslado a Cusco."
-        },
-        {
-            "title": "Día 6: Laguna Humantay",
-            "text": "Salida temprano hacia Mollepata para desayuno y luego caminata hacia la Laguna Humantay (4200 m). Tiempo para fotos y descanso. Almuerzo en Mollepata y retorno a Cusco."
-        },
-        {
-            "title": "Día 7: Día Libre",
-            "text": "Día libre en Cusco para descansar o realizar actividades opcionales como San Blas, Mercado de San Pedro, museos, o un tour a Maras y Moray."
-        },
-        {
-            "title": "Día 8: Montaña Arcoíris",
-            "text": "Viaje a Cusipata, desayuno y caminata hacia Vinicunca (5036 m). Disfruta de sus colores únicos y vistas al nevado Ausangate. Almuerzo y retorno a Cusco por la tarde."
-        },
-        {
-            "title": "Día 9: Retorno",
-            "text": "Traslado al aeropuerto según horario de tu vuelo. Fin del viaje."
-        }
-    ],
-
-    "brochure": "",
-    "map": "mapa-paquete-peru-magico-9d-8n-es.jpg",
-    "video": "",
-
-    "categories": {
-        "tour": {
-            "titulo": "TOUR MACHUPICCHU - SOLO",
-            "precio": "809",
-            "descripcion": "Opción clásica con tren Expedition.",
-            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
-            "descuento": 0
-        },
-        "confort": {
-            "titulo": "TOUR MACHUPICCHU - CONFORT",
-            "precio": "809",
-            "descripcion": "Incluye tren Vistadome y almuerzo buffet.",
-            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
-            "descuento": 0
-        },
-        "premium": {
-            "titulo": "TOUR MACHUPICCHU - PREMIUM",
-            "precio": "809",
-            "descripcion": "Incluye tren Vistadome y almuerzo buffet.",
-            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
-            "descuento": 0
-        },
-        "elite": {
-            "titulo": "TOUR MACHUPICCHU - ELITE",
-            "precio": "809",
-            "descripcion": "Incluye tren Vistadome y almuerzo buffet.",
-            "nota": "Incluye transporte turístico, guía profesional, hotel y visitas programadas. Precio por persona (aplica para grupos de 2 personas o más).",
-            "descuento": 0
-        }
-    }
+  "title":"Perú Mágico","short_description":"Descubre Lima, Paracas, Huacachina, Cusco, Machu Picchu, Laguna Humantay, Morada de los Dioses y Montaña de 7 Colores en 9 días.","long_description":"Descubre la magia del Perú en un viaje de <strong>9 días y 8 noches</strong> que combina cultura, historia, naturaleza y aventura.<br><br>Comenzaremos en <strong>Lima</strong>, seguiremos por <strong>Paracas, Ica y Huacachina</strong>, y viajaremos a los Andes para conocer <strong>Cusco</strong>, <strong>Machu Picchu</strong>, la <strong>Laguna Humantay</strong>, la <strong>Morada de los Dioses</strong> y la <strong>Montaña de 7 Colores</strong>.",
+  "duration":"9 Días / 8 Noches","image_cover":"peru-magico-hero.jpg","gallery":["peru-magico/galeria-01.jpg","peru-magico/galeria-02.jpg","peru-magico/galeria-03.jpg","peru-magico/galeria-04.jpg","peru-magico/galeria-05.jpg","peru-magico/galeria-06.jpg","peru-magico/galeria-07.jpg","peru-magico/galeria-08.jpg"],"price":"569","price_note":"Precio desde USD 569 por persona. Consultar disponibilidad y condiciones.","seo_title":"Perú Mágico 9 Días / 8 Noches | GT Peru Travel","seo_description":"Viaja por Lima, Paracas, Huacachina, Cusco, Machu Picchu, Humantay, Morada de los Dioses y Montaña de 7 Colores.","seo_keywords":"peru magico, peru 9 dias, lima cusco machu picchu, huacachina, humantay, morada de los dioses, montaña de colores",
+  "days":[{"title":"Día 1: Llegada a Lima","text":"Recepción en el aeropuerto, traslado y tiempo libre para conocer Miraflores y las vistas del Pacífico."},{"title":"Día 2: Paracas – Ica – Huacachina","text":"Paseo por <strong>Islas Ballestas</strong>, cata de vinos y almuerzo en Ica, y aventura en <strong>Huacachina</strong> con tubulares y sandboarding. Retorno a Lima."},{"title":"Día 3: Lima – Cusco","text":"Viaje a <strong>Cusco</strong>, recepción y día de aclimatación a aproximadamente 3,400 m s. n. m."},{"title":"Día 4: City Tour Cusco","text":"Visita a Catedral, Qorikancha, <strong>Sacsayhuamán, Qenqo, Puka Pukara y Tambomachay</strong>. Retorno a Cusco."},{"title":"Día 5: Machu Picchu","text":"Tren a Aguas Calientes, bus y visita guiada a <strong>Machu Picchu</strong> según el circuito asignado. Retorno a Cusco."},{"title":"Día 6: Laguna Humantay","text":"Desayuno, caminata de 1.5 a 2 horas a la <strong>Laguna Humantay</strong>, visita guiada, almuerzo y retorno."},{"title":"Día 7: Morada de los Dioses","text":"Visita a <strong>Apukunaq Tiana</strong>, Valle de los Duendes, Bosque de los Ents y Humedal de Huasao. Retorno a Cusco."},{"title":"Día 8: Montaña de 7 Colores","text":"Desayuno en Cusipata, caminata de 1.5 a 2 horas a <strong>Vinicunca</strong>, almuerzo y retorno."},{"title":"Día 9: Despedida","text":"Tiempo libre y traslado coordinado al Aeropuerto de Cusco."}],
+  "includes":["Traslado Aeropuerto de Lima – alojamiento","Transporte Lima – Paracas – Ica – Huacachina – Lima","Paseo e ingreso a Islas Ballestas","Ingreso, tubulares y sandboarding en Huacachina","Cata de vinos y almuerzo","Guía en español / inglés","Traslados en Lima y Cusco","Transporte y guía durante City Tour","Tren Expedition o Voyager ida y vuelta","Bus Consettur, ingreso y guía en Machu Picchu","Tour, desayuno, almuerzo e ingreso a Laguna Humantay","Transporte y guía para Morada de los Dioses","Tour, desayuno, almuerzo e ingreso a Montaña de 7 Colores","Traslado al Aeropuerto de Cusco"],"not_includes":["Vuelos internacionales","Vuelo Lima – Cusco","Alojamiento","Ingresos del City Tour","Ingresos a Morada de los Dioses y atractivos asociados","Comidas no especificadas","Bebidas adicionales","Gastos personales","Propinas","Seguro de viaje","Servicios no mencionados"],
+  "technical_sheet":"Duración: 9 días / 8 noches<br>Destinos: Lima, Paracas, Ica, Huacachina, Cusco, Machu Picchu, Laguna Humantay, Morada de los Dioses y Montaña de 7 Colores<br>Tipo: Paquete turístico<br>Dificultad: Moderada<br>Altitud máxima: 5,036 m s. n. m.<br>Tren: Expedition o Voyager<br>Guiado: Español o inglés<br>Alojamiento: No incluido<br>Inicio: Lima<br>Finalización: Cusco",
+  "faq":[{"pregunta":"¿Es necesario aclimatarse en Cusco?","respuesta":"Sí. El día 3 está destinado principalmente a la aclimatación."},{"pregunta":"¿Incluye Machu Picchu?","respuesta":"Sí. Incluye tren, bus Consettur, ingreso y guía oficial."},{"pregunta":"¿Qué visita el City Tour?","respuesta":"Catedral, Qorikancha, Sacsayhuamán, Qenqo, Puka Pukara y Tambomachay."},{"pregunta":"¿Las entradas del City Tour están incluidas?","respuesta":"No. Incluye transporte y guía, pero no los ingresos."},{"pregunta":"¿Qué incluye Paracas e Ica?","respuesta":"Islas Ballestas, Huacachina, tubulares, sandboarding, cata de vinos y almuerzo."},{"pregunta":"¿Cuánto dura la caminata a Humantay?","respuesta":"Aproximadamente 1.5 a 2 horas de ascenso."},{"pregunta":"¿Qué visita Morada de los Dioses?","respuesta":"Apukunaq Tiana, Valle de los Duendes, Bosque de los Ents y Humedal de Huasao."},{"pregunta":"¿Sus entradas están incluidas?","respuesta":"No. Se incluyen transporte y guía."},{"pregunta":"¿Cuánto dura la caminata a Montaña de 7 Colores?","respuesta":"Aproximadamente 1.5 a 2 horas de ascenso a gran altitud."},{"pregunta":"¿El vuelo Lima – Cusco está incluido?","respuesta":"No. Debe cotizarse por separado."},{"pregunta":"¿El alojamiento está incluido?","respuesta":"No. Puede añadirse previa coordinación."},{"pregunta":"¿En qué idiomas se ofrece?","respuesta":"Español e inglés; otros sujetos a disponibilidad."},{"pregunta":"¿Se puede personalizar?","respuesta":"Sí, sujeto a disponibilidad y cotización."}],
+  "brochure":"","map":"mapa-paquete-peru-magico-9d-8n.jpg","video":"","categories":{"tour":{"titulo":"PERÚ MÁGICO – SOLO TOURS","precio":"569","descripcion":"Programa de tours y servicios por 9 días.","nota":"Desde USD 569 por persona.","descuento":0},"confort":{"titulo":"PERÚ MÁGICO – CONFORT","precio":"0","descripcion":"Opción con alojamiento superior.","nota":"Consultar precio.","descuento":0},"premium":{"titulo":"PERÚ MÁGICO – PREMIUM","precio":"0","descripcion":"Opción con servicios premium.","nota":"Consultar precio.","descuento":0}}
 }
