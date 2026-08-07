@@ -1,68 +1,68 @@
 {
-    "title_primary": "Recommended",
-    "title_secondary": "on TripAdvisor",
-    "subtitle": "Real reviews from travelers who enjoyed our tours",
-    "slides": [
-        {
-            "nombre": "LUCIA C",
-            "texto": "It was a pleasant experience being guided by GT Peru Travel. From the moment we contacted them through WhatsApp, they provided all the necessary information to make our stay enjoyable in every place we visited.",
-            "fecha": "SEPTEMBER 2025",
-            "img": "lucia-c.png"
-        },
-        {
-            "nombre": "INVESTIGACION M",
-            "texto": "Excellent apartment, excellent people, kind and polite. If I returned, I wouldn’t think twice about staying in their apartment again, and with their agency I would book my tours in Cusco.",
-            "fecha": "SEPTEMBER 2025",
-            "img": "investigacion-m.png"
-        },
-        {
-            "nombre": "ALMA P",
-            "texto": "Excellent service. Very punctual. They explain everything very well. Very patient. I highly recommend them.",
-            "fecha": "SEPTEMBER 2025",
-            "img": "alma-p.png"
-        },
-        {
-            "nombre": "GAUDY",
-            "texto": "I had the experience of traveling to Peru with GT Peru Travel and I recommend them—great prices, great service, punctual and friendly.",
-            "fecha": "SEPTEMBER 2025",
-            "img": "lucia-c.png"
-        },
-        {
-            "nombre": "MIGUEL G",
-            "texto": "We were satisfied from day one—personalized tours, friendly service. Highly recommended.",
-            "fecha": "SEPTEMBER 2025",
-            "img": "miguel-g.png"
-        },
-        {
-            "nombre": "FRIDHA G",
-            "texto": "We had an incredible vacation with the agency! I went with family and friends, and we enjoyed all the tours we took.",
-            "fecha": "SEPTEMBER 2025",
-            "img": "frida-g.png"
-        },
-        {
-            "nombre": "MOBILE677293",
-            "texto": "I traveled with part of my family, and our guide Euler gave us a unique, wonderful, and unforgettable experience. I love Peru ❤️‍🔥",
-            "fecha": "SEPTEMBER 2025",
-            "img": "mobile.png"
-        },
-        {
-            "nombre": "MARTA D",
-            "texto": "A spectacular trip with an amazing travel agency!",
-            "fecha": "SEPTEMBER 2025",
-            "img": "marta-d.png"
-        },
-        {
-            "nombre": "JULIETA O",
-            "texto": "From the moment I arrived, they picked me up from the airport with great kindness. The tours were beautiful and the transportation service was excellent.",
-            "fecha": "SEPTEMBER 2025",
-            "img": "juleta-o.png"
-        },
-        {
-            "nombre": "NATALIA D",
-            "texto": "Excellent service and accommodation. Everything was perfect thanks to Euler’s outstanding attention.",
-            "fecha": "SEPTEMBER 2025",
-            "img": "natalia-d.png"
-        }
-    ],
-    "kicker": "Real Opinions"
+  "kicker": "Real Reviews",
+  "title_primary": "Traveler",
+  "title_secondary": "Reviews",
+  "subtitle": "",
+  "slides": [
+    {
+      "nombre": "LUCIA C",
+      "texto": "It was a wonderful experience being guided by GT Peru Travel. From the moment we contacted them via WhatsApp, they provided us with all the information we needed.",
+      "fecha": "September 2025",
+      "img": "lucia-c.png"
+    },
+    {
+      "nombre": "INVESTIGACION M",
+      "texto": "Excellent accommodation and wonderful, friendly, and polite people. If I returned, I wouldn't think twice about staying with them and booking with their agency again.",
+      "fecha": "September 2025",
+      "img": "investigacion-m.png"
+    },
+    {
+      "nombre": "ALMA P",
+      "texto": "Excellent service. Very punctual. They explain everything very well and are very patient. I highly recommend them.",
+      "fecha": "September 2025",
+      "img": "alma-p.png"
+    },
+    {
+      "nombre": "GAUDY",
+      "texto": "I had the opportunity to travel to Peru with GT Peru Travel and I highly recommend them. Great prices, excellent service, punctual, and friendly.",
+      "fecha": "September 2025",
+      "img": "lucia-c.png"
+    },
+    {
+      "nombre": "MIGUEL G",
+      "texto": "We were satisfied from day one. Personalized tours and friendly service. Highly recommended.",
+      "fecha": "September 2025",
+      "img": "miguel-g.png"
+    },
+    {
+      "nombre": "FRIDHA G",
+      "texto": "We had an incredible vacation with the agency! I traveled with family and friends, and we loved all the tours we took.",
+      "fecha": "September 2025",
+      "img": "frida-g.png"
+    },
+    {
+      "nombre": "MOBILE677293",
+      "texto": "I traveled with part of my family, and our guide Euler gave us a unique, wonderful, and unforgettable experience. I love Peru!",
+      "fecha": "September 2025",
+      "img": "mobile.png"
+    },
+    {
+      "nombre": "MARTA D",
+      "texto": "An amazing trip with a great travel agency!",
+      "fecha": "September 2025",
+      "img": "marta-d.png"
+    },
+    {
+      "nombre": "JULIETA O",
+      "texto": "From the moment I arrived, they welcomed me warmly at the airport. The tours were beautiful, and the transportation service was excellent.",
+      "fecha": "September 2025",
+      "img": "juleta-o.png"
+    },
+    {
+      "nombre": "NATALIA D",
+      "texto": "Excellent service and accommodation. The entire trip went perfectly thanks to Euler's outstanding attention.",
+      "fecha": "September 2025",
+      "img": "natalia-d.png"
+    }
+  ]
 }

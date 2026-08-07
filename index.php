@@ -9,18 +9,21 @@ $GLOBALS['lang'] = $idioma;
 route_redirect_static('home', $idioma);
 $site_meta = [
     'es' => [
-        'title' => 'GT Peru Travel | Tours a Machu Picchu, Cusco y experiencias únicas en Perú',
-        'description' => 'Descubre los mejores tours en Cusco y Machu Picchu con GT Peru Travel. Experiencias auténticas, guías expertos y aventuras inolvidables en los Andes. Reserva ahora.',        'keywords' => 'tours a Machu Picchu, turismo en Cusco, viajes a Perú, paquetes turísticos',
+    'title' => 'GT Peru Travel | Tours a Machu Picchu, Cusco y experiencias únicas en Perú',
+    'description' => 'Descubre los mejores tours en Cusco y Machu Picchu con GT Peru Travel. Experiencias auténticas, guías expertos y aventuras inolvidables en los Andes. Reserva ahora.',
+    'keywords' => 'tours a Machu Picchu, turismo en Cusco, viajes a Perú, paquetes turísticos',
     ],
+
     'en' => [
-        'title' => 'GT Peru Travel | Machu Picchu and Cusco Tours',
-        'description' => 'Discover the best Cusco and Machu Picchu tours with GT Peru Travel. Authentic experiences, expert guides and unforgettable adventures in Peru.',
-        'keywords' => 'Machu Picchu tours, Cusco tourism, Peru travel, Peru packages',
+        'title' => 'GT Peru Travel | Machu Picchu & Cusco Tours and Unique Experiences in Peru',
+        'description' => 'Discover the best tours in Cusco and Machu Picchu with GT Peru Travel. Authentic experiences, expert guides, and unforgettable adventures in the Andes. Book now.',
+        'keywords' => 'Machu Picchu tours, Cusco tourism, Peru travel, tour packages',
     ],
+
     'pt' => [
-        'title' => 'GT Peru Travel | Tours para Machu Picchu e Cusco',
-        'description' => 'Descubra os melhores tours em Cusco e Machu Picchu com a GT Peru Travel. Experiências autênticas, guias especializados e aventuras inesquecíveis no Peru.',
-        'keywords' => 'tours Machu Picchu, turismo Cusco, viagens Peru, pacotes Peru',
+        'title' => 'GT Peru Travel | Tours para Machu Picchu, Cusco e experiências únicas no Peru',
+        'description' => 'Descubra os melhores tours em Cusco e Machu Picchu com a GT Peru Travel. Experiências autênticas, guias especializados e aventuras inesquecíveis nos Andes. Reserve agora.',
+        'keywords' => 'tours para Machu Picchu, turismo em Cusco, viagens ao Peru, pacotes turísticos',
     ],
 ][$idioma];
 $site_ui = [

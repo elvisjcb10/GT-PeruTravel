@@ -850,8 +850,7 @@
 
                     <h2 class="text-2xl sm:text-3xl md:text-5xl font-anton leading-tight">
                         <span class="text-gray-900"><?= $trip_text['title_primary'] ?></span><br>
-                        <span class="text-gray-900"><?= explode(' ', $trip_text['title_secondary'])[0] ?></span>
-                        <span class="text-orange-custom"><?= explode(' ', $trip_text['title_secondary'], 2)[1] ?? '' ?></span>
+                        <span class="text-orange-custom"><?=  $trip_text['title_secondary'] ?></span>
                     </h2>
                 </div>
 

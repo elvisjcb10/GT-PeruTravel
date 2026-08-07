@@ -1,39 +1,39 @@
 {
-    "background_img": "/images/glaciares/bg_home.webp",
-    "kicker": "Natural Wonders",
-    "title_primary": "Know The",
-    "title_secondary": "Glaciers",
-    "description": "The glaciers of the Peruvian Andes are unique ecosystems in danger of disappearing. Witness its majestic beauty before it's too late.",
-    "stats": {
-        "altitud": {
-            "numero": "4,800m",
-            "titulo": "Pastoruri Altitude"
-        },
-        "glaciares": {
-            "numero": "18+",
-            "titulo": "Active Glaciers"
-        },
-        "eco": {
-            "numero": "100%",
-            "titulo": "Eco-Responsible"
-        }
+  "background_img": "/images/glaciares/bg_home.webp",
+  "kicker": "Natural Wonders",
+  "title_primary": "Glaciers of",
+  "title_secondary": "Cusco",
+  "description": "The glaciers of the Peruvian Andes are unique ecosystems at risk of disappearing. Witness their majestic beauty before it's too late.",
+  "stats": {
+    "altitud": {
+      "numero": "4,800m",
+      "titulo": "Pastoruri Altitude"
     },
-    "boton_primario": "See Glacier Tours",
-    "boton_secundario": "See Experiences",
-    "cards": [
-        {
-            "img": "/images/tours/glaciares/ausangate/card.webp",
-            "nombre": "Ausangate",
-            "descripcion": "The most accessible tropical glacier in Peru. An overwhelming experience at 4,800 meters above sea level.",
-            "link_text": "Ver más",
-            "url": "glaciar-ausangate"
-        },
-        {
-            "img": "/images/tours/glaciares/quelccaya/img_header.webp",
-            "nombre": "Quelccaya",
-            "descripcion": "The most accessible tropical glacier in Peru. An overwhelming experience at 4,800 meters above sea level.",
-            "link_text": "Ver más",
-            "url": "glaciar-quelccaya"
-        }
-    ]
+    "glaciares": {
+      "numero": "18+",
+      "titulo": "Active Glaciers"
+    },
+    "eco": {
+      "numero": "100%",
+      "titulo": "Eco-Responsible"
+    }
+  },
+  "boton_primario": "View Glacier Tours",
+  "boton_secundario": "View Experiences",
+  "cards": [
+    {
+      "img": "/images/tours/glaciares/ausangate/card.webp",
+      "nombre": "Ausangate",
+      "descripcion": "One of Peru's most accessible tropical glaciers. A breathtaking experience at 4,800 meters above sea level.",
+      "link_text": "Learn More",
+      "url": "glaciar-ausangate"
+    },
+    {
+      "img": "/images/tours/glaciares/quelccaya/img_header.webp",
+      "nombre": "Quelccaya",
+      "descripcion": "One of Peru's most accessible tropical glaciers. A breathtaking experience at 4,800 meters above sea level.",
+      "link_text": "Learn More",
+      "url": "glaciar-quelccaya"
+    }
+  ]
 }
