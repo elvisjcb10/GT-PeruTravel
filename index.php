@@ -10,8 +10,7 @@ route_redirect_static('home', $idioma);
 $site_meta = [
     'es' => [
         'title' => 'GT Peru Travel | Tours a Machu Picchu, Cusco y experiencias únicas en Perú',
-        'description' => 'Descubre los mejores tours en Cusco y Machu Picchu con GT Peru Travel. Experiencias auténticas, guías expertos y aventuras inolvidables en los Andes.',
-        'keywords' => 'tours a Machu Picchu, turismo en Cusco, viajes a Perú, paquetes turísticos',
+        'description' => 'Descubre los mejores tours en Cusco y Machu Picchu con GT Peru Travel. Experiencias auténticas, guías expertos y aventuras inolvidables en los Andes. Reserva ahora.',        'keywords' => 'tours a Machu Picchu, turismo en Cusco, viajes a Perú, paquetes turísticos',
     ],
     'en' => [
         'title' => 'GT Peru Travel | Machu Picchu and Cusco Tours',

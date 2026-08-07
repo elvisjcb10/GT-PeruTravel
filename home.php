@@ -4,7 +4,6 @@
           Hero
      *********************** -->
     <section id="video" class="page-hero page-hero--with-stats relative w-full bg-black overflow-hidden">
-
         <!-- imagen de fondo -->
         <!-- <img class="absolute top-0 left-0 w-full h-full object-cover" loading="eager" fetchpriority="high" decoding="async"
             src="<?= $base_url ?>/images/inicio/hero.webp"
@@ -31,7 +30,7 @@
                 <div class="max-w-2xl">
 
                     <h1 class="text-white text-[2rem] sm:text-4xl md:text-6xl lg:text-[4.2rem] font-anton font-black leading-[1.1] drop-shadow-lg">
-                        <?= html_entity_decode($hero_text['titulo']) ?>
+                        <?= html_entity_decode($hero_text['title_primary']) ?> <span class="text-orange-custom "><?= html_entity_decode($hero_text['title_secondary']) ?></span>
                     </h1>
 
                     <p class="mt-4 sm:mt-6 text-white/90 text-sm sm:text-base md:text-lg font-poppins font-light max-w-xl">
