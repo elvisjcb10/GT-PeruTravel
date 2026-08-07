@@ -6,12 +6,23 @@
     <section id="video" class="page-hero page-hero--with-stats relative w-full bg-black overflow-hidden">
 
         <!-- imagen de fondo -->
-        <img class="absolute top-0 left-0 w-full h-full object-cover" loading="eager" fetchpriority="high" decoding="async"
+        <!-- <img class="absolute top-0 left-0 w-full h-full object-cover" loading="eager" fetchpriority="high" decoding="async"
             src="<?= $base_url ?>/images/inicio/hero.webp"
-            alt="Machu Picchu - GT Peru Travel">
+            alt="Machu Picchu - GT Peru Travel"> -->
+        <video autoplay muted loop playsinline
+            class="hidden md:block absolute top-0 left-0 w-full h-full object-cover">
+            <!-- <source src="<?= $base_url ?>/video/slider-pc.webm" type="video/webm"> -->
+            <source src="<?= $base_url ?>/video/slider-machupicchu-web-pc-mobil.mp4" type="video/mp4">
+        </video>
 
+        <!-- VIDEO MOBILE (más liviano) -->
+        <video autoplay muted loop playsinline
+            class="block md:hidden absolute top-0 left-0 w-full h-full object-cover">
+            <!-- <source src="<?= $base_url ?>/video/slider-mobile.webm" type="video/webm"> -->
+            <source src="<?= $base_url ?>/video/slider-machupicchu-web-pc-mobil.mp4" type="video/mp4">
+        </video>
         <!-- overlays para legibilidad del texto -->
-        <div class="absolute inset-0 bg-gradient-to-r from-black/85 via-black/50 to-black/10"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/0 to-black/10"></div>
         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10"></div>
 
         <!-- contenido principal -->
