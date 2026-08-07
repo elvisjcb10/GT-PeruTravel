@@ -30,59 +30,9 @@
         "texto": "+110 Travelers"
     },
     "filtros": [
-        {
-            "id": "todos",
-            "label": "all"
-        },
-        {
-            "id": "tradicionales",
-            "label": "Traditional"
-        },
-        {
-            "id": "aventura",
-            "label": "Adventure"
-        },
-        {
-            "id": "caminata",
-            "label": "Hike"
-        }
+ 
     ],
     "tours": [
-        {
-            "title": "Lagoon 69",
-            "description": "Trek to one of the most impressive lagoons in Peru, with turquoise waters surrounded by glaciers.",
-            "price": "40",
-            "duracion": "1Day / 0Nights",
-            "image": "laguna-69.jpg",
-            "url": "laguna-69",
-            "categoria": "hike"
-        },
-        {
-            "title": "Churup Lagoon",
-            "description": "Moderately difficult hike to a glacial lagoon surrounded by imposing snow-capped peaks.",
-            "price": "30",
-            "duracion": "1Day / 0Nights",
-            "image": "laguna-churup.jpg",
-            "url": "laguna-churup",
-            "categoria": "hike"
-        },
-        {
-            "title": "Huaylas Alley",
-            "description": "Tour the towns and landscapes of the Callejón de Huaylas, with views of the snow-capped mountains of the Cordillera Blanca.",
-            "price": "45",
-            "duracion": "1Day / 0Nights",
-            "image": "callejon-huaylas.jpg",
-            "url": "callejon-huaylas",
-            "categoria": "traditional"
-        },
-        {
-            "title": "Trekking Santa Cruz 4 Days",
-            "description": "One of the most famous treks in South America, crossing the Cordillera Blanca between peaks of more than 6000 meters above sea level.",
-            "price": "320",
-            "duracion": "4Days / 3Nights",
-            "image": "santa-cruz-trek.jpg",
-            "url": "santa-cruz-trek",
-            "categoria": "adventure"
-        }
+       
     ]
 }

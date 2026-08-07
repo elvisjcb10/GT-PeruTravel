@@ -29,43 +29,9 @@
         "calificacion": "4.8",
         "texto": "+120 viajantes"
     },
-    "filtros": [
-        {
-            "id": "todos",
-            "label": "tudo"
-        },
-        {
-            "id": "tradicionales",
-            "label": "Tradicional"
-        },
-        {
-            "id": "aventura",
-            "label": "Aventura"
-        },
-        {
-            "id": "caminata",
-            "label": "Caminhada"
-        }
-    ],
+    "filtros": [    ],
+
     "tours": [
-        {
-            "title": "Ilhas Uros e Taquile",
-            "description": "Navegue pelo Lago Titicaca e veja as ilhas flutuantes de junco dos Uros, bem como a ilha de Taquile e sua indústria têxtil.",
-            "price": "45",
-            "duracion": "1Dia / 0Noites",
-            "image": "uros-taquile.jpg",
-            "url": "uros-taquile",
-            "categoria": "tradicional"
-        },
-        {
-            "title": "Ilha Experiencial Amantani",
-            "description": "Viva uma experiência única hospedando-se com famílias locais na Ilha Amantani, no meio do Lago Titicaca.",
-            "price": "75",
-            "duracion": "2Dias / 1Noites",
-            "image": "isla-amantani.jpg",
-            "url": "isla-amantani",
-            "categoria": "tradicional"
-        },
         {
             "title": "Tour Chullpas de Sillustani saindo de Puno",
             "description": "Conheça as monumentais torres funerárias e as paisagens da Lagoa Umayo em uma excursão cultural de meio dia.",
@@ -74,15 +40,6 @@
             "image": "tours/sillustani/hero.jpg",
             "url": "sillustani",
             "categoria": "tradicional"
-        },
-        {
-            "title": "Titicaca 2 Dias 1 Noite",
-            "description": "Combine Uros, Taquile e Amantani em uma experiência completa de 2 dias navegando no lago sagrado dos Incas.",
-            "price": "95",
-            "duracion": "2Dias / 1Noites",
-            "image": "titicaca-2dias.jpg",
-            "url": "titicaca-2dias",
-            "categoria": "aventura"
         }
     ]
 }

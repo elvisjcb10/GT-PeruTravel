@@ -29,24 +29,8 @@
         "calificacion": "4.7",
         "texto": "+140 viajantes"
     },
-    "filtros": [
-        {
-            "id": "todos",
-            "label": "tudo"
-        },
-        {
-            "id": "tradicionales",
-            "label": "Tradicional"
-        },
-        {
-            "id": "aventura",
-            "label": "Aventura"
-        },
-        {
-            "id": "caminata",
-            "label": "Caminhada"
-        }
-    ],
+    "filtros": "",
+
     "tours": [
         {
             "title": "City Tour a Pé em Arequipa",
@@ -55,15 +39,6 @@
             "duracion": "4 Horas",
             "image": "tours/city-tour-arequipa/hero.jpg",
             "url": "arequipa-colonial",
-            "categoria": "tradicional"
-        },
-        {
-            "title": "Cânion Colca 2 Dias",
-            "description": "Assista ao voo do condor andino na Cruz del Cóndor e explore as aldeias tradicionais do Vale do Colca.",
-            "price": "95",
-            "duracion": "2Dias / 1Noites",
-            "image": "canon-colca.jpg",
-            "url": "canon-colca",
             "categoria": "tradicional"
         },
         {

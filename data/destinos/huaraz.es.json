@@ -14,47 +14,9 @@
         "texto": "+110 Viajeros"
     },
     "filtros": [
-        { "id": "todos", "label": "Todos" },
-        { "id": "tradicionales", "label": "Tradicionales" },
-        { "id": "aventura", "label": "Aventura" },
-        { "id": "caminata", "label": "Caminata" }
+ 
     ],
     "tours": [
-        {
-            "title": "Laguna 69",
-            "description": "Realiza el trekking hacia una de las lagunas más impresionantes del Perú, de aguas turquesas rodeada de glaciares.",
-            "price": "40",
-            "duracion": "1Dia / 0Noches",
-            "image": "laguna-69.jpg",
-            "url": "laguna-69",
-            "categoria": "caminata"
-        },
-        {
-            "title": "Laguna Churup",
-            "description": "Caminata de dificultad moderada hacia una laguna glaciar rodeada de imponentes picos nevados.",
-            "price": "30",
-            "duracion": "1Dia / 0Noches",
-            "image": "laguna-churup.jpg",
-            "url": "laguna-churup",
-            "categoria": "caminata"
-        },
-        {
-            "title": "Callejón de Huaylas",
-            "description": "Recorre los pueblos y paisajes del Callejón de Huaylas, con vista a los nevados de la Cordillera Blanca.",
-            "price": "45",
-            "duracion": "1Dia / 0Noches",
-            "image": "callejon-huaylas.jpg",
-            "url": "callejon-huaylas",
-            "categoria": "tradicionales"
-        },
-        {
-            "title": "Trekking Santa Cruz 4 Días",
-            "description": "Uno de los trekkings más famosos de Sudamérica, cruzando la Cordillera Blanca entre picos de más de 6000 msnm.",
-            "price": "320",
-            "duracion": "4Dias / 3Noches",
-            "image": "santa-cruz-trek.jpg",
-            "url": "santa-cruz-trek",
-            "categoria": "aventura"
-        }
+       
     ]
 }

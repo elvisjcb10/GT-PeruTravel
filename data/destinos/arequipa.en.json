@@ -29,24 +29,7 @@
         "calificacion": "4.7",
         "texto": "+140 Travelers"
     },
-    "filtros": [
-        {
-            "id": "todos",
-            "label": "all"
-        },
-        {
-            "id": "tradicionales",
-            "label": "Traditional"
-        },
-        {
-            "id": "aventura",
-            "label": "Adventure"
-        },
-        {
-            "id": "caminata",
-            "label": "Hike"
-        }
-    ],
+    "filtros": "",
     "tours": [
         {
             "title": "Arequipa Walking City Tour",
@@ -55,15 +38,6 @@
             "duracion": "4 Hours",
             "image": "tours/city-tour-arequipa/hero.jpg",
             "url": "arequipa-colonial",
-            "categoria": "traditional"
-        },
-        {
-            "title": "Colca Canyon 2 Days",
-            "description": "Watch the flight of the Andean condor at the Cruz del Cóndor and explore the traditional villages of the Colca Valley.",
-            "price": "95",
-            "duracion": "2Days / 1Nights",
-            "image": "canon-colca.jpg",
-            "url": "canon-colca",
             "categoria": "traditional"
         },
         {

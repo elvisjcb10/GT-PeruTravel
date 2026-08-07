@@ -29,69 +29,11 @@
         "calificacion": "4.6",
         "texto": "+150 viajantes"
     },
-    "filtros": [
-        {
-            "id": "todos",
-            "label": "tudo"
-        },
-        {
-            "id": "tradicionales",
-            "label": "Tradicional"
-        },
-        {
-            "id": "aventura",
-            "label": "Aventura"
-        },
-        {
-            "id": "caminata",
-            "label": "Caminhada"
-        }
+    
+     "filtros": [
+
     ],
     "tours": [
-        {
-            "title": "City Tour Colonial em Lima",
-            "description": "Visite o centro histórico de Lima, suas igrejas coloniais e a Plaza Mayor, declarada Patrimônio da Humanidade.",
-            "price": "35",
-            "duracion": "1Dia / 0Noites",
-            "image": "lima-colonial.jpg",
-            "url": "lima-colonial",
-            "categoria": "tradicional"
-        },
-        {
-            "title": "Tour Gastronômico Lima",
-            "description": "Descubra porque Lima é considerada a capital gastronômica da América do Sul, com degustações em mercados e restaurantes locais.",
-            "price": "65",
-            "duracion": "1Dia / 0Noites",
-            "image": "lima-gastronomico.jpg",
-            "url": "lima-gastronomico",
-            "categoria": "tradicional"
-        },
-        {
-            "title": "Miraflores e Barranco",
-            "description": "Explore o Malecón de Miraflores, o Parque del Amor e o bairro boêmio de Barranco com sua famosa Ponte dos Suspiros.",
-            "price": "40",
-            "duracion": "1Dia / 0Noites",
-            "image": "miraflores-barranco.jpg",
-            "url": "miraflores-barranco",
-            "categoria": "tradicional"
-        },
-        {
-            "title": "Ilhas Palomino",
-            "description": "Nade ao lado de leões marinhos em seu habitat natural na costa de Callao.",
-            "price": "85",
-            "duracion": "1Dia / 0Noites",
-            "image": "islas-palomino.jpg",
-            "url": "islas-palomino",
-            "categoria": "aventura"
-        },
-        {
-            "title": "Dia inteiro em Pachacamac",
-            "description": "Visite o santuário arqueológico pré-inca mais importante da costa central do Peru.",
-            "price": "45",
-            "duracion": "1Dia / 0Noites",
-            "image": "pachacamac.jpg",
-            "url": "pachacamac",
-            "categoria": "caminhada"
-        }
+        
     ]
 }

@@ -29,43 +29,8 @@
         "calificacion": "4.8",
         "texto": "+120 Travelers"
     },
-    "filtros": [
-        {
-            "id": "todos",
-            "label": "all"
-        },
-        {
-            "id": "tradicionales",
-            "label": "Traditional"
-        },
-        {
-            "id": "aventura",
-            "label": "Adventure"
-        },
-        {
-            "id": "caminata",
-            "label": "Hike"
-        }
-    ],
+    "filtros": [    ],
     "tours": [
-        {
-            "title": "Uros and Taquile Islands",
-            "description": "Sail Lake Titicaca and see the floating reed islands of the Uros, as well as the island of Taquile and its textile industry.",
-            "price": "45",
-            "duracion": "1Day / 0Nights",
-            "image": "uros-taquile.jpg",
-            "url": "uros-taquile",
-            "categoria": "traditional"
-        },
-        {
-            "title": "Experiential Amantani Island",
-            "description": "Live a unique experience staying with local families on Amantani Island, in the middle of Lake Titicaca.",
-            "price": "75",
-            "duracion": "2Days / 1Nights",
-            "image": "isla-amantani.jpg",
-            "url": "isla-amantani",
-            "categoria": "traditional"
-        },
         {
             "title": "Sillustani Burial Towers Tour from Puno",
             "description": "Discover the monumental burial towers and Umayo Lagoon scenery on a cultural half-day trip from Puno.",
@@ -74,15 +39,7 @@
             "image": "tours/sillustani/hero.jpg",
             "url": "sillustani",
             "categoria": "traditional"
-        },
-        {
-            "title": "Titicaca 2 Days 1 Night",
-            "description": "Combine Uros, Taquile and Amantani in a complete 2-day experience sailing the sacred lake of the Incas.",
-            "price": "95",
-            "duracion": "2Days / 1Nights",
-            "image": "titicaca-2dias.jpg",
-            "url": "titicaca-2dias",
-            "categoria": "adventure"
         }
+        
     ]
 }

@@ -13,31 +13,9 @@
         "calificacion": "4.8",
         "texto": "+120 Viajeros"
     },
-    "filtros": [
-        { "id": "todos", "label": "Todos" },
-        { "id": "tradicionales", "label": "Tradicionales" },
-        { "id": "aventura", "label": "Aventura" },
-        { "id": "caminata", "label": "Caminata" }
-    ],
+    "filtros": [    ],
     "tours": [
-        {
-            "title": "Islas Uros y Taquile",
-            "description": "Navega el Lago Titicaca y conoce las islas flotantes de totora de los Uros, además de la isla de Taquile y su textilería.",
-            "price": "45",
-            "duracion": "1Dia / 0Noches",
-            "image": "uros-taquile.jpg",
-            "url": "uros-taquile",
-            "categoria": "tradicionales"
-        },
-        {
-            "title": "Isla Amantaní Vivencial",
-            "description": "Vive una experiencia única hospedándote con familias locales en la Isla Amantaní, en medio del Lago Titicaca.",
-            "price": "75",
-            "duracion": "2Dias / 1Noches",
-            "image": "isla-amantani.jpg",
-            "url": "isla-amantani",
-            "categoria": "tradicionales"
-        },
+        
         {
             "title": "Tour Chullpas de Sillustani desde Puno",
             "description": "Descubre las monumentales chullpas funerarias y los paisajes de la Laguna Umayo en una excursión cultural de medio día.",
@@ -46,15 +24,6 @@
             "image": "tours/sillustani/hero.jpg",
             "url": "sillustani",
             "categoria": "tradicionales"
-        },
-        {
-            "title": "Titicaca 2 Días 1 Noche",
-            "description": "Combina Uros, Taquile y Amantaní en una experiencia completa de 2 días navegando el lago sagrado de los incas.",
-            "price": "95",
-            "duracion": "2Dias / 1Noches",
-            "image": "titicaca-2dias.jpg",
-            "url": "titicaca-2dias",
-            "categoria": "aventura"
         }
     ]
 }

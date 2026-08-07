@@ -61,31 +61,13 @@
       "description": "Discover the horned fortress, its archaeological landscapes and views over Apurímac Canyon.",
       "price": "0", "duracion": "Full Day", "image": "tours/waqrapukara/hero.jpg", "url": "fortaleza-cuernos", "categoria": "caminata"
     },
-    {
-      "title": "Sacred Valley + Machu Picchu",
-      "description": "Explore the Sacred Valley of the Incas and complete the experience at the majestic citadel of Machu Picchu.",
-      "price": "389", "duracion": "2 Days / 1 Night", "image": "valle-sagrado-cusco-peru.jpg", "url": "vallesagrado-machupicchu", "categoria": "tradicionales"
-    },
-    {
-      "title": "Short Inca Trail",
-      "description": "Experience the mysticism of the short Inca Trail and reach Machu Picchu along the ancient Inca path.",
-      "price": "449", "duracion": "2 Days / 1 Night", "image": "camino-inca-corto-cusco-peru-machupicchu.jpg", "url": "short-inca-trail", "categoria": "caminata"
-    },
+   
     {
       "title": "Cusco Express",
       "description": "Escape to Cusco and Machu Picchu to discover Inca history, the magic of the Andes and Peru's cultural essence.",
       "price": "309", "duracion": "3 Days / 2 Nights", "image": "paquetes/cusco-express-hero.jpg", "url": "cusco-express", "tipo": "paquete", "categoria": "tradicionales"
     },
-    {
-      "title": "Rainbow Mountain + 7 Lakes",
-      "description": "An Andean adventure to Rainbow Mountain and the Seven Lakes of Ausangate.",
-      "price": "125", "duracion": "2 Days / 1 Night", "image": "montana-colores-cusco-peru-card-01.jpg", "url": "montanacolores-7lagunas", "categoria": "aventura"
-    },
-    {
-      "title": "Magical Cusco",
-      "description": "Experience Machu Picchu and the Sacred Valley on a short but unforgettable adventure through temples, mountains and living Andean culture.",
-      "price": "579", "duracion": "5 Days / 4 Nights", "image": "card-5.jpg", "url": "cusco-magico", "categoria": "aventura"
-    },
+   
     {
       "title": "Imperial Cusco",
       "description": "Experience Cusco, Sacred Valley, Machu Picchu, Humantay Lake and Rainbow Mountain in five days.",

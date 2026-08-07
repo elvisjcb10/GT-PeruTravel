@@ -61,31 +61,15 @@
       "description": "Conheça a fortaleza dos chifres, suas paisagens arqueológicas e as vistas do Cânion do Apurímac.",
       "price": "0", "duracion": "Dia inteiro", "image": "tours/waqrapukara/hero.jpg", "url": "fortaleza-cuernos", "categoria": "caminata"
     },
-    {
-      "title": "Vale Sagrado + Machu Picchu",
-      "description": "Explore o Vale Sagrado dos Incas e complete a experiência na majestosa cidadela de Machu Picchu.",
-      "price": "389", "duracion": "2 Dias / 1 Noite", "image": "valle-sagrado-cusco-peru.jpg", "url": "vallesagrado-machupicchu", "categoria": "tradicionales"
-    },
-    {
-      "title": "Trilha Inca Curta",
-      "description": "Viva o misticismo da Trilha Inca curta e chegue a Machu Picchu pelo antigo caminho inca.",
-      "price": "449", "duracion": "2 Dias / 1 Noite", "image": "camino-inca-corto-cusco-peru-machupicchu.jpg", "url": "short-inca-trail", "categoria": "caminata"
-    },
+    
+  
     {
       "title": "Cusco Express",
       "description": "Viaje a Cusco e Machu Picchu para descobrir a história inca, a magia dos Andes e a essência cultural do Peru.",
       "price": "309", "duracion": "3 Dias / 2 Noites", "image": "paquetes/cusco-express-hero.jpg", "url": "cusco-express", "tipo": "paquete", "categoria": "tradicionales"
     },
-    {
-      "title": "Montanha Colorida + 7 Lagoas",
-      "description": "Uma aventura andina até a Montanha Colorida e as Sete Lagoas de Ausangate.",
-      "price": "125", "duracion": "2 Dias / 1 Noite", "image": "montana-colores-cusco-peru-card-01.jpg", "url": "montanacolores-7lagunas", "categoria": "aventura"
-    },
-    {
-      "title": "Cusco Mágico",
-      "description": "Viva Machu Picchu e o Vale Sagrado em uma aventura curta e inesquecível por templos, montanhas e cultura andina viva.",
-      "price": "579", "duracion": "5 Dias / 4 Noites", "image": "card-5.jpg", "url": "cusco-magico", "categoria": "aventura"
-    },
+  
+    
     {
       "title": "Cusco Imperial",
       "description": "Viva Cusco, Vale Sagrado, Machu Picchu, Lagoa Humantay e Montanha Colorida em cinco dias.",

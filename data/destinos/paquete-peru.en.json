@@ -31,16 +31,7 @@
     },
     "filtros": [],
     "tours": [
-        {
-            "title": "Essential Peru: Coast, Andes and Machu Picchu",
-            "description": "Complete example with video, technical sheet, itinerary, includes, map, gallery and three price plans.",
-            "price": "899",
-            "duracion": "7 Days / 6 Nights",
-            "image": "promocion-peru-maravilloso-7d-6n-2025.jpg",
-            "url": "paquete-ejemplo-completo",
-            "tipo": "package",
-            "categoria": "complete"
-        },
+       
         {
             "title": "Cusco Express Package",
             "description": "Escape to Cusco and Machu Picchu, the ideal destination to discover Inca history, the magic of the Andes and the cultural essence of Peru.",

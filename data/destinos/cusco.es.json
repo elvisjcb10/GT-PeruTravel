@@ -108,24 +108,7 @@
             "url": "fortaleza-cuernos",
             "categoria": "caminata"
         },
-        {
-            "title": "Valle Sagrado + Machu Picchu",
-            "description": "Explora el Valle Sagrado de los Incas y culmina la experiencia en la majestuosa ciudadela de Machu Picchu.",
-            "price": "389",
-            "duracion": "2Dias / 1Noches",
-            "image": "valle-sagrado-cusco-peru.jpg",
-            "url": "vallesagrado-machupicchu",
-            "categoria": "tradicionales"
-        },
-        {
-            "title": "Camino Inca Corto",
-            "description": "Vive la mística del Camino Inca corto y llega a Machu Picchu por el antiguo sendero inca.",
-            "price": "449",
-            "duracion": "2Dias / 1Noches",
-            "image": "camino-inca-corto-cusco-peru-machupicchu.jpg",
-            "url": "short-inca-trail",
-            "categoria": "caminata"
-        },
+       
         {
             "title": "Cusco Express",
             "description": "Escápate a Cusco y Machu Picchu, el destino ideal para descubrir la historia inca, la magia de los Andes y la esencia cultural del Perú.",
@@ -136,15 +119,7 @@
             "tipo": "paquete",
             "categoria": "tradicionales"
         },
-        {
-            "title": "Montaña de Colores + 7 Lagunas",
-            "description": "Aventura andina hacia la Montaña de Colores y las 7 Lagunas de Ausangate.",
-            "price": "125",
-            "duracion": "2Dias / 1Noches",
-            "image": "montana-colores-cusco-peru-card-01.jpg",
-            "url": "montanacolores-7lagunas",
-            "categoria": "aventura"
-        },
+        
         {
             "title": "Cusco Imperial",
             "description": "Vive Cusco, Valle Sagrado, Machu Picchu, Laguna Humantay y Montaña de 7 Colores en cinco días.",
@@ -153,60 +128,6 @@
             "image": "paquetes/cusco-imperial-hero.jpg",
             "url": "cusco-imperial",
             "tipo": "paquete",
-            "categoria": "aventura"
-        },
-        {
-            "title": "Cusco Magico",
-            "description": "Vive Machu Picchu y el Valle Sagrado en una aventura corta pero inolvidable. Explora templos, montañas y la esencia viva de los Andes.",
-            "price": "579",
-            "duracion": "5Dias / 4Noches",
-            "image": "card-5.jpg",
-            "url": "cusco-magico",
-            "categoria": "aventura"
-        },
-        {
-            "title": "Cusco Magico",
-            "description": "Vive Machu Picchu y el Valle Sagrado en una aventura corta pero inolvidable. Explora templos, montañas y la esencia viva de los Andes.",
-            "price": "579",
-            "duracion": "5Dias / 4Noches",
-            "image": "card-5.jpg",
-            "url": "cusco-magico",
-            "categoria": "aventura"
-        },
-        {
-            "title": "Cusco Magico",
-            "description": "Vive Machu Picchu y el Valle Sagrado en una aventura corta pero inolvidable. Explora templos, montañas y la esencia viva de los Andes.",
-            "price": "579",
-            "duracion": "5Dias / 4Noches",
-            "image": "card-5.jpg",
-            "url": "cusco-magico",
-            "categoria": "aventura"
-        },
-        {
-            "title": "Cusco Magico",
-            "description": "Vive Machu Picchu y el Valle Sagrado en una aventura corta pero inolvidable. Explora templos, montañas y la esencia viva de los Andes.",
-            "price": "579",
-            "duracion": "5Dias / 4Noches",
-            "image": "card-5.jpg",
-            "url": "cusco-magico",
-            "categoria": "aventura"
-        },
-        {
-            "title": "Cusco Magico",
-            "description": "Vive Machu Picchu y el Valle Sagrado en una aventura corta pero inolvidable. Explora templos, montañas y la esencia viva de los Andes.",
-            "price": "579",
-            "duracion": "5Dias / 4Noches",
-            "image": "card-5.jpg",
-            "url": "cusco-magico",
-            "categoria": "aventura"
-        },
-        {
-            "title": "Cusco Magico",
-            "description": "Vive Machu Picchu y el Valle Sagrado en una aventura corta pero inolvidable. Explora templos, montañas y la esencia viva de los Andes.",
-            "price": "579",
-            "duracion": "5Dias / 4Noches",
-            "image": "card-5.jpg",
-            "url": "cusco-magico",
             "categoria": "aventura"
         }
     ]
