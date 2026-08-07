@@ -2,9 +2,12 @@
 declare(strict_types=1);
 $root=__DIR__;$path=rawurldecode(parse_url((string)($_SERVER['REQUEST_URI']??'/'),PHP_URL_PATH)?:'/');
 if ($path === '/') {
-    $preferred = strtolower(substr((string)($_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? 'es'), 0, 2));
-    $preferred = in_array($preferred, ['es', 'en', 'pt'], true) ? $preferred : 'es';
-    header('Location: /' . $preferred . '/', true, 302);
+    $_GET['lang'] = 'es';
+    require $root . '/index.php';
+    return true;
+}
+if ($path === '/es' || $path === '/es/') {
+    header('Location: /', true, 301);
     return true;
 }
 $blocked = preg_match('~^/(?:\.git(?:/|$)|\.env(?:\..*)?$|error_log$|config(?:/|$)|data(?:/|$)|includes(?:/|$)|lang(?:/|$)|locale(?:/|$)|scripts(?:/|$))~i', $path) === 1;

@@ -17,9 +17,20 @@ function route_path(string $type,string $language,string $internal): string {
  $slug=route_public_slug($type,$language,$internal)??$internal;
  return '/'.$language.'/'.$prefix.'/'.rawurlencode($slug).'/';
 }
-function route_static_path(string $page,string $language): string {
- $paths=['home'=>'','blog'=>'blog/','contacto'=>'contacto/','nosotros'=>'nosotros/'];
- return '/'.$language.'/'.($paths[$page]??trim($page,'/').'/');
+function route_static_path(string $page, string $language): string {
+    $paths = [
+        'home' => '',
+        'blog' => 'blog/',
+        'contacto' => 'contacto/',
+        'nosotros' => 'nosotros/'
+    ];
+
+    // La home española conserva la URL histórica "/"
+    if ($page === 'home' && $language === 'es') {
+        return '/';
+    }
+
+    return '/' . $language . '/' . ($paths[$page] ?? trim($page, '/') . '/');
 }
 function route_alternates(string $type,string $internal): array {
  $items=[];foreach(['es','en','pt'] as $lang){if(route_public_slug($type,$lang,$internal)!==null)$items[$lang]=['path'=>route_path($type,$lang,$internal),'params'=>[]];}return $items;
@@ -57,9 +68,28 @@ function route_language_switch(string $target): string {
  if(str_contains($path,'nosotros'))return route_static_path('nosotros',$target);
  return route_static_path('home',$target);
 }
-function route_redirect_static(string $page,string $language): void {
- if(PHP_SAPI==='cli')return;$requestPath=parse_url((string)($_SERVER['REQUEST_URI']??''),PHP_URL_PATH)?:'';
- if($requestPath==='/'||str_ends_with($requestPath,'.php')){header('Location: '.route_static_path($page,$language),true,301);exit;}
+function route_redirect_static(string $page, string $language): void {
+    if (PHP_SAPI === 'cli') {
+        return;
+    }
+
+    $requestPath = parse_url(
+        (string)($_SERVER['REQUEST_URI'] ?? ''),
+        PHP_URL_PATH
+    ) ?: '/';
+
+    $destination = route_static_path($page, $language);
+
+    // Ya estamos en la URL correcta
+    if ($requestPath === $destination) {
+        return;
+    }
+
+    // Redireccionar URLs PHP antiguas
+    if (str_ends_with($requestPath, '.php')) {
+        header('Location: ' . $destination, true, 301);
+        exit;
+    }
 }
 function route_redirect_legacy(string $type,string $language,string $internal): void {
  if(PHP_SAPI==='cli')return;
