@@ -73,7 +73,7 @@
             "categoria": "tradicionales"
         },
         {
-            "title": "Tour Montaña de 7 Colores Full Day",
+            "title": "Tour Montaña de 7 Colores",
             "description": "Descubre Vinicunca, sus tonalidades naturales y las impresionantes vistas del nevado Ausangate en una aventura de día completo desde Cusco.",
             "price": "0",
             "duracion": "Full Day",
@@ -82,16 +82,16 @@
             "categoria": "caminata"
         },
         {
-            "title": "Tour Laguna Humantay Full Day",
+            "title": "Tour Laguna Humantay",
             "description": "Descubre sus aguas turquesa y los impresionantes nevados en una aventura de día completo desde Cusco.",
-            "price": "0",
+            "price": "35",
             "duracion": "Full Day",
             "image": "tours/laguna-humantay/hero.jpg",
             "url": "laguna-humantay",
             "categoria": "caminata"
         },
         {
-            "title": "Tour Puente Inca Q’eswachaka Full Day",
+            "title": "Tour Puente Inca Q’eswachaka",
             "description": "Conoce el último puente inca tejido a mano y la cultura viva de las comunidades de Canas en una excursión desde Cusco.",
             "price": "0",
             "duracion": "Full Day",
@@ -100,7 +100,7 @@
             "categoria": "tradicionales"
         },
         {
-            "title": "Tour Waqrapukara Full Day",
+            "title": "Tour Waqrapukara",
             "description": "Descubre la fortaleza de los cuernos, sus paisajes arqueológicos y las vistas del cañón del Apurímac.",
             "price": "0",
             "duracion": "Full Day",

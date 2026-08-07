@@ -87,8 +87,7 @@
         },
         "mapa": {
             "titulo": "Our Location",
-            "embed_url": "https://www.google.com/maps/embed?pb=REEMPLAZAR_CON_EMBED_REAL"
-        },
+            "embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3253.646226997793!2d-71.9734184916128!3d-13.530991946946328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd5e01d134e95%3A0x87083a9784e7cfea!2sGT%20Peru%20Travel!5e1!3m2!1ses-419!2spe!4v1786142446574!5m2!1ses-419!2spe"            },
         "horario": {
             "titulo": "Office Hours",
             "items": [

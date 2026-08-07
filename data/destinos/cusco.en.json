@@ -42,22 +42,22 @@
       "price": "0", "duracion": "Half Day", "image": "tours/cusco/city-tour/card.webp", "url": "CZ-cusco-city", "categoria": "tradicionales"
     },
     {
-      "title": "Rainbow Mountain Full-Day Tour",
+      "title": "Rainbow Mountain",
       "description": "Discover Vinicunca, its natural colors and impressive views of Ausangate on a full-day adventure from Cusco.",
       "price": "0", "duracion": "Full Day", "image": "tours/montana-7-colores/hero.jpg", "url": "montana-colores", "categoria": "caminata"
     },
     {
-      "title": "Humantay Lake Full-Day Tour",
+      "title": "Humantay Lake",
       "description": "Discover its turquoise waters and dramatic snowcapped peaks on a full-day adventure from Cusco.",
-      "price": "0", "duracion": "Full Day", "image": "tours/laguna-humantay/hero.jpg", "url": "laguna-humantay", "categoria": "caminata"
+      "price": "$35", "duracion": "Full Day", "image": "tours/laguna-humantay/hero.jpg", "url": "laguna-humantay", "categoria": "caminata"
     },
     {
-      "title": "Q’eswachaka Inca Bridge Full-Day Tour",
+      "title": "Q’eswachaka Inca Bridge",
       "description": "Discover the last handwoven Inca bridge and the living culture of Canas communities on a full-day trip from Cusco.",
       "price": "0", "duracion": "Full Day", "image": "tours/qeswachaka/hero.jpg", "url": "puente-inca", "categoria": "tradicionales"
     },
     {
-      "title": "Waqrapukara Full-Day Tour",
+      "title": "Waqrapukara",
       "description": "Discover the horned fortress, its archaeological landscapes and views over Apurímac Canyon.",
       "price": "0", "duracion": "Full Day", "image": "tours/waqrapukara/hero.jpg", "url": "fortaleza-cuernos", "categoria": "caminata"
     },

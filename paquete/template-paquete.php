@@ -1,6 +1,43 @@
-<?php require_once __DIR__ . '/../config/bootstrap.php'; ?>
-<!-- VERIFICACIONES DE ERRORES EN PHP -->
 <?php
+
+require_once __DIR__ . '/../config/bootstrap.php';
+
+$lang = (string) ($_GET['lang'] ?? 'es');
+
+if (!in_array($lang, ['es', 'en', 'pt'], true)) {
+    $lang = 'es';
+}
+
+$paquete = (string) ($_GET['paquete'] ?? 'peru-mistico');
+
+if (!preg_match('/\A[a-zA-Z0-9_-]{1,120}\z/D', $paquete)) {
+    app_redirect('/404.php?lang=' . rawurlencode($lang));
+}
+
+// ==========================================
+// REDIRECCIONES DE LA WEB ANTIGUA
+// ==========================================
+$legacy_packages = [
+    'descubre-peru' => 'peru-maravilloso',
+    'cusco-magico'  => 'cusco-imperial',
+    'peru-prime'    => 'peru-mistico',
+    'peru-premium'  => 'peru-360',
+    'peru-mistico'  => 'peru-milenario',
+];
+
+if (isset($legacy_packages[$paquete])) {
+
+    $destino = $legacy_packages[$paquete];
+
+    header(
+        'Location: ' . route_path('paquete', $lang, $destino),
+        true,
+        301
+    );
+
+    exit;
+}
+
 ?>
 
 <!-- VARIABLES DE PROMOCIONES - HEADER -->
@@ -21,6 +58,7 @@ $paquete = (string) ($_GET['paquete'] ?? 'peru-mistico');
 if (!preg_match('/\A[a-zA-Z0-9_-]{1,120}\z/D', $paquete)) {
     app_redirect('/404.php?lang=' . rawurlencode($lang));
 }
+
 $idioma = $lang;
 $GLOBALS['lang'] = $lang;
 $template_ui = [

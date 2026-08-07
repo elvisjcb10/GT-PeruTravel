@@ -353,9 +353,8 @@
 
         <!-- FILA INFERIOR: Manu / Arequipa / Huaraz -->
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
-
             <?php
-            $bottom = ['manu', 'arequipa', 'huaraz'];
+            $bottom = ['manu_tambopata', 'arequipa', 'huaraz'];
             foreach ($bottom as $idx => $key): ?>
                 <div class="relative rounded-xl overflow-hidden group h-48 sm:h-56 reveal reveal-delay-<?= $idx + 1 ?>">
                     <a href="<?= route_path('destino', $idioma, (string)($key)) ?>">

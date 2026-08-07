@@ -19,8 +19,8 @@
         "nombre":"Arequipa",
         "descripcion":"Ciudad blanca, la ciudad de los volcanes"
     },
-    "manu":{
-        "img":"/images/destinos/manu/manu.webp",
+    "manu_tambopata":{
+        "img":"/images/destinos/manu_tambopata/manu_tambopata.webp",
         "nombre":"Manu Tambopata",
         "descripcion":"Reserva de la biosfera, selva amazónica"
     },

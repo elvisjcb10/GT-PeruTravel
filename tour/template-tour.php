@@ -13,6 +13,8 @@ $promotions = file_exists($promotions_path)
 
 <!-- CARGANDO TOUR + IDIOMA -->
 <?php
+// Compatibilidad con IDs de la web antigua
+
 $lang = (string) ($_GET['lang'] ?? 'es');
 if (!in_array($lang, ['es', 'en', 'pt'], true)) {
     $lang = 'es';
@@ -20,6 +22,13 @@ if (!in_array($lang, ['es', 'en', 'pt'], true)) {
 $tour = (string) ($_GET['tour'] ?? 'machupicchu');
 if (!preg_match('/\A[a-zA-Z0-9_-]{1,120}\z/D', $tour)) {
     app_redirect('/404.php?lang=' . rawurlencode($lang));
+}
+$legacy_tours = [
+    'glaciar-quelccaya-suyuparina' => 'glaciar-quelccaya',
+];
+
+if (isset($legacy_tours[$tour])) {
+    $tour = $legacy_tours[$tour];
 }
 $idioma = $lang;
 $GLOBALS['lang'] = $lang;
