@@ -102,7 +102,7 @@
         if (root instanceof Element && root.matches(cardSelector)) cards.push(root);
         root.querySelectorAll?.(cardSelector).forEach((card) => cards.push(card));
         cards.forEach((card) => {
-            if (card.closest('.page-hero, form, .tour-booking-sidebar, .tour-faq, .itinerario-item, nav, [role="tablist"]') ||
+            if (card.closest('.page-hero, form, .tour-booking-sidebar, .tour-faq, .itinerario-item, .technical-sheet-table, nav, [role="tablist"]') ||
                 card.matches('form, button, input, select, textarea, label, [role="tab"]') ||
                 card.classList.contains('home-about-image') ||
                 card.classList.contains('rounded-full')) return;

@@ -448,7 +448,7 @@ $base_url = "..";
                         }
                         ?>
 
-                        <div class="overflow-hidden rounded-xl border border-gray-200 bg-white">
+                        <div class="technical-sheet-table overflow-hidden rounded-xl border border-gray-200 bg-white">
                             <?php foreach ($ficha_items as $index => $item): ?>
                                 <div class="grid grid-cols-1 gap-1 px-4 py-3.5 sm:grid-cols-[minmax(130px,0.8fr)_2fr] sm:gap-5 sm:px-5 <?= $index > 0 ? 'border-t border-gray-200' : '' ?>">
                                     <p class="font-poppins text-sm font-semibold text-gray-900">
@@ -698,7 +698,7 @@ $base_url = "..";
                             <?php foreach ($data['faq'] as $item): ?>
                                 <div class="faq-item border border-gray-800 rounded-xl overflow-hidden bg-[#2a2a2a]">
                                     <button type="button"
-                                            class="faq-toggle w-full flex items-center justify-between gap-3 px-4 py-3.5 sm:p-5 text-left text-sm sm:text-base leading-snug text-white font-poppins font-semibold"
+                                            class="faq-toggle w-full flex items-center justify-between gap-3 px-4 py-2.5 sm:px-5 sm:py-3 text-left text-sm sm:text-base leading-snug text-white font-poppins font-semibold"
                                             aria-expanded="false">
                                         <span class="flex-1 min-w-0 break-words">
                                             <?= htmlspecialchars($item['pregunta']) ?>
