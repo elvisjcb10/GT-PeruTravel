@@ -9,7 +9,7 @@ $GLOBALS['lang'] = $idioma;
 route_redirect_static('home', $idioma);
 $site_meta = [
     'es' => [
-        'title' => 'GT Peru Travel | Tours a Machu Picchu, Cusco y experiencias únicas en Perú',
+        'title' => 'GT Peru Travel | Tours a Machu Picchu y Cusco en Perú',
         'description' => 'Descubre tours en Cusco y Machu Picchu con GT Peru Travel, operador turístico local. Vive experiencias auténticas con guías expertos en Perú.',
         'keywords' => 'tours a Machu Picchu, tours en Cusco, viajes a Perú, paquetes turísticos',
     ],
