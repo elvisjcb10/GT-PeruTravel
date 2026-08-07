@@ -42,6 +42,26 @@
       "price": "0", "duracion": "Meio Dia", "image": "tours/cusco/city-tour/card.webp", "url": "CZ-cusco-city", "categoria": "tradicionales"
     },
     {
+      "title": "Tour Montanha das 7 Cores Full Day",
+      "description": "Conheça Vinicunca, suas cores naturais e as vistas impressionantes do Ausangate em uma aventura de dia inteiro saindo de Cusco.",
+      "price": "0", "duracion": "Dia inteiro", "image": "tours/montana-7-colores/hero.jpg", "url": "montana-colores", "categoria": "caminata"
+    },
+    {
+      "title": "Tour Laguna Humantay Full Day",
+      "description": "Descubra suas águas turquesa e os impressionantes picos nevados em uma aventura de dia inteiro saindo de Cusco.",
+      "price": "0", "duracion": "Dia inteiro", "image": "tours/laguna-humantay/hero.jpg", "url": "laguna-humantay", "categoria": "caminata"
+    },
+    {
+      "title": "Tour Ponte Inca Q’eswachaka Full Day",
+      "description": "Conheça a última ponte inca tecida à mão e a cultura viva das comunidades de Canas em uma excursão saindo de Cusco.",
+      "price": "0", "duracion": "Dia inteiro", "image": "tours/qeswachaka/hero.jpg", "url": "puente-inca", "categoria": "tradicionales"
+    },
+    {
+      "title": "Tour Waqrapukara Full Day",
+      "description": "Conheça a fortaleza dos chifres, suas paisagens arqueológicas e as vistas do Cânion do Apurímac.",
+      "price": "0", "duracion": "Dia inteiro", "image": "tours/waqrapukara/hero.jpg", "url": "fortaleza-cuernos", "categoria": "caminata"
+    },
+    {
       "title": "Vale Sagrado + Machu Picchu",
       "description": "Explore o Vale Sagrado dos Incas e complete a experiência na majestosa cidadela de Machu Picchu.",
       "price": "389", "duracion": "2 Dias / 1 Noite", "image": "valle-sagrado-cusco-peru.jpg", "url": "vallesagrado-machupicchu", "categoria": "tradicionales"

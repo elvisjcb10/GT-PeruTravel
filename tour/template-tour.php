@@ -41,6 +41,12 @@ route_redirect_legacy('tour', $lang, $tour);
 $meta_title = $data['seo_title'] ?? $data['title'];
 $meta_description = $data['seo_description'] ?? $data['short_description'];
 $meta_keywords = $data['seo_keywords'] ?? '';
+$seo_image_cover = ltrim(str_replace('\\', '/', (string)($data['image_cover'] ?? '')), '/');
+if ($seo_image_cover === ''
+    || !preg_match('~\A[a-zA-Z0-9._/-]+\z~D', $seo_image_cover)
+    || preg_match('~(?:^|/)\.\.(?:/|$)~', $seo_image_cover)) {
+    $seo_image_cover = 'template-image-tour.jpg';
+}
 ?>
 
 <!-- TEXTOS GLOBALES -->
@@ -82,7 +88,7 @@ $base_url = "..";
     <?php seo_render([
         'title' => $meta_title, 'description' => $meta_description,
         'path' => route_path('tour', $lang, $tour), 'params' => [], 'language' => $lang,
-        'image' => '/images/tours/' . basename((string)($data['image_cover'] ?? 'template-image-tour.jpg')),
+        'image' => '/images/tours/' . $seo_image_cover,
         'alternates' => route_alternates('tour', $tour),
         'schema_type' => 'TouristTrip', 'tourist_type' => 'Cultural and adventure tourism',
         'robots' => $tour === 'short-inca-trail' ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
@@ -618,14 +624,14 @@ $base_url = "..";
                 </h2>
 
                 <div class="">
-                    <div class="swiper mySwiper relative">
+                    <div class="testimonial-swiper swiper mySwiper relative">
                         <div class="swiper-wrapper">
 
                             <?php foreach ($trip_text['slides'] as $slide): ?>
                                 <div class="swiper-slide h-auto">
                                     <a href="<?= $slide['review_url'] ?? 'https://www.tripadvisor.com/Attraction_Review-g294314-d19390237-Reviews-GT_PERU_TRAVEL-Cusco_Cusco_Region.html' ?>"
                                     target="_blank" rel="noopener"
-                                    class="group block bg-white border border-gray-200 hover:border-[#00AF87] rounded-2xl shadow-sm hover:shadow-md p-5 sm:p-6 h-full flex flex-col transition-all duration-300">
+                                    class="testimonial-card group block bg-white border border-gray-200 hover:border-[#00AF87] rounded-2xl shadow-sm hover:shadow-md p-5 sm:p-6 h-full flex flex-col transition-all duration-300">
 
                                         <!-- ESTRELLAS + LOGO -->
                                         <div class="flex justify-between items-center mb-2 sm:mb-3">

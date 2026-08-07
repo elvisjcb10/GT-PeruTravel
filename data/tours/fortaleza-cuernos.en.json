@@ -1,54 +1,193 @@
 {
-    "title": "Waqrapukara Fortress",
-    "short_description": "An essential tour to discover one of Cusco’s most impressive natural and archaeological wonders.",
-    "long_description": "<b>ONLY SCHEDULE: 04:00 AM – 18:00 PM APPROX</b><br> Dare to explore Waqrapukara, the horn-shaped fortress that rises over the Apurímac canyon. An adventure full of energy, history, and breathtaking landscapes.",
-    "duration": "1 Day",
-    "image_cover": "../tours/waqrapukara-card.jpg",
-    "gallery": ["montana1.jpg", "montana2.jpg"],
-    "price": "90",
-    "price_note": "Includes transportation, entrance tickets and professional guide.",
-
-    "seo_title": "Waqrapukara Fortress Tour - Full Day from Cusco | GT Peru Travel",
-    "seo_description": "Explore Waqrapukara, the impressive Inca fortress overlooking the Apurímac canyon. Full-day tour from Cusco with transportation, entrance tickets, and professional guide.",
-    "seo_keywords": "waqrapukara, waqrapukara fortress, waqrapukara tour full day, inca fortress cusco, apurimac canyon hike, waqrapukara trek, cusco tours, gt peru travel",
-
-    "days": [{
-        "title": "Day 1",
-        "text": "We leave Cusco early heading south, enjoying Andean landscapes, local communities, and a mysterious natural environment. After a scenic hike surrounded by mountains and rock formations, we arrive at the impressive Inca sanctuary known as “the horned fortress,” a symbol of spiritual and military power. From the top, at 4100 MASL, the views of the Apurímac canyon are truly unforgettable."
-    }],
-
-    "brochure": "",
-    "map": "",
-    "video": "",
-
-    "categories": {
-        "tour": {
-            "titulo": "WAQRAPUKARA FORTRESS - BASIC",
-            "precio": "90",
-            "descripcion": "Classic option with standard transportation.",
-            "nota": "Includes transfers and professional guide",
-            "descuento": 0
-        },
-        "confort": {
-            "titulo": "WAQRAPUKARA FORTRESS - COMFORT",
-            "precio": "130",
-            "descripcion": "Includes superior transportation and buffet lunch.",
-            "nota": "Includes transfers, 2 ★★ service and guided visits",
-            "descuento": 0
-        },
-        "premium": {
-            "titulo": "WAQRAPUKARA FORTRESS - PREMIUM",
-            "precio": "150",
-            "descripcion": "Includes superior transportation and buffet lunch.",
-            "nota": "Includes transfers, 3 ★★★ service and guided visits",
-            "descuento": 0
-        },
-        "elite": {
-            "titulo": "WAQRAPUKARA FORTRESS - ELITE",
-            "precio": "180",
-            "descripcion": "Includes superior transportation and buffet lunch.",
-            "nota": "Includes transfers, 4 ★★★★ service and guided visits",
-            "descuento": 0
-        }
+  "title": "Waqrapukara Full-Day Tour",
+  "short_description": "Discover Waqrapukara, the striking horn-shaped Inca fortress above the Apurímac Canyon, on a full-day adventure from Cusco.",
+  "long_description": "Discover <strong>Waqrapukara</strong>, one of Cusco's most surprising archaeological sites. The “horned fortress” rises above the Apurímac Canyon. After crossing Andean communities, hike to the sanctuary at over <strong>4,100 meters</strong>. Ideal for trekking, archaeology and nature lovers.",
+  "duration": "Full Day",
+  "image_cover": "waqrapukara/hero.jpg",
+  "gallery": [],
+  "price": "",
+  "price_note": "Price per person for group service. Ask about rates and availability.",
+  "seo_title": "Waqrapukara Full-Day Tour from Cusco | GT Peru Travel",
+  "seo_description": "Discover Waqrapukara from Cusco on a full-day adventure with transport, guide, breakfast and lunch.",
+  "seo_keywords": "Waqrapukara, tour Waqrapukara, horned fortress, Apurimac Canyon, trekking Cusco",
+  "resumen": {
+    "ubicacion": "Cusco Region, Peru",
+    "lugar_recojo": "Hotel in Cusco",
+    "lugar_finalizacion": "Cusco",
+    "idiomas": [
+      "English",
+      "Spanish",
+      "Portuguese"
+    ],
+    "transporte": [
+      "Round-trip tourist transportation from Cusco"
+    ],
+    "alimentacion": "Breakfast and lunch",
+    "alojamiento": "Not included",
+    "altitud": "Aprox. 4,100 m s. n. m."
+  },
+  "caracteristicas": [
+    {
+      "icono": "fa-person-hiking",
+      "label": "Dificultad",
+      "valor": "Moderate – High"
+    },
+    {
+      "icono": "fa-clock",
+      "label": "Duration",
+      "valor": "Full Day"
+    },
+    {
+      "icono": "fa-people-group",
+      "label": "Service",
+      "valor": "Group / Private"
+    },
+    {
+      "icono": "fa-mountain",
+      "label": "Maximum Altitude",
+      "valor": "Aprox. 4,100 m s. n. m."
     }
+  ],
+  "actividades": [
+    "Early departure from Cusco",
+    "Andean scenic drive",
+    "Breakfast en route",
+    "Hike to Waqrapukara",
+    "Guided archaeological visit",
+    "Apurímac Canyon views",
+    "Time for photos",
+    "Lunch and return to Cusco"
+  ],
+  "days": [
+    {
+      "title": "Day 1: Cusco – Waqrapukara – Cusco",
+      "lugar": "Cusco → Waqrapukara → Cusco",
+      "text": "Depart early from <strong>Cusco</strong> toward the south and stop for breakfast. Hike through mountain scenery to <strong>Waqrapukara</strong>, the horned fortress above Apurímac Canyon. Your guide explains its history and architecture, followed by time to explore and photograph the site. Descend, enjoy lunch and return to Cusco."
+    }
+  ],
+  "includes": [
+    "Hotel pickup in Cusco",
+    "Round-trip tourist transportation",
+    "Breakfast",
+    "Lunch",
+    "Professional guide",
+    "Tour assistance"
+  ],
+  "not_includes": [
+    "Waqrapukara admission",
+    "Additional drinks and snacks",
+    "Personal expenses",
+    "Tips",
+    "Travel insurance",
+    "Services not mentioned"
+  ],
+  "recommendations": [
+    {
+      "img": "pasaporte.webp",
+      "nombre": "ID or passport"
+    },
+    {
+      "img": "calzado-trekking.webp",
+      "nombre": "Trekking shoes"
+    },
+    {
+      "img": "casaca-impermeable.webp",
+      "nombre": "Waterproof jacket and warm layers"
+    },
+    {
+      "img": "poncho-lluvia.webp",
+      "nombre": "Rain poncho"
+    },
+    {
+      "img": "bloqueador.webp",
+      "nombre": "Sunscreen and sunglasses"
+    },
+    {
+      "img": "botella-agua.webp",
+      "nombre": "Water in a reusable bottle"
+    },
+    {
+      "img": "sombrero.webp",
+      "nombre": "Hat or cap"
+    },
+    {
+      "img": "mochila.webp",
+      "nombre": "Small backpack"
+    }
+  ],
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Acclimatize in Cusco",
+      "Rest well the night before",
+      "Bring warm layers",
+      "Wear trekking shoes",
+      "Stay hydrated",
+      "Use sun protection",
+      "Bring cash for admission",
+      "Walk at a moderate pace",
+      "Follow your guide"
+    ]
+  },
+  "faq": [
+    {
+      "pregunta": "What is Waqrapukara?",
+      "respuesta": "An archaeological complex known as the horned fortress."
+    },
+    {
+      "pregunta": "How high is it?",
+      "respuesta": "Approximately 4,100 meters above sea level."
+    },
+    {
+      "pregunta": "How difficult is it?",
+      "respuesta": "Moderate to high because of hiking and altitude."
+    },
+    {
+      "pregunta": "Are breakfast and lunch included?",
+      "respuesta": "Yes."
+    },
+    {
+      "pregunta": "Is admission included?",
+      "respuesta": "No."
+    },
+    {
+      "pregunta": "Is acclimatization necessary?",
+      "respuesta": "Yes, spend one or two days in Cusco first."
+    },
+    {
+      "pregunta": "What should I bring?",
+      "respuesta": "Warm clothing, trekking shoes, rain protection, sun protection and water."
+    },
+    {
+      "pregunta": "How long is it?",
+      "respuesta": "A full-day excursion from Cusco."
+    },
+    {
+      "pregunta": "Can it be private?",
+      "respuesta": "Yes, subject to availability."
+    },
+    {
+      "pregunta": "Why is it called the horned fortress?",
+      "respuesta": "Because of the shape of the site's large rock formations."
+    }
+  ],
+  "tours_relacionados": [],
+  "brochure": "",
+  "map": "mapa-waqrapukara-es.jpg",
+  "video": "",
+  "categories": {
+    "grupal": {
+      "titulo": "WAQRAPUKARA – GROUP SERVICE",
+      "precio": "",
+      "descripcion": "Shared full-day trip with transport, breakfast, lunch and guide.",
+      "nota": "Ask for the price. Admission not included.",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "WAQRAPUKARA – PRIVATE SERVICE",
+      "precio": "",
+      "descripcion": "Private excursion with exclusive transport, meals and guide.",
+      "nota": "Price depends on group size.",
+      "descuento": 0
+    }
+  }
 }

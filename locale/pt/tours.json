@@ -26,7 +26,7 @@
             "title": "LAGOA HUMANTAY",
             "subtitle": "DESCUBRA ESTE LINDO LUGAR",
             "description": "Tour de dia completo saindo de Cusco.",
-            "image": "tours/laguna-humantay-card.jpg",
+            "image": "tours/laguna-humantay/hero.jpg",
             "url": "laguna-humantay",
             "reservar": "RESERVAR",
             "price": "$65",
@@ -40,7 +40,7 @@
             "title": "MONTANHA DE 7 CORES",
             "subtitle": "A MONTANHA DAS CORES",
             "description": "Ideal para quem busca uma caminhada.",
-            "image": "tours/montana-de-7-colores-card.jpg",
+            "image": "tours/montana-7-colores/hero.jpg",
             "url": "montana-colores",
             "reservar": "RESERVAR",
             "price": "$59"
@@ -48,8 +48,8 @@
         {
             "title": "PONTE INCA QESWACHACA",
             "subtitle": "A ÚLTIMA PONTE INCA",
-            "description": "Perfeito para quem procura menos caminhada.",
-            "image": "tours/puente-inca-qeswachaka-card.jpg",
+            "description": "Conheça a última ponte inca tecida à mão e a cultura viva das comunidades de Canas.",
+            "image": "tours/qeswachaka/hero.jpg",
             "url": "puente-inca",
             "reservar": "RESERVAR",
             "price": "$60",
@@ -61,12 +61,12 @@
         },
         {
             "title": "WAQRAPUKARA",
-            "subtitle": "LOCAL DE BELAS PAISAGENS",
-            "description": "Explore belas paisagens.",
-            "image": "tours/waqrapukara-card.jpg",
+            "subtitle": "DIA INTEIRO – FORTALEZA DOS CHIFRES",
+            "description": "Conheça Waqrapukara, sua arquitetura inca e as vistas do Cânion do Apurímac.",
+            "image": "tours/waqrapukara/hero.jpg",
             "url": "fortaleza-cuernos",
             "reservar": "RESERVAR",
-            "price": "$80"
+            "price": ""
         },
         {
             "title": "VALE SAGRADO",
@@ -90,6 +90,54 @@
             "url": "super-valle-sagrado",
             "reservar": "RESERVAR",
             "price": "$0"
+        },
+        {
+            "title": "CHULLPAS DE SILLUSTANI",
+            "subtitle": "MEIO DIA – PUNO E LAGOA UMAYO",
+            "description": "Conheça as monumentais torres funerárias de Sillustani e as paisagens da Lagoa Umayo.",
+            "image": "tours/sillustani/hero.jpg",
+            "url": "sillustani",
+            "reservar": "RESERVAR",
+            "price": "",
+            "promo": {
+                "active": false
+            }
+        },
+        {
+            "title": "CITY TOUR A PÉ EM AREQUIPA",
+            "subtitle": "4 HORAS – CENTRO HISTÓRICO",
+            "description": "Conheça a Plaza de Armas, Santa Catalina e a arquitetura de sillar da Cidade Branca.",
+            "image": "tours/city-tour-arequipa/hero.jpg",
+            "url": "arequipa-colonial",
+            "reservar": "RESERVAR",
+            "price": "",
+            "promo": {
+                "active": false
+            }
+        },
+        {
+            "title": "TREKKING CÂNION DO COLCA",
+            "subtitle": "2 DIAS / 1 NOITE – SANGALLE",
+            "description": "Trekking pelo interior do Colca com Cruz do Condor, povoados tradicionais e o oásis de Sangalle.",
+            "image": "tours/canon-colca-trekking/hero.jpg",
+            "url": "trekking-colca",
+            "reservar": "RESERVAR",
+            "price": "",
+            "promo": {
+                "active": false
+            }
+        },
+        {
+            "title": "SALINAS E AGUADA BLANCA",
+            "subtitle": "DIA INTEIRO – NATUREZA E FAUNA ANDINA",
+            "description": "Explore lagoas, salares, paisagens vulcânicas e fauna altoandina saindo de Arequipa.",
+            "image": "tours/salinas-aguada-blanca/hero.jpg",
+            "url": "salinas-aguada-blanca",
+            "reservar": "RESERVAR",
+            "price": "",
+            "promo": {
+                "active": false
+            }
         }
     ]
 }

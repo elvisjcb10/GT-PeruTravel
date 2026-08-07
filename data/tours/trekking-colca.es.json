@@ -1,0 +1,205 @@
+{
+  "title": "Cañón del Colca Trekking 2 Días / 1 Noche",
+  "short_description": "Vive una aventura de trekking de 2 días por el Cañón del Colca, recorriendo pueblos tradicionales, Sangalle y la Cruz del Cóndor.",
+  "long_description": "Descubre el impresionante <strong>Cañón del Colca</strong> en un trekking de <strong>2 días y 1 noche</strong> desde Arequipa. Atravesarás San Juan de Chuccho, Cosñirhua, Malata y el oasis de <strong>Sangalle</strong>, combinando caminatas, comunidades locales, baños termales y una visita a la <strong>Cruz del Cóndor</strong>.",
+  "duration": "2 Días / 1 Noche",
+  "image_cover": "canon-colca-trekking/hero.jpg",
+  "gallery": [
+    "canon-colca-trekking/galeria-01.jpg",
+    "canon-colca-trekking/galeria-02.jpg"
+  ],
+  "price": "",
+  "price_note": "Precio por persona. Consultar tarifa y disponibilidad.",
+  "seo_title": "Cañón del Colca Trekking 2 Días desde Arequipa | GT Peru Travel",
+  "seo_description": "Trekking de 2 días por el Cañón del Colca desde Arequipa con Cruz del Cóndor, Sangalle, pueblos tradicionales y baños termales.",
+  "seo_keywords": "Colca Canyon trekking, trekking Colca, Sangalle, Condor Cross, Chivay, Arequipa adventure",
+  "resumen": {
+    "ubicacion": "Cañón del Colca, Región Arequipa, Perú",
+    "lugar_recojo": "Hotel en Arequipa",
+    "lugar_finalizacion": "Arequipa",
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "transporte": [
+      "Transporte turístico desde y hacia Arequipa"
+    ],
+    "alimentacion": "Según programa del primer día",
+    "alojamiento": "1 noche en bungalows rústicos",
+    "altitud": "Hasta 3,600 m s. n. m."
+  },
+  "caracteristicas": [
+    {
+      "icono": "fa-person-hiking",
+      "label": "Dificultad",
+      "valor": "Alta"
+    },
+    {
+      "icono": "fa-clock",
+      "label": "Duración",
+      "valor": "2 Días / 1 Noche"
+    },
+    {
+      "icono": "fa-people-group",
+      "label": "Servicio",
+      "valor": "Grupal / Privado"
+    },
+    {
+      "icono": "fa-mountain",
+      "label": "Tipo de Tour",
+      "valor": "Trekking / Aventura"
+    }
+  ],
+  "actividades": [
+    "Salida de Arequipa hacia Chivay",
+    "Cruz del Cóndor y observación de cóndores",
+    "Descenso al Cañón del Colca",
+    "San Juan de Chuccho, Cosñirhua y Malata",
+    "Descanso en el oasis de Sangalle",
+    "Piscina de agua temperada",
+    "Ascenso a Cabanaconde",
+    "Baños termales y retorno a Arequipa"
+  ],
+  "days": [
+    {
+      "title": "Día 1: Arequipa – Cruz del Cóndor – Sangalle",
+      "lugar": "Arequipa → Chivay → Cruz del Cóndor → San Juan de Chuccho → Sangalle",
+      "text": "Recojo entre las <strong>03:00 y 03:30</strong> y viaje a Chivay para desayunar. Visitaremos la <strong>Cruz del Cóndor</strong> y luego iniciaremos en San Miguel un descenso de aproximadamente 3 horas hasta <strong>San Juan de Chuccho</strong>. Tras el almuerzo pasaremos por Cosñirhua y Malata hasta llegar a <strong>Sangalle</strong>, donde descansaremos, cenaremos y pasaremos la noche en bungalows rústicos."
+    },
+    {
+      "title": "Día 2: Sangalle – Cabanaconde – Chivay – Arequipa",
+      "lugar": "Sangalle → Cabanaconde → Chivay → Arequipa",
+      "text": "Comenzaremos cerca de las <strong>05:00</strong> con un ascenso de unas 3 horas hacia <strong>Cabanaconde</strong>. Después del desayuno visitaremos baños termales y continuaremos a Chivay. El almuerzo es opcional y el retorno a Arequipa está previsto aproximadamente a las 17:00."
+    }
+  ],
+  "includes": [
+    "Recojo desde el hotel en Arequipa",
+    "Transporte turístico",
+    "Guía profesional",
+    "Alimentación según el programa del primer día",
+    "1 noche en bungalows rústicos",
+    "Asistencia durante el recorrido"
+  ],
+  "not_includes": [
+    "Tickets de ingreso",
+    "Alimentación del segundo día",
+    "Bebidas adicionales",
+    "Gastos personales",
+    "Propinas",
+    "Seguro de viaje",
+    "Servicios no mencionados"
+  ],
+  "recommendations": [
+    {
+      "img": "pasaporte.webp",
+      "nombre": "Documento de identidad o pasaporte"
+    },
+    {
+      "img": "calzado-trekking.webp",
+      "nombre": "Calzado adecuado para trekking"
+    },
+    {
+      "img": "casaca-impermeable.webp",
+      "nombre": "Casaca impermeable y ropa en capas"
+    },
+    {
+      "img": "bloqueador.webp",
+      "nombre": "Protector solar y lentes de sol"
+    },
+    {
+      "img": "sombrero.webp",
+      "nombre": "Sombrero o gorra"
+    },
+    {
+      "img": "botella-agua.webp",
+      "nombre": "Agua en botella reutilizable"
+    },
+    {
+      "img": "snacks.webp",
+      "nombre": "Snacks energéticos"
+    },
+    {
+      "img": "mochila.webp",
+      "nombre": "Mochila pequeña"
+    }
+  ],
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Tener condición física para caminatas de varias horas",
+      "Descansar bien la noche anterior",
+      "Llevar ropa cómoda y abrigadora",
+      "Usar calzado con buena tracción",
+      "Llevar agua y snacks",
+      "Usar protector solar y sombrero",
+      "Llevar traje de baño",
+      "Llevar dinero en efectivo",
+      "Seguir las indicaciones del guía"
+    ]
+  },
+  "faq": [
+    {
+      "pregunta": "¿Cuánto dura el trekking?",
+      "respuesta": "2 días y 1 noche."
+    },
+    {
+      "pregunta": "¿Qué dificultad tiene?",
+      "respuesta": "Alta por el descenso prolongado y el ascenso de unas 3 horas."
+    },
+    {
+      "pregunta": "¿Incluye alojamiento?",
+      "respuesta": "Sí, una noche en bungalows rústicos en Sangalle."
+    },
+    {
+      "pregunta": "¿Incluye alimentación?",
+      "respuesta": "Incluye la indicada para el primer día; la del segundo día no está incluida."
+    },
+    {
+      "pregunta": "¿Se visita la Cruz del Cóndor?",
+      "respuesta": "Sí, durante el primer día."
+    },
+    {
+      "pregunta": "¿Se visitan baños termales?",
+      "respuesta": "Sí, durante el segundo día."
+    },
+    {
+      "pregunta": "¿Los ingresos están incluidos?",
+      "respuesta": "No."
+    },
+    {
+      "pregunta": "¿A qué hora comienza?",
+      "respuesta": "El recojo es aproximadamente entre las 03:00 y 03:30."
+    },
+    {
+      "pregunta": "¿A qué hora se regresa?",
+      "respuesta": "Alrededor de las 17:00 del segundo día."
+    },
+    {
+      "pregunta": "¿Qué debo llevar?",
+      "respuesta": "Equipo cómodo de trekking, ropa en capas, agua, snacks, traje de baño y efectivo."
+    },
+    {
+      "pregunta": "¿Es apto para principiantes?",
+      "respuesta": "Puede ser exigente; se recomienda buena condición física."
+    }
+  ],
+  "tours_relacionados": [],
+  "brochure": "",
+  "map": "",
+  "video": "",
+  "categories": {
+    "grupal": {
+      "titulo": "CAÑÓN DEL COLCA TREKKING – SERVICIO GRUPAL",
+      "precio": "",
+      "descripcion": "Trekking de 2 días con transporte, guía, alimentación según programa y alojamiento.",
+      "nota": "Consultar precio. No incluye ingresos ni alimentación del segundo día.",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "CAÑÓN DEL COLCA TREKKING – SERVICIO PRIVADO",
+      "precio": "",
+      "descripcion": "Trekking privado por el Cañón del Colca con transporte y guía exclusivo.",
+      "nota": "Precio sujeto al número de viajeros.",
+      "descuento": 0
+    }
+  }
+}

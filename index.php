@@ -97,7 +97,48 @@ $packages_text = json_decode($packages_json, true);
 <?php
 $cards_json = file_get_contents(__DIR__ . "/locale/$idioma/packages_cards.json");
 $cards_all = json_decode($cards_json, true);
-$cards = $cards_all["cards"];
+$localized_cards = $cards_all["cards"] ?? [];
+$cards_by_slug = [];
+foreach ($localized_cards as $localized_card) {
+    $card_slug = (string) ($localized_card['url'] ?? '');
+    if ($card_slug !== '' && !isset($cards_by_slug[$card_slug])) {
+        $cards_by_slug[$card_slug] = $localized_card;
+    }
+}
+
+$cards = [];
+$packages_destination_path = __DIR__ . "/data/destinos/paquete-peru.$idioma.json";
+$packages_destination = is_file($packages_destination_path)
+    ? json_decode(file_get_contents($packages_destination_path), true)
+    : ['tours' => []];
+
+foreach ($packages_destination['tours'] ?? [] as $destination_package) {
+    $package_slug = (string) ($destination_package['url'] ?? '');
+    if ($package_slug === '' || ($destination_package['tipo'] ?? 'paquete') !== 'paquete') {
+        continue;
+    }
+
+    $existing_card = $cards_by_slug[$package_slug] ?? [];
+    $cards[] = array_replace([
+        'title' => (string) ($destination_package['title'] ?? $package_slug),
+        'subtitle' => (string) ($destination_package['duracion'] ?? ''),
+        'ubicacion' => '',
+        'max_personas' => '12',
+        'categorias' => !empty($destination_package['categoria'])
+            ? [(string) $destination_package['categoria']]
+            : [],
+        'description' => (string) ($destination_package['description'] ?? ''),
+        'price' => (string) ($destination_package['price'] ?? ''),
+        'moneda' => 'USD',
+        'image' => (string) ($destination_package['image'] ?? 'paquetes/peru-magico.jpg'),
+        'url' => $package_slug,
+        'reservar' => [
+            'es' => 'VER PAQUETE',
+            'en' => 'VIEW PACKAGE',
+            'pt' => 'VER PACOTE',
+        ][$idioma],
+    ], $existing_card);
+}
 ?>
 <!-- SECTION VIDEOS TESTIMONIALES .JSON -->
 <?php
@@ -123,7 +164,40 @@ $reconocimientos = json_decode($reconocimientos_json, true);
 <?php
 $blog_posts_json = file_get_contents(__DIR__ . "/locale/$idioma/blog_posts.json");
 $blog_all = json_decode($blog_posts_json, true);
-$blog_posts = $blog_all["posts"];
+$legacy_blog_posts = $blog_all["posts"] ?? [];
+$blog_read_label = $legacy_blog_posts[0]['link_text'] ?? [
+    'es' => 'Leer artículo',
+    'en' => 'Read article',
+    'pt' => 'Ler artigo',
+][$idioma];
+
+$blog_index_path = __DIR__ . "/data/blog/index.$idioma.json";
+$blog_index = is_file($blog_index_path)
+    ? json_decode(file_get_contents($blog_index_path), true)
+    : ['posts' => []];
+
+$blog_posts = array_map(static function (array $post) use ($blog_read_label): array {
+    $image = (string) ($post['image'] ?? '');
+    if ($image === '' || !is_file(__DIR__ . '/' . ltrim($image, '/'))) {
+        $image = (string) ($post['image_remote'] ?? '');
+    }
+    if ($image === '') {
+        $image = 'images/blog/1.webp';
+    }
+
+    return [
+        'img' => '/' . ltrim($image, '/'),
+        'categoria' => (string) ($post['category'] ?? 'Blog'),
+        'titulo' => (string) ($post['title'] ?? ''),
+        'descripcion' => (string) ($post['excerpt'] ?? ''),
+        'link_text' => $blog_read_label,
+        'url' => (string) ($post['slug'] ?? ''),
+    ];
+}, array_slice($blog_index['posts'] ?? [], 0, 6));
+
+if (empty($blog_posts)) {
+    $blog_posts = array_slice($legacy_blog_posts, 0, 6);
+}
 ?>
 <!-- SECTION TITULO TOURS .JSON -->
 <?php

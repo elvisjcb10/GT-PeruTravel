@@ -1,54 +1,69 @@
 {
-    "title": "Montaña de 7 Colores",
-    "short_description": "Un tour imprescindible para descubrir una de las maravillas naturales más famosas de Cusco.",
-    "long_description": "<b>MAÑANA: 04:30 AM - 18:00PM</b><br> Embárcate en un viaje mágico hacia uno de los paisajes más impresionantes del Perú. Durante dos días recorrerás la zona sagrada del Ausangate, conocerás la sorprendente Montaña de Colores Vinincunca y explorarás las místicas 7 Lagunas, cada una con tonalidades únicas que contrastan con los glaciares.",
-    "duration": "1 Día",
-    "image_cover": "../tours/montana-de-7-colores-card.jpg",
-    "gallery": ["montana1.jpg", "montana2.jpg"],
-    "price": "90",
-    "price_note": "Incluye transporte, tickets de ingreso y guía profesional.",
-
-    "seo_title": "Tour Montaña de 7 Colores Vinicunca - Full Day en Cusco | GT Peru Travel",
-    "seo_description": "Explora la Montaña de 7 Colores Vinicunca en un tour full day desde Cusco. Incluye transporte, entradas y guía profesional para vivir una experiencia inolvidable en los Andes.",
-    "seo_keywords": "montaña de 7 colores, vinicunca, rainbow mountain peru, tour vinicunca full day, tour montaña de colores cusco, viaje a cusco, gt peru travel",
-
-    "days": [{
-        "title": "Día 1",
-        "text": "Comenzaremos muy temprano rumbo a Vinincunca, la famosa Montaña de Colores, donde realizaremos una caminata hasta su mirador natural para apreciar sus tonalidades únicas y el imponente nevado Ausangate. Luego continuaremos hacia la zona de Pacchanta, si deseas, relajarte en los baños termales locales, descansamos para la mañana siguiente iniciar la caminata hacia las 7 Lagunas del Ausangate, cada una con diferentes colores, formas y paisajes rodeados de glaciares. Aquí podrás disfrutar vistas impresionantes, naturaleza pura."
-    }],
-
-    "brochure": "",
-    "map": "mapa-montanade7colores-es.jpg",
-    "video": "",
-
-    "categories": {
-        "tour": {
-            "titulo": "TOUR MONTAÑA DE 7 COLORES - BÁSICO",
-            "precio": "90",
-            "descripcion": "Opción clásica con transporte estándar.",
-            "nota": "Incluye traslados y guía profesional",
-            "descuento": 0
-        },
-        "confort": {
-            "titulo": "TOUR MONTAÑA DE 7 COLORES - CONFORT",
-            "precio": "130",
-            "descripcion": "Incluye transporte superior y almuerzo buffet.",
-            "nota": "Incluye traslados, Servicio 2 ★★ y visitas guiadas",
-            "descuento": 0
-        },
-        "premium": {
-            "titulo": "TOUR MONTAÑA DE 7 COLORES - PREMIUM",
-            "precio": "150",
-            "descripcion": "Incluye transporte superior y almuerzo buffet.",
-            "nota": "Incluye traslados, Servicio 3 ★★★ y visitas guiadas",
-            "descuento": 0
-        },
-        "elite": {
-            "titulo": "TOUR MONTAÑA DE 7 COLORES - ELITE",
-            "precio": "180",
-            "descripcion": "Incluye transporte superior y almuerzo buffet.",
-            "nota": "Incluye traslados, Servicio 4 ★★★★ y visitas guiadas",
-            "descuento": 0
-        }
-    }
+  "title": "Tour Montaña de 7 Colores Full Day",
+  "short_description": "Descubre la famosa Montaña de 7 Colores o Vinicunca en una excursión Full Day desde Cusco, rodeado de espectaculares paisajes andinos y vistas del nevado Ausangate.",
+  "long_description": "Vive una aventura inolvidable hacia la <strong>Montaña de 7 Colores</strong>, también conocida como <strong>Vinicunca</strong>, uno de los paisajes naturales más impresionantes de Cusco.<br><br>Durante esta excursión Full Day desde Cusco recorreremos espectaculares paisajes altoandinos, comunidades locales y escenarios naturales dominados por el majestuoso <strong>nevado Ausangate</strong>.<br><br>Después de una caminata por los Andes llegaremos al mirador de Vinicunca, donde podrás contemplar sus características tonalidades rojizas, amarillas y turquesas producidas por la composición mineral de la montaña.<br><br>Una experiencia ideal para viajeros amantes de la <strong>naturaleza, aventura, trekking y fotografía</strong>.",
+  "duration": "1 Día",
+  "image_cover": "montana-7-colores/hero.jpg",
+  "gallery": ["montana-7-colores/galeria-01.jpg", "montana-7-colores/galeria-02.jpg", "montana-7-colores/galeria-03.jpg", "montana-7-colores/galeria-04.jpg"],
+  "price": "",
+  "price_note": "Precio por persona en servicio grupal. Consultar tarifa y disponibilidad.",
+  "seo_title": "Tour Montaña de 7 Colores Full Day desde Cusco | GT Peru Travel",
+  "seo_description": "Tour Montaña de 7 Colores desde Cusco. Visita Vinicunca y disfruta de paisajes andinos y vistas del Ausangate. Incluye transporte, guía, desayuno y almuerzo.",
+  "seo_keywords": "tour montaña de 7 colores, montaña de 7 colores cusco, vinicunca tour, tour vinicunca, montaña arcoíris peru, rainbow mountain peru, excursiones cusco, gt peru travel",
+  "resumen": {
+    "ubicacion": "Vinicunca, Región Cusco, Perú",
+    "lugar_recojo": "Hotel ubicado en el Centro Histórico de Cusco",
+    "lugar_finalizacion": "Centro Histórico de Cusco",
+    "idiomas": ["Español", "Inglés", "Portugués"],
+    "transporte": ["Transporte turístico terrestre de ida y vuelta desde Cusco"],
+    "alimentacion": "Desayuno y almuerzo buffet",
+    "alojamiento": "No incluye",
+    "altitud": "Aproximadamente 5,100 m s. n. m."
+  },
+  "caracteristicas": [
+    {"icono": "fa-person-hiking", "label": "Dificultad", "valor": "Moderada – Alta"},
+    {"icono": "fa-clock", "label": "Duración", "valor": "Full Day"},
+    {"icono": "fa-people-group", "label": "Servicio", "valor": "Grupal / Privado"},
+    {"icono": "fa-mountain", "label": "Altitud Máxima", "valor": "Aprox. 5,100 msnm"}
+  ],
+  "actividades": ["Viaje panorámico desde Cusco hacia el sur del valle", "Desayuno antes de iniciar la caminata", "Caminata por paisajes altoandinos", "Observación de llamas y alpacas durante el recorrido", "Vistas panorámicas del nevado Ausangate", "Ascenso hacia el mirador de la Montaña de 7 Colores", "Explicación del guía profesional", "Tiempo libre para fotografías en Vinicunca", "Descenso hacia el punto de partida", "Almuerzo buffet antes de retornar a Cusco"],
+  "days": [{
+    "title": "Día 1: Cusco – Montaña de 7 Colores – Cusco",
+    "lugar": "Cusco → Cusipata → Llactoc → Vinicunca → Cusco",
+    "text": "Iniciaremos nuestra aventura muy temprano con el recojo desde su hotel en <strong>Cusco</strong>. Viajaremos hacia el sur del valle mientras disfrutamos del amanecer y de impresionantes paisajes andinos.<br><br>Durante el recorrido realizaremos una parada para disfrutar de un <strong>desayuno típico</strong> antes de continuar hacia el punto de inicio de nuestra caminata.<br><br>Comenzaremos el ascenso hacia la <strong>Montaña de 7 Colores – Vinicunca</strong>. Durante la caminata podremos observar llamas, alpacas, comunidades locales y espectaculares vistas del <strong>nevado Ausangate</strong>.<br><br>Al llegar a la cima contemplaremos uno de los paisajes naturales más sorprendentes de Cusco. Tendremos tiempo para tomar fotografías, disfrutar del paisaje y recibir una explicación de nuestro guía sobre las características de la montaña y su entorno.<br><br>Posteriormente iniciaremos el descenso y retornaremos hacia nuestro transporte. Antes de regresar a Cusco disfrutaremos de un <strong>almuerzo buffet</strong>.<br><br>Finalmente emprenderemos el viaje de retorno hacia la ciudad del Cusco."
+  }],
+  "includes": ["Recojo desde el hotel en el Centro Histórico de Cusco", "Transporte turístico de ida y vuelta", "Desayuno", "Almuerzo buffet", "Guía profesional", "Ticket de ingreso a la Montaña de 7 Colores", "Asistencia durante el recorrido"],
+  "not_includes": ["Caballo durante la caminata", "Bebidas adicionales", "Snacks", "Gastos personales", "Propinas", "Seguro de viaje", "Servicios no mencionados en el programa"],
+  "recommendations": [
+    {"img": "pasaporte.webp", "nombre": "Documento de identidad o pasaporte"},
+    {"img": "calzado-trekking.webp", "nombre": "Calzado cómodo para trekking"},
+    {"img": "casaca-impermeable.webp", "nombre": "Casaca impermeable y ropa abrigadora"},
+    {"img": "poncho-lluvia.webp", "nombre": "Poncho para lluvia"},
+    {"img": "bloqueador.webp", "nombre": "Protector solar y lentes de sol"},
+    {"img": "botella-agua.webp", "nombre": "Agua en botella reutilizable"},
+    {"img": "guantes.webp", "nombre": "Guantes y gorro para el frío"},
+    {"img": "mochila.webp", "nombre": "Mochila pequeña"}
+  ],
+  "recomendaciones_generales": {"antes_de_viajar": ["Aclimatarse en Cusco antes de realizar la excursión", "Dormir bien la noche anterior", "Evitar bebidas alcohólicas antes del tour", "Llevar ropa en capas debido a los cambios de temperatura", "Mantenerse hidratado durante la caminata", "Utilizar protector solar incluso en días nublados", "Llevar efectivo para gastos adicionales", "Caminar a un ritmo moderado debido a la altitud", "Informar al guía si presenta algún malestar durante la excursión"]},
+  "faq": [
+    {"pregunta": "¿Dónde está ubicada la Montaña de 7 Colores?", "respuesta": "La Montaña de 7 Colores, también conocida como Vinicunca, se encuentra en la región de Cusco, en los Andes peruanos, cerca del nevado Ausangate."},
+    {"pregunta": "¿A qué altitud se encuentra la Montaña de 7 Colores?", "respuesta": "El mirador se encuentra aproximadamente a 5,100 metros sobre el nivel del mar, por lo que es recomendable aclimatarse previamente en Cusco."},
+    {"pregunta": "¿Cuánto dura el tour?", "respuesta": "Es una excursión Full Day. El recorrido comienza muy temprano en Cusco y el retorno se realiza durante la tarde."},
+    {"pregunta": "¿Qué dificultad tiene la caminata?", "respuesta": "La caminata tiene una dificultad moderada a alta principalmente por la altitud. Se recomienda realizarla con calma y estar previamente aclimatado."},
+    {"pregunta": "¿Necesito aclimatarme antes del tour?", "respuesta": "Sí. Recomendamos pasar al menos uno o dos días en Cusco antes de realizar la excursión."},
+    {"pregunta": "¿El ingreso está incluido?", "respuesta": "Sí. El ticket de ingreso está incluido dentro de los servicios del tour."},
+    {"pregunta": "¿El tour incluye desayuno y almuerzo?", "respuesta": "Sí. El programa incluye desayuno y almuerzo buffet durante la excursión."},
+    {"pregunta": "¿Se puede subir a caballo?", "respuesta": "En la zona se ofrecen servicios de caballo con costo adicional y sujetos a disponibilidad."},
+    {"pregunta": "¿Cuál es la mejor época para visitar Vinicunca?", "respuesta": "La temporada seca suele ofrecer mejores condiciones, aunque el clima andino puede cambiar rápidamente durante todo el año."},
+    {"pregunta": "¿Qué debo llevar?", "respuesta": "Ropa abrigadora en capas, casaca impermeable, calzado de trekking, gorro, guantes, protector solar, lentes de sol, agua, mochila pequeña y documento de identidad."},
+    {"pregunta": "¿Está disponible en servicio privado?", "respuesta": "Sí. Puede realizarse en servicio grupal o privado, sujeto a disponibilidad y cotización."}
+  ],
+  "tours_relacionados": [],
+  "brochure": "",
+  "map": "mapa-montana-7-colores.jpg",
+  "video": "",
+  "categories": {
+    "grupal": {"titulo": "MONTAÑA DE 7 COLORES – SERVICIO GRUPAL", "precio": "", "descripcion": "Excursión Full Day compartida desde Cusco con transporte turístico, alimentación, ingreso y guía profesional.", "nota": "Precio por persona. Consultar tarifa y disponibilidad.", "descuento": 0},
+    "privado": {"titulo": "MONTAÑA DE 7 COLORES – SERVICIO PRIVADO", "precio": "", "descripcion": "Excursión exclusiva hacia Vinicunca con transporte y guía privado.", "nota": "Precio sujeto al número de viajeros y disponibilidad.", "descuento": 0}
+  }
 }

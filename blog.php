@@ -296,12 +296,12 @@ function blog_pagination_items(int $current, int $total): array
 
                 <?php if ($show_featured): ?>
                 <div id="blog-featured-content" class="grid grid-cols-1 gap-5 lg:grid-cols-[1.65fr_1fr]">
-                    <article class="group relative min-h-[360px] overflow-hidden rounded-2xl bg-gray-900 sm:min-h-[430px]" data-blog-card data-category="<?= htmlspecialchars($featured['category']) ?>">
+                    <article class="blog-hover-card group relative min-h-[360px] overflow-hidden rounded-2xl bg-gray-900 shadow-sm sm:min-h-[430px]" data-blog-card data-category="<?= htmlspecialchars($featured['category']) ?>">
                         <a href="<?= route_path('blog', $idioma, (string)($featured['slug'])) ?>"
                             class="absolute inset-0 z-20"
                             aria-label="<?= htmlspecialchars($textos['read'] . ': ' . $featured['title']) ?>"></a>
                         <img src="<?= blog_listing_image($featured, $base_url) ?>" alt="<?= htmlspecialchars($featured['title']) ?>"
-                            class="absolute inset-0 h-full w-full object-cover transition duration-700 ">
+                            class="absolute inset-0 h-full w-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/25 to-transparent"></div>
                         <div class="absolute inset-x-0 bottom-0 p-5 sm:p-7">
                             <span class="inline-flex rounded-md bg-orange-custom px-3 py-1.5 font-poppins text-[0.65rem] font-bold text-white">
@@ -326,11 +326,11 @@ function blog_pagination_items(int $current, int $total): array
 
                     <div class="grid gap-4">
                         <?php foreach ($secondary_featured as $post): ?>
-                            <article class="group relative grid min-h-[125px] grid-cols-[120px_1fr] overflow-hidden rounded-xl border border-gray-200 bg-white transition   sm:grid-cols-[155px_1fr]" data-blog-card data-category="<?= htmlspecialchars($post['category']) ?>">
+                            <article class="blog-hover-card group relative grid min-h-[125px] grid-cols-[120px_1fr] overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm sm:grid-cols-[155px_1fr]" data-blog-card data-category="<?= htmlspecialchars($post['category']) ?>">
                                 <a href="<?= route_path('blog', $idioma, (string)($post['slug'])) ?>" class="absolute inset-0 z-10" aria-label="<?= htmlspecialchars($textos['read'] . ': ' . $post['title']) ?>"></a>
                                 <div class="overflow-hidden">
                                     <img src="<?= blog_listing_image($post, $base_url) ?>" alt="<?= htmlspecialchars($post['title']) ?>"
-                                        loading="lazy" class="h-full w-full object-cover transition duration-500 ">
+                                        loading="lazy" class="h-full w-full object-cover">
                                 </div>
                                 <div class="flex min-w-0 flex-col justify-center p-4">
                                     <p class="font-poppins text-[0.62rem] font-bold uppercase tracking-[0.12em] text-orange-custom"><?= htmlspecialchars($post['category']) ?></p>
@@ -359,11 +359,11 @@ function blog_pagination_items(int $current, int $total): array
 
                 <div id="blog-grid" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
                     <?php foreach ($page_posts as $post): ?>
-                        <article id="<?= htmlspecialchars($post['slug']) ?>" class="blog-card group relative flex h-full flex-col overflow-hidden rounded-xl border border-gray-200 bg-white transition duration-300   " data-blog-card data-category="<?= htmlspecialchars($post['category']) ?>">
+                        <article id="<?= htmlspecialchars($post['slug']) ?>" class="blog-card blog-hover-card group relative flex h-full flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm" data-blog-card data-category="<?= htmlspecialchars($post['category']) ?>">
                             <a href="<?= route_path('blog', $idioma, (string)($post['slug'])) ?>" class="absolute inset-0 z-20" aria-label="<?= htmlspecialchars($textos['read'] . ': ' . $post['title']) ?>"></a>
                             <div class="relative h-52 overflow-hidden sm:h-56">
                                 <img src="<?= blog_listing_image($post, $base_url) ?>" alt="<?= htmlspecialchars($post['title']) ?>"
-                                    loading="lazy" class="h-full w-full object-cover transition duration-500 ">
+                                    loading="lazy" class="h-full w-full object-cover">
                                 <span class="absolute left-3 top-3 rounded-md bg-orange-custom px-3 py-1.5 font-poppins text-[0.65rem] font-bold text-white">
                                     <?= htmlspecialchars($textos['new']) ?>
                                 </span>

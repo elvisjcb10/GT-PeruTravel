@@ -33,6 +33,14 @@ document.addEventListener('DOMContentLoaded', () => {
             clearActive();
             previewDefault.classList.remove('hidden');
             previewHover.classList.add('hidden');
+            previewHover.classList.remove('mega-preview-enter');
+        }
+
+        function animatePreview() {
+            // Reinicia la animacion para que se reproduzca al cambiar de tour.
+            previewHover.classList.remove('mega-preview-enter');
+            void previewHover.offsetWidth;
+            previewHover.classList.add('mega-preview-enter');
         }
 
         function showTour(item) {
@@ -63,6 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             previewDefault.classList.add('hidden');
             previewHover.classList.remove('hidden');
+            animatePreview();
         }
 
         // Eventos

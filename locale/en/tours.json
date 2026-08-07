@@ -26,7 +26,7 @@
             "title": "HUMANTAY LAKE",
             "subtitle": "DISCOVER THIS BEAUTIFUL PLACE",
             "description": "Full-day tour from Cusco.",
-            "image": "tours/laguna-humantay-card.jpg",
+            "image": "tours/laguna-humantay/hero.jpg",
             "url": "laguna-humantay",
             "reservar": "BOOK NOW",
             "price": "$65",
@@ -40,7 +40,7 @@
             "title": "RAINBOW MOUNTAIN",
             "subtitle": "THE MOUNTAIN OF COLORS",
             "description": "Ideal for those looking for a hiking experience.",
-            "image": "tours/montana-de-7-colores-card.jpg",
+            "image": "tours/montana-7-colores/hero.jpg",
             "url": "montana-colores",
             "reservar": "BOOK NOW",
             "price": "$59"
@@ -48,8 +48,8 @@
         {
             "title": "QESWACHACA INCA BRIDGE",
             "subtitle": "THE LAST INCA BRIDGE",
-            "description": "Perfect for travelers looking for less hiking.",
-            "image": "tours/puente-inca-qeswachaka-card.jpg",
+            "description": "Discover the last handwoven Inca bridge and the living culture of the Canas communities.",
+            "image": "tours/qeswachaka/hero.jpg",
             "url": "puente-inca",
             "reservar": "BOOK NOW",
             "price": "$60",
@@ -61,12 +61,12 @@
         },
         {
             "title": "WAQRAPUKARA",
-            "subtitle": "PLACE OF BEAUTIFUL LANDSCAPES",
-            "description": "Explore stunning landscapes.",
-            "image": "tours/waqrapukara-card.jpg",
+            "subtitle": "FULL DAY – HORNED FORTRESS",
+            "description": "Discover Waqrapukara, its Inca architecture and views over Apurímac Canyon.",
+            "image": "tours/waqrapukara/hero.jpg",
             "url": "fortaleza-cuernos",
             "reservar": "BOOK NOW",
-            "price": "$80"
+            "price": ""
         },
         {
             "title": "SACRED VALLEY",
@@ -90,6 +90,54 @@
             "url": "super-valle-sagrado",
             "reservar": "BOOK NOW",
             "price": "$0"
+        },
+        {
+            "title": "SILLUSTANI BURIAL TOWERS",
+            "subtitle": "HALF DAY – PUNO AND UMAYO LAGOON",
+            "description": "Discover Sillustani's monumental burial towers and the landscapes of Umayo Lagoon.",
+            "image": "tours/sillustani/hero.jpg",
+            "url": "sillustani",
+            "reservar": "BOOK NOW",
+            "price": "",
+            "promo": {
+                "active": false
+            }
+        },
+        {
+            "title": "AREQUIPA WALKING CITY TOUR",
+            "subtitle": "4 HOURS – HISTORIC CENTER",
+            "description": "Discover Plaza de Armas, Santa Catalina and the White City's distinctive sillar architecture.",
+            "image": "tours/city-tour-arequipa/hero.jpg",
+            "url": "arequipa-colonial",
+            "reservar": "BOOK NOW",
+            "price": "",
+            "promo": {
+                "active": false
+            }
+        },
+        {
+            "title": "COLCA CANYON TREK",
+            "subtitle": "2 DAYS / 1 NIGHT – SANGALLE",
+            "description": "Trek inside Colca Canyon with Condor Cross, traditional villages and the Sangalle oasis.",
+            "image": "tours/canon-colca-trekking/hero.jpg",
+            "url": "trekking-colca",
+            "reservar": "BOOK NOW",
+            "price": "",
+            "promo": {
+                "active": false
+            }
+        },
+        {
+            "title": "SALINAS AND AGUADA BLANCA",
+            "subtitle": "FULL DAY – NATURE AND ANDEAN WILDLIFE",
+            "description": "Explore lagoons, salt flats, volcanic scenery and high-Andean wildlife from Arequipa.",
+            "image": "tours/salinas-aguada-blanca/hero.jpg",
+            "url": "salinas-aguada-blanca",
+            "reservar": "BOOK NOW",
+            "price": "",
+            "promo": {
+                "active": false
+            }
         }
     ]
 }

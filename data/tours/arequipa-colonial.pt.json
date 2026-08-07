@@ -1,0 +1,190 @@
+{
+  "title": "City Tour a Pé em Arequipa",
+  "short_description": "Conheça o Centro Histórico de Arequipa em um passeio a pé de aproximadamente 4 horas por suas praças, arquitetura colonial e principais atrações culturais.",
+  "long_description": "Caminhe pelo <strong>Centro Histórico de Arequipa</strong> para descobrir a história, arquitetura e cultura da Cidade Branca. Visite a <strong>Plaza de Armas</strong>, seus portais, construções de sillar e o famoso <strong>Mosteiro de Santa Catalina</strong>. Uma experiência cultural próxima e tranquila.",
+  "duration": "4 Horas",
+  "image_cover": "city-tour-arequipa/hero.jpg",
+  "gallery": [],
+  "price": "",
+  "price_note": "Preço por pessoa. Consulte tarifas e disponibilidade.",
+  "seo_title": "City Tour a Pé em Arequipa | Centro Histórico | GT Peru Travel",
+  "seo_description": "Conheça Arequipa em um city tour a pé de 4 horas pela Plaza de Armas, Santa Catalina e Centro Histórico.",
+  "seo_keywords": "city tour Arequipa, walking tour Arequipa, historic center, Plaza de Armas, Santa Catalina, White City Peru",
+  "resumen": {
+    "ubicacion": "Centro Histórico de Arequipa, Peru",
+    "lugar_recojo": "Hotel em Arequipa",
+    "lugar_finalizacion": "Centro Histórico de Arequipa",
+    "idiomas": [
+      "Português",
+      "Espanhol",
+      "Inglês"
+    ],
+    "transporte": [
+      "Transporte turístico conforme o programa"
+    ],
+    "alimentacion": "Não inclui",
+    "alojamiento": "Não inclui",
+    "altitud": "2,335 m s. n. m."
+  },
+  "caracteristicas": [
+    {
+      "icono": "fa-person-walking",
+      "label": "Dificultad",
+      "valor": "Fácil"
+    },
+    {
+      "icono": "fa-clock",
+      "label": "Duração",
+      "valor": "4 Horas"
+    },
+    {
+      "icono": "fa-people-group",
+      "label": "Serviço",
+      "valor": "Grupo / Privado"
+    },
+    {
+      "icono": "fa-city",
+      "label": "Tipo de Tour",
+      "valor": "Cultural / A pé"
+    }
+  ],
+  "actividades": [
+    "Recepção no hotel em Arequipa",
+    "Passeio a pé pelo Centro Histórico",
+    "Visita à Plaza de Armas",
+    "Arquitetura colonial e construções de sillar",
+    "Visita ao Mosteiro de Santa Catalina",
+    "Explicação histórica e cultural",
+    "Ruas tradicionais da Cidade Branca",
+    "Tempo para fotos"
+  ],
+  "days": [
+    {
+      "title": "Dia 1: City Tour a Pé em Arequipa",
+      "lugar": "Centro Histórico de Arequipa",
+      "text": "Começaremos com a recepção no hotel e caminharemos pelo <strong>Centro Histórico de Arequipa</strong>. Visitaremos a <strong>Plaza de Armas</strong>, seus portais e edifícios de sillar. Seguiremos ao <strong>Mosteiro de Santa Catalina</strong> e outros espaços coloniais enquanto o guia apresenta a história da Cidade Branca. O passeio termina após aproximadamente quatro horas."
+    }
+  ],
+  "includes": [
+    "Recepção no hotel em Arequipa",
+    "Transporte turístico conforme o programa",
+    "Guia profissional",
+    "Ingressos indicados no programa",
+    "Assistência durante o passeio"
+  ],
+  "not_includes": [
+    "Alimentação",
+    "Bebidas adicionais",
+    "Despesas pessoais",
+    "Gorjetas",
+    "Seguro de viagem",
+    "Serviços não mencionados"
+  ],
+  "recommendations": [
+    {
+      "img": "pasaporte.webp",
+      "nombre": "Documento de identidade ou passaporte"
+    },
+    {
+      "img": "calzado-trekking.webp",
+      "nombre": "Calçado confortável"
+    },
+    {
+      "img": "bloqueador.webp",
+      "nombre": "Protetor solar e óculos de sol"
+    },
+    {
+      "img": "sombrero.webp",
+      "nombre": "Chapéu ou boné"
+    },
+    {
+      "img": "botella-agua.webp",
+      "nombre": "Água em garrafa reutilizável"
+    },
+    {
+      "img": "camara.webp",
+      "nombre": "Câmera ou celular"
+    },
+    {
+      "img": "casaca-impermeable.webp",
+      "nombre": "Jaqueta leve ou impermeável"
+    },
+    {
+      "img": "mochila.webp",
+      "nombre": "Mochila pequena"
+    }
+  ],
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Usar calçado confortável",
+      "Levar protetor solar e óculos",
+      "Manter-se hidratado",
+      "Levar uma jaqueta leve",
+      "Levar dinheiro em espécie",
+      "Respeitar as regras em monumentos e espaços religiosos",
+      "Chegar pontualmente"
+    ]
+  },
+  "faq": [
+    {
+      "pregunta": "Quanto dura o tour?",
+      "respuesta": "Aproximadamente 4 horas."
+    },
+    {
+      "pregunta": "Quais lugares são visitados?",
+      "respuesta": "Centro Histórico, Plaza de Armas, ruas tradicionais, construções de sillar e Santa Catalina."
+    },
+    {
+      "pregunta": "Inclui Santa Catalina?",
+      "respuesta": "Sim, faz parte do roteiro."
+    },
+    {
+      "pregunta": "Os ingressos estão incluídos?",
+      "respuesta": "Sim, os ingressos indicados no programa estão incluídos."
+    },
+    {
+      "pregunta": "Inclui alimentação?",
+      "respuesta": "Não."
+    },
+    {
+      "pregunta": "É totalmente a pé?",
+      "respuesta": "O percurso principal é a pé, com traslados quando necessários."
+    },
+    {
+      "pregunta": "Qual é a dificuldade?",
+      "respuesta": "Fácil, por ser um passeio urbano e cultural."
+    },
+    {
+      "pregunta": "O que devo levar?",
+      "respuesta": "Calçado confortável, proteção solar, água e documento."
+    },
+    {
+      "pregunta": "Pode ser privado?",
+      "respuesta": "Sim, sujeito a disponibilidade e cotação."
+    },
+    {
+      "pregunta": "Por que Arequipa é a Cidade Branca?",
+      "respuesta": "Pelo uso tradicional do sillar claro em seus edifícios históricos."
+    }
+  ],
+  "tours_relacionados": [],
+  "brochure": "",
+  "map": "",
+  "video": "",
+  "categories": {
+    "grupal": {
+      "titulo": "CITY TOUR AREQUIPA – SERVIÇO EM GRUPO",
+      "precio": "",
+      "descripcion": "Passeio cultural de 4 horas com transporte, guia e ingressos.",
+      "nota": "Consulte o preço. Alimentação não incluída.",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "CITY TOUR AREQUIPA – SERVIÇO PRIVADO",
+      "precio": "",
+      "descripcion": "Passeio privado pelas principais atrações históricas com guia exclusivo.",
+      "nota": "Preço sujeito ao número de viajantes.",
+      "descuento": 0
+    }
+  }
+}

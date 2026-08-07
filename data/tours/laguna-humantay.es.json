@@ -1,54 +1,46 @@
 {
-    "title": "Laguna Humantay",
-    "short_description": "Un tour imprescindible para descubrir una de las maravillas naturales más famosas de Cusco.",
-    "long_description": "<b>INICIO 04:00AM - FINALIZA 17:00PM</b><br>Embárcate en una aventura hacia la impresionante Laguna Humantay, una joya natural escondida entre las montañas del Cusco.¡Vive la magia del color turquesa rodeado de imponentes nevados andinos!",
-    "duration": "1 Día",
-    "image_cover": "../tours/laguna-humantay-card.jpg",
-    "gallery": ["montana1.jpg", "montana2.jpg"],
-    "price": "90",
-    "price_note": "Incluye transporte, tickets de ingreso y guía profesional.",
-
-    "seo_title": "Tour Laguna Humantay y Montaña de Colores - Cusco | GT Peru Travel",
-    "seo_description": "Disfruta de un tour de 1 día a la Laguna Humantay y la Montaña de Colores. Incluye transporte, guía profesional y una experiencia única en los paisajes andinos de Cusco.",
-    "seo_keywords": "laguna humantay, montaña de colores, vinicunca, tour cusco 1 dia, excursion humantay, viajes a peru, gt peru travel",
-
-    "days": [{
-        "title": "Día 1",
-        "text": "Partimos temprano desde Cusco hacia el pueblo de Soraypampa, punto de inicio de la caminata. El ascenso, de aproximadamente 1 hora y media, te llevará a través de paisajes andinos espectaculares hasta llegar a la Laguna Humantay, famosa por su intenso color turquesa y su energía mística. Podrás disfrutar de vistas panorámicas, momentos de conexión con la naturaleza y tiempo libre para tomar fotografías inolvidables antes del regreso. Una jornada perfecta para quienes desean vivir una experiencia natural, energética y llena de belleza en los Andes peruanos."
-    }],
-
-    "brochure": "",
-    "map": "mapa-lagunahumantay-es.jpg",
-    "video": "",
-
-    "categories": {
-        "tour": {
-            "titulo": "TOUR LAGUNA HUMANTAY - BÁSICO",
-            "precio": "90",
-            "descripcion": "Opción clásica con transporte estándar.",
-            "nota": "Incluye traslados y guía profesional",
-            "descuento": 0
-        },
-        "confort": {
-            "titulo": "TOUR LAGUNA HUMANTAY - CONFORT",
-            "precio": "130",
-            "descripcion": "Incluye transporte superior y almuerzo buffet.",
-            "nota": "Incluye traslados, Servicio 2 ★★ y visitas guiadas",
-            "descuento": 0
-        },
-        "premium": {
-            "titulo": "TOUR LAGUNA HUMANTAY - PREMIUM",
-            "precio": "150",
-            "descripcion": "Incluye transporte superior y almuerzo buffet.",
-            "nota": "Incluye traslados, Servicio 3 ★★★ y visitas guiadas",
-            "descuento": 0
-        },
-        "elite": {
-            "titulo": "TOUR LAGUNA HUMANTAY - ELITE",
-            "precio": "180",
-            "descripcion": "Incluye transporte superior y almuerzo buffet.",
-            "nota": "Incluye traslados, Servicio 4 ★★★★ y visitas guiadas",
-            "descuento": 0
-        }
-    }
+  "title": "Tour Laguna Humantay Full Day",
+  "short_description": "Descubre la impresionante Laguna Humantay en una excursión Full Day desde Cusco, rodeado de nevados, paisajes andinos y aguas de intenso color turquesa.",
+  "long_description": "Embárcate en una aventura inolvidable hacia la <strong>Laguna Humantay</strong>, una de las joyas naturales más impresionantes de Cusco.<br><br>Partiremos temprano desde Cusco rumbo a <strong>Soraypampa</strong>, punto de inicio de la caminata. Durante el ascenso recorreremos espectaculares paisajes andinos rodeados de montañas y nevados.<br><br>Después de aproximadamente <strong>1 hora y 30 minutos de caminata</strong>, llegaremos a la Laguna Humantay, famosa por el intenso color turquesa de sus aguas y su entorno natural.<br><br>Tendremos tiempo para disfrutar de vistas panorámicas, tomar fotografías y conectar con la naturaleza antes de iniciar el descenso y retornar a Cusco.",
+  "duration": "1 Día",
+  "image_cover": "laguna-humantay/hero.jpg",
+  "gallery": ["laguna-humantay/galeria-01.jpg", "laguna-humantay/galeria-02.jpg", "laguna-humantay/galeria-03.jpg", "laguna-humantay/galeria-04.jpg"],
+  "price": "",
+  "price_note": "Precio por persona en servicio grupal. Consultar tarifa y disponibilidad.",
+  "seo_title": "Tour Laguna Humantay Full Day desde Cusco | GT Peru Travel",
+  "seo_description": "Visita la Laguna Humantay en un tour Full Day desde Cusco. Incluye transporte, desayuno, almuerzo, ingreso y guía profesional.",
+  "seo_keywords": "laguna humantay, tour laguna humantay, laguna humantay cusco, humantay full day, trekking humantay, tour humantay desde cusco, gt peru travel",
+  "resumen": {"ubicacion": "Soraypampa, Región Cusco, Perú", "lugar_recojo": "Hotel ubicado en el Centro Histórico de Cusco", "lugar_finalizacion": "Centro Histórico de Cusco", "idiomas": ["Español", "Inglés", "Portugués"], "transporte": ["Transporte turístico terrestre de ida y vuelta desde Cusco"], "alimentacion": "Desayuno y almuerzo buffet", "alojamiento": "No incluye", "altitud": "Aproximadamente 4,200 m s. n. m."},
+  "caracteristicas": [
+    {"icono": "fa-person-hiking", "label": "Dificultad", "valor": "Moderada"},
+    {"icono": "fa-clock", "label": "Duración", "valor": "Full Day"},
+    {"icono": "fa-people-group", "label": "Servicio", "valor": "Grupal / Privado"},
+    {"icono": "fa-mountain", "label": "Altitud Máxima", "valor": "Aprox. 4,200 msnm"}
+  ],
+  "actividades": ["Viaje panorámico desde Cusco hacia Soraypampa", "Desayuno antes de iniciar la caminata", "Caminata hacia la Laguna Humantay", "Observación de paisajes altoandinos y nevados", "Explicación del guía profesional", "Tiempo libre para fotografías", "Descenso hacia Soraypampa", "Almuerzo buffet", "Retorno a la ciudad de Cusco"],
+  "days": [{"title": "Día 1: Cusco – Soraypampa – Laguna Humantay – Cusco", "lugar": "Cusco → Soraypampa → Laguna Humantay → Cusco", "text": "Partiremos temprano desde <strong>Cusco</strong> rumbo a <strong>Soraypampa</strong>, punto de inicio de nuestra caminata.<br><br>Durante el trayecto disfrutaremos de impresionantes paisajes andinos y realizaremos una parada para disfrutar de un <strong>desayuno</strong> antes de comenzar la caminata.<br><br>El ascenso hacia la <strong>Laguna Humantay</strong> tiene una duración aproximada de <strong>1 hora y 30 minutos</strong>, atravesando paisajes rodeados de montañas y nevados.<br><br>Al llegar podremos observar el intenso color turquesa de la laguna y disfrutar de vistas panorámicas únicas. Nuestro guía brindará información sobre el entorno natural y tendremos tiempo libre para fotografías y descanso.<br><br>Posteriormente iniciaremos el descenso hacia Soraypampa. Antes de retornar a Cusco disfrutaremos de un <strong>almuerzo buffet</strong> y luego abordaremos nuestro transporte hacia la Ciudad Imperial."}],
+  "includes": ["Recojo desde el hotel en el Centro Histórico de Cusco", "Transporte turístico de ida y vuelta", "Desayuno", "Almuerzo buffet", "Guía profesional", "Ticket de ingreso a la Laguna Humantay", "Asistencia durante el recorrido"],
+  "not_includes": ["Caballo durante la caminata", "Bebidas adicionales", "Snacks", "Gastos personales", "Propinas", "Seguro de viaje", "Servicios no mencionados en el programa"],
+  "recommendations": [
+    {"img": "pasaporte.webp", "nombre": "Documento de identidad o pasaporte"}, {"img": "calzado-trekking.webp", "nombre": "Calzado cómodo para trekking"}, {"img": "casaca-impermeable.webp", "nombre": "Casaca impermeable y ropa abrigadora"}, {"img": "poncho-lluvia.webp", "nombre": "Poncho para lluvia"}, {"img": "bloqueador.webp", "nombre": "Protector solar y lentes de sol"}, {"img": "botella-agua.webp", "nombre": "Agua en botella reutilizable"}, {"img": "guantes.webp", "nombre": "Guantes y gorro para el frío"}, {"img": "mochila.webp", "nombre": "Mochila pequeña"}
+  ],
+  "recomendaciones_generales": {"antes_de_viajar": ["Aclimatarse en Cusco antes de realizar la excursión", "Dormir bien la noche anterior", "Llevar ropa en capas por los cambios de temperatura", "Mantenerse hidratado durante la caminata", "Utilizar protector solar incluso en días nublados", "Llevar efectivo para gastos adicionales", "Caminar a un ritmo moderado debido a la altitud", "Informar al guía si presenta algún malestar durante la caminata"]},
+  "faq": [
+    {"pregunta": "¿Dónde está ubicada la Laguna Humantay?", "respuesta": "Se encuentra en la región de Cusco, cerca de Soraypampa y al pie de los nevados de la cordillera de Vilcabamba."},
+    {"pregunta": "¿A qué altitud se encuentra?", "respuesta": "La Laguna Humantay se encuentra aproximadamente a 4,200 metros sobre el nivel del mar."},
+    {"pregunta": "¿Cuánto dura la caminata?", "respuesta": "El ascenso dura aproximadamente 1 hora y 30 minutos, según la condición física y el ritmo de cada viajero."},
+    {"pregunta": "¿Qué nivel de dificultad tiene?", "respuesta": "La dificultad es moderada principalmente por la altitud y el ascenso."},
+    {"pregunta": "¿Necesito aclimatarme?", "respuesta": "Sí. Recomendamos permanecer al menos uno o dos días en Cusco antes del tour."},
+    {"pregunta": "¿El ingreso está incluido?", "respuesta": "Sí. El ticket de ingreso está incluido dentro de los servicios del tour."},
+    {"pregunta": "¿Incluye desayuno y almuerzo?", "respuesta": "Sí. Incluye desayuno y almuerzo buffet durante la excursión."},
+    {"pregunta": "¿Se puede alquilar un caballo?", "respuesta": "Suele existir servicio de caballos con costo adicional y sujeto a disponibilidad."},
+    {"pregunta": "¿Cuál es la mejor época para visitar?", "respuesta": "La temporada seca suele ofrecer mejores condiciones, aunque el tour puede realizarse durante gran parte del año."},
+    {"pregunta": "¿Qué debo llevar?", "respuesta": "Ropa abrigadora en capas, casaca impermeable, calzado de trekking, protector solar, lentes de sol, agua, mochila pequeña y documento."},
+    {"pregunta": "¿Está disponible en servicio privado?", "respuesta": "Sí. Puede realizarse en servicio grupal o privado, sujeto a disponibilidad y cotización."}
+  ],
+  "tours_relacionados": [], "brochure": "", "map": "mapa-lagunahumantay-es.jpg", "video": "",
+  "categories": {
+    "grupal": {"titulo": "LAGUNA HUMANTAY – SERVICIO GRUPAL", "precio": "", "descripcion": "Excursión Full Day compartida desde Cusco con transporte turístico, alimentación, ingreso y guía profesional.", "nota": "Precio por persona. Consultar tarifa y disponibilidad.", "descuento": 0},
+    "privado": {"titulo": "LAGUNA HUMANTAY – SERVICIO PRIVADO", "precio": "", "descripcion": "Excursión exclusiva hacia Laguna Humantay con transporte y guía privado.", "nota": "Precio sujeto al número de viajeros y disponibilidad.", "descuento": 0}
+  }
 }

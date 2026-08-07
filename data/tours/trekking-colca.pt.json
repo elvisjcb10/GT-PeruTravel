@@ -1,0 +1,206 @@
+{
+  "title": "Trekking no Cânion do Colca 2 Dias / 1 Noite",
+  "short_description": "Viva um trekking de dois dias pelo Cânion do Colca, conhecendo povoados tradicionais, Sangalle e o Mirante da Cruz do Condor.",
+  "long_description": "Conheça o impressionante <strong>Cânion do Colca</strong> em um trekking de <strong>2 dias e 1 noite</strong> saindo de Arequipa. Passe por San Juan de Chuccho, Cosñirhua, Malata e o oásis de <strong>Sangalle</strong>, combinando caminhada, comunidades, águas termais e a <strong>Cruz do Condor</strong>.",
+  "duration": "2 Dias / 1 Noite",
+  "image_cover": "canon-colca-trekking/hero.jpg",
+  "gallery": [
+    "canon-colca-trekking/galeria-01.jpg",
+    "canon-colca-trekking/galeria-02.jpg"
+  ],
+  "price": "",
+  "price_note": "Preço por pessoa. Consulte tarifas e disponibilidade.",
+  "seo_title": "Trekking Cânion do Colca 2 Dias saindo de Arequipa | GT Peru Travel",
+  "seo_description": "Trekking de dois dias pelo Cânion do Colca com Cruz do Condor, Sangalle, povoados tradicionais e águas termais.",
+  "seo_keywords": "Colca Canyon trekking, trekking Colca, Sangalle, Condor Cross, Chivay, Arequipa adventure",
+  "resumen": {
+    "ubicacion": "Cânion do Colca, Região de Arequipa, Peru",
+    "lugar_recojo": "Hotel em Arequipa",
+    "lugar_finalizacion": "Arequipa",
+    "idiomas": [
+      "Português",
+      "Espanhol",
+      "Inglês"
+    ],
+    "transporte": [
+      "Transporte turístico de ida e volta a Arequipa"
+    ],
+    "alimentacion": "Conforme o programa do primeiro dia",
+    "alojamiento": "1 noite em bangalôs rústicos",
+    "altitud": "Hasta 3,600 m s. n. m."
+  },
+  "caracteristicas": [
+    {
+      "icono": "fa-person-hiking",
+      "label": "Dificultad",
+      "valor": "Alta"
+    },
+    {
+      "icono": "fa-clock",
+      "label": "Duração",
+      "valor": "2 Dias / 1 Noite"
+    },
+    {
+      "icono": "fa-people-group",
+      "label": "Serviço",
+      "valor": "Grupo / Privado"
+    },
+    {
+      "icono": "fa-mountain",
+      "label": "Tipo de Tour",
+      "valor": "Trekking / Aventura"
+    }
+  ],
+  "actividades": [
+    "Arequipa a Chivay",
+    "Cruz do Condor",
+    "Descida ao Cânion do Colca",
+    "San Juan de Chuccho, Cosñirhua e Malata",
+    "Pernoite no oásis de Sangalle",
+    "Piscina de água morna",
+    "Subida a Cabanaconde",
+    "Águas termais e retorno a Arequipa"
+  ],
+  "days": [
+    {
+      "title": "Dia 1: Arequipa – Cruz do Condor – Sangalle",
+      "lugar": "Arequipa → Chivay → Cruz do Condor → San Juan de Chuccho → Sangalle",
+      "text": "Recepção entre <strong>03:00 e 03:30</strong> e viagem a Chivay para o café. Visite a <strong>Cruz do Condor</strong> e inicie uma descida de cerca de três horas até <strong>San Juan de Chuccho</strong>. Após o almoço, passe por Cosñirhua e Malata até <strong>Sangalle</strong>, com piscina, jantar e pernoite em bangalôs rústicos."
+    },
+    {
+      "title": "Dia 2: Sangalle – Cabanaconde – Chivay – Arequipa",
+      "lugar": "Sangalle → Cabanaconde → Chivay → Arequipa",
+      "text": "Comece por volta das <strong>05:00</strong> com uma subida de três horas até <strong>Cabanaconde</strong>. Após o café, visite águas termais e continue a Chivay. O almoço é opcional e a chegada a Arequipa está prevista para as 17:00."
+    }
+  ],
+  "includes": [
+    "Recepção no hotel em Arequipa",
+    "Transporte turístico",
+    "Guia profissional",
+    "Alimentação indicada no primeiro dia",
+    "1 noite em bangalôs rústicos",
+    "Assistência durante o passeio"
+  ],
+  "not_includes": [
+    "Ingressos",
+    "Alimentação do segundo dia",
+    "Bebidas adicionais",
+    "Despesas pessoais",
+    "Gorjetas",
+    "Seguro de viagem",
+    "Serviços não mencionados"
+  ],
+  "recommendations": [
+    {
+      "img": "pasaporte.webp",
+      "nombre": "Documento ou passaporte"
+    },
+    {
+      "img": "calzado-trekking.webp",
+      "nombre": "Calçado de trekking"
+    },
+    {
+      "img": "casaca-impermeable.webp",
+      "nombre": "Jaqueta impermeável e roupas em camadas"
+    },
+    {
+      "img": "bloqueador.webp",
+      "nombre": "Protetor solar e óculos"
+    },
+    {
+      "img": "sombrero.webp",
+      "nombre": "Chapéu ou boné"
+    },
+    {
+      "img": "botella-agua.webp",
+      "nombre": "Água em garrafa reutilizável"
+    },
+    {
+      "img": "snacks.webp",
+      "nombre": "Snacks energéticos"
+    },
+    {
+      "img": "mochila.webp",
+      "nombre": "Mochila pequena"
+    }
+  ],
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Ter condicionamento para várias horas de caminhada",
+      "Descansar bem",
+      "Levar roupas confortáveis e quentes",
+      "Usar calçado com boa tração",
+      "Levar água e snacks",
+      "Usar protetor solar e chapéu",
+      "Levar roupa de banho",
+      "Levar dinheiro",
+      "Seguir o guia"
+    ]
+  },
+  "faq": [
+    {
+      "pregunta": "Quanto dura o trekking?",
+      "respuesta": "2 dias e 1 noite."
+    },
+    {
+      "pregunta": "Qual é a dificuldade?",
+      "respuesta": "Alta, pela longa descida e subida de aproximadamente três horas."
+    },
+    {
+      "pregunta": "Inclui hospedagem?",
+      "respuesta": "Sim, uma noite em bangalôs rústicos em Sangalle."
+    },
+    {
+      "pregunta": "Inclui alimentação?",
+      "respuesta": "Inclui a indicada no primeiro dia; a do segundo não."
+    },
+    {
+      "pregunta": "Visita a Cruz do Condor?",
+      "respuesta": "Sim, no primeiro dia."
+    },
+    {
+      "pregunta": "Visita águas termais?",
+      "respuesta": "Sim, no segundo dia."
+    },
+    {
+      "pregunta": "Os ingressos estão incluídos?",
+      "respuesta": "Não."
+    },
+    {
+      "pregunta": "Que horas começa?",
+      "respuesta": "A recepção ocorre entre 03:00 e 03:30."
+    },
+    {
+      "pregunta": "Que horas retorna?",
+      "respuesta": "Por volta das 17:00 do segundo dia."
+    },
+    {
+      "pregunta": "O que devo levar?",
+      "respuesta": "Equipamento de trekking, roupas em camadas, água, snacks, roupa de banho e dinheiro."
+    },
+    {
+      "pregunta": "É indicado para iniciantes?",
+      "respuesta": "Pode ser exigente; recomenda-se bom condicionamento."
+    }
+  ],
+  "tours_relacionados": [],
+  "brochure": "",
+  "map": "",
+  "video": "",
+  "categories": {
+    "grupal": {
+      "titulo": "TREKKING CÂNION DO COLCA – SERVIÇO EM GRUPO",
+      "precio": "",
+      "descripcion": "Trekking de dois dias com transporte, guia, alimentação indicada e hospedagem.",
+      "nota": "Consulte o preço. Ingressos e alimentação do segundo dia não incluídos.",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "TREKKING CÂNION DO COLCA – SERVIÇO PRIVADO",
+      "precio": "",
+      "descripcion": "Trekking privado com transporte e guia exclusivos.",
+      "nota": "Preço sujeito ao número de viajantes.",
+      "descuento": 0
+    }
+  }
+}

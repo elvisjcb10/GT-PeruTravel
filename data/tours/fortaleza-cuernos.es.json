@@ -1,54 +1,193 @@
 {
-    "title": "WaqraPukara Fortaleza",
-    "short_description": "Un tour imprescindible para descubrir una de las maravillas naturales más famosas de Cusco.",
-    "long_description": "<b>ÚNICO HORARIO: 04:00AM – 18:00PM APROX</b><br> Atrévete a descubrir Waqrapukara, la fortaleza con forma de cuerno que desafía las alturas del cañón del Apurímac. Una aventura llena de energía, historia y paisajes impresionantes. Hotel. ",
-    "duration": "1 Día",
-    "image_cover": "../tours/waqrapukara-card.jpg",
-    "gallery": ["montana1.jpg", "montana2.jpg"],
-    "price": "90",
-    "price_note": "Incluye transporte, tickets de ingreso y guía profesional.",
-
-    "seo_title": "Tour Waqrapukara Fortaleza - Full Day desde Cusco | GT Peru Travel",
-    "seo_description": "Explora Waqrapukara, la impresionante fortaleza inca en lo alto del cañón del Apurímac. Tour full day desde Cusco con transporte, entradas y guía profesional.",
-    "seo_keywords": "waqrapukara, waqrapukara fortaleza, tour waqrapukara full day, fortaleza inca cusco, cañón del apurímac, caminata waqrapukara, turismo cusco, gt peru travel",
-
-    "days": [{
-        "title": "Día 1",
-        "text": "Muy temprano partimos desde Cusco hacia el sur, disfrutando de paisajes andinos, comunidades locales y un entorno lleno de misterio. Tras una caminata rodeada de montañas y formaciones rocosas, llegamos al imponente santuario inca conocido como “la fortaleza de los cuernos”, símbolo del poder espiritual y militar de los antiguos peruanos. Desde su cima donde estaremos 4100MSNM, las vistas del cañón del Apurímac son simplemente inolvidables."
-    }],
-
-    "brochure": "",
-    "map": "mapa-waqrapukara-es.jpg",
-    "video": "",
-
-    "categories": {
-        "tour": {
-            "titulo": "WAQRAPUKARA FORTALEZA - BÁSICO",
-            "precio": "90",
-            "descripcion": "Opción clásica con transporte estándar.",
-            "nota": "Incluye traslados y guía profesional",
-            "descuento": 0
-        },
-        "confort": {
-            "titulo": "WAQRAPUKARA FORTALEZA - CONFORT",
-            "precio": "130",
-            "descripcion": "Incluye transporte superior y almuerzo buffet.",
-            "nota": "Incluye traslados, Servicio 2 ★★ y visitas guiadas",
-            "descuento": 0
-        },
-        "premium": {
-            "titulo": "WAQRAPUKARA FORTALEZA - PREMIUM",
-            "precio": "150",
-            "descripcion": "Incluye transporte superior y almuerzo buffet.",
-            "nota": "Incluye traslados, Servicio 3 ★★★ y visitas guiadas",
-            "descuento": 0
-        },
-        "elite": {
-            "titulo": "WAQRAPUKARA FORTALEZA - ELITE",
-            "precio": "180",
-            "descripcion": "Incluye transporte superior y almuerzo buffet.",
-            "nota": "Incluye traslados, Servicio 4 ★★★★ y visitas guiadas",
-            "descuento": 0
-        }
+  "title": "Tour Waqrapukara Full Day",
+  "short_description": "Descubre Waqrapukara, la impresionante fortaleza inca con forma de cuerno sobre el cañón del Apurímac, en una aventura Full Day desde Cusco.",
+  "long_description": "Descubre <strong>Waqrapukara</strong>, uno de los sitios arqueológicos más sorprendentes de Cusco. La “fortaleza de los cuernos” se levanta sobre los paisajes del cañón del Apurímac. Tras viajar por comunidades andinas, caminaremos hasta el santuario ubicado a más de <strong>4,100 metros</strong>. Ideal para amantes del trekking, arqueología y naturaleza.",
+  "duration": "Full Day",
+  "image_cover": "waqrapukara/hero.jpg",
+  "gallery": [],
+  "price": "",
+  "price_note": "Precio por persona en servicio grupal. Consultar tarifa y disponibilidad.",
+  "seo_title": "Tour Waqrapukara Full Day desde Cusco | GT Peru Travel",
+  "seo_description": "Descubre Waqrapukara desde Cusco en una aventura Full Day con transporte, guía, desayuno y almuerzo.",
+  "seo_keywords": "Waqrapukara, tour Waqrapukara, horned fortress, Apurimac Canyon, trekking Cusco",
+  "resumen": {
+    "ubicacion": "Región Cusco, Perú",
+    "lugar_recojo": "Hotel en Cusco",
+    "lugar_finalizacion": "Cusco",
+    "idiomas": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
+    "transporte": [
+      "Transporte turístico de ida y vuelta desde Cusco"
+    ],
+    "alimentacion": "Desayuno y almuerzo",
+    "alojamiento": "No incluye",
+    "altitud": "Aprox. 4,100 m s. n. m."
+  },
+  "caracteristicas": [
+    {
+      "icono": "fa-person-hiking",
+      "label": "Dificultad",
+      "valor": "Moderada – Alta"
+    },
+    {
+      "icono": "fa-clock",
+      "label": "Duración",
+      "valor": "Full Day"
+    },
+    {
+      "icono": "fa-people-group",
+      "label": "Servicio",
+      "valor": "Grupal / Privado"
+    },
+    {
+      "icono": "fa-mountain",
+      "label": "Altitud Máxima",
+      "valor": "Aprox. 4,100 m s. n. m."
     }
+  ],
+  "actividades": [
+    "Salida temprana desde Cusco",
+    "Viaje por paisajes andinos",
+    "Desayuno en ruta",
+    "Caminata hacia Waqrapukara",
+    "Visita arqueológica guiada",
+    "Vistas del cañón del Apurímac",
+    "Tiempo para fotografías",
+    "Almuerzo y retorno a Cusco"
+  ],
+  "days": [
+    {
+      "title": "Día 1: Cusco – Waqrapukara – Cusco",
+      "lugar": "Cusco → Waqrapukara → Cusco",
+      "text": "Partiremos temprano desde <strong>Cusco</strong> hacia el sur y realizaremos una parada para desayunar. Desde el inicio del sendero caminaremos entre montañas hasta <strong>Waqrapukara</strong>, la fortaleza de los cuernos situada sobre el cañón del Apurímac. El guía explicará su historia y arquitectura; después tendremos tiempo para recorrer el sitio y tomar fotografías. Finalmente descenderemos, almorzaremos y retornaremos a Cusco."
+    }
+  ],
+  "includes": [
+    "Recojo desde el hotel en Cusco",
+    "Transporte turístico de ida y vuelta",
+    "Desayuno",
+    "Almuerzo",
+    "Guía profesional",
+    "Asistencia durante el recorrido"
+  ],
+  "not_includes": [
+    "Ingreso a Waqrapukara",
+    "Bebidas y snacks adicionales",
+    "Gastos personales",
+    "Propinas",
+    "Seguro de viaje",
+    "Servicios no mencionados"
+  ],
+  "recommendations": [
+    {
+      "img": "pasaporte.webp",
+      "nombre": "Documento de identidad o pasaporte"
+    },
+    {
+      "img": "calzado-trekking.webp",
+      "nombre": "Calzado de trekking"
+    },
+    {
+      "img": "casaca-impermeable.webp",
+      "nombre": "Casaca impermeable y ropa abrigadora"
+    },
+    {
+      "img": "poncho-lluvia.webp",
+      "nombre": "Poncho para lluvia"
+    },
+    {
+      "img": "bloqueador.webp",
+      "nombre": "Protector solar y lentes"
+    },
+    {
+      "img": "botella-agua.webp",
+      "nombre": "Agua en botella reutilizable"
+    },
+    {
+      "img": "sombrero.webp",
+      "nombre": "Sombrero o gorra"
+    },
+    {
+      "img": "mochila.webp",
+      "nombre": "Mochila pequeña"
+    }
+  ],
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Aclimatarse en Cusco",
+      "Descansar bien la noche anterior",
+      "Llevar ropa abrigadora en capas",
+      "Usar calzado de trekking",
+      "Mantenerse hidratado",
+      "Usar protección solar",
+      "Llevar efectivo para el ingreso",
+      "Caminar a ritmo moderado",
+      "Seguir al guía"
+    ]
+  },
+  "faq": [
+    {
+      "pregunta": "¿Qué es Waqrapukara?",
+      "respuesta": "Un complejo arqueológico conocido como la fortaleza de los cuernos."
+    },
+    {
+      "pregunta": "¿A qué altura está?",
+      "respuesta": "Aproximadamente a 4,100 m s. n. m."
+    },
+    {
+      "pregunta": "¿Qué dificultad tiene?",
+      "respuesta": "Moderada a alta por la caminata y la altitud."
+    },
+    {
+      "pregunta": "¿Incluye desayuno y almuerzo?",
+      "respuesta": "Sí."
+    },
+    {
+      "pregunta": "¿El ingreso está incluido?",
+      "respuesta": "No."
+    },
+    {
+      "pregunta": "¿Es necesario aclimatarse?",
+      "respuesta": "Sí, recomendamos uno o dos días previos en Cusco."
+    },
+    {
+      "pregunta": "¿Qué debo llevar?",
+      "respuesta": "Ropa abrigadora, calzado de trekking, impermeable, protección solar y agua."
+    },
+    {
+      "pregunta": "¿Cuánto dura?",
+      "respuesta": "Es una excursión Full Day desde Cusco."
+    },
+    {
+      "pregunta": "¿Puede ser privado?",
+      "respuesta": "Sí, sujeto a disponibilidad."
+    },
+    {
+      "pregunta": "¿Por qué se llama fortaleza de los cuernos?",
+      "respuesta": "Por la forma de las grandes formaciones rocosas del complejo."
+    }
+  ],
+  "tours_relacionados": [],
+  "brochure": "",
+  "map": "mapa-waqrapukara-es.jpg",
+  "video": "",
+  "categories": {
+    "grupal": {
+      "titulo": "WAQRAPUKARA – SERVICIO GRUPAL",
+      "precio": "",
+      "descripcion": "Full Day compartido con transporte, desayuno, almuerzo y guía.",
+      "nota": "Consultar precio. No incluye ingreso.",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "WAQRAPUKARA – SERVICIO PRIVADO",
+      "precio": "",
+      "descripcion": "Excursión privada con transporte, alimentación y guía exclusivo.",
+      "nota": "Precio sujeto al número de viajeros.",
+      "descuento": 0
+    }
+  }
 }

@@ -1,0 +1,205 @@
+{
+  "title": "Colca Canyon Trek 2 Days / 1 Night",
+  "short_description": "Experience a two-day trek through Colca Canyon, visiting traditional villages, Sangalle and the famous Condor Cross viewpoint.",
+  "long_description": "Discover magnificent <strong>Colca Canyon</strong> on a <strong>2-day, 1-night trek</strong> from Arequipa. Cross San Juan de Chuccho, Cosñirhua, Malata and the <strong>Sangalle</strong> oasis while combining hiking, local communities, hot springs and the <strong>Condor Cross</strong> viewpoint.",
+  "duration": "2 Days / 1 Night",
+  "image_cover": "canon-colca-trekking/hero.jpg",
+  "gallery": [
+    "canon-colca-trekking/galeria-01.jpg",
+    "canon-colca-trekking/galeria-02.jpg"
+  ],
+  "price": "",
+  "price_note": "Price per person. Ask about rates and availability.",
+  "seo_title": "Colca Canyon 2-Day Trek from Arequipa | GT Peru Travel",
+  "seo_description": "Two-day Colca Canyon trek from Arequipa with Condor Cross, Sangalle, traditional villages and hot springs.",
+  "seo_keywords": "Colca Canyon trekking, trekking Colca, Sangalle, Condor Cross, Chivay, Arequipa adventure",
+  "resumen": {
+    "ubicacion": "Colca Canyon, Arequipa Region, Peru",
+    "lugar_recojo": "Hotel in Arequipa",
+    "lugar_finalizacion": "Arequipa",
+    "idiomas": [
+      "English",
+      "Spanish"
+    ],
+    "transporte": [
+      "Tourist transportation from and to Arequipa"
+    ],
+    "alimentacion": "As specified for day one",
+    "alojamiento": "1 night in rustic bungalows",
+    "altitud": "Hasta 3,600 m s. n. m."
+  },
+  "caracteristicas": [
+    {
+      "icono": "fa-person-hiking",
+      "label": "Dificultad",
+      "valor": "High"
+    },
+    {
+      "icono": "fa-clock",
+      "label": "Duration",
+      "valor": "2 Days / 1 Night"
+    },
+    {
+      "icono": "fa-people-group",
+      "label": "Service",
+      "valor": "Group / Private"
+    },
+    {
+      "icono": "fa-mountain",
+      "label": "Tour Type",
+      "valor": "Trekking / Adventure"
+    }
+  ],
+  "actividades": [
+    "Arequipa to Chivay",
+    "Condor Cross viewpoint",
+    "Descent into Colca Canyon",
+    "San Juan de Chuccho, Cosñirhua and Malata",
+    "Sangalle oasis stay",
+    "Warm-water pool",
+    "Ascent to Cabanaconde",
+    "Hot springs and return to Arequipa"
+  ],
+  "days": [
+    {
+      "title": "Day 1: Arequipa – Condor Cross – Sangalle",
+      "lugar": "Arequipa → Chivay → Condor Cross → San Juan de Chuccho → Sangalle",
+      "text": "Pickup between <strong>3:00 and 3:30 a.m.</strong> and travel to Chivay for breakfast. Visit <strong>Condor Cross</strong>, then begin an approximately three-hour descent from San Miguel to <strong>San Juan de Chuccho</strong>. After lunch, cross Cosñirhua and Malata to <strong>Sangalle</strong> for a pool, dinner and an overnight stay in rustic bungalows."
+    },
+    {
+      "title": "Day 2: Sangalle – Cabanaconde – Chivay – Arequipa",
+      "lugar": "Sangalle → Cabanaconde → Chivay → Arequipa",
+      "text": "Begin around <strong>5:00 a.m.</strong> with a three-hour ascent to <strong>Cabanaconde</strong>. After breakfast, visit hot springs and continue to Chivay. Lunch is optional and arrival in Arequipa is expected around 5:00 p.m."
+    }
+  ],
+  "includes": [
+    "Hotel pickup in Arequipa",
+    "Tourist transportation",
+    "Professional guide",
+    "Meals specified for day one",
+    "1 night in rustic bungalows",
+    "Tour assistance"
+  ],
+  "not_includes": [
+    "Admission tickets",
+    "Day-two meals",
+    "Additional drinks",
+    "Personal expenses",
+    "Tips",
+    "Travel insurance",
+    "Services not mentioned"
+  ],
+  "recommendations": [
+    {
+      "img": "pasaporte.webp",
+      "nombre": "ID or passport"
+    },
+    {
+      "img": "calzado-trekking.webp",
+      "nombre": "Proper trekking shoes"
+    },
+    {
+      "img": "casaca-impermeable.webp",
+      "nombre": "Waterproof jacket and layered clothing"
+    },
+    {
+      "img": "bloqueador.webp",
+      "nombre": "Sunscreen and sunglasses"
+    },
+    {
+      "img": "sombrero.webp",
+      "nombre": "Hat or cap"
+    },
+    {
+      "img": "botella-agua.webp",
+      "nombre": "Water in a reusable bottle"
+    },
+    {
+      "img": "snacks.webp",
+      "nombre": "Energy snacks"
+    },
+    {
+      "img": "mochila.webp",
+      "nombre": "Small backpack"
+    }
+  ],
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Be physically prepared for several hours of hiking",
+      "Rest well the night before",
+      "Bring comfortable warm layers",
+      "Wear shoes with good traction",
+      "Carry water and snacks",
+      "Use sunscreen and a hat",
+      "Bring swimwear",
+      "Carry cash",
+      "Follow your guide's instructions"
+    ]
+  },
+  "faq": [
+    {
+      "pregunta": "How long is the trek?",
+      "respuesta": "2 days and 1 night."
+    },
+    {
+      "pregunta": "How difficult is it?",
+      "respuesta": "High due to the long descent and approximately three-hour ascent."
+    },
+    {
+      "pregunta": "Is accommodation included?",
+      "respuesta": "Yes, one night in rustic Sangalle bungalows."
+    },
+    {
+      "pregunta": "Are meals included?",
+      "respuesta": "Meals specified for day one are included; day-two meals are not."
+    },
+    {
+      "pregunta": "Is Condor Cross visited?",
+      "respuesta": "Yes, on the first day."
+    },
+    {
+      "pregunta": "Are hot springs visited?",
+      "respuesta": "Yes, on the second day."
+    },
+    {
+      "pregunta": "Are admissions included?",
+      "respuesta": "No."
+    },
+    {
+      "pregunta": "What time does it start?",
+      "respuesta": "Pickup is around 3:00–3:30 a.m."
+    },
+    {
+      "pregunta": "What time do we return?",
+      "respuesta": "Around 5:00 p.m. on the second day."
+    },
+    {
+      "pregunta": "What should I bring?",
+      "respuesta": "Trekking gear, layered clothing, water, snacks, swimwear and cash."
+    },
+    {
+      "pregunta": "Is it suitable for beginners?",
+      "respuesta": "It can be demanding; good physical condition is recommended."
+    }
+  ],
+  "tours_relacionados": [],
+  "brochure": "",
+  "map": "",
+  "video": "",
+  "categories": {
+    "grupal": {
+      "titulo": "COLCA CANYON TREK – GROUP SERVICE",
+      "precio": "",
+      "descripcion": "Two-day trek with transportation, guide, specified meals and accommodation.",
+      "nota": "Ask for the price. Admissions and day-two meals not included.",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "COLCA CANYON TREK – PRIVATE SERVICE",
+      "precio": "",
+      "descripcion": "Private Colca Canyon trek with exclusive transport and guide.",
+      "nota": "Price depends on group size.",
+      "descuento": 0
+    }
+  }
+}

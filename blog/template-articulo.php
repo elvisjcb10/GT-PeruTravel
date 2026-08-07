@@ -40,6 +40,23 @@ $blog_labels = [
     ],
 ];
 $labels = $blog_labels[$idioma];
+$travel_cta = [
+    'es' => [
+        'title' => '¿Listo para viajar?',
+        'text' => 'Nuestros expertos locales organizan cada detalle de tu aventura por Perú: tours, traslados, hoteles y mucho más.',
+        'button' => 'Ver paquetes disponibles',
+    ],
+    'en' => [
+        'title' => 'Ready to travel?',
+        'text' => 'Our local experts organize every detail of your Peru adventure: tours, transfers, hotels and much more.',
+        'button' => 'View available packages',
+    ],
+    'pt' => [
+        'title' => 'Pronto para viajar?',
+        'text' => 'Nossos especialistas locais organizam cada detalhe da sua aventura pelo Peru: passeios, traslados, hotéis e muito mais.',
+        'button' => 'Ver pacotes disponíveis',
+    ],
+][$idioma];
 $base_url = '..';
 
 $translation_map_path = __DIR__ . '/../data/blog/translations.json';
@@ -255,7 +272,7 @@ $seo_description = $data['seo']['description'] ?? $data['excerpt'];
         <section class="py-7 sm:py-10 lg:py-14">
             <div class="container-custom mx-auto px-4 sm:px-6 md:px-10 lg:px-20">
                 <div class="grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-12">
-                    <article class="min-w-0">
+                    <article class="blog-article-content min-w-0">
                         <div class="mb-7 h-[3px] w-full bg-gradient-to-r from-orange-custom via-orange-custom/35 to-transparent"></div>
 
                         <details class="mb-6 overflow-hidden rounded-xl border border-gray-200 bg-white lg:hidden">
@@ -396,32 +413,21 @@ $seo_description = $data['seo']['description'] ?? $data['excerpt'];
 
                     <aside class="min-w-0">
                         <div class="space-y-5 lg:sticky lg:top-24">
-                            <nav class="hidden rounded-xl border border-gray-200 bg-white p-5 lg:block" aria-label="<?= htmlspecialchars($labels['contents_label']) ?>">
-                                <p class="font-poppins text-[0.65rem] font-bold uppercase tracking-[0.14em] text-orange-custom"><?= htmlspecialchars($labels['contents']) ?></p>
-                                <ol class="mt-4 space-y-1">
-                                    <?php foreach ($toc_items as $index => $section): ?>
-                                        <li>
-                                            <a href="#<?= htmlspecialchars($section['id']) ?>"
-                                                class="group flex gap-3 border-b border-gray-100 py-2.5 font-poppins text-xs leading-5 text-gray-500 transition ">
-                                                <span class="w-6 shrink-0 whitespace-nowrap font-bold text-orange-custom"><?= str_pad((string) ($index + 1), 2, '0', STR_PAD_LEFT) ?></span>
-                                                <span class="min-w-0"><?= htmlspecialchars($section['title']) ?></span>
-                                            </a>
-                                        </li>
-                                    <?php endforeach; ?>
-                                </ol>
-                            </nav>
-
-                            <?php if (!empty($data['cta'])): ?>
-                                <div class="rounded-xl bg-[#2b2b2b] p-6 text-center text-white">
-                                    <i class="fa-solid fa-route text-3xl text-orange-custom"></i>
-                                    <h2 class="mt-4 font-poppins text-base font-bold"><?= htmlspecialchars($data['cta']['title']) ?></h2>
-                                    <p class="mt-2 font-poppins text-xs leading-5 text-white/60"><?= htmlspecialchars($data['cta']['text']) ?></p>
-                                    <a href="<?= htmlspecialchars(blog_link_url($data['cta']['url'], $base_url)) ?>"
-                                        class="mt-5 inline-flex w-full items-center justify-center rounded-lg bg-orange-custom px-4 py-3 font-poppins text-xs font-bold text-white transition ">
-                                        <?= htmlspecialchars($data['cta']['button']) ?>
-                                    </a>
-                                </div>
-                            <?php endif; ?>
+                            <section class="blog-travel-cta overflow-hidden rounded-2xl px-6 py-8 text-center shadow-md sm:px-7 lg:py-9" aria-labelledby="blog-travel-cta-title">
+                                <span class="blog-travel-cta__icon mx-auto flex h-14 w-14 items-center justify-center rounded-full text-3xl text-orange-custom" aria-hidden="true">
+                                    <i class="fa-solid fa-suitcase-rolling"></i>
+                                </span>
+                                <h2 id="blog-travel-cta-title" class="mt-5 font-poppins text-xl font-bold leading-tight">
+                                    <?= htmlspecialchars($travel_cta['title']) ?>
+                                </h2>
+                                <p class="blog-travel-cta__text mt-4 font-poppins text-sm leading-6">
+                                    <?= htmlspecialchars($travel_cta['text']) ?>
+                                </p>
+                                <a href="<?= route_path('destino', $idioma, 'paquete-peru') ?>"
+                                    class="blog-travel-cta__button mt-6 inline-flex w-full items-center justify-center rounded-xl px-4 py-3.5 font-poppins text-sm font-bold transition">
+                                    <?= htmlspecialchars($travel_cta['button']) ?>
+                                </a>
+                            </section>
 
                             <?php if (!empty($data['related'])): ?>
                                 <div class="rounded-xl border border-gray-200 bg-white p-5">
@@ -491,14 +497,52 @@ $seo_description = $data['seo']['description'] ?? $data['excerpt'];
     <script src="../js/auto-swiper.js"></script>
     <script src="../js/mega-menu.js"></script>
     <script>
+        const resolveArticleAnchor = (hash) => {
+            if (!hash || hash === '#') return null;
+
+            let targetId;
+            try {
+                targetId = decodeURIComponent(hash.slice(1));
+            } catch (error) {
+                targetId = hash.slice(1);
+            }
+
+            if (!targetId) return null;
+
+            const articleHeadings = [...document.querySelectorAll(
+                '.wordpress-blog-content h2[id], .wordpress-blog-content h3[id], .wordpress-blog-content h4[id], .blog-article-content > section[id]'
+            )];
+            const normalizedId = targetId.toLocaleLowerCase();
+
+            return articleHeadings.find((heading) => heading.id.toLocaleLowerCase() === normalizedId)
+                || articleHeadings.find((heading) => heading.id.toLocaleLowerCase().startsWith(`${normalizedId}-`))
+                || document.getElementById(targetId);
+        };
+
+        const scrollToArticleAnchor = (hash, behavior = 'smooth') => {
+            const target = resolveArticleAnchor(hash);
+            if (!target) return false;
+            target.scrollIntoView({ behavior, block: 'start' });
+            return true;
+        };
+
         document.querySelectorAll('a[href^="#"]').forEach((link) => {
             link.addEventListener('click', (event) => {
-                const target = document.querySelector(link.getAttribute('href'));
-                if (!target) return;
+                const hash = link.getAttribute('href');
+                if (!hash || hash === '#') return;
+
+                if (!resolveArticleAnchor(hash)) return;
                 event.preventDefault();
-                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                history.pushState(null, '', hash);
+                scrollToArticleAnchor(hash);
             });
         });
+
+        if (window.location.hash) {
+            window.addEventListener('load', () => {
+                scrollToArticleAnchor(window.location.hash, 'auto');
+            }, { once: true });
+        }
     </script>
 </body>
 </html>

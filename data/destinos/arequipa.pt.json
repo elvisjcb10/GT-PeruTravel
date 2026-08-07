@@ -1,5 +1,5 @@
 {
-    "background": "/images/destinos/arequipa/arequipa.webp",
+    "background": "/images/destinos/arequipa/hero-arequipa.jpg",
     "badge": "Destino",
     "titulo": "Passeios em Arequipa",
     "descripcion": "Explore a Cidade Branca, sua arquitetura colonial em cantaria e o imponente Cânion do Colca, um dos mais profundos do mundo.",
@@ -49,11 +49,11 @@
     ],
     "tours": [
         {
-            "title": "City Tour Colonial em Arequipa",
-            "description": "Passeie pelo centro histórico da Cidade Branca, pelo Mosteiro de Santa Catalina e pela Plaza de Armas.",
-            "price": "30",
-            "duracion": "1Dia / 0Noites",
-            "image": "arequipa-colonial.jpg",
+            "title": "City Tour a Pé em Arequipa",
+            "description": "Conheça a Plaza de Armas, Santa Catalina e a arquitetura de sillar em um passeio cultural de aproximadamente quatro horas.",
+            "price": "0",
+            "duracion": "4 Horas",
+            "image": "tours/city-tour-arequipa/hero.jpg",
             "url": "arequipa-colonial",
             "categoria": "tradicional"
         },
@@ -67,20 +67,20 @@
             "categoria": "tradicional"
         },
         {
-            "title": "Trekking pelo Cânion Colca",
-            "description": "Desça até o fundo do segundo cânion mais profundo do mundo e desfrute do oásis de Sangalle.",
-            "price": "120",
-            "duracion": "3Dias / 2Noites",
-            "image": "trekking-colca.jpg",
+            "title": "Trekking no Cânion do Colca 2 Dias / 1 Noite",
+            "description": "Desça ao interior do Colca, conheça povoados tradicionais e descanse no oásis de Sangalle.",
+            "price": "0",
+            "duracion": "2 Dias / 1 Noite",
+            "image": "tours/canon-colca-trekking/hero.jpg",
             "url": "trekking-colca",
             "categoria": "caminhada"
         },
         {
-            "title": "Reserva Salinas e Aguada Blanca",
-            "description": "Veja vicunhas, flamingos andinos e vulcões nesta reserva natural perto de Arequipa.",
-            "price": "55",
-            "duracion": "1Dia / 0Noites",
-            "image": "salinas-aguada-blanca.jpg",
+            "title": "Tour Salinas e Aguada Blanca Full Day",
+            "description": "Explore lagoas, salares e paisagens vulcânicas enquanto observa vicunhas, alpacas e flamingos sazonais.",
+            "price": "0",
+            "duracion": "Dia Inteiro",
+            "image": "tours/salinas-aguada-blanca/hero.jpg",
             "url": "salinas-aguada-blanca",
             "categoria": "aventura"
         }

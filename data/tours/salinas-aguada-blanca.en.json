@@ -1,0 +1,196 @@
+{
+  "title": "Salinas and Aguada Blanca Full-Day Tour",
+  "short_description": "Explore Salinas and Aguada Blanca National Reserve from Arequipa, surrounded by volcanoes, lagoons, salt flats, vicuñas, alpacas and flamingos.",
+  "long_description": "Discover <strong>Salinas and Aguada Blanca National Reserve</strong>, one of Arequipa's most spectacular natural settings. Travel through high-Andean landscapes beneath <strong>Misti, Chachani and Pichu Pichu</strong>, observe native wildlife and visit the <strong>Salinas Lagoons</strong>. Ideal for nature, wildlife and photography lovers.",
+  "duration": "Full Day",
+  "image_cover": "salinas-aguada-blanca/hero.jpg",
+  "gallery": [],
+  "price": "",
+  "price_note": "Price per person. Ask about rates and availability.",
+  "seo_title": "Salinas and Aguada Blanca Tour from Arequipa | GT Peru Travel",
+  "seo_description": "Visit Salinas and Aguada Blanca from Arequipa: lagoons, salt flats, volcanoes, vicuñas, alpacas and flamingos.",
+  "seo_keywords": "Salinas y Aguada Blanca, Arequipa reserve, Salinas Lagoons, vicunas, flamingos, Misti volcano",
+  "resumen": {
+    "ubicacion": "Salinas and Aguada Blanca National Reserve, Arequipa, Peru",
+    "lugar_recojo": "Hotel in Arequipa",
+    "lugar_finalizacion": "Arequipa",
+    "idiomas": [
+      "English",
+      "Spanish"
+    ],
+    "transporte": [
+      "Round-trip tourist transportation"
+    ],
+    "alimentacion": "Not included",
+    "alojamiento": "Not included",
+    "altitud": "Hasta 4,300 m s. n. m."
+  },
+  "caracteristicas": [
+    {
+      "icono": "fa-person-walking",
+      "label": "Dificultad",
+      "valor": "Moderate"
+    },
+    {
+      "icono": "fa-clock",
+      "label": "Duration",
+      "valor": "Full Day"
+    },
+    {
+      "icono": "fa-people-group",
+      "label": "Service",
+      "valor": "Group / Private"
+    },
+    {
+      "icono": "fa-leaf",
+      "label": "Tour Type",
+      "valor": "Nature / Scenic"
+    }
+  ],
+  "actividades": [
+    "Departure from Arequipa",
+    "High-Andean landscapes",
+    "Salinas and Aguada Blanca Reserve",
+    "Views of Misti, Chachani and Pichu Pichu",
+    "Salinas Lagoons",
+    "Vicuñas, llamas and alpacas",
+    "Seasonal flamingos",
+    "Local communities and photos",
+    "Return to Arequipa"
+  ],
+  "days": [
+    {
+      "title": "Day 1: Arequipa – Salinas and Aguada Blanca – Arequipa",
+      "lugar": "Arequipa → Salinas and Aguada Blanca National Reserve → Arequipa",
+      "text": "Depart Arequipa around <strong>6:00 a.m.</strong> for <strong>Salinas and Aguada Blanca National Reserve</strong>. Enjoy landscapes beneath Misti, Chachani and Pichu Pichu, observe Andean wildlife and visit the <strong>Salinas Lagoons</strong>. Flamingos may be seen depending on the season. Meet local communities, take photographs and return to Arequipa around 5:00 p.m."
+    }
+  ],
+  "includes": [
+    "Hotel pickup in Arequipa",
+    "Round-trip tourist transportation",
+    "Professional guide",
+    "Admissions specified in the program",
+    "Tour assistance"
+  ],
+  "not_includes": [
+    "Meals",
+    "Additional drinks",
+    "Personal expenses",
+    "Tips",
+    "Travel insurance",
+    "Services not mentioned"
+  ],
+  "recommendations": [
+    {
+      "img": "pasaporte.webp",
+      "nombre": "ID or passport"
+    },
+    {
+      "img": "calzado-trekking.webp",
+      "nombre": "Comfortable shoes"
+    },
+    {
+      "img": "casaca-impermeable.webp",
+      "nombre": "Waterproof jacket and warm clothing"
+    },
+    {
+      "img": "bloqueador.webp",
+      "nombre": "Sunscreen and sunglasses"
+    },
+    {
+      "img": "sombrero.webp",
+      "nombre": "Hat or cap"
+    },
+    {
+      "img": "botella-agua.webp",
+      "nombre": "Water in a reusable bottle"
+    },
+    {
+      "img": "snacks.webp",
+      "nombre": "Snacks"
+    },
+    {
+      "img": "mochila.webp",
+      "nombre": "Small backpack"
+    }
+  ],
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Bring warm layered clothing",
+      "Wear comfortable shoes",
+      "Bring sun protection",
+      "Stay hydrated",
+      "Bring snacks because meals are not included",
+      "Carry rain protection in rainy season",
+      "Bring cash",
+      "Do not feed wildlife",
+      "Respect reserve regulations"
+    ]
+  },
+  "faq": [
+    {
+      "pregunta": "How long is the tour?",
+      "respuesta": "A full-day trip, approximately 6:00 a.m. to 5:00 p.m."
+    },
+    {
+      "pregunta": "Where is the reserve?",
+      "respuesta": "In southern Peru, near Arequipa."
+    },
+    {
+      "pregunta": "What places are visited?",
+      "respuesta": "The reserve, Salinas Lagoons and volcanic viewpoints."
+    },
+    {
+      "pregunta": "What animals can be seen?",
+      "respuesta": "Vicuñas, llamas, alpacas and birds; flamingos are seasonal."
+    },
+    {
+      "pregunta": "Are flamingos present year-round?",
+      "respuesta": "Their presence varies by season and natural conditions."
+    },
+    {
+      "pregunta": "Are admissions included?",
+      "respuesta": "Yes, those specified in the program."
+    },
+    {
+      "pregunta": "Are meals included?",
+      "respuesta": "No."
+    },
+    {
+      "pregunta": "How difficult is it?",
+      "respuesta": "Moderate, mainly because of altitude."
+    },
+    {
+      "pregunta": "What should I bring?",
+      "respuesta": "Warm clothes, comfortable shoes, sun protection, water and snacks."
+    },
+    {
+      "pregunta": "Does it depart from Arequipa?",
+      "respuesta": "Yes, with return to the city."
+    },
+    {
+      "pregunta": "Can it be private?",
+      "respuesta": "Yes, subject to availability."
+    }
+  ],
+  "tours_relacionados": [],
+  "brochure": "",
+  "map": "",
+  "video": "",
+  "categories": {
+    "grupal": {
+      "titulo": "SALINAS AND AGUADA BLANCA – GROUP SERVICE",
+      "precio": "",
+      "descripcion": "Full-day trip from Arequipa to discover lagoons, wildlife and volcanic landscapes.",
+      "nota": "Ask for the price. Meals not included.",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "SALINAS AND AGUADA BLANCA – PRIVATE SERVICE",
+      "precio": "",
+      "descripcion": "Private reserve experience with exclusive transport and guide.",
+      "nota": "Price depends on group size.",
+      "descuento": 0
+    }
+  }
+}

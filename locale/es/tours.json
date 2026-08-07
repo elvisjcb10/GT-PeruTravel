@@ -26,7 +26,7 @@
             "title": "LAGUNA HUMANTAY",
             "subtitle": "DESCUBRE ESTE HERMOSO LUGAR",
             "description": "Embárcate en un viaje inolvidable por los Andes con el Tour Súper Valle Sagrado Full Day, una experiencia diseñada para conectar profundamente con la majestuosidad de la antigua cultura incaic",
-            "image": "tours/laguna-humantay-card.jpg",
+            "image": "tours/laguna-humantay/hero.jpg",
             "url": "laguna-humantay",
             "reservar": "Reservar",
             "price": "$65",
@@ -40,7 +40,7 @@
             "title": "MONTAÑA DE 7 COLORES",
             "subtitle": "LA MONTAÑA DE LOS COLORES",
             "description": "Embárcate en un viaje inolvidable por los Andes con el Tour Súper Valle Sagrado Full Day, una experiencia diseñada para conectar profundamente con la majestuosidad de la antigua cultura incaic",
-            "image": "tours/montana-de-7-colores-card.jpg",
+            "image": "tours/montana-7-colores/hero.jpg",
             "url": "montana-colores",
             "reservar": "Reservar",
             "price": "$59"
@@ -48,8 +48,8 @@
         {
             "title": "PUENTE INCA QESWACHACA",
             "subtitle": "ULTIMO PUENTE INCA",
-            "description": "Embárcate en un viaje inolvidable por los Andes con el Tour Súper Valle Sagrado Full Day, una experiencia diseñada para conectar profundamente con la majestuosidad de la antigua cultura incaic",
-            "image": "tours/puente-inca-qeswachaka-card.jpg",
+            "description": "Conoce el último puente inca tejido a mano y la cultura viva de las comunidades de Canas.",
+            "image": "tours/qeswachaka/hero.jpg",
             "url": "puente-inca",
             "reservar": "Reservar",
             "price": "$60",
@@ -61,12 +61,12 @@
         },
         {
             "title": "WAQRAPUKARA",
-            "subtitle": "LUGAR DE LINDOS PAISAJES",
-            "description": "Embárcate en un viaje inolvidable por los Andes con el Tour Súper Valle Sagrado Full Day, una experiencia diseñada para conectar profundamente con la majestuosidad de la antigua cultura incaic",
-            "image": "tours/waqrapukara-card.jpg",
+            "subtitle": "FULL DAY – FORTALEZA DE LOS CUERNOS",
+            "description": "Descubre Waqrapukara, su arquitectura inca y las vistas del cañón del Apurímac.",
+            "image": "tours/waqrapukara/hero.jpg",
             "url": "fortaleza-cuernos",
             "reservar": "Reservar",
-            "price": "$80"
+            "price": ""
         },
         {
             "title": "SÚPER VALLE SAGRADO",
@@ -76,6 +76,54 @@
             "url": "super-valle-sagrado",
             "reservar": "Reservar",
             "price": "$0"
+        },
+        {
+            "title": "CHULLPAS DE SILLUSTANI",
+            "subtitle": "MEDIO DÍA – PUNO Y LAGUNA UMAYO",
+            "description": "Descubre las monumentales torres funerarias de Sillustani y los paisajes de la Laguna Umayo.",
+            "image": "tours/sillustani/hero.jpg",
+            "url": "sillustani",
+            "reservar": "Reservar",
+            "price": "",
+            "promo": {
+                "active": false
+            }
+        },
+        {
+            "title": "CITY TOUR PEATONAL AREQUIPA",
+            "subtitle": "4 HORAS – CENTRO HISTÓRICO",
+            "description": "Descubre la Plaza de Armas, Santa Catalina y la arquitectura de sillar de la Ciudad Blanca.",
+            "image": "tours/city-tour-arequipa/hero.jpg",
+            "url": "arequipa-colonial",
+            "reservar": "Reservar",
+            "price": "",
+            "promo": {
+                "active": false
+            }
+        },
+        {
+            "title": "CAÑÓN DEL COLCA TREKKING",
+            "subtitle": "2 DÍAS / 1 NOCHE – SANGALLE",
+            "description": "Trekking por el interior del Colca con Cruz del Cóndor, pueblos tradicionales y el oasis de Sangalle.",
+            "image": "tours/canon-colca-trekking/hero.jpg",
+            "url": "trekking-colca",
+            "reservar": "Reservar",
+            "price": "",
+            "promo": {
+                "active": false
+            }
+        },
+        {
+            "title": "SALINAS Y AGUADA BLANCA",
+            "subtitle": "FULL DAY – NATURALEZA Y FAUNA ANDINA",
+            "description": "Explora lagunas, salares, paisajes volcánicos y fauna altoandina desde Arequipa.",
+            "image": "tours/salinas-aguada-blanca/hero.jpg",
+            "url": "salinas-aguada-blanca",
+            "reservar": "Reservar",
+            "price": "",
+            "promo": {
+                "active": false
+            }
         }
     ]
 }

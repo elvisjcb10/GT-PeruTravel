@@ -4,24 +4,19 @@
     "title": "Vídeos de depoimentos",
     "videos": [
         {
-            "thumbnail": "/images/videos/1.webp",
-            "video_url": "https://youtu.be/b0DtwUq386Y",
-            "titulo": "Rio Urubamba"
+            "thumbnail": "/images/videos/testimonial-7TeJQIeqSM.jpg",
+            "video_url": "https://youtu.be/-7TeJQIeqSM",
+            "titulo": "Depoimento de viajante 1"
         },
         {
-            "thumbnail": "/images/videos/1.webp",
-            "video_url": "https://www.youtube.com/watch?v=XXXXXXXXX",
-            "titulo": "Lago Titicaca"
+            "thumbnail": "/images/videos/testimonial-4lTWgy44jSQ.jpg",
+            "video_url": "https://youtu.be/4lTWgy44jSQ",
+            "titulo": "Depoimento de viajante 2"
         },
         {
-            "thumbnail": "/images/videos/1.webp",
-            "video_url": "https://www.youtube.com/watch?v=XXXXXXXXX",
-            "titulo": "Praça de Armas Cusco"
-        },
-        {
-            "thumbnail": "/images/videos/1.webp",
-            "video_url": "https://www.youtube.com/watch?v=XXXXXXXXX",
-            "titulo": "Praça de Armas Cusco"
+            "thumbnail": "/images/videos/testimonial-ctmVjdorgHI.jpg",
+            "video_url": "https://youtu.be/ctmVjdorgHI",
+            "titulo": "Depoimento de viajante 3"
         }
     ]
 }

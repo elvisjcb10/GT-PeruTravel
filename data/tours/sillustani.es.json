@@ -1,0 +1,188 @@
+{
+  "title": "Tour Chullpas de Sillustani desde Puno",
+  "short_description": "Descubre las impresionantes Chullpas de Sillustani y la Laguna Umayo en una excursión de medio día desde Puno llena de historia, misterio y paisajes altiplánicos.",
+  "long_description": "Descubre el enigmático complejo arqueológico de <strong>Sillustani</strong>, uno de los sitios funerarios más importantes del altiplano peruano. A unos 35 minutos de <strong>Puno</strong>, conocerás sus monumentales <strong>chullpas funerarias</strong> y disfrutarás del paisaje de la <strong>Laguna Umayo</strong>. Una experiencia ideal para viajeros interesados en arqueología, cultura andina, historia y fotografía.",
+  "duration": "Medio Día",
+  "image_cover": "sillustani/hero.jpg",
+  "gallery": [],
+  "price": "",
+  "price_note": "Precio por persona. Consultar tarifa y disponibilidad.",
+  "seo_title": "Tour Chullpas de Sillustani desde Puno | GT Peru Travel",
+  "seo_description": "Visita las Chullpas de Sillustani y la Laguna Umayo en un tour de medio día desde Puno con transporte, guía profesional e ingreso.",
+  "seo_keywords": "sillustani, chullpas de sillustani, tour Sillustani Puno, Umayo Lagoon, archaeology Puno",
+  "resumen": {
+    "ubicacion": "Sillustani, Región Puno, Perú",
+    "lugar_recojo": "Puno",
+    "lugar_finalizacion": "Puno",
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "transporte": [
+      "Transporte turístico de ida y vuelta desde Puno"
+    ],
+    "alimentacion": "No incluye",
+    "alojamiento": "No incluye",
+    "altitud": "Aprox. 3,900 m s. n. m."
+  },
+  "caracteristicas": [
+    {
+      "icono": "fa-person-walking",
+      "label": "Dificultad",
+      "valor": "Fácil – Moderada"
+    },
+    {
+      "icono": "fa-clock",
+      "label": "Duración",
+      "valor": "Medio Día"
+    },
+    {
+      "icono": "fa-people-group",
+      "label": "Servicio",
+      "valor": "Grupal / Privado"
+    },
+    {
+      "icono": "fa-mountain",
+      "label": "Altitud Máxima",
+      "valor": "Aprox. 3,900 m s. n. m."
+    }
+  ],
+  "actividades": [
+    "Salida desde la ciudad de Puno",
+    "Viaje panorámico hacia Sillustani",
+    "Visita al complejo arqueológico",
+    "Recorrido entre las chullpas funerarias",
+    "Explicación histórica y cultural",
+    "Vistas de la Laguna Umayo",
+    "Tiempo libre para fotografías",
+    "Retorno a Puno"
+  ],
+  "days": [
+    {
+      "title": "Día 1: Puno – Sillustani – Laguna Umayo – Puno",
+      "lugar": "Puno → Sillustani → Laguna Umayo → Puno",
+      "text": "Saldremos desde <strong>Puno</strong> hacia el complejo arqueológico de <strong>Sillustani</strong>, ubicado aproximadamente a 35 minutos. Recorreremos sus imponentes <strong>chullpas funerarias</strong> mientras el guía explica su historia, arquitectura y función ceremonial. También disfrutaremos de vistas panorámicas de la <strong>Laguna Umayo</strong> y tendremos tiempo para fotografías antes de regresar a Puno."
+    }
+  ],
+  "includes": [
+    "Transporte turístico de ida y vuelta desde Puno",
+    "Guía profesional",
+    "Ingreso al complejo arqueológico de Sillustani",
+    "Asistencia durante el recorrido"
+  ],
+  "not_includes": [
+    "Alimentación",
+    "Bebidas adicionales",
+    "Gastos personales",
+    "Propinas",
+    "Seguro de viaje",
+    "Servicios no mencionados"
+  ],
+  "recommendations": [
+    {
+      "img": "pasaporte.webp",
+      "nombre": "Documento de identidad o pasaporte"
+    },
+    {
+      "img": "calzado-trekking.webp",
+      "nombre": "Calzado cómodo para caminar"
+    },
+    {
+      "img": "casaca-impermeable.webp",
+      "nombre": "Casaca impermeable o cortaviento"
+    },
+    {
+      "img": "bloqueador.webp",
+      "nombre": "Protector solar y lentes de sol"
+    },
+    {
+      "img": "sombrero.webp",
+      "nombre": "Sombrero o gorra"
+    },
+    {
+      "img": "botella-agua.webp",
+      "nombre": "Agua en botella reutilizable"
+    },
+    {
+      "img": "camara.webp",
+      "nombre": "Cámara o celular para fotografías"
+    },
+    {
+      "img": "mochila.webp",
+      "nombre": "Mochila pequeña"
+    }
+  ],
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Llevar ropa abrigadora por el clima del altiplano",
+      "Usar calzado cómodo",
+      "Aplicar protector solar incluso en días nublados",
+      "Mantenerse hidratado",
+      "Llevar impermeable en temporada de lluvias",
+      "Llevar dinero en efectivo",
+      "Respetar el sitio arqueológico y las indicaciones del guía"
+    ]
+  },
+  "faq": [
+    {
+      "pregunta": "¿Qué son las Chullpas de Sillustani?",
+      "respuesta": "Son antiguas torres funerarias construidas por culturas preincaicas e incas para personajes importantes."
+    },
+    {
+      "pregunta": "¿Dónde se encuentra Sillustani?",
+      "respuesta": "En la región de Puno, aproximadamente a 35 minutos en vehículo desde la ciudad."
+    },
+    {
+      "pregunta": "¿Cuánto dura el tour?",
+      "respuesta": "Aproximadamente cuatro horas, normalmente durante la tarde."
+    },
+    {
+      "pregunta": "¿Qué lugares se visitan?",
+      "respuesta": "El complejo arqueológico, sus principales chullpas y los miradores de la Laguna Umayo."
+    },
+    {
+      "pregunta": "¿El ingreso está incluido?",
+      "respuesta": "Sí, el ingreso al complejo está incluido."
+    },
+    {
+      "pregunta": "¿Incluye alimentación?",
+      "respuesta": "No, la alimentación no está incluida."
+    },
+    {
+      "pregunta": "¿Qué dificultad tiene?",
+      "respuesta": "Fácil a moderada, con caminatas en una zona de altura."
+    },
+    {
+      "pregunta": "¿Qué debo llevar?",
+      "respuesta": "Ropa abrigadora, calzado cómodo, protección solar, agua e impermeable."
+    },
+    {
+      "pregunta": "¿Hay servicio privado?",
+      "respuesta": "Sí, sujeto a disponibilidad y cotización."
+    },
+    {
+      "pregunta": "¿Complementa una visita al Titicaca?",
+      "respuesta": "Sí, es una excursión ideal de medio día desde Puno."
+    }
+  ],
+  "tours_relacionados": [],
+  "brochure": "",
+  "map": "",
+  "video": "",
+  "categories": {
+    "grupal": {
+      "titulo": "SILLUSTANI – SERVICIO GRUPAL",
+      "precio": "",
+      "descripcion": "Excursión de medio día desde Puno con transporte, ingreso y guía profesional.",
+      "nota": "Consultar precio por persona. No incluye alimentación.",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "SILLUSTANI – SERVICIO PRIVADO",
+      "precio": "",
+      "descripcion": "Excursión privada a Sillustani y Laguna Umayo con transporte y guía exclusivo.",
+      "nota": "Precio sujeto al número de viajeros y disponibilidad.",
+      "descuento": 0
+    }
+  }
+}

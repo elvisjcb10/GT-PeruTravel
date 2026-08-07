@@ -1,0 +1,189 @@
+{
+  "title": "City Tour Peatonal Arequipa",
+  "short_description": "Descubre el Centro Histórico de Arequipa en un recorrido peatonal de aproximadamente 4 horas por sus plazas, arquitectura colonial y principales atractivos culturales.",
+  "long_description": "Caminaremos por las calles del <strong>Centro Histórico de Arequipa</strong> para descubrir la historia, arquitectura y cultura de la Ciudad Blanca. Conoceremos la <strong>Plaza de Armas</strong>, sus portales, construcciones de sillar y el reconocido <strong>Monasterio de Santa Catalina</strong>. Una experiencia cercana, cultural y tranquila.",
+  "duration": "4 Horas",
+  "image_cover": "city-tour-arequipa/hero.jpg",
+  "gallery": [],
+  "price": "",
+  "price_note": "Precio por persona. Consultar tarifa y disponibilidad.",
+  "seo_title": "City Tour Peatonal Arequipa | Centro Histórico | GT Peru Travel",
+  "seo_description": "Descubre Arequipa en un city tour peatonal de 4 horas por la Plaza de Armas, Santa Catalina y el Centro Histórico.",
+  "seo_keywords": "city tour Arequipa, walking tour Arequipa, historic center, Plaza de Armas, Santa Catalina, White City Peru",
+  "resumen": {
+    "ubicacion": "Centro Histórico de Arequipa, Perú",
+    "lugar_recojo": "Hotel en Arequipa",
+    "lugar_finalizacion": "Centro Histórico de Arequipa",
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "transporte": [
+      "Transporte turístico según el programa"
+    ],
+    "alimentacion": "No incluye",
+    "alojamiento": "No incluye",
+    "altitud": "2,335 m s. n. m."
+  },
+  "caracteristicas": [
+    {
+      "icono": "fa-person-walking",
+      "label": "Dificultad",
+      "valor": "Fácil"
+    },
+    {
+      "icono": "fa-clock",
+      "label": "Duración",
+      "valor": "4 Horas"
+    },
+    {
+      "icono": "fa-people-group",
+      "label": "Servicio",
+      "valor": "Grupal / Privado"
+    },
+    {
+      "icono": "fa-city",
+      "label": "Tipo de Tour",
+      "valor": "Cultural / Peatonal"
+    }
+  ],
+  "actividades": [
+    "Recojo desde el hotel en Arequipa",
+    "Recorrido peatonal por el Centro Histórico",
+    "Visita a la Plaza de Armas",
+    "Arquitectura colonial y construcciones de sillar",
+    "Visita al Monasterio de Santa Catalina",
+    "Explicación histórica y cultural",
+    "Calles tradicionales de la Ciudad Blanca",
+    "Tiempo para fotografías"
+  ],
+  "days": [
+    {
+      "title": "Día 1: City Tour Peatonal por Arequipa",
+      "lugar": "Centro Histórico de Arequipa",
+      "text": "Iniciaremos con el recojo desde su hotel y caminaremos por el <strong>Centro Histórico de Arequipa</strong>. Visitaremos la emblemática <strong>Plaza de Armas</strong>, sus portales y edificios de sillar. Continuaremos hacia el <strong>Monasterio de Santa Catalina</strong> y otros espacios coloniales mientras el guía explica la historia e identidad de la Ciudad Blanca. El recorrido concluye después de aproximadamente cuatro horas."
+    }
+  ],
+  "includes": [
+    "Recojo desde el hotel en Arequipa",
+    "Transporte turístico según el programa",
+    "Guía profesional",
+    "Ingresos contemplados en el programa",
+    "Asistencia durante el recorrido"
+  ],
+  "not_includes": [
+    "Alimentación",
+    "Bebidas adicionales",
+    "Gastos personales",
+    "Propinas",
+    "Seguro de viaje",
+    "Servicios no mencionados"
+  ],
+  "recommendations": [
+    {
+      "img": "pasaporte.webp",
+      "nombre": "Documento de identidad o pasaporte"
+    },
+    {
+      "img": "calzado-trekking.webp",
+      "nombre": "Calzado cómodo para caminar"
+    },
+    {
+      "img": "bloqueador.webp",
+      "nombre": "Protector solar y lentes de sol"
+    },
+    {
+      "img": "sombrero.webp",
+      "nombre": "Sombrero o gorra"
+    },
+    {
+      "img": "botella-agua.webp",
+      "nombre": "Agua en botella reutilizable"
+    },
+    {
+      "img": "camara.webp",
+      "nombre": "Cámara o celular"
+    },
+    {
+      "img": "casaca-impermeable.webp",
+      "nombre": "Casaca ligera o impermeable"
+    },
+    {
+      "img": "mochila.webp",
+      "nombre": "Mochila pequeña"
+    }
+  ],
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Usar calzado cómodo",
+      "Llevar protector solar y lentes de sol",
+      "Mantenerse hidratado",
+      "Llevar una casaca ligera",
+      "Llevar dinero en efectivo",
+      "Respetar las indicaciones en monumentos y espacios religiosos",
+      "Llegar puntual al recojo"
+    ]
+  },
+  "faq": [
+    {
+      "pregunta": "¿Cuánto dura el tour?",
+      "respuesta": "Aproximadamente 4 horas."
+    },
+    {
+      "pregunta": "¿Qué lugares se visitan?",
+      "respuesta": "El Centro Histórico, Plaza de Armas, calles tradicionales, construcciones de sillar y Santa Catalina."
+    },
+    {
+      "pregunta": "¿Incluye Santa Catalina?",
+      "respuesta": "Sí, está contemplado en el recorrido."
+    },
+    {
+      "pregunta": "¿Los ingresos están incluidos?",
+      "respuesta": "Sí, los ingresos indicados en el programa están incluidos."
+    },
+    {
+      "pregunta": "¿Incluye alimentación?",
+      "respuesta": "No."
+    },
+    {
+      "pregunta": "¿Es completamente peatonal?",
+      "respuesta": "El recorrido principal es a pie; se contemplan traslados cuando sean necesarios."
+    },
+    {
+      "pregunta": "¿Qué dificultad tiene?",
+      "respuesta": "Fácil, al ser un recorrido urbano y cultural."
+    },
+    {
+      "pregunta": "¿Qué debo llevar?",
+      "respuesta": "Calzado cómodo, protección solar, agua y documento de identidad."
+    },
+    {
+      "pregunta": "¿Puede ser privado?",
+      "respuesta": "Sí, sujeto a disponibilidad y cotización."
+    },
+    {
+      "pregunta": "¿Por qué se llama Ciudad Blanca?",
+      "respuesta": "Por el uso tradicional del sillar claro en sus construcciones históricas."
+    }
+  ],
+  "tours_relacionados": [],
+  "brochure": "",
+  "map": "",
+  "video": "",
+  "categories": {
+    "grupal": {
+      "titulo": "CITY TOUR AREQUIPA – SERVICIO GRUPAL",
+      "precio": "",
+      "descripcion": "Recorrido cultural de 4 horas con transporte, guía e ingresos.",
+      "nota": "Consultar precio. No incluye alimentación.",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "CITY TOUR AREQUIPA – SERVICIO PRIVADO",
+      "precio": "",
+      "descripcion": "Recorrido privado por los principales atractivos históricos con guía exclusivo.",
+      "nota": "Precio sujeto al número de viajeros.",
+      "descuento": 0
+    }
+  }
+}

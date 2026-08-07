@@ -1,54 +1,198 @@
 {
-    "title": "Ponte Inca Qeswachaka",
-    "short_description": "Um tour imperdível para descobrir uma das maravilhas culturais mais únicas de Cusco.",
-    "long_description": "<b>MANHÃ: 04:30 AM – TERMINA 18:00 PM</b><br>Descubra a última ponte suspensa inca ainda tecida à mão: Q’eswachaka. Uma experiência cultural única que conecta tradição, história viva e paisagens impressionantes do sul de Cusco.",
-    "duration": "1 Dia",
-    "image_cover": "../tours/puente-inca-qeswachaka-card.jpg",
-    "gallery": ["montana1.jpg", "montana2.jpg"],
-    "price": "90",
-    "price_note": "Inclui transporte, ingressos e guia profissional.",
-
-    "seo_title": "Tour Ponte Inca Q’eswachaka - Full Day em Cusco | GT Peru Travel",
-    "seo_description": "Descubra a Ponte Inca Q’eswachaka, a última ponte suspensa inca ainda tecida à mão. Tour de dia inteiro saindo de Cusco com transporte, ingressos e guia profissional.",
-    "seo_keywords": "ponte inca qeswachaka, qeswachaca, ponte suspensa inca, tour qeswachaka full day, passeios cusco, cultura andina viva, turismo peru, gt peru travel",
-
-    "days": [{
-        "title": "Dia 1",
-        "text": "Partiremos cedo de Cusco em direção à província de Canas, passando por belas paisagens andinas, lagoas altoandinas e vilarejos tradicionais. Ao chegar a Q’eswachaka, você poderá admirar a ponte suspensa de mais de 28 metros de comprimento sobre o rio Apurímac — um lugar cheio de história, simbolismo e energia. Você terá tempo para caminhar pelos arredores, tirar fotos incríveis e aprender mais sobre a cosmovisão andina e o valor cultural deste patrimônio. Uma viagem ideal para quem deseja se conectar com a tradição viva dos Andes."
-    }],
-
-    "brochure": "",
-    "map": "",
-    "video": "",
-
-    "categories": {
-        "tour": {
-            "titulo": "PONTE INCA QESWACHAKA - BÁSICO",
-            "precio": "90",
-            "descripcion": "Opção clássica com transporte padrão.",
-            "nota": "Inclui traslados e guia profissional",
-            "descuento": 0
-        },
-        "confort": {
-            "titulo": "PONTE INCA QESWACHAKA - CONFORTO",
-            "precio": "130",
-            "descripcion": "Inclui transporte superior e almoço buffet.",
-            "nota": "Inclui traslados, serviço 2 ★★ e visitas guiadas",
-            "descuento": 0
-        },
-        "premium": {
-            "titulo": "PONTE INCA QESWACHAKA - PREMIUM",
-            "precio": "150",
-            "descripcion": "Inclui transporte superior e almoço buffet.",
-            "nota": "Inclui traslados, serviço 3 ★★★ e visitas guiadas",
-            "descuento": 0
-        },
-        "elite": {
-            "titulo": "PONTE INCA QESWACHAKA - ELITE",
-            "precio": "180",
-            "descripcion": "Inclui transporte superior e almoço buffet.",
-            "nota": "Inclui traslados, serviço 4 ★★★★ e visitas guiadas",
-            "descuento": 0
-        }
+  "title": "Tour Ponte Inca Q’eswachaka Full Day",
+  "short_description": "Conheça Q’eswachaka, a última ponte inca tecida à mão, em uma excursão de dia inteiro saindo de Cusco, com história, cultura viva e paisagens andinas.",
+  "long_description": "Conheça <strong>Q’eswachaka</strong>, a última ponte inca que preserva a tradição ancestral de tecer fibras vegetais. Viaje de <strong>Cusco</strong> à província de <strong>Canas</strong> por paisagens e comunidades altoandinas. Visite a ponte de aproximadamente <strong>28 metros</strong>, suspensa sobre o rio Apurímac e renovada pelas comunidades com técnicas transmitidas por gerações.",
+  "duration": "1 Dia",
+  "image_cover": "qeswachaka/hero.jpg",
+  "gallery": [
+    "qeswachaka/galeria-01.jpg",
+    "qeswachaka/galeria-02.jpg",
+    "qeswachaka/galeria-03.jpg"
+  ],
+  "price": "",
+  "price_note": "Preço por pessoa. Consulte tarifas e disponibilidade.",
+  "seo_title": "Tour Ponte Inca Q’eswachaka Full Day saindo de Cusco | GT Peru Travel",
+  "seo_description": "Visite Q’eswachaka, a última ponte inca tecida à mão, em um tour de dia inteiro saindo de Cusco com transporte, alimentação e guia.",
+  "seo_keywords": "qeswachaka, q'eswachaka, Inca bridge, puente inca, Canas Cusco, Apurimac, tours Cusco",
+  "resumen": {
+    "ubicacion": "Província de Canas, Região de Cusco, Peru",
+    "lugar_recojo": "Cusco",
+    "lugar_finalizacion": "Cusco",
+    "idiomas": [
+      "Português",
+      "Espanhol",
+      "Inglês"
+    ],
+    "transporte": [
+      "Transporte turístico de ida e volta saindo de Cusco"
+    ],
+    "alimentacion": "Incluída",
+    "alojamiento": "Não inclui",
+    "altitud": "3,700 m s. n. m."
+  },
+  "caracteristicas": [
+    {
+      "icono": "fa-person-hiking",
+      "label": "Dificultad",
+      "valor": "Moderada"
+    },
+    {
+      "icono": "fa-clock",
+      "label": "Duração",
+      "valor": "Full Day"
+    },
+    {
+      "icono": "fa-people-group",
+      "label": "Serviço",
+      "valor": "Grupo / Privado"
+    },
+    {
+      "icono": "fa-mountain",
+      "label": "Altitud Máxima",
+      "valor": "3,700 m s. n. m."
     }
+  ],
+  "actividades": [
+    "Saída cedo de Cusco",
+    "Viagem panorâmica à província de Canas",
+    "Paisagens e comunidades altoandinas",
+    "Visita à Ponte Inca Q’eswachaka",
+    "Explicação histórica e cultural",
+    "Vista do cânion do rio Apurímac",
+    "Tempo livre para fotos",
+    "Retorno a Cusco"
+  ],
+  "days": [
+    {
+      "title": "Dia 1: Cusco – Q’eswachaka – Cusco",
+      "lugar": "Cusco → Província de Canas → Q’eswachaka → Cusco",
+      "text": "Saída cedo de <strong>Cusco</strong> rumo à província de <strong>Canas</strong>, atravessando paisagens andinas e comunidades tradicionais. Visite a <strong>Ponte Inca Q’eswachaka</strong>, uma ponte suspensa de aproximadamente 28 metros tecida com fibras vegetais sobre o rio Apurímac. O guia explicará sua história, simbolismo e renovação comunitária. Haverá tempo para explorar e fotografar antes do retorno a Cusco."
+    }
+  ],
+  "includes": [
+    "Transporte turístico de ida e volta saindo de Cusco",
+    "Alimentação durante a excursão",
+    "Guia profissional",
+    "Assistência durante o percurso"
+  ],
+  "not_includes": [
+    "Ingresso em Q’eswachaka",
+    "Bebidas adicionais",
+    "Despesas pessoais",
+    "Gorjetas",
+    "Seguro de viagem",
+    "Serviços não mencionados"
+  ],
+  "recommendations": [
+    {
+      "img": "pasaporte.webp",
+      "nombre": "Documento de identidade ou passaporte"
+    },
+    {
+      "img": "calzado-trekking.webp",
+      "nombre": "Calçado confortável para caminhar"
+    },
+    {
+      "img": "casaca-impermeable.webp",
+      "nombre": "Jaqueta impermeável e roupa quente"
+    },
+    {
+      "img": "poncho-lluvia.webp",
+      "nombre": "Capa de chuva"
+    },
+    {
+      "img": "bloqueador.webp",
+      "nombre": "Protetor solar e óculos de sol"
+    },
+    {
+      "img": "botella-agua.webp",
+      "nombre": "Água em garrafa reutilizável"
+    },
+    {
+      "img": "sombrero.webp",
+      "nombre": "Chapéu ou boné"
+    },
+    {
+      "img": "mochila.webp",
+      "nombre": "Mochila pequena"
+    }
+  ],
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Descansar bem na noite anterior",
+      "Usar roupas confortáveis em camadas",
+      "Usar calçado adequado",
+      "Levar protetor solar e óculos",
+      "Levar proteção contra chuva na estação chuvosa",
+      "Manter-se hidratado",
+      "Levar dinheiro para o ingresso",
+      "Respeitar o guia e as comunidades"
+    ]
+  },
+  "faq": [
+    {
+      "pregunta": "O que é Q’eswachaka?",
+      "respuesta": "É uma ponte suspensa inca tecida com fibras vegetais por meio de técnicas preservadas pelas comunidades locais."
+    },
+    {
+      "pregunta": "Onde fica?",
+      "respuesta": "Na província de Canas, região de Cusco, sobre o rio Apurímac."
+    },
+    {
+      "pregunta": "Quanto dura o tour?",
+      "respuesta": "É uma excursão de dia inteiro, com saída de madrugada e retorno à tarde."
+    },
+    {
+      "pregunta": "Qual é o comprimento da ponte?",
+      "respuesta": "Aproximadamente 28 metros."
+    },
+    {
+      "pregunta": "Por que é chamada de última ponte inca?",
+      "respuesta": "Porque mantém viva a tradição inca das pontes suspensas de fibra vegetal."
+    },
+    {
+      "pregunta": "A alimentação está incluída?",
+      "respuesta": "Sim, a alimentação indicada no programa está incluída."
+    },
+    {
+      "pregunta": "O ingresso está incluído?",
+      "respuesta": "Não, o ingresso é pago separadamente."
+    },
+    {
+      "pregunta": "Qual é a dificuldade?",
+      "respuesta": "Moderada, combinando transporte e caminhadas curtas em altitude."
+    },
+    {
+      "pregunta": "O que devo levar?",
+      "respuesta": "Roupa quente, calçado confortável, proteção contra chuva e sol, água, dinheiro e documento."
+    },
+    {
+      "pregunta": "Pode ser visitada o ano todo?",
+      "respuesta": "Sim, dependendo das condições climáticas e operacionais."
+    },
+    {
+      "pregunta": "Preciso reservar antes?",
+      "respuesta": "Sim, recomendamos reservar com antecedência."
+    }
+  ],
+  "tours_relacionados": [],
+  "brochure": "",
+  "map": "mapa-qeswachaka-es.jpg",
+  "video": "",
+  "categories": {
+    "grupal": {
+      "titulo": "Q’ESWACHAKA – SERVIÇO EM GRUPO",
+      "precio": "",
+      "descripcion": "Excursão compartilhada de dia inteiro saindo de Cusco com transporte, alimentação e guia.",
+      "nota": "Consulte o preço por pessoa. Ingresso não incluído.",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "Q’ESWACHAKA – SERVIÇO PRIVADO",
+      "precio": "",
+      "descripcion": "Excursão privada com transporte e guia exclusivos.",
+      "nota": "Consulte o preço por pessoa. Ingresso não incluído.",
+      "descuento": 0
+    }
+  }
 }

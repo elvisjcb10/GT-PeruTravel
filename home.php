@@ -103,7 +103,7 @@
             <div class="relative reveal-left">
                 <img src="<?= $base_url . $about_text['img'] ?>"
                     alt="<?= $about_text['title_primary'] . ' ' . $about_text['title_secondary'] ?>"
-                    class="w-full h-[280px] sm:h-[360px] md:h-[480px] object-cover object-bottom rounded-2xl shadow-lg">
+                    class="home-about-image w-full h-[280px] sm:h-[360px] md:h-[480px] object-cover object-bottom rounded-2xl shadow-lg">
 
                 <div class="absolute -bottom-5 right-4 sm:-bottom-6 sm:right-6 md:right-10 w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 bg-orange-custom rounded-full flex flex-col items-center justify-center text-white text-center shadow-lg">
                     <span class="text-xl sm:text-3xl md:text-4xl font-anton leading-none"><?= $about_text['años']['numero'] ?>+</span>
@@ -542,18 +542,12 @@
         <!-- ************************
         carrusel paquetes mas populares
     *********************** -->
-    <?php
-    $promo_packages = array_filter($cards, function ($p) {
-        return isset($p['promo']['active']) && $p['promo']['active'] === true;
-    });
-    ?>
-
     <div class="container-custom mx-auto px-5 pb-12 sm:px-8 sm:pb-16 md:px-20 md:pb-20 reveal">
         <div class="swiper-outer">
             <div class="auto-swiper relative" data-desktop="3" data-tablet="2" data-mobile="1" data-gap-mobile="16" data-gap-tablet="20" data-gap-desktop="24">
                 <div class="swiper-wrapper">
 
-                    <?php foreach ($promo_packages as $p) : ?>
+                    <?php foreach ($cards as $p) : ?>
                         <div class="swiper-slide h-auto">
 
                             <a href="<?= route_path('paquete', $idioma ?? $lang, (string)($p['url'])) ?>"
@@ -881,14 +875,14 @@
 
                 <!-- LADO DERECHO: CARRUSEL DE TESTIMONIOS -->
                 <div class="md:col-span-9 reveal-right">
-                    <div class="swiper mySwiper relative">
+                    <div class="testimonial-swiper swiper mySwiper relative">
                         <div class="swiper-wrapper">
 
                             <?php foreach ($trip_text['slides'] as $slide): ?>
                                 <div class="swiper-slide h-auto">
                                     <a href="<?= $slide['review_url'] ?? 'https://www.tripadvisor.com/Attraction_Review-g294314-d19390237-Reviews-GT_PERU_TRAVEL-Cusco_Cusco_Region.html' ?>"
                                     target="_blank" rel="noopener"
-                                    class="group block bg-white border border-gray-200 hover:border-[#00AF87] rounded-2xl shadow-sm hover:shadow-md p-5 sm:p-6 h-full flex flex-col transition-all duration-300">
+                                    class="testimonial-card group block bg-white border border-gray-200 hover:border-[#00AF87] rounded-2xl shadow-sm hover:shadow-md p-5 sm:p-6 h-full flex flex-col transition-all duration-300">
 
                                         <!-- ESTRELLAS + LOGO -->
                                         <div class="flex justify-between items-center mb-2 sm:mb-3">
@@ -1039,13 +1033,13 @@
 
             <!-- CARRUSEL DE POSTS -->
             <div class="swiper-outer reveal">
-                <div class="auto-swiper relative" data-desktop="3" data-tablet="2" data-mobile="1" data-gap-mobile="16" data-gap-tablet="20" data-gap-desktop="24">
+                <div class="home-blog-swiper auto-swiper relative" data-desktop="3" data-tablet="2" data-mobile="1" data-gap-mobile="16" data-gap-tablet="20" data-gap-desktop="24">
                     <div class="swiper-wrapper">
 
                         <?php foreach ($blog_posts as $post): ?>
                             <div class="swiper-slide h-auto">
-                                <a href="<?= route_static_path('blog', $idioma) ?>#<?= urlencode($post['url']) ?>"
-                                class="block bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full">
+                                <a href="<?= route_path('blog', $idioma, (string)$post['url']) ?>"
+                                class="home-blog-card block bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full">
 
                                     <!-- IMAGEN -->
                                     <div class="h-52 sm:h-64 md:h-80 w-full overflow-hidden">
@@ -1055,7 +1049,7 @@
                                     </div>
 
                                     <!-- CONTENIDO -->
-                                    <div class="p-4">
+                                    <div class="home-blog-card__content p-4">
 
                                         <p class="text-orange-custom text-xs font-bold font-poppins uppercase tracking-wide mb-2">
                                             <?= $post['categoria'] ?>
@@ -1069,7 +1063,7 @@
                                             <?= $post['descripcion'] ?>
                                         </p>
 
-                                        <span class="inline-flex items-center gap-1.5 text-orange-custom text-xs sm:text-sm font-bold font-poppins">
+                                        <span class="home-blog-card__link inline-flex items-center gap-1.5 text-orange-custom text-xs sm:text-sm font-bold font-poppins">
                                             <?= $post['link_text'] ?>
                                             <i class="fa-solid fa-arrow-right text-xs"></i>
                                         </span>

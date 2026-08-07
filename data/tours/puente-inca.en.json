@@ -1,54 +1,197 @@
 {
-    "title": "Inca Bridge Qeswachaka",
-    "short_description": "An essential tour to discover one of Cusco’s most unique cultural wonders.",
-    "long_description": "<b>MORNING: 04:30 AM – ENDS 18:00 PM</b><br>Discover the last Inca suspension bridge still handwoven today: Q’eswachaka. A unique cultural experience that connects tradition, living history, and the stunning landscapes of southern Cusco.",
-    "duration": "1 Day",
-    "image_cover": "../tours/puente-inca-qeswachaka-card.jpg",
-    "gallery": ["montana1.jpg", "montana2.jpg"],
-    "price": "90",
-    "price_note": "Includes transportation, entrance tickets, and professional guide.",
-
-    "seo_title": "Q’eswachaka Inca Bridge Tour - Full Day in Cusco | GT Peru Travel",
-    "seo_description": "Discover the Q’eswachaka Inca Bridge, the last traditional handwoven Inca suspension bridge. Full-day tour from Cusco including transport, entrance tickets, and professional guide.",
-    "seo_keywords": "qeswachaka inca bridge, qeswachaca, inca suspension bridge, qeswachaka tour full day, cusco tours, andean culture, peru travel, gt peru travel",
-
-    "days": [{
-        "title": "Day 1",
-        "text": "We will leave early from Cusco toward the province of Canas, passing through beautiful Andean landscapes, highland lagoons, and traditional villages. Upon arriving at Q’eswachaka, you will admire the suspension bridge, over 28 meters long, hanging above the Apurímac River—a place full of history, symbolism, and energy. You will have time to explore the surroundings, take unforgettable photos, and learn more about Andean worldview and the cultural value of this heritage. An ideal experience for travelers seeking to connect with the living tradition of the Andes."
-    }],
-
-    "brochure": "",
-    "map": "",
-    "video": "",
-
-    "categories": {
-        "tour": {
-            "titulo": "INCA BRIDGE QESWACHAKA - BASIC",
-            "precio": "90",
-            "descripcion": "Classic option with standard transportation.",
-            "nota": "Includes transfers and professional guide",
-            "descuento": 0
-        },
-        "confort": {
-            "titulo": "INCA BRIDGE QESWACHAKA - COMFORT",
-            "precio": "130",
-            "descripcion": "Includes superior transportation and buffet lunch.",
-            "nota": "Includes transfers, 2 ★★ service and guided visits",
-            "descuento": 0
-        },
-        "premium": {
-            "titulo": "INCA BRIDGE QESWACHAKA - PREMIUM",
-            "precio": "150",
-            "descripcion": "Includes superior transportation and buffet lunch.",
-            "nota": "Includes transfers, 3 ★★★ service and guided visits",
-            "descuento": 0
-        },
-        "elite": {
-            "titulo": "INCA BRIDGE QESWACHAKA - ELITE",
-            "precio": "180",
-            "descripcion": "Includes superior transportation and buffet lunch.",
-            "nota": "Includes transfers, 4 ★★★★ service and guided visits",
-            "descuento": 0
-        }
+  "title": "Q’eswachaka Inca Bridge Full-Day Tour",
+  "short_description": "Discover Q’eswachaka, the last handwoven Inca bridge, on a full-day journey from Cusco filled with living culture, history and southern Andean scenery.",
+  "long_description": "Discover <strong>Q’eswachaka</strong>, the last Inca bridge preserving the ancestral art of weaving plant fibers. Travel from <strong>Cusco</strong> to <strong>Canas Province</strong> through traditional high-Andean landscapes. See the approximately <strong>28-meter-long</strong> bridge suspended above the Apurímac River and renewed by local communities using knowledge passed down for generations.",
+  "duration": "1 Day",
+  "image_cover": "qeswachaka/hero.jpg",
+  "gallery": [
+    "qeswachaka/galeria-01.jpg",
+    "qeswachaka/galeria-02.jpg",
+    "qeswachaka/galeria-03.jpg"
+  ],
+  "price": "",
+  "price_note": "Price per person. Ask about rates and availability.",
+  "seo_title": "Q’eswachaka Inca Bridge Full-Day Tour from Cusco | GT Peru Travel",
+  "seo_description": "Visit Q’eswachaka, the last handwoven Inca bridge, on a full-day tour from Cusco with transportation, meals and a professional guide.",
+  "seo_keywords": "qeswachaka, q'eswachaka, Inca bridge, puente inca, Canas Cusco, Apurimac, tours Cusco",
+  "resumen": {
+    "ubicacion": "Canas Province, Cusco Region, Peru",
+    "lugar_recojo": "Cusco",
+    "lugar_finalizacion": "Cusco",
+    "idiomas": [
+      "English",
+      "Spanish"
+    ],
+    "transporte": [
+      "Round-trip tourist transportation from Cusco"
+    ],
+    "alimentacion": "Included",
+    "alojamiento": "Not included",
+    "altitud": "3,700 m s. n. m."
+  },
+  "caracteristicas": [
+    {
+      "icono": "fa-person-hiking",
+      "label": "Dificultad",
+      "valor": "Moderate"
+    },
+    {
+      "icono": "fa-clock",
+      "label": "Duration",
+      "valor": "Full Day"
+    },
+    {
+      "icono": "fa-people-group",
+      "label": "Service",
+      "valor": "Group / Private"
+    },
+    {
+      "icono": "fa-mountain",
+      "label": "Altitud Máxima",
+      "valor": "3,700 m s. n. m."
     }
+  ],
+  "actividades": [
+    "Early departure from Cusco",
+    "Scenic drive to Canas Province",
+    "High-Andean landscapes and communities",
+    "Visit to Q’eswachaka Inca Bridge",
+    "Historical and cultural interpretation",
+    "Views of the Apurímac River canyon",
+    "Free time for photos",
+    "Return to Cusco"
+  ],
+  "days": [
+    {
+      "title": "Day 1: Cusco – Q’eswachaka – Cusco",
+      "lugar": "Cusco → Canas Province → Q’eswachaka → Cusco",
+      "text": "Depart early from <strong>Cusco</strong> for <strong>Canas Province</strong>, crossing Andean landscapes and traditional communities. Visit the <strong>Q’eswachaka Inca Bridge</strong>, an approximately 28-meter suspension bridge woven from plant fibers above the Apurímac River. Your guide explains its history, symbolism and communal renewal. Explore the surroundings and take photos before returning to Cusco."
+    }
+  ],
+  "includes": [
+    "Round-trip tourist transportation from Cusco",
+    "Meals during the excursion",
+    "Professional guide",
+    "Assistance throughout the tour"
+  ],
+  "not_includes": [
+    "Q’eswachaka entrance ticket",
+    "Additional drinks",
+    "Personal expenses",
+    "Tips",
+    "Travel insurance",
+    "Services not mentioned"
+  ],
+  "recommendations": [
+    {
+      "img": "pasaporte.webp",
+      "nombre": "ID or passport"
+    },
+    {
+      "img": "calzado-trekking.webp",
+      "nombre": "Comfortable walking shoes"
+    },
+    {
+      "img": "casaca-impermeable.webp",
+      "nombre": "Waterproof jacket and warm layers"
+    },
+    {
+      "img": "poncho-lluvia.webp",
+      "nombre": "Rain poncho"
+    },
+    {
+      "img": "bloqueador.webp",
+      "nombre": "Sunscreen and sunglasses"
+    },
+    {
+      "img": "botella-agua.webp",
+      "nombre": "Water in a reusable bottle"
+    },
+    {
+      "img": "sombrero.webp",
+      "nombre": "Hat or cap"
+    },
+    {
+      "img": "mochila.webp",
+      "nombre": "Small backpack"
+    }
+  ],
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Rest well the night before",
+      "Wear comfortable warm layers",
+      "Use suitable walking shoes",
+      "Bring sunscreen and sunglasses",
+      "Carry rain protection in the rainy season",
+      "Stay hydrated",
+      "Bring cash for admission",
+      "Respect your guide and local communities"
+    ]
+  },
+  "faq": [
+    {
+      "pregunta": "What is Q’eswachaka?",
+      "respuesta": "It is an Inca suspension bridge woven from plant fibers using techniques preserved by local communities."
+    },
+    {
+      "pregunta": "Where is it located?",
+      "respuesta": "In Canas Province, Cusco Region, above the Apurímac River."
+    },
+    {
+      "pregunta": "How long is the tour?",
+      "respuesta": "It is a full-day excursion, departing before dawn and returning in the afternoon."
+    },
+    {
+      "pregunta": "How long is the bridge?",
+      "respuesta": "It is approximately 28 meters long."
+    },
+    {
+      "pregunta": "Why is it called the last Inca bridge?",
+      "respuesta": "Because it keeps the Inca tradition of plant-fiber suspension bridges alive."
+    },
+    {
+      "pregunta": "Are meals included?",
+      "respuesta": "Yes, the meals specified in the program are included."
+    },
+    {
+      "pregunta": "Is admission included?",
+      "respuesta": "No, the entrance ticket is paid separately."
+    },
+    {
+      "pregunta": "How difficult is the tour?",
+      "respuesta": "Moderate, combining transportation with short walks at high altitude."
+    },
+    {
+      "pregunta": "What should I bring?",
+      "respuesta": "Warm clothing, comfortable shoes, rain protection, sun protection, water, cash and ID."
+    },
+    {
+      "pregunta": "Can I visit year-round?",
+      "respuesta": "Yes, subject to weather and operating conditions."
+    },
+    {
+      "pregunta": "Should I book ahead?",
+      "respuesta": "Yes, advance booking is recommended."
+    }
+  ],
+  "tours_relacionados": [],
+  "brochure": "",
+  "map": "mapa-qeswachaka-es.jpg",
+  "video": "",
+  "categories": {
+    "grupal": {
+      "titulo": "Q’ESWACHAKA – GROUP SERVICE",
+      "precio": "",
+      "descripcion": "Shared full-day excursion from Cusco with transportation, meals and guide.",
+      "nota": "Ask for the price per person. Entrance ticket not included.",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "Q’ESWACHAKA – PRIVATE SERVICE",
+      "precio": "",
+      "descripcion": "Private excursion with exclusive transportation and guide.",
+      "nota": "Ask for the price per person. Entrance ticket not included.",
+      "descuento": 0
+    }
+  }
 }

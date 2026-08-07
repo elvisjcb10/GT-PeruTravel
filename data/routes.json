@@ -22,7 +22,11 @@
           "puente-inca-qeswachaka": "puente-inca",
           "parque-nacional-del-manu-2": "short-inca-trail",
           "valle-sagrado": "valle-sagrado",
-          "tour-super-valle-sagrado": "super-valle-sagrado"
+          "tour-super-valle-sagrado": "super-valle-sagrado",
+          "chullpas-de-sillustani-desde-puno": "sillustani",
+          "city-tour-peatonal-arequipa": "arequipa-colonial",
+          "canon-del-colca-trekking-2-dias": "trekking-colca",
+          "tour-salinas-y-aguada-blanca": "salinas-aguada-blanca"
         },
         "internal_to_public": {
           "CZ-cusco-city": "city-tour-cusco-medio-dia",
@@ -43,7 +47,11 @@
           "puente-inca": "puente-inca-qeswachaka",
           "short-inca-trail": "parque-nacional-del-manu-2",
           "valle-sagrado": "valle-sagrado",
-          "super-valle-sagrado": "tour-super-valle-sagrado"
+          "super-valle-sagrado": "tour-super-valle-sagrado",
+          "sillustani": "chullpas-de-sillustani-desde-puno",
+          "arequipa-colonial": "city-tour-peatonal-arequipa",
+          "trekking-colca": "canon-del-colca-trekking-2-dias",
+          "salinas-aguada-blanca": "tour-salinas-y-aguada-blanca"
         }
       },
       "en": {
@@ -66,7 +74,11 @@
           "inca-bridge-qeswachaka": "puente-inca",
           "manu-national-park-2": "short-inca-trail",
           "sacred-valley": "valle-sagrado",
-          "super-sacred-valley-tour": "super-valle-sagrado"
+          "super-sacred-valley-tour": "super-valle-sagrado",
+          "sillustani-burial-towers-tour-from-puno": "sillustani",
+          "arequipa-walking-city-tour": "arequipa-colonial",
+          "colca-canyon-trek-2-days": "trekking-colca",
+          "salinas-and-aguada-blanca-tour": "salinas-aguada-blanca"
         },
         "internal_to_public": {
           "CZ-cusco-city": "cusco-city-tour-half-day",
@@ -87,7 +99,11 @@
           "puente-inca": "inca-bridge-qeswachaka",
           "short-inca-trail": "manu-national-park-2",
           "valle-sagrado": "sacred-valley",
-          "super-valle-sagrado": "super-sacred-valley-tour"
+          "super-valle-sagrado": "super-sacred-valley-tour",
+          "sillustani": "sillustani-burial-towers-tour-from-puno",
+          "arequipa-colonial": "arequipa-walking-city-tour",
+          "trekking-colca": "colca-canyon-trek-2-days",
+          "salinas-aguada-blanca": "salinas-and-aguada-blanca-tour"
         }
       },
       "pt": {
@@ -110,7 +126,11 @@
           "ponte-inca-qeswachaka": "puente-inca",
           "parque-nacional-manu": "short-inca-trail",
           "vale-sagrado": "valle-sagrado",
-          "tour-super-vale-sagrado": "super-valle-sagrado"
+          "tour-super-vale-sagrado": "super-valle-sagrado",
+          "chullpas-de-sillustani-saindo-de-puno": "sillustani",
+          "city-tour-a-pe-em-arequipa": "arequipa-colonial",
+          "trekking-canion-do-colca-2-dias": "trekking-colca",
+          "tour-salinas-e-aguada-blanca": "salinas-aguada-blanca"
         },
         "internal_to_public": {
           "CZ-cusco-city": "city-tour-em-cusco-meio-dia",
@@ -131,7 +151,11 @@
           "puente-inca": "ponte-inca-qeswachaka",
           "short-inca-trail": "parque-nacional-manu",
           "valle-sagrado": "vale-sagrado",
-          "super-valle-sagrado": "tour-super-vale-sagrado"
+          "super-valle-sagrado": "tour-super-vale-sagrado",
+          "sillustani": "chullpas-de-sillustani-saindo-de-puno",
+          "arequipa-colonial": "city-tour-a-pe-em-arequipa",
+          "trekking-colca": "trekking-canion-do-colca-2-dias",
+          "salinas-aguada-blanca": "tour-salinas-e-aguada-blanca"
         }
       }
     },

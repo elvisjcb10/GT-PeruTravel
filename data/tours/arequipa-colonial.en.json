@@ -1,0 +1,189 @@
+{
+  "title": "Arequipa Walking City Tour",
+  "short_description": "Discover Arequipa's Historic Center on an approximately 4-hour walking tour through its squares, colonial architecture and major cultural attractions.",
+  "long_description": "Walk through the <strong>Historic Center of Arequipa</strong> to discover the history, architecture and culture of the White City. Visit the <strong>Plaza de Armas</strong>, its arcades, white volcanic-stone buildings and the renowned <strong>Santa Catalina Monastery</strong>. A relaxed and engaging cultural experience.",
+  "duration": "4 Hours",
+  "image_cover": "city-tour-arequipa/hero.jpg",
+  "gallery": [],
+  "price": "",
+  "price_note": "Price per person. Ask about rates and availability.",
+  "seo_title": "Arequipa Walking City Tour | Historic Center | GT Peru Travel",
+  "seo_description": "Discover Arequipa on a 4-hour walking tour of Plaza de Armas, Santa Catalina and the Historic Center.",
+  "seo_keywords": "city tour Arequipa, walking tour Arequipa, historic center, Plaza de Armas, Santa Catalina, White City Peru",
+  "resumen": {
+    "ubicacion": "Historic Center of Arequipa, Peru",
+    "lugar_recojo": "Hotel in Arequipa",
+    "lugar_finalizacion": "Historic Center of Arequipa",
+    "idiomas": [
+      "English",
+      "Spanish"
+    ],
+    "transporte": [
+      "Tourist transportation as specified"
+    ],
+    "alimentacion": "Not included",
+    "alojamiento": "Not included",
+    "altitud": "2,335 m s. n. m."
+  },
+  "caracteristicas": [
+    {
+      "icono": "fa-person-walking",
+      "label": "Dificultad",
+      "valor": "Easy"
+    },
+    {
+      "icono": "fa-clock",
+      "label": "Duration",
+      "valor": "4 Hours"
+    },
+    {
+      "icono": "fa-people-group",
+      "label": "Service",
+      "valor": "Group / Private"
+    },
+    {
+      "icono": "fa-city",
+      "label": "Tour Type",
+      "valor": "Cultural / Walking"
+    }
+  ],
+  "actividades": [
+    "Hotel pickup in Arequipa",
+    "Walking tour of the Historic Center",
+    "Visit to Plaza de Armas",
+    "Colonial architecture and sillar buildings",
+    "Visit to Santa Catalina Monastery",
+    "Historical and cultural interpretation",
+    "Traditional White City streets",
+    "Time for photos"
+  ],
+  "days": [
+    {
+      "title": "Day 1: Arequipa Walking City Tour",
+      "lugar": "Historic Center of Arequipa",
+      "text": "Begin with hotel pickup and walk through the <strong>Historic Center of Arequipa</strong>. Visit the emblematic <strong>Plaza de Armas</strong>, its arcades and sillar buildings. Continue to <strong>Santa Catalina Monastery</strong> and other colonial spaces while your guide shares the history and identity of the White City. The tour ends after approximately four hours."
+    }
+  ],
+  "includes": [
+    "Hotel pickup in Arequipa",
+    "Tourist transportation as specified",
+    "Professional guide",
+    "Admissions specified in the program",
+    "Assistance during the tour"
+  ],
+  "not_includes": [
+    "Meals",
+    "Additional drinks",
+    "Personal expenses",
+    "Tips",
+    "Travel insurance",
+    "Services not mentioned"
+  ],
+  "recommendations": [
+    {
+      "img": "pasaporte.webp",
+      "nombre": "ID or passport"
+    },
+    {
+      "img": "calzado-trekking.webp",
+      "nombre": "Comfortable walking shoes"
+    },
+    {
+      "img": "bloqueador.webp",
+      "nombre": "Sunscreen and sunglasses"
+    },
+    {
+      "img": "sombrero.webp",
+      "nombre": "Hat or cap"
+    },
+    {
+      "img": "botella-agua.webp",
+      "nombre": "Water in a reusable bottle"
+    },
+    {
+      "img": "camara.webp",
+      "nombre": "Camera or phone"
+    },
+    {
+      "img": "casaca-impermeable.webp",
+      "nombre": "Light or waterproof jacket"
+    },
+    {
+      "img": "mochila.webp",
+      "nombre": "Small backpack"
+    }
+  ],
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Wear comfortable shoes",
+      "Bring sunscreen and sunglasses",
+      "Stay hydrated",
+      "Carry a light jacket",
+      "Bring some cash",
+      "Follow rules in monuments and religious sites",
+      "Be on time for pickup"
+    ]
+  },
+  "faq": [
+    {
+      "pregunta": "How long is the tour?",
+      "respuesta": "Approximately 4 hours."
+    },
+    {
+      "pregunta": "What places are visited?",
+      "respuesta": "The Historic Center, Plaza de Armas, traditional streets, sillar buildings and Santa Catalina."
+    },
+    {
+      "pregunta": "Is Santa Catalina included?",
+      "respuesta": "Yes, it is part of the itinerary."
+    },
+    {
+      "pregunta": "Are admissions included?",
+      "respuesta": "Yes, admissions specified in the program are included."
+    },
+    {
+      "pregunta": "Are meals included?",
+      "respuesta": "No."
+    },
+    {
+      "pregunta": "Is it entirely on foot?",
+      "respuesta": "The main route is on foot, with transfers when required."
+    },
+    {
+      "pregunta": "How difficult is it?",
+      "respuesta": "Easy, as it is an urban cultural walk."
+    },
+    {
+      "pregunta": "What should I bring?",
+      "respuesta": "Comfortable shoes, sun protection, water and ID."
+    },
+    {
+      "pregunta": "Can it be private?",
+      "respuesta": "Yes, subject to availability and quotation."
+    },
+    {
+      "pregunta": "Why is Arequipa called the White City?",
+      "respuesta": "Because of the light-colored volcanic stone used in its historic buildings."
+    }
+  ],
+  "tours_relacionados": [],
+  "brochure": "",
+  "map": "",
+  "video": "",
+  "categories": {
+    "grupal": {
+      "titulo": "AREQUIPA CITY TOUR – GROUP SERVICE",
+      "precio": "",
+      "descripcion": "Four-hour cultural tour with transport, guide and admissions.",
+      "nota": "Ask for the price. Meals not included.",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "AREQUIPA CITY TOUR – PRIVATE SERVICE",
+      "precio": "",
+      "descripcion": "Private tour of Arequipa's main historic attractions with an exclusive guide.",
+      "nota": "Price depends on group size.",
+      "descuento": 0
+    }
+  }
+}

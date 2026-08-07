@@ -4,24 +4,19 @@
     "title": "Testimonial Videos",
     "videos": [
         {
-            "thumbnail": "/images/videos/1.webp",
-            "video_url": "https://youtu.be/b0DtwUq386Y",
-            "titulo": "Urubamba River"
+            "thumbnail": "/images/videos/testimonial-7TeJQIeqSM.jpg",
+            "video_url": "https://youtu.be/-7TeJQIeqSM",
+            "titulo": "Traveler testimonial 1"
         },
         {
-            "thumbnail": "/images/videos/1.webp",
-            "video_url": "https://www.youtube.com/watch?v=XXXXXXXXX",
-            "titulo": "Lake Titicaca"
+            "thumbnail": "/images/videos/testimonial-4lTWgy44jSQ.jpg",
+            "video_url": "https://youtu.be/4lTWgy44jSQ",
+            "titulo": "Traveler testimonial 2"
         },
         {
-            "thumbnail": "/images/videos/1.webp",
-            "video_url": "https://www.youtube.com/watch?v=XXXXXXXXX",
-            "titulo": "Plaza de Armas Cusco"
-        },
-        {
-            "thumbnail": "/images/videos/1.webp",
-            "video_url": "https://www.youtube.com/watch?v=XXXXXXXXX",
-            "titulo": "Plaza de Armas Cusco"
+            "thumbnail": "/images/videos/testimonial-ctmVjdorgHI.jpg",
+            "video_url": "https://youtu.be/ctmVjdorgHI",
+            "titulo": "Traveler testimonial 3"
         }
     ]
 }

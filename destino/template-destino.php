@@ -208,6 +208,21 @@ $hero_text = json_decode($hero, true);
                         $tipo_ficha = route_public_slug('paquete', $idioma, (string)$t['url']) !== null ? 'paquete' : 'tour';
                     }
                     $url_ficha = route_path($tipo_ficha, $idioma, (string)$t['url']);
+                    $es_paquete = ($t['tipo'] ?? ($destino_slug === 'paquete-peru' ? 'paquete' : 'tour')) === 'paquete';
+                    $image_relative = ltrim(str_replace('\\', '/', (string)($t['image'] ?? '')), '/');
+                    $valid_image_path = $image_relative !== ''
+                        && preg_match('~\A[a-zA-Z0-9._/-]+\z~D', $image_relative)
+                        && !preg_match('~(?:^|/)\.\.(?:/|$)~', $image_relative);
+
+                    if ($valid_image_path && $es_paquete && strpos($image_relative, '/') === false) {
+                        $image_relative = 'paquetes/' . $image_relative;
+                    }
+
+                    $image_file = $valid_image_path ? __DIR__ . '/../images/' . $image_relative : '';
+                    if (!$valid_image_path || !is_file($image_file)) {
+                        $image_relative = $es_paquete ? 'paquetes/template-image-tour.jpg' : 'img-prueba-1.png';
+                    }
+                    $card_image = $base_url . '/images/' . $image_relative;
                 ?>
                 <div class="tour-card bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300"
                     data-categoria="<?= $t['categoria'] ?>">
@@ -217,8 +232,9 @@ $hero_text = json_decode($hero, true);
 
                         <!-- IMAGEN -->
                         <div class="relative h-72 md:h-80 w-full overflow-hidden px-1 pt-1">
-                            <img src="<?= $base_url ?>/images/<?= $t['image'] ?>"
-                                alt="<?= $t['title'] ?>"
+                            <img src="<?= htmlspecialchars($card_image) ?>"
+                                alt="<?= htmlspecialchars($t['title']) ?>"
+                                loading="lazy" decoding="async"
                                 class="w-full h-full object-cover rounded-lg shadow-md">
                         </div>
 

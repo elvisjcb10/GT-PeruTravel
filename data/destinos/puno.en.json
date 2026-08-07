@@ -1,5 +1,5 @@
 {
-    "background": "/images/destinos/puno/puno.webp",
+    "background": "/images/destinos/puno/hero-puno.jpg",
     "badge": "Destination",
     "titulo": "Tours in Puno",
     "descripcion": "Sail Lake Titicaca, the highest navigable lake in the world, and meet the living communities of the Uros, Taquile and Amantaní.",
@@ -67,13 +67,13 @@
             "categoria": "traditional"
         },
         {
-            "title": "Sillustani Full Day",
-            "description": "Explore the imposing pre-Inca funerary chullpas of Sillustani, overlooking Lake Umayo.",
-            "price": "35",
-            "duracion": "1Day / 0Nights",
-            "image": "sillustani.jpg",
+            "title": "Sillustani Burial Towers Tour from Puno",
+            "description": "Discover the monumental burial towers and Umayo Lagoon scenery on a cultural half-day trip from Puno.",
+            "price": "0",
+            "duracion": "Half Day",
+            "image": "tours/sillustani/hero.jpg",
             "url": "sillustani",
-            "categoria": "hike"
+            "categoria": "traditional"
         },
         {
             "title": "Titicaca 2 Days 1 Night",

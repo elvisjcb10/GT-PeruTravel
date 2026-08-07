@@ -1,0 +1,196 @@
+{
+  "title": "Tour Salinas y Aguada Blanca Full Day",
+  "short_description": "Explora la Reserva Nacional de Salinas y Aguada Blanca desde Arequipa, rodeado de volcanes, lagunas, salares, vicuñas, alpacas y flamencos.",
+  "long_description": "Descubre la <strong>Reserva Nacional de Salinas y Aguada Blanca</strong>, uno de los escenarios naturales más espectaculares de Arequipa. Recorre paisajes altoandinos junto a los volcanes <strong>Misti, Chachani y Pichu Pichu</strong>, observa vicuñas, llamas, alpacas y aves, y conoce las <strong>Lagunas de Salinas</strong>. Una experiencia ideal para amantes de la naturaleza, fotografía y fauna andina.",
+  "duration": "Full Day",
+  "image_cover": "salinas-aguada-blanca/hero.jpg",
+  "gallery": [],
+  "price": "",
+  "price_note": "Precio por persona. Consultar tarifa y disponibilidad.",
+  "seo_title": "Tour Salinas y Aguada Blanca desde Arequipa | GT Peru Travel",
+  "seo_description": "Visita Salinas y Aguada Blanca desde Arequipa: lagunas, salares, volcanes, vicuñas, alpacas y flamencos en un Full Day.",
+  "seo_keywords": "Salinas y Aguada Blanca, Arequipa reserve, Salinas Lagoons, vicunas, flamingos, Misti volcano",
+  "resumen": {
+    "ubicacion": "Reserva Nacional de Salinas y Aguada Blanca, Arequipa, Perú",
+    "lugar_recojo": "Hotel en Arequipa",
+    "lugar_finalizacion": "Arequipa",
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "transporte": [
+      "Transporte turístico terrestre de ida y vuelta"
+    ],
+    "alimentacion": "No incluye",
+    "alojamiento": "No incluye",
+    "altitud": "Hasta 4,300 m s. n. m."
+  },
+  "caracteristicas": [
+    {
+      "icono": "fa-person-walking",
+      "label": "Dificultad",
+      "valor": "Moderada"
+    },
+    {
+      "icono": "fa-clock",
+      "label": "Duración",
+      "valor": "Full Day"
+    },
+    {
+      "icono": "fa-people-group",
+      "label": "Servicio",
+      "valor": "Grupal / Privado"
+    },
+    {
+      "icono": "fa-leaf",
+      "label": "Tipo de Tour",
+      "valor": "Naturaleza / Paisajístico"
+    }
+  ],
+  "actividades": [
+    "Salida desde Arequipa",
+    "Paisajes altoandinos",
+    "Reserva Nacional de Salinas y Aguada Blanca",
+    "Vistas de Misti, Chachani y Pichu Pichu",
+    "Lagunas de Salinas",
+    "Observación de vicuñas, llamas y alpacas",
+    "Flamencos según temporada",
+    "Comunidades locales y fotografías",
+    "Retorno a Arequipa"
+  ],
+  "days": [
+    {
+      "title": "Día 1: Arequipa – Salinas y Aguada Blanca – Arequipa",
+      "lugar": "Arequipa → Reserva Nacional de Salinas y Aguada Blanca → Arequipa",
+      "text": "Partiremos aproximadamente a las <strong>06:00</strong> desde Arequipa hacia la <strong>Reserva Nacional de Salinas y Aguada Blanca</strong>. Disfrutaremos paisajes junto a los volcanes Misti, Chachani y Pichu Pichu, observaremos fauna andina y visitaremos las <strong>Lagunas de Salinas</strong>. Según la temporada podremos ver flamencos. Tras conocer comunidades y disponer de tiempo para fotografías, regresaremos a Arequipa cerca de las 17:00."
+    }
+  ],
+  "includes": [
+    "Recojo desde el hotel en Arequipa",
+    "Transporte turístico de ida y vuelta",
+    "Guía profesional",
+    "Ingresos contemplados en el programa",
+    "Asistencia durante el recorrido"
+  ],
+  "not_includes": [
+    "Alimentación",
+    "Bebidas adicionales",
+    "Gastos personales",
+    "Propinas",
+    "Seguro de viaje",
+    "Servicios no mencionados"
+  ],
+  "recommendations": [
+    {
+      "img": "pasaporte.webp",
+      "nombre": "Documento de identidad o pasaporte"
+    },
+    {
+      "img": "calzado-trekking.webp",
+      "nombre": "Calzado cómodo"
+    },
+    {
+      "img": "casaca-impermeable.webp",
+      "nombre": "Casaca impermeable y ropa abrigadora"
+    },
+    {
+      "img": "bloqueador.webp",
+      "nombre": "Protector solar y lentes de sol"
+    },
+    {
+      "img": "sombrero.webp",
+      "nombre": "Sombrero o gorra"
+    },
+    {
+      "img": "botella-agua.webp",
+      "nombre": "Agua en botella reutilizable"
+    },
+    {
+      "img": "snacks.webp",
+      "nombre": "Snacks para el recorrido"
+    },
+    {
+      "img": "mochila.webp",
+      "nombre": "Mochila pequeña"
+    }
+  ],
+  "recomendaciones_generales": {
+    "antes_de_viajar": [
+      "Llevar ropa abrigadora en capas",
+      "Usar calzado cómodo",
+      "Llevar protección solar",
+      "Mantenerse hidratado",
+      "Llevar snacks porque no incluye alimentación",
+      "Llevar impermeable en lluvias",
+      "Llevar dinero en efectivo",
+      "No alimentar animales silvestres",
+      "Respetar las normas de la reserva"
+    ]
+  },
+  "faq": [
+    {
+      "pregunta": "¿Cuánto dura el tour?",
+      "respuesta": "Es un Full Day, aproximadamente de 06:00 a 17:00."
+    },
+    {
+      "pregunta": "¿Dónde está la reserva?",
+      "respuesta": "En el sur del Perú, cerca de Arequipa."
+    },
+    {
+      "pregunta": "¿Qué lugares se visitan?",
+      "respuesta": "La reserva, Lagunas de Salinas y paisajes con vistas volcánicas."
+    },
+    {
+      "pregunta": "¿Qué animales se observan?",
+      "respuesta": "Vicuñas, llamas, alpacas y aves; los flamencos dependen de la temporada."
+    },
+    {
+      "pregunta": "¿Hay flamencos todo el año?",
+      "respuesta": "Su presencia varía según la temporada y las condiciones naturales."
+    },
+    {
+      "pregunta": "¿Los ingresos están incluidos?",
+      "respuesta": "Sí, los contemplados en el programa."
+    },
+    {
+      "pregunta": "¿Incluye alimentación?",
+      "respuesta": "No."
+    },
+    {
+      "pregunta": "¿Qué dificultad tiene?",
+      "respuesta": "Moderada principalmente por la altitud."
+    },
+    {
+      "pregunta": "¿Qué debo llevar?",
+      "respuesta": "Ropa abrigadora, calzado cómodo, protección solar, agua y snacks."
+    },
+    {
+      "pregunta": "¿Sale desde Arequipa?",
+      "respuesta": "Sí, con retorno a la ciudad."
+    },
+    {
+      "pregunta": "¿Puede ser privado?",
+      "respuesta": "Sí, sujeto a disponibilidad."
+    }
+  ],
+  "tours_relacionados": [],
+  "brochure": "",
+  "map": "",
+  "video": "",
+  "categories": {
+    "grupal": {
+      "titulo": "SALINAS Y AGUADA BLANCA – SERVICIO GRUPAL",
+      "precio": "",
+      "descripcion": "Full Day desde Arequipa para conocer lagunas, fauna y paisajes volcánicos.",
+      "nota": "Consultar precio. Alimentación no incluida.",
+      "descuento": 0
+    },
+    "privado": {
+      "titulo": "SALINAS Y AGUADA BLANCA – SERVICIO PRIVADO",
+      "precio": "",
+      "descripcion": "Experiencia privada por la reserva con transporte y guía exclusivo.",
+      "nota": "Precio sujeto al número de viajeros.",
+      "descuento": 0
+    }
+  }
+}

@@ -104,6 +104,7 @@
         cards.forEach((card) => {
             if (card.closest('.page-hero, form, .tour-booking-sidebar, .tour-faq, .itinerario-item, nav, [role="tablist"]') ||
                 card.matches('form, button, input, select, textarea, label, [role="tab"]') ||
+                card.classList.contains('home-about-image') ||
                 card.classList.contains('rounded-full')) return;
 
             const rect = card.getBoundingClientRect();

@@ -73,6 +73,42 @@
             "categoria": "tradicionales"
         },
         {
+            "title": "Tour Montaña de 7 Colores Full Day",
+            "description": "Descubre Vinicunca, sus tonalidades naturales y las impresionantes vistas del nevado Ausangate en una aventura de día completo desde Cusco.",
+            "price": "0",
+            "duracion": "Full Day",
+            "image": "tours/montana-7-colores/hero.jpg",
+            "url": "montana-colores",
+            "categoria": "caminata"
+        },
+        {
+            "title": "Tour Laguna Humantay Full Day",
+            "description": "Descubre sus aguas turquesa y los impresionantes nevados en una aventura de día completo desde Cusco.",
+            "price": "0",
+            "duracion": "Full Day",
+            "image": "tours/laguna-humantay/hero.jpg",
+            "url": "laguna-humantay",
+            "categoria": "caminata"
+        },
+        {
+            "title": "Tour Puente Inca Q’eswachaka Full Day",
+            "description": "Conoce el último puente inca tejido a mano y la cultura viva de las comunidades de Canas en una excursión desde Cusco.",
+            "price": "0",
+            "duracion": "Full Day",
+            "image": "tours/qeswachaka/hero.jpg",
+            "url": "puente-inca",
+            "categoria": "tradicionales"
+        },
+        {
+            "title": "Tour Waqrapukara Full Day",
+            "description": "Descubre la fortaleza de los cuernos, sus paisajes arqueológicos y las vistas del cañón del Apurímac.",
+            "price": "0",
+            "duracion": "Full Day",
+            "image": "tours/waqrapukara/hero.jpg",
+            "url": "fortaleza-cuernos",
+            "categoria": "caminata"
+        },
+        {
             "title": "Valle Sagrado + Machu Picchu",
             "description": "Explora el Valle Sagrado de los Incas y culmina la experiencia en la majestuosa ciudadela de Machu Picchu.",
             "price": "389",

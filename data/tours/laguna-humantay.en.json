@@ -1,55 +1,32 @@
 {
-    "title": "Humantay Lagoon",
-    "short_description": "A must-do tour to discover one of Cusco's most famous natural wonders.",
-    "long_description": "<b>START 04:00AM - END 05:00PM</b><br>Embark on an adventure to the stunning Humantay Lagoon, a hidden natural gem in the mountains of Cusco. Experience the magic of the turquoise waters surrounded by majestic Andean peaks!",
-    "duration": "1 Day",
-    "image_cover": "../tours/laguna-humantay-card.jpg",
-    "gallery": ["montana1.jpg", "montana2.jpg"],
-    "price": "90",
-    "price_note": "Includes transportation, entrance tickets, and professional guide.",
-
-    "seo_title": "Humantay Lagoon and Rainbow Mountain Tour - Cusco | GT Peru Travel",
-    "seo_description": "Enjoy a 1-day tour to Humantay Lagoon and Rainbow Mountain. Includes transport, professional guide, and an unforgettable experience in Cusco's Andean landscapes.",
-    "seo_keywords": "humantay lagoon, rainbow mountain, vinicunca, cusco 1 day tour, humantay excursion, peru travel, gt peru travel",
-
-    "days": [{
-        "title": "Day 1",
-        "text": "We depart early from Cusco to the village of Soraypampa, the starting point of the hike. The ascent, approximately 1.5 hours, takes you through spectacular Andean landscapes until reaching Humantay Lagoon, famous for its intense turquoise color and mystical energy. Enjoy panoramic views, connect with nature, and take unforgettable photos before returning. A perfect day for those seeking a natural, energetic, and beautiful Andean experience."
-    }],
-
-    "brochure": "",
-    "map": "",
-    "video": "",
-
-    "categories": {
-        "tour": {
-            "titulo": "HUMANTAY LAGOON TOUR - BASIC",
-            "precio": "90",
-            "descripcion": "Classic option with standard transportation.",
-            "nota": "Includes transfers and professional guide",
-            "descuento": 0
-        },
-        "confort": {
-            "titulo": "HUMANTAY LAGOON TOUR - COMFORT",
-            "precio": "130",
-            "descripcion": "Includes superior transportation and buffet lunch.",
-            "nota": "Includes transfers, 2 ★★ service, and guided tours",
-            "descuento": 0
-        },
-        "premium": {
-            "titulo": "HUMANTAY LAGOON TOUR - PREMIUM",
-            "precio": "150",
-            "descripcion": "Includes superior transportation and buffet lunch.",
-            "nota": "Includes transfers, 3 ★★★ service, and guided tours",
-            "descuento": 0
-        },
-        "elite": {
-            "titulo": "HUMANTAY LAGOON TOUR - ELITE",
-            "precio": "180",
-            "descripcion": "Includes superior transportation and buffet lunch.",
-            "nota": "Includes transfers, 4 ★★★★ service, and guided tours",
-            "descuento": 0
-        }
-    }
-
+  "title": "Humantay Lake Full-Day Tour",
+  "short_description": "Discover impressive Humantay Lake on a full-day excursion from Cusco, surrounded by glaciers, Andean scenery and intensely turquoise water.",
+  "long_description": "Embark on an unforgettable adventure to <strong>Humantay Lake</strong>, one of Cusco's most impressive natural treasures.<br><br>We depart early from Cusco toward <strong>Soraypampa</strong>, the starting point of the hike. During the ascent, we will cross spectacular Andean landscapes surrounded by mountains and glaciers.<br><br>After approximately <strong>1 hour and 30 minutes of hiking</strong>, we reach Humantay Lake, famous for its intensely turquoise water and natural setting.<br><br>There will be time to enjoy panoramic views, take photographs and connect with nature before descending and returning to Cusco.",
+  "duration": "1 Day",
+  "image_cover": "laguna-humantay/hero.jpg",
+  "gallery": ["laguna-humantay/galeria-01.jpg", "laguna-humantay/galeria-02.jpg", "laguna-humantay/galeria-03.jpg", "laguna-humantay/galeria-04.jpg"],
+  "price": "", "price_note": "Price per person for group service. Ask about rates and availability.",
+  "seo_title": "Humantay Lake Full-Day Tour from Cusco | GT Peru Travel",
+  "seo_description": "Visit Humantay Lake on a full-day tour from Cusco. Transportation, breakfast, lunch, entrance and professional guide included.",
+  "seo_keywords": "humantay lake, humantay lake tour, humantay lake cusco, humantay full day, humantay trek, tours from cusco, gt peru travel",
+  "resumen": {"ubicacion": "Soraypampa, Cusco Region, Peru", "lugar_recojo": "Hotel in Cusco's Historic Center", "lugar_finalizacion": "Cusco Historic Center", "idiomas": ["Spanish", "English", "Portuguese"], "transporte": ["Round-trip tourist transportation from Cusco"], "alimentacion": "Breakfast and buffet lunch", "alojamiento": "Not included", "altitud": "Approximately 4,200 m / 13,780 ft"},
+  "caracteristicas": [
+    {"icono": "fa-person-hiking", "label": "Dificultad", "valor": "Moderate"}, {"icono": "fa-clock", "label": "Duration", "valor": "Full Day"}, {"icono": "fa-people-group", "label": "Service", "valor": "Group / Private"}, {"icono": "fa-mountain", "label": "Altitud Máxima", "valor": "Approx. 4,200 m"}
+  ],
+  "actividades": ["Scenic journey from Cusco to Soraypampa", "Breakfast before the hike", "Hike to Humantay Lake", "Observation of high-Andean scenery and glaciers", "Interpretation by a professional guide", "Free time for photographs", "Descent to Soraypampa", "Buffet lunch", "Return to Cusco"],
+  "days": [{"title": "Day 1: Cusco – Soraypampa – Humantay Lake – Cusco", "lugar": "Cusco → Soraypampa → Humantay Lake → Cusco", "text": "We depart early from <strong>Cusco</strong> toward <strong>Soraypampa</strong>, the starting point of our hike.<br><br>Along the way, we enjoy impressive Andean scenery and stop for <strong>breakfast</strong> before beginning the walk.<br><br>The ascent to <strong>Humantay Lake</strong> takes approximately <strong>1 hour and 30 minutes</strong> through mountain and glacier landscapes.<br><br>At the lake, we admire its intensely turquoise water and unique panoramic views. Our guide will explain the natural surroundings, and there will be free time for photographs and rest.<br><br>We then descend to Soraypampa, enjoy a <strong>buffet lunch</strong> and return to Cusco."}],
+  "includes": ["Pickup from hotels in Cusco's Historic Center", "Round-trip tourist transportation", "Breakfast", "Buffet lunch", "Professional guide", "Humantay Lake entrance ticket", "Assistance throughout the tour"],
+  "not_includes": ["Horse during the hike", "Additional drinks", "Snacks", "Personal expenses", "Tips", "Travel insurance", "Services not mentioned in the program"],
+  "recommendations": [
+    {"img": "pasaporte.webp", "nombre": "Identity document or passport"}, {"img": "calzado-trekking.webp", "nombre": "Comfortable trekking footwear"}, {"img": "casaca-impermeable.webp", "nombre": "Waterproof jacket and warm clothing"}, {"img": "poncho-lluvia.webp", "nombre": "Rain poncho"}, {"img": "bloqueador.webp", "nombre": "Sunscreen and sunglasses"}, {"img": "botella-agua.webp", "nombre": "Water in a reusable bottle"}, {"img": "guantes.webp", "nombre": "Gloves and warm hat"}, {"img": "mochila.webp", "nombre": "Small backpack"}
+  ],
+  "recomendaciones_generales": {"antes_de_viajar": ["Acclimatize in Cusco before the excursion", "Sleep well the night before", "Wear layers for temperature changes", "Stay hydrated during the hike", "Use sunscreen even on cloudy days", "Carry cash for additional expenses", "Walk at a moderate pace due to altitude", "Tell the guide if you feel unwell"]},
+  "faq": [
+    {"pregunta": "Where is Humantay Lake located?", "respuesta": "It is in the Cusco Region, near Soraypampa and below the glaciers of the Vilcabamba range."}, {"pregunta": "What is its altitude?", "respuesta": "Humantay Lake is approximately 4,200 meters above sea level."}, {"pregunta": "How long is the hike?", "respuesta": "The ascent takes approximately 1 hour and 30 minutes, depending on each traveler's pace."}, {"pregunta": "How difficult is the tour?", "respuesta": "The difficulty is moderate, mainly because of the altitude and ascent."}, {"pregunta": "Do I need to acclimatize?", "respuesta": "Yes. We recommend spending at least one or two days in Cusco before the tour."}, {"pregunta": "Is the entrance ticket included?", "respuesta": "Yes. The entrance ticket is included."}, {"pregunta": "Are breakfast and lunch included?", "respuesta": "Yes. Breakfast and a buffet lunch are included."}, {"pregunta": "Can I rent a horse?", "respuesta": "Local horse services are generally available for an additional fee and subject to availability."}, {"pregunta": "When is the best time to visit?", "respuesta": "The dry season usually offers better hiking conditions, although tours operate during much of the year."}, {"pregunta": "What should I bring?", "respuesta": "Warm layers, waterproof jacket, trekking shoes, sunscreen, sunglasses, water, a small backpack and ID."}, {"pregunta": "Is private service available?", "respuesta": "Yes. Group and private services are available subject to quotation and availability."}
+  ],
+  "tours_relacionados": [], "brochure": "", "map": "mapa-lagunahumantay-es.jpg", "video": "",
+  "categories": {
+    "group": {"titulo": "HUMANTAY LAKE – GROUP SERVICE", "precio": "", "descripcion": "Shared full-day excursion from Cusco with tourist transportation, meals, entrance and professional guide.", "nota": "Price per person. Ask about rates and availability.", "descuento": 0},
+    "private": {"titulo": "HUMANTAY LAKE – PRIVATE SERVICE", "precio": "", "descripcion": "Exclusive excursion to Humantay Lake with private transportation and guide.", "nota": "Price depends on group size and availability.", "descuento": 0}
+  }
 }

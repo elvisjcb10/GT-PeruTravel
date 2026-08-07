@@ -1,5 +1,5 @@
 {
-    "background": "/images/destinos/puno/puno.webp",
+    "background": "/images/destinos/puno/hero-puno.jpg",
     "badge": "Destino",
     "titulo": "Passeios em Puno",
     "descripcion": "Navegue pelo Lago Titicaca, o lago navegável mais alto do mundo, e conheça as comunidades vivas dos Uros, Taquile e Amantaní.",
@@ -67,13 +67,13 @@
             "categoria": "tradicional"
         },
         {
-            "title": "Dia inteiro em Sillustani",
-            "description": "Explore as imponentes chullpas funerárias pré-incas de Sillustani, com vista para o Lago Umayo.",
-            "price": "35",
-            "duracion": "1Dia / 0Noites",
-            "image": "sillustani.jpg",
+            "title": "Tour Chullpas de Sillustani saindo de Puno",
+            "description": "Conheça as monumentais torres funerárias e as paisagens da Lagoa Umayo em uma excursão cultural de meio dia.",
+            "price": "0",
+            "duracion": "Meio Dia",
+            "image": "tours/sillustani/hero.jpg",
             "url": "sillustani",
-            "categoria": "caminhada"
+            "categoria": "tradicional"
         },
         {
             "title": "Titicaca 2 Dias 1 Noite",

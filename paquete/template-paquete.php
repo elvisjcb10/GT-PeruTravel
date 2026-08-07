@@ -51,6 +51,58 @@ function normalizar_lista_paquete($valor) {
     }, $items)));
 }
 
+function texto_ficha_paquete($valor) {
+    $texto = preg_replace('/<br\s*\/?\s*>/i', "\n", (string) $valor);
+    return html_entity_decode(trim(strip_tags($texto)), ENT_QUOTES | ENT_HTML5, 'UTF-8');
+}
+
+function valor_ficha_paquete($ficha, $etiquetas) {
+    foreach ($etiquetas as $etiqueta) {
+        if (preg_match('/(?:^|\n)\s*(?:•\s*)?' . $etiqueta . '\s*:\s*([^\n]+)/iu', $ficha, $coincidencia)) {
+            return trim($coincidencia[1], " \t\n\r\0\x0B.");
+        }
+    }
+    return '';
+}
+
+function total_destinos_paquete($ficha) {
+    $destinos = valor_ficha_paquete($ficha, [
+        'Destinos principales', 'Main destinations', 'Principais destinos',
+        'Destinos?', 'Destination',
+    ]);
+    if ($destinos === '') return 0;
+    $items = preg_split('/\s*(?:,|\s+y\s+|\s+and\s+|\s+e\s+|&)\s*/iu', $destinos);
+    return count(array_filter(array_map('trim', $items)));
+}
+
+function tipo_experiencia_paquete($data, $ficha, $lang) {
+    $tipo_declarado = valor_ficha_paquete($ficha, [
+        'Tipo de viaje', 'Tipo de tour', 'Trip type', 'Tour type', 'Tipo de viagem',
+    ]);
+    $contenido = implode(' ', [
+        (string) ($data['title'] ?? ''),
+        (string) ($data['short_description'] ?? ''),
+        (string) ($data['long_description'] ?? ''),
+        $ficha,
+        json_encode($data['days'] ?? [], JSON_UNESCAPED_UNICODE),
+        $tipo_declarado,
+    ]);
+    $es_aventura = preg_match('/trek|caminat|hike|monta(?:ñ|n)a|rainbow|humantay|ausangate|glaciar|glacier|geleira/iu', $contenido);
+    $es_naturaleza = preg_match('/amazon|manu|selva|jungle|nature|naturaleza|natureza/iu', $contenido);
+    $es_cultural = preg_match('/machu picchu|cusco|inca|cultural|hist[oó]ric|historic|arqueol/iu', $contenido);
+    $textos = [
+        'es' => ['cultural' => 'Cultural', 'aventura' => 'Aventura', 'naturaleza' => 'Naturaleza'],
+        'en' => ['cultural' => 'Cultural', 'aventura' => 'Adventure', 'naturaleza' => 'Nature'],
+        'pt' => ['cultural' => 'Cultural', 'aventura' => 'Aventura', 'naturaleza' => 'Natureza'],
+    ][$lang];
+    if ($es_cultural && $es_aventura) return $textos['cultural'] . ' + ' . $textos['aventura'];
+    if ($es_naturaleza && $es_aventura) return $textos['naturaleza'] . ' + ' . $textos['aventura'];
+    if ($es_cultural && $es_naturaleza) return $textos['cultural'] . ' + ' . $textos['naturaleza'];
+    if ($es_aventura) return $textos['aventura'];
+    if ($es_naturaleza) return $textos['naturaleza'];
+    return $textos['cultural'];
+}
+
 function extraer_id_youtube($url) {
     if (!is_string($url) || trim($url) === '') return null;
     if (preg_match('~(?:youtube\.com/(?:watch\?v=|shorts/|embed/)|youtu\.be/)([A-Za-z0-9_-]{6,})~', $url, $match)) {
@@ -193,9 +245,23 @@ $base_url = "..";
             $imgPath = "images/paquetes/template-image-tour.jpg";
         }
 
-        $dias_total = count($data['days'] ?? []);
-        $opciones_total = count($data['categories'] ?? []);
-        $fotos_total = count($data['gallery'] ?? []);        ?>
+        $ficha_hero = texto_ficha_paquete($data['technical_sheet'] ?? '');
+        $dificultad_hero = valor_ficha_paquete($ficha_hero, [
+            'Dificultad', 'Nivel de dificultad', 'Nivel de exigencia',
+            'Difficulty', 'Difficulty level',
+            'Dificuldade', 'Nível de dificuldade', 'Nível de exigência',
+        ]);
+        if ($dificultad_hero === '') {
+            $dificultad_hero = ['es' => 'Moderada', 'en' => 'Moderate', 'pt' => 'Moderada'][$lang];
+        }
+        $destinos_total = max(1, total_destinos_paquete($ficha_hero));
+        $tipo_experiencia = tipo_experiencia_paquete($data, $ficha_hero, $lang);
+        $etiquetas_hero = [
+            'es' => ['difficulty' => 'Dificultad', 'destinations' => 'Destinos', 'experience' => 'Tipo de experiencia'],
+            'en' => ['difficulty' => 'Difficulty', 'destinations' => 'Destinations', 'experience' => 'Experience type'],
+            'pt' => ['difficulty' => 'Dificuldade', 'destinations' => 'Destinos', 'experience' => 'Tipo de experiência'],
+        ][$lang];
+        ?>
         <section id="video" class="tour-hero relative w-full h-[92vh] sm:h-[85vh] md:h-[82vh] min-h-[680px] sm:min-h-[650px] bg-black overflow-hidden">
 
             <!-- imagen de fondo -->
@@ -251,26 +317,26 @@ $base_url = "..";
                         </div>
 
                         <div class="flex items-center gap-2.5 sm:gap-3 justify-start">
-                            <i class="fa-solid fa-calendar-days text-orange-custom text-lg sm:text-2xl w-5 shrink-0 text-center"></i>
+                            <i class="fa-solid fa-person-hiking text-orange-custom text-lg sm:text-2xl w-5 shrink-0 text-center"></i>
                             <div class="text-left flex flex-col gap-0.5 sm:gap-1">
-                                <p class="text-white text-[0.95rem] sm:text-2xl font-anton leading-none"><?= $dias_total ?></p>
-                                <p class="text-white/70 text-[0.6rem] sm:text-xs font-poppins uppercase tracking-wide"><?= $global['itinerario'] ?? 'Itinerario' ?></p>
+                                <p class="text-white text-[0.95rem] sm:text-2xl font-anton leading-none"><?= htmlspecialchars($dificultad_hero) ?></p>
+                                <p class="text-white/70 text-[0.6rem] sm:text-xs font-poppins uppercase tracking-wide"><?= $etiquetas_hero['difficulty'] ?></p>
                             </div>
                         </div>
 
                         <div class="flex items-center gap-2.5 sm:gap-3 justify-start">
-                            <i class="fa-solid fa-layer-group text-orange-custom text-lg sm:text-2xl w-5 shrink-0 text-center"></i>
+                            <i class="fa-solid fa-location-dot text-orange-custom text-lg sm:text-2xl w-5 shrink-0 text-center"></i>
                             <div class="text-left flex flex-col gap-0.5 sm:gap-1">
-                                <p class="text-white text-[0.95rem] sm:text-2xl font-anton leading-none"><?= $opciones_total ?></p>
-                                <p class="text-white/70 text-[0.6rem] sm:text-xs font-poppins uppercase tracking-wide"><?= $global['categorias'] ?? 'Categorías' ?></p>
+                                <p class="text-white text-[0.95rem] sm:text-2xl font-anton leading-none"><?= $destinos_total ?></p>
+                                <p class="text-white/70 text-[0.6rem] sm:text-xs font-poppins uppercase tracking-wide"><?= $etiquetas_hero['destinations'] ?></p>
                             </div>
                         </div>
 
                         <div class="flex items-center gap-2.5 sm:gap-3 justify-start">
-                            <i class="fa-solid fa-people-group text-orange-custom text-lg sm:text-2xl w-5 shrink-0 text-center"></i>
+                            <i class="fa-solid fa-compass text-orange-custom text-lg sm:text-2xl w-5 shrink-0 text-center"></i>
                             <div class="text-left flex flex-col gap-0.5 sm:gap-1">
-                                <p class="text-white text-[0.95rem] sm:text-2xl font-anton leading-none"><?= htmlspecialchars($template_ui['package']) ?></p>
-                                <p class="text-white/70 text-[0.6rem] sm:text-xs font-poppins uppercase tracking-wide"><?= $global['tipo_servicio'] ?? 'Tipo De Servicio' ?></p>
+                                <p class="text-white text-[0.95rem] sm:text-2xl font-anton leading-none"><?= htmlspecialchars($tipo_experiencia) ?></p>
+                                <p class="text-white/70 text-[0.6rem] sm:text-xs font-poppins uppercase tracking-wide"><?= $etiquetas_hero['experience'] ?></p>
                             </div>
                         </div>
 
@@ -736,14 +802,14 @@ $base_url = "..";
                 </h2>
 
                 <div class="">
-                    <div class="swiper mySwiper relative">
+                    <div class="testimonial-swiper swiper mySwiper relative">
                         <div class="swiper-wrapper">
 
                             <?php foreach ($trip_text['slides'] as $slide): ?>
                                 <div class="swiper-slide h-auto">
                                     <a href="<?= $slide['review_url'] ?? 'https://www.tripadvisor.com/Attraction_Review-g294314-d19390237-Reviews-GT_PERU_TRAVEL-Cusco_Cusco_Region.html' ?>"
                                     target="_blank" rel="noopener"
-                                    class="group block bg-white border border-gray-200 hover:border-[#00AF87] rounded-2xl shadow-sm hover:shadow-md p-5 sm:p-6 h-full flex flex-col transition-all duration-300">
+                                    class="testimonial-card group block bg-white border border-gray-200 hover:border-[#00AF87] rounded-2xl shadow-sm hover:shadow-md p-5 sm:p-6 h-full flex flex-col transition-all duration-300">
 
                                         <!-- ESTRELLAS + LOGO -->
                                         <div class="flex justify-between items-center mb-2 sm:mb-3">
