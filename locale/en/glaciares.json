@@ -6,8 +6,8 @@
   "description": "The glaciers of the Peruvian Andes are unique ecosystems at risk of disappearing. Witness their majestic beauty before it's too late.",
   "stats": {
     "altitud": {
-      "numero": "4,800m",
-      "titulo": "Pastoruri Altitude"
+        "numero": "4,800m+",
+        "titulo": "Maximum Altitude"
     },
     "glaciares": {
       "numero": "18+",

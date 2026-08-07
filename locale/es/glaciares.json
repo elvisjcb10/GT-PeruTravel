@@ -1,13 +1,13 @@
 {
     "background_img": "/images/glaciares/bg_home.webp",
     "kicker": "Maravillas Naturales",
-    "title_primary": " Glaciares de",
+    "title_primary": "Glaciares de",
     "title_secondary": "Cusco",
     "description": "Los glaciares de los Andes peruanos son ecosistemas únicos en peligro de desaparecer. Sé testigo de su majestuosa belleza antes de que sea demasiado tarde.",
     "stats": {
         "altitud": {
-            "numero": "4,800m",
-            "titulo": "Altitud Pastoruri"
+            "numero": "4,800m+",
+            "titulo": "Altitud maxima"
         },
         "glaciares": {
             "numero": "18+",

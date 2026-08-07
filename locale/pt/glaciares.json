@@ -6,8 +6,8 @@
   "description": "As geleiras dos Andes peruanos são ecossistemas únicos em risco de desaparecer. Testemunhe sua beleza majestosa antes que seja tarde demais.",
   "stats": {
     "altitud": {
-      "numero": "4.800m",
-      "titulo": "Altitude de Pastoruri"
+        "numero": "4.800m+",
+        "titulo": "Altitude Máxima"
     },
     "glaciares": {
       "numero": "18+",
