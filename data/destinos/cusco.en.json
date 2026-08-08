@@ -54,24 +54,12 @@
     {
       "title": "Q’eswachaka Inca Bridge",
       "description": "Discover the last handwoven Inca bridge and the living culture of Canas communities on a full-day trip from Cusco.",
-      "price": "0", "duracion": "Full Day", "image": "tours/qeswachaka/hero.jpg", "url": "puente-inca", "categoria": "tradicionales"
+      "price": "0", "duracion": "Full Day", "image": "tours/qeswachaka/hero.jpg", "url": "puente-inca", "categoria": "caminata"
     },
     {
       "title": "Waqrapukara",
       "description": "Discover the horned fortress, its archaeological landscapes and views over Apurímac Canyon.",
       "price": "0", "duracion": "Full Day", "image": "tours/waqrapukara/hero.jpg", "url": "fortaleza-cuernos", "categoria": "caminata"
-    },
-   
-    {
-      "title": "Cusco Express",
-      "description": "Escape to Cusco and Machu Picchu to discover Inca history, the magic of the Andes and Peru's cultural essence.",
-      "price": "309", "duracion": "3 Days / 2 Nights", "image": "paquetes/cusco-express-hero.jpg", "url": "cusco-express", "tipo": "paquete", "categoria": "tradicionales"
-    },
-   
-    {
-      "title": "Imperial Cusco",
-      "description": "Experience Cusco, Sacred Valley, Machu Picchu, Humantay Lake and Rainbow Mountain in five days.",
-      "price": "485", "duracion": "5 Days / 4 Nights", "image": "paquetes/cusco-imperial-hero.jpg", "url": "cusco-imperial", "tipo": "paquete", "categoria": "aventura"
     }
   ]
 }

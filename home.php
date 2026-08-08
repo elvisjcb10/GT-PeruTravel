@@ -1098,7 +1098,7 @@
             alt="<?= $reconocimientos['title_primary'] ?> <?= $reconocimientos['title_secondary'] ?>"
             class="absolute inset-0 w-full h-full object-cover">
 
-        <!-- OVERLAY OSCURO -->c
+        <!-- OVERLAY OSCURO -->
         <div class="absolute inset-0 bg-black/45"></div>
 
         <!-- CONTENIDO -->
