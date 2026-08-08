@@ -90,7 +90,7 @@
         },
         "machupicchu": {
             "nombre": "Tours Machupicchu",
-            "descripcion": "Descubra a impressionante cidadela inca com experiÃªncias Ãºnicas criadas para todos os viajantes.",
+            "descripcion": "Descubra a impressionante cidadela inca com experiências únicas criadas para todos os viajantes.",
             "imgs": {
                 "pr": "/images/machupicchu/principal.jpg",
                 "sec1": "/images/machupicchu/sec1.webp",
@@ -99,53 +99,56 @@
             "links": {
                 "clasico": {
                     "img": "/images/machupicchu/clasico/img_header.webp",
-                    "nombre": "Tour Machu Picchu ClÃ¡ssico",
-                    "descripcion": "Explore a icÃ´nica cidadela inca com um guia profissional nesta jornada inesquecÃ­vel.",
+                    "nombre": "Tour Machu Picchu Clássico",
+                    "descripcion": "Explore a icônica cidadela inca com um guia profissional nesta jornada inesquecível.",
                     "precio": "49",
                     "tiempo": "Dia Completo",
-                    "dificultad": "FÃ¡cil",
-                    "transporte": "IncluÃ­do",
-                    "url": "CZ-machupicchu-clÃ¡ssico",
-                    "nombre2": "Tour ClÃ¡ssico Machu Picchu"
+                    "dificultad": "Fácil",
+                    "transporte": "Incluído",
+                    "url": "CZ-machupicchu-clássico",
+                    "nombre2": "Tour Clássico Machu Picchu"
                 },
+
                 "tren_panoramico": {
                     "img": "/images/machupicchu/panoramico/img_header.webp",
-                    "nombre": "Tour Machu Picchu com Trem PanorÃ¢mico ObservatÃ³rio",
-                    "descripcion": "Viaje no trem panorÃ¢mico cÃªnico e aproveite vistas deslumbrantes do Vale Sagrado.",
+                    "nombre": "Tour Machu Picchu com Trem Panorâmico Observatório",
+                    "descripcion": "Viaje no trem panorâmico cênico e aproveite vistas deslumbrantes do Vale Sagrado.",
                     "precio": "19",
                     "tiempo": "Dia Completo",
-                    "dificultad": "FÃ¡cil",
-                    "transporte": "IncluÃ­do",
-                    "url": "CZ-machupicchu-panorÃ¢mico",
-                    "nombre2": "Tou Machu Picchur com vista panorÃ¢mica do observatÃ³rio do trem"
+                    "dificultad": "Fácil",
+                    "transporte": "Incluído",
+                    "url": "CZ-machupicchu-panorâmico",
+                    "nombre2": "Tour Machu Picchu com vista panorâmica do observatório do trem"
                 },
+
                 "tren_hiram": {
                     "img": "/images/machupicchu/hiram/img_header.webp",
                     "nombre": "Tour Machu Picchu no Trem de Luxo Hiram Bingham",
-                    "descripcion": "Viva a experiÃªncia mÃ¡xima de luxo a bordo do lendÃ¡rio trem Hiram Bingham atÃ© Machu Picchu.",
+                    "descripcion": "Viva a experiência máxima de luxo a bordo do lendário trem Hiram Bingham até Machu Picchu.",
                     "precio": "89",
                     "tiempo": "Dia Completo",
-                    "dificultad": "FÃ¡cil",
-                    "transporte": "IncluÃ­do",
+                    "dificultad": "Fácil",
+                    "transporte": "Incluído",
                     "url": "CZ-machupicchu-hiram",
-                    "nombre2": "ExcursÃ£o Machu Picchu em trem de luxo Hiram Bingham"
+                    "nombre2": "Excursão Machu Picchu em trem de luxo Hiram Bingham"
                 },
+
                 "ruta_amazonica": {
                     "img": "/images/machupicchu/amazonica/img_header.webp",
-                    "nombre": "Tour Machu Picchu Rota AmazÃ´nica",
-                    "descripcion": "Combine a maravilha de Machu Picchu com as paisagens exuberantes do portal amazÃ´nico.",
+                    "nombre": "Tour Machu Picchu Rota Amazônica",
+                    "descripcion": "Combine a maravilha de Machu Picchu com as paisagens exuberantes do portal amazônico.",
                     "precio": "59",
                     "tiempo": "2D/1N",
-                    "dificultad": "FÃ¡cil",
-                    "transporte": "IncluÃ­do",
-                    "url": "CZ-machupicchu-amazÃ´nico",
-                    "nombre2": "ExcursÃ£o amazÃ´nica em Machu Picchu"
+                    "dificultad": "Fácil",
+                    "transporte": "Incluído",
+                    "url": "CZ-machupicchu-amazonico",
+                    "nombre2": "Excursão amazônica em Machu Picchu"
                 }
             }
         },
         "glaciares": {
-            "nombre": "ConheÃ§a as Geleiras",
-            "descripcion": "Explore as imponentes massas de gelo eterno nas cordilheiras de Cusco, rotas desafiadoras com paisagens andinas inigualÃ¡veis.",
+            "nombre": "Conheça as Geleiras",
+            "descripcion": "Explore as imponentes massas de gelo eterno nas cordilheiras de Cusco, rotas desafiadoras com paisagens andinas inigualáveis.",
             "imgs": {
                 "pr": "/images/glaciares/principal.webp",
                 "sec1": "/images/glaciares/sec1.webp",
@@ -155,14 +158,15 @@
                 "quelccaya": {
                     "img": "/images/glaciares/quelccaya/img_header.webp",
                     "nombre": "Tour Geleira Quelccaya",
-                    "descripcion": "Aventure-se atÃ© a maior geleira tropical do mundo, uma joia da natureza nos Andes peruanos.",
+                    "descripcion": "Aventure-se até a maior geleira tropical do mundo, uma joia da natureza nos Andes peruanos.",
                     "precio": "89",
                     "tiempo": "Dia Completo",
                     "dificultad": "Alta",
-                    "transporte": "IncluÃ­do",
+                    "transporte": "Incluído",
                     "url": "geleira-quelccaya",
                     "nombre2": "Passeio pela Geleira Quelccaya"
                 },
+
                 "ausangate": {
                     "img": "/images/glaciares/ausangate/img_header.webp",
                     "nombre": "Tour Geleiras do Ausangate",
@@ -172,13 +176,14 @@
                     "dificultad": "Alta",
                     "transporte": "IncluÃ­do",
                     "url": "geleira-ausangate",
-                    "nombre2": "ExcursÃ£o Ã s Geleiras Ausangate"
+                    "nombre2": "Excursão às Geleiras Ausangate"
                 }
             }
         },
         "experiencias_unicas": {
-            "nombre": "ExperiÃªncias Ãšnicas",
-            "descripcion": "Conecte-se com a cultura andina atravÃ©s de cerimÃ´nias mÃ­sticas e gastronomia tradicional preparada sob a terra.",
+            "nombre": "Experiências Únicas",
+            "descripcion": "Conecte-se com a cultura andina através de cerimônias místicas e gastronomia tradicional preparada sob a terra.",
+
             "imgs": {
                 "pr": "/images/experiencias_unicas/principal.webp",
                 "sec1": "/images/experiencias_unicas/sec1.webp",
@@ -187,48 +192,51 @@
             "links": {
                 "misticas": {
                     "img": "/images/experiencias_unicas/misticas/img_header.webp",
-                    "nombre": "ExperiÃªncia MÃ­stica â€“ Meio Dia",
-                    "descripcion": "Viva uma jornada de introspecÃ§Ã£o e conexÃ£o espiritual com rituais ancestrais guiados.",
+                    "nombre": "Experiência Mística – Meio Dia",
+                    "descripcion": "Viva uma jornada de introspecção e conexão espiritual com rituais ancestrais guiados.",
                     "precio": "39",
                     "tiempo": "Meio Dia",
-                    "dificultad": "FÃ¡cil",
-                    "transporte": "IncluÃ­do",
+                    "dificultad": "Fácil",
+                    "transporte": "Incluído",
                     "url": "CZ-cusco-mistico",
-                    "nombre2": "ExperiÃªncia mÃ­stica meio dia",
+                    "nombre2": "Experiência mística meio dia",
                     "type": "tour"
                 },
+
                 "tour_maras_pachamanca": {
                     "img": "/images/experiencias_unicas/maras_pachamanca/img_header.webp",
-                    "nombre": "Tour Maras Moray + Pachamanca Andino â€“ Dia Completo",
-                    "descripcion": "Combine a maravilha dos laboratÃ³rios incas com um banquete andino tradicional cozido sob a terra.",
+                    "nombre": "Tour Maras Moray + Pachamanca Andino – Dia Completo",
+                    "descripcion": "Combine a maravilha dos laboratórios incas com um banquete andino tradicional cozido sob a terra.",
                     "precio": "99",
                     "tiempo": "Dia Completo",
-                    "dificultad": "FÃ¡cil",
-                    "transporte": "IncluÃ­do",
+                    "dificultad": "Fácil",
+                    "transporte": "Incluído",
                     "url": "experiencias-unicas",
-                    "nombre2": "Tour Maras Moray + pachamanca andina dia inteiro",
+                    "nombre2": "Tour Maras Moray + Pachamanca andina dia inteiro",
                     "type": "destino"
                 },
+
                 "pachamanca_medio_dia": {
                     "img": "/images/experiencias_unicas/pachamanca/img_header.webp",
-                    "nombre": "Pachamanca Andino â€“ Meio Dia",
-                    "descripcion": "Aproveite o processo de preparo e degustaÃ§Ã£o da tradicional Pachamanca ancestral.",
+                    "nombre": "Pachamanca Andino – Meio Dia",
+                    "descripcion": "Aproveite o processo de preparo e degustação da tradicional Pachamanca ancestral.",
                     "precio": "49",
                     "tiempo": "Meio Dia",
-                    "dificultad": "FÃ¡cil",
-                    "transporte": "IncluÃ­do",
+                    "dificultad": "Fácil",
+                    "transporte": "Incluído",
                     "url": "experiencias-unicas",
-                    "nombre2": "Pachamancaandino meio dia",
+                    "nombre2": "Pachamanca andino meio dia",
                     "type": "destino"
                 },
+
                 "ritual_andino": {
                     "img": "/images/experiencias_unicas/ritual_andino/img_header.webp",
-                    "nombre": "Oferenda Ritual Andina â€“ Meio Dia",
-                    "descripcion": "Participe ativamente de uma autÃªntica oferenda de gratidÃ£o Ã  Pachamama (MÃ£e Terra).",
+                    "nombre": "Oferenda Ritual Andina – Meio Dia",
+                    "descripcion": "Participe ativamente de uma autêntica oferenda de gratidão à Pachamama (Mãe Terra).",
                     "precio": "35",
                     "tiempo": "Meio Dia",
-                    "dificultad": "FÃ¡cil",
-                    "transporte": "IncluÃ­do",
+                    "dificultad": "Fácil",
+                    "transporte": "Incluído",
                     "url": "experiencias-unicas",
                     "nombre2": "Ritual andino oferecendo meio dia",
                     "type": "destino"
