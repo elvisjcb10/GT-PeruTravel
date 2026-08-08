@@ -25,6 +25,18 @@ document.addEventListener('DOMContentLoaded', () => {
         const previewTransport  = megaMenu.querySelector('[data-preview="transport"]');
         const previewImg        = megaMenu.querySelector('[data-preview="img"]');
 
+        // Si este mega menú no tiene tours (lista vacía), mostrar "Próximamente" en el preview
+        if (!tourItems || tourItems.length === 0) {
+            if (previewPriceWrap) {
+                        // conservar el <p> pequeño de "Desde" si existe, y reemplazar la línea grande por "Próximamente"
+                const fromP = previewPriceWrap.querySelector('p') ? previewPriceWrap.querySelector('p').outerHTML : '';
+                        previewPriceWrap.innerHTML = fromP + '<p class="text-2xl font-bold text-orange-500">Próximamente</p>';
+                previewPriceWrap.classList.remove('hidden');
+            }
+            // No hay items para inicializar, salir temprano
+            return;
+        }
+
         function clearActive() {
             tourItems.forEach(i => i.classList.remove('bg-[#FFF7EF]', 'active-tour'));
         }
