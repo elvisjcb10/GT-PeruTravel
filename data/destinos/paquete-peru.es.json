@@ -87,6 +87,46 @@
             "url": "peru-360",
             "tipo": "paquete",
             "categoria": "completos"
+        },
+        {
+            "title": "Montaña de 7 Colores + 7 Lagunas de Ausangate",
+            "description": "Vive dos días de aventura entre Vinicunca y las 7 Lagunas de Ausangate, rodeado de paisajes andinos, montañas y lagunas de colores únicos.",
+            "price": "125",
+            "duracion": "2 Días / 1 Noche",
+            "image": "paquetes/montanacolores-7lagunas.jpg",
+            "url": "montanacolores-7lagunas",
+            "tipo": "paquete",
+            "categoria": "cortos"
+        },
+        {
+            "title": "Camino Inca Corto",
+            "description": "Recorre el legendario Camino Inca desde el Km 104, visita Wiñay Wayna e Inti Punku y llega a Machu Picchu en una experiencia única de 2 días.",
+            "price": "449",
+            "duracion": "2 Días / 1 Noche",
+            "image": "paquetes/camino-inca-corto.jpg",
+            "url": "short-inca-trail",
+            "tipo": "paquete",
+            "categoria": "cortos"
+        },
+        {
+            "title": "Montaña de Colores + Glaciar de Quelccaya",
+            "description": "Descubre Vinicunca y el imponente Glaciar de Quelccaya en una aventura de 2 días entre paisajes únicos de los Andes peruanos.",
+            "price": "145",
+            "duracion": "2 Días / 1 Noche",
+            "image": "paquetes/montana-colores-cusco-peru.jpg",
+            "url": "montanacolores-glaciarquelcaya",
+            "tipo": "paquete",
+            "categoria": "cortos"
+        },
+        {
+            "title": "Valle Sagrado + Machu Picchu",
+            "description": "Descubre el Valle Sagrado de los Incas y Machu Picchu en una experiencia de 2 días entre historia, cultura y espectaculares paisajes andinos.",
+            "price": "389",
+            "duracion": "2 Días / 1 Noche",
+            "image": "paquetes/valle-sagrado-machupicchu.jpg",
+            "url": "vallesagrado-machupicchu",
+            "tipo": "paquete",
+            "categoria": "cortos"
         }
     ]
 }

@@ -24,7 +24,7 @@
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/" />
   </url>
-  <url>
+  <!-- <url>
     <loc>https://www.gtperutravel.com/es/blog/</loc>
     <lastmod>2026-07-31</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/blog/" />
@@ -47,7 +47,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/blog/" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/blog/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/blog/" />
-  </url>
+  </url> -->
   <url>
     <loc>https://www.gtperutravel.com/es/contacto/</loc>
     <lastmod>2026-07-31</lastmod>
@@ -528,78 +528,7 @@
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/cusco-express/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/cusco-express/" />
   </url>
-  <url>
-    <loc>https://www.gtperutravel.com/es/paquetes/cusco-magico/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/cusco-magico/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/magical-cusco/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/cusco-magico/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/cusco-magico/" />
-  </url>
-  <url>
-    <loc>https://www.gtperutravel.com/en/paquetes/magical-cusco/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/cusco-magico/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/magical-cusco/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/cusco-magico/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/cusco-magico/" />
-  </url>
-  <url>
-    <loc>https://www.gtperutravel.com/pt/paquetes/cusco-magico/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/cusco-magico/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/magical-cusco/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/cusco-magico/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/cusco-magico/" />
-  </url>
-  <url>
-    <loc>https://www.gtperutravel.com/es/paquetes/ano-nuevo-en-cusco-2026/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/ano-nuevo-en-cusco-2026/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/new-year-in-cusco-2026/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/ano-novo-em-cusco-2026/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/ano-nuevo-en-cusco-2026/" />
-  </url>
-  <url>
-    <loc>https://www.gtperutravel.com/en/paquetes/new-year-in-cusco-2026/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/ano-nuevo-en-cusco-2026/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/new-year-in-cusco-2026/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/ano-novo-em-cusco-2026/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/ano-nuevo-en-cusco-2026/" />
-  </url>
-  <url>
-    <loc>https://www.gtperutravel.com/pt/paquetes/ano-novo-em-cusco-2026/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/ano-nuevo-en-cusco-2026/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/new-year-in-cusco-2026/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/ano-novo-em-cusco-2026/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/ano-nuevo-en-cusco-2026/" />
-  </url>
-  <url>
-    <loc>https://www.gtperutravel.com/es/paquetes/descubre-peru/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/descubre-peru/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/discover-peru/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/descubra-o-peru/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/descubre-peru/" />
-  </url>
-  <url>
-    <loc>https://www.gtperutravel.com/en/paquetes/discover-peru/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/descubre-peru/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/discover-peru/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/descubra-o-peru/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/descubre-peru/" />
-  </url>
-  <url>
-    <loc>https://www.gtperutravel.com/pt/paquetes/descubra-o-peru/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/descubre-peru/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/discover-peru/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/descubra-o-peru/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/descubre-peru/" />
-  </url>
+ 
   <url>
     <loc>https://www.gtperutravel.com/es/paquetes/montana-de-colores-7-lagunas-de-ausangate/</loc>
     <lastmod>2026-06-26</lastmod>
@@ -743,54 +672,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/mystical-peru/" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/peru-mistico/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/peru-mistico/" />
-  </url>
-  <url>
-    <loc>https://www.gtperutravel.com/es/paquetes/peru-premium/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/peru-premium/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/peru-premium/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/peru-premium/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/peru-premium/" />
-  </url>
-  <url>
-    <loc>https://www.gtperutravel.com/en/paquetes/peru-premium/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/peru-premium/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/peru-premium/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/peru-premium/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/peru-premium/" />
-  </url>
-  <url>
-    <loc>https://www.gtperutravel.com/pt/paquetes/peru-premium/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/peru-premium/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/peru-premium/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/peru-premium/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/peru-premium/" />
-  </url>
-  <url>
-    <loc>https://www.gtperutravel.com/es/paquetes/peru-prime/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/peru-prime/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/peru-prime/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/peru-prime/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/peru-prime/" />
-  </url>
-  <url>
-    <loc>https://www.gtperutravel.com/en/paquetes/peru-prime/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/peru-prime/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/peru-prime/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/peru-prime/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/peru-prime/" />
-  </url>
-  <url>
-    <loc>https://www.gtperutravel.com/pt/paquetes/peru-prime/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/peru-prime/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/peru-prime/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/peru-prime/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/peru-prime/" />
   </url>
   <url>
     <loc>https://www.gtperutravel.com/es/paquetes/camino-inca-corto/</loc>
@@ -1081,6 +962,84 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/destinos/tours-en-puno/" />
   </url>
   <url>
+    <loc>https://www.gtperutravel.com/es/paquetes/cusco-imperial/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/cusco-imperial/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/imperial-cusco/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/cusco-imperial/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/cusco-imperial/" />
+  </url>
+
+  <url>
+      <loc>https://www.gtperutravel.com/en/paquetes/imperial-cusco/</loc>
+      <lastmod>2026-08-08</lastmod>
+      <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/cusco-imperial/" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/imperial-cusco/" />
+      <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/cusco-imperial/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/cusco-imperial/" />
+  </url>
+
+  <url>
+      <loc>https://www.gtperutravel.com/pt/paquetes/cusco-imperial/</loc>
+      <lastmod>2026-08-08</lastmod>
+      <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/cusco-imperial/" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/imperial-cusco/" />
+      <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/cusco-imperial/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/cusco-imperial/" />
+  </url>
+  <url>
+    <loc>https://www.gtperutravel.com/es/paquetes/peru-360/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/peru-360/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/peru-360/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/peru-360/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/peru-360/" />
+  </url>
+
+  <url>
+      <loc>https://www.gtperutravel.com/en/paquetes/peru-360/</loc>
+      <lastmod>2026-08-08</lastmod>
+      <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/peru-360/" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/peru-360/" />
+      <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/peru-360/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/peru-360/" />
+  </url>
+
+  <url>
+      <loc>https://www.gtperutravel.com/pt/paquetes/peru-360/</loc>
+      <lastmod>2026-08-08</lastmod>
+      <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/peru-360/" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/peru-360/" />
+      <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/peru-360/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/peru-360/" />
+  </url>
+  <url>
+      <loc>https://www.gtperutravel.com/es/paquetes/peru-milenario/</loc>
+      <lastmod>2026-08-08</lastmod>
+      <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/peru-milenario/" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/ancient-peru/" />
+      <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/peru-milenar/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/peru-milenario/" />
+  </url>
+
+  <url>
+      <loc>https://www.gtperutravel.com/en/paquetes/ancient-peru/</loc>
+      <lastmod>2026-08-08</lastmod>
+      <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/peru-milenario/" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/ancient-peru/" />
+      <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/peru-milenar/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/peru-milenario/" />
+  </url>
+
+  <url>
+      <loc>https://www.gtperutravel.com/pt/paquetes/peru-milenar/</loc>
+      <lastmod>2026-08-08</lastmod>
+      <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/paquetes/peru-milenario/" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.gtperutravel.com/en/paquetes/ancient-peru/" />
+      <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/paquetes/peru-milenar/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/es/paquetes/peru-milenario/" />
+  </url>
+  <!-- <url>
     <loc>https://www.gtperutravel.com/es/blog/la-flora-y-fauna-del-santuario-historico-de-machu-picchu/</loc>
     <lastmod>2026-07-03</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.gtperutravel.com/es/blog/la-flora-y-fauna-del-santuario-historico-de-machu-picchu/" />
@@ -5545,7 +5504,7 @@
     <lastmod>2026-04-24</lastmod>
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.gtperutravel.com/pt/blog/o-que-levar-na-sua-mochila-para-machu-picchu-checklist-completo/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.gtperutravel.com/pt/blog/o-que-levar-na-sua-mochila-para-machu-picchu-checklist-completo/" />
-  </url>
+  </url> -->
   <url>
     <loc>https://www.gtperutravel.com/es/legal/terminos-y-condiciones/</loc>
     <lastmod>2026-06-26</lastmod>
