@@ -1,240 +1,288 @@
 {
-    "banner_social":  {
-                          "horario":  "Lun-SÃ¡b 9am-6pm (Pet)",
-                          "telefono":  "+51 982 770 013",
-                          "extra_links":  {
-                                              "blog":  "Blog",
-                                              "testimonios":  "Testimonios",
-                                              "nosotros":  "Sobre nosotros",
-                                              "impacto":  "Planea tu viaje"
-                                          }
-                      },
-    "menu":  {
-                 "destinos":  "Destinos",
-                 "tour_cusco":  "Tour Cusco",
-                 "machupicchu":  "Machupicchu",
-                 "glaciares_cusco":  "Glaciares en Cusco",
-                 "experiencia_unica":  "Experiencias Unicas",
-                 "paquete_peru":  "Paquete Peru"
-             },
-    "mega_menu":  {
-                      "destinos":  {
-                                       "lima":  {
-                                                    "nombre":  "Lima",
-                                                    "img":  "/images/destinos/lima/lima.webp"
-                                                },
-                                       "manu_tambopata":  {
-                                                              "nombre":  "Manu Tambopata",
-                                                              "img":  "/images/destinos/manu/manu.webp"
-                                                          },
-                                       "puno":  {
-                                                    "nombre":  "Puno",
-                                                    "img":  "/images/destinos/puno/puno.webp"
-                                                },
-                                       "arequipa":  {
-                                                        "nombre":  "Arequipa",
-                                                        "img":  "/images/destinos/arequipa/arequipa.webp"
-                                                    },
-                                       "huaraz":  {
-                                                      "nombre":  "Huaraz",
-                                                      "img":  "/images/destinos/huaraz/huaraz.webp"
-                                                  }
-                                   },
-                      "tour_cusco":  {
-                                         "tradicionales":  {
-                                                               "title":  "\u003cspan class=\u0027text-gray-900\u0027\u003eTours\u003c/span\u003e Tradicionales",
-                                                               "links":  {
-                                                                             "tour_mistico":  "Tour MÃ­stico _ full day",
-                                                                             "city_tour":  "City Tour Cusco Medio DÃ­a",
-                                                                             "walking_tour":  "Walking Tour _ Medio Dia",
-                                                                             "super_valle_sagrado":  "Tour SÃºper Valle Sagrado â€“ Full Day",
-                                                                             "valle_sagrado_tradicional":  "Tour Valle Sagrado Tradicional â€“ Full Day",
-                                                                             "tour_valle_sur":  "Tour Valle Sur _ Full Day",
-                                                                             "salineras_moray":  "Tour Salineras Y Moray â€“ Medio DÃ­a"
-                                                                         }
-                                                           },
-                                         "caminata":  {
-                                                          "title":  "\u003cspan class=\u0027text-gray-900\u0027\u003eTours\u003c/span\u003e de Caminata",
-                                                          "links":  {
-                                                                        "montana_colores":  "Tour MontaÃ±a de Colores",
-                                                                        "pallay_poncho":  "Tour MontaÃ±a Pallay Poncho",
-                                                                        "laguna_humantay":  "Tour Laguna Humantay",
-                                                                        "waqrapukara":  "Tour Waqrapukara",
-                                                                        "palcoyo":  "Tour MontaÃ±a de colores de Palcoyo",
-                                                                        "ultimo_puente_inca":  "Tour Ãšltimo Puente Inca â€“ Qâ€™eswachaka",
-                                                                        "7_lagunas_ausangate":  "Tour 7 Lagunas Ausangate Full Day",
-                                                                        "programa_salkantay":  "Tour Programa Salkantay",
-                                                                        "programa_camino_inca":  "Tour Programa Camino Inca"
-                                                                    }
-                                                      },
-                                         "aventura":  {
-                                                          "title":  "\u003cspan class=\u0027text-gray-900\u0027\u003eTours\u003c/span\u003e de Aventura",
-                                                          "links":  {
-                                                                        "cuatrimotos_maras_moray":  "Tour en Cuatrimotos Maras Moray _ medio dia",
-                                                                        "cuatrimoto_montana_colores":  "Tour en Cuatrimoto a la montaÃ±a de colores Full Day",
-                                                                        "cuatrimoto_vinicunca_vallerojo":  "Tour en Cuatrimoto a Vinicunca y Valle Rojo Full Day",
-                                                                        "morada_dioses":  "Tour Morada de los Dioses _ 4 a 5 horas"
-                                                                    }
-                                                      }
-                                     },
-                      "machupicchu":  {
-                                          "nombre":  "\u003cspan class=\u0027text-gray-900\u0027\u003eTours\u003c/span\u003e Machupicchu",
-                                          "descripcion":  "Descubre los impresionantes laboratorios agrÃ­colas de los Incas en Moray y vive una experiencia gastronÃ³mica ancestral Ãºnica cocinando bajo tierra.",
-                                          "imgs":  {
-                                                       "pr":  "/images/machupicchu/principal.jpg",
-                                                       "sec1":  "/images/machupicchu/sec1.webp",
-                                                       "sec2":  "/images/machupicchu/sec2.webp"
-                                                   },
-                                          "links":  {
-                                                        "clasico":  {
-                                                                        "url":  "CZ-machupicchu-clasico",
-                                                                        "img":  "/images/machupicchu/clasico/img_header.webp",
-                                                                        "nombre":  "\u003cspan class=\u0027text-gray-900\u0027\u003eTour Machu Picchu\u003c/span\u003e  Clasico",
-                                                                        "nombre2":  "Tour Machu Picchu  Clasico",
-                                                                        "descripcion":  "Descubre los impresionantes laboratorios agrÃ­colas de los Incas en Moray y vive una experiencia gastronÃ³mica ancestral Ãºnica cocinando bajo tierra.",
-                                                                        "precio":  "49",
-                                                                        "tiempo":  "Todo el dia",
-                                                                        "dificultad":  "Facil",
-                                                                        "transporte":  "Incluido"
-                                                                    },
-                                                        "tren_panoramico":  {
-                                                                                "url":  "CZ-machupicchu-panoramico",
-                                                                                "img":  "/images/machupicchu/panoramico/img_header.webp",
-                                                                                "nombre":  "\u003cspan class=\u0027text-gray-900\u0027\u003eTou Machu Picchur\u003c/span\u003e  con tren panoramico vista observatorio",
-                                                                                "nombre2":  "Tou Machu Picchur con tren panoramico vista observatorio",
-                                                                                "descripcion":  "Descubre los impresionantes laboratorios agrÃ­colas de los Incas en Moray y vive una experiencia gastronÃ³mica ancestral Ãºnica cocinando bajo tierra.",
-                                                                                "precio":  "19",
-                                                                                "tiempo":  "Todo el dia",
-                                                                                "dificultad":  "Facil",
-                                                                                "transporte":  "Incluido"
-                                                                            },
-                                                        "tren_hiram":  {
-                                                                           "url":  "CZ-machupicchu-hiram",
-                                                                           "img":  "/images/machupicchu/hiram/img_header.webp",
-                                                                           "nombre":  "\u003cspan class=\u0027text-gray-900\u0027\u003eTour Machu Picchu\u003c/span\u003e  en tren de lujo Hiram Bingham",
-                                                                           "nombre2":  "Tour Machu Picchu en tren de lujo Hiram Bingham",
-                                                                           "descripcion":  "Descubre los impresionantes laboratorios agrÃ­colas de los Incas en Moray y vive una experiencia gastronÃ³mica ancestral Ãºnica cocinando bajo tierra.",
-                                                                           "precio":  "89",
-                                                                           "tiempo":  "Todo el dia",
-                                                                           "dificultad":  "Facil",
-                                                                           "transporte":  "Incluido"
-                                                                       },
-                                                        "ruta_amazonica":  {
-                                                                               "url":  "CZ-machupicchu-amazonico",
-                                                                               "img":  "/images/machupicchu/amazonica/img_header.webp",
-                                                                               "nombre":  "\u003cspan class=\u0027text-gray-900\u0027\u003eTour Machu Picchu\u003c/span\u003e ruta amazonica",
-                                                                               "nombre2":  "Tour Machu Picchuruta amazonica",
-                                                                               "descripcion":  "Descubre los impresionantes laboratorios agrÃ­colas de los Incas en Moray y vive una experiencia gastronÃ³mica ancestral Ãºnica cocinando bajo tierra.",
-                                                                               "precio":  "59",
-                                                                               "tiempo":  "2D/1N",
-                                                                               "dificultad":  "Facil",
-                                                                               "transporte":  "Incluido"
-                                                                           }
-                                                    }
-                                      },
-                      "glaciares":  {
-                                        "nombre":  "\u003cspan class=\u0027text-gray-900\u0027\u003eConoce los\u003c/span\u003e  glaciares",
-                                        "descripcion":  "Explora las imponentes masas de hielo perpetuo en las cordilleras de Cusco, rutas desafiantes con paisajes altoandinos inigualables.",
-                                        "imgs":  {
-                                                     "pr":  "/images/glaciares/principal.webp",
-                                                     "sec1":  "/images/glaciares/sec1.webp",
-                                                     "sec2":  "/images/glaciares/sec2.webp"
-                                                 },
-                                        "links":  {
-                                                      "quelccaya":  {
-                                                                        "url":  "glaciar-quelccaya",
-                                                                        "img":  "/images/glaciares/quelccaya/img_header.webp",
-                                                                        "nombre":  "\u003cspan class=\u0027text-gray-900\u0027\u003eTour\u003c/span\u003e Glaciar Quelccaya",
-                                                                        "nombre2":  "Tour Glaciar Quelccaya",
-                                                                        "descripcion":  "AventÃºrate al glaciar tropical mÃ¡s extenso del mundo, una joya de la naturaleza en los Andes peruanos.",
-                                                                        "precio":  "89",
-                                                                        "tiempo":  "Full Day",
-                                                                        "dificultad":  "Alta",
-                                                                        "transporte":  "Incluido"
-                                                                    },
-                                                      "ausangate":  {
-                                                                        "url":  "glaciar-ausangate",
-                                                                        "img":  "/images/glaciares/ausangate/img_header.webp",
-                                                                        "nombre":  "\u003cspan class=\u0027text-gray-900\u0027\u003eTour\u003c/span\u003e Glaciares del Ausangate ",
-                                                                        "nombre2":  "Tour Glaciares del Ausangate ",
-                                                                        "descripcion":  "Recorre los majestuosos e imponentes glaciares que rodean al sagrado Apu Ausangate.",
-                                                                        "precio":  "79",
-                                                                        "tiempo":  "Full Day",
-                                                                        "dificultad":  "Alta",
-                                                                        "transporte":  "Incluido"
-                                                                    }
-                                                  }
-                                    },
-                      "experiencias_unicas":  {
-                                                  "nombre":  "\u003cspan class=\u0027text-gray-900\u0027\u003eExperiencias\u003c/span\u003e Ãšnicas",
-                                                  "descripcion":  "ConÃ©ctate con la cultura andina a travÃ©s de ceremonias mÃ­sticas y delicias gastronÃ³micas tradicionales preparadas bajo tierra.",
-                                                  "imgs":  {
-                                                               "pr":  "/images/experiencias_unicas/principal.webp",
-                                                               "sec1":  "/images/experiencias_unicas/sec1.webp",
-                                                               "sec2":  "/images/experiencias_unicas/sec2.webp"
-                                                           },
-                                                  "links":  {
-                                                                "misticas":  {
-                                                                                 "url":  "CZ-cusco-mistico",
-                                                                                 "img":  "/images/experiencias_unicas/misticas/img_header.webp",
-                                                                                 "nombre":  "\u003cspan class=\u0027text-gray-900\u0027\u003eExperiencia\u003c/span\u003e mÃ­sticas medio dÃ­as",
-                                                                                 "nombre2":  "Experiencia mÃ­sticas medio dÃ­as",
-                                                                                 "descripcion":  "Vive una jornada de introspecciÃ³n y conexiÃ³n espiritual con rituales ancestrales guiados.",
-                                                                                 "precio":  "39",
-                                                                                 "tiempo":  "Medio dÃ­a",
-                                                                                 "dificultad":  "FÃ¡cil",
-                                                                                 "transporte":  "Incluido",
-                                                                                 "type":  "tour"
-                                                                             },
-                                                                "tour_maras_pachamanca":  {
-                                                                                              "url":  "experiencias-unicas",
-                                                                                              "img":  "/images/experiencias_unicas/maras_pachamanca/img_header.webp",
-                                                                                              "nombre":  "\u003cspan class=\u0027text-gray-900\u0027\u003eTour\u003c/span\u003e maras Moray + pachamanca andino full day",
-                                                                                              "nombre2":  "Tour maras Moray + pachamanca andino full day",
-                                                                                              "descripcion":  "Combina la maravilla de los laboratorios incas con un banquete tradicional andino cocinado bajo tierra.",
-                                                                                              "precio":  "99",
-                                                                                              "tiempo":  "Full Day",
-                                                                                              "dificultad":  "FÃ¡cil",
-                                                                                              "transporte":  "Incluido",
-                                                                                              "type":  "destino"
-                                                                                          },
-                                                                "pachamanca_medio_dia":  {
-                                                                                             "url":  "experiencias-unicas",
-                                                                                             "img":  "/images/experiencias_unicas/pachamanca/img_header.webp",
-                                                                                             "nombre":  "\u003cspan class=\u0027text-gray-900\u0027\u003ePachamanca\u003c/span\u003e andino medio dia",
-                                                                                             "nombre2":  "Pachamancaandino medio dia",
-                                                                                             "descripcion":  "Disfruta del proceso de preparaciÃ³n y degustaciÃ³n de la tradicional Pachamanca ancestral.",
-                                                                                             "precio":  "49",
-                                                                                             "tiempo":  "Medio dÃ­a",
-                                                                                             "dificultad":  "FÃ¡cil",
-                                                                                             "transporte":  "Incluido",
-                                                                                             "type":  "destino"
-                                                                                         },
-                                                                "ritual_andino":  {
-                                                                                      "url":  "experiencias-unicas",
-                                                                                      "img":  "/images/experiencias_unicas/ritual_andino/img_header.webp",
-                                                                                      "nombre":  "\u003cspan class=\u0027text-gray-900\u0027\u003eOfrenda ritual\u003c/span\u003e  andina medio dia",
-                                                                                      "nombre2":  "Ofrenda ritual andina medio dia",
-                                                                                      "descripcion":  "Participa activamente en una autÃ©ntica ofrenda de agradecimiento a la Pachamama (Madre Tierra).",
-                                                                                      "precio":  "35",
-                                                                                      "tiempo":  "Medio dÃ­a",
-                                                                                      "dificultad":  "FÃ¡cil",
-                                                                                      "transporte":  "Incluido",
-                                                                                      "type":  "destino"
-                                                                                  }
-                                                            }
-                                              },
-                      "paquete_peru":  {
-                                           "title":  "Paquetes PerÃº",
-                                           "links":  {
-                                                         "cusco_express":  "Paquete Cusco Express â€“ 3 DÃ­as / 2 Noches",
-                                                         "cusco-imperial":  "Paquete Cusco Imperial - 5 DÃ­as / 4 Noches",
-                                                         "peru_mistico":  "Paquete PerÃº MÃ­stico - 7 DÃ­as / 6 Noches",
-                                                         "peru_maravilloso":  "Paquete PerÃº Maravilloso 8 DÃ­as / 7 Noches",
-                                                         "peru_magico":  "Paquete PerÃº MÃ¡gico - 9 DÃ­as / 8 Noches",
-                                                         "peru_milenario":  "Paquete PerÃº Milenario - 12 DÃ­as / 11 Noches",
-                                                         "peru_360":  "Paquete PerÃº 360 - 15 DÃ­as / 14 Noches"
-                                                     }
-                                       }
-                  }
+    "banner_social": {
+        "horario": "Lun-SÃ¡b 9am-6pm (Pet)",
+        "telefono": "+51 982 770 013",
+        "extra_links": {
+            "blog": "Blog",
+            "testimonios": "Testimonios",
+            "nosotros": "Sobre nosotros",
+            "impacto": "Planea tu viaje"
+        }
+    },
+    "menu": {
+        "destinos": "Destinos",
+        "tour_cusco": "Tour Cusco",
+        "machupicchu": "Machupicchu",
+        "glaciares_cusco": "Glaciares en Cusco",
+        "experiencia_unica": "Experiencias Unicas",
+        "paquete_peru": "Paquete Peru"
+    },
+    "mega_menu": {
+        "destinos": {
+            "lima": {
+                "nombre": "Lima",
+                "img": "/images/destinos/lima/lima.webp"
+            },
+            "manu_tambopata": {
+                "nombre": "Manu Tambopata",
+                "img": "/images/destinos/manu/manu.webp"
+            },
+            "puno": {
+                "nombre": "Puno",
+                "img": "/images/destinos/puno/puno.webp"
+            },
+            "arequipa": {
+                "nombre": "Arequipa",
+                "img": "/images/destinos/arequipa/arequipa.webp"
+            },
+            "huaraz": {
+                "nombre": "Huaraz",
+                "img": "/images/destinos/huaraz/huaraz.webp"
+            }
+        },
+        "tour_cusco": {
+            "tradicionales": {
+                "title": "<span class='text-gray-900'>Tours</span> Tradicionales",
+                "links": {
+                    "tour_mistico": {
+                        "nombre": "Tour M?stico _ full day",
+                        "url": "CZ-cusco-mistico"
+                    },
+                    "city_tour": {
+                        "nombre": "City Tour Cusco Medio D?a",
+                        "url": "CZ-cusco-city"
+                    },
+                    "super_valle_sagrado": {
+                        "nombre": "Tour S?per Valle Sagrado ? Full Day",
+                        "url": "super-valle-sagrado"
+                    }
+                }
+            },
+            "caminata": {
+                "title": "<span class='text-gray-900'>Tours</span> de Caminata",
+                "links": {
+                    "montana_colores": {
+                        "nombre": "Tour Monta?a de Colores",
+                        "url": "montana-colores"
+                    },
+                    "pallay_poncho": {
+                        "nombre": "Tour Monta?a Pallay Poncho",
+                        "url": "CZ-pallay_punchu"
+                    },
+                    "laguna_humantay": {
+                        "nombre": "Tour Laguna Humantay",
+                        "url": "laguna-humantay"
+                    },
+                    "waqrapukara": {
+                        "nombre": "Tour Waqrapukara",
+                        "url": "fortaleza-cuernos"
+                    },
+                    "ultimo_puente_inca": {
+                        "nombre": "Tour ?ltimo Puente Inca ? Q?eswachaka",
+                        "url": "puente-inca"
+                    }
+                }
+            },
+            "aventura": {
+                "title": "<span class='text-gray-900'>Tours</span> de Aventura",
+                "links": {}
+            }
+        },
+        "machupicchu": {
+            "nombre": "<span class='text-gray-900'>Tours</span> Machupicchu",
+            "descripcion": "Descubre los impresionantes laboratorios agrÃ­colas de los Incas en Moray y vive una experiencia gastronÃ³mica ancestral Ãºnica cocinando bajo tierra.",
+            "imgs": {
+                "pr": "/images/machupicchu/principal.jpg",
+                "sec1": "/images/machupicchu/sec1.webp",
+                "sec2": "/images/machupicchu/sec2.webp"
+            },
+            "links": {
+                "clasico": {
+                    "url": "CZ-machupicchu-clasico",
+                    "img": "/images/machupicchu/clasico/img_header.webp",
+                    "nombre": "<span class='text-gray-900'>Tour Machu Picchu</span>  Clasico",
+                    "nombre2": "Tour Machu Picchu  Clasico",
+                    "descripcion": "Descubre los impresionantes laboratorios agrÃ­colas de los Incas en Moray y vive una experiencia gastronÃ³mica ancestral Ãºnica cocinando bajo tierra.",
+                    "precio": "49",
+                    "tiempo": "Todo el dia",
+                    "dificultad": "Facil",
+                    "transporte": "Incluido"
+                },
+                "tren_panoramico": {
+                    "url": "CZ-machupicchu-panoramico",
+                    "img": "/images/machupicchu/panoramico/img_header.webp",
+                    "nombre": "<span class='text-gray-900'>Tou Machu Picchur</span>  con tren panoramico vista observatorio",
+                    "nombre2": "Tou Machu Picchur con tren panoramico vista observatorio",
+                    "descripcion": "Descubre los impresionantes laboratorios agrÃ­colas de los Incas en Moray y vive una experiencia gastronÃ³mica ancestral Ãºnica cocinando bajo tierra.",
+                    "precio": "19",
+                    "tiempo": "Todo el dia",
+                    "dificultad": "Facil",
+                    "transporte": "Incluido"
+                },
+                "tren_hiram": {
+                    "url": "CZ-machupicchu-hiram",
+                    "img": "/images/machupicchu/hiram/img_header.webp",
+                    "nombre": "<span class='text-gray-900'>Tour Machu Picchu</span>  en tren de lujo Hiram Bingham",
+                    "nombre2": "Tour Machu Picchu en tren de lujo Hiram Bingham",
+                    "descripcion": "Descubre los impresionantes laboratorios agrÃ­colas de los Incas en Moray y vive una experiencia gastronÃ³mica ancestral Ãºnica cocinando bajo tierra.",
+                    "precio": "89",
+                    "tiempo": "Todo el dia",
+                    "dificultad": "Facil",
+                    "transporte": "Incluido"
+                },
+                "ruta_amazonica": {
+                    "url": "CZ-machupicchu-amazonico",
+                    "img": "/images/machupicchu/amazonica/img_header.webp",
+                    "nombre": "<span class='text-gray-900'>Tour Machu Picchu</span> ruta amazonica",
+                    "nombre2": "Tour Machu Picchuruta amazonica",
+                    "descripcion": "Descubre los impresionantes laboratorios agrÃ­colas de los Incas en Moray y vive una experiencia gastronÃ³mica ancestral Ãºnica cocinando bajo tierra.",
+                    "precio": "59",
+                    "tiempo": "2D/1N",
+                    "dificultad": "Facil",
+                    "transporte": "Incluido"
+                }
+            }
+        },
+        "glaciares": {
+            "nombre": "<span class='text-gray-900'>Conoce los</span>  glaciares",
+            "descripcion": "Explora las imponentes masas de hielo perpetuo en las cordilleras de Cusco, rutas desafiantes con paisajes altoandinos inigualables.",
+            "imgs": {
+                "pr": "/images/glaciares/principal.webp",
+                "sec1": "/images/glaciares/sec1.webp",
+                "sec2": "/images/glaciares/sec2.webp"
+            },
+            "links": {
+                "quelccaya": {
+                    "url": "glaciar-quelccaya",
+                    "img": "/images/glaciares/quelccaya/img_header.webp",
+                    "nombre": "<span class='text-gray-900'>Tour</span> Glaciar Quelccaya",
+                    "nombre2": "Tour Glaciar Quelccaya",
+                    "descripcion": "AventÃºrate al glaciar tropical mÃ¡s extenso del mundo, una joya de la naturaleza en los Andes peruanos.",
+                    "precio": "89",
+                    "tiempo": "Full Day",
+                    "dificultad": "Alta",
+                    "transporte": "Incluido"
+                },
+                "ausangate": {
+                    "url": "glaciar-ausangate",
+                    "img": "/images/glaciares/ausangate/img_header.webp",
+                    "nombre": "<span class='text-gray-900'>Tour</span> Glaciares del Ausangate ",
+                    "nombre2": "Tour Glaciares del Ausangate ",
+                    "descripcion": "Recorre los majestuosos e imponentes glaciares que rodean al sagrado Apu Ausangate.",
+                    "precio": "79",
+                    "tiempo": "Full Day",
+                    "dificultad": "Alta",
+                    "transporte": "Incluido"
+                }
+            }
+        },
+        "experiencias_unicas": {
+            "nombre": "<span class='text-gray-900'>Experiencias</span> Ãšnicas",
+            "descripcion": "ConÃ©ctate con la cultura andina a travÃ©s de ceremonias mÃ­sticas y delicias gastronÃ³micas tradicionales preparadas bajo tierra.",
+            "imgs": {
+                "pr": "/images/experiencias_unicas/principal.webp",
+                "sec1": "/images/experiencias_unicas/sec1.webp",
+                "sec2": "/images/experiencias_unicas/sec2.webp"
+            },
+            "links": {
+                "misticas": {
+                    "url": "CZ-cusco-mistico",
+                    "img": "/images/experiencias_unicas/misticas/img_header.webp",
+                    "nombre": "<span class='text-gray-900'>Experiencia</span> mÃ­sticas medio dÃ­as",
+                    "nombre2": "Experiencia mÃ­sticas medio dÃ­as",
+                    "descripcion": "Vive una jornada de introspecciÃ³n y conexiÃ³n espiritual con rituales ancestrales guiados.",
+                    "precio": "39",
+                    "tiempo": "Medio dÃ­a",
+                    "dificultad": "FÃ¡cil",
+                    "transporte": "Incluido",
+                    "type": "tour"
+                },
+                "tour_maras_pachamanca": {
+                    "url": "experiencias-unicas",
+                    "img": "/images/experiencias_unicas/maras_pachamanca/img_header.webp",
+                    "nombre": "<span class='text-gray-900'>Tour</span> maras Moray + pachamanca andino full day",
+                    "nombre2": "Tour maras Moray + pachamanca andino full day",
+                    "descripcion": "Combina la maravilla de los laboratorios incas con un banquete tradicional andino cocinado bajo tierra.",
+                    "precio": "99",
+                    "tiempo": "Full Day",
+                    "dificultad": "FÃ¡cil",
+                    "transporte": "Incluido",
+                    "type": "destino"
+                },
+                "pachamanca_medio_dia": {
+                    "url": "experiencias-unicas",
+                    "img": "/images/experiencias_unicas/pachamanca/img_header.webp",
+                    "nombre": "<span class='text-gray-900'>Pachamanca</span> andino medio dia",
+                    "nombre2": "Pachamancaandino medio dia",
+                    "descripcion": "Disfruta del proceso de preparaciÃ³n y degustaciÃ³n de la tradicional Pachamanca ancestral.",
+                    "precio": "49",
+                    "tiempo": "Medio dÃ­a",
+                    "dificultad": "FÃ¡cil",
+                    "transporte": "Incluido",
+                    "type": "destino"
+                },
+                "ritual_andino": {
+                    "url": "experiencias-unicas",
+                    "img": "/images/experiencias_unicas/ritual_andino/img_header.webp",
+                    "nombre": "<span class='text-gray-900'>Ofrenda ritual</span>  andina medio dia",
+                    "nombre2": "Ofrenda ritual andina medio dia",
+                    "descripcion": "Participa activamente en una autÃ©ntica ofrenda de agradecimiento a la Pachamama (Madre Tierra).",
+                    "precio": "35",
+                    "tiempo": "Medio dÃ­a",
+                    "dificultad": "FÃ¡cil",
+                    "transporte": "Incluido",
+                    "type": "destino"
+                }
+            }
+        },
+        "paquete_peru": {
+            "title": "Paquetes PerÃº",
+            "links": {
+                "cusco_express": {
+                    "nombre": "Paquete Cusco Express ? 3 D?as / 2 Noches",
+                    "url": "cusco-express"
+                },
+                "cusco-imperial": {
+                    "nombre": "Paquete Cusco Imperial ? 5 D?as / 4 Noches",
+                    "url": "cusco-imperial"
+                },
+                "peru_mistico": {
+                    "nombre": "Paquete Per? M?stico ? 7 D?as / 6 Noches",
+                    "url": "peru-mistico"
+                },
+                "peru_maravilloso": {
+                    "nombre": "Paquete Per? Maravilloso ? 8 D?as / 7 Noches",
+                    "url": "peru-maravilloso"
+                },
+                "peru_magico": {
+                    "nombre": "Paquete Per? M?gico ? 9 D?as / 8 Noches",
+                    "url": "peru-magico"
+                },
+                "peru_milenario": {
+                    "nombre": "Paquete Per? Milenario ? 12 D?as / 11 Noches",
+                    "url": "peru-milenario"
+                },
+                "peru_360": {
+                    "nombre": "Paquete Per? 360 ? 15 D?as / 14 Noches",
+                    "url": "peru-360"
+                },
+                "montanacolores-7lagunas": {
+                    "nombre": "Monta?a de 7 Colores + 7 Lagunas de Ausangate ? 2 D?as / 1 Noche",
+                    "url": "montanacolores-7lagunas"
+                },
+                "short-inca-trail": {
+                    "nombre": "Camino Inca Corto ? 2 D?as / 1 Noche",
+                    "url": "short-inca-trail"
+                },
+                "montanacolores-glaciarquelcaya": {
+                    "nombre": "Monta?a de Colores + Glaciar de Quelccaya ? 2 D?as / 1 Noche",
+                    "url": "montanacolores-glaciarquelcaya"
+                },
+                "vallesagrado-machupicchu": {
+                    "nombre": "Valle Sagrado + Machu Picchu ? 2 D?as / 1 Noche",
+                    "url": "vallesagrado-machupicchu"
+                }
+            }
+        }
+    }
 }

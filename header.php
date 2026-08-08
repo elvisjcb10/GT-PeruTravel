@@ -403,12 +403,12 @@ $header_ui = [
                                                     <?= $header_text['mega_menu']['tour_cusco']['tradicionales']['title'] ?>
                                                 </p>
 
-                                                <?php foreach($header_text['mega_menu']['tour_cusco']['tradicionales']['links'] as $key => $nombre): ?>
-                                                    <a href="#"
+                                                <?php foreach($header_text['mega_menu']['tour_cusco']['tradicionales']['links'] as $key => $tour): ?>
+                                                    <a href="<?= route_path('tour', $idioma ?? $lang, (string)(is_array($tour) ? ($tour['url'] ?? $key) : $key)) ?>"
                                                         class="group/item flex items-center justify-between gap-2 px-2 py-2.5
                                                             rounded-lg hover:bg-[#FFF7EF] transition duration-200">
                                                         <span class="group-hover/item:text-orange-500 transition duration-200 font-medium">
-                                                            <?= $nombre ?>
+                                                            <?= is_array($tour) ? $tour['nombre'] : $tour ?>
                                                         </span>
                                                         <svg xmlns="http://www.w3.org/2000/svg"
                                                             class="w-3.5 h-3.5 shrink-0 text-gray-300
@@ -429,12 +429,12 @@ $header_ui = [
                                                     <?= $header_text['mega_menu']['tour_cusco']['caminata']['title'] ?>
                                                 </p>
 
-                                                <?php foreach($header_text['mega_menu']['tour_cusco']['caminata']['links'] as $key => $nombre): ?>
-                                                    <a href="#"
+                                                <?php foreach($header_text['mega_menu']['tour_cusco']['caminata']['links'] as $key => $tour): ?>
+                                                    <a href="<?= route_path('tour', $idioma ?? $lang, (string)(is_array($tour) ? ($tour['url'] ?? $key) : $key)) ?>"
                                                         class="group/item flex items-center justify-between gap-2 px-2 py-2.5
                                                             rounded-lg hover:bg-[#FFF7EF] transition duration-200">
                                                         <span class="group-hover/item:text-orange-500 transition duration-200 font-medium">
-                                                            <?= $nombre ?>
+                                                            <?= is_array($tour) ? $tour['nombre'] : $tour ?>
                                                         </span>
                                                         <svg xmlns="http://www.w3.org/2000/svg"
                                                             class="w-3.5 h-3.5 shrink-0 text-gray-300
@@ -455,12 +455,12 @@ $header_ui = [
                                                     <?= $header_text['mega_menu']['tour_cusco']['aventura']['title'] ?>
                                                 </p>
 
-                                                <?php foreach($header_text['mega_menu']['tour_cusco']['aventura']['links'] as $key => $nombre): ?>
-                                                    <a href="#"
+                                                <?php foreach($header_text['mega_menu']['tour_cusco']['aventura']['links'] as $key => $tour): ?>
+                                                    <a href="<?= route_path('tour', $idioma ?? $lang, (string)(is_array($tour) ? ($tour['url'] ?? $key) : $key)) ?>"
                                                         class="group/item flex items-center justify-between gap-2 px-2 py-2.5
                                                             rounded-lg hover:bg-[#FFF7EF] transition duration-200">
                                                         <span class="group-hover/item:text-orange-500 transition duration-200 font-medium">
-                                                            <?= $nombre ?>
+                                                            <?= is_array($tour) ? $tour['nombre'] : $tour ?>
                                                         </span>
                                                         <svg xmlns="http://www.w3.org/2000/svg"
                                                             class="w-3.5 h-3.5 shrink-0 text-gray-300
@@ -1003,12 +1003,12 @@ $header_ui = [
 
                                         <!-- Links en grid de 2 columnas -->
                                         <div class="grid grid-cols-2 gap-x-12 gap-y-1">
-                                            <?php foreach($header_text['mega_menu']['paquete_peru']['links'] as $key => $nombre): ?>
-                                                <a href="#"
+                                            <?php foreach($header_text['mega_menu']['paquete_peru']['links'] as $key => $paquete): ?>
+                                                <a href="<?= route_path('paquete', $idioma ?? $lang, (string)(is_array($paquete) ? ($paquete['url'] ?? $key) : $key)) ?>"
                                                     class="group/item flex items-center justify-between gap-2 px-2 py-2.5
                                                         rounded-lg hover:bg-[#FFF7EF] transition duration-200">
                                                     <span class="group-hover/item:text-orange-500 transition duration-200 font-medium">
-                                                        <?= $nombre ?>
+                                                        <?= is_array($paquete) ? $paquete['nombre'] : $paquete ?>
                                                     </span>
                                                     <svg xmlns="http://www.w3.org/2000/svg"
                                                         class="w-3.5 h-3.5 shrink-0 text-gray-300
@@ -1097,18 +1097,18 @@ $header_ui = [
                 </button>
                 <div class=" font-poppins mobile-accordion-panel hidden pl-2 pb-2">
                     <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mt-2 mb-1"><?= $header_text['mega_menu']['tour_cusco']['tradicionales']['title'] ?></p>
-                    <?php foreach ($header_text['mega_menu']['tour_cusco']['tradicionales']['links'] as $key => $nombre): ?>
-                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)($key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $nombre ?></a>
+                    <?php foreach ($header_text['mega_menu']['tour_cusco']['tradicionales']['links'] as $key => $tour): ?>
+                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)(is_array($tour) ? ($tour['url'] ?? $key) : $key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= is_array($tour) ? $tour['nombre'] : $tour ?></a>
                     <?php endforeach; ?>
 
                     <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mt-3 mb-1"><?= $header_text['mega_menu']['tour_cusco']['caminata']['title'] ?></p>
-                    <?php foreach ($header_text['mega_menu']['tour_cusco']['caminata']['links'] as $key => $nombre): ?>
-                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)($key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $nombre ?></a>
+                    <?php foreach ($header_text['mega_menu']['tour_cusco']['caminata']['links'] as $key => $tour): ?>
+                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)(is_array($tour) ? ($tour['url'] ?? $key) : $key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= is_array($tour) ? $tour['nombre'] : $tour ?></a>
                     <?php endforeach; ?>
 
                     <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mt-3 mb-1"><?= $header_text['mega_menu']['tour_cusco']['aventura']['title'] ?></p>
-                    <?php foreach ($header_text['mega_menu']['tour_cusco']['aventura']['links'] as $key => $nombre): ?>
-                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)($key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $nombre ?></a>
+                    <?php foreach ($header_text['mega_menu']['tour_cusco']['aventura']['links'] as $key => $tour): ?>
+                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)(is_array($tour) ? ($tour['url'] ?? $key) : $key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= is_array($tour) ? $tour['nombre'] : $tour ?></a>
                     <?php endforeach; ?>
                 </div>
             </div>
@@ -1121,7 +1121,7 @@ $header_ui = [
                 </button>
                 <div class=" font-poppins mobile-accordion-panel hidden pl-2 pb-2 space-y-1">
                     <?php foreach ($header_text['mega_menu']['machupicchu']['links'] as $key => $tour): ?>
-                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)($key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $tour['nombre'] ?></a>
+                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)(is_array($tour) ? ($tour['url'] ?? $key) : $key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= is_array($tour) ? $tour['nombre'] : $tour ?></a>
                     <?php endforeach; ?>
                 </div>
             </div>
@@ -1134,7 +1134,7 @@ $header_ui = [
                 </button>
                 <div class=" font-poppins mobile-accordion-panel hidden pl-2 pb-2 space-y-1">
                     <?php foreach ($header_text['mega_menu']['glaciares']['links'] as $key => $tour): ?>
-                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)($key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $tour['nombre'] ?></a>
+                        <a href="<?= route_path('tour', $idioma ?? $lang, (string)(is_array($tour) ? ($tour['url'] ?? $key) : $key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= is_array($tour) ? $tour['nombre'] : $tour ?></a>
                     <?php endforeach; ?>
                 </div>
             </div>
@@ -1159,8 +1159,8 @@ $header_ui = [
                     <i class="fa-solid fa-chevron-down text-orange-custom text-xs mobile-accordion-icon transition-transform"></i>
                 </button>
                 <div class="mobile-accordion-panel hidden pl-2 pb-2 space-y-1 font-poppins ">
-                    <?php foreach ($header_text['mega_menu']['paquete_peru']['links'] as $key => $nombre): ?>
-                        <a href="<?= route_path('paquete', $idioma ?? $lang, (string)($key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= $nombre ?></a>
+                    <?php foreach ($header_text['mega_menu']['paquete_peru']['links'] as $key => $paquete): ?>
+                        <a href="<?= route_path('paquete', $idioma ?? $lang, (string)(is_array($paquete) ? ($paquete['url'] ?? $key) : $key)) ?>" class="block py-2 text-gray-600 text-sm hover:text-orange-custom"><?= is_array($paquete) ? $paquete['nombre'] : $paquete ?></a>
                     <?php endforeach; ?>
                 </div>
             </div>

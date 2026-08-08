@@ -22,7 +22,6 @@ $legacy_packages = [
     'cusco-magico'  => 'cusco-imperial',
     'peru-prime'    => 'peru-mistico',
     'peru-premium'  => 'peru-360',
-    'peru-mistico'  => 'peru-milenario',
 ];
 
 $requestPath = parse_url(
