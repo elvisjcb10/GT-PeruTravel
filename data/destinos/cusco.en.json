@@ -49,7 +49,7 @@
     {
       "title": "Humantay Lake",
       "description": "Discover its turquoise waters and dramatic snowcapped peaks on a full-day adventure from Cusco.",
-      "price": "$35", "duracion": "Full Day", "image": "tours/laguna-humantay/hero.jpg", "url": "laguna-humantay", "categoria": "caminata"
+      "price": "35", "duracion": "Full Day", "image": "tours/laguna-humantay/hero.jpg", "url": "laguna-humantay", "categoria": "caminata"
     },
     {
       "title": "Q’eswachaka Inca Bridge",
