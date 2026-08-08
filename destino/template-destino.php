@@ -184,6 +184,29 @@ $hero_text = json_decode($hero, true);
      *********************** -->
     <section class="container-custom mx-auto px-20 py-14">
 
+        <?php
+        // Load localized texts for the empty-state below the hero. Fallbacks provided to be safe.
+        $destino_empty_file = __DIR__ . "/../locale/$idioma/destino_empty.json";
+        $destino_empty_json = is_file($destino_empty_file) ? file_get_contents($destino_empty_file) : '{}';
+        $destino_empty_texts = json_decode($destino_empty_json, true)['no_tours'] ?? [
+            'title' => 'Próximamente nuevas experiencias',
+            'description' => 'Estamos preparando nuevos tours para este destino.',
+            'button' => 'Volver al inicio'
+        ];
+
+        // Home URL per language using the project's routing helper (respects ES home -> '/')
+        $home_url = function_exists('route_static_path') ? route_static_path('home', $idioma) : ($idioma === 'es' ? '/' : '/' . $idioma . '/');
+        ?>
+
+        <?php if (empty($destino['tours'])): ?>
+            <!-- EMPTY STATE: centered, minimal, localized -->
+            <div class="max-w-2xl mx-auto text-center py-12">
+                <h2 class="text-2xl font-bold font-poppins mb-3"><?= htmlspecialchars($destino_empty_texts['title']) ?></h2>
+                <p class="text-gray-600 mb-6"><?= htmlspecialchars($destino_empty_texts['description']) ?></p>
+                <a href="<?= htmlspecialchars($home_url) ?>" class="inline-block px-6 py-2 bg-orange-custom text-white rounded-lg font-bold"><?= htmlspecialchars($destino_empty_texts['button']) ?></a>
+            </div>
+        <?php else: ?>
+
         <!-- TABS DE FILTRO -->
         <div class="flex flex-wrap justify-center gap-3 mb-10">
             <?php foreach ($destino['filtros'] as $i => $filtro): ?>
@@ -281,6 +304,8 @@ $hero_text = json_decode($hero, true);
             <?php endforeach; ?>
 
         </div>
+
+        <?php endif; ?>
 
     </section>
 

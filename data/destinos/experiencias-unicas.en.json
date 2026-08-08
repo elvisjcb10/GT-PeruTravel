@@ -30,42 +30,7 @@
         "texto": "+100 Travelers"
     },
     "filtros": [],
-    "tours": [
-        {
-            "title": "Mystical experience half days",
-            "description": "Live a day of introspection and spiritual connection with guided ancestral rituals.",
-            "price": "39",
-            "duracion": "Half day",
-            "image": "misticas/img_header.webp",
-            "url": "misticas",
-            "categoria": "mystical"
-        },
-        {
-            "title": "Maras Moray tour + Andean pachamanca full day",
-            "description": "Combine the wonder of Inca laboratories with a traditional Andean banquet cooked underground.",
-            "price": "99",
-            "duracion": "Full Day",
-            "image": "maras_pachamanca/img_header.webp",
-            "url": "tour_maras_pachamanca",
-            "categoria": "gastronomy"
-        },
-        {
-            "title": "Andean Pachamanca half day",
-            "description": "Enjoy the process of preparing and tasting the traditional ancestral Pachamanca.",
-            "price": "49",
-            "duracion": "Half day",
-            "image": "pachamanca/img_header.webp",
-            "url": "pachamanca_medio_dia",
-            "categoria": "gastronomy"
-        },
-        {
-            "title": "Andean ritual offering half day",
-            "description": "Actively participate in an authentic offering of gratitude to Pachamama (Mother Earth).",
-            "price": "35",
-            "duracion": "Half day",
-            "image": "ritual_andino/img_header.webp",
-            "url": "ritual_andino",
-            "categoria": "mystical"
-        }
+  "tours": [
+ 
     ]
 }

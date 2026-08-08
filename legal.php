@@ -17,9 +17,31 @@ $GLOBALS['lang'] = $idioma;
 // 2. Documento solicitado
 $doc = $_GET['doc'] ?? 'quienes-somos';
 
+
+// ==================================================
+// REDIRECCIONES LEGACY A PÁGINAS ESTÁTICAS
+// ==================================================
+
+$requestPath = parse_url(
+    (string)($_SERVER['REQUEST_URI'] ?? ''),
+    PHP_URL_PATH
+) ?: '';
+
+if (
+    PHP_SAPI !== 'cli' &&
+    rtrim($requestPath, '/') === '/legal.php' &&
+    $doc === 'contacto'
+) {
+    header(
+        'Location: ' . route_static_path('contacto', $idioma),
+        true,
+        301
+    );
+    exit;
+}
+
 // Normalizamos: guiones → guiones bajos
 $doc = str_replace('-', '_', $doc);
-
 // 3. Cargar archivo JSON legal del idioma
 $legal_file = __DIR__ . "/lang/legal-$idioma.json";
 

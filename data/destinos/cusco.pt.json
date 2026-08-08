@@ -54,26 +54,14 @@
     {
       "title": "Tour Ponte Inca Q’eswachaka",
       "description": "Conheça a última ponte inca tecida à mão e a cultura viva das comunidades de Canas em uma excursão saindo de Cusco.",
-      "price": "0", "duracion": "Dia inteiro", "image": "tours/qeswachaka/hero.jpg", "url": "puente-inca", "categoria": "tradicionales"
+      "price": "0", "duracion": "Dia inteiro", "image": "tours/qeswachaka/hero.jpg", "url": "puente-inca", "categoria": "caminata"
     },
     {
       "title": "Tour Waqrapukara",
       "description": "Conheça a fortaleza dos chifres, suas paisagens arqueológicas e as vistas do Cânion do Apurímac.",
       "price": "0", "duracion": "Dia inteiro", "image": "tours/waqrapukara/hero.jpg", "url": "fortaleza-cuernos", "categoria": "caminata"
-    },
-    
-  
-    {
-      "title": "Cusco Express",
-      "description": "Viaje a Cusco e Machu Picchu para descobrir a história inca, a magia dos Andes e a essência cultural do Peru.",
-      "price": "309", "duracion": "3 Dias / 2 Noites", "image": "paquetes/cusco-express-hero.jpg", "url": "cusco-express", "tipo": "paquete", "categoria": "tradicionales"
-    },
-  
-    
-    {
-      "title": "Cusco Imperial",
-      "description": "Viva Cusco, Vale Sagrado, Machu Picchu, Lagoa Humantay e Montanha Colorida em cinco dias.",
-      "price": "485", "duracion": "5 Dias / 4 Noites", "image": "paquetes/cusco-imperial-hero.jpg", "url": "cusco-imperial", "tipo": "paquete", "categoria": "aventura"
     }
+    
+  
   ]
 }

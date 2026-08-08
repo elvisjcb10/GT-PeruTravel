@@ -97,7 +97,7 @@
             "duracion": "Full Day",
             "image": "tours/qeswachaka/hero.jpg",
             "url": "puente-inca",
-            "categoria": "tradicionales"
+            "categoria": "caminata"
         },
         {
             "title": "Tour Waqrapukara",
@@ -107,28 +107,8 @@
             "image": "tours/waqrapukara/hero.jpg",
             "url": "fortaleza-cuernos",
             "categoria": "caminata"
-        },
-       
-        {
-            "title": "Cusco Express",
-            "description": "Escápate a Cusco y Machu Picchu, el destino ideal para descubrir la historia inca, la magia de los Andes y la esencia cultural del Perú.",
-            "price": "309",
-            "duracion": "3 Días / 2 Noches",
-            "image": "paquetes/cusco-express-hero.jpg",
-            "url": "cusco-express",
-            "tipo": "paquete",
-            "categoria": "tradicionales"
-        },
-        
-        {
-            "title": "Cusco Imperial",
-            "description": "Vive Cusco, Valle Sagrado, Machu Picchu, Laguna Humantay y Montaña de 7 Colores en cinco días.",
-            "price": "485",
-            "duracion": "5 Días / 4 Noches",
-            "image": "paquetes/cusco-imperial-hero.jpg",
-            "url": "cusco-imperial",
-            "tipo": "paquete",
-            "categoria": "aventura"
         }
+       
+       
     ]
 }

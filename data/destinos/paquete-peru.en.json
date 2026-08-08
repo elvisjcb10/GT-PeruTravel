@@ -101,6 +101,47 @@
             "url": "peru-360",
             "tipo": "paquete",
             "categoria": "complete"
+        },
+        {
+            "title": "Rainbow Mountain + 7 Ausangate Lagoons",
+            "description": "Enjoy two days of adventure exploring Rainbow Mountain and the 7 Ausangate Lagoons, surrounded by spectacular Andean landscapes.",
+            "price": "125",
+            "duracion": "2 Days / 1 Night",
+            "image": "paquetes/montanacolores-7lagunas.jpg",
+            "url": "montanacolores-7lagunas",
+            "tipo": "paquete",
+            "categoria": "cortos"
+        },
+        {
+            "title": "Short Inca Trail",
+            "description": "Hike the legendary Inca Trail from Km 104, visit Wiñay Wayna and Inti Punku, and reach Machu Picchu on an unforgettable 2-day adventure.",
+            "price": "449",
+            "duracion": "2 Days / 1 Night",
+            "image": "paquetes/camino-inca-corto.jpg",
+            "url": "short-inca-trail",
+            "tipo": "paquete",
+            "categoria": "cortos"
+        },
+        {
+            "title": "Rainbow Mountain + Quelccaya Glacier",
+            "description": "Discover Rainbow Mountain and the impressive Quelccaya Glacier on a 2-day adventure through unique landscapes of the Peruvian Andes.",
+            "price": "145",
+            "duracion": "2 Days / 1 Night",
+            "image": "paquetes/montana-colores-cusco-peru.jpg",
+            "url": "montanacolores-glaciarquelcaya",
+            "tipo": "paquete",
+            "categoria": "cortos"
+        },
+        {
+            "title": "Sacred Valley + Machu Picchu",
+            "description": "Discover the Sacred Valley of the Incas and Machu Picchu on a 2-day journey filled with history, culture, and spectacular Andean landscapes.",
+            "price": "389",
+            "duracion": "2 Days / 1 Night",
+            "image": "paquetes/valle-sagrado-machupicchu.jpg",
+            "url": "vallesagrado-machupicchu",
+            "tipo": "paquete",
+            "categoria": "cortos"
         }
+        
     ]
 }

@@ -101,6 +101,46 @@
             "url": "peru-360",
             "tipo": "paquete",
             "categoria": "completo"
+        },
+        {
+            "title": "Montanha Colorida + 7 Lagoas de Ausangate",
+            "description": "Viva dois dias de aventura entre a Montanha Colorida e as 7 Lagoas de Ausangate, cercado por impressionantes paisagens andinas.",
+            "price": "125",
+            "duracion": "2 Dias / 1 Noite",
+            "image": "paquetes/montanacolores-7lagunas.jpg",
+            "url": "montanacolores-7lagunas",
+            "tipo": "paquete",
+            "categoria": "cortos"
+        },
+        {
+            "title": "Trilha Inca Curta",
+            "description": "Percorra a lendária Trilha Inca desde o Km 104, visite Wiñay Wayna e Inti Punku e chegue a Machu Picchu em uma experiência inesquecível de 2 dias.",
+            "price": "449",
+            "duracion": "2 Dias / 1 Noite",
+            "image": "paquetes/camino-inca-corto.jpg",
+            "url": "short-inca-trail",
+            "tipo": "paquete",
+            "categoria": "cortos"
+        },
+        {
+            "title": "Montanha Colorida + Glaciar Quelccaya",
+            "description": "Descubra a Montanha Colorida e o impressionante Glaciar Quelccaya em uma aventura de 2 dias por paisagens únicas dos Andes peruanos.",
+            "price": "145",
+            "duracion": "2 Dias / 1 Noite",
+            "image": "paquetes/montana-colores-cusco-peru.jpg",
+            "url": "montanacolores-glaciarquelcaya",
+            "tipo": "paquete",
+            "categoria": "cortos"
+        },
+        {
+            "title": "Vale Sagrado + Machu Picchu",
+            "description": "Descubra o Vale Sagrado dos Incas e Machu Picchu em uma experiência de 2 dias entre história, cultura e espetaculares paisagens andinas.",
+            "price": "389",
+            "duracion": "2 Dias / 1 Noite",
+            "image": "paquetes/valle-sagrado-machupicchu.jpg",
+            "url": "vallesagrado-machupicchu",
+            "tipo": "paquete",
+            "categoria": "cortos"
         }
     ]
 }

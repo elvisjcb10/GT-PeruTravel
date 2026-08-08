@@ -13,19 +13,29 @@ $paquete = (string) ($_GET['paquete'] ?? 'peru-mistico');
 if (!preg_match('/\A[a-zA-Z0-9_-]{1,120}\z/D', $paquete)) {
     app_redirect('/404.php?lang=' . rawurlencode($lang));
 }
-
 // ==========================================
 // REDIRECCIONES DE LA WEB ANTIGUA
 // ==========================================
+
 $legacy_packages = [
     'descubre-peru' => 'peru-maravilloso',
     'cusco-magico'  => 'cusco-imperial',
     'peru-prime'    => 'peru-mistico',
     'peru-premium'  => 'peru-360',
-    'peru-mistico'  => 'peru-milenario',
 ];
 
-if (isset($legacy_packages[$paquete])) {
+$requestPath = parse_url(
+    (string) ($_SERVER['REQUEST_URI'] ?? ''),
+    PHP_URL_PATH
+) ?: '';
+
+$isLegacyPackageUrl =
+    rtrim($requestPath, '/') === '/paquete/template-paquete.php';
+
+if (
+    $isLegacyPackageUrl &&
+    isset($legacy_packages[$paquete])
+) {
 
     $destino = $legacy_packages[$paquete];
 
