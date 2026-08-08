@@ -45,15 +45,15 @@
                 "title": "Tours Tradicionais",
                 "links": {
                     "tour_mistico": {
-                        "nombre": "Tour M?stico ? Dia Completo",
+                        "nombre": "Tour Místico em Cusco – Dia Completo",
                         "url": "CZ-cusco-mistico"
                     },
                     "city_tour": {
-                        "nombre": "City Tour Cusco ? Meio Dia",
+                        "nombre": "City Tour Cusco – Meio Dia",
                         "url": "CZ-cusco-city"
                     },
                     "super_valle_sagrado": {
-                        "nombre": "Tour Super Vale Sagrado ? Dia Completo",
+                        "nombre": "Tour Super Vale Sagrado – Dia Completo",
                         "url": "super-valle-sagrado"
                     }
                 }
@@ -78,7 +78,7 @@
                         "url": "fortaleza-cuernos"
                     },
                     "ultimo_puente_inca": {
-                        "nombre": "Tour ?ltima Ponte Inca ? Q?eswachaka",
+                        "nombre": "Tour Última Ponte Inca – Q'eswachaka",
                         "url": "puente-inca"
                     }
                 }
@@ -239,47 +239,47 @@
             "title": "Pacotes Peru",
             "links": {
                 "cusco_express": {
-                    "nombre": "Pacote Cusco Express ? 3 Dias / 2 Noites",
+                    "nombre": "Pacote Cusco Express – 3 Dias / 2 Noites",
                     "url": "cusco-express"
                 },
                 "cusco-imperial": {
-                    "nombre": "Pacote Cusco Imperial ? 5 Dias / 4 Noites",
+                    "nombre": "Pacote Cusco Imperial – 5 Dias / 4 Noites",
                     "url": "cusco-imperial"
                 },
                 "peru_mistico": {
-                    "nombre": "Pacote Peru M?stico ? 7 Dias / 6 Noites",
+                    "nombre": "Pacote Peru Místico – 7 Dias / 6 Noites",
                     "url": "peru-mistico"
                 },
                 "peru_maravilloso": {
-                    "nombre": "Pacote Peru Maravilhoso ? 8 Dias / 7 Noites",
+                    "nombre": "Pacote Peru Maravilhoso – 8 Dias / 7 Noites",
                     "url": "peru-maravilloso"
                 },
                 "peru_magico": {
-                    "nombre": "Pacote Peru M?gico ? 9 Dias / 8 Noites",
+                    "nombre": "Pacote Peru Mágico – 9 Dias / 8 Noites",
                     "url": "peru-magico"
                 },
                 "peru_milenario": {
-                    "nombre": "Pacote Peru Milenar ? 12 Dias / 11 Noites",
+                    "nombre": "Pacote Peru Milenar – 12 Dias / 11 Noites",
                     "url": "peru-milenario"
                 },
                 "peru_360": {
-                    "nombre": "Pacote Peru 360 ? 15 Dias / 14 Noites",
+                    "nombre": "Pacote Peru 360 – 15 Dias / 14 Noites",
                     "url": "peru-360"
                 },
                 "montanacolores-7lagunas": {
-                    "nombre": "Montanha Colorida + 7 Lagoas de Ausangate ? 2 Dias / 1 Noite",
+                    "nombre": "Montanha Colorida + 7 Lagoas de Ausangate – 2 Dias / 1 Noite",
                     "url": "montanacolores-7lagunas"
                 },
                 "short-inca-trail": {
-                    "nombre": "Caminho Inca Curto ? 2 Dias / 1 Noite",
+                    "nombre": "Caminho Inca Curto – 2 Dias / 1 Noite",
                     "url": "short-inca-trail"
                 },
                 "montanacolores-glaciarquelcaya": {
-                    "nombre": "Montanha Colorida + Glaciar Quelccaya ? 2 Dias / 1 Noite",
+                    "nombre": "Montanha Colorida + Glaciar Quelccaya – 2 Dias / 1 Noite",
                     "url": "montanacolores-glaciarquelcaya"
                 },
                 "vallesagrado-machupicchu": {
-                    "nombre": "Vale Sagrado + Machu Picchu ? 2 Dias / 1 Noite",
+                    "nombre": "Vale Sagrado + Machu Picchu – 2 Dias / 1 Noite",
                     "url": "vallesagrado-machupicchu"
                 }
             }

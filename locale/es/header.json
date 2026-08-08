@@ -15,7 +15,7 @@
         "machupicchu": "Machupicchu",
         "glaciares_cusco": "Glaciares en Cusco",
         "experiencia_unica": "Experiencias Unicas",
-        "paquete_peru": "Paquete Peru"
+        "paquete_peru": "Paquetes Perú"
     },
     "mega_menu": {
         "destinos": {
@@ -45,15 +45,15 @@
                 "title": "<span class='text-gray-900'>Tours</span> Tradicionales",
                 "links": {
                     "tour_mistico": {
-                        "nombre": "Tour M?stico _ full day",
+                        "nombre": "Tour Místico en Cusco – Full Day",
                         "url": "CZ-cusco-mistico"
                     },
                     "city_tour": {
-                        "nombre": "City Tour Cusco Medio D?a",
+                        "nombre": "City Tour Cusco Medio Día",
                         "url": "CZ-cusco-city"
                     },
                     "super_valle_sagrado": {
-                        "nombre": "Tour S?per Valle Sagrado ? Full Day",
+                        "nombre": "Tour Súper Valle Sagrado – Full Day",
                         "url": "super-valle-sagrado"
                     }
                 }
@@ -62,11 +62,11 @@
                 "title": "<span class='text-gray-900'>Tours</span> de Caminata",
                 "links": {
                     "montana_colores": {
-                        "nombre": "Tour Monta?a de Colores",
+                        "nombre": "Tour Montaña de Colores",
                         "url": "montana-colores"
                     },
                     "pallay_poncho": {
-                        "nombre": "Tour Monta?a Pallay Poncho",
+                        "nombre": "Tour Montaña Pallay Punchu",
                         "url": "CZ-pallay_punchu"
                     },
                     "laguna_humantay": {
@@ -78,7 +78,7 @@
                         "url": "fortaleza-cuernos"
                     },
                     "ultimo_puente_inca": {
-                        "nombre": "Tour ?ltimo Puente Inca ? Q?eswachaka",
+                        "nombre": "Tour Último Puente Inca – Q'eswachaka",
                         "url": "puente-inca"
                     }
                 }
@@ -236,50 +236,50 @@
             }
         },
         "paquete_peru": {
-            "title": "Paquetes PerÃº",
+            "title": "Paquetes Perú",
             "links": {
                 "cusco_express": {
-                    "nombre": "Paquete Cusco Express ? 3 D?as / 2 Noches",
+                    "nombre": "Paquete Cusco Express – 3 Días / 2 Noches",
                     "url": "cusco-express"
                 },
                 "cusco-imperial": {
-                    "nombre": "Paquete Cusco Imperial ? 5 D?as / 4 Noches",
+                    "nombre": "Paquete Cusco Imperial – 5 Días / 4 Noches",
                     "url": "cusco-imperial"
                 },
                 "peru_mistico": {
-                    "nombre": "Paquete Per? M?stico ? 7 D?as / 6 Noches",
+                    "nombre": "Paquete Perú Místico – 7 Días / 6 Noches",
                     "url": "peru-mistico"
                 },
                 "peru_maravilloso": {
-                    "nombre": "Paquete Per? Maravilloso ? 8 D?as / 7 Noches",
+                    "nombre": "Paquete Perú Maravilloso – 8 Días / 7 Noches",
                     "url": "peru-maravilloso"
                 },
                 "peru_magico": {
-                    "nombre": "Paquete Per? M?gico ? 9 D?as / 8 Noches",
+                    "nombre": "Paquete Perú Mágico – 9 Días / 8 Noches",
                     "url": "peru-magico"
                 },
                 "peru_milenario": {
-                    "nombre": "Paquete Per? Milenario ? 12 D?as / 11 Noches",
+                    "nombre": "Paquete Perú Milenario – 12 Días / 11 Noches",
                     "url": "peru-milenario"
                 },
                 "peru_360": {
-                    "nombre": "Paquete Per? 360 ? 15 D?as / 14 Noches",
+                    "nombre": "Paquete Perú 360 – 15 Días / 14 Noches",
                     "url": "peru-360"
                 },
                 "montanacolores-7lagunas": {
-                    "nombre": "Monta?a de 7 Colores + 7 Lagunas de Ausangate ? 2 D?as / 1 Noche",
+                    "nombre": "Montaña de 7 Colores + 7 Lagunas de Ausangate – 2 Días / 1 Noche",
                     "url": "montanacolores-7lagunas"
                 },
                 "short-inca-trail": {
-                    "nombre": "Camino Inca Corto ? 2 D?as / 1 Noche",
+                    "nombre": "Camino Inca Corto – 2 Días / 1 Noche",
                     "url": "short-inca-trail"
                 },
                 "montanacolores-glaciarquelcaya": {
-                    "nombre": "Monta?a de Colores + Glaciar de Quelccaya ? 2 D?as / 1 Noche",
+                    "nombre": "Montaña de Colores + Glaciar de Quelccaya – 2 Días / 1 Noche",
                     "url": "montanacolores-glaciarquelcaya"
                 },
                 "vallesagrado-machupicchu": {
-                    "nombre": "Valle Sagrado + Machu Picchu ? 2 D?as / 1 Noche",
+                    "nombre": "Valle Sagrado + Machu Picchu – 2 Días / 1 Noche",
                     "url": "vallesagrado-machupicchu"
                 }
             }

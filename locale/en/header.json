@@ -45,15 +45,15 @@
                 "title": "Traditional Tours",
                 "links": {
                     "tour_mistico": {
-                        "nombre": "Mystic Tour ? Full Day",
+                        "nombre": "Mystic Tour – Full Day",
                         "url": "CZ-cusco-mistico"
                     },
                     "city_tour": {
-                        "nombre": "Cusco City Tour ? Half Day",
+                        "nombre": "Cusco City Tour – Half Day",
                         "url": "CZ-cusco-city"
                     },
                     "super_valle_sagrado": {
-                        "nombre": "Super Sacred Valley Tour ? Full Day",
+                        "nombre": "Super Sacred Valley Tour – Full Day",
                         "url": "super-valle-sagrado"
                     }
                 }
@@ -78,7 +78,7 @@
                         "url": "fortaleza-cuernos"
                     },
                     "ultimo_puente_inca": {
-                        "nombre": "Last Inca Bridge Tour ? Q?eswachaka",
+                        "nombre": "Last Inca Bridge Tour – Q'eswachaka",
                         "url": "puente-inca"
                     }
                 }
@@ -239,47 +239,47 @@
             "title": "Peru Packages",
             "links": {
                 "cusco_express": {
-                    "nombre": "Cusco Express Package ? 3 Days / 2 Nights",
+                    "nombre": "Cusco Express Package – 3 Days / 2 Nights",
                     "url": "cusco-express"
                 },
                 "cusco-imperial": {
-                    "nombre": "Imperial Cusco Package ? 5 Days / 4 Nights",
+                    "nombre": "Imperial Cusco Package – 5 Days / 4 Nights",
                     "url": "cusco-imperial"
                 },
                 "peru_mistico": {
-                    "nombre": "Mystic Peru Package ? 7 Days / 6 Nights",
+                    "nombre": "Mystic Peru Package – 7 Days / 6 Nights",
                     "url": "peru-mistico"
                 },
                 "peru_maravilloso": {
-                    "nombre": "Wonderful Peru Package ? 8 Days / 7 Nights",
+                    "nombre": "Wonderful Peru Package – 8 Days / 7 Nights",
                     "url": "peru-maravilloso"
                 },
                 "peru_magico": {
-                    "nombre": "Magic Peru Package ? 9 Days / 8 Nights",
+                    "nombre": "Magic Peru Package – 9 Days / 8 Nights",
                     "url": "peru-magico"
                 },
                 "peru_milenario": {
-                    "nombre": "Millenary Peru Package ? 12 Days / 11 Nights",
+                    "nombre": "Millenary Peru Package – 12 Days / 11 Nights",
                     "url": "peru-milenario"
                 },
                 "peru_360": {
-                    "nombre": "Peru 360 Package ? 15 Days / 14 Nights",
+                    "nombre": "Peru 360 Package – 15 Days / 14 Nights",
                     "url": "peru-360"
                 },
                 "montanacolores-7lagunas": {
-                    "nombre": "Rainbow Mountain + 7 Ausangate Lagoons ? 2 Days / 1 Night",
+                    "nombre": "Rainbow Mountain + 7 Ausangate Lagoons – 2 Days / 1 Night",
                     "url": "montanacolores-7lagunas"
                 },
                 "short-inca-trail": {
-                    "nombre": "Short Inca Trail ? 2 Days / 1 Night",
+                    "nombre": "Short Inca Trail – 2 Days / 1 Night",
                     "url": "short-inca-trail"
                 },
                 "montanacolores-glaciarquelcaya": {
-                    "nombre": "Rainbow Mountain + Quelccaya Glacier ? 2 Days / 1 Night",
+                    "nombre": "Rainbow Mountain + Quelccaya Glacier – 2 Days / 1 Night",
                     "url": "montanacolores-glaciarquelcaya"
                 },
                 "vallesagrado-machupicchu": {
-                    "nombre": "Sacred Valley + Machu Picchu ? 2 Days / 1 Night",
+                    "nombre": "Sacred Valley + Machu Picchu – 2 Days / 1 Night",
                     "url": "vallesagrado-machupicchu"
                 }
             }
