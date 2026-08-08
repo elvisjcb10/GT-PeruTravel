@@ -78,36 +78,24 @@
         "description": "Committed to your perfect experience. Each advisor is verified and available on WhatsApp.",
         "asesores": [
             {
-                "nombre": "Carmen",
+                "nombre": "Advisor 1",
                 "cargo": "Travel Advisor",
-                "foto": "/images/nosotros/carmen.jpg",
-                "whatsapp": "51987370201"
+                "foto": "/images/nosotros/foto.png",
+                "whatsapp": "51997379201"
             },
             {
-                "nombre": "Carmen",
-                "cargo": "Travel Advisor",
-                "foto": "/images/nosotros/carmen.jpg",
-                "whatsapp": "51987370202"
+                "nombre": "Euler Vander",
+                "cargo": "Manager",
+                "foto": "/images/nosotros/foto.png",
+                "whatsapp": "51984210921"
             },
             {
-                "nombre": "Carmen",
+                "nombre": "Advisor 2",
                 "cargo": "Travel Advisor",
-                "foto": "/images/nosotros/carmen.jpg",
-                "whatsapp": "51987370203"
-            },
-            {
-                "nombre": "Carmen",
-                "cargo": "Travel Advisor",
-                "foto": "/images/nosotros/carmen.jpg",
-                "whatsapp": "51987370204"
-            },
-            {
-                "nombre": "Carmen",
-                "cargo": "Travel Advisor",
-                "foto": "/images/nosotros/carmen.jpg",
-                "whatsapp": "51987370205"
+                "foto": "/images/nosotros/foto.png",
+                "whatsapp": "51947831392"
             }
-        ]
+            ]
     },
     "ventajas": {
         "kicker": "Our Advantages",

@@ -1,18 +1,18 @@
 {
-    "asesores": [
-        {
-            "nombre": "Carolina Ancco",
-            "cargo": "Consultora de Vendas",
-            "telefono": "+51 987 370",
-            "whatsapp": "51987370201",
-            "foto": "/images/equipo/carmen.jpg"
-        },
-        {
-            "nombre": "Carolina Ancco",
-            "cargo": "Consultora de Vendas",
-            "telefono": "+51 987 370",
-            "whatsapp": "51987370202",
-            "foto": "/images/equipo/carmen.jpg"
-        }
-    ]
+  "asesores": [
+    {
+      "nombre": "Consultor 1",
+      "cargo": "Consultor de Vendas",
+      "telefono": "+51 997 379 201",
+      "whatsapp": "51997379201",
+      "foto": "/images/equipo/foto.png"
+    },
+    {
+      "nombre": "Consultor 2",
+      "cargo": "Consultor de Vendas",
+      "telefono": "+51 947 831 392",
+      "whatsapp": "51947831392",
+      "foto": "/images/equipo/foto.png"
+    }
+  ]
 }

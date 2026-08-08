@@ -78,36 +78,24 @@
         "description": "Comprometido com a sua experiência perfeita. Cada consultor é verificado e disponível no WhatsApp.",
         "asesores": [
             {
-                "nombre": "Carmem",
-                "cargo": "Conselheiro de viagens",
-                "foto": "/images/nosotros/carmen.jpg",
-                "whatsapp": "51987370201"
+                "nombre": "Consultor 1",
+                "cargo": "Consultor de Viagens",
+                "foto": "/images/nosotros/foto.png",
+                "whatsapp": "51997379201"
             },
             {
-                "nombre": "Carmem",
-                "cargo": "Conselheiro de viagens",
-                "foto": "/images/nosotros/carmen.jpg",
-                "whatsapp": "51987370202"
+                "nombre": "Euler",
+                "cargo": "Gerente",
+                "foto": "/images/nosotros/foto.png",
+                "whatsapp": "51984210921"
             },
             {
-                "nombre": "Carmem",
-                "cargo": "Conselheiro de viagens",
-                "foto": "/images/nosotros/carmen.jpg",
-                "whatsapp": "51987370203"
-            },
-            {
-                "nombre": "Carmem",
-                "cargo": "Conselheiro de viagens",
-                "foto": "/images/nosotros/carmen.jpg",
-                "whatsapp": "51987370204"
-            },
-            {
-                "nombre": "Carmem",
-                "cargo": "Conselheiro de viagens",
-                "foto": "/images/nosotros/carmen.jpg",
-                "whatsapp": "51987370205"
+                "nombre": "Consultor 2",
+                "cargo": "Consultor de Viagens",
+                "foto": "/images/nosotros/foto.png",
+                "whatsapp": "51947831392"
             }
-        ]
+            ]
     },
     "ventajas": {
         "kicker": "Nossas vantagens",

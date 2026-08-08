@@ -176,17 +176,27 @@ $footer = file_exists($footer_json) ? json_decode(file_get_contents($footer_json
                     <span class="text-orange-custom"><?= $nosotros['equipo']['title_secondary'] ?></span>
                 </h2>
                 <p class="text-gray-500 font-poppins text-sm md:text-base mb-10 max-w-xl mx-auto"><?= $nosotros['equipo']['description'] ?></p>
-
-                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-6 justify-center max-w-3xl mx-auto">
                     <?php foreach ($nosotros['equipo']['asesores'] as $a): ?>
                         <div class="flex flex-col items-center">
-                            <img src="<?= $base_url . $a['foto'] ?>" alt="<?= htmlspecialchars($a['nombre']) ?>"
-                                 class="w-24 h-24 rounded-full object-cover mb-3 shadow-md">
-                            <p class="font-bold font-poppins text-gray-900 text-sm"><?= htmlspecialchars($a['nombre']) ?></p>
-                            <p class="text-orange-custom text-[0.65rem] font-bold font-poppins uppercase tracking-wide mb-2"><?= htmlspecialchars($a['cargo']) ?></p>
-                            <a href="https://wa.me/<?= $a['whatsapp'] ?>" target="_blank" rel="noopener"
-                               class="inline-flex items-center gap-1.5 bg-[#25D366] hover:bg-[#1ebe5a] text-white text-xs font-bold font-poppins px-4 py-1.5 rounded-full transition">
-                                <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                            <img src="<?= $base_url . $a['foto'] ?>" 
+                                alt="<?= htmlspecialchars($a['nombre']) ?>"
+                                class="w-24 h-24 rounded-full object-cover mb-3 shadow-md">
+
+                            <p class="font-bold font-poppins text-gray-900 text-sm">
+                                <?= htmlspecialchars($a['nombre']) ?>
+                            </p>
+
+                            <p class="text-orange-custom text-[0.65rem] font-bold font-poppins uppercase tracking-wide mb-2">
+                                <?= htmlspecialchars($a['cargo']) ?>
+                            </p>
+
+                            <a href="https://wa.me/<?= $a['whatsapp'] ?>" 
+                            target="_blank" 
+                            rel="noopener"
+                            class="inline-flex items-center gap-1.5 bg-[#25D366] hover:bg-[#1ebe5a] text-white text-xs font-bold font-poppins px-4 py-1.5 rounded-full transition">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                WhatsApp
                             </a>
                         </div>
                     <?php endforeach; ?>

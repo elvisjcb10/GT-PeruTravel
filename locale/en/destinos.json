@@ -19,8 +19,8 @@
         "nombre": "Arequipa",
         "descripcion": "White city, the city of volcanoes"
     },
-    "manu": {
-        "img": "/images/destinos/manu/manu.webp",
+    "manu_tambopata": {
+        "img": "/images/destinos/manu_tambopata/manu_tambopata.webp",
         "nombre": "Manu Tambopata",
         "descripcion": "Biosphere reserve, Amazon rainforest"
     },

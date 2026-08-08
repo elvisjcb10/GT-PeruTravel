@@ -45,11 +45,9 @@
         "title_secondary": "Apasionados",
         "description": "Comprometidos con tu experiencia perfecta. Cada asesor está verificado y disponible por WhatsApp.",
         "asesores": [
-            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/nosotros/carmen.jpg", "whatsapp": "51987370201" },
-            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/nosotros/carmen.jpg", "whatsapp": "51987370202" },
-            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/nosotros/carmen.jpg", "whatsapp": "51987370203" },
-            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/nosotros/carmen.jpg", "whatsapp": "51987370204" },
-            { "nombre": "Carmen", "cargo": "Asesor de Viajes", "foto": "/images/nosotros/carmen.jpg", "whatsapp": "51987370205" }
+            { "nombre": "Asesor 1", "cargo": "Asesor de Viajes", "foto": "/images/nosotros/foto.png", "whatsapp": "51997379201" },
+            { "nombre": "Euler", "cargo": "Gerente", "foto": "/images/nosotros/foto.png", "whatsapp": "51984210921" },
+            { "nombre": "Asesor 2", "cargo": "Asesor de Viajes", "foto": "/images/nosotros/foto.png", "whatsapp": "51947831392" }
         ]
     },
 
